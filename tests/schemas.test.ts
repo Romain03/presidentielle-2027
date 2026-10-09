@@ -94,6 +94,7 @@ describe('Candidat', () => {
     nom: 'Nom',
     prenom: 'Prénom',
     parti_id: 'un-parti',
+    photo: null,
     statut: 'declare' as const,
     statut_date: '2026-07-07',
     statut_source: sourceValide,
@@ -122,6 +123,48 @@ describe('Candidat', () => {
 
   it('refuse un identifiant qui n’est pas un slug', () => {
     expect(Candidat.safeParse({ ...candidatValide, id: 'Prénom Nom' }).success).toBe(false);
+  });
+
+  it('accepte un portrait sourcé', () => {
+    const resultat = Candidat.safeParse({
+      ...candidatValide,
+      photo: {
+        fichier: 'prenom-nom.webp',
+        auteur: 'Une photographe',
+        licence: 'CC BY-SA 4.0',
+        licence_url: 'https://creativecommons.org/licenses/by-sa/4.0',
+        source_url: 'https://commons.wikimedia.org/wiki/File:Exemple.jpg',
+        description: 'Portrait de Prénom Nom',
+      },
+    });
+    expect(resultat.success).toBe(true);
+  });
+
+  it('refuse un portrait sans auteur ni licence : l’attribution est obligatoire', () => {
+    const resultat = Candidat.safeParse({
+      ...candidatValide,
+      photo: {
+        fichier: 'prenom-nom.webp',
+        source_url: 'https://commons.wikimedia.org/wiki/File:Exemple.jpg',
+        description: 'Portrait de Prénom Nom',
+      },
+    });
+    expect(resultat.success).toBe(false);
+  });
+
+  it('refuse un fichier de portrait qui n’est pas un .webp nommé en slug', () => {
+    const base = {
+      auteur: 'Une photographe',
+      licence: 'CC0',
+      licence_url: null,
+      source_url: 'https://commons.wikimedia.org/wiki/File:Exemple.jpg',
+      description: 'Portrait de Prénom Nom',
+    };
+    for (const fichier of ['Prénom Nom.jpg', '../secret.webp', 'photo.png']) {
+      expect(Candidat.safeParse({ ...candidatValide, photo: { ...base, fichier } }).success).toBe(
+        false,
+      );
+    }
   });
 
   it('refuse une précision non sourcée', () => {

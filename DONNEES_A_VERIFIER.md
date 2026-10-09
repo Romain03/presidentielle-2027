@@ -194,6 +194,27 @@ documenté : Asselineau, Batho, Becht, Bertrand, Bouamrane, Cazeneuve, Durif,
 Kazib, Labib, Lalanne, Markovic, Mathieu, Mlekuz, Philippot, ainsi que tous les
 pressentis sauf Hollande, et les trois candidatures retirées.
 
+### Portraits
+40 candidats sur 44 ont un portrait libre, repris de Wikimedia Commons avec son
+auteur et sa licence. Quatre n'en ont aucun, faute d'image sur leur article
+Wikipédia, et gardent un monogramme : **Selma Labib, Mira Markovic, Benoît
+Mathieu, Manolo Mlekuz**.
+
+Trois points à garder en tête :
+
+- **Le choix est mécanique** : on prend l'image principale de l'article
+  Wikipédia en français, sans la regarder. C'est délibéré - choisir
+  soi-même reviendrait à décider quelle photographie avantage ou dessert qui.
+- **La qualité est donc inégale.** Plusieurs portraits sont des prises de vue
+  en tribune, micro à la bouche ou de profil ; celui de Sylvain Durif le montre
+  en train de jouer d'une flûte. C'est ce que Commons propose.
+- **Le recadrage est automatique** : carré pris au ras du haut de l'image. Le
+  résultat est correct dans l'ensemble, quelques cadrages restent perfectibles.
+
+Si l'image principale d'un article change, le portrait change au prochain
+`python3 scripts/recuperer-photos.py`. Les licences sont relevées à chaque
+exécution, donc une requalification serait détectée.
+
 ### Champs non renseignés
 - `soutiens` est renseigné pour **11 candidats sur 44** (121 noms). Les 33 autres
   n'en ont aucun : soit aucun soutien n'est documenté, soit il n'a pas été relevé.

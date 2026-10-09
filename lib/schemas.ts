@@ -147,6 +147,26 @@ export const LIBELLES_STATUT: Record<Statut, string> = {
   retire: 'Retiré',
 };
 
+/**
+ * Portrait du candidat. Uniquement des images librement réutilisables, avec
+ * leur auteur et leur licence : la même exigence que pour les propositions,
+ * rien n'est publié sans sa source. Un candidat sans portrait libre garde son
+ * monogramme.
+ */
+export const Photo = z
+  .object({
+    fichier: z.string().regex(/^[a-z0-9-]+\.webp$/, 'Nom de fichier attendu : identifiant.webp'),
+    auteur: z.string().min(1),
+    licence: z.string().min(2),
+    licence_url: z.string().url().nullable(),
+    /** Page du fichier sur Wikimedia Commons. */
+    source_url: z.string().url(),
+    description: z.string().min(5),
+  })
+  .strict();
+
+export type Photo = z.infer<typeof Photo>;
+
 export const Candidat = z
   .object({
     id: Slug,
@@ -154,6 +174,7 @@ export const Candidat = z
     prenom: z.string().min(1),
     /** null = sans étiquette ou parti non constitué. */
     parti_id: Slug.nullable(),
+    photo: Photo.nullable(),
     statut: Statut,
     /** null quand la date n'a pas pu être vérifiée : l'écran l'indique. */
     statut_date: DateISO.nullable(),

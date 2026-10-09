@@ -14,7 +14,7 @@ export default function EnTete() {
     <header className="zone-sure-haut sticky top-0 z-40 border-b border-stone-900/8 bg-creme/85 backdrop-blur-md dark:border-nuit-bord dark:bg-nuit/85">
       <div className="zone-sure-cotes mx-auto w-full max-w-6xl px-4 sm:px-6">
         <div className="flex items-center justify-between gap-4 pb-1 pt-3 sm:pb-3">
-          <Link href="/" className="font-serif text-lg font-semibold tracking-tight">
+          <Link href="/" className="whitespace-nowrap font-serif text-lg font-semibold tracking-tight">
             Présidentielle 2027
           </Link>
 

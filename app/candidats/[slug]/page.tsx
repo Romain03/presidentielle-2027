@@ -7,10 +7,12 @@ import BadgeStatut from '@/components/BadgeStatut';
 import BlocProposition from '@/components/BlocProposition';
 import DerniereMiseAJour from '@/components/DerniereMiseAJour';
 import LienSource from '@/components/LienSource';
+import CreditPhoto from '@/components/CreditPhoto';
 import PastilleParti from '@/components/PastilleParti';
+import PortraitCandidat from '@/components/PortraitCandidat';
 import PositionNonCommuniquee from '@/components/PositionNonCommuniquee';
 import { candidats, getCandidat, getParti, propositionsDuCandidat, themes } from '@/lib/data';
-import { formaterDate, initiales, nomComplet } from '@/lib/format';
+import { formaterDate, nomComplet } from '@/lib/format';
 
 export function generateStaticParams() {
   return candidats.map((c) => ({ slug: c.id }));
@@ -49,13 +51,12 @@ export default async function PageCandidat({ params }: { params: Promise<{ slug:
         </div>
         <DerniereMiseAJour date={candidat.derniere_verification} />
 
-        <div className="flex items-start gap-4">
+        <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:gap-6">
           <span
-            aria-hidden="true"
-            className="grid size-14 shrink-0 place-items-center rounded-full bg-stone-100 text-sm font-semibold tracking-wide text-stone-600 dark:bg-stone-800 dark:text-stone-300"
+            className="block w-fit shrink-0 rounded-full p-1"
             style={parti ? { boxShadow: `inset 0 0 0 3px ${parti.couleur}` } : undefined}
           >
-            {initiales(candidat)}
+            <PortraitCandidat candidat={candidat} taille={112} prioritaire />
           </span>
           <div className="min-w-0 space-y-2">
             <h1 className="text-2xl font-semibold tracking-tight sm:text-3xl">
@@ -73,6 +74,8 @@ export default async function PageCandidat({ params }: { params: Promise<{ slug:
             {candidat.statut_source !== null && <LienSource source={candidat.statut_source} />}
           </div>
         </div>
+
+        {candidat.photo !== null && <CreditPhoto photo={candidat.photo} />}
 
         {candidat.liens_officiels.length > 0 && (
           <nav aria-label="Liens officiels">

@@ -1,7 +1,8 @@
 import Link from 'next/link';
 import BadgeStatut from './BadgeStatut';
+import PortraitCandidat from './PortraitCandidat';
 import { LIBELLES_FAMILLE } from '@/lib/schemas';
-import { initiales, nomListe, pluriel } from '@/lib/format';
+import { nomListe, pluriel } from '@/lib/format';
 import type { CandidatResume } from '@/lib/vues';
 
 export default function CandidatCarte({ candidat }: { candidat: CandidatResume }) {
@@ -21,12 +22,7 @@ export default function CandidatCarte({ candidat }: { candidat: CandidatResume }
         />
 
         <div className="flex items-start gap-3.5">
-          <span
-            aria-hidden="true"
-            className="grid size-11 shrink-0 place-items-center rounded-full bg-creme-ombre text-xs font-semibold tracking-wide text-stone-600 dark:bg-nuit dark:text-stone-300"
-          >
-            {initiales(candidat)}
-          </span>
+          <PortraitCandidat candidat={candidat} taille={48} />
           <span className="min-w-0">
             <span className="block font-serif text-lg font-semibold leading-tight">
               {nomListe(candidat)}

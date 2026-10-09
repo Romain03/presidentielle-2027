@@ -1,5 +1,5 @@
 import { candidats, getParti, nombrePropositions } from './data';
-import type { Famille, Statut } from './schemas';
+import type { Famille, Photo, Statut } from './schemas';
 
 /**
  * Projections sérialisables passées aux composants client (filtres,
@@ -18,6 +18,7 @@ export interface CandidatResume {
   id: string;
   nom: string;
   prenom: string;
+  photo: Photo | null;
   statut: Statut;
   parti: PartiResume | null;
   nombrePropositions: number;
@@ -31,6 +32,7 @@ export function resumeDuCandidat(id: string): CandidatResume | undefined {
     id: candidat.id,
     nom: candidat.nom,
     prenom: candidat.prenom,
+    photo: candidat.photo,
     statut: candidat.statut,
     parti: parti
       ? {

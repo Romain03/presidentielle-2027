@@ -261,5 +261,8 @@ expose ces règles, la correspondance entre nuances officielles et familles
 politiques, et les limites connues.
 
 Les couleurs de parti sont un repère : une forme et un libellé portent toujours
-la même information. Aucune photographie de candidat n'est utilisée, les
-portraits de presse étant soumis à droits.
+la même information. Les portraits viennent de Wikimedia Commons, librement
+réutilisables, avec leur auteur et leur licence affichés ; ils sont choisis
+mécaniquement - l'image principale de l'article Wikipédia - pour ne pas décider
+quelle photographie avantage qui. `python3 scripts/recuperer-photos.py` les
+régénère.

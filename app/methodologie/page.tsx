@@ -3,7 +3,7 @@ import Link from 'next/link';
 import DerniereMiseAJour from '@/components/DerniereMiseAJour';
 import BadgeNature from '@/components/BadgeNature';
 import BadgeStatut from '@/components/BadgeStatut';
-import { derniereMiseAJour, statistiques } from '@/lib/data';
+import { candidats, derniereMiseAJour, statistiques } from '@/lib/data';
 import { LIBELLES_FAMILLE, STATUTS } from '@/lib/schemas';
 
 export const metadata: Metadata = {
@@ -215,13 +215,48 @@ export default function PageMethodologie() {
             information, pour rester lisible sans distinguer les couleurs.
           </li>
           <li>
-            Aucune photographie de candidat : les portraits de presse sont soumis à droits. Un
-            monogramme tient lieu de repère visuel.
+            Les portraits proviennent de Wikimedia Commons et sont librement réutilisables. Leur
+            choix est mécanique - c’est l’image principale de l’article Wikipédia en français -
+            pour ne pas décider quelle photographie avantage ou dessert qui.
           </li>
           <li>
             Les couleurs attribuées aux partis suivent les conventions habituelles de la presse ;
             elles n’ont aucun caractère officiel.
           </li>
+        </ul>
+      </section>
+
+      <section aria-labelledby="photos" className="max-w-3xl space-y-3">
+        <h2 id="photos" className="text-lg font-semibold">
+          Crédits photographiques
+        </h2>
+        <p className="max-w-2xl text-sm leading-relaxed text-stone-700 dark:text-stone-300">
+          Les portraits viennent de Wikimedia Commons, qui n’héberge que des fichiers librement
+          réutilisables. Chacun est repris avec son auteur et sa licence, comme toute autre
+          source du site. Les {statistiques.candidats - candidats.filter((c) => c.photo !== null).length}{' '}
+          candidats pour lesquels aucune image libre n’existe conservent un monogramme.
+        </p>
+        <ul className="grid gap-x-6 gap-y-1.5 text-xs text-stone-600 sm:grid-cols-2 dark:text-stone-400">
+          {candidats
+            .filter((candidat) => candidat.photo !== null)
+            .map((candidat) => (
+              <li key={candidat.id}>
+                <span className="text-stone-900 dark:text-stone-100">
+                  {candidat.prenom} {candidat.nom}
+                </span>{' '}
+                : {candidat.photo!.auteur}, {candidat.photo!.licence} ·{' '}
+                <a
+                  href={candidat.photo!.source_url}
+                  target="_blank"
+                  rel="noopener noreferrer nofollow"
+                  className="lien"
+                >
+                  fichier
+                  <span aria-hidden="true"> ↗</span>
+                  <span className="sr-only"> (nouvelle fenêtre)</span>
+                </a>
+              </li>
+            ))}
         </ul>
       </section>
 

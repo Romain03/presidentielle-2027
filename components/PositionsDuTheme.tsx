@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import { useState } from 'react';
 import BadgeNature from './BadgeNature';
+import PortraitCandidat from './PortraitCandidat';
 import LienSource from './LienSource';
 import { formaterIndicateur } from '@/lib/comparateur';
 import { formaterDateCourte, nomComplet, pluriel } from '@/lib/format';
@@ -63,9 +64,11 @@ export default function PositionsDuTheme({ lignes }: { lignes: LigneTheme[] }) {
               >
                 <th scope="row" className="p-3 align-top font-normal">
                   <span
-                    className="block border-l-[3px] pl-2"
+                    className="flex items-center gap-2.5 border-l-[3px] pl-2"
                     style={{ borderLeftColor: candidat.parti?.couleur ?? 'transparent' }}
                   >
+                    <PortraitCandidat candidat={candidat} taille={32} />
+                    <span className="min-w-0">
                     <Link
                       href={`/candidats/${candidat.id}/`}
                       className="font-medium underline-offset-2 hover:underline"
@@ -74,6 +77,7 @@ export default function PositionsDuTheme({ lignes }: { lignes: LigneTheme[] }) {
                     </Link>
                     <span className="block text-xs text-stone-600 dark:text-stone-400">
                       {candidat.parti ? candidat.parti.sigle : 'Sans étiquette'}
+                    </span>
                     </span>
                   </span>
                 </th>

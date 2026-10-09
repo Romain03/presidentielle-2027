@@ -27,7 +27,15 @@
     "soutiens": [],
     "precisions": [],
     "liens_officiels": [],
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "photo": {
+      "fichier": "nathalie-arthaud.webp",
+      "auteur": "Kokluts",
+      "licence": "CC BY-SA 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nathalie_Arthaud_(LO)_19-05-2024.jpg",
+      "description": "Portrait de Nathalie Arthaud"
+    }
   },
   {
     "id": "francois-asselineau",
@@ -57,7 +65,15 @@
     "soutiens": [],
     "precisions": [],
     "liens_officiels": [],
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "photo": {
+      "fichier": "francois-asselineau.webp",
+      "auteur": "Union Populaire Républicaine",
+      "licence": "CC BY-SA 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Fran%C3%A7ois_ASSELINEAU.jpg",
+      "description": "Portrait de François Asselineau"
+    }
   },
   {
     "id": "gabriel-attal",
@@ -87,7 +103,15 @@
     "soutiens": [],
     "precisions": [],
     "liens_officiels": [],
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "photo": {
+      "fichier": "gabriel-attal.webp",
+      "auteur": "Ismail Aissoub",
+      "licence": "CC BY 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Gabriel_Attal_2025_(close_crop).jpg",
+      "description": "Portrait de Gabriel Attal"
+    }
   },
   {
     "id": "francois-baroin",
@@ -117,7 +141,15 @@
     "soutiens": [],
     "precisions": [],
     "liens_officiels": [],
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "photo": {
+      "fichier": "francois-baroin.webp",
+      "auteur": "Jacques Paquier",
+      "licence": "CC BY 2.0",
+      "licence_url": "https://creativecommons.org/licenses/by/2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Fran%C3%A7ois_Baroin_(50277562053)_(cropped).jpg",
+      "description": "Portrait de François Baroin"
+    }
   },
   {
     "id": "jean-noel-barrot",
@@ -147,7 +179,15 @@
     "soutiens": [],
     "precisions": [],
     "liens_officiels": [],
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "photo": {
+      "fichier": "jean-noel-barrot.webp",
+      "auteur": "Tomohiro Ohsumi / European Union, 2023 / EC - Audiovisual Service",
+      "licence": "CC BY 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Jean-No%C3%ABl_Barrot_2023_cropped.jpg",
+      "description": "Portrait de Jean-Noël Barrot"
+    }
   },
   {
     "id": "delphine-batho",
@@ -177,7 +217,15 @@
     "soutiens": [],
     "precisions": [],
     "liens_officiels": [],
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "photo": {
+      "fichier": "delphine-batho.webp",
+      "auteur": "DeuxSevres79",
+      "licence": "CC BY-SA 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Delphine_Batho_(cropped-2).png",
+      "description": "Portrait de Delphine Batho"
+    }
   },
   {
     "id": "olivier-becht",
@@ -207,7 +255,15 @@
     "soutiens": [],
     "precisions": [],
     "liens_officiels": [],
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "photo": {
+      "fichier": "olivier-becht.webp",
+      "auteur": "Dominique Giannelli",
+      "licence": "CC BY 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Olivier_Becht_en_2026_(cropped).png",
+      "description": "Portrait de Olivier Becht"
+    }
   },
   {
     "id": "aurore-berge",
@@ -237,7 +293,15 @@
     "soutiens": [],
     "precisions": [],
     "liens_officiels": [],
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "photo": {
+      "fichier": "aurore-berge.webp",
+      "auteur": "HUGUES DE BEAUCHESNE",
+      "licence": "CC BY-SA 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:AURORE_BERG%C3%89_04_(cropped).jpg",
+      "description": "Portrait de Aurore Bergé"
+    }
   },
   {
     "id": "xavier-bertrand",
@@ -277,7 +341,15 @@
       }
     ],
     "liens_officiels": [],
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "photo": {
+      "fichier": "xavier-bertrand.webp",
+      "auteur": "Claudio Centonze / European Union, 2025 / EC - Audiovisual Service",
+      "licence": "CC BY 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Xavier_Bertrand_-_2025_(cropped).jpg",
+      "description": "Portrait de Xavier Bertrand"
+    }
   },
   {
     "id": "karim-bouamrane",
@@ -307,7 +379,15 @@
     "soutiens": [],
     "precisions": [],
     "liens_officiels": [],
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "photo": {
+      "fichier": "karim-bouamrane.webp",
+      "auteur": "Oumma",
+      "licence": "CC BY 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Karim_Bouamrane_en_2026_(cropped).jpg",
+      "description": "Portrait de Karim Bouamrane"
+    }
   },
   {
     "id": "bernard-cazeneuve",
@@ -347,7 +427,15 @@
       }
     ],
     "liens_officiels": [],
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "photo": {
+      "fichier": "bernard-cazeneuve.webp",
+      "auteur": "Jérémy Barande",
+      "licence": "CC BY-SA 2.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Bernard_Cazeneuve,_(42399145362)_(cropped).jpg",
+      "description": "Portrait de Bernard Cazeneuve"
+    }
   },
   {
     "id": "nicolas-dupont-aignan",
@@ -377,7 +465,15 @@
     "soutiens": [],
     "precisions": [],
     "liens_officiels": [],
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "photo": {
+      "fichier": "nicolas-dupont-aignan.webp",
+      "auteur": "Debout la France",
+      "licence": "CC BY-SA 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nicolas_Dupont-Aignan,_homme_politique_fran%C3%A7ais.jpg",
+      "description": "Portrait de Nicolas Dupont-Aignan"
+    }
   },
   {
     "id": "sylvain-durif",
@@ -407,7 +503,15 @@
     "soutiens": [],
     "precisions": [],
     "liens_officiels": [],
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "photo": {
+      "fichier": "sylvain-durif.webp",
+      "auteur": "ThimGui",
+      "licence": "CC0",
+      "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sylvain_Durif.jpg",
+      "description": "Portrait de Sylvain Durif"
+    }
   },
   {
     "id": "olivier-faure",
@@ -934,7 +1038,15 @@
       }
     ],
     "liens_officiels": [],
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "photo": {
+      "fichier": "olivier-faure.webp",
+      "auteur": "KimiRaikkonen3",
+      "licence": "Public domain",
+      "licence_url": null,
+      "source_url": "https://commons.wikimedia.org/wiki/File:OF_MATIGNON_-_MAXIME_CLAM_(cropped).png",
+      "description": "Portrait de Olivier Faure"
+    }
   },
   {
     "id": "raphael-glucksmann",
@@ -1398,7 +1510,15 @@
       }
     ],
     "liens_officiels": [],
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "photo": {
+      "fichier": "raphael-glucksmann.webp",
+      "auteur": "European Union 2024 - Source : EP",
+      "licence": "European Parliament",
+      "licence_url": "https://www.europarl.europa.eu/legal-notice/",
+      "source_url": "https://commons.wikimedia.org/wiki/File:1720448398743_20240708_GLUCKSMANN_Raphael_FR_006.jpg",
+      "description": "Portrait de Raphaël Glucksmann"
+    }
   },
   {
     "id": "jerome-guedj",
@@ -1438,7 +1558,15 @@
       }
     ],
     "liens_officiels": [],
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "photo": {
+      "fichier": "jerome-guedj.webp",
+      "auteur": "Audrey AK",
+      "licence": "CC BY-SA 2.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:J%C3%A9r%C3%B4me_Guedj_2010.jpg",
+      "description": "Portrait de Jérôme Guedj"
+    }
   },
   {
     "id": "francois-hollande",
@@ -1468,7 +1596,15 @@
     "soutiens": [],
     "precisions": [],
     "liens_officiels": [],
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "photo": {
+      "fichier": "francois-hollande.webp",
+      "auteur": "Christophe Licoppe / European Union, 2024 / EC - Audiovisual Service",
+      "licence": "CC BY 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Fran%C3%A7ois_Hollande_-_Ceremony_of_Honour_for_Jacques_Delors_-_2024.jpg",
+      "description": "Portrait de François Hollande"
+    }
   },
   {
     "id": "anasse-kazib",
@@ -1498,7 +1634,15 @@
     "soutiens": [],
     "precisions": [],
     "liens_officiels": [],
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "photo": {
+      "fichier": "anasse-kazib.webp",
+      "auteur": "PabloMorao27",
+      "licence": "CC BY-SA 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Anasse_Kazib,_d%C3%A9cembre_2021.jpg",
+      "description": "Portrait de Anasse Kazib"
+    }
   },
   {
     "id": "selma-labib",
@@ -1528,7 +1672,8 @@
     "soutiens": [],
     "precisions": [],
     "liens_officiels": [],
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "photo": null
   },
   {
     "id": "francis-lalanne",
@@ -1558,7 +1703,15 @@
     "soutiens": [],
     "precisions": [],
     "liens_officiels": [],
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "photo": {
+      "fichier": "francis-lalanne.webp",
+      "auteur": "Thomas Bresson",
+      "licence": "CC BY 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Lalanne_2021_(cropped).jpg",
+      "description": "Portrait de Francis Lalanne"
+    }
   },
   {
     "id": "jean-lassalle",
@@ -1588,7 +1741,15 @@
     "soutiens": [],
     "precisions": [],
     "liens_officiels": [],
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "photo": {
+      "fichier": "jean-lassalle.webp",
+      "auteur": "Antoine Lamielle",
+      "licence": "CC BY-SA 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Jean_Lassalle.jpg",
+      "description": "Portrait de Jean Lassalle"
+    }
   },
   {
     "id": "bruno-le-maire",
@@ -1618,7 +1779,15 @@
     "soutiens": [],
     "precisions": [],
     "liens_officiels": [],
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "photo": {
+      "fichier": "bruno-le-maire.webp",
+      "auteur": "Belgian Presidency of the Council of the EU 2024 from Belgium",
+      "licence": "CC BY 2.0",
+      "licence_url": "https://creativecommons.org/licenses/by/2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:EU2024BE_240223_Informal_meeting_of_economic_and_financial_affairs_ministers_Gent_JNZT_0040_(53545889372).jpg",
+      "description": "Portrait de Bruno Le Maire"
+    }
   },
   {
     "id": "marine-le-pen",
@@ -1700,7 +1869,15 @@
         "url": "https://rassemblementnational.fr"
       }
     ],
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "photo": {
+      "fichier": "marine-le-pen.webp",
+      "auteur": "Vox España",
+      "licence": "CC0",
+      "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Marine_Le_Pen_2025_(cropped).jpg",
+      "description": "Portrait de Marine Le Pen"
+    }
   },
   {
     "id": "david-lisnard",
@@ -1740,7 +1917,15 @@
       }
     ],
     "liens_officiels": [],
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "photo": {
+      "fichier": "david-lisnard.webp",
+      "auteur": "Frantogian",
+      "licence": "CC BY-SA 3.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:David_Lisnard_-_2013.jpg",
+      "description": "Portrait de David Lisnard"
+    }
   },
   {
     "id": "mira-markovic",
@@ -1770,7 +1955,8 @@
     "soutiens": [],
     "precisions": [],
     "liens_officiels": [],
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "photo": null
   },
   {
     "id": "benoit-mathieu",
@@ -1800,7 +1986,8 @@
     "soutiens": [],
     "precisions": [],
     "liens_officiels": [],
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "photo": null
   },
   {
     "id": "emmanuel-maurel",
@@ -1850,7 +2037,15 @@
       }
     ],
     "liens_officiels": [],
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "photo": {
+      "fichier": "emmanuel-maurel.webp",
+      "auteur": "Echwander",
+      "licence": "CC BY-SA 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Emmanuel_Maurel_en_2016.jpg",
+      "description": "Portrait de Emmanuel Maurel"
+    }
   },
   {
     "id": "jean-luc-melenchon",
@@ -1909,7 +2104,15 @@
         "url": "https://melenchon2027.fr/programme/decouvrir/"
       }
     ],
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "photo": {
+      "fichier": "jean-luc-melenchon.webp",
+      "auteur": "jlm2017.fr",
+      "licence": "CC BY 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Jean_Luc_M%C3%A9lenchon_en_mai_2026-_55261894422_(cropped).jpg",
+      "description": "Portrait de Jean-Luc Mélenchon"
+    }
   },
   {
     "id": "manolo-mlekuz",
@@ -1949,7 +2152,8 @@
       }
     ],
     "liens_officiels": [],
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "photo": null
   },
   {
     "id": "edouard-philippe",
@@ -1998,7 +2202,15 @@
     ],
     "precisions": [],
     "liens_officiels": [],
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "photo": {
+      "fichier": "edouard-philippe.webp",
+      "auteur": "Wasasaq8",
+      "licence": "CC0",
+      "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Edouard_Philippe_3x4_crop.jpg",
+      "description": "Portrait de Édouard Philippe"
+    }
   },
   {
     "id": "florian-philippot",
@@ -2038,7 +2250,15 @@
       }
     ],
     "liens_officiels": [],
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "photo": {
+      "fichier": "florian-philippot.webp",
+      "auteur": "Thomas Bresson",
+      "licence": "CC BY 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:2022-04-16_16-49-26_MAM-Paris_02.jpg",
+      "description": "Portrait de Florian Philippot"
+    }
   },
   {
     "id": "bruno-retailleau",
@@ -2121,7 +2341,15 @@
         "url": "https://republicains.fr"
       }
     ],
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "photo": {
+      "fichier": "bruno-retailleau.webp",
+      "auteur": "Anthonymontardyfr",
+      "licence": "CC BY 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Bruno_Retailleau_-_Ministre_de_l%27Int%C3%A9rieur_fran%C3%A7ais_(cropped).jpg",
+      "description": "Portrait de Bruno Retailleau"
+    }
   },
   {
     "id": "sandrine-rousseau",
@@ -2151,7 +2379,15 @@
     "soutiens": [],
     "precisions": [],
     "liens_officiels": [],
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "photo": {
+      "fichier": "sandrine-rousseau.webp",
+      "auteur": "Greenbox",
+      "licence": "CC BY-SA 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sandrine_Rousseau_20210819_(cropped).jpg",
+      "description": "Portrait de Sandrine Rousseau"
+    }
   },
   {
     "id": "fabien-roussel",
@@ -2181,7 +2417,15 @@
     "soutiens": [],
     "precisions": [],
     "liens_officiels": [],
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "photo": {
+      "fichier": "fabien-roussel.webp",
+      "auteur": "Zouhair NAKARA",
+      "licence": "CC BY-SA 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Roussel_Fabien_1.jpg",
+      "description": "Portrait de Fabien Roussel"
+    }
   },
   {
     "id": "segolene-royal",
@@ -2240,7 +2484,15 @@
       }
     ],
     "liens_officiels": [],
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "photo": {
+      "fichier": "segolene-royal.webp",
+      "auteur": "Jackolan1",
+      "licence": "CC BY-SA 3.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Royal_Toulouse_2012.JPG",
+      "description": "Portrait de Ségolène Royal"
+    }
   },
   {
     "id": "francois-ruffin",
@@ -2335,7 +2587,15 @@
       }
     ],
     "liens_officiels": [],
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "photo": {
+      "fichier": "francois-ruffin.webp",
+      "auteur": "Thinkerview",
+      "licence": "CC BY-SA 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Fran%C3%A7ois_Ruffin_(cropped).jpg",
+      "description": "Portrait de François Ruffin"
+    }
   },
   {
     "id": "marine-tondelier",
@@ -2385,7 +2645,15 @@
       }
     ],
     "liens_officiels": [],
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "photo": {
+      "fichier": "marine-tondelier.webp",
+      "auteur": "Greenbox",
+      "licence": "CC BY-SA 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:20210819_tondelier.m-cr3.jpg",
+      "description": "Portrait de Marine Tondelier"
+    }
   },
   {
     "id": "manuel-valls",
@@ -2415,7 +2683,15 @@
     "soutiens": [],
     "precisions": [],
     "liens_officiels": [],
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "photo": {
+      "fichier": "manuel-valls.webp",
+      "auteur": "Nicolas Kovarik / European Union, 2025 / EC - Audiovisual Service",
+      "licence": "CC BY 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Manuel_Valls_2025_(cropped).jpg",
+      "description": "Portrait de Manuel Valls"
+    }
   },
   {
     "id": "dominique-de-villepin",
@@ -2455,7 +2731,15 @@
       }
     ],
     "liens_officiels": [],
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "photo": {
+      "fichier": "dominique-de-villepin.webp",
+      "auteur": "Georges Seguin (Okki)",
+      "licence": "CC BY-SA 3.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Dominique_de_Villepin_20100330_Salon_du_livre_de_Paris_2_cropped.jpg",
+      "description": "Portrait de Dominique de Villepin"
+    }
   },
   {
     "id": "philippe-de-villiers",
@@ -2485,7 +2769,15 @@
     "soutiens": [],
     "precisions": [],
     "liens_officiels": [],
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "photo": {
+      "fichier": "philippe-de-villiers.webp",
+      "auteur": "European Parliament Multimedia Centre",
+      "licence": "European Parliament",
+      "licence_url": "https://www.europarl.europa.eu/legal-notice/",
+      "source_url": "https://commons.wikimedia.org/wiki/File:DE_VILLIERS_Philippe_MEP.jpg",
+      "description": "Portrait de Philippe de Villiers"
+    }
   },
   {
     "id": "eric-zemmour",
@@ -2525,7 +2817,15 @@
     ],
     "precisions": [],
     "liens_officiels": [],
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "photo": {
+      "fichier": "eric-zemmour.webp",
+      "auteur": "Anh De France",
+      "licence": "CC0",
+      "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Portrait_d%27%C3%89ric_Zemmour,_avril_2022.jpg",
+      "description": "Portrait de Éric Zemmour"
+    }
   },
   {
     "id": "clementine-autain",
@@ -2565,7 +2865,15 @@
       }
     ],
     "liens_officiels": [],
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "photo": {
+      "fichier": "clementine-autain.webp",
+      "auteur": "Greenbox",
+      "licence": "CC BY-SA 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:20210821_autin.c_6679_(cropped).jpg",
+      "description": "Portrait de Clémentine Autain"
+    }
   },
   {
     "id": "benjamin-lucas-lundy",
@@ -2605,7 +2913,15 @@
       }
     ],
     "liens_officiels": [],
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "photo": {
+      "fichier": "benjamin-lucas-lundy.webp",
+      "auteur": "Greenbox",
+      "licence": "CC BY-SA 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:20210819_lucas.benjamin_5936.jpg",
+      "description": "Portrait de Benjamin Lucas-Lundy"
+    }
   },
   {
     "id": "lydie-massard",
@@ -2645,6 +2961,14 @@
       }
     ],
     "liens_officiels": [],
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "photo": {
+      "fichier": "lydie-massard.webp",
+      "auteur": "© European Union, 1998 – 2026",
+      "licence": "Attribution",
+      "licence_url": null,
+      "source_url": "https://commons.wikimedia.org/wiki/File:Member_of_the_European_Parliament_for_France_Lydie_Massard.jpg",
+      "description": "Portrait de Lydie Massard"
+    }
   }
 ]
