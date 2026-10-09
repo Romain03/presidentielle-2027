@@ -13,8 +13,8 @@ export const metadata: Metadata = {
     ? new URL(process.env.NEXT_PUBLIC_SITE_URL)
     : undefined,
   title: {
-    default: 'Présidentielle 2027 — candidats, partis et programmes',
-    template: '%s — Présidentielle 2027',
+    default: 'Présidentielle 2027 - candidats, partis et programmes',
+    template: '%s - Présidentielle 2027',
   },
   description:
     'Explorer l’élection présidentielle française de 2027 : candidats, partis et positions par thème, avec la source et la date de chaque information.',
@@ -51,10 +51,10 @@ export const viewport: Viewport = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="fr">
-      <body className="min-h-screen bg-slate-50 font-sans text-slate-900 antialiased dark:bg-slate-950 dark:text-slate-100">
+      <body className="min-h-screen bg-creme font-sans text-stone-900 antialiased dark:bg-nuit dark:text-stone-100">
         <a
           href="#contenu"
-          className="sr-only focus:not-sr-only focus:absolute focus:left-3 focus:top-3 focus:z-50 focus:rounded-md focus:bg-slate-900 focus:px-4 focus:py-2 focus:text-sm focus:font-medium focus:text-white dark:focus:bg-white dark:focus:text-slate-900"
+          className="sr-only focus:not-sr-only focus:absolute focus:left-3 focus:top-3 focus:z-50 focus:rounded-md focus:bg-stone-900 focus:px-4 focus:py-2 focus:text-sm focus:font-medium focus:text-white dark:focus:bg-white dark:focus:text-stone-900"
         >
           Aller au contenu
         </a>

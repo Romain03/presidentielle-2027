@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
+import LienRetour from '@/components/LienRetour';
 import BadgeStatut from '@/components/BadgeStatut';
 import BlocProposition from '@/components/BlocProposition';
 import DerniereMiseAJour from '@/components/DerniereMiseAJour';
@@ -38,12 +39,13 @@ export default async function PageCandidat({ params }: { params: Promise<{ slug:
   return (
     <article className="space-y-10">
       <header className="space-y-4">
+        <LienRetour href="/candidats/" libelle="Tous les candidats" />
         <DerniereMiseAJour date={candidat.derniere_verification} />
 
         <div className="flex items-start gap-4">
           <span
             aria-hidden="true"
-            className="grid size-14 shrink-0 place-items-center rounded-full bg-slate-100 text-sm font-semibold tracking-wide text-slate-600 dark:bg-slate-800 dark:text-slate-300"
+            className="grid size-14 shrink-0 place-items-center rounded-full bg-stone-100 text-sm font-semibold tracking-wide text-stone-600 dark:bg-stone-800 dark:text-stone-300"
             style={parti ? { boxShadow: `inset 0 0 0 3px ${parti.couleur}` } : undefined}
           >
             {initiales(candidat)}
@@ -55,7 +57,7 @@ export default async function PageCandidat({ params }: { params: Promise<{ slug:
             <PastilleParti parti={parti} avecFamille />
             <div className="flex flex-wrap items-center gap-x-3 gap-y-1">
               <BadgeStatut statut={candidat.statut} />
-              <span className="text-xs text-slate-600 dark:text-slate-400">
+              <span className="text-xs text-stone-600 dark:text-stone-400">
                 {candidat.statut_date !== null
                   ? `le ${formaterDate(candidat.statut_date)}`
                   : 'date non vérifiée'}
@@ -74,7 +76,7 @@ export default async function PageCandidat({ params }: { params: Promise<{ slug:
                     href={lien.url}
                     target="_blank"
                     rel="noopener noreferrer nofollow"
-                    className="underline decoration-slate-300 underline-offset-2 hover:decoration-slate-700 dark:decoration-slate-600"
+                    className="underline decoration-stone-300 underline-offset-2 hover:decoration-stone-700 dark:decoration-stone-600"
                   >
                     {lien.libelle}
                     <span aria-hidden="true"> ↗</span>
@@ -96,9 +98,9 @@ export default async function PageCandidat({ params }: { params: Promise<{ slug:
             {candidat.precisions.map((precision) => (
               <li
                 key={precision.source.url + precision.libelle.slice(0, 20)}
-                className="space-y-1.5 rounded-lg border border-slate-200 bg-white p-4 text-sm dark:border-slate-800 dark:bg-slate-900"
+                className="space-y-1.5 carte p-4 text-sm"
               >
-                <p className="leading-relaxed text-slate-700 dark:text-slate-300">
+                <p className="leading-relaxed text-stone-700 dark:text-stone-300">
                   {precision.libelle}
                 </p>
                 <LienSource source={precision.source} />
@@ -113,7 +115,7 @@ export default async function PageCandidat({ params }: { params: Promise<{ slug:
           Parcours
         </h2>
         {candidat.parcours.length === 0 ? (
-          <p className="text-sm text-slate-600 dark:text-slate-400">
+          <p className="text-sm text-stone-600 dark:text-stone-400">
             Aucun jalon sourcé n’est renseigné à ce stade.
           </p>
         ) : (
@@ -122,7 +124,7 @@ export default async function PageCandidat({ params }: { params: Promise<{ slug:
               <li key={`${jalon.annee}-${jalon.libelle}`} className="flex gap-3 text-sm">
                 <span className="w-12 shrink-0 tabular-nums font-medium">{jalon.annee}</span>
                 <span className="space-y-1">
-                  <span className="block text-slate-700 dark:text-slate-300">{jalon.libelle}</span>
+                  <span className="block text-stone-700 dark:text-stone-300">{jalon.libelle}</span>
                   {jalon.source !== null && <LienSource source={jalon.source} />}
                 </span>
               </li>
@@ -136,14 +138,14 @@ export default async function PageCandidat({ params }: { params: Promise<{ slug:
           Soutiens
         </h2>
         {candidat.soutiens.length === 0 ? (
-          <p className="text-sm text-slate-600 dark:text-slate-400">
+          <p className="text-sm text-stone-600 dark:text-stone-400">
             Aucun soutien sourcé n’est renseigné à ce stade.
           </p>
         ) : (
           <ul className="space-y-2">
             {candidat.soutiens.map((soutien) => (
               <li key={soutien.libelle} className="space-y-1 text-sm">
-                <span className="block text-slate-700 dark:text-slate-300">{soutien.libelle}</span>
+                <span className="block text-stone-700 dark:text-stone-300">{soutien.libelle}</span>
                 <LienSource source={soutien.source} />
               </li>
             ))}
@@ -155,7 +157,7 @@ export default async function PageCandidat({ params }: { params: Promise<{ slug:
         <h2 id="positions" className="text-lg font-semibold">
           Positions par thème
         </h2>
-        <p className="text-sm text-slate-600 dark:text-slate-400">
+        <p className="text-sm text-stone-600 dark:text-stone-400">
           Les douze thèmes suivis sont affichés dans l’ordre alphabétique, y compris ceux sur
           lesquels le candidat ne s’est pas exprimé.
         </p>

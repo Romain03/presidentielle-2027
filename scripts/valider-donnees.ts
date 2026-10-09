@@ -114,7 +114,7 @@ console.log(
 console.log('');
 
 if (avertissements.length > 0) {
-  console.log(`  ${avertissements.length} avertissement(s) — données incomplètes, pas invalides :`);
+  console.log(`  ${avertissements.length} avertissement(s) - données incomplètes, pas invalides :`);
   for (const a of avertissements) console.log(`    · ${a}`);
   console.log('');
 }

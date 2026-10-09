@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
+import LienRetour from '@/components/LienRetour';
 import BadgeStatut from '@/components/BadgeStatut';
 import DerniereMiseAJour from '@/components/DerniereMiseAJour';
 import LienSource from '@/components/LienSource';
@@ -45,6 +46,7 @@ export default async function PageParti({ params }: { params: Promise<{ slug: st
   return (
     <article className="space-y-8">
       <header className="space-y-3">
+        <LienRetour href="/partis/" libelle="Tous les partis" />
         <DerniereMiseAJour date={parti.derniere_verification} />
         <h1
           className="border-l-4 pl-3 text-2xl font-semibold tracking-tight sm:text-3xl"
@@ -54,22 +56,22 @@ export default async function PageParti({ params }: { params: Promise<{ slug: st
         </h1>
         <dl className="flex flex-wrap gap-x-6 gap-y-2 text-sm">
           <div>
-            <dt className="text-xs text-slate-600 dark:text-slate-400">Famille politique</dt>
+            <dt className="text-xs text-stone-600 dark:text-stone-400">Famille politique</dt>
             <dd>{LIBELLES_FAMILLE[parti.famille]}</dd>
           </div>
           <div>
-            <dt className="text-xs text-slate-600 dark:text-slate-400">
+            <dt className="text-xs text-stone-600 dark:text-stone-400">
               Nuance du ministère de l’Intérieur
             </dt>
             <dd>
               {parti.nuance_ministerielle !== null
-                ? `${parti.nuance_ministerielle.code} — ${parti.nuance_ministerielle.libelle}`
+                ? `${parti.nuance_ministerielle.code} - ${parti.nuance_ministerielle.libelle}`
                 : 'Non renseignée'}
             </dd>
           </div>
           {parti.site_officiel !== null && (
             <div>
-              <dt className="text-xs text-slate-600 dark:text-slate-400">Site officiel</dt>
+              <dt className="text-xs text-stone-600 dark:text-stone-400">Site officiel</dt>
               <dd>
                 <a
                   href={parti.site_officiel}
@@ -92,12 +94,12 @@ export default async function PageParti({ params }: { params: Promise<{ slug: st
           Positionnement déclaré
         </h2>
         {parti.positionnement_declare === null ? (
-          <p className="text-sm text-slate-600 dark:text-slate-400">
+          <p className="text-sm text-stone-600 dark:text-stone-400">
             Aucun positionnement formulé par le parti lui-même n’a été relevé et sourcé à ce stade.
           </p>
         ) : (
           <div className="space-y-1.5">
-            <p className="text-slate-700 dark:text-slate-300">
+            <p className="text-stone-700 dark:text-stone-300">
               «&nbsp;{parti.positionnement_declare.texte}&nbsp;»
             </p>
             <LienSource source={parti.positionnement_declare.source} />
@@ -110,7 +112,7 @@ export default async function PageParti({ params }: { params: Promise<{ slug: st
           Processus de désignation
         </h2>
         {parti.processus_designation === null ? (
-          <p className="text-sm text-slate-600 dark:text-slate-400">
+          <p className="text-sm text-stone-600 dark:text-stone-400">
             Aucun processus de désignation sourcé n’est renseigné à ce stade.
           </p>
         ) : (
@@ -119,11 +121,11 @@ export default async function PageParti({ params }: { params: Promise<{ slug: st
               {LIBELLES_DESIGNATION[parti.processus_designation.type] ??
                 parti.processus_designation.type}
             </p>
-            <p className="text-slate-700 dark:text-slate-300">
+            <p className="text-stone-700 dark:text-stone-300">
               {parti.processus_designation.libelle}
             </p>
             {parti.processus_designation.dates.length > 0 && (
-              <p className="text-slate-700 dark:text-slate-300">
+              <p className="text-stone-700 dark:text-stone-300">
                 {parti.processus_designation.dates.map(formaterDate).join(' · ')}
               </p>
             )}
@@ -137,7 +139,7 @@ export default async function PageParti({ params }: { params: Promise<{ slug: st
           Candidats
         </h2>
         {candidats.length === 0 ? (
-          <p className="text-sm text-slate-600 dark:text-slate-400">
+          <p className="text-sm text-stone-600 dark:text-stone-400">
             Aucun candidat rattaché à ce parti n’est recensé.
           </p>
         ) : (
@@ -148,11 +150,11 @@ export default async function PageParti({ params }: { params: Promise<{ slug: st
                 <li key={candidat.id}>
                   <Link
                     href={`/candidats/${candidat.id}/`}
-                    className="flex flex-wrap items-center gap-x-3 gap-y-1 rounded-lg border border-slate-200 bg-white p-3 text-sm transition hover:border-slate-400 dark:border-slate-800 dark:bg-slate-900 dark:hover:border-slate-600"
+                    className="flex flex-wrap items-center gap-x-3 gap-y-1 carte carte-interactive p-3 text-sm"
                   >
                     <span className="font-medium">{nomComplet(candidat)}</span>
                     <BadgeStatut statut={candidat.statut} />
-                    <span className="text-slate-600 dark:text-slate-400">
+                    <span className="text-stone-600 dark:text-stone-400">
                       {nombre} {pluriel(nombre, 'proposition sourcée', 'propositions sourcées')}
                     </span>
                   </Link>

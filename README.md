@@ -70,7 +70,7 @@ n'importe où, il faut déployer le site (voir ci-dessous).
 `npm run build` produit un site entièrement statique dans `out/`, sans serveur
 ni base de données. Il se déploie tel quel sur n'importe quel hébergeur
 statique. Une fois en ligne en HTTPS, l'installation sur l'écran d'accueil se
-fait de la même manière, depuis n'importe quelle connexion — et le mode hors
+fait de la même manière, depuis n'importe quelle connexion - et le mode hors
 ligne s'active.
 
 **GitHub Pages** est préconfiguré : `.github/workflows/deploiement.yml`
@@ -93,7 +93,7 @@ Pages), il n'y a aucune variable à définir : il suffit de publier `out/`.
 Un service worker (`public/sw.js`) rend consultables hors connexion les pages
 déjà visitées. Les actifs versionnés de `_next/static/` sont servis depuis le
 cache ; les pages et les données passent par le réseau d'abord, le cache ne
-servant que de secours — une mise à jour en ligne l'emporte donc toujours. Les
+servant que de secours - une mise à jour en ligne l'emporte donc toujours. Les
 navigateurs refusent d'enregistrer un service worker hors HTTPS : il reste
 inactif tant que le site n'est pas déployé.
 
@@ -105,7 +105,7 @@ inactif tant que le site n'est pas déployé.
 - Couleur de barre d'état adaptée au thème clair et au thème sombre.
 - Marges pour l'encoche et la barre d'accueil (`env(safe-area-inset-*)`).
 - Détection téléphonique désactivée : sans cela, iOS transforme les nombres
-  affichés — âges, montants, annuités — en liens d'appel.
+  affichés - âges, montants, annuités - en liens d'appel.
 - Mise en page pensée pour mobile d'abord ; les tableaux larges défilent dans
   leur propre cadre, jamais la page.
 
@@ -116,7 +116,7 @@ inactif tant que le site n'est pas déployé.
 ```
 app/          Pages (App Router, génération statique)
 components/   Composants d'affichage
-data/         Les quatre fichiers de données — la seule chose à éditer au quotidien
+data/         Les quatre fichiers de données - la seule chose à éditer au quotidien
 lib/
   schemas.ts  Schémas Zod : la source de vérité du format
   data.ts     Chargement, validation et intégrité référentielle
@@ -153,7 +153,7 @@ Tout se passe dans `data/`. Rien à modifier dans le code.
 Par ordre de préférence : programme officiel, site de campagne, site du parti,
 Conseil constitutionnel, Journal officiel, livre, discours, interview,
 communiqué, article de presse. Noter l'URL, le titre et la **date de
-publication** de la source — pas la date de consultation.
+publication** de la source - pas la date de consultation.
 
 Les sites agrégateurs de programmes sont écartés : voir la section 3 de
 [`DONNEES_A_VERIFIER.md`](DONNEES_A_VERIFIER.md).
@@ -242,8 +242,8 @@ Les positions évoluent. Reprendre chaque source, mettre `derniere_verification`
 
 Même structure, même niveau de détail et même ton factuel pour tous les
 candidats ; ordre alphabétique partout ; aucun classement éditorial. Le
-comparateur signale des divergences **structurelles** — positions renseignées
-formulées différemment, valeurs chiffrées qui diffèrent — et ne calcule aucun
+comparateur signale des divergences **structurelles** - positions renseignées
+formulées différemment, valeurs chiffrées qui diffèrent - et ne calcule aucun
 score de proximité ni aucun placement sur un axe. La page Méthodologie du site
 expose ces règles, la correspondance entre nuances officielles et familles
 politiques, et les limites connues.

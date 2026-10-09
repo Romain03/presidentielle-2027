@@ -2,7 +2,7 @@
  * Écrit public/recherche-index.json avant la construction du site.
  *
  * Sans cela, l'index complet était sérialisé dans chacune des pages, parce que
- * l'en-tête — donc la recherche — est rendu partout. Chaque page pesait une
+ * l'en-tête - donc la recherche - est rendu partout. Chaque page pesait une
  * centaine de kilo-octets de données redondantes. L'index est désormais un
  * fichier unique, chargé seulement quand le lecteur ouvre la recherche.
  */

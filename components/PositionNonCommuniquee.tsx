@@ -7,7 +7,7 @@
 export default function PositionNonCommuniquee({ compact = false }: { compact?: boolean }) {
   return (
     <p
-      className={`text-slate-600 dark:text-slate-400 ${compact ? 'text-sm' : 'text-sm italic'}`}
+      className={`text-stone-600 dark:text-stone-400 ${compact ? 'text-sm' : 'text-sm italic'}`}
     >
       Position non communiquée
     </p>

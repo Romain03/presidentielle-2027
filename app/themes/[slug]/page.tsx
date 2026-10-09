@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
+import LienRetour from '@/components/LienRetour';
 import DerniereMiseAJour from '@/components/DerniereMiseAJour';
 import PositionsDuTheme, { type LigneTheme } from '@/components/PositionsDuTheme';
 import { candidats, derniereMiseAJour, getTheme, propositionsDuCandidat, themes } from '@/lib/data';
@@ -38,9 +39,10 @@ export default async function PageTheme({ params }: { params: Promise<{ slug: st
   return (
     <article className="space-y-6">
       <header className="space-y-2">
+        <LienRetour href="/themes/" libelle="Tous les thèmes" />
         <DerniereMiseAJour date={derniereMiseAJour} />
         <h1 className="text-2xl font-semibold tracking-tight sm:text-3xl">{theme.libelle}</h1>
-        <p className="max-w-2xl text-sm text-slate-700 dark:text-slate-300">{theme.description}</p>
+        <p className="max-w-2xl text-sm text-stone-700 dark:text-stone-300">{theme.description}</p>
       </header>
 
       <PositionsDuTheme lignes={lignes} />

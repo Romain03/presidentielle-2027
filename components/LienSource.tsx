@@ -21,7 +21,7 @@ export default function LienSource({ source }: { source: Source }) {
       href={source.url}
       target="_blank"
       rel="noopener noreferrer nofollow"
-      className="group inline-flex flex-wrap items-baseline gap-x-1.5 text-xs text-slate-600 underline decoration-slate-300 underline-offset-2 hover:text-slate-900 hover:decoration-slate-600 dark:text-slate-400 dark:decoration-slate-600 dark:hover:text-slate-100"
+      className="group inline-flex flex-wrap items-baseline gap-x-1.5 text-xs text-stone-600 underline decoration-stone-300 underline-offset-2 hover:text-stone-900 hover:decoration-stone-600 dark:text-stone-400 dark:decoration-stone-600 dark:hover:text-stone-100"
     >
       <span className="font-medium">{LIBELLES_TYPE_SOURCE[source.type]}</span>
       <span aria-hidden="true">·</span>

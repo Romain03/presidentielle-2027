@@ -11,18 +11,43 @@ const LIENS = [
 
 export default function EnTete() {
   return (
-    <header className="zone-sure-haut sticky top-0 z-40 border-b border-slate-200 bg-slate-50/90 backdrop-blur dark:border-slate-800 dark:bg-slate-950/90">
-      <div className="zone-sure-cotes mx-auto flex w-full max-w-6xl flex-wrap items-center gap-x-4 gap-y-2 px-4 py-3 sm:px-6">
-        <Link href="/" className="font-semibold tracking-tight">
-          Présidentielle 2027
-        </Link>
-        <nav aria-label="Navigation principale" className="order-3 w-full sm:order-2 sm:w-auto">
-          <ul className="flex flex-wrap gap-x-4 gap-y-1 text-sm">
+    <header className="zone-sure-haut sticky top-0 z-40 border-b border-stone-900/8 bg-creme/85 backdrop-blur-md dark:border-nuit-bord dark:bg-nuit/85">
+      <div className="zone-sure-cotes mx-auto w-full max-w-6xl px-4 sm:px-6">
+        <div className="flex items-center justify-between gap-4 pb-1 pt-3 sm:pb-3">
+          <Link href="/" className="font-serif text-lg font-semibold tracking-tight">
+            Présidentielle 2027
+          </Link>
+
+          {/* Sur grand écran, la navigation tient sur la même ligne. */}
+          <nav aria-label="Navigation principale" className="hidden sm:block">
+            <ul className="flex items-center gap-5 text-sm">
+              {LIENS.map((lien) => (
+                <li key={lien.href}>
+                  <Link
+                    href={lien.href}
+                    className="text-stone-600 transition-colors hover:text-stone-900 dark:text-stone-400 dark:hover:text-stone-100"
+                  >
+                    {lien.libelle}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </nav>
+
+          <RechercheGlobale />
+        </div>
+
+        {/*
+          Sur mobile, la navigation défile horizontalement plutôt que de passer
+          à la ligne : l'en-tête garde une hauteur constante.
+        */}
+        <nav aria-label="Navigation principale" className="sm:hidden">
+          <ul className="sans-barre-defilement -mx-4 flex gap-1 overflow-x-auto px-4 pb-2">
             {LIENS.map((lien) => (
-              <li key={lien.href}>
+              <li key={lien.href} className="shrink-0">
                 <Link
                   href={lien.href}
-                  className="rounded text-slate-600 underline decoration-transparent underline-offset-4 hover:text-slate-900 hover:decoration-slate-400 dark:text-slate-400 dark:hover:text-slate-100"
+                  className="inline-block rounded-full px-3 py-1.5 text-sm text-stone-600 transition-colors hover:bg-creme-ombre hover:text-stone-900 dark:text-stone-400 dark:hover:bg-nuit-clair dark:hover:text-stone-100"
                 >
                   {lien.libelle}
                 </Link>
@@ -30,9 +55,6 @@ export default function EnTete() {
             ))}
           </ul>
         </nav>
-        <div className="order-2 ml-auto sm:order-3">
-          <RechercheGlobale />
-        </div>
       </div>
     </header>
   );

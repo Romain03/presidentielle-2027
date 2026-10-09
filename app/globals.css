@@ -1,30 +1,161 @@
 @import 'tailwindcss';
 
+/*
+ * Palette et typographie.
+ *
+ * Le sujet est austère : la chaleur vient de la matière - fond crème,
+ * gris chauds, titres en sérif, ombres douces - et non d'une couleur
+ * d'accent, qui serait inévitablement lue comme politique. Les seules
+ * couleurs vives du site restent celles des partis.
+ */
 @theme {
   --font-sans:
     ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
     sans-serif;
+  --font-serif: ui-serif, 'Iowan Old Style', Georgia, 'Times New Roman', serif;
+
+  /* Papier */
+  --color-creme: #faf7f1;
+  --color-creme-ombre: #f3ede2;
+
+  /* Nuit chaude, pour le thème sombre */
+  --color-nuit: #1a1714;
+  --color-nuit-clair: #262119;
+  --color-nuit-bord: #3b342a;
+
+  /* Accent discret : liens au survol, focus. Ocre, jamais une couleur de parti. */
+  --color-ocre: #855a00;
+  --color-ocre-clair: #e0b457;
 }
 
 html {
   scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  line-height: 1.65;
+}
+
+/* Les titres en sérif donnent le ton éditorial, sans coût de chargement :
+   « New York » sur les appareils Apple, Georgia ailleurs. */
+h1,
+h2 {
+  font-family: var(--font-serif);
+  letter-spacing: -0.015em;
+  line-height: 1.2;
+}
+
+h1 {
+  text-wrap: balance;
+}
+
+p {
+  text-wrap: pretty;
 }
 
 /* Les ancres de thème ne doivent pas passer sous l'en-tête collant. */
 :target {
-  scroll-margin-top: 5rem;
+  scroll-margin-top: 6rem;
 }
 
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
   }
+
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
 }
 
 /* Anneau de focus visible et contrasté sur les deux thèmes. */
 :focus-visible {
-  outline: 2px solid currentColor;
+  outline: 2px solid var(--color-ocre);
   outline-offset: 2px;
+  border-radius: 0.25rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :focus-visible {
+    outline-color: var(--color-ocre-clair);
+  }
+}
+
+/* ------------------------------------------------------------------ cartes */
+
+/*
+ * Surface commune à toutes les cartes du site. Bordure discrète plus ombre
+ * très douce : la hiérarchie se lit sans traits durs.
+ */
+.carte {
+  border-radius: 0.875rem;
+  border: 1px solid --alpha(var(--color-stone-900) / 8%);
+  background-color: #fff;
+  box-shadow:
+    0 1px 2px --alpha(var(--color-stone-900) / 4%),
+    0 4px 12px --alpha(var(--color-stone-900) / 3%);
+}
+
+.carte-interactive {
+  transition:
+    border-color 150ms ease,
+    box-shadow 150ms ease,
+    transform 150ms ease;
+}
+
+.carte-interactive:hover {
+  border-color: --alpha(var(--color-stone-900) / 18%);
+  box-shadow:
+    0 1px 2px --alpha(var(--color-stone-900) / 5%),
+    0 8px 24px --alpha(var(--color-stone-900) / 7%);
+}
+
+@media (hover: hover) {
+  .carte-interactive:hover {
+    transform: translateY(-1px);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .carte {
+    border-color: var(--color-nuit-bord);
+    background-color: var(--color-nuit-clair);
+    box-shadow: none;
+  }
+
+  .carte-interactive:hover {
+    border-color: #4d4538;
+    box-shadow: none;
+  }
+}
+
+/* ------------------------------------------------------------------- liens */
+
+.lien {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
+  text-decoration-color: --alpha(var(--color-stone-900) / 30%);
+  transition: text-decoration-color 150ms ease, color 150ms ease;
+}
+
+.lien:hover {
+  color: var(--color-ocre);
+  text-decoration-color: currentColor;
+}
+
+@media (prefers-color-scheme: dark) {
+  .lien {
+    text-decoration-color: --alpha(#fff / 35%);
+  }
+
+  .lien:hover {
+    color: var(--color-ocre-clair);
+  }
 }
 
 /* ------------------------------------------------------------------- iOS */
@@ -58,4 +189,22 @@ button,
 summary,
 label {
   -webkit-tap-highlight-color: transparent;
+}
+
+/* Cibles tactiles confortables sur mobile. */
+@media (pointer: coarse) {
+  nav a,
+  summary {
+    padding-block: 0.15rem;
+  }
+}
+
+/* Rangée défilante sans barre visible (navigation sur mobile). */
+.sans-barre-defilement {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.sans-barre-defilement::-webkit-scrollbar {
+  display: none;
 }

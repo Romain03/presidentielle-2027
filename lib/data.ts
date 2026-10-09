@@ -26,7 +26,7 @@ function valider<S extends ZodTypeAny>(schema: S, valeur: unknown, fichier: stri
   const resultat = schema.safeParse(valeur);
   if (!resultat.success) {
     const details = resultat.error.issues
-      .map((i) => `  • ${i.path.join('.') || '(racine)'} — ${i.message}`)
+      .map((i) => `  • ${i.path.join('.') || '(racine)'} - ${i.message}`)
       .join('\n');
     throw new Error(`Données invalides dans data/${fichier} :\n${details}`);
   }

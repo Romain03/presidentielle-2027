@@ -18,7 +18,7 @@ import type { CandidatResume } from '@/lib/vues';
 
 /**
  * Repères de lecture. Ils décrivent un fait structurel sur les données
- * affichées — pas une appréciation du contenu des propositions.
+ * affichées - pas une appréciation du contenu des propositions.
  */
 const REPERES: Record<StatutLigne, { glyphe: string; libelle: string; classes: string }> = {
   divergence: {
@@ -29,17 +29,17 @@ const REPERES: Record<StatutLigne, { glyphe: string; libelle: string; classes: s
   'formulations-identiques': {
     glyphe: '=',
     libelle: 'Formulations identiques',
-    classes: 'text-slate-700 dark:text-slate-300',
+    classes: 'text-stone-700 dark:text-stone-300',
   },
   incomplete: {
     glyphe: '⊘',
     libelle: 'Non comparable : au moins une position manquante',
-    classes: 'text-slate-600 dark:text-slate-400',
+    classes: 'text-stone-600 dark:text-stone-400',
   },
   vide: {
-    glyphe: '–',
+    glyphe: '-',
     libelle: 'Aucune position communiquée',
-    classes: 'text-slate-500 dark:text-slate-500',
+    classes: 'text-stone-600 dark:text-stone-400',
   },
 };
 
@@ -91,13 +91,13 @@ export default function ComparateurInteractif({
     <div className="space-y-5">
       <section
         aria-label="Sélection des candidats"
-        className="space-y-3 rounded-lg border border-slate-200 bg-white p-4 dark:border-slate-800 dark:bg-slate-900"
+        className="space-y-3 carte p-4"
       >
         <div className="flex flex-wrap items-center gap-2">
           {selectionnes.map((candidat) => (
             <span
               key={candidat.id}
-              className="inline-flex items-center gap-2 rounded-full bg-slate-100 py-1 pl-2.5 pr-1.5 text-sm dark:bg-slate-800"
+              className="inline-flex items-center gap-2 rounded-full bg-stone-100 py-1 pl-2.5 pr-1.5 text-sm dark:bg-stone-800"
               style={
                 candidat.parti
                   ? { boxShadow: `inset 3px 0 0 0 ${candidat.parti.couleur}` }
@@ -108,7 +108,7 @@ export default function ComparateurInteractif({
               <button
                 type="button"
                 onClick={() => setSelection(selection.filter((id) => id !== candidat.id))}
-                className="grid size-5 place-items-center rounded-full text-slate-500 hover:bg-slate-200 hover:text-slate-900 dark:hover:bg-slate-700 dark:hover:text-slate-100"
+                className="grid size-5 place-items-center rounded-full text-stone-600 hover:bg-stone-200 hover:text-stone-900 dark:hover:bg-stone-700 dark:hover:text-stone-100"
                 aria-label={`Retirer ${nomComplet(candidat)} de la comparaison`}
               >
                 <span aria-hidden="true">✕</span>
@@ -124,7 +124,7 @@ export default function ComparateurInteractif({
               onChange={(e) => {
                 if (e.target.value !== '') setSelection([...selection, e.target.value]);
               }}
-              className="rounded-md border border-slate-300 bg-white px-2.5 py-1.5 text-sm disabled:opacity-50 dark:border-slate-700 dark:bg-slate-900"
+              className="rounded-md border border-stone-300 bg-white px-2.5 py-1.5 text-sm disabled:opacity-50 dark:border-stone-700 dark:bg-nuit-clair"
             >
               <option value="">
                 {complet ? `Maximum ${MAX_CANDIDATS} candidats` : '+ Ajouter un candidat'}
@@ -139,7 +139,7 @@ export default function ComparateurInteractif({
         </div>
 
         {erreurs.length > 0 && (
-          <ul aria-live="polite" className="text-sm text-slate-700 dark:text-slate-300">
+          <ul aria-live="polite" className="text-sm text-stone-700 dark:text-stone-300">
             {erreurs.map((e) => (
               <li key={e.code}>{e.message}</li>
             ))}
@@ -147,17 +147,17 @@ export default function ComparateurInteractif({
         )}
 
         {erreurs.length === 0 && (
-          <div className="flex flex-wrap items-center justify-between gap-3 border-t border-slate-100 pt-3 text-sm dark:border-slate-800">
+          <div className="flex flex-wrap items-center justify-between gap-3 border-t border-stone-100 pt-3 text-sm dark:border-nuit-bord">
             <label className="flex items-center gap-2">
               <input
                 type="checkbox"
                 checked={masquerVides}
                 onChange={(e) => setMasquerVides(e.target.checked)}
-                className="size-4 rounded border-slate-400"
+                className="size-4 rounded border-stone-400"
               />
               Masquer les thèmes sans aucune position
             </label>
-            <p className="text-slate-600 dark:text-slate-400">
+            <p className="text-stone-600 dark:text-stone-400">
               {comparaison.nombreDivergences} thème(s) où les positions diffèrent ·{' '}
               {comparaison.nombreIncompletes} non comparable(s)
             </p>
@@ -166,19 +166,19 @@ export default function ComparateurInteractif({
       </section>
 
       {erreurs.length > 0 ? (
-        <p className="rounded-lg border border-dashed border-slate-300 p-8 text-center text-sm text-slate-600 dark:border-slate-700 dark:text-slate-400">
+        <p className="rounded-lg border border-dashed border-stone-300 p-8 text-center text-sm text-stone-600 dark:border-stone-700 dark:text-stone-400">
           Choisissez entre {MIN_CANDIDATS} et {MAX_CANDIDATS} candidats pour afficher le tableau
           comparatif.
         </p>
       ) : (
         <>
-          <div className="overflow-x-auto rounded-lg border border-slate-200 dark:border-slate-800">
-            <table className="w-full min-w-[46rem] border-collapse bg-white text-left text-sm dark:bg-slate-900">
+          <div className="carte overflow-x-auto">
+            <table className="w-full min-w-[46rem] border-collapse text-left text-sm">
               <caption className="sr-only">
                 Comparaison des positions par thème, candidats par ordre alphabétique
               </caption>
               <thead>
-                <tr className="border-b border-slate-200 dark:border-slate-800">
+                <tr className="border-b border-stone-200 dark:border-nuit-bord">
                   <th scope="col" className="w-48 p-3 align-bottom font-semibold">
                     Thème
                   </th>
@@ -193,7 +193,7 @@ export default function ComparateurInteractif({
                         <Link href={`/candidats/${candidat.id}/`} className="underline-offset-2 hover:underline">
                           {nomComplet(candidat)}
                         </Link>
-                        <span className="block text-xs font-normal text-slate-600 dark:text-slate-400">
+                        <span className="block text-xs font-normal text-stone-600 dark:text-stone-400">
                           {candidat.parti ? candidat.parti.sigle : 'Sans étiquette'}
                         </span>
                       </span>
@@ -204,7 +204,7 @@ export default function ComparateurInteractif({
               {lignes.map((ligne) => {
                   const repere = REPERES[ligne.statut];
                   return (
-                    <tbody key={ligne.theme.id} className="border-b border-slate-200 dark:border-slate-800">
+                    <tbody key={ligne.theme.id} className="border-b border-stone-200 dark:border-nuit-bord">
                       <tr>
                         <th scope="row" className="p-3 align-top font-medium">
                           <Link
@@ -220,7 +220,7 @@ export default function ComparateurInteractif({
                         {ligne.cellules.map((propositionsCellule, i) => (
                           <td key={selectionnes[i].id} className="p-3 align-top">
                             {propositionsCellule.length === 0 ? (
-                              <span className="text-slate-600 dark:text-slate-400">
+                              <span className="text-stone-600 dark:text-stone-400">
                                 Position non communiquée
                               </span>
                             ) : (
@@ -240,9 +240,9 @@ export default function ComparateurInteractif({
                       {ligne.indicateurs.map((indicateur) => (
                         <tr
                           key={indicateur.libelle}
-                          className="bg-slate-50/70 text-xs dark:bg-slate-800/40"
+                          className="bg-creme-ombre/60 text-xs dark:bg-nuit/40"
                         >
-                          <th scope="row" className="py-1.5 pl-6 pr-3 font-normal text-slate-600 dark:text-slate-400">
+                          <th scope="row" className="py-1.5 pl-6 pr-3 font-normal text-stone-600 dark:text-stone-400">
                             {indicateur.libelle}
                             {indicateur.divergent && (
                               <span className="ml-1.5 text-amber-800 dark:text-amber-300">
@@ -258,7 +258,7 @@ export default function ComparateurInteractif({
                                 indicateur.divergent ? 'font-semibold' : ''
                               }`}
                             >
-                              {valeur ?? <span className="text-slate-400">—</span>}
+                              {valeur ?? <span className="text-stone-600 dark:text-stone-400">-</span>}
                             </td>
                           ))}
                         </tr>
@@ -271,9 +271,9 @@ export default function ComparateurInteractif({
 
           <section
             aria-label="Légende"
-            className="space-y-1 rounded-lg border border-slate-200 bg-white p-4 text-xs text-slate-600 dark:border-slate-800 dark:bg-slate-900 dark:text-slate-400"
+            className="space-y-1 carte p-4 text-xs text-stone-600 dark:text-stone-400"
           >
-            <p className="font-medium text-slate-900 dark:text-slate-100">Comment lire ce tableau</p>
+            <p className="font-medium text-stone-900 dark:text-stone-100">Comment lire ce tableau</p>
             {(Object.keys(REPERES) as StatutLigne[]).map((statut) => (
               <p key={statut}>
                 <span aria-hidden="true" className="mr-1.5">

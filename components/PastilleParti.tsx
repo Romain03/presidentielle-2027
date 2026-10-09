@@ -15,14 +15,14 @@ export default function PastilleParti({
   lien?: boolean;
 }) {
   if (!parti) {
-    return <span className="text-sm text-slate-600 dark:text-slate-400">Sans étiquette</span>;
+    return <span className="text-sm text-stone-600 dark:text-stone-400">Sans étiquette</span>;
   }
 
   const contenu = (
     <>
       <span
         aria-hidden="true"
-        className="size-2.5 shrink-0 rounded-sm ring-1 ring-slate-900/20 dark:ring-white/25"
+        className="size-2.5 shrink-0 rounded-sm ring-1 ring-stone-900/20 dark:ring-white/25"
         style={{ backgroundColor: parti.couleur }}
       />
       <span>
@@ -36,7 +36,7 @@ export default function PastilleParti({
       {lien ? (
         <Link
           href={`/partis/${parti.id}/`}
-          className="inline-flex items-center gap-1.5 rounded underline decoration-slate-400 underline-offset-2 hover:decoration-slate-900 dark:decoration-slate-500 dark:hover:decoration-slate-200"
+          className="inline-flex items-center gap-1.5 rounded underline decoration-stone-400 underline-offset-2 hover:decoration-stone-900 dark:decoration-stone-500 dark:hover:decoration-stone-200"
         >
           {contenu}
         </Link>
@@ -44,7 +44,7 @@ export default function PastilleParti({
         <span className="inline-flex items-center gap-1.5">{contenu}</span>
       )}
       {avecFamille && (
-        <span className="text-slate-600 dark:text-slate-400">
+        <span className="text-stone-600 dark:text-stone-400">
           · {LIBELLES_FAMILLE[parti.famille]}
         </span>
       )}

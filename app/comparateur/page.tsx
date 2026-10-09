@@ -17,7 +17,7 @@ export default function PageComparateur() {
       <header className="space-y-2">
         <DerniereMiseAJour date={derniereMiseAJour} />
         <h1 className="text-2xl font-semibold tracking-tight sm:text-3xl">Comparateur</h1>
-        <p className="max-w-2xl text-sm text-slate-700 dark:text-slate-300">
+        <p className="max-w-2xl text-sm text-stone-700 dark:text-stone-300">
           Sélectionnez de {MIN_CANDIDATS} à {MAX_CANDIDATS} candidats. L’adresse de la page suit
           votre sélection : le lien est partageable en l’état.
         </p>

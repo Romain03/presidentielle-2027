@@ -4,7 +4,7 @@ Tout ce qui est incertain, contradictoire ou non sourçable est consigné ici
 plutôt que publié sur le site. Rien de ce qui figure dans cette liste n'est
 affiché comme un fait dans `/data`.
 
-Dernière revue : **9 octobre 2026** — 33 partis, 44 candidats, 57 propositions.
+Dernière revue : **9 octobre 2026** - 33 partis, 44 candidats, 57 propositions.
 
 ---
 
@@ -61,21 +61,21 @@ il appelle une reprise :
 
 ## 2. Contradictions entre sources
 
-### Marine Le Pen — durée de cotisation
+### Marine Le Pen - durée de cotisation
 Devant le Medef le 27 août 2026, elle évoque « progressivement on arrivera à
 **42 ans** de cotisations et un âge légal de 62 ans ». Un article du 3 octobre
 2026 retient **40 annuités** pour un départ anticipé à 60 ans. Les données
 retiennent la valeur la plus récente (40). **À trancher** sur une source
 primaire.
 
-### Marine Le Pen — montant des économies
+### Marine Le Pen - montant des économies
 Annoncé à **125 milliards d'euros** devant le Medef le 27 août, puis à
 **140 milliards d'euros nets d'ici 2032** lors de la conférence de presse du
 6 octobre. Les données retiennent la valeur la plus récente. Il s'agit
 probablement d'une évolution du chiffrage, pas d'une contradiction, mais ce
 n'est pas établi.
 
-### Xavier Bertrand — rattachement partisan
+### Xavier Bertrand - rattachement partisan
 Les sources le rattachent à la fois à **Nous France**, mouvement qu'il a fondé,
 et aux **Républicains**. Les données retiennent Nous France et signalent le
 double rattachement dans ses précisions. À clarifier.
@@ -90,7 +90,7 @@ la page Wikipédia « Candidatures à l'élection présidentielle française de
 2027 », affichée comme telle (type de source : *Encyclopédie*). Cette page
 porte elle-même un avertissement sur le caractère possiblement spéculatif de
 son contenu. **Chaque statut devrait être re-sourcé sur la déclaration
-d'origine** — Wikipédia les référence toutes.
+d'origine** - Wikipédia les référence toutes.
 
 Exceptions déjà sourcées à la presse : Marine Le Pen, Bruno Retailleau.
 
@@ -101,7 +101,7 @@ encyclopédique**. Les listes concernent surtout Olivier Faure (54) et Raphaël
 Glucksmann (47).
 
 ### Le site de campagne d'Édouard Philippe
-Plusieurs de ses propositions — sécurité, défense, immigration — sont décrites
+Plusieurs de ses propositions - sécurité, défense, immigration - sont décrites
 par la presse comme figurant « sur son site de campagne ». **L'URL de ce site
 n'a pas été relevée** et les propositions sont donc sourcées via la presse. À
 remplacer par la source primaire, qui existe.
@@ -121,7 +121,7 @@ vérifié** : plusieurs attribuaient à Bruno Retailleau un âge légal de dépa
 
 ### Piège des articles de 2022
 Plusieurs recherches remontent des articles de la campagne de 2022 sans que la
-date soit visible dans les résultats — on y trouve Yannick Jadot, Anne Hidalgo
+date soit visible dans les résultats - on y trouve Yannick Jadot, Anne Hidalgo
 ou Valérie Pécresse présentés comme candidats. **Aucune source non datée de
 2026 n'a été retenue.** Vérifier systématiquement la date de publication avant
 d'ajouter une proposition.
@@ -151,7 +151,7 @@ page Méthodologie. Deux choix méritent une relecture :
 ### Nuances du ministère de l'Intérieur
 Renseignées uniquement lorsque le code officiel est certain : EXG, FI, COM,
 SOC, VEC, LR, RN, REC, REG, DIV, DSV. Les autres partis affichent « Non
-renseignée » — notamment Horizons, Renaissance, Place publique, le MoDem et la
+renseignée » - notamment Horizons, Renaissance, Place publique, le MoDem et la
 plupart des petites formations. **À compléter** depuis la nomenclature publiée
 par le ministère.
 
@@ -179,7 +179,7 @@ Un seul thème n'a **aucune** proposition : la **santé**. Une recherche ciblée
 ramené que des articles de la campagne de **2022** (Pécresse, Hidalgo, Jadot,
 Poutou, Macron) ; aucune synthèse datée de 2026 n'a été trouvée. Plutôt que de
 reprendre des positions vieilles de cinq ans, le thème reste vide. **À retenter**
-— c'est le premier sujet à traiter quand une source paraîtra.
+- c'est le premier sujet à traiter quand une source paraîtra.
 
 Les thèmes **Europe** et **logement** n'ont qu'une seule proposition chacun, et
 la **sécurité** deux. 26 candidats sur 44 n'ont aucune proposition sourcée et
@@ -205,8 +205,8 @@ pressentis sauf Hollande, et les trois candidatures retirées.
   campagne des autres n'ont pas été vérifiés un par un.
 
 ### Dates de statut manquantes
-`statut_date` est `null` pour les dix pressentis — par construction, ils n'ont
-pas déclaré — et pour **Manolo Mlekuz**, dont la candidature est située « début
+`statut_date` est `null` pour les dix pressentis - par construction, ils n'ont
+pas déclaré - et pour **Manolo Mlekuz**, dont la candidature est située « début
 2026 » sans date précise.
 
 ### Dates de déclaration anciennes
@@ -220,5 +220,5 @@ Deux candidatures reposent sur des déclarations antérieures à 2026 :
 
 - **Bruno Retailleau** : la date d'investiture est confirmée au **19 avril
   2026** (consultation interne des adhérents LR).
-- **Jean-Luc Mélenchon** : date de déclaration trouvée — **3 mai 2026**, au
+- **Jean-Luc Mélenchon** : date de déclaration trouvée - **3 mai 2026**, au
   Journal de 20 heures de TF1.

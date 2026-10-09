@@ -22,7 +22,7 @@ export function nomComplet(c: Pick<Candidat, 'nom' | 'prenom'>): string {
   return `${c.prenom} ${c.nom}`;
 }
 
-/** Nom en liste : « Le Pen, Marine » — rend l'ordre alphabétique lisible. */
+/** Nom en liste : « Le Pen, Marine » - rend l'ordre alphabétique lisible. */
 export function nomListe(c: Pick<Candidat, 'nom' | 'prenom'>): string {
   return `${c.nom}, ${c.prenom}`;
 }

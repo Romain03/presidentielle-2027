@@ -11,35 +11,40 @@ export default function CandidatCarte({ candidat }: { candidat: CandidatResume }
     <li className="h-full">
       <Link
         href={`/candidats/${candidat.id}/`}
-        className="flex h-full flex-col gap-3 rounded-lg border border-slate-200 bg-white p-4 transition hover:border-slate-400 hover:shadow-sm dark:border-slate-800 dark:bg-slate-900 dark:hover:border-slate-600"
-        // La couleur du parti borde la carte : repère visuel redondant avec le texte.
-        style={
-          parti ? { borderLeftWidth: '4px', borderLeftColor: parti.couleur } : undefined
-        }
+        className="carte carte-interactive relative flex h-full flex-col gap-3.5 overflow-hidden p-5"
       >
-        <div className="flex items-start gap-3">
+        {/* Filet de couleur du parti : repère visuel, jamais porteur unique d'information. */}
+        <span
+          aria-hidden="true"
+          className="absolute inset-y-0 left-0 w-1"
+          style={{ backgroundColor: parti?.couleur ?? 'transparent' }}
+        />
+
+        <div className="flex items-start gap-3.5">
           <span
             aria-hidden="true"
-            className="grid size-10 shrink-0 place-items-center rounded-full bg-slate-100 text-xs font-semibold tracking-wide text-slate-600 dark:bg-slate-800 dark:text-slate-300"
+            className="grid size-11 shrink-0 place-items-center rounded-full bg-creme-ombre text-xs font-semibold tracking-wide text-stone-600 dark:bg-nuit dark:text-stone-300"
           >
             {initiales(candidat)}
           </span>
           <span className="min-w-0">
-            <span className="block font-medium leading-snug">{nomListe(candidat)}</span>
-            <span className="block text-sm text-slate-600 dark:text-slate-400">
+            <span className="block font-serif text-lg font-semibold leading-tight">
+              {nomListe(candidat)}
+            </span>
+            <span className="mt-1 block text-sm text-stone-600 dark:text-stone-400">
               {parti ? `${parti.nom} (${parti.sigle})` : 'Sans étiquette'}
             </span>
             {parti && (
-              <span className="block text-xs text-slate-500 dark:text-slate-500">
+              <span className="block text-xs text-stone-600 dark:text-stone-400">
                 {LIBELLES_FAMILLE[parti.famille]}
               </span>
             )}
           </span>
         </div>
 
-        <div className="mt-auto flex flex-wrap items-center gap-2">
+        <div className="mt-auto flex flex-wrap items-center gap-x-3 gap-y-2 border-t border-stone-900/6 pt-3 dark:border-white/8">
           <BadgeStatut statut={candidat.statut} />
-          <span className="text-xs text-slate-600 dark:text-slate-400">
+          <span className="text-xs text-stone-600 dark:text-stone-400">
             {candidat.nombrePropositions}{' '}
             {pluriel(candidat.nombrePropositions, 'proposition sourcée', 'propositions sourcées')}
           </span>

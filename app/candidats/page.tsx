@@ -25,7 +25,7 @@ export default function PageCandidats() {
       <header className="space-y-2">
         <DerniereMiseAJour date={derniereMiseAJour} />
         <h1 className="text-2xl font-semibold tracking-tight sm:text-3xl">Candidats</h1>
-        <p className="max-w-2xl text-sm text-slate-700 dark:text-slate-300">
+        <p className="max-w-2xl text-sm text-stone-700 dark:text-stone-300">
           Ordre alphabétique par nom de famille. Les parrainages n’étant pas encore déposés
           auprès du Conseil constitutionnel, cette liste n’est pas définitive.
         </p>

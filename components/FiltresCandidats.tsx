@@ -7,7 +7,7 @@ import { pluriel } from '@/lib/format';
 import type { CandidatResume, PartiResume } from '@/lib/vues';
 
 const CLASSES_CHAMP =
-  'w-full rounded-md border border-slate-300 bg-white px-2.5 py-1.5 text-sm dark:border-slate-700 dark:bg-slate-900';
+  'w-full rounded-md border border-stone-300 bg-white px-2.5 py-1.5 text-sm dark:border-stone-700 dark:bg-nuit-clair';
 
 export default function FiltresCandidats({
   candidats,
@@ -53,7 +53,7 @@ export default function FiltresCandidats({
     <>
       <section
         aria-label="Filtres"
-        className="rounded-lg border border-slate-200 bg-white p-4 dark:border-slate-800 dark:bg-slate-900"
+        className="carte p-4"
       >
         <div className="grid gap-3 sm:grid-cols-3">
           <div>
@@ -114,19 +114,19 @@ export default function FiltresCandidats({
           </div>
         </div>
 
-        <div className="mt-3 flex flex-wrap items-center justify-between gap-3 border-t border-slate-100 pt-3 dark:border-slate-800">
+        <div className="mt-3 flex flex-wrap items-center justify-between gap-3 border-t border-stone-100 pt-3 dark:border-nuit-bord">
           <label className="flex items-center gap-2 text-sm">
             <input
               type="checkbox"
               checked={avecPropositions}
               onChange={(e) => setAvecPropositions(e.target.checked)}
-              className="size-4 rounded border-slate-400"
+              className="size-4 rounded border-stone-400"
             />
             Seulement les candidats ayant au moins une proposition sourcée
           </label>
 
           <div className="flex items-center gap-3">
-            <p aria-live="polite" className="text-sm text-slate-600 dark:text-slate-400">
+            <p aria-live="polite" className="text-sm text-stone-600 dark:text-stone-400">
               {affiches.length} {pluriel(affiches.length, 'candidat affiché', 'candidats affichés')}{' '}
               sur {candidats.length}
             </p>
@@ -134,7 +134,7 @@ export default function FiltresCandidats({
               <button
                 type="button"
                 onClick={reinitialiser}
-                className="rounded-md border border-slate-300 px-2.5 py-1 text-xs hover:border-slate-500 dark:border-slate-700 dark:hover:border-slate-500"
+                className="rounded-md border border-stone-300 px-2.5 py-1 text-xs hover:border-stone-500 dark:border-stone-700 dark:hover:border-stone-500"
               >
                 Réinitialiser
               </button>
@@ -144,7 +144,7 @@ export default function FiltresCandidats({
       </section>
 
       {affiches.length === 0 ? (
-        <p className="rounded-lg border border-dashed border-slate-300 p-8 text-center text-sm text-slate-600 dark:border-slate-700 dark:text-slate-400">
+        <p className="rounded-lg border border-dashed border-stone-300 p-8 text-center text-sm text-stone-600 dark:border-stone-700 dark:text-stone-400">
           Aucun candidat ne correspond à ces filtres.
         </p>
       ) : (
