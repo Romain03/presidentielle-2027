@@ -45,7 +45,10 @@ export default function PastilleParti({
       )}
       {avecFamille && (
         <span className="text-stone-600 dark:text-stone-400">
-          · {LIBELLES_FAMILLE[parti.famille]}
+          ·{' '}
+          <Link href={`/familles/${parti.famille}/`} className="lien">
+            {LIBELLES_FAMILLE[parti.famille]}
+          </Link>
         </span>
       )}
     </span>

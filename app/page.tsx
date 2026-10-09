@@ -23,6 +23,11 @@ const VUES = [
     titre: 'Partis',
     texte: 'Chaque formation, ses candidats, et comment elle les désigne.',
   },
+  {
+    href: '/familles/',
+    titre: 'Familles politiques',
+    texte: 'Qui compose chaque famille, et où ses candidats convergent ou divergent.',
+  },
 ];
 
 export default function Accueil() {

@@ -5,6 +5,7 @@ const LIENS = [
   { href: '/candidats/', libelle: 'Candidats' },
   { href: '/partis/', libelle: 'Partis' },
   { href: '/themes/', libelle: 'Thèmes' },
+  { href: '/familles/', libelle: 'Familles' },
   { href: '/comparateur/', libelle: 'Comparateur' },
   { href: '/methodologie/', libelle: 'Méthodologie' },
 ];

@@ -90,7 +90,7 @@ describe('sélection dans l’URL', () => {
   });
 });
 
-describe('construireComparaison — statut des lignes', () => {
+describe('construireComparaison - statut des lignes', () => {
   const candidats = [{ id: 'a' }, { id: 'b' }];
 
   it('marque « vide » quand personne ne s’est exprimé', () => {
@@ -145,7 +145,7 @@ describe('construireComparaison — statut des lignes', () => {
   });
 });
 
-describe('construireComparaison — indicateurs', () => {
+describe('construireComparaison - indicateurs', () => {
   const candidats = [{ id: 'a' }, { id: 'b' }];
 
   it('aligne les indicateurs par libellé et marque les valeurs différentes', () => {

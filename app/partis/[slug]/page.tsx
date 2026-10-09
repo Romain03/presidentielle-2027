@@ -57,7 +57,11 @@ export default async function PageParti({ params }: { params: Promise<{ slug: st
         <dl className="flex flex-wrap gap-x-6 gap-y-2 text-sm">
           <div>
             <dt className="text-xs text-stone-600 dark:text-stone-400">Famille politique</dt>
-            <dd>{LIBELLES_FAMILLE[parti.famille]}</dd>
+            <dd>
+              <Link href={`/familles/${parti.famille}/`} className="lien">
+                {LIBELLES_FAMILLE[parti.famille]}
+              </Link>
+            </dd>
           </div>
           <div>
             <dt className="text-xs text-stone-600 dark:text-stone-400">

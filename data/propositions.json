@@ -1010,8 +1010,8 @@
     "indicateurs": [
       {
         "libelle": "Revalorisation des enseignants",
-        "valeur": "3 par an",
-        "unite": "%"
+        "valeur": "3 % par an",
+        "unite": null
       }
     ],
     "source": {
@@ -1033,8 +1033,8 @@
     "indicateurs": [
       {
         "libelle": "Revalorisation des enseignants",
-        "valeur": "20 sur le quinquennat",
-        "unite": "%"
+        "valeur": "20 % sur le quinquennat",
+        "unite": null
       }
     ],
     "source": {
@@ -1089,8 +1089,8 @@
     "indicateurs": [
       {
         "libelle": "Revalorisation des enseignants",
-        "valeur": "10, jusqu'à 25 selon la carrière",
-        "unite": "%"
+        "valeur": "10 %, jusqu'à 25 % selon la carrière",
+        "unite": null
       }
     ],
     "source": {
@@ -1117,8 +1117,8 @@
       },
       {
         "libelle": "Revalorisation des enseignants (montant mensuel)",
-        "valeur": "200, jusqu'à 500 en fin de carrière",
-        "unite": "euros nets"
+        "valeur": "200 € par mois, jusqu'à 500 € en fin de carrière",
+        "unite": null
       }
     ],
     "source": {
@@ -1141,12 +1141,12 @@
       {
         "libelle": "Élèves par classe visés",
         "valeur": "19 d'ici 2032, 12 en REP et REP+",
-        "unite": "élèves"
+        "unite": null
       },
       {
         "libelle": "Revalorisation des enseignants",
-        "valeur": "15 en cinq ans, en plus de l'inflation",
-        "unite": "%"
+        "valeur": "15 % en cinq ans, en plus de l’inflation",
+        "unite": null
       }
     ],
     "source": {
@@ -1168,8 +1168,8 @@
     "indicateurs": [
       {
         "libelle": "Revalorisation des enseignants (montant mensuel)",
-        "valeur": "135 en début de carrière, jusqu'à 300 en fin",
-        "unite": "euros nets"
+        "valeur": "135 € net en début de carrière, jusqu'à 300 € en fin",
+        "unite": null
       }
     ],
     "source": {

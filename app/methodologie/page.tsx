@@ -160,7 +160,9 @@ export default function PageMethodologie() {
                   className="border-b border-stone-200 last:border-0 dark:border-nuit-bord"
                 >
                   <th scope="row" className="p-3 font-medium">
-                    {LIBELLES_FAMILLE[ligne.famille]}
+                    <Link href={`/familles/${ligne.famille}/`} className="lien">
+                      {LIBELLES_FAMILLE[ligne.famille]}
+                    </Link>
                   </th>
                   <td className="p-3 text-stone-700 dark:text-stone-300">{ligne.nuances}</td>
                 </tr>
