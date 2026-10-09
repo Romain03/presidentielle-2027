@@ -10,6 +10,9 @@ import { useEffect } from 'react';
 export default function ServiceWorker() {
   useEffect(() => {
     if (!('serviceWorker' in navigator)) return;
+    // Dans l'application native, le site est embarqué dans le binaire : un
+    // cache supplémentaire n'apporte rien et pourrait figer une version.
+    if ('Capacitor' in window) return;
     const base = process.env.NEXT_PUBLIC_BASE_PATH ?? '';
     navigator.serviceWorker.register(`${base}/sw.js`, { scope: `${base}/` }).catch(() => {
       // Hors ligne ou contexte non sécurisé : l'application reste utilisable.

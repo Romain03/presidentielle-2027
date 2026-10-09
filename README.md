@@ -88,6 +88,18 @@ servirait rien.
 Pour un autre hébergeur servant à la racine (Vercel, Netlify, Cloudflare
 Pages), il n'y a aucune variable à définir : il suffit de publier `out/`.
 
+### Application iOS native
+
+Une coque Capacitor est en place dans `ios/`, avec le site entier embarqué dans
+le binaire. Elle n'est pas publiée : il manque Xcode sur la machine et une
+adhésion au programme développeur Apple. La procédure complète, les risques et
+l'alternative sont décrits dans [`APPSTORE.md`](APPSTORE.md).
+
+```bash
+npm run ios          # construit le site et le recopie dans la coque
+npm run ios:ouvrir   # ouvre le projet dans Xcode
+```
+
 ### Mode hors ligne
 
 Un service worker (`public/sw.js`) rend consultables hors connexion les pages

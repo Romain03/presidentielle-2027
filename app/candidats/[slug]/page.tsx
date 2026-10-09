@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
+import BoutonPartager from '@/components/BoutonPartager';
 import LienRetour from '@/components/LienRetour';
 import BadgeStatut from '@/components/BadgeStatut';
 import BlocProposition from '@/components/BlocProposition';
@@ -39,7 +40,13 @@ export default async function PageCandidat({ params }: { params: Promise<{ slug:
   return (
     <article className="space-y-10">
       <header className="space-y-4">
-        <LienRetour href="/candidats/" libelle="Tous les candidats" />
+        <div className="flex flex-wrap items-center justify-between gap-3">
+          <LienRetour href="/candidats/" libelle="Tous les candidats" />
+          <BoutonPartager
+            titre={`${nomComplet(candidat)} - positions pour la présidentielle 2027`}
+            chemin={`/candidats/${candidat.id}/`}
+          />
+        </div>
         <DerniereMiseAJour date={candidat.derniere_verification} />
 
         <div className="flex items-start gap-4">

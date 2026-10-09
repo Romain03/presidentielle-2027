@@ -10,9 +10,17 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "valider": "node scripts/valider-donnees.ts",
-    "mobile": "npm run build && python3 -m http.server 4321 --directory out --bind 0.0.0.0"
+    "mobile": "npm run build && python3 -m http.server 4321 --directory out --bind 0.0.0.0",
+    "ios": "NEXT_PUBLIC_SITE_URL=https://romain03.github.io/presidentielle-2027 npm run build && npx cap sync ios",
+    "ios:ouvrir": "npx cap open ios"
   },
   "dependencies": {
+    "@capacitor/app": "^8.1.2",
+    "@capacitor/cli": "^8.5.3",
+    "@capacitor/core": "^8.5.3",
+    "@capacitor/ios": "^8.5.3",
+    "@capacitor/share": "^8.0.3",
+    "@capacitor/status-bar": "^8.0.4",
     "next": "^15.5.4",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
