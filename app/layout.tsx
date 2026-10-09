@@ -9,6 +9,9 @@ import ServiceWorker from '@/components/ServiceWorker';
 const base = process.env.NEXT_PUBLIC_BASE_PATH ?? '';
 
 export const metadata: Metadata = {
+  metadataBase: process.env.NEXT_PUBLIC_SITE_URL
+    ? new URL(process.env.NEXT_PUBLIC_SITE_URL)
+    : undefined,
   title: {
     default: 'Présidentielle 2027 — candidats, partis et programmes',
     template: '%s — Présidentielle 2027',

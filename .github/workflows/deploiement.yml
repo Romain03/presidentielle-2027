@@ -35,12 +35,16 @@ jobs:
       - run: npm run build
         env:
           NEXT_PUBLIC_BASE_PATH: /${{ github.event.repository.name }}
+          NEXT_PUBLIC_SITE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}
 
       # Sans ce fichier, GitHub Pages ignore les dossiers commençant par un
       # tiret bas — donc tout /_next/, donc le site entier.
       - run: touch out/.nojekyll
 
       - uses: actions/configure-pages@v5
+        with:
+          # Active GitHub Pages sur le dépôt si ce n'est pas déjà fait.
+          enablement: true
 
       - uses: actions/upload-pages-artifact@v3
         with:
