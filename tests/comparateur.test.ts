@@ -153,8 +153,8 @@ describe('construireComparaison - indicateurs', () => {
       candidats,
       [theme('t')],
       [
-        proposition('a', 't', 'Mesure A', [{ libelle: 'Âge', valeur: 60, unite: 'ans' }]),
-        proposition('b', 't', 'Mesure B', [{ libelle: 'Âge', valeur: 65, unite: 'ans' }]),
+        proposition('a', 't', 'Mesure A', [{ libelle: 'Âge', valeur: 60, unite: 'ans', valeur_comparable: null }]),
+        proposition('b', 't', 'Mesure B', [{ libelle: 'Âge', valeur: 65, unite: 'ans', valeur_comparable: null }]),
       ],
     );
     const [indicateur] = c.lignes[0].indicateurs;
@@ -168,8 +168,8 @@ describe('construireComparaison - indicateurs', () => {
       candidats,
       [theme('t')],
       [
-        proposition('a', 't', 'Mesure A', [{ libelle: 'Âge', valeur: 60, unite: 'ans' }]),
-        proposition('b', 't', 'Mesure B', [{ libelle: 'Âge', valeur: 60, unite: 'ans' }]),
+        proposition('a', 't', 'Mesure A', [{ libelle: 'Âge', valeur: 60, unite: 'ans', valeur_comparable: null }]),
+        proposition('b', 't', 'Mesure B', [{ libelle: 'Âge', valeur: 60, unite: 'ans', valeur_comparable: null }]),
       ],
     );
     expect(c.lignes[0].indicateurs[0].divergent).toBe(false);
@@ -180,7 +180,7 @@ describe('construireComparaison - indicateurs', () => {
       candidats,
       [theme('t')],
       [
-        proposition('a', 't', 'Mesure A', [{ libelle: 'Économies', valeur: 40, unite: 'Md€' }]),
+        proposition('a', 't', 'Mesure A', [{ libelle: 'Économies', valeur: 40, unite: 'Md€', valeur_comparable: null }]),
         proposition('b', 't', 'Mesure B', []),
       ],
     );
@@ -188,9 +188,9 @@ describe('construireComparaison - indicateurs', () => {
   });
 
   it('formate une valeur avec et sans unité', () => {
-    expect(formaterIndicateur({ libelle: 'Âge', valeur: 63, unite: 'ans' })).toBe('63 ans');
+    expect(formaterIndicateur({ libelle: 'Âge', valeur: 63, unite: 'ans', valeur_comparable: null })).toBe('63 ans');
     expect(
-      formaterIndicateur({ libelle: 'Durée', valeur: 'non précisée', unite: null }),
+      formaterIndicateur({ libelle: 'Durée', valeur: 'non précisée', unite: null, valeur_comparable: null }),
     ).toBe('non précisée');
   });
 });
