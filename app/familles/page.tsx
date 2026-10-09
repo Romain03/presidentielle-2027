@@ -54,7 +54,13 @@ export default function PageFamilles() {
                   {pluriel(famille.nombrePropositions, 'proposition', 'propositions')}
                 </span>
                 <span className="mt-1 block text-xs text-stone-600 dark:text-stone-400">
-                  {famille.themesRenseignes.length} thèmes renseignés sur 12
+                  {famille.themesRenseignes.length}{' '}
+                  {pluriel(
+                    famille.themesRenseignes.length,
+                    'thème renseigné',
+                    'thèmes renseignés',
+                  )}{' '}
+                  sur 12
                 </span>
               </span>
               <span
