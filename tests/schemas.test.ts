@@ -183,6 +183,8 @@ describe('Parti', () => {
     sigle: 'UP',
     couleur: '#1e4b8f',
     famille: 'droite' as const,
+    fondation: null,
+    dirigeant: null,
     nuance_ministerielle: { code: 'LR', libelle: 'Les Républicains' },
     positionnement_declare: null,
     site_officiel: 'https://exemple.fr',
@@ -201,6 +203,33 @@ describe('Parti', () => {
 
   it('refuse une famille hors nomenclature', () => {
     expect(Parti.safeParse({ ...partiValide, famille: 'modérés' }).success).toBe(false);
+  });
+
+  it('accepte une fondation et un dirigeant sourcés', () => {
+    const resultat = Parti.safeParse({
+      ...partiValide,
+      fondation: { annee: 2015, source: sourceValide },
+      dirigeant: { nom: 'Une présidente', fonction: 'Présidente', source: sourceValide },
+    });
+    expect(resultat.success).toBe(true);
+  });
+
+  it('refuse une fondation ou un dirigeant sans source', () => {
+    expect(Parti.safeParse({ ...partiValide, fondation: { annee: 2015 } }).success).toBe(false);
+    expect(
+      Parti.safeParse({
+        ...partiValide,
+        dirigeant: { nom: 'Une présidente', fonction: 'Présidente' },
+      }).success,
+    ).toBe(false);
+  });
+
+  it('refuse une année de fondation absurde', () => {
+    for (const annee of [1500, 2200, 2015.5]) {
+      expect(
+        Parti.safeParse({ ...partiValide, fondation: { annee, source: sourceValide } }).success,
+      ).toBe(false);
+    }
   });
 
   it('exige une source pour un processus de désignation', () => {

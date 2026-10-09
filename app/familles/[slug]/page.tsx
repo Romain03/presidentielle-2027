@@ -4,7 +4,7 @@ import { notFound } from 'next/navigation';
 import BadgeNature from '@/components/BadgeNature';
 import BadgeStatut from '@/components/BadgeStatut';
 import DerniereMiseAJour from '@/components/DerniereMiseAJour';
-import IndicateursFamille from '@/components/IndicateursFamille';
+import IndicateursGroupe from '@/components/IndicateursGroupe';
 import LienRetour from '@/components/LienRetour';
 import LienSource from '@/components/LienSource';
 import PortraitCandidat from '@/components/PortraitCandidat';
@@ -165,7 +165,7 @@ export default async function PageFamille({ params }: { params: Promise<{ slug: 
 
                 {bloc.indicateurs.length > 0 && (
                   <div className="mt-3.5">
-                    <IndicateursFamille indicateurs={bloc.indicateurs} />
+                    <IndicateursGroupe indicateurs={bloc.indicateurs} />
                   </div>
                 )}
 

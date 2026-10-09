@@ -250,6 +250,28 @@ Les positions évoluent. Reprendre chaque source, mettre `derniere_verification`
 
 ---
 
+## Fiches des partis
+
+`python3 scripts/recuperer-partis.py` complète `data/partis.json` depuis
+Wikidata : année de fondation (P571), dirigeant en exercice (P488) et site
+officiel (P856). Rien d'autre - les propriétés d'« idéologie » et de
+« positionnement politique » de Wikidata sont des caractérisations par des
+tiers, pas des faits, et le site n'en reprend aucune.
+
+Le script refuse d'attacher une donnée dont il n'est pas sûr. Deux garde-fous :
+l'entité doit être typée comme parti ou organisation politique, et son libellé
+doit correspondre exactement au nom du parti, après découpage sur les
+séparateurs de dénominations alternatives. Sans ces contrôles, « Nous France »
+ramenait la fiche de **Xavier Bertrand lui-même**, Reconquête et le MoDem des
+pages d'homonymie, et « Debout ! » un parti homonyme fondé par quelqu'un
+d'autre.
+
+26 partis sur 33 sont documentés. Les 7 restants n'ont pas d'entité Wikidata
+fiable et affichent « Non renseignée » plutôt qu'une approximation.
+
+Le champ `positionnement_declare` reste vide partout : il n'accepte que la
+formulation du parti sur lui-même, jamais une caractérisation extérieure.
+
 ## Test de proximité
 
 `/test/` compare les réponses de l'utilisateur aux chiffres annoncés par les

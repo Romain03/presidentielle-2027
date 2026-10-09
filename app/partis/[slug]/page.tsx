@@ -1,11 +1,15 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import LienRetour from '@/components/LienRetour';
+import BadgeNature from '@/components/BadgeNature';
 import BadgeStatut from '@/components/BadgeStatut';
 import DerniereMiseAJour from '@/components/DerniereMiseAJour';
+import IndicateursGroupe from '@/components/IndicateursGroupe';
+import LienRetour from '@/components/LienRetour';
 import LienSource from '@/components/LienSource';
-import { candidatsDuParti, getParti, nombrePropositions, partis } from '@/lib/data';
+import PortraitCandidat from '@/components/PortraitCandidat';
+import { candidatsDuParti, getCandidat, getParti, nombrePropositions, partis } from '@/lib/data';
+import { synthetiserGroupe } from '@/lib/synthese';
 import { formaterDate, nomComplet, pluriel } from '@/lib/format';
 import { LIBELLES_FAMILLE } from '@/lib/schemas';
 
@@ -32,7 +36,7 @@ export async function generateMetadata({
   if (!parti) return { title: 'Parti introuvable' };
   return {
     title: `${parti.nom} (${parti.sigle})`,
-    description: `Candidats, positionnement et processus de désignation de ${parti.nom} pour l’élection présidentielle de 2027.`,
+    description: `Fondation, dirigeant, candidats et propositions de ${parti.nom} pour l’élection présidentielle de 2027.`,
   };
 }
 
@@ -41,49 +45,91 @@ export default async function PageParti({ params }: { params: Promise<{ slug: st
   const parti = getParti(slug);
   if (!parti) notFound();
 
-  const candidats = candidatsDuParti(parti.id);
+  const membres = candidatsDuParti(parti.id);
+  const synthese = synthetiserGroupe(membres);
 
   return (
-    <article className="space-y-8">
-      <header className="space-y-3">
+    <article className="space-y-10">
+      <header className="space-y-4">
         <LienRetour href="/partis/" libelle="Tous les partis" />
         <DerniereMiseAJour date={parti.derniere_verification} />
         <h1
-          className="border-l-4 pl-3 text-2xl font-semibold tracking-tight sm:text-3xl"
+          className="border-l-4 pl-4 text-3xl font-semibold sm:text-4xl"
           style={{ borderLeftColor: parti.couleur }}
         >
-          {parti.nom} ({parti.sigle})
+          {parti.nom}
+          <span className="block text-lg font-normal text-stone-600 dark:text-stone-400">
+            {parti.sigle}
+          </span>
         </h1>
-        <dl className="flex flex-wrap gap-x-6 gap-y-2 text-sm">
+
+        <dl className="grid gap-x-8 gap-y-4 sm:grid-cols-2">
           <div>
             <dt className="text-xs text-stone-600 dark:text-stone-400">Famille politique</dt>
-            <dd>
+            <dd className="text-sm">
               <Link href={`/familles/${parti.famille}/`} className="lien">
                 {LIBELLES_FAMILLE[parti.famille]}
               </Link>
             </dd>
           </div>
+
+          <div>
+            <dt className="text-xs text-stone-600 dark:text-stone-400">Fondation</dt>
+            <dd className="space-y-0.5 text-sm">
+              {parti.fondation === null ? (
+                <span className="text-stone-600 dark:text-stone-400">Non renseignée</span>
+              ) : (
+                <>
+                  <span className="block tabular-nums">{parti.fondation.annee}</span>
+                  <LienSource source={parti.fondation.source} />
+                </>
+              )}
+            </dd>
+          </div>
+
+          <div>
+            <dt className="text-xs text-stone-600 dark:text-stone-400">Direction</dt>
+            <dd className="space-y-0.5 text-sm">
+              {parti.dirigeant === null ? (
+                <span className="text-stone-600 dark:text-stone-400">Non renseignée</span>
+              ) : (
+                <>
+                  <span className="block">
+                    {parti.dirigeant.nom}{' '}
+                    <span className="text-stone-600 dark:text-stone-400">
+                      ({parti.dirigeant.fonction.toLowerCase()})
+                    </span>
+                  </span>
+                  <LienSource source={parti.dirigeant.source} />
+                </>
+              )}
+            </dd>
+          </div>
+
           <div>
             <dt className="text-xs text-stone-600 dark:text-stone-400">
               Nuance du ministère de l’Intérieur
             </dt>
-            <dd>
-              {parti.nuance_ministerielle !== null
-                ? `${parti.nuance_ministerielle.code} - ${parti.nuance_ministerielle.libelle}`
-                : 'Non renseignée'}
+            <dd className="text-sm">
+              {parti.nuance_ministerielle !== null ? (
+                `${parti.nuance_ministerielle.code} - ${parti.nuance_ministerielle.libelle}`
+              ) : (
+                <span className="text-stone-600 dark:text-stone-400">Non renseignée</span>
+              )}
             </dd>
           </div>
+
           {parti.site_officiel !== null && (
-            <div>
+            <div className="sm:col-span-2">
               <dt className="text-xs text-stone-600 dark:text-stone-400">Site officiel</dt>
-              <dd>
+              <dd className="text-sm">
                 <a
                   href={parti.site_officiel}
                   target="_blank"
                   rel="noopener noreferrer nofollow"
-                  className="underline underline-offset-2"
+                  className="lien"
                 >
-                  {parti.site_officiel.replace(/^https?:\/\//, '')}
+                  {parti.site_officiel.replace(/^https?:\/\//, '').replace(/\/$/, '')}
                   <span aria-hidden="true"> ↗</span>
                   <span className="sr-only"> (nouvelle fenêtre)</span>
                 </a>
@@ -93,26 +139,29 @@ export default async function PageParti({ params }: { params: Promise<{ slug: st
         </dl>
       </header>
 
-      <section aria-labelledby="positionnement" className="space-y-2">
-        <h2 id="positionnement" className="text-lg font-semibold">
+      <section aria-labelledby="positionnement" className="max-w-2xl space-y-2">
+        <h2 id="positionnement" className="text-xl font-semibold">
           Positionnement déclaré
         </h2>
         {parti.positionnement_declare === null ? (
-          <p className="text-sm text-stone-600 dark:text-stone-400">
-            Aucun positionnement formulé par le parti lui-même n’a été relevé et sourcé à ce stade.
+          <p className="text-sm leading-relaxed text-stone-600 dark:text-stone-400">
+            Aucune formulation du parti sur lui-même n’a été relevée et sourcée à ce stade. Le
+            site ne reprend pas les caractérisations faites par des tiers - ni celles de la
+            presse, ni celles des encyclopédies - parce qu’elles engagent leur auteur, pas le
+            parti.
           </p>
         ) : (
           <div className="space-y-1.5">
-            <p className="text-stone-700 dark:text-stone-300">
+            <blockquote className="border-l-2 border-stone-900/20 pl-3.5 font-serif text-lg italic leading-relaxed dark:border-white/20">
               «&nbsp;{parti.positionnement_declare.texte}&nbsp;»
-            </p>
+            </blockquote>
             <LienSource source={parti.positionnement_declare.source} />
           </div>
         )}
       </section>
 
-      <section aria-labelledby="designation" className="space-y-2">
-        <h2 id="designation" className="text-lg font-semibold">
+      <section aria-labelledby="designation" className="max-w-2xl space-y-2">
+        <h2 id="designation" className="text-xl font-semibold">
           Processus de désignation
         </h2>
         {parti.processus_designation === null ? (
@@ -125,7 +174,7 @@ export default async function PageParti({ params }: { params: Promise<{ slug: st
               {LIBELLES_DESIGNATION[parti.processus_designation.type] ??
                 parti.processus_designation.type}
             </p>
-            <p className="text-stone-700 dark:text-stone-300">
+            <p className="leading-relaxed text-stone-700 dark:text-stone-300">
               {parti.processus_designation.libelle}
             </p>
             {parti.processus_designation.dates.length > 0 && (
@@ -139,33 +188,120 @@ export default async function PageParti({ params }: { params: Promise<{ slug: st
       </section>
 
       <section aria-labelledby="candidats" className="space-y-3">
-        <h2 id="candidats" className="text-lg font-semibold">
+        <h2 id="candidats" className="text-xl font-semibold">
           Candidats
         </h2>
-        {candidats.length === 0 ? (
+        {membres.length === 0 ? (
           <p className="text-sm text-stone-600 dark:text-stone-400">
             Aucun candidat rattaché à ce parti n’est recensé.
           </p>
         ) : (
-          <ul className="space-y-2">
-            {candidats.map((candidat) => {
+          <ul className="grid gap-2 sm:grid-cols-2">
+            {membres.map((candidat) => {
               const nombre = nombrePropositions(candidat.id);
               return (
                 <li key={candidat.id}>
                   <Link
                     href={`/candidats/${candidat.id}/`}
-                    className="flex flex-wrap items-center gap-x-3 gap-y-1 carte carte-interactive p-3 text-sm"
+                    className="carte carte-interactive flex items-center gap-3.5 p-3.5"
                   >
-                    <span className="font-medium">{nomComplet(candidat)}</span>
-                    <BadgeStatut statut={candidat.statut} />
-                    <span className="text-stone-600 dark:text-stone-400">
-                      {nombre} {pluriel(nombre, 'proposition sourcée', 'propositions sourcées')}
+                    <PortraitCandidat candidat={candidat} taille={44} />
+                    <span className="min-w-0 flex-1 space-y-1">
+                      <span className="block font-medium">{nomComplet(candidat)}</span>
+                      <span className="flex flex-wrap items-center gap-x-2.5 gap-y-1">
+                        <BadgeStatut statut={candidat.statut} />
+                        <span className="text-xs text-stone-600 dark:text-stone-400">
+                          {nombre} {pluriel(nombre, 'proposition', 'propositions')}
+                        </span>
+                      </span>
                     </span>
                   </Link>
                 </li>
               );
             })}
           </ul>
+        )}
+      </section>
+
+      <section aria-labelledby="propositions" className="space-y-4">
+        <h2 id="propositions" className="text-xl font-semibold">
+          Ce que proposent ses candidats
+        </h2>
+
+        {synthese.themesRenseignes.length === 0 ? (
+          <p className="text-sm text-stone-600 dark:text-stone-400">
+            Aucun candidat de ce parti ne s’est exprimé de manière sourçable sur l’un des douze
+            thèmes suivis.
+          </p>
+        ) : (
+          <div className="space-y-4">
+            {synthese.themesRenseignes.map((bloc) => (
+              <section key={bloc.theme.id} className="carte p-5">
+                <div className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
+                  <h3 className="font-serif text-lg font-semibold">
+                    <Link
+                      href={`/themes/${bloc.theme.id}/`}
+                      className="underline-offset-2 hover:underline"
+                    >
+                      {bloc.theme.libelle}
+                    </Link>
+                  </h3>
+                  <p className="text-sm text-stone-600 dark:text-stone-400">
+                    {bloc.exprimes}{' '}
+                    {pluriel(bloc.exprimes, 'candidat s’est exprimé', 'candidats se sont exprimés')}
+                    {membres.length > 1 && ` sur ${membres.length}`}
+                  </p>
+                </div>
+
+                {bloc.indicateurs.length > 0 && (
+                  <div className="mt-3.5">
+                    <IndicateursGroupe indicateurs={bloc.indicateurs} />
+                  </div>
+                )}
+
+                <ul className="mt-3.5 space-y-4">
+                  {bloc.propositions.map((proposition) => {
+                    const candidat = getCandidat(proposition.candidat_id);
+                    return (
+                      <li
+                        key={proposition.id}
+                        className="space-y-1.5 border-l-2 border-stone-900/10 pl-3.5 dark:border-white/12"
+                      >
+                        <p className="flex flex-wrap items-center gap-x-2.5 gap-y-1">
+                          {membres.length > 1 && (
+                            <Link
+                              href={`/candidats/${proposition.candidat_id}/#${proposition.theme_id}`}
+                              className="text-sm font-medium underline-offset-2 hover:underline"
+                            >
+                              {candidat ? nomComplet(candidat) : proposition.candidat_id}
+                            </Link>
+                          )}
+                          <BadgeNature nature={proposition.nature} />
+                        </p>
+                        <p className="text-sm leading-relaxed">{proposition.resume}</p>
+                        <LienSource source={proposition.source} />
+                      </li>
+                    );
+                  })}
+                </ul>
+              </section>
+            ))}
+          </div>
+        )}
+
+        {synthese.themesMuets.length > 0 && membres.length > 0 && (
+          <p className="text-sm leading-relaxed text-stone-600 dark:text-stone-400">
+            Aucun candidat de ce parti ne s’est exprimé de manière sourçable sur :{' '}
+            {synthese.themesMuets.map((theme, i) => (
+              <span key={theme.id}>
+                {i > 0 && ', '}
+                <Link href={`/themes/${theme.id}/`} className="lien">
+                  {theme.libelle.toLowerCase()}
+                </Link>
+              </span>
+            ))}
+            .
+          </p>
         )}
       </section>
     </article>

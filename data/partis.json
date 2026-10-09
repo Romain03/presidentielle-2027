@@ -7,9 +7,28 @@
     "famille": "gauche",
     "nuance_ministerielle": null,
     "positionnement_declare": null,
-    "site_officiel": null,
+    "site_officiel": "https://www.debout.fr/",
     "processus_designation": null,
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "fondation": {
+      "annee": 2025,
+      "source": {
+        "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+        "titre": "Candidatures à l'élection présidentielle française de 2027",
+        "type": "encyclopedie",
+        "date": "2026-10-04"
+      }
+    },
+    "dirigeant": {
+      "nom": "François Ruffin",
+      "fonction": "Président",
+      "source": {
+        "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+        "titre": "Candidatures à l'élection présidentielle française de 2027",
+        "type": "encyclopedie",
+        "date": "2026-10-04"
+      }
+    }
   },
   {
     "id": "debout-la-france",
@@ -24,7 +43,26 @@
     "positionnement_declare": null,
     "site_officiel": "https://debout-la-france.fr",
     "processus_designation": null,
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "fondation": {
+      "annee": 1999,
+      "source": {
+        "titre": "Wikidata",
+        "type": "encyclopedie",
+        "date": "2026-10-10",
+        "url": "https://www.wikidata.org/wiki/Q12962"
+      }
+    },
+    "dirigeant": {
+      "nom": "Nicolas Dupont-Aignan",
+      "fonction": "Président",
+      "source": {
+        "titre": "Wikidata",
+        "type": "encyclopedie",
+        "date": "2026-10-10",
+        "url": "https://www.wikidata.org/wiki/Q12962"
+      }
+    }
   },
   {
     "id": "droite-souverainiste",
@@ -39,7 +77,9 @@
     "positionnement_declare": null,
     "site_officiel": null,
     "processus_designation": null,
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "fondation": null,
+    "dirigeant": null
   },
   {
     "id": "elvita",
@@ -51,7 +91,9 @@
     "positionnement_declare": null,
     "site_officiel": null,
     "processus_designation": null,
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "fondation": null,
+    "dirigeant": null
   },
   {
     "id": "france-libre",
@@ -63,7 +105,9 @@
     "positionnement_declare": null,
     "site_officiel": null,
     "processus_designation": null,
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "fondation": null,
+    "dirigeant": null
   },
   {
     "id": "gauche-republicaine-et-socialiste",
@@ -75,7 +119,26 @@
     "positionnement_declare": null,
     "site_officiel": "https://g-r-s.fr",
     "processus_designation": null,
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "fondation": {
+      "annee": 2018,
+      "source": {
+        "titre": "Wikidata",
+        "type": "encyclopedie",
+        "date": "2026-10-10",
+        "url": "https://www.wikidata.org/wiki/Q58329311"
+      }
+    },
+    "dirigeant": {
+      "nom": "Emmanuel Maurel",
+      "fonction": "Président",
+      "source": {
+        "titre": "Wikidata",
+        "type": "encyclopedie",
+        "date": "2026-10-10",
+        "url": "https://www.wikidata.org/wiki/Q58329311"
+      }
+    }
   },
   {
     "id": "generation-ecologie",
@@ -85,9 +148,28 @@
     "famille": "ecologistes",
     "nuance_ministerielle": null,
     "positionnement_declare": null,
-    "site_officiel": null,
+    "site_officiel": "https://www.generationecologie.fr/",
     "processus_designation": null,
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "fondation": {
+      "annee": 1990,
+      "source": {
+        "titre": "Wikidata",
+        "type": "encyclopedie",
+        "date": "2026-10-10",
+        "url": "https://www.wikidata.org/wiki/Q1153753"
+      }
+    },
+    "dirigeant": {
+      "nom": "Yves Piétrasanta",
+      "fonction": "Président",
+      "source": {
+        "titre": "Wikidata",
+        "type": "encyclopedie",
+        "date": "2026-10-10",
+        "url": "https://www.wikidata.org/wiki/Q1153753"
+      }
+    }
   },
   {
     "id": "generations",
@@ -97,9 +179,19 @@
     "famille": "gauche",
     "nuance_ministerielle": null,
     "positionnement_declare": null,
-    "site_officiel": null,
+    "site_officiel": "https://www.generation-s.fr/",
     "processus_designation": null,
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "fondation": {
+      "annee": 2017,
+      "source": {
+        "titre": "Wikidata",
+        "type": "encyclopedie",
+        "date": "2026-10-10",
+        "url": "https://www.wikidata.org/wiki/Q31400965"
+      }
+    },
+    "dirigeant": null
   },
   {
     "id": "horizons",
@@ -111,7 +203,26 @@
     "positionnement_declare": null,
     "site_officiel": "https://horizonsleparti.fr",
     "processus_designation": null,
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "fondation": {
+      "annee": 2021,
+      "source": {
+        "titre": "Wikidata",
+        "type": "encyclopedie",
+        "date": "2026-10-10",
+        "url": "https://www.wikidata.org/wiki/Q108846587"
+      }
+    },
+    "dirigeant": {
+      "nom": "Édouard Philippe",
+      "fonction": "Président",
+      "source": {
+        "titre": "Wikidata",
+        "type": "encyclopedie",
+        "date": "2026-10-10",
+        "url": "https://www.wikidata.org/wiki/Q108846587"
+      }
+    }
   },
   {
     "id": "la-convention",
@@ -121,9 +232,19 @@
     "famille": "gauche",
     "nuance_ministerielle": null,
     "positionnement_declare": null,
-    "site_officiel": null,
+    "site_officiel": "https://www.la-convention.fr/",
     "processus_designation": null,
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "fondation": {
+      "annee": 2023,
+      "source": {
+        "titre": "Wikidata",
+        "type": "encyclopedie",
+        "date": "2026-10-10",
+        "url": "https://www.wikidata.org/wiki/Q135755468"
+      }
+    },
+    "dirigeant": null
   },
   {
     "id": "la-france-humaniste",
@@ -135,7 +256,9 @@
     "positionnement_declare": null,
     "site_officiel": null,
     "processus_designation": null,
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "fondation": null,
+    "dirigeant": null
   },
   {
     "id": "la-france-insoumise",
@@ -150,7 +273,26 @@
     "positionnement_declare": null,
     "site_officiel": "https://lafranceinsoumise.fr",
     "processus_designation": null,
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "fondation": {
+      "annee": 2016,
+      "source": {
+        "titre": "Wikidata",
+        "type": "encyclopedie",
+        "date": "2026-10-10",
+        "url": "https://www.wikidata.org/wiki/Q27978402"
+      }
+    },
+    "dirigeant": {
+      "nom": "Manuel Bompard",
+      "fonction": "Président",
+      "source": {
+        "titre": "Wikidata",
+        "type": "encyclopedie",
+        "date": "2026-10-10",
+        "url": "https://www.wikidata.org/wiki/Q27978402"
+      }
+    }
   },
   {
     "id": "l-apres",
@@ -160,9 +302,19 @@
     "famille": "gauche",
     "nuance_ministerielle": null,
     "positionnement_declare": null,
-    "site_officiel": null,
+    "site_officiel": "https://www.l-apres.fr/",
     "processus_designation": null,
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "fondation": {
+      "annee": 2024,
+      "source": {
+        "titre": "Wikidata",
+        "type": "encyclopedie",
+        "date": "2026-10-10",
+        "url": "https://www.wikidata.org/wiki/Q127413320"
+      }
+    },
+    "dirigeant": null
   },
   {
     "id": "les-ecologistes",
@@ -189,7 +341,26 @@
         "date": "2026-10-04"
       }
     },
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "fondation": {
+      "annee": 2010,
+      "source": {
+        "titre": "Wikidata",
+        "type": "encyclopedie",
+        "date": "2026-10-10",
+        "url": "https://www.wikidata.org/wiki/Q613786"
+      }
+    },
+    "dirigeant": {
+      "nom": "Marine Tondelier",
+      "fonction": "Président",
+      "source": {
+        "titre": "Wikidata",
+        "type": "encyclopedie",
+        "date": "2026-10-10",
+        "url": "https://www.wikidata.org/wiki/Q613786"
+      }
+    }
   },
   {
     "id": "les-patriotes",
@@ -201,7 +372,26 @@
     "positionnement_declare": null,
     "site_officiel": "https://les-patriotes.fr",
     "processus_designation": null,
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "fondation": {
+      "annee": 2017,
+      "source": {
+        "titre": "Wikidata",
+        "type": "encyclopedie",
+        "date": "2026-10-10",
+        "url": "https://www.wikidata.org/wiki/Q41330182"
+      }
+    },
+    "dirigeant": {
+      "nom": "Florian Philippot",
+      "fonction": "Président",
+      "source": {
+        "titre": "Wikidata",
+        "type": "encyclopedie",
+        "date": "2026-10-10",
+        "url": "https://www.wikidata.org/wiki/Q41330182"
+      }
+    }
   },
   {
     "id": "les-republicains",
@@ -228,7 +418,26 @@
         "date": "2026-04-21"
       }
     },
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "fondation": {
+      "annee": 2015,
+      "source": {
+        "titre": "Wikidata",
+        "type": "encyclopedie",
+        "date": "2026-10-10",
+        "url": "https://www.wikidata.org/wiki/Q20012759"
+      }
+    },
+    "dirigeant": {
+      "nom": "Bruno Retailleau",
+      "fonction": "Président",
+      "source": {
+        "titre": "Wikidata",
+        "type": "encyclopedie",
+        "date": "2026-10-10",
+        "url": "https://www.wikidata.org/wiki/Q20012759"
+      }
+    }
   },
   {
     "id": "lutte-ouvriere",
@@ -243,7 +452,17 @@
     "positionnement_declare": null,
     "site_officiel": "https://lutte-ouvriere.org",
     "processus_designation": null,
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "fondation": {
+      "annee": 1939,
+      "source": {
+        "titre": "Wikidata",
+        "type": "encyclopedie",
+        "date": "2026-10-10",
+        "url": "https://www.wikidata.org/wiki/Q870667"
+      }
+    },
+    "dirigeant": null
   },
   {
     "id": "mouvement-democrate",
@@ -255,7 +474,26 @@
     "positionnement_declare": null,
     "site_officiel": "https://mouvementdemocrate.fr",
     "processus_designation": null,
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "fondation": {
+      "annee": 2007,
+      "source": {
+        "titre": "Wikidata",
+        "type": "encyclopedie",
+        "date": "2026-10-10",
+        "url": "https://www.wikidata.org/wiki/Q587370"
+      }
+    },
+    "dirigeant": {
+      "nom": "François Bayrou",
+      "fonction": "Président",
+      "source": {
+        "titre": "Wikidata",
+        "type": "encyclopedie",
+        "date": "2026-10-10",
+        "url": "https://www.wikidata.org/wiki/Q587370"
+      }
+    }
   },
   {
     "id": "nous-france",
@@ -267,7 +505,9 @@
     "positionnement_declare": null,
     "site_officiel": null,
     "processus_designation": null,
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "fondation": null,
+    "dirigeant": null
   },
   {
     "id": "nouvelle-energie",
@@ -277,9 +517,19 @@
     "famille": "droite",
     "nuance_ministerielle": null,
     "positionnement_declare": null,
-    "site_officiel": null,
+    "site_officiel": "https://www.unenouvelleenergie.fr/",
     "processus_designation": null,
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "fondation": {
+      "annee": 2023,
+      "source": {
+        "titre": "Wikidata",
+        "type": "encyclopedie",
+        "date": "2026-10-10",
+        "url": "https://www.wikidata.org/wiki/Q123528596"
+      }
+    },
+    "dirigeant": null
   },
   {
     "id": "npa-revolutionnaires",
@@ -294,7 +544,9 @@
     "positionnement_declare": null,
     "site_officiel": null,
     "processus_designation": null,
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "fondation": null,
+    "dirigeant": null
   },
   {
     "id": "parti-animaliste",
@@ -309,7 +561,26 @@
     "positionnement_declare": null,
     "site_officiel": "https://parti-animaliste.fr",
     "processus_designation": null,
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "fondation": {
+      "annee": 2016,
+      "source": {
+        "titre": "Wikidata",
+        "type": "encyclopedie",
+        "date": "2026-10-10",
+        "url": "https://www.wikidata.org/wiki/Q27867942"
+      }
+    },
+    "dirigeant": {
+      "nom": "Catherine Hélayel",
+      "fonction": "Président",
+      "source": {
+        "titre": "Wikidata",
+        "type": "encyclopedie",
+        "date": "2026-10-10",
+        "url": "https://www.wikidata.org/wiki/Q27867942"
+      }
+    }
   },
   {
     "id": "parti-communiste-francais",
@@ -336,7 +607,17 @@
         "date": "2026-10-04"
       }
     },
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "fondation": {
+      "annee": 1920,
+      "source": {
+        "titre": "Wikidata",
+        "type": "encyclopedie",
+        "date": "2026-10-10",
+        "url": "https://www.wikidata.org/wiki/Q192821"
+      }
+    },
+    "dirigeant": null
   },
   {
     "id": "parti-socialiste",
@@ -366,7 +647,26 @@
         "date": "2026-09-23"
       }
     },
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "fondation": {
+      "annee": 1969,
+      "source": {
+        "titre": "Wikidata",
+        "type": "encyclopedie",
+        "date": "2026-10-10",
+        "url": "https://www.wikidata.org/wiki/Q170972"
+      }
+    },
+    "dirigeant": {
+      "nom": "Olivier Faure",
+      "fonction": "Président",
+      "source": {
+        "titre": "Wikidata",
+        "type": "encyclopedie",
+        "date": "2026-10-10",
+        "url": "https://www.wikidata.org/wiki/Q170972"
+      }
+    }
   },
   {
     "id": "place-publique",
@@ -378,7 +678,26 @@
     "positionnement_declare": null,
     "site_officiel": "https://placepublique.eu",
     "processus_designation": null,
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "fondation": {
+      "annee": 2018,
+      "source": {
+        "titre": "Wikidata",
+        "type": "encyclopedie",
+        "date": "2026-10-10",
+        "url": "https://www.wikidata.org/wiki/Q58366009"
+      }
+    },
+    "dirigeant": {
+      "nom": "Raphaël Glucksmann",
+      "fonction": "Président",
+      "source": {
+        "titre": "Wikidata",
+        "type": "encyclopedie",
+        "date": "2026-10-10",
+        "url": "https://www.wikidata.org/wiki/Q58366009"
+      }
+    }
   },
   {
     "id": "rassemblement-national",
@@ -393,7 +712,17 @@
     "positionnement_declare": null,
     "site_officiel": "https://rassemblementnational.fr",
     "processus_designation": null,
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "fondation": {
+      "annee": 1972,
+      "source": {
+        "titre": "Wikidata",
+        "type": "encyclopedie",
+        "date": "2026-10-10",
+        "url": "https://www.wikidata.org/wiki/Q205150"
+      }
+    },
+    "dirigeant": null
   },
   {
     "id": "reconquete",
@@ -408,7 +737,26 @@
     "positionnement_declare": null,
     "site_officiel": "https://parti-reconquete.fr",
     "processus_designation": null,
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "fondation": {
+      "annee": 2021,
+      "source": {
+        "titre": "Wikidata",
+        "type": "encyclopedie",
+        "date": "2026-10-10",
+        "url": "https://www.wikidata.org/wiki/Q109932430"
+      }
+    },
+    "dirigeant": {
+      "nom": "Éric Zemmour",
+      "fonction": "Président",
+      "source": {
+        "titre": "Wikidata",
+        "type": "encyclopedie",
+        "date": "2026-10-10",
+        "url": "https://www.wikidata.org/wiki/Q109932430"
+      }
+    }
   },
   {
     "id": "renaissance",
@@ -420,7 +768,26 @@
     "positionnement_declare": null,
     "site_officiel": "https://parti-renaissance.fr",
     "processus_designation": null,
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "fondation": {
+      "annee": 2016,
+      "source": {
+        "titre": "Wikidata",
+        "type": "encyclopedie",
+        "date": "2026-10-10",
+        "url": "https://www.wikidata.org/wiki/Q23731823"
+      }
+    },
+    "dirigeant": {
+      "nom": "Gabriel Attal",
+      "fonction": "Président",
+      "source": {
+        "titre": "Wikidata",
+        "type": "encyclopedie",
+        "date": "2026-10-10",
+        "url": "https://www.wikidata.org/wiki/Q23731823"
+      }
+    }
   },
   {
     "id": "resistons",
@@ -430,9 +797,28 @@
     "famille": "divers",
     "nuance_ministerielle": null,
     "positionnement_declare": null,
-    "site_officiel": null,
+    "site_officiel": "https://resistons-france.fr/",
     "processus_designation": null,
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "fondation": {
+      "annee": 2016,
+      "source": {
+        "titre": "Wikidata",
+        "type": "encyclopedie",
+        "date": "2026-10-10",
+        "url": "https://www.wikidata.org/wiki/Q39052782"
+      }
+    },
+    "dirigeant": {
+      "nom": "Jean Lassalle",
+      "fonction": "Président",
+      "source": {
+        "titre": "Wikidata",
+        "type": "encyclopedie",
+        "date": "2026-10-10",
+        "url": "https://www.wikidata.org/wiki/Q39052782"
+      }
+    }
   },
   {
     "id": "revolution-permanente",
@@ -447,7 +833,17 @@
     "positionnement_declare": null,
     "site_officiel": "https://revolutionpermanente.fr",
     "processus_designation": null,
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "fondation": {
+      "annee": 2011,
+      "source": {
+        "titre": "Wikidata",
+        "type": "encyclopedie",
+        "date": "2026-10-10",
+        "url": "https://www.wikidata.org/wiki/Q22981822"
+      }
+    },
+    "dirigeant": null
   },
   {
     "id": "trajectoire",
@@ -459,7 +855,9 @@
     "positionnement_declare": null,
     "site_officiel": null,
     "processus_designation": null,
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "fondation": null,
+    "dirigeant": null
   },
   {
     "id": "union-democratique-bretonne",
@@ -474,7 +872,17 @@
     "positionnement_declare": null,
     "site_officiel": "https://udb.bzh",
     "processus_designation": null,
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "fondation": {
+      "annee": 1964,
+      "source": {
+        "titre": "Wikidata",
+        "type": "encyclopedie",
+        "date": "2026-10-10",
+        "url": "https://www.wikidata.org/wiki/Q1145020"
+      }
+    },
+    "dirigeant": null
   },
   {
     "id": "union-populaire-republicaine",
@@ -486,6 +894,25 @@
     "positionnement_declare": null,
     "site_officiel": "https://upr.fr",
     "processus_designation": null,
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "fondation": {
+      "annee": 2007,
+      "source": {
+        "titre": "Wikidata",
+        "type": "encyclopedie",
+        "date": "2026-10-10",
+        "url": "https://www.wikidata.org/wiki/Q7030472"
+      }
+    },
+    "dirigeant": {
+      "nom": "François Asselineau",
+      "fonction": "Président",
+      "source": {
+        "titre": "Wikidata",
+        "type": "encyclopedie",
+        "date": "2026-10-10",
+        "url": "https://www.wikidata.org/wiki/Q7030472"
+      }
+    }
   }
 ]

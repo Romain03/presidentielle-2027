@@ -121,6 +121,16 @@ export const Parti = z
       .object({ code: z.string().min(2).max(6), libelle: z.string().min(3) })
       .strict()
       .nullable(),
+    /** Année de création, telle que Wikidata la documente. */
+    fondation: z
+      .object({ annee: z.number().int().min(1700).max(2100), source: Source })
+      .strict()
+      .nullable(),
+    /** Dirigeant en exercice. Fonction et nom seulement : aucun jugement. */
+    dirigeant: z
+      .object({ nom: z.string().min(2), fonction: z.string().min(2), source: Source })
+      .strict()
+      .nullable(),
     /** Positionnement tel que le parti le formule lui-même, avec sa source. */
     positionnement_declare: z
       .object({ texte: z.string().min(5), source: Source })

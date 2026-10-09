@@ -43,9 +43,13 @@ export default function PagePartis() {
                 </span>
                 <span className="block text-sm text-stone-600 dark:text-stone-400">
                   {LIBELLES_FAMILLE[parti.famille]}
-                  {parti.nuance_ministerielle !== null &&
-                    ` · nuance ${parti.nuance_ministerielle.code}`}
+                  {parti.fondation !== null && ` · fondé en ${parti.fondation.annee}`}
                 </span>
+                {parti.dirigeant !== null && (
+                  <span className="block text-xs text-stone-600 dark:text-stone-400">
+                    {parti.dirigeant.fonction} : {parti.dirigeant.nom}
+                  </span>
+                )}
                 <span className="mt-2 block space-y-1">
                   {candidats.length === 0 ? (
                     <span className="text-sm text-stone-600 dark:text-stone-400">

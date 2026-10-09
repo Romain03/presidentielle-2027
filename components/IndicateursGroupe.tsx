@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { nomComplet } from '@/lib/format';
-import type { IndicateurFamille } from '@/lib/familles';
+import type { IndicateurGroupe } from '@/lib/synthese';
 
 /**
  * Valeurs chiffrées regroupées : chaque ligne porte une valeur et les
@@ -8,10 +8,10 @@ import type { IndicateurFamille } from '@/lib/familles';
  * pas une interprétation : deux candidats peuvent annoncer le même chiffre
  * pour des raisons opposées.
  */
-export default function IndicateursFamille({
+export default function IndicateursGroupe({
   indicateurs,
 }: {
-  indicateurs: IndicateurFamille[];
+  indicateurs: IndicateurGroupe[];
 }) {
   if (indicateurs.length === 0) return null;
 
