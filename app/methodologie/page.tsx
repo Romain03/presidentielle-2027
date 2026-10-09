@@ -141,6 +141,17 @@ export default function PageMethodologie() {
           La nuance n’est renseignée que lorsque son code officiel est certain ; elle s’affiche
           « Non renseignée » dans le cas contraire, plutôt que d’être devinée.
         </p>
+        <p className="max-w-2xl text-sm leading-relaxed text-stone-700 dark:text-stone-300">
+          Chaque famille dispose d’une{' '}
+          <Link href="/familles/" className="lien">
+            page dédiée
+          </Link>
+          . Elle indique qui la compose et rapproche ce que ses candidats ont déclaré, en
+          regroupant les valeurs chiffrées identiques. Elle ne formule aucune définition de ce que
+          la famille « pense » : appartenir à la même famille n’implique aucun accord, et deux
+          candidats peuvent avancer le même chiffre pour des raisons opposées. Un indicateur
+          énoncé par un seul candidat n’y figure pas, puisqu’il n’apprend rien sur la famille.
+        </p>
         <div className="carte overflow-x-auto">
           <table className="w-full min-w-[32rem] border-collapse text-left text-sm">
             <thead>
