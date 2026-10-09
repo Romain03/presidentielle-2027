@@ -12,7 +12,7 @@
 import { readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
-import { Candidats, Partis, Propositions, Themes } from '../lib/schemas.ts';
+import { Candidats, Partis, Propositions, Questions, Themes } from '../lib/schemas.ts';
 
 const racine = join(dirname(fileURLToPath(import.meta.url)), '..');
 const erreurs: string[] = [];
@@ -40,6 +40,7 @@ const partis = valider<any>(Partis, 'partis.json');
 const candidats = valider<any>(Candidats, 'candidats.json');
 const themes = valider<any>(Themes, 'themes.json');
 const propositions = valider<any>(Propositions, 'propositions.json');
+const questionsTest = valider<any>(Questions, 'questions.json');
 
 /* --------------------------------------------------- intégrité référentielle */
 
@@ -101,6 +102,33 @@ for (const t of themes) {
   if (nombre === 0) avertissements.push(`themes.json → ${t.id} : aucun candidat ne s'est exprimé`);
 }
 
+/* ------------------------------------------------- état du test de proximité */
+
+// Mêmes seuils que lib/test.ts. Permet de suivre, à chaque exécution, ce qui
+// manque encore pour que le test s'active.
+const MIN_CANDIDATS_PAR_QUESTION = 4;
+const MIN_QUESTIONS_ACTIVES = 8;
+const MIN_CANDIDATS_ELIGIBLES = 6;
+
+const couvertureTest = questionsTest.map((q) => {
+  const vus = new Set<string>();
+  for (const p of propositions) {
+    if (p.theme_id !== q.theme_id) continue;
+    for (const i of p.indicateurs) {
+      if (i.libelle === q.indicateur && i.valeur_comparable !== null) vus.add(p.candidat_id);
+    }
+  }
+  return { id: q.id, candidats: vus, retenue: vus.size >= MIN_CANDIDATS_PAR_QUESTION };
+});
+
+const retenues = couvertureTest.filter((c) => c.retenue);
+const requises = Math.max(1, Math.ceil(retenues.length * 0.5));
+const eligibles = candidats.filter(
+  (c) => retenues.length > 0 && retenues.filter((q) => q.candidats.has(c.id)).length >= requises,
+);
+const testActif =
+  retenues.length >= MIN_QUESTIONS_ACTIVES && eligibles.length >= MIN_CANDIDATS_ELIGIBLES;
+
 /* ------------------------------------------------------------------- rapport */
 
 const couverture = candidats.length * themes.length;
@@ -111,6 +139,16 @@ console.log(`  ${partis.length} partis · ${candidats.length} candidats · ${the
 console.log(
   `  Couverture : ${renseignees}/${couverture} couples candidat × thème renseignés (${Math.round((renseignees / couverture) * 100)} %)`,
 );
+console.log('');
+
+console.log(
+  `  Test de proximité : ${testActif ? 'ACTIF' : 'éteint'} - ${retenues.length}/${MIN_QUESTIONS_ACTIVES} questions retenues, ${eligibles.length}/${MIN_CANDIDATS_ELIGIBLES} candidats classables`,
+);
+for (const c of couvertureTest.sort((a, b) => b.candidats.size - a.candidats.size)) {
+  console.log(
+    `     ${c.retenue ? 'retenue ' : 'écartée '} ${String(c.candidats.size).padStart(2)} candidats  ${c.id}`,
+  );
+}
 console.log('');
 
 if (avertissements.length > 0) {

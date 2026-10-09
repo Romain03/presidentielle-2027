@@ -250,6 +250,37 @@ Les positions évoluent. Reprendre chaque source, mettre `derniere_verification`
 
 ---
 
+## Test de proximité
+
+`/test/` compare les réponses de l'utilisateur aux chiffres annoncés par les
+candidats. C'est le seul endroit du site qui produit un pourcentage.
+
+Le principe tient en une phrase : **aucune question n'est inventée**. Chacune
+porte sur un indicateur chiffré qu'au moins quatre candidats ont énoncé
+eux-mêmes, et leur position est reprise telle quelle - on ne cherche jamais à
+deviner s'ils seraient « pour » ou « contre » une formulation abstraite.
+
+Les questions vivent dans `data/questions.json` et désignent un indicateur par
+son libellé. Les positions des candidats ne sont donc pas saisies à la main :
+elles sont déduites du champ `valeur_comparable` des propositions, une
+réduction numérique explicite de la valeur affichée. Ce champ vaut `null`
+quand la comparaison serait trompeuse - « 2 000 euros bruts » contre
+« 1 700 euros nets », « 3 % par an » contre « 20 % sur le quinquennat ».
+
+**Le test reste éteint tant que les données ne suivent pas** : il faut au moins
+huit questions retenues et six candidats ayant une position sur la moitié
+d'entre elles. Ces seuils sont dans `lib/test.ts`. `npm run valider` affiche à
+chaque exécution l'état du test et ce qui manque :
+
+```
+Test de proximité : éteint - 2/8 questions retenues, 12/6 candidats classables
+```
+
+Tant qu'il est éteint, la page explique la méthode et ce qui manque, et le lien
+n'apparaît pas dans la navigation. Le calcul vit dans `lib/test-calcul.ts`,
+volontairement sans dépendance aux données pour ne pas embarquer les
+propositions dans le bundle client.
+
 ## Neutralité
 
 Même structure, même niveau de détail et même ton factuel pour tous les

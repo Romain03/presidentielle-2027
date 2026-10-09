@@ -1,0 +1,89 @@
+[
+  {
+    "id": "age-depart-retraite",
+    "theme_id": "retraites",
+    "dimension": "economique",
+    "intitule": "À quel âge faut-il pouvoir partir à la retraite ?",
+    "precision": "Âge légal de départ, hors départs anticipés pour carrière longue ou pénibilité.",
+    "indicateur": "Âge légal de départ",
+    "unite": "ans",
+    "options": [
+      { "valeur": 60, "libelle": "60 ans" },
+      { "valeur": 62, "libelle": "62 ans" },
+      { "valeur": 63, "libelle": "63 ans" },
+      { "valeur": 65, "libelle": "65 ans" }
+    ]
+  },
+  {
+    "id": "duree-cotisation",
+    "theme_id": "retraites",
+    "dimension": "economique",
+    "intitule": "Combien d'années faut-il cotiser pour une retraite complète ?",
+    "precision": null,
+    "indicateur": "Durée de cotisation annoncée",
+    "unite": "annuités",
+    "options": [
+      { "valeur": 40, "libelle": "40 annuités" },
+      { "valeur": 43, "libelle": "43 annuités" },
+      { "valeur": 45, "libelle": "45 annuités" }
+    ]
+  },
+  {
+    "id": "depart-anticipe-penibilite",
+    "theme_id": "retraites",
+    "dimension": "economique",
+    "intitule": "À partir de quel âge autoriser un départ anticipé pour les métiers pénibles ?",
+    "precision": null,
+    "indicateur": "Départ anticipé possible dès",
+    "unite": "ans",
+    "options": [
+      { "valeur": 55, "libelle": "55 ans" },
+      { "valeur": 57, "libelle": "57 ans" },
+      { "valeur": 60, "libelle": "60 ans" }
+    ]
+  },
+  {
+    "id": "capital-naissance",
+    "theme_id": "retraites",
+    "dimension": "economique",
+    "intitule": "Quel capital l'État doit-il placer à la naissance de chaque Français pour sa retraite ?",
+    "precision": "Somme versée dans un fonds public, accessible à l'âge de la retraite.",
+    "indicateur": "Versement public à la naissance",
+    "unite": "euros",
+    "options": [
+      { "valeur": 0, "libelle": "Aucun versement" },
+      { "valeur": 1000, "libelle": "1 000 euros" },
+      { "valeur": 10000, "libelle": "10 000 euros" }
+    ]
+  },
+  {
+    "id": "eleves-par-classe",
+    "theme_id": "education",
+    "dimension": "societal",
+    "intitule": "Combien d'élèves par classe viser à l'école primaire ?",
+    "precision": "Effectif moyen visé en fin de quinquennat.",
+    "indicateur": "Élèves par classe visés",
+    "unite": "élèves",
+    "options": [
+      { "valeur": 12, "libelle": "12 élèves" },
+      { "valeur": 19, "libelle": "19 élèves" },
+      { "valeur": 22, "libelle": "22 élèves" },
+      { "valeur": 25, "libelle": "25 élèves ou plus" }
+    ]
+  },
+  {
+    "id": "salaire-enseignant-debut",
+    "theme_id": "education",
+    "dimension": "societal",
+    "intitule": "De combien augmenter le salaire mensuel des enseignants en début de carrière ?",
+    "precision": "Hausse nette mensuelle, en début de carrière.",
+    "indicateur": "Revalorisation des enseignants (montant mensuel)",
+    "unite": "euros par mois",
+    "options": [
+      { "valeur": 0, "libelle": "Pas de hausse" },
+      { "valeur": 135, "libelle": "135 euros" },
+      { "valeur": 200, "libelle": "200 euros" },
+      { "valeur": 300, "libelle": "300 euros ou plus" }
+    ]
+  }
+]

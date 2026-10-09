@@ -203,10 +203,65 @@ export default function PageMethodologie() {
           différente.
         </p>
         <p className="text-sm leading-relaxed text-stone-700 dark:text-stone-300">
-          Il ne calcule aucun score de proximité, ne place aucun candidat sur un axe et ne qualifie
-          jamais une position de plus ou moins radicale, réaliste ou coûteuse. Deux positions
-          marquées comme divergentes peuvent être très proches sur le fond : seule leur formulation
-          est comparée.
+          <strong className="font-semibold">Le comparateur</strong> ne calcule aucun score de
+          proximité, ne place aucun candidat sur un axe et ne qualifie jamais une position de plus
+          ou moins radicale, réaliste ou coûteuse. Deux positions marquées comme divergentes
+          peuvent être très proches sur le fond : seule leur formulation est comparée. Cet
+          engagement vaut pour le comparateur et pour lui seul ; le{' '}
+          <Link href="/test/" className="lien">
+            test de proximité
+          </Link>{' '}
+          est un outil distinct, dont la méthode et les limites sont décrites ci-dessous.
+        </p>
+      </section>
+
+      <section aria-labelledby="test" className="max-w-2xl space-y-3">
+        <h2 id="test" className="text-lg font-semibold">
+          Le test de proximité
+        </h2>
+        <p className="text-sm leading-relaxed text-stone-700 dark:text-stone-300">
+          Le test compare vos réponses aux chiffres que les candidats ont annoncés. C'est le seul
+          endroit du site qui produit un pourcentage, et il obéit à des règles strictes, parce
+          qu'un score de proximité mal construit est plus trompeur qu'une absence de score.
+        </p>
+        <ul className="list-disc space-y-1.5 pl-5 text-sm leading-relaxed text-stone-700 dark:text-stone-300">
+          <li>
+            <strong className="font-semibold">Aucune question n'est inventée.</strong> Chacune
+            porte sur un indicateur chiffré qu'au moins quatre candidats ont énoncé eux-mêmes -
+            un âge de départ, une durée de cotisation. Leur position est reprise telle quelle,
+            sans qu'on ait à deviner s'ils seraient « pour » ou « contre » une formulation
+            abstraite. C'est ce qui distingue ce test de la plupart des questionnaires du genre,
+            où le rédacteur des questions décide du résultat.
+          </li>
+          <li>
+            <strong className="font-semibold">Certaines valeurs ne sont pas comparables</strong> et
+            sont écartées plutôt que converties : « 2 000 euros bruts » et « 1 700 euros nets » ne
+            se comparent pas en l'état, pas plus que « 3 % par an » et « 20 % sur le quinquennat ».
+          </li>
+          <li>
+            <strong className="font-semibold">Le dénominateur est toujours affiché.</strong> Un
+            candidat comparé sur deux questions n'est pas comparable à un candidat comparé sur
+            dix, et le site le montre au lieu de le masquer derrière un pourcentage unique.
+          </li>
+          <li>
+            <strong className="font-semibold">Le test reste éteint tant que les données ne
+            suivent pas.</strong> Il faut au moins huit questions retenues et six candidats ayant
+            une position sur la moitié d'entre elles. Ces seuils sont dans le code, pas dans une
+            appréciation, et le test s'allumera de lui-même quand ils seront franchis.
+          </li>
+          <li>
+            <strong className="font-semibold">L'axe gauche-droite</strong> n'est pas une note
+            attribuée à chaque réponse. Il est déduit de vos affinités avec chaque famille, en
+            plaçant les familles dans l'ordre conventionnel des blocs : extrême gauche à -2,
+            gauche et écologistes à -1, centre à 0, droite à +1, extrême droite à +2. « Divers »
+            et « Régionalistes » n'y figurent pas. C'est une convention de plus, au même titre
+            que le regroupement en familles.
+          </li>
+        </ul>
+        <p className="text-sm leading-relaxed text-stone-700 dark:text-stone-300">
+          Ce que le test ne mesure pas : les raisons qui conduisent un candidat à son chiffre, sa
+          crédibilité, sa capacité à l'appliquer, et tous les sujets sur lesquels il ne s'est pas
+          exprimé. Un test de proximité ne dit pas pour qui voter.
         </p>
       </section>
 

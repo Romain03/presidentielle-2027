@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import RechercheGlobale from './RechercheGlobale';
+import { etatDuTest } from '@/lib/test';
 
 const LIENS = [
   { href: '/candidats/', libelle: 'Candidats' },
@@ -11,6 +12,11 @@ const LIENS = [
 ];
 
 export default function EnTete() {
+  // Le test n'entre dans la navigation que lorsqu'il est réellement utilisable.
+  const liens = etatDuTest().actif
+    ? [...LIENS.slice(0, 4), { href: '/test/', libelle: 'Test' }, ...LIENS.slice(4)]
+    : LIENS;
+
   return (
     <header className="zone-sure-haut sticky top-0 z-40 border-b border-stone-900/8 bg-creme/85 backdrop-blur-md dark:border-nuit-bord dark:bg-nuit/85">
       <div className="zone-sure-cotes mx-auto w-full max-w-6xl px-4 sm:px-6">
@@ -22,7 +28,7 @@ export default function EnTete() {
           {/* Sur grand écran, la navigation tient sur la même ligne. */}
           <nav aria-label="Navigation principale" className="hidden sm:block">
             <ul className="flex items-center gap-5 text-sm">
-              {LIENS.map((lien) => (
+              {liens.map((lien) => (
                 <li key={lien.href}>
                   <Link
                     href={lien.href}
@@ -44,7 +50,7 @@ export default function EnTete() {
         */}
         <nav aria-label="Navigation principale" className="sm:hidden">
           <ul className="sans-barre-defilement -mx-4 flex gap-1 overflow-x-auto px-4 pb-2">
-            {LIENS.map((lien) => (
+            {liens.map((lien) => (
               <li key={lien.href} className="shrink-0">
                 <Link
                   href={lien.href}

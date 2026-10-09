@@ -2,15 +2,18 @@ import {
   Candidats,
   Partis,
   Propositions,
+  Questions,
   Themes,
   type Candidat,
   type Parti,
   type Proposition,
+  type Question,
   type Theme,
 } from './schemas';
 import candidatsJson from '../data/candidats.json';
 import partisJson from '../data/partis.json';
 import propositionsJson from '../data/propositions.json';
+import questionsJson from '../data/questions.json';
 import themesJson from '../data/themes.json';
 import type { ZodTypeAny, z } from 'zod';
 
@@ -50,6 +53,7 @@ export const propositions: Proposition[] = valider(
   propositionsJson,
   'propositions.json',
 );
+export const questions: Question[] = valider(Questions, questionsJson, 'questions.json');
 
 /* ------------------------------------------------- intégrité référentielle */
 
@@ -84,6 +88,22 @@ function verifierIntegrite(): void {
     }
     if (!idsThemes.has(p.theme_id)) {
       erreurs.push(`propositions.json : « ${p.id} » référence un thème inconnu « ${p.theme_id} »`);
+    }
+  }
+
+  doublons(questions.map((q) => q.id), 'questions.json');
+
+  const libellesIndicateurs = new Set(
+    propositions.flatMap((p) => p.indicateurs.map((i) => i.libelle)),
+  );
+  for (const q of questions) {
+    if (!idsThemes.has(q.theme_id)) {
+      erreurs.push(`questions.json : « ${q.id} » référence un thème inconnu « ${q.theme_id} »`);
+    }
+    if (!libellesIndicateurs.has(q.indicateur)) {
+      erreurs.push(
+        `questions.json : « ${q.id} » porte sur l'indicateur « ${q.indicateur} », qui n'apparaît dans aucune proposition`,
+      );
     }
   }
 

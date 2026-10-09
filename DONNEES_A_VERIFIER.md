@@ -194,6 +194,23 @@ documenté : Asselineau, Batho, Becht, Bertrand, Bouamrane, Cazeneuve, Durif,
 Kazib, Labib, Lalanne, Markovic, Mathieu, Mlekuz, Philippot, ainsi que tous les
 pressentis sauf Hollande, et les trois candidatures retirées.
 
+### Ce qui débloquerait le test de proximité
+Le test a besoin de **8 questions** portant chacune sur un chiffre annoncé par
+au moins 4 candidats. Il en existe **2** : âge légal de départ (12 candidats) et
+durée de cotisation (6).
+
+Quatre questions sont déjà écrites mais écartées faute de candidats : élèves par
+classe (3), départ anticipé pour pénibilité (2), capital à la naissance (2),
+revalorisation mensuelle des enseignants (2). Il suffirait de deux candidats de
+plus sur chacune pour les retenir.
+
+Les indicateurs les plus prometteurs à compléter, parce qu'ils sont chiffrés par
+nature : SMIC visé, nombre d'enseignants recrutés, part d'énergies fossiles,
+objectifs de déficit, places de prison, quotas migratoires. Deux valeurs sont
+par ailleurs volontairement non comparables et le resteront tant qu'elles seront
+exprimées ainsi : le SMIC (brut contre net) et la revalorisation des enseignants
+(horizons différents).
+
 ### Portraits
 40 candidats sur 44 ont un portrait libre, repris de Wikimedia Commons avec son
 auteur et sa licence. Quatre n'en ont aucun, faute d'image sur leur article

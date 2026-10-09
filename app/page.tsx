@@ -120,6 +120,14 @@ export default function Accueil() {
           ))}
         </dl>
         <p className="max-w-2xl text-sm leading-relaxed text-stone-600 dark:text-stone-400">
+          Un{' '}
+          <Link href="/test/" className="lien">
+            test de proximité
+          </Link>{' '}
+          est en préparation : il s’activera quand les programmes publiés permettront un calcul
+          qui veuille dire quelque chose.
+        </p>
+        <p className="max-w-2xl text-sm leading-relaxed text-stone-600 dark:text-stone-400">
           Un candidat qui ne s’est pas exprimé sur un thème affiche « Position non communiquée » :
           aucune position n’est déduite ni extrapolée.{' '}
           <Link href="/methodologie/" className="lien">

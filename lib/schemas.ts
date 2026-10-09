@@ -239,6 +239,14 @@ export const Indicateur = z
     libelle: z.string().min(2),
     valeur: z.union([z.number(), z.string()]),
     unite: z.string().nullable(),
+    /**
+     * Réduction numérique de la valeur affichée, pour les comparaisons
+     * automatiques du test de proximité. `null` quand la réduction serait
+     * trompeuse : « 2 000 euros bruts » et « 1 700 euros nets » ne se comparent
+     * pas en l'état, pas plus que « 3 % par an » et « 20 % sur le quinquennat ».
+     * Mieux vaut ne pas comparer que comparer de travers.
+     */
+    valeur_comparable: z.number().nullable().default(null),
   })
   .strict();
 
@@ -264,9 +272,52 @@ export const Proposition = z
 
 export type Proposition = z.infer<typeof Proposition>;
 
+/* ----------------------------------------------------- questions du test */
+
+/**
+ * Question du test de proximité.
+ *
+ * Une question n'est jamais inventée : elle porte sur un indicateur chiffré
+ * que des candidats ont eux-mêmes énoncé. Leur position est donc déduite de
+ * leurs propres déclarations, sans qu'on ait à interpréter s'ils seraient
+ * « pour » ou « contre » une formulation abstraite.
+ */
+export const DIMENSIONS = ['economique', 'societal'] as const;
+export const Dimension = z.enum(DIMENSIONS);
+export type Dimension = z.infer<typeof Dimension>;
+
+export const LIBELLES_DIMENSION: Record<Dimension, string> = {
+  economique: 'Économie',
+  societal: 'Société',
+};
+
+export const Question = z
+  .object({
+    id: Slug,
+    theme_id: Slug,
+    dimension: Dimension,
+    intitule: z.string().min(10),
+    precision: z.string().min(10).nullable(),
+    /** Libellé exact de l'indicateur dont les positions sont déduites. */
+    indicateur: z.string().min(2),
+    unite: z.string().nullable(),
+    /** Réponses proposées, de la plus basse à la plus haute. */
+    options: z
+      .array(z.object({ valeur: z.number(), libelle: z.string().min(1) }).strict())
+      .min(2),
+  })
+  .strict()
+  .refine(
+    (q) => q.options.every((o, i) => i === 0 || o.valeur > q.options[i - 1].valeur),
+    'Les options doivent être strictement croissantes',
+  );
+
+export type Question = z.infer<typeof Question>;
+
 /* -------------------------------------------------------------- collections */
 
 export const Partis = z.array(Parti);
 export const Candidats = z.array(Candidat);
 export const Themes = z.array(Theme);
 export const Propositions = z.array(Proposition);
+export const Questions = z.array(Question);

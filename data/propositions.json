@@ -11,22 +11,26 @@
       {
         "libelle": "Âge légal de départ",
         "valeur": 63,
-        "unite": "ans"
+        "unite": "ans",
+        "valeur_comparable": 63
       },
       {
         "libelle": "Âge du taux plein",
         "valeur": 65,
-        "unite": "ans"
+        "unite": "ans",
+        "valeur_comparable": 65
       },
       {
         "libelle": "Décote par année d'anticipation",
         "valeur": 7,
-        "unite": "%"
+        "unite": "%",
+        "valeur_comparable": 7
       },
       {
         "libelle": "Économies visées sur cinq ans",
         "valeur": 40,
-        "unite": "milliards d'euros"
+        "unite": "milliards d'euros",
+        "valeur_comparable": 40
       }
     ],
     "source": {
@@ -100,22 +104,26 @@
       {
         "libelle": "Âge légal de départ",
         "valeur": 60,
-        "unite": "ans"
+        "unite": "ans",
+        "valeur_comparable": 60
       },
       {
         "libelle": "Départ anticipé possible dès",
         "valeur": "55 à 57",
-        "unite": "ans"
+        "unite": "ans",
+        "valeur_comparable": 56
       },
       {
         "libelle": "Durée de cotisation annoncée",
         "valeur": 40,
-        "unite": "annuités"
+        "unite": "annuités",
+        "valeur_comparable": 40
       },
       {
         "libelle": "Étape intermédiaire annoncée",
         "valeur": 62,
-        "unite": "ans"
+        "unite": "ans",
+        "valeur_comparable": 62
       }
     ],
     "source": {
@@ -138,17 +146,20 @@
       {
         "libelle": "Âge légal de départ",
         "valeur": 62,
-        "unite": "ans"
+        "unite": "ans",
+        "valeur_comparable": 62
       },
       {
         "libelle": "Départ anticipé possible dès",
         "valeur": 60,
-        "unite": "ans"
+        "unite": "ans",
+        "valeur_comparable": 60
       },
       {
         "libelle": "Durée de cotisation annoncée",
         "valeur": 40,
-        "unite": "annuités"
+        "unite": "annuités",
+        "valeur_comparable": 40
       }
     ],
     "source": {
@@ -171,12 +182,14 @@
       {
         "libelle": "Économies nettes visées d'ici 2032",
         "valeur": 140,
-        "unite": "milliards d'euros"
+        "unite": "milliards d'euros",
+        "valeur_comparable": 140
       },
       {
         "libelle": "Déficit public visé en 2030",
         "valeur": "moins de 3",
-        "unite": "% du PIB"
+        "unite": "% du PIB",
+        "valeur_comparable": null
       }
     ],
     "source": {
@@ -199,12 +212,14 @@
       {
         "libelle": "Âge légal de départ",
         "valeur": 60,
-        "unite": "ans"
+        "unite": "ans",
+        "valeur_comparable": 60
       },
       {
         "libelle": "Durée de cotisation annoncée",
         "valeur": 40,
-        "unite": "annuités"
+        "unite": "annuités",
+        "valeur_comparable": 40
       }
     ],
     "source": {
@@ -227,12 +242,14 @@
       {
         "libelle": "Âge légal de départ",
         "valeur": 60,
-        "unite": "ans"
+        "unite": "ans",
+        "valeur_comparable": 60
       },
       {
         "libelle": "Étape intermédiaire annoncée",
         "valeur": 62,
-        "unite": "ans"
+        "unite": "ans",
+        "valeur_comparable": 62
       }
     ],
     "source": {
@@ -255,7 +272,8 @@
       {
         "libelle": "Âge légal de départ",
         "valeur": 62,
-        "unite": "ans"
+        "unite": "ans",
+        "valeur_comparable": 62
       }
     ],
     "source": {
@@ -295,12 +313,14 @@
       {
         "libelle": "Âge légal de départ",
         "valeur": 60,
-        "unite": "ans"
+        "unite": "ans",
+        "valeur_comparable": 60
       },
       {
         "libelle": "Durée de cotisation annoncée",
         "valeur": 40,
-        "unite": "annuités"
+        "unite": "annuités",
+        "valeur_comparable": 40
       }
     ],
     "source": {
@@ -323,7 +343,8 @@
       {
         "libelle": "Versement public à la naissance",
         "valeur": 10000,
-        "unite": "euros"
+        "unite": "euros",
+        "valeur_comparable": 10000
       }
     ],
     "source": {
@@ -346,7 +367,8 @@
       {
         "libelle": "Âge légal de départ",
         "valeur": "64 à 65",
-        "unite": "ans"
+        "unite": "ans",
+        "valeur_comparable": 64.5
       }
     ],
     "source": {
@@ -369,12 +391,14 @@
       {
         "libelle": "Âge légal de départ",
         "valeur": "supprimé à terme",
-        "unite": null
+        "unite": null,
+        "valeur_comparable": null
       },
       {
         "libelle": "Versement public à la naissance",
         "valeur": 1000,
-        "unite": "euros"
+        "unite": "euros",
+        "valeur_comparable": 1000
       }
     ],
     "source": {
@@ -397,12 +421,14 @@
       {
         "libelle": "Âge légal de départ",
         "valeur": 65,
-        "unite": "ans"
+        "unite": "ans",
+        "valeur_comparable": 65
       },
       {
         "libelle": "Durée de cotisation annoncée",
         "valeur": 45,
-        "unite": "annuités"
+        "unite": "annuités",
+        "valeur_comparable": 45
       }
     ],
     "source": {
@@ -425,7 +451,8 @@
       {
         "libelle": "Âge légal de départ",
         "valeur": 65,
-        "unite": "ans"
+        "unite": "ans",
+        "valeur_comparable": 65
       }
     ],
     "source": {
@@ -448,12 +475,14 @@
       {
         "libelle": "Âge légal de départ",
         "valeur": 60,
-        "unite": "ans"
+        "unite": "ans",
+        "valeur_comparable": 60
       },
       {
         "libelle": "Durée de cotisation annoncée",
         "valeur": 40,
-        "unite": "annuités"
+        "unite": "annuités",
+        "valeur_comparable": 40
       }
     ],
     "source": {
@@ -476,7 +505,8 @@
       {
         "libelle": "Âge légal de départ",
         "valeur": 63,
-        "unite": "ans"
+        "unite": "ans",
+        "valeur_comparable": 63
       }
     ],
     "source": {
@@ -550,7 +580,8 @@
       {
         "libelle": "SMIC visé",
         "valeur": 2000,
-        "unite": "euros bruts"
+        "unite": "euros bruts",
+        "valeur_comparable": null
       }
     ],
     "source": {
@@ -607,7 +638,8 @@
       {
         "libelle": "SMIC visé",
         "valeur": 1700,
-        "unite": "euros nets"
+        "unite": "euros nets",
+        "valeur_comparable": null
       }
     ],
     "source": {
@@ -630,7 +662,8 @@
       {
         "libelle": "Plafond du prix de l'essence",
         "valeur": "1,70",
-        "unite": "euro par litre"
+        "unite": "euro par litre",
+        "valeur_comparable": null
       }
     ],
     "source": {
@@ -704,7 +737,8 @@
       {
         "libelle": "Recettes supplémentaires visées",
         "valeur": 15,
-        "unite": "milliards d'euros"
+        "unite": "milliards d'euros",
+        "valeur_comparable": 15
       }
     ],
     "source": {
@@ -846,7 +880,8 @@
       {
         "libelle": "Part des énergies fossiles dans la consommation visée en 2035",
         "valeur": 43,
-        "unite": "%"
+        "unite": "%",
+        "valeur_comparable": 43
       }
     ],
     "source": {
@@ -920,7 +955,8 @@
       {
         "libelle": "Part maximale du revenu consacrée au loyer",
         "valeur": 30,
-        "unite": "%"
+        "unite": "%",
+        "valeur_comparable": 30
       }
     ],
     "source": {
@@ -1011,7 +1047,8 @@
       {
         "libelle": "Revalorisation des enseignants",
         "valeur": "3 % par an",
-        "unite": null
+        "unite": null,
+        "valeur_comparable": null
       }
     ],
     "source": {
@@ -1034,7 +1071,8 @@
       {
         "libelle": "Revalorisation des enseignants",
         "valeur": "20 % sur le quinquennat",
-        "unite": null
+        "unite": null,
+        "valeur_comparable": null
       }
     ],
     "source": {
@@ -1057,17 +1095,20 @@
       {
         "libelle": "Élèves par classe visés",
         "valeur": 19,
-        "unite": "élèves"
+        "unite": "élèves",
+        "valeur_comparable": 19
       },
       {
         "libelle": "Enseignants recrutés",
         "valeur": 160000,
-        "unite": null
+        "unite": null,
+        "valeur_comparable": null
       },
       {
         "libelle": "Revalorisation des enseignants",
         "valeur": 15,
-        "unite": "%"
+        "unite": "%",
+        "valeur_comparable": null
       }
     ],
     "source": {
@@ -1090,7 +1131,8 @@
       {
         "libelle": "Revalorisation des enseignants",
         "valeur": "10 %, jusqu'à 25 % selon la carrière",
-        "unite": null
+        "unite": null,
+        "valeur_comparable": null
       }
     ],
     "source": {
@@ -1113,12 +1155,14 @@
       {
         "libelle": "Élèves par classe visés",
         "valeur": "moins de 20",
-        "unite": "élèves"
+        "unite": "élèves",
+        "valeur_comparable": 20
       },
       {
         "libelle": "Revalorisation des enseignants (montant mensuel)",
         "valeur": "200 € par mois, jusqu'à 500 € en fin de carrière",
-        "unite": null
+        "unite": null,
+        "valeur_comparable": 200
       }
     ],
     "source": {
@@ -1141,12 +1185,14 @@
       {
         "libelle": "Élèves par classe visés",
         "valeur": "19 d'ici 2032, 12 en REP et REP+",
-        "unite": null
+        "unite": null,
+        "valeur_comparable": 19
       },
       {
         "libelle": "Revalorisation des enseignants",
         "valeur": "15 % en cinq ans, en plus de l’inflation",
-        "unite": null
+        "unite": null,
+        "valeur_comparable": null
       }
     ],
     "source": {
@@ -1169,7 +1215,8 @@
       {
         "libelle": "Revalorisation des enseignants (montant mensuel)",
         "valeur": "135 € net en début de carrière, jusqu'à 300 € en fin",
-        "unite": null
+        "unite": null,
+        "valeur_comparable": 135
       }
     ],
     "source": {
@@ -1226,12 +1273,14 @@
       {
         "libelle": "Réservistes visés",
         "valeur": 250000,
-        "unite": null
+        "unite": null,
+        "valeur_comparable": 250000
       },
       {
         "libelle": "Production annuelle d'obus visée",
         "valeur": 700000,
-        "unite": "obus"
+        "unite": "obus",
+        "valeur_comparable": 700000
       }
     ],
     "source": {
