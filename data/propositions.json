@@ -1,0 +1,1245 @@
+[
+  {
+    "id": "retailleau-retraites",
+    "candidat_id": "bruno-retailleau",
+    "theme_id": "retraites",
+    "resume": "Âge minimal de départ à 63 ans avec une décote de 7 % par année d'anticipation, taux plein automatique à 65 ans, et introduction d'une part de retraite par capitalisation « pour les jeunes ».",
+    "detail": "Le candidat propose un âge minimal de départ fixé à 63 ans, assorti d'une décote de 7 % par année d'anticipation, et un départ à taux plein automatique à 65 ans au lieu de 67 actuellement, « même si vous n'avez pas toutes vos annuités, tous vos trimestres ». L'âge du taux plein serait ensuite relié à l'espérance de vie et pourrait donc progresser ; l'âge minimal de 63 ans ne serait pas indexé. La réforme prendrait en compte le handicap, la maladie, la pénibilité et l'usure professionnelle selon les dispositifs déjà en vigueur, avec des consultations annoncées avec les partenaires sociaux pour déterminer les professions concernées. Les personnes ayant commencé à travailler jeunes avec une carrière complète pourraient partir à taux plein dès 63 ans, tout en étant incitées à poursuivre jusqu'à 65 ans via une exonération de certaines cotisations. S'y ajoute une part de retraite par capitalisation présentée comme destinée « aux jeunes », avec un rendement annoncé d'au moins 4 % et une piste de financement par une cotisation de 1 % du salaire brut partagée entre salarié et employeur. Objectif affiché : 40 milliards d'euros d'économies cumulées sur cinq ans et « sauver la retraite par répartition ».",
+    "citation": "L'âge minimal de départ, c'est 63 ans",
+    "nature": "declaration_publique",
+    "indicateurs": [
+      {
+        "libelle": "Âge légal de départ",
+        "valeur": 63,
+        "unite": "ans"
+      },
+      {
+        "libelle": "Âge du taux plein",
+        "valeur": 65,
+        "unite": "ans"
+      },
+      {
+        "libelle": "Décote par année d'anticipation",
+        "valeur": 7,
+        "unite": "%"
+      },
+      {
+        "libelle": "Économies visées sur cinq ans",
+        "valeur": 40,
+        "unite": "milliards d'euros"
+      }
+    ],
+    "source": {
+      "url": "https://lcp.fr/actualites/retraites-bruno-retailleau-veut-un-age-minimal-de-depart-a-63-ans-et-un-taux-plein-a-65",
+      "titre": "Retraites : Bruno Retailleau veut un âge minimal de départ à 63 ans et un taux plein à 65 ans",
+      "type": "article-de-presse",
+      "date": "2026-09-23"
+    },
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "retailleau-immigration",
+    "candidat_id": "bruno-retailleau",
+    "theme_id": "immigration",
+    "resume": "Référendum sur la politique migratoire précédé d'une révision de la Constitution, et projet de loi comprenant la suppression du droit du sol et le conditionnement des visas et de l'aide au développement aux pays refusant les retours d'OQTF.",
+    "detail": "Le candidat annonce vouloir organiser un référendum sur l'immigration en révisant la Constitution, en déclarant : « Je prends l'engagement que les Français pourront enfin définir la politique migratoire ». Il dit vouloir réduire les entrées sur le territoire national en usant de « tous les canaux existants ». Il évoque par ailleurs un projet de loi comprenant notamment la suppression du droit du sol et le conditionnement des visas et des aides au développement aux pays refusant de reprendre leurs ressortissants sous obligation de quitter le territoire français.",
+    "citation": "Je ne crois pas à l'immigration zéro, mais il faut être beaucoup plus strict",
+    "nature": "declaration_publique",
+    "indicateurs": [],
+    "source": {
+      "url": "https://www.cnews.fr/france/2026-09-11/immigration-quelles-sont-les-propositions-des-candidats-lelection-presidentielle",
+      "titre": "Immigration : quelles sont les propositions des candidats à l'élection présidentielle ?",
+      "type": "article-de-presse",
+      "date": "2026-09-11"
+    },
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "retailleau-institutions",
+    "candidat_id": "bruno-retailleau",
+    "theme_id": "institutions",
+    "resume": "Révision de la Constitution pour élargir le recours au référendum, présentée comme un moyen de redonner le pouvoir aux Français.",
+    "detail": "Au lendemain de sa désignation par les adhérents des Républicains, le candidat s'engage, s'il accède à l'Élysée, à réviser la Constitution pour « redonner le pouvoir aux Français, par le biais du référendum ». Il défend dans le même temps un État « fort mais pas obèse ».",
+    "citation": "réviser la Constitution pour redonner le pouvoir aux Français, par le biais du référendum",
+    "nature": "declaration_publique",
+    "indicateurs": [],
+    "source": {
+      "url": "https://www.europe1.fr/politique/presidentielle-bruno-retailleau-presente-sa-fiche-de-route-pour-2027-926683",
+      "titre": "Présidentielle : Bruno Retailleau présente sa fiche de route pour 2027",
+      "type": "article-de-presse",
+      "date": "2026-04-21"
+    },
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "retailleau-securite",
+    "candidat_id": "bruno-retailleau",
+    "theme_id": "securite",
+    "resume": "État d'urgence pour les quartiers gangrenés par le narcotrafic, annoncé parmi les grandes lignes de son programme.",
+    "detail": "En officialisant sa candidature dans un entretien au Figaro, le candidat cite parmi les grandes lignes de son projet un état d'urgence pour les quartiers gangrenés par le narcotrafic, aux côtés d'un référendum sur l'immigration, d'une réforme des retraites et d'une suppression de normes pour les entreprises.",
+    "citation": null,
+    "nature": "declaration_publique",
+    "indicateurs": [],
+    "source": {
+      "url": "https://www.europe1.fr/politique/je-trace-ma-route-candidat-a-la-presidentielle-2027-bruno-retailleau-devoile-les-grandes-lignes-de-son-programme-895492",
+      "titre": "« Je trace ma route » : candidat à la présidentielle 2027, Bruno Retailleau dévoile les grandes lignes de son programme",
+      "type": "article-de-presse",
+      "date": "2026-02-13"
+    },
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "melenchon-retraites",
+    "candidat_id": "jean-luc-melenchon",
+    "theme_id": "retraites",
+    "resume": "Abrogation de la réforme de 2023, retour d'abord à 62 ans puis retraite à 60 ans avec 40 années de cotisation, pension calculée au prorata en cas d'annuités incomplètes et minimum au niveau du SMIC pour une carrière complète.",
+    "detail": "Dans son projet intitulé « L'Avenir en commun », le candidat propose d'abroger la réforme de 2023, de revenir d'abord à 62 ans, puis d'instaurer le plus vite possible la retraite à 60 ans avec 40 années de cotisation. Un départ à 60 ans resterait possible sans avoir validé toutes les annuités, la pension étant alors calculée au prorata, tant que son montant reste au-dessus du seuil de pauvreté qui ferait office de minimum légal ; ce minimum est situé au niveau du SMIC pour une carrière complète. Les Français garderaient la liberté de travailler au-delà de l'âge légal pour augmenter leur pension. La pénibilité serait prise en compte pour autoriser un départ anticipé dès 55 ou 57 ans selon les secteurs. Le financement reposerait sur une augmentation des cotisations vieillesse, des cotisations sur les revenus du capital, une contribution accrue des plus hauts revenus et la remise en cause de certaines exonérations de charges patronales.",
+    "citation": null,
+    "nature": "programme_officiel",
+    "indicateurs": [
+      {
+        "libelle": "Âge légal de départ",
+        "valeur": 60,
+        "unite": "ans"
+      },
+      {
+        "libelle": "Départ anticipé possible dès",
+        "valeur": "55 à 57",
+        "unite": "ans"
+      },
+      {
+        "libelle": "Durée de cotisation annoncée",
+        "valeur": 40,
+        "unite": "annuités"
+      },
+      {
+        "libelle": "Étape intermédiaire annoncée",
+        "valeur": 62,
+        "unite": "ans"
+      }
+    ],
+    "source": {
+      "url": "https://www.cnews.fr/france/2026-10-02/presidentielle-2027-depart-60-ans-hausse-des-petites-pensions-penibilite-quelles",
+      "titre": "Présidentielle 2027 : départ à 60 ans, hausse des petites pensions, pénibilité... Quelles sont les propositions des candidats de gauche sur les retraites ?",
+      "type": "article-de-presse",
+      "date": "2026-10-02"
+    },
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "le-pen-retraites",
+    "candidat_id": "marine-le-pen",
+    "theme_id": "retraites",
+    "resume": "Âge légal de départ à 62 ans pour la majorité des actifs, avec un départ possible dès 60 ans pour les personnes ayant commencé à travailler avant 20 ans et totalisant 40 annuités.",
+    "detail": "La candidate propose un âge légal de 62 ans pour la majorité des actifs. Les personnes ayant commencé à travailler avant 20 ans pourraient partir dès 60 ans, à condition de totaliser 40 annuités. Son parti défend ainsi une distinction fondée sur l'âge d'entrée dans la vie active, plutôt qu'un retour général à 60 ans.",
+    "citation": null,
+    "nature": "declaration_publique",
+    "indicateurs": [
+      {
+        "libelle": "Âge légal de départ",
+        "valeur": 62,
+        "unite": "ans"
+      },
+      {
+        "libelle": "Départ anticipé possible dès",
+        "valeur": 60,
+        "unite": "ans"
+      },
+      {
+        "libelle": "Durée de cotisation annoncée",
+        "valeur": 40,
+        "unite": "annuités"
+      }
+    ],
+    "source": {
+      "url": "https://www.cnews.fr/france/2026-10-03/retraites-voici-les-propositions-des-differents-candidats-lelection",
+      "titre": "Retraites : voici les propositions des différents candidats à l'élection présidentielle 2027",
+      "type": "article-de-presse",
+      "date": "2026-10-03"
+    },
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "le-pen-fiscalite",
+    "candidat_id": "marine-le-pen",
+    "theme_id": "fiscalite",
+    "resume": "140 milliards d'euros nets d'économies d'ici 2032 par rapport à 2026, déficit public sous 3 % dès 2030, et « règle d'or budgétaire » instaurée par référendum pour imposer une diminution annuelle de la dette.",
+    "detail": "Lors d'une conférence de presse de présentation du contre-budget de son parti, la candidate a promis « 140 milliards d'euros net d'économies » d'ici 2032 par rapport à 2026, en assurant que le déficit public pouvait passer sous la barre des 3 % dès 2030. Elle a rappelé à cette occasion sa proposition d'instaurer une « règle d'or budgétaire » par référendum, pour imposer chaque année une diminution de la dette.",
+    "citation": "Si les Français ne choisissent pas une rupture politique, la France court vers le défaut",
+    "nature": "declaration_publique",
+    "indicateurs": [
+      {
+        "libelle": "Économies nettes visées d'ici 2032",
+        "valeur": 140,
+        "unite": "milliards d'euros"
+      },
+      {
+        "libelle": "Déficit public visé en 2030",
+        "valeur": "moins de 3",
+        "unite": "% du PIB"
+      }
+    ],
+    "source": {
+      "url": "https://www.franceinfo.fr/elections/presidentielle/presidentielle-2027-marine-le-pen-promet-140-milliards-d-euros-nets-d-economies-d-ici-a-2032_8224807.html",
+      "titre": "Présidentielle 2027 : Marine Le Pen promet « 140 milliards d'euros net d'économies » d'ici à 2032",
+      "type": "article-de-presse",
+      "date": "2026-10-06"
+    },
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "ruffin-retraites",
+    "candidat_id": "francois-ruffin",
+    "theme_id": "retraites",
+    "resume": "Départ possible dès 60 ans après 40 années de cotisation, avec la pénibilité comme critère principal : quatre trimestres cotisés dans un métier exposé ouvriraient droit à un trimestre supplémentaire. Pension minimale au niveau du SMIC.",
+    "detail": "Le candidat défend un retour à un âge de départ légal à 60 ans après 40 années de cotisation, mais fait de la pénibilité le critère principal d'accès à la retraite. Il veut remplacer le système actuel de calcul de la pénibilité par un octroi automatique de trimestres supplémentaires : pour quatre trimestres cotisés dans un métier exposé, un trimestre supplémentaire de retraite serait accordé. Il défend également une pension minimale au niveau du SMIC pour une carrière complète, et des départs anticipés dans certains métiers qu'il qualifie d'essentiels.",
+    "citation": null,
+    "nature": "declaration_publique",
+    "indicateurs": [
+      {
+        "libelle": "Âge légal de départ",
+        "valeur": 60,
+        "unite": "ans"
+      },
+      {
+        "libelle": "Durée de cotisation annoncée",
+        "valeur": 40,
+        "unite": "annuités"
+      }
+    ],
+    "source": {
+      "url": "https://www.cnews.fr/france/2026-10-02/presidentielle-2027-depart-60-ans-hausse-des-petites-pensions-penibilite-quelles",
+      "titre": "Présidentielle 2027 : départ à 60 ans, hausse des petites pensions, pénibilité... Quelles sont les propositions des candidats de gauche sur les retraites ?",
+      "type": "article-de-presse",
+      "date": "2026-10-02"
+    },
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "tondelier-retraites",
+    "candidat_id": "marine-tondelier",
+    "theme_id": "retraites",
+    "resume": "Abrogation de la réforme de 2023 et retour immédiat à 62 ans, puis cap d'un départ à 60 ans en priorité pour les personnes ayant commencé à travailler tôt ou occupé un emploi pénible.",
+    "detail": "La candidate souhaite supprimer la réforme de 2023 et revenir immédiatement à 62 ans, avant de fixer le cap d'un départ à 60 ans, en donnant la priorité aux personnes qui ont commencé à travailler tôt ou occupé un emploi pénible. Le calendrier et les modalités précises de cette seconde étape restent à définir. Elle propose d'organiser une conférence travail-retraite visant l'équilibre du régime général en 2050. Pour le financement, elle entend revenir sur une partie des exonérations de cotisations accordées aux entreprises : « Il y a 77 milliards d'exonérations de cotisations, il suffit qu'on en prenne 10 % ».",
+    "citation": "Il y a 77 milliards d'exonérations de cotisations, il suffit qu'on en prenne 10 %",
+    "nature": "programme_officiel",
+    "indicateurs": [
+      {
+        "libelle": "Âge légal de départ",
+        "valeur": 60,
+        "unite": "ans"
+      },
+      {
+        "libelle": "Étape intermédiaire annoncée",
+        "valeur": 62,
+        "unite": "ans"
+      }
+    ],
+    "source": {
+      "url": "https://www.cnews.fr/france/2026-10-02/presidentielle-2027-depart-60-ans-hausse-des-petites-pensions-penibilite-quelles",
+      "titre": "Présidentielle 2027 : départ à 60 ans, hausse des petites pensions, pénibilité... Quelles sont les propositions des candidats de gauche sur les retraites ?",
+      "type": "article-de-presse",
+      "date": "2026-10-02"
+    },
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "faure-retraites",
+    "candidat_id": "olivier-faure",
+    "theme_id": "retraites",
+    "resume": "Retour à l'âge légal de 62 ans, avec une durée de cotisation distinguée selon la pénibilité des métiers. Il évoque également une contribution liée à l'intelligence artificielle pour aider à financer la protection sociale.",
+    "detail": "Après avoir obtenu la suspension de la montée en charge de la réforme de 2023 jusqu'au 1er janvier 2028, le candidat soutient son abrogation. Dans son livre « La Loi du plus juste », il prône le retour à 62 ans « en distinguant le nombre d'annuités cotisées selon la pénibilité des métiers ». Il ne souhaite pas appliquer les mêmes conditions à tous. Il évoque par ailleurs une contribution liée à l'intelligence artificielle pour aider à financer la protection sociale.",
+    "citation": null,
+    "nature": "declaration_publique",
+    "indicateurs": [
+      {
+        "libelle": "Âge légal de départ",
+        "valeur": 62,
+        "unite": "ans"
+      }
+    ],
+    "source": {
+      "url": "https://www.cnews.fr/france/2026-10-03/retraites-voici-les-propositions-des-differents-candidats-lelection",
+      "titre": "Retraites : voici les propositions des différents candidats à l'élection présidentielle 2027",
+      "type": "article-de-presse",
+      "date": "2026-10-03"
+    },
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "glucksmann-retraites",
+    "candidat_id": "raphael-glucksmann",
+    "theme_id": "retraites",
+    "resume": "Abrogation de la réforme de 2023, sans nouvel âge légal valable pour tous : une « base à 62 ans », un système de décote tenant compte de la pénibilité, un Haut Conseil du pilotage des retraites et un plan pour accroître le nombre de cotisants.",
+    "detail": "Le candidat défend l'abrogation de la réforme de 2023 sans annoncer pour l'instant un nouvel âge légal valable pour tous. Il met l'accent sur la pénibilité et sur l'emploi des seniors, autour d'une « base à 62 ans » assortie d'un système de décote pour « prendre en compte la pénibilité ». Il veut créer « un Haut Conseil du pilotage des retraites » et porter un plan pour « accroître le nombre de cotisants ». Il a indiqué qu'il fallait créer la possibilité « pour certains » de partir à 60 ans, tandis que « d'autres devront travailler davantage ». Aucune précision sur le financement n'est à ce stade évoquée.",
+    "citation": null,
+    "nature": "declaration_publique",
+    "indicateurs": [],
+    "source": {
+      "url": "https://www.cnews.fr/france/2026-10-03/retraites-voici-les-propositions-des-differents-candidats-lelection",
+      "titre": "Retraites : voici les propositions des différents candidats à l'élection présidentielle 2027",
+      "type": "article-de-presse",
+      "date": "2026-10-03"
+    },
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "roussel-retraites",
+    "candidat_id": "fabien-roussel",
+    "theme_id": "retraites",
+    "resume": "Rétablissement de l'âge légal de départ à 60 ans avec 40 annuités pour une pension complète, financé principalement en « taxant les revenus financiers ».",
+    "detail": "Le candidat a profité de la célébration des 90 ans du Front populaire pour rappeler son intention de rétablir l'âge légal de départ à la retraite à 60 ans avec 40 annuités pour une pension complète, réforme qu'il financerait principalement en « taxant les revenus financiers ». Pour le reste, il n'avait pas encore dévoilé de projet détaillé et chiffré pour 2027 au 30 septembre 2026 ; en 2022, il prônait un taux de remplacement de 75 % avec un plancher à 1 200 euros nets.",
+    "citation": "taxant les revenus financiers",
+    "nature": "declaration_publique",
+    "indicateurs": [
+      {
+        "libelle": "Âge légal de départ",
+        "valeur": 60,
+        "unite": "ans"
+      },
+      {
+        "libelle": "Durée de cotisation annoncée",
+        "valeur": 40,
+        "unite": "annuités"
+      }
+    ],
+    "source": {
+      "url": "https://www.cnews.fr/france/2026-10-02/presidentielle-2027-depart-60-ans-hausse-des-petites-pensions-penibilite-quelles",
+      "titre": "Présidentielle 2027 : départ à 60 ans, hausse des petites pensions, pénibilité... Quelles sont les propositions des candidats de gauche sur les retraites ?",
+      "type": "article-de-presse",
+      "date": "2026-10-02"
+    },
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "dupont-aignan-retraites",
+    "candidat_id": "nicolas-dupont-aignan",
+    "theme_id": "retraites",
+    "resume": "Maintien de l'indexation des pensions sur l'inflation. Pour les générations futures, l'État placerait 10 000 euros à la naissance de chaque Français dans un fonds public, capital accessible à 60 ans en complément de retraite.",
+    "detail": "Le candidat met en avant le niveau des pensions et veut maintenir leur indexation sur l'inflation. Pour les générations futures, il propose que l'État place 10 000 euros à la naissance de chaque Français dans un fonds public ; le capital accumulé serait accessible à 60 ans et servirait de complément de retraite. Cet âge de 60 ans concerne l'accès au capital proposé, et non un nouvel âge légal de départ.",
+    "citation": null,
+    "nature": "declaration_publique",
+    "indicateurs": [
+      {
+        "libelle": "Versement public à la naissance",
+        "valeur": 10000,
+        "unite": "euros"
+      }
+    ],
+    "source": {
+      "url": "https://www.cnews.fr/france/2026-10-03/retraites-voici-les-propositions-des-differents-candidats-lelection",
+      "titre": "Retraites : voici les propositions des différents candidats à l'élection présidentielle 2027",
+      "type": "article-de-presse",
+      "date": "2026-10-03"
+    },
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "zemmour-retraites",
+    "candidat_id": "eric-zemmour",
+    "theme_id": "retraites",
+    "resume": "Départ à 64 voire 65 ans, et évolution progressive du financement des retraites vers davantage de capitalisation plutôt que la seule répartition.",
+    "detail": "Le candidat évoque un départ à 64 voire 65 ans. Il souhaite également faire évoluer progressivement le financement des retraites en donnant davantage de place à la capitalisation, plutôt qu'en s'appuyant uniquement sur la répartition. Il n'avait toutefois pas encore détaillé l'ensemble des modalités de son projet pour 2027 au 30 septembre 2026.",
+    "citation": null,
+    "nature": "declaration_publique",
+    "indicateurs": [
+      {
+        "libelle": "Âge légal de départ",
+        "valeur": "64 à 65",
+        "unite": "ans"
+      }
+    ],
+    "source": {
+      "url": "https://www.cnews.fr/france/2026-10-03/retraites-voici-les-propositions-des-differents-candidats-lelection",
+      "titre": "Retraites : voici les propositions des différents candidats à l'élection présidentielle 2027",
+      "type": "article-de-presse",
+      "date": "2026-10-03"
+    },
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "attal-retraites",
+    "candidat_id": "gabriel-attal",
+    "theme_id": "retraites",
+    "resume": "Suppression à terme de l'âge légal : le montant de la pension dépendrait de la durée cotisée et du moment choisi pour partir. Il propose aussi une part de capitalisation, amorcée par un versement public de 1 000 euros à la naissance.",
+    "detail": "Le candidat défend une rupture avec le débat traditionnel sur l'âge légal : il voudrait, à terme, le supprimer. Le montant de la pension dépendrait alors de la durée cotisée et du moment choisi pour partir — un départ plus précoce donnerait une pension plus faible, un départ plus tardif une pension plus élevée. Il propose aussi une part de capitalisation, notamment amorcée par un versement public de 1 000 euros à la naissance. Ses paramètres précis restent à fixer.",
+    "citation": null,
+    "nature": "declaration_publique",
+    "indicateurs": [
+      {
+        "libelle": "Âge légal de départ",
+        "valeur": "supprimé à terme",
+        "unite": null
+      },
+      {
+        "libelle": "Versement public à la naissance",
+        "valeur": 1000,
+        "unite": "euros"
+      }
+    ],
+    "source": {
+      "url": "https://www.cnews.fr/france/2026-10-03/retraites-voici-les-propositions-des-differents-candidats-lelection",
+      "titre": "Retraites : voici les propositions des différents candidats à l'élection présidentielle 2027",
+      "type": "article-de-presse",
+      "date": "2026-10-03"
+    },
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "philippe-retraites",
+    "candidat_id": "edouard-philippe",
+    "theme_id": "retraites",
+    "resume": "Prolongation de la trajectoire de la réforme de 2023, puis passage progressif de l'âge légal à 65 ans et de la durée de cotisation à 45 ans en moins de dix ans, avec un complément de retraite par capitalisation obligatoire et collectif.",
+    "detail": "Le candidat veut prolonger la trajectoire de la réforme de 2023, puis porter progressivement l'âge légal à 65 ans et la durée de cotisation à 45 ans, en moins de dix ans. Il prévoit des possibilités de départ anticipé pour certaines carrières ou situations de santé. Son projet comprend aussi un complément de retraite par capitalisation, obligatoire et collectif pour les salariés.",
+    "citation": null,
+    "nature": "declaration_publique",
+    "indicateurs": [
+      {
+        "libelle": "Âge légal de départ",
+        "valeur": 65,
+        "unite": "ans"
+      },
+      {
+        "libelle": "Durée de cotisation annoncée",
+        "valeur": 45,
+        "unite": "annuités"
+      }
+    ],
+    "source": {
+      "url": "https://www.cnews.fr/france/2026-10-03/retraites-voici-les-propositions-des-differents-candidats-lelection",
+      "titre": "Retraites : voici les propositions des différents candidats à l'élection présidentielle 2027",
+      "type": "article-de-presse",
+      "date": "2026-10-03"
+    },
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "lisnard-retraites",
+    "candidat_id": "david-lisnard",
+    "theme_id": "retraites",
+    "resume": "Pas de retour sur la réforme de 2023 et objectif de 65 ans. Sa proposition la plus structurante porte sur le financement : un socle de pension par répartition complété par une part de capitalisation obligatoire et collective.",
+    "detail": "Le candidat ne veut pas revenir sur la réforme de 2023. Son programme affiche un objectif de 65 ans, mais sa proposition la plus structurante concerne le financement : maintenir un socle de pension par répartition et lui ajouter une part de capitalisation obligatoire et collective. Pour financer le passage vers ce système, il envisage notamment de ne plus revaloriser avec l'inflation les pensions supérieures à environ 2 000 euros par mois.",
+    "citation": null,
+    "nature": "declaration_publique",
+    "indicateurs": [
+      {
+        "libelle": "Âge légal de départ",
+        "valeur": 65,
+        "unite": "ans"
+      }
+    ],
+    "source": {
+      "url": "https://www.cnews.fr/france/2026-10-03/retraites-voici-les-propositions-des-differents-candidats-lelection",
+      "titre": "Retraites : voici les propositions des différents candidats à l'élection présidentielle 2027",
+      "type": "article-de-presse",
+      "date": "2026-10-03"
+    },
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "arthaud-retraites",
+    "candidat_id": "nathalie-arthaud",
+    "theme_id": "retraites",
+    "resume": "Retraite à 60 ans avec 40 annuités, sans allongement de la durée de cotisation, et forte revalorisation des pensions avec un objectif de seuil minimal fixé à 2 000 euros.",
+    "detail": "La candidate défend la retraite à 60 ans avec 40 annuités et exclut tout allongement de la durée de cotisation. Elle n'avait pas, au 30 septembre 2026, de programme précis pour 2027 ; dans son dernier projet, elle proposait une forte revalorisation des pensions, avec notamment un objectif de seuil minimal fixé à 2 000 euros.",
+    "citation": null,
+    "nature": "declaration_publique",
+    "indicateurs": [
+      {
+        "libelle": "Âge légal de départ",
+        "valeur": 60,
+        "unite": "ans"
+      },
+      {
+        "libelle": "Durée de cotisation annoncée",
+        "valeur": 40,
+        "unite": "annuités"
+      }
+    ],
+    "source": {
+      "url": "https://www.cnews.fr/france/2026-10-02/presidentielle-2027-depart-60-ans-hausse-des-petites-pensions-penibilite-quelles",
+      "titre": "Présidentielle 2027 : départ à 60 ans, hausse des petites pensions, pénibilité... Quelles sont les propositions des candidats de gauche sur les retraites ?",
+      "type": "article-de-presse",
+      "date": "2026-10-02"
+    },
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "hollande-retraites",
+    "candidat_id": "francois-hollande",
+    "theme_id": "retraites",
+    "resume": "Âge légal aux alentours de 63 ans au 1er janvier 2028, puis allongement des durées de cotisation selon les gains d'espérance de vie, indexation des pensions limitée à 1 % pendant cinq ans et ajout d'une part de capitalisation.",
+    "detail": "Dans son livre-programme « Unir », l'ancien président de la République table sur un âge légal à 63 ans : « Au 1er janvier 2028, l'âge légal sera aux alentours de 63 ans. Il faudra partir de là, puis allonger les durées de cotisation au fil de l'évolution de l'espérance de vie ». Il veut aussi « limiter à 1 % pendant cinq ans l'indexation des pensions, ce qui procurerait un gain équivalent au report d'un an de l'âge de départ », et « ajouter une part de capitalisation » contrôlée par les partenaires sociaux. Il n'est pas officiellement candidat.",
+    "citation": "Au 1er janvier 2028, l'âge légal sera aux alentours de 63 ans",
+    "nature": "declaration_publique",
+    "indicateurs": [
+      {
+        "libelle": "Âge légal de départ",
+        "valeur": 63,
+        "unite": "ans"
+      }
+    ],
+    "source": {
+      "url": "https://www.cnews.fr/france/2026-10-02/presidentielle-2027-depart-60-ans-hausse-des-petites-pensions-penibilite-quelles",
+      "titre": "Présidentielle 2027 : départ à 60 ans, hausse des petites pensions, pénibilité... Quelles sont les propositions des candidats de gauche sur les retraites ?",
+      "type": "article-de-presse",
+      "date": "2026-10-02"
+    },
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "philippe-immigration",
+    "candidat_id": "edouard-philippe",
+    "theme_id": "immigration",
+    "resume": "Dénonciation de l'accord franco-algérien de 1968, restriction de l'immigration familiale, quotas migratoires, expulsion immédiate des délinquants étrangers et vote annuel au Parlement d'une liste de « pays sûrs ».",
+    "detail": "Le candidat affiche le contrôle des flux migratoires comme l'une de ses priorités. Il plaide pour dénoncer l'accord de 1968 conclu avec l'Algérie, qui crée un statut spécifique pour les ressortissants algériens en matière de circulation, de séjour et d'emploi. Il souhaite restreindre l'immigration familiale et mettre en place une politique de quotas migratoires. Concernant les délinquants étrangers, il promet d'être « intraitable », prônant leur expulsion immédiate et la fin des aides sociales. Il se dit prêt à utiliser les centres de retour prévus par le règlement européen et propose de faire voter chaque année au Parlement une liste de « pays sûrs ».",
+    "citation": "La France a le droit de choisir qui entre et réside sur son territoire",
+    "nature": "declaration_publique",
+    "indicateurs": [],
+    "source": {
+      "url": "https://www.cnews.fr/france/2026-09-11/immigration-quelles-sont-les-propositions-des-candidats-lelection-presidentielle",
+      "titre": "Immigration : quelles sont les propositions des candidats à l'élection présidentielle ?",
+      "type": "article-de-presse",
+      "date": "2026-09-11"
+    },
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "attal-immigration",
+    "candidat_id": "gabriel-attal",
+    "theme_id": "immigration",
+    "resume": "« Accueillir moins pour accueillir mieux » en privilégiant l'immigration de travail, avec un système à points inspiré du modèle canadien et un durcissement des conditions du regroupement familial.",
+    "detail": "Le candidat place la maîtrise de l'immigration parmi ses chantiers prioritaires et dit vouloir privilégier l'immigration de travail. Il évoque la mise en place d'un système à points sur le modèle du Canada, établi sur des critères tels qu'une offre d'emploi stable, un logement, la maîtrise de la langue française et le respect des valeurs du pays. En parallèle, il entend durcir les conditions du regroupement familial.",
+    "citation": "Notre ligne est claire, ce que nous voulons, c'est accueillir moins pour accueillir mieux",
+    "nature": "declaration_publique",
+    "indicateurs": [],
+    "source": {
+      "url": "https://www.cnews.fr/france/2026-09-11/immigration-quelles-sont-les-propositions-des-candidats-lelection-presidentielle",
+      "titre": "Immigration : quelles sont les propositions des candidats à l'élection présidentielle ?",
+      "type": "article-de-presse",
+      "date": "2026-09-11"
+    },
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "glucksmann-immigration",
+    "candidat_id": "raphael-glucksmann",
+    "theme_id": "immigration",
+    "resume": "Instauration d'une convention citoyenne sur l'immigration, composée de citoyens tirés au sort et « représentatifs », dont les propositions seraient ensuite votées au Parlement.",
+    "detail": "Dans un livre publié en juillet 2026, le candidat dit vouloir « structurer » le débat « sans tabou ». Il propose d'instaurer une convention citoyenne sur le thème de l'immigration, avec des citoyens tirés au sort et « représentatifs », confrontés à des données portant sur la démographie, l'économie ou la sécurité.",
+    "citation": "Tout sera public [et] débouchera sur des propositions votées au Parlement",
+    "nature": "declaration_publique",
+    "indicateurs": [],
+    "source": {
+      "url": "https://www.cnews.fr/france/2026-09-11/immigration-quelles-sont-les-propositions-des-candidats-lelection-presidentielle",
+      "titre": "Immigration : quelles sont les propositions des candidats à l'élection présidentielle ?",
+      "type": "article-de-presse",
+      "date": "2026-09-11"
+    },
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "tondelier-pouvoir-d-achat",
+    "candidat_id": "marine-tondelier",
+    "theme_id": "pouvoir-d-achat",
+    "resume": "Un SMIC à 2 000 euros brut, en contrepartie d'un grand plan d'aide pour les très petites entreprises et les PME.",
+    "detail": "Lors du débat organisé par le Medef, la candidate a promis « un Smic à 2 000 euros brut » en échange d'un « grand plan d'aide pour les TPE et les PME », et défendu une présidence « des petites et moyennes entreprises ». Elle a par ailleurs mis en garde sur les mesures à venir dans le débat budgétaire, estimant que la France n'avait « jamais été aussi proche d'une rupture du pacte social ».",
+    "citation": "un Smic à 2 000 euros brut",
+    "nature": "declaration_publique",
+    "indicateurs": [
+      {
+        "libelle": "SMIC visé",
+        "valeur": 2000,
+        "unite": "euros bruts"
+      }
+    ],
+    "source": {
+      "url": "https://lcp.fr/actualites/presidentielle-2027-ce-qu-il-faut-retenir-du-premier-debat-entre-les-candidats-440670",
+      "titre": "Présidentielle 2027 : ce qu'il faut retenir du débat entre les candidats devant le Medef",
+      "type": "article-de-presse",
+      "date": "2026-08-27"
+    },
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "melenchon-pouvoir-d-achat",
+    "candidat_id": "jean-luc-melenchon",
+    "theme_id": "pouvoir-d-achat",
+    "resume": "Augmentation des salaires et du SMIC, présentée comme nécessaire pour éviter une récession.",
+    "detail": "Devant les chefs d'entreprise réunis par le Medef, le candidat a exhorté à « augmenter les salaires » : « Je vous mets en alerte : le budget Lecornu, plus l'inflation alimentaire, si vous n'augmentez pas les salaires, la France va tomber en récession ». Il a répété plus tard dans les échanges : « Il faut augmenter les salaires, il faut augmenter le Smic ». Le montant de SMIC visé n'a pas été précisé à cette occasion.",
+    "citation": "Il faut augmenter les salaires, il faut augmenter le Smic",
+    "nature": "declaration_publique",
+    "indicateurs": [],
+    "source": {
+      "url": "https://lcp.fr/actualites/presidentielle-2027-ce-qu-il-faut-retenir-du-premier-debat-entre-les-candidats-440670",
+      "titre": "Présidentielle 2027 : ce qu'il faut retenir du débat entre les candidats devant le Medef",
+      "type": "article-de-presse",
+      "date": "2026-08-27"
+    },
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "maurel-pouvoir-d-achat",
+    "candidat_id": "emmanuel-maurel",
+    "theme_id": "pouvoir-d-achat",
+    "resume": "Hausse du SMIC, indexation des salaires sur l'inflation et fin du gel du point d'indice des fonctionnaires.",
+    "detail": "Lors du premier débat de la primaire socialiste, le candidat a mis l'accent sur les salaires et la redistribution, avec une hausse du SMIC, l'indexation des salaires sur l'inflation et la fin du gel du point d'indice des fonctionnaires. Il plaide également pour un plafonnement des marges des raffineurs et des distributeurs de carburants.",
+    "citation": null,
+    "nature": "declaration_publique",
+    "indicateurs": [],
+    "source": {
+      "url": "https://lcp.fr/actualites/accord-avec-lfi-moyen-orient-pouvoir-d-achat-ce-qu-il-faut-retenir-du-premier-debat-de",
+      "titre": "Accord avec LFI, Moyen-Orient, pouvoir d'achat : ce qu'il faut retenir du premier débat de la primaire de gauche",
+      "type": "article-de-presse",
+      "date": "2026-09-23"
+    },
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "faure-pouvoir-d-achat",
+    "candidat_id": "olivier-faure",
+    "theme_id": "pouvoir-d-achat",
+    "resume": "Un SMIC à 1 700 euros net et une grande « conférence salariale » après l'élection, pour remettre à plat les aides aux entreprises et les conditionner à leur politique salariale.",
+    "detail": "Lors du premier débat de la primaire socialiste, le candidat a défendu un SMIC à 1 700 euros net. Il souhaite, comme Ségolène Royal, une grande « conférence salariale » après l'élection présidentielle, pour remettre à plat les aides aux entreprises et les conditionner à la politique salariale. Sur les carburants, il prône des aides ciblées et martèle qu'« il faut taxer Total », évoquant un plafonnement des marges du pétrolier.",
+    "citation": null,
+    "nature": "declaration_publique",
+    "indicateurs": [
+      {
+        "libelle": "SMIC visé",
+        "valeur": 1700,
+        "unite": "euros nets"
+      }
+    ],
+    "source": {
+      "url": "https://lcp.fr/actualites/accord-avec-lfi-moyen-orient-pouvoir-d-achat-ce-qu-il-faut-retenir-du-premier-debat-de",
+      "titre": "Accord avec LFI, Moyen-Orient, pouvoir d'achat : ce qu'il faut retenir du premier débat de la primaire de gauche",
+      "type": "article-de-presse",
+      "date": "2026-09-23"
+    },
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "royal-pouvoir-d-achat",
+    "candidat_id": "segolene-royal",
+    "theme_id": "pouvoir-d-achat",
+    "resume": "Une grande « conférence salariale » après l'élection, et un plafonnement du prix de l'essence à 1,70 euro le litre jusqu'au 31 décembre, sur le modèle espagnol.",
+    "detail": "Lors du premier débat de la primaire socialiste, la candidate a défendu, comme Olivier Faure, une grande « conférence salariale » après l'élection présidentielle. Elle marque sa différence sur les carburants en prônant un plafonnement de l'essence pour tous les Français à 1,70 euro le litre jusqu'au 31 décembre, en disant vouloir s'inspirer de « l'exemple espagnol ».",
+    "citation": null,
+    "nature": "declaration_publique",
+    "indicateurs": [
+      {
+        "libelle": "Plafond du prix de l'essence",
+        "valeur": "1,70",
+        "unite": "euro par litre"
+      }
+    ],
+    "source": {
+      "url": "https://lcp.fr/actualites/accord-avec-lfi-moyen-orient-pouvoir-d-achat-ce-qu-il-faut-retenir-du-premier-debat-de",
+      "titre": "Accord avec LFI, Moyen-Orient, pouvoir d'achat : ce qu'il faut retenir du premier débat de la primaire de gauche",
+      "type": "article-de-presse",
+      "date": "2026-09-23"
+    },
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "guedj-pouvoir-d-achat",
+    "candidat_id": "jerome-guedj",
+    "theme_id": "pouvoir-d-achat",
+    "resume": "Limitation des aides aux entreprises dont les salariés restent trop longtemps au niveau du SMIC.",
+    "detail": "Lors du premier débat de la primaire socialiste, le candidat a indiqué vouloir limiter les aides aux entreprises lorsque les salariés restent trop longtemps au SMIC. Il plaide également pour plafonner les marges des raffineurs et des distributeurs de carburants.",
+    "citation": null,
+    "nature": "declaration_publique",
+    "indicateurs": [],
+    "source": {
+      "url": "https://lcp.fr/actualites/accord-avec-lfi-moyen-orient-pouvoir-d-achat-ce-qu-il-faut-retenir-du-premier-debat-de",
+      "titre": "Accord avec LFI, Moyen-Orient, pouvoir d'achat : ce qu'il faut retenir du premier débat de la primaire de gauche",
+      "type": "article-de-presse",
+      "date": "2026-09-23"
+    },
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "glucksmann-pouvoir-d-achat",
+    "candidat_id": "raphael-glucksmann",
+    "theme_id": "pouvoir-d-achat",
+    "resume": "Baisse de la CSG sur les salaires, financée par une taxation accrue des très gros héritages plutôt que par « la casse du modèle social » ou par l'aggravation de la dette.",
+    "detail": "Lors du débat organisé par le Medef, le candidat a promis de ne pas financer la hausse des salaires « par la casse du modèle social », ni « par l'aggravation de la dette ». « J'ai fait une proposition forte qui est de dire on baisse la CSG sur les salaires pour les salariés et on trouve l'argent où ? Eh bien chez les grands, les méga-héritiers », en taxant davantage les successions.",
+    "citation": "on baisse la CSG sur les salaires pour les salariés et on trouve l'argent où ? Eh bien chez les grands, les méga-héritiers",
+    "nature": "declaration_publique",
+    "indicateurs": [],
+    "source": {
+      "url": "https://lcp.fr/actualites/presidentielle-2027-ce-qu-il-faut-retenir-du-premier-debat-entre-les-candidats-440670",
+      "titre": "Présidentielle 2027 : ce qu'il faut retenir du débat entre les candidats devant le Medef",
+      "type": "article-de-presse",
+      "date": "2026-08-27"
+    },
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "attal-pouvoir-d-achat",
+    "candidat_id": "gabriel-attal",
+    "theme_id": "pouvoir-d-achat",
+    "resume": "Revenir sur les hausses du coût du travail intervenues depuis 2024, présentées comme un frein à la compétitivité des entreprises.",
+    "detail": "Lors du débat organisé par le Medef, le candidat a dit vouloir « revenir sur les hausses du coût du travail qui sont intervenues depuis 2024 ». « Ce qu'il aurait fallu faire, c'est ne pas augmenter le coût du travail depuis 2024 », a-t-il jugé, évoquant la dissolution de l'Assemblée et les budgets des gouvernements suivants. Il a également insisté sur l'importance de la question du logement.",
+    "citation": "le premier engagement que je prendrai (...), c'est de revenir sur ces hausses du coût du travail",
+    "nature": "declaration_publique",
+    "indicateurs": [],
+    "source": {
+      "url": "https://lcp.fr/actualites/presidentielle-2027-ce-qu-il-faut-retenir-du-premier-debat-entre-les-candidats-440670",
+      "titre": "Présidentielle 2027 : ce qu'il faut retenir du débat entre les candidats devant le Medef",
+      "type": "article-de-presse",
+      "date": "2026-08-27"
+    },
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "glucksmann-fiscalite",
+    "candidat_id": "raphael-glucksmann",
+    "theme_id": "fiscalite",
+    "resume": "Taxation accrue des très gros héritages et réforme du pacte Dutreil, avec un objectif affiché de 15 milliards d'euros de recettes.",
+    "detail": "Lors du premier débat de la primaire socialiste, le candidat a dit vouloir s'attaquer à une France devenue selon lui une « hérito-cratie », en taxant davantage les très gros héritages et en réformant le pacte Dutreil, avec l'objectif affiché de récupérer 15 milliards d'euros. Sur la dette, il considère que l'État doit « montrer l'exemple », tout en soulignant qu'elle « vient avant tout de la désindustrialisation de la France ».",
+    "citation": null,
+    "nature": "declaration_publique",
+    "indicateurs": [
+      {
+        "libelle": "Recettes supplémentaires visées",
+        "valeur": 15,
+        "unite": "milliards d'euros"
+      }
+    ],
+    "source": {
+      "url": "https://lcp.fr/actualites/accord-avec-lfi-moyen-orient-pouvoir-d-achat-ce-qu-il-faut-retenir-du-premier-debat-de",
+      "titre": "Accord avec LFI, Moyen-Orient, pouvoir d'achat : ce qu'il faut retenir du premier débat de la primaire de gauche",
+      "type": "article-de-presse",
+      "date": "2026-09-23"
+    },
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "royal-fiscalite",
+    "candidat_id": "segolene-royal",
+    "theme_id": "fiscalite",
+    "resume": "Rétablissement de l'impôt sur la fortune, suppression de certaines aides aux entreprises jugées « injustifiées » et réformes du train de vie de l'État. Elle exclut d'effacer, même partiellement, la dette publique.",
+    "detail": "Lors du premier débat de la primaire socialiste, la candidate a indiqué vouloir rétablir l'impôt sur la fortune pour faire rentrer de nouvelles recettes. Elle plaide pour des mesures d'économie en supprimant certaines aides aux entreprises jugées « injustifiées », et en menant des réformes sur le fonctionnement et le train de vie de l'État. Elle exclut d'effacer la dette, ne serait-ce qu'en partie : « Si on est défaillant dans le remboursement d'une dette (...) ça nous fragilise un peu plus ».",
+    "citation": null,
+    "nature": "declaration_publique",
+    "indicateurs": [],
+    "source": {
+      "url": "https://lcp.fr/actualites/accord-avec-lfi-moyen-orient-pouvoir-d-achat-ce-qu-il-faut-retenir-du-premier-debat-de",
+      "titre": "Accord avec LFI, Moyen-Orient, pouvoir d'achat : ce qu'il faut retenir du premier débat de la primaire de gauche",
+      "type": "article-de-presse",
+      "date": "2026-09-23"
+    },
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "faure-fiscalite",
+    "candidat_id": "olivier-faure",
+    "theme_id": "fiscalite",
+    "resume": "Redressement des comptes publics par le levier des recettes fiscales plutôt que par l'annulation de la dette, avec une taxation de Total et un plafonnement des marges du pétrolier.",
+    "detail": "Lors du premier débat de la primaire socialiste, le candidat a marqué sa différence avec Jean-Luc Mélenchon, disant préférer des pistes plus « concrètes » et une méthode plus « réalisable » que l'annulation pure et simple de la dette. C'est le levier des recettes fiscales qu'il estime le plus à même de redresser les comptes publics. Il martèle par ailleurs qu'« il faut taxer Total », évoquant un plafonnement des marges du pétrolier et une taxation de ses superprofits.",
+    "citation": "Il faut taxer Total",
+    "nature": "declaration_publique",
+    "indicateurs": [],
+    "source": {
+      "url": "https://lcp.fr/actualites/accord-avec-lfi-moyen-orient-pouvoir-d-achat-ce-qu-il-faut-retenir-du-premier-debat-de",
+      "titre": "Accord avec LFI, Moyen-Orient, pouvoir d'achat : ce qu'il faut retenir du premier débat de la primaire de gauche",
+      "type": "article-de-presse",
+      "date": "2026-09-23"
+    },
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "maurel-fiscalite",
+    "candidat_id": "emmanuel-maurel",
+    "theme_id": "fiscalite",
+    "resume": "Opposition à toute annulation, même partielle, de la dette ; priorité donnée à de nouvelles recettes fiscales et à la relance de l'activité, avec une critique de la politique de la Banque centrale européenne.",
+    "detail": "Lors du premier débat de la primaire socialiste, le candidat s'est opposé à l'annulation, même partielle, de la dette : « Je crois que personne ici ne veut foutre au feu la dette ». Il appelle à « faire rentrer des recettes fiscales » et à « relancer l'activité », tout en pointant la politique de la Banque centrale européenne, qui « pose problème ».",
+    "citation": "Je crois que personne ici ne veut foutre au feu la dette",
+    "nature": "declaration_publique",
+    "indicateurs": [],
+    "source": {
+      "url": "https://lcp.fr/actualites/accord-avec-lfi-moyen-orient-pouvoir-d-achat-ce-qu-il-faut-retenir-du-premier-debat-de",
+      "titre": "Accord avec LFI, Moyen-Orient, pouvoir d'achat : ce qu'il faut retenir du premier débat de la primaire de gauche",
+      "type": "article-de-presse",
+      "date": "2026-09-23"
+    },
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "philippe-fiscalite",
+    "candidat_id": "edouard-philippe",
+    "theme_id": "fiscalite",
+    "resume": "Refus d'« effacer » la dette et remise en ordre des comptes publics, au motif qu'un défaut mettrait la France en « interdit bancaire ».",
+    "detail": "Lors du débat organisé par le Medef, le candidat a réagi à la proposition de Jean-Luc Mélenchon sur la dette française : « Ce que vous êtes en train de dire, Monsieur Mélenchon, au fond, revient à ça : vous expliquez qu'on va brûler la dette et vous allez faire en sorte que la France finisse interdit bancaire. Je ne veux pas de ça. »",
+    "citation": "La France, elle a une parole, elle la tient et elle remet en ordre ses comptes",
+    "nature": "declaration_publique",
+    "indicateurs": [],
+    "source": {
+      "url": "https://lcp.fr/actualites/presidentielle-2027-ce-qu-il-faut-retenir-du-premier-debat-entre-les-candidats-440670",
+      "titre": "Présidentielle 2027 : ce qu'il faut retenir du débat entre les candidats devant le Medef",
+      "type": "article-de-presse",
+      "date": "2026-08-27"
+    },
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "tondelier-ecologie",
+    "candidat_id": "marine-tondelier",
+    "theme_id": "ecologie",
+    "resume": "Préparation d'un « nouveau régime climatique » par une réunion des responsables politiques, et instauration d'un congé climatique.",
+    "detail": "Après l'été 2026, le plus chaud jamais enregistré en France, la candidate a exhorté le Premier ministre à réunir les responsables politiques pour préparer « le nouveau régime climatique », et proposé l'instauration d'un congé climatique. Son entourage indique n'avoir pas modifié le programme, « construit autour de l'urgence écologique bien avant l'été apocalyptique que nous venons de vivre ».",
+    "citation": "Nous n'avons pas modifié notre programme car il a été construit autour de l'urgence écologique bien avant l'été apocalyptique que nous venons de vivre.",
+    "nature": "declaration_publique",
+    "indicateurs": [],
+    "source": {
+      "url": "https://www.franceinfo.fr/elections/presidentielle/on-ne-decouvre-rien-les-candidats-a-la-presidentielle-ont-ils-adapte-leur-programme-apres-les-canicules-d-un-ete-apocalyptique_8174960.html",
+      "titre": "« On ne découvre rien » : les candidats à la présidentielle ont-ils adapté leur programme après les canicules d'un été « apocalyptique » ?",
+      "type": "article-de-presse",
+      "date": "2026-09-04"
+    },
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "melenchon-ecologie",
+    "candidat_id": "jean-luc-melenchon",
+    "theme_id": "ecologie",
+    "resume": "Planification écologique organisée autour d'« éco-régions » chargées de l'eau, de l'air, de la fertilité des sols et de la santé publique, et plan canicule actualisé : surveillance satellitaire, filière française de bombardiers d'eau, conscription citoyenne.",
+    "detail": "Le candidat exhorte à « la planification » écologique et met en avant son concept d'« éco-régions », de nouveaux territoires qui devront « organiser et prévoir tout ce qui concerne l'eau, l'air, la fertilité de la terre, la santé publique ». Son groupe parlementaire a présenté fin juin 2026 une actualisation de son plan canicule, et de nouvelles mesures ont été ajoutées au programme sur la lutte contre les incendies : instauration d'une surveillance satellitaire, d'une filière française de bombardiers d'eau, ou encore d'une conscription citoyenne en appui à la sécurité civile.",
+    "citation": null,
+    "nature": "declaration_publique",
+    "indicateurs": [],
+    "source": {
+      "url": "https://www.franceinfo.fr/elections/presidentielle/on-ne-decouvre-rien-les-candidats-a-la-presidentielle-ont-ils-adapte-leur-programme-apres-les-canicules-d-un-ete-apocalyptique_8174960.html",
+      "titre": "« On ne découvre rien » : les candidats à la présidentielle ont-ils adapté leur programme après les canicules d'un été « apocalyptique » ?",
+      "type": "article-de-presse",
+      "date": "2026-09-04"
+    },
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "glucksmann-ecologie",
+    "candidat_id": "raphael-glucksmann",
+    "theme_id": "ecologie",
+    "resume": "Une « République écologique » dont la clé de voûte serait la sortie des énergies fossiles : renouvelables, électrification des usages, leasing social pour les voitures électriques, rénovation thermique, agroécologie et politique du train.",
+    "detail": "Le candidat défend l'instauration d'une « République écologique ». « Je serai le président de la transformation écologique. La clé de voûte sera la sortie des énergies fossiles », a-t-il développé le 26 août 2026, en listant ses principales mesures : « développement rapide des énergies renouvelables, électrification des usages, leasing social sur les voitures électriques, rénovation thermique des bâtiments, agroécologie, politique du train ».",
+    "citation": "Je serai le président de la transformation écologique.",
+    "nature": "declaration_publique",
+    "indicateurs": [],
+    "source": {
+      "url": "https://www.franceinfo.fr/elections/presidentielle/on-ne-decouvre-rien-les-candidats-a-la-presidentielle-ont-ils-adapte-leur-programme-apres-les-canicules-d-un-ete-apocalyptique_8174960.html",
+      "titre": "« On ne découvre rien » : les candidats à la présidentielle ont-ils adapté leur programme après les canicules d'un été « apocalyptique » ?",
+      "type": "article-de-presse",
+      "date": "2026-09-04"
+    },
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "retailleau-ecologie",
+    "candidat_id": "bruno-retailleau",
+    "theme_id": "ecologie",
+    "resume": "Un cap d'« atténuation » et d'« adaptation » : faire reculer les énergies fossiles de 57 % à 43 % de la consommation d'ici 2035 en baissant le prix de l'électricité, stocker l'eau et climatiser hôpitaux et écoles.",
+    "detail": "Le candidat assume un discours offensif contre la gauche et les écologistes, accusés de proposer une vision fondée sur « la décroissance ». Assurant n'avoir « pas modifié » son programme après l'été 2026, il fixe « un cap précis : atténuer et adapter ». « Atténuer, c'est faire reculer les énergies fossiles de 57 % à 43 % de notre consommation d'ici 2035 (...) Pour ça, il faut faire baisser le prix de l'électricité, pas l'augmenter ! Adapter, c'est stocker l'eau, climatiser nos hôpitaux et nos écoles, rendre à nos agriculteurs et à nos forestiers le droit de se protéger. » Il indique que son projet pour l'écologie sera dévoilé ultérieurement.",
+    "citation": "Ni décroissance ni privation.",
+    "nature": "declaration_publique",
+    "indicateurs": [
+      {
+        "libelle": "Part des énergies fossiles dans la consommation visée en 2035",
+        "valeur": 43,
+        "unite": "%"
+      }
+    ],
+    "source": {
+      "url": "https://www.franceinfo.fr/elections/presidentielle/on-ne-decouvre-rien-les-candidats-a-la-presidentielle-ont-ils-adapte-leur-programme-apres-les-canicules-d-un-ete-apocalyptique_8174960.html",
+      "titre": "« On ne découvre rien » : les candidats à la présidentielle ont-ils adapté leur programme après les canicules d'un été « apocalyptique » ?",
+      "type": "article-de-presse",
+      "date": "2026-09-04"
+    },
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "philippe-ecologie",
+    "candidat_id": "edouard-philippe",
+    "theme_id": "ecologie",
+    "resume": "Souveraineté énergétique par la relance du nucléaire, les renouvelables et l'électrification des usages ; prix du carbone aux frontières européennes ; doublement du Fonds vert recentré sur l'adaptation et la climatisation des bâtiments publics.",
+    "detail": "Le candidat qualifie le dérèglement climatique de « grande bascule » qui « redessine les rapports de force mondiaux ». Dans son programme, il préconise « d'assurer la souveraineté énergétique de la France », en « relançant le nucléaire », tout en « développant les renouvelables et en électrifiant massivement nos usages ». Il défend l'instauration d'un « prix du carbone aux frontières européennes », ainsi que de grands travaux de rénovation. Il souhaite « doubler le montant du Fonds vert », en le recentrant sur l'adaptation et la climatisation des bâtiments publics, et multiplier les plantations d'arbres en levant les règles d'urbanisme qui freinent l'adaptation des espaces publics.",
+    "citation": null,
+    "nature": "programme_officiel",
+    "indicateurs": [],
+    "source": {
+      "url": "https://www.cnews.fr/france/2026-09-17/presidentielle-2027-edouard-philippe-devoile-son-programme-climatique-lors-dun",
+      "titre": "Présidentielle 2027 : Édouard Philippe dévoile son programme climatique lors d'un déplacement à Angers",
+      "type": "article-de-presse",
+      "date": "2026-09-17"
+    },
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "attal-ecologie",
+    "candidat_id": "gabriel-attal",
+    "theme_id": "ecologie",
+    "resume": "Création d'un ministère de l'Eau dès l'accession à l'Élysée, et propositions sur la géothermie et sur l'eau enrichies au cours de l'été 2026.",
+    "detail": "Selon son entourage, le candidat « n'a évidemment pas attendu ce tragique été » pour proposer ses mesures et a enrichi au cours de l'été 2026 ses annonces de l'année précédente, notamment sur la géothermie et sur l'eau. Il veut créer un ministère de l'Eau dès son accession à l'Élysée.",
+    "citation": null,
+    "nature": "declaration_publique",
+    "indicateurs": [],
+    "source": {
+      "url": "https://www.franceinfo.fr/elections/presidentielle/on-ne-decouvre-rien-les-candidats-a-la-presidentielle-ont-ils-adapte-leur-programme-apres-les-canicules-d-un-ete-apocalyptique_8174960.html",
+      "titre": "« On ne découvre rien » : les candidats à la présidentielle ont-ils adapté leur programme après les canicules d'un été « apocalyptique » ?",
+      "type": "article-de-presse",
+      "date": "2026-09-04"
+    },
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "melenchon-europe",
+    "candidat_id": "jean-luc-melenchon",
+    "theme_id": "europe",
+    "resume": "Désobéissance aux décisions européennes jugées « en contradiction » avec les intérêts des Français, et modification du traité sur lequel repose l'Union européenne.",
+    "detail": "Lors du débat organisé par le Medef, le candidat a promis de « désobéir » aux décisions européennes qui seraient « en contradiction » avec « les intérêts des Français tels qu'ils sont décrits par leur vote et les programmes ». « Nous devons donc modifier le traité qui fait l'Union européenne, parce que sinon nous allons mourir politiquement, socialement et industriellement parce que nous ne sommes pas en état de résister », a-t-il insisté.",
+    "citation": "Nous devons donc modifier le traité qui fait l'Union européenne",
+    "nature": "declaration_publique",
+    "indicateurs": [],
+    "source": {
+      "url": "https://lcp.fr/actualites/presidentielle-2027-ce-qu-il-faut-retenir-du-premier-debat-entre-les-candidats-440670",
+      "titre": "Présidentielle 2027 : ce qu'il faut retenir du débat entre les candidats devant le Medef",
+      "type": "article-de-presse",
+      "date": "2026-08-27"
+    },
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "faure-logement",
+    "candidat_id": "olivier-faure",
+    "theme_id": "logement",
+    "resume": "Un « bouclier logement » limitant à 30 % la part des revenus consacrée au loyer.",
+    "detail": "Lors du premier débat de la primaire socialiste, le candidat a proposé un « bouclier logement » pour limiter à 30 % la part des revenus consacrée au loyer.",
+    "citation": null,
+    "nature": "declaration_publique",
+    "indicateurs": [
+      {
+        "libelle": "Part maximale du revenu consacrée au loyer",
+        "valeur": 30,
+        "unite": "%"
+      }
+    ],
+    "source": {
+      "url": "https://lcp.fr/actualites/accord-avec-lfi-moyen-orient-pouvoir-d-achat-ce-qu-il-faut-retenir-du-premier-debat-de",
+      "titre": "Accord avec LFI, Moyen-Orient, pouvoir d'achat : ce qu'il faut retenir du premier débat de la primaire de gauche",
+      "type": "article-de-presse",
+      "date": "2026-09-23"
+    },
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "glucksmann-defense",
+    "candidat_id": "raphael-glucksmann",
+    "theme_id": "defense",
+    "resume": "Aide militaire accrue à l'Ukraine et protection du ciel ukrainien, sur le modèle de ce qui a été fait avec les Émirats arabes unis lors du conflit avec l'Iran.",
+    "detail": "Lors du premier débat de la primaire socialiste, le candidat a porté la ligne la plus offensive à l'égard de la Russie. Il demande une aide militaire accrue à l'Ukraine et la protection du ciel ukrainien, « comme cela a été fait avec les Émirats arabes unis » lors du conflit avec l'Iran.",
+    "citation": null,
+    "nature": "declaration_publique",
+    "indicateurs": [],
+    "source": {
+      "url": "https://lcp.fr/actualites/accord-avec-lfi-moyen-orient-pouvoir-d-achat-ce-qu-il-faut-retenir-du-premier-debat-de",
+      "titre": "Accord avec LFI, Moyen-Orient, pouvoir d'achat : ce qu'il faut retenir du premier débat de la primaire de gauche",
+      "type": "article-de-presse",
+      "date": "2026-09-23"
+    },
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "royal-defense",
+    "candidat_id": "segolene-royal",
+    "theme_id": "defense",
+    "resume": "Priorité à la diplomatie et à la négociation face à la Russie, en recherchant « un équilibre entre la force de défense et la force de négociation ».",
+    "detail": "Lors du premier débat de la primaire socialiste, la candidate s'est distinguée en mettant en avant la diplomatie et la nécessité d'une négociation face à la Russie. « Il faut un équilibre entre la force de défense et la force de négociation », a-t-elle affirmé, s'opposant notamment aux lignes défendues par Raphaël Glucksmann et Jérôme Guedj.",
+    "citation": "Il faut un équilibre entre la force de défense et la force de négociation",
+    "nature": "declaration_publique",
+    "indicateurs": [],
+    "source": {
+      "url": "https://lcp.fr/actualites/accord-avec-lfi-moyen-orient-pouvoir-d-achat-ce-qu-il-faut-retenir-du-premier-debat-de",
+      "titre": "Accord avec LFI, Moyen-Orient, pouvoir d'achat : ce qu'il faut retenir du premier débat de la primaire de gauche",
+      "type": "article-de-presse",
+      "date": "2026-09-23"
+    },
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "maurel-defense",
+    "candidat_id": "emmanuel-maurel",
+    "theme_id": "defense",
+    "resume": "Modernisation de l'armée française, en particulier en matière de cybersécurité et de drones.",
+    "detail": "Lors du premier débat de la primaire socialiste, le candidat a fait une critique plus large des nationalismes, en citant Vladimir Poutine, Donald Trump ou Benjamin Netanyahou. Il défend essentiellement une modernisation de l'armée française, en matière de cybersécurité ou de drones.",
+    "citation": null,
+    "nature": "declaration_publique",
+    "indicateurs": [],
+    "source": {
+      "url": "https://lcp.fr/actualites/accord-avec-lfi-moyen-orient-pouvoir-d-achat-ce-qu-il-faut-retenir-du-premier-debat-de",
+      "titre": "Accord avec LFI, Moyen-Orient, pouvoir d'achat : ce qu'il faut retenir du premier débat de la primaire de gauche",
+      "type": "article-de-presse",
+      "date": "2026-09-23"
+    },
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "philippe-institutions",
+    "candidat_id": "edouard-philippe",
+    "theme_id": "institutions",
+    "resume": "Opposition à une révision de la Constitution qui élargirait le champ du référendum à des sujets comme l'immigration.",
+    "detail": "Le candidat se distingue de Bruno Retailleau en s'opposant à l'idée de réviser la Constitution pour élargir le champ du référendum à des sujets comme l'immigration.",
+    "citation": null,
+    "nature": "declaration_publique",
+    "indicateurs": [],
+    "source": {
+      "url": "https://www.cnews.fr/france/2026-09-11/immigration-quelles-sont-les-propositions-des-candidats-lelection-presidentielle",
+      "titre": "Immigration : quelles sont les propositions des candidats à l'élection présidentielle ?",
+      "type": "article-de-presse",
+      "date": "2026-09-11"
+    },
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "le-pen-education",
+    "candidat_id": "marine-le-pen",
+    "theme_id": "education",
+    "resume": "Rétablissement de l'autorité, renfort de l'histoire et du « récit national », retour de l'uniforme au primaire et au collège, réforme du baccalauréat avec retour des séries, et revalorisation du salaire des professeurs de 3 % par an.",
+    "detail": "Le programme présidentiel de la candidate n'était pas encore publié dans son intégralité au 6 octobre 2026 ; les contours de sa politique éducative se dessinent à partir des propositions portées par son parti aux élections législatives de 2024 et de ses interventions télévisées. Le rétablissement de l'autorité est présenté comme le point d'orgue du programme, avec le renfort de la place de l'histoire et du « récit national », une réforme du baccalauréat avec le retour des séries, le retour de l'uniforme au primaire et au collège, un recentrage du primaire autour d'un tronc commun avec une hausse du volume horaire, la valorisation des filières professionnelles via un collège modulaire, un plan d'urgence éducative pour l'Outre-mer et la généralisation de la vidéoprotection. L'abrogation du Pacte enseignant et le remplacement obligatoire des professeurs absents avaient également été promis.",
+    "citation": null,
+    "nature": "declaration_publique",
+    "indicateurs": [
+      {
+        "libelle": "Revalorisation des enseignants",
+        "valeur": "3 par an",
+        "unite": "%"
+      }
+    ],
+    "source": {
+      "url": "https://www.cnews.fr/france/2026-10-06/blocus-des-lycees-que-proposent-les-principaux-candidats-la-presidentielle-en",
+      "titre": "Blocus des lycées : que proposent les principaux candidats à la présidentielle en matière d'éducation ?",
+      "type": "article-de-presse",
+      "date": "2026-10-06"
+    },
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "philippe-education",
+    "candidat_id": "edouard-philippe",
+    "theme_id": "education",
+    "resume": "Augmentation de 20 % de la rémunération des enseignants sur le quinquennat, et autonomie renforcée : les chefs d'établissement pourraient adapter méthodes et horaires, imposer l'uniforme, fixer les règles de discipline et choisir leurs enseignants.",
+    "detail": "Le candidat place l'école au cœur de son projet et a détaillé ses mesures dans son ébauche de programme pour 2027. Il souhaite augmenter la rémunération des enseignants de 20 % sur le quinquennat et réviser le recrutement et la formation. Il prône une autonomie renforcée en faisant des chefs d'établissement « les véritables patrons de l'école » : liberté d'adapter les méthodes et les horaires, d'imposer l'uniforme, de fixer les règles de discipline, de choisir et d'évaluer les enseignants. Il veut adapter les rythmes scolaires — journées moins longues, plus de sport et de culture, vacances d'été raccourcies —, concentrer le primaire sur les savoirs fondamentaux, créer un service public du soutien scolaire combinant assistant IA personnalisé et anciens professeurs volontaires, et instaurer une « amende de responsabilisation scolaire » visant certains parents d'enfants harceleurs ou absentéistes.",
+    "citation": null,
+    "nature": "programme_officiel",
+    "indicateurs": [
+      {
+        "libelle": "Revalorisation des enseignants",
+        "valeur": "20 sur le quinquennat",
+        "unite": "%"
+      }
+    ],
+    "source": {
+      "url": "https://www.cnews.fr/france/2026-10-06/blocus-des-lycees-que-proposent-les-principaux-candidats-la-presidentielle-en",
+      "titre": "Blocus des lycées : que proposent les principaux candidats à la présidentielle en matière d'éducation ?",
+      "type": "article-de-presse",
+      "date": "2026-10-06"
+    },
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "melenchon-education",
+    "candidat_id": "jean-luc-melenchon",
+    "theme_id": "education",
+    "resume": "Réduction du nombre d'élèves par classe jusqu'à 19 en moyenne, recrutement de 160 000 enseignants et revalorisation des grilles salariales d'environ 15 %, avec la gratuité des crèches publiques et de la cantine.",
+    "detail": "La source précise que l'Éducation occupe une place prépondérante dans son programme, « en cours d'actualisation pour 2027, mais dont les principales mesures existaient déjà pour la campagne de 2022 ». Le candidat défend l'objectif de faire de l'école un levier de réduction des inégalités. Il propose la réduction du nombre d'élèves par classe jusqu'à 19 en moyenne, le recrutement de 160 000 enseignants, une hausse du point d'indice et une revalorisation des grilles salariales d'environ 15 %. Parmi ses autres mesures : l'ouverture de 500 000 places de crèche en cinq ans et la gratuité des crèches publiques, la gratuité de la cantine avec 100 % de produits issus de l'agriculture biologique, la garantie de la variété des langues vivantes dès le CP, la fin des groupes de niveau au collège, l'extension de la scolarité obligatoire à 18 ans, la refondation de Parcoursup, la gratuité de l'enseignement supérieur, l'abrogation de la hausse des frais d'inscription pour les étudiants étrangers et un service public d'accompagnement du handicap.",
+    "citation": null,
+    "nature": "programme_officiel",
+    "indicateurs": [
+      {
+        "libelle": "Élèves par classe visés",
+        "valeur": 19,
+        "unite": "élèves"
+      },
+      {
+        "libelle": "Enseignants recrutés",
+        "valeur": 160000,
+        "unite": null
+      },
+      {
+        "libelle": "Revalorisation des enseignants",
+        "valeur": 15,
+        "unite": "%"
+      }
+    ],
+    "source": {
+      "url": "https://www.cnews.fr/france/2026-10-06/blocus-des-lycees-que-proposent-les-principaux-candidats-la-presidentielle-en",
+      "titre": "Blocus des lycées : que proposent les principaux candidats à la présidentielle en matière d'éducation ?",
+      "type": "article-de-presse",
+      "date": "2026-10-06"
+    },
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "glucksmann-education",
+    "candidat_id": "raphael-glucksmann",
+    "theme_id": "education",
+    "resume": "Augmentation de tous les enseignants de 10 %, pouvant atteindre 25 % selon la carrière, et « plan de sauvetage de l'école publique » sur cinq ans : réduction des effectifs par classe en primaire et rénovation du bâti scolaire.",
+    "detail": "Le candidat place la question des rémunérations au premier plan et a annoncé vouloir augmenter tous les enseignants de 10 %, avec une progression pouvant atteindre 25 % en fonction de la carrière. Il propose un « plan de sauvetage de l'école publique » sur cinq ans, comprenant une réduction du nombre d'élèves par classe dans le primaire et un vaste programme de rénovation du bâti scolaire. Il propose également de repenser Parcoursup, de créer un encadrement de l'enseignement supérieur privé avec transparence des financements et aides publiques conditionnées, une aide nationale pour les frais liés à l'éloignement des étudiants, une réinvention des bourses étudiantes et l'intégration des établissements privés sous contrat à la carte scolaire.",
+    "citation": null,
+    "nature": "declaration_publique",
+    "indicateurs": [
+      {
+        "libelle": "Revalorisation des enseignants",
+        "valeur": "10, jusqu'à 25 selon la carrière",
+        "unite": "%"
+      }
+    ],
+    "source": {
+      "url": "https://www.cnews.fr/france/2026-10-06/blocus-des-lycees-que-proposent-les-principaux-candidats-la-presidentielle-en",
+      "titre": "Blocus des lycées : que proposent les principaux candidats à la présidentielle en matière d'éducation ?",
+      "type": "article-de-presse",
+      "date": "2026-10-06"
+    },
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "attal-education",
+    "candidat_id": "gabriel-attal",
+    "theme_id": "education",
+    "resume": "Passer sous la barre des 20 élèves par classe en primaire tout en maintenant le « choc des savoirs », et augmenter de 200 euros par mois le salaire des professeurs, jusqu'à 500 euros net en fin de carrière.",
+    "detail": "Ancien ministre de l'Éducation, le candidat fait de l'école l'un de ses « chantiers capitaux » : le niveau scolaire « s'est dégradé » et l'école de la République doit « retrouver sa capacité à transmettre ». Sa priorité est de passer sous la barre des 20 élèves par classe en primaire, tout en maintenant le « choc des savoirs ». Il propose d'augmenter de 200 euros par mois le salaire des professeurs, jusqu'à 500 euros net en fin de carrière, et de garantir un même ministre de l'Éducation pendant les cinq ans du quinquennat. Au collège, il veut renforcer les exigences à l'entrée en sixième avec le rétablissement d'un certificat d'études, interdire les réseaux sociaux aux moins de 15 ans, raccourcir les journées d'école aux dépens des vacances, accorder davantage d'autonomie aux établissements et créer un conseil de discipline pour le primaire.",
+    "citation": null,
+    "nature": "declaration_publique",
+    "indicateurs": [
+      {
+        "libelle": "Élèves par classe visés",
+        "valeur": "moins de 20",
+        "unite": "élèves"
+      },
+      {
+        "libelle": "Revalorisation des enseignants (montant mensuel)",
+        "valeur": "200, jusqu'à 500 en fin de carrière",
+        "unite": "euros nets"
+      }
+    ],
+    "source": {
+      "url": "https://www.cnews.fr/france/2026-10-06/blocus-des-lycees-que-proposent-les-principaux-candidats-la-presidentielle-en",
+      "titre": "Blocus des lycées : que proposent les principaux candidats à la présidentielle en matière d'éducation ?",
+      "type": "article-de-presse",
+      "date": "2026-10-06"
+    },
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "tondelier-education",
+    "candidat_id": "marine-tondelier",
+    "theme_id": "education",
+    "resume": "L'école primaire érigée en priorité absolue : réduction des classes à 19 élèves d'ici 2032 et à 12 en REP et REP+, hausse des salaires des enseignants de 15 % en cinq ans en plus de l'inflation, et filière de catégorie B pour les AESH.",
+    "detail": "La candidate défend l'idée d'un « pays à hauteur d'enfant », avec une école primaire érigée en priorité absolue. Son parti propose de réduire la taille des classes à 19 élèves d'ici à 2032 et à 12 élèves dans les établissements REP et REP+. Elle veut augmenter les salaires des enseignants de 15 % en cinq ans, en plus de l'inflation, et créer une filière de fonctionnaires de catégorie B pour les accompagnants d'élèves en situation de handicap. Elle souhaite aussi créer des temps d'apprentissage « hors les murs » — classes découvertes, sorties, classes en extérieur —, intégrer davantage de savoirs pratiques (cuisine, jardinage, bricolage, théâtre, arts plastiques, musique) et transformer les établissements en « refuges climatiques » grâce à un investissement de deux milliards d'euros par an.",
+    "citation": null,
+    "nature": "programme_officiel",
+    "indicateurs": [
+      {
+        "libelle": "Élèves par classe visés",
+        "valeur": "19 d'ici 2032, 12 en REP et REP+",
+        "unite": "élèves"
+      },
+      {
+        "libelle": "Revalorisation des enseignants",
+        "valeur": "15 en cinq ans, en plus de l'inflation",
+        "unite": "%"
+      }
+    ],
+    "source": {
+      "url": "https://www.cnews.fr/france/2026-10-06/blocus-des-lycees-que-proposent-les-principaux-candidats-la-presidentielle-en",
+      "titre": "Blocus des lycées : que proposent les principaux candidats à la présidentielle en matière d'éducation ?",
+      "type": "article-de-presse",
+      "date": "2026-10-06"
+    },
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "retailleau-education",
+    "candidat_id": "bruno-retailleau",
+    "theme_id": "education",
+    "resume": "« Refonder l'école » autour de quatre piliers — enseignants, transmission des savoirs, autonomie, autorité : hausse des salaires de 135 euros net en début de carrière et jusqu'à 300 en fin, examen d'entrée en sixième et Parcoursup refondé au seul mérite.",
+    "detail": "« Refonder l'école » est l'un des mots d'ordre de son programme, qui repose sur quatre piliers : les enseignants, la transmission des savoirs, l'autonomie des établissements et l'autorité. Il propose d'augmenter les salaires des enseignants de 135 euros net en début de carrière et jusqu'à 300 euros en fin de carrière, tout en réformant le système d'affectation, et de créer une École Normale du Professorat par académie avec un concours régionalisé et une formation de cinq ans sur le terrain. Sur les savoirs, il prévoit d'instaurer un examen d'entrée en sixième, de revaloriser le baccalauréat, de refonder Parcoursup au seul mérite, d'apprendre aux élèves à se servir de l'IA et de créer une « filière d'excellence » de l'enseignement professionnel accessible dès 14 ans. Il veut aussi un programme « zéro écran » jusqu'au lycée, le développement des groupes de niveau, la fin du passage automatique, 1 000 établissements publics « libres » et un « contrat d'engagement des parents ».",
+    "citation": null,
+    "nature": "programme_officiel",
+    "indicateurs": [
+      {
+        "libelle": "Revalorisation des enseignants (montant mensuel)",
+        "valeur": "135 en début de carrière, jusqu'à 300 en fin",
+        "unite": "euros nets"
+      }
+    ],
+    "source": {
+      "url": "https://www.cnews.fr/france/2026-10-06/blocus-des-lycees-que-proposent-les-principaux-candidats-la-presidentielle-en",
+      "titre": "Blocus des lycées : que proposent les principaux candidats à la présidentielle en matière d'éducation ?",
+      "type": "article-de-presse",
+      "date": "2026-10-06"
+    },
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "faure-education",
+    "candidat_id": "olivier-faure",
+    "theme_id": "education",
+    "resume": "Rétablir l'égalité des chances : petit-déjeuner gratuit pour chaque enfant, renforcement de l'accompagnement des élèves en situation de handicap, meilleure rémunération des AESH et accès garanti à des psychologues et des infirmiers scolaires.",
+    "detail": "Le candidat place la lutte contre les inégalités au cœur de son projet. Parmi ses propositions : instaurer un petit-déjeuner gratuit pour chaque enfant à l'école, renforcer l'accompagnement des élèves en situation de handicap, mieux rémunérer les AESH, garantir à chaque élève un accès à des psychologues et à des infirmiers scolaires, et permettre à chaque élève de participer à une classe de découverte au cours de sa scolarité. Dans son ébauche de programme, il souhaite également relancer la politique d'éducation prioritaire, remettre à plat le système de bourses et d'aides sociales, et conditionner le financement des établissements privés sous contrat à des obligations de mixité sociale.",
+    "citation": null,
+    "nature": "declaration_publique",
+    "indicateurs": [],
+    "source": {
+      "url": "https://www.cnews.fr/france/2026-10-06/blocus-des-lycees-que-proposent-les-principaux-candidats-la-presidentielle-en",
+      "titre": "Blocus des lycées : que proposent les principaux candidats à la présidentielle en matière d'éducation ?",
+      "type": "article-de-presse",
+      "date": "2026-10-06"
+    },
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "philippe-securite",
+    "candidat_id": "edouard-philippe",
+    "theme_id": "securite",
+    "resume": "Un chapitre « une France plus sûre » : peines planchers pour les infractions les plus graves, suppression du juge d'application des peines, « état d'urgence narco », levée de l'excuse de minorité et comparution immédiate des mineurs pour le narcotrafic.",
+    "detail": "Sur son site de campagne, le candidat décline la sûreté du pays autour de quatre axes : le rétablissement de l'autorité, la fermeté et l'efficacité de la Justice, l'éradication du narcotrafic, la reprise du contrôle des frontières et la massification de l'armée. Il défend sept mesures sur l'autorité, dont la mise en place de peines planchers pour les infractions les plus graves et la suppression du juge d'application des peines. Il souhaite instaurer des courtes peines « en s'inspirant des pays du Nord qui condamnent dès la première infraction à une peine courte et dissuasive plutôt que d'enfermer trop tard et trop longtemps », et renforcer la responsabilité des juges ainsi que l'autorité du garde des Sceaux sur le parquet. Sur le narcotrafic, il propose la levée de l'excuse de minorité, la comparution immédiate des mineurs, la création d'établissements de réinsertion et de soin, et un « état d'urgence narco » avec des moyens juridiques d'exception limités dans le temps et dans l'espace.",
+    "citation": "Il faut remettre de l'ordre chez nous, dans nos rues",
+    "nature": "programme_officiel",
+    "indicateurs": [],
+    "source": {
+      "url": "https://www.cnews.fr/france/2026-07-19/presidentielle-2027-edouard-philippe-defend-une-france-plus-sure-et-met-laccent",
+      "titre": "Présidentielle 2027 : Édouard Philippe défend « une France plus sûre » et met l'accent sur la sécurité",
+      "type": "article-de-presse",
+      "date": "2026-07-19"
+    },
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "philippe-defense",
+    "candidat_id": "edouard-philippe",
+    "theme_id": "defense",
+    "resume": "Massification de l'armée : augmentation du nombre de réservistes de 45 000 à 250 000, et grand plan munitions pour dépasser l'objectif de 100 000 obus par an et atteindre l'échelle des 700 000 produits par l'Allemagne.",
+    "detail": "Dans le volet « une France plus sûre » de son programme, le candidat estime que « la France doit se réarmer et donner à ses armées la masse qui leur manque pour défendre notre souveraineté et dissuader nos adversaires ». Cette massification doit selon lui passer par une augmentation du nombre de réservistes de 45 000 à 250 000, ainsi que par le lancement « d'un grand plan munitions pour dépasser l'objectif actuel de 100 000 obus par an et atteindre l'échelle des 700 000 produits par l'Allemagne ».",
+    "citation": "La France doit se réarmer et donner à ses armées la masse qui leur manque",
+    "nature": "programme_officiel",
+    "indicateurs": [
+      {
+        "libelle": "Réservistes visés",
+        "valeur": 250000,
+        "unite": null
+      },
+      {
+        "libelle": "Production annuelle d'obus visée",
+        "valeur": 700000,
+        "unite": "obus"
+      }
+    ],
+    "source": {
+      "url": "https://www.cnews.fr/france/2026-07-19/presidentielle-2027-edouard-philippe-defend-une-france-plus-sure-et-met-laccent",
+      "titre": "Présidentielle 2027 : Édouard Philippe défend « une France plus sûre » et met l'accent sur la sécurité",
+      "type": "article-de-presse",
+      "date": "2026-07-19"
+    },
+    "derniere_verification": "2026-10-09"
+  }
+]

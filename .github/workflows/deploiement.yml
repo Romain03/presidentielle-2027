@@ -1,0 +1,57 @@
+name: Déploiement GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Un seul déploiement à la fois, sans annuler celui qui est en cours.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  construire:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      - run: npm ci
+
+      # Les tests valident aussi les données : un fichier de /data malformé
+      # ou une proposition sans source bloque le déploiement.
+      - run: npm test
+
+      - run: npm run build
+        env:
+          NEXT_PUBLIC_BASE_PATH: /${{ github.event.repository.name }}
+
+      # Sans ce fichier, GitHub Pages ignore les dossiers commençant par un
+      # tiret bas — donc tout /_next/, donc le site entier.
+      - run: touch out/.nojekyll
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: out
+
+  deployer:
+    needs: construire
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploiement.outputs.page_url }}
+    steps:
+      - id: deploiement
+        uses: actions/deploy-pages@v4

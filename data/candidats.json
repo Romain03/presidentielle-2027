@@ -1,0 +1,2650 @@
+[
+  {
+    "id": "nathalie-arthaud",
+    "nom": "Arthaud",
+    "prenom": "Nathalie",
+    "parti_id": "lutte-ouvriere",
+    "statut": "declare",
+    "statut_date": "2025-12-08",
+    "statut_source": {
+      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+      "titre": "Candidatures à l'élection présidentielle française de 2027",
+      "type": "encyclopedie",
+      "date": "2026-10-04"
+    },
+    "parcours": [
+      {
+        "annee": 2026,
+        "libelle": "Porte-parole de Lutte ouvrière",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
+    ],
+    "soutiens": [],
+    "precisions": [],
+    "liens_officiels": [],
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "francois-asselineau",
+    "nom": "Asselineau",
+    "prenom": "François",
+    "parti_id": "union-populaire-republicaine",
+    "statut": "declare",
+    "statut_date": "2023-08-31",
+    "statut_source": {
+      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+      "titre": "Candidatures à l'élection présidentielle française de 2027",
+      "type": "encyclopedie",
+      "date": "2026-10-04"
+    },
+    "parcours": [
+      {
+        "annee": 2026,
+        "libelle": "Président de l'Union populaire républicaine",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
+    ],
+    "soutiens": [],
+    "precisions": [],
+    "liens_officiels": [],
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "gabriel-attal",
+    "nom": "Attal",
+    "prenom": "Gabriel",
+    "parti_id": "renaissance",
+    "statut": "declare",
+    "statut_date": "2026-05-22",
+    "statut_source": {
+      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+      "titre": "Candidatures à l'élection présidentielle française de 2027",
+      "type": "encyclopedie",
+      "date": "2026-10-04"
+    },
+    "parcours": [
+      {
+        "annee": 2026,
+        "libelle": "Secrétaire général de Renaissance, président du groupe EPR et député des Hauts-de-Seine",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
+    ],
+    "soutiens": [],
+    "precisions": [],
+    "liens_officiels": [],
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "francois-baroin",
+    "nom": "Baroin",
+    "prenom": "François",
+    "parti_id": "les-republicains",
+    "statut": "pressenti",
+    "statut_date": null,
+    "statut_source": {
+      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+      "titre": "Candidatures à l'élection présidentielle française de 2027",
+      "type": "encyclopedie",
+      "date": "2026-10-04"
+    },
+    "parcours": [
+      {
+        "annee": 2026,
+        "libelle": "Maire de Troyes",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
+    ],
+    "soutiens": [],
+    "precisions": [],
+    "liens_officiels": [],
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "jean-noel-barrot",
+    "nom": "Barrot",
+    "prenom": "Jean-Noël",
+    "parti_id": "mouvement-democrate",
+    "statut": "pressenti",
+    "statut_date": null,
+    "statut_source": {
+      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+      "titre": "Candidatures à l'élection présidentielle française de 2027",
+      "type": "encyclopedie",
+      "date": "2026-10-04"
+    },
+    "parcours": [
+      {
+        "annee": 2026,
+        "libelle": "Ministre de l'Europe et des Affaires étrangères",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
+    ],
+    "soutiens": [],
+    "precisions": [],
+    "liens_officiels": [],
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "delphine-batho",
+    "nom": "Batho",
+    "prenom": "Delphine",
+    "parti_id": "generation-ecologie",
+    "statut": "declare",
+    "statut_date": "2025-11-25",
+    "statut_source": {
+      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+      "titre": "Candidatures à l'élection présidentielle française de 2027",
+      "type": "encyclopedie",
+      "date": "2026-10-04"
+    },
+    "parcours": [
+      {
+        "annee": 2026,
+        "libelle": "Présidente de Génération écologie et députée des Deux-Sèvres",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
+    ],
+    "soutiens": [],
+    "precisions": [],
+    "liens_officiels": [],
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "olivier-becht",
+    "nom": "Becht",
+    "prenom": "Olivier",
+    "parti_id": "renaissance",
+    "statut": "declare",
+    "statut_date": "2026-09-24",
+    "statut_source": {
+      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+      "titre": "Candidatures à l'élection présidentielle française de 2027",
+      "type": "encyclopedie",
+      "date": "2026-10-04"
+    },
+    "parcours": [
+      {
+        "annee": 2026,
+        "libelle": "Député du Haut-Rhin apparenté Renaissance",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
+    ],
+    "soutiens": [],
+    "precisions": [],
+    "liens_officiels": [],
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "aurore-berge",
+    "nom": "Bergé",
+    "prenom": "Aurore",
+    "parti_id": "renaissance",
+    "statut": "pressenti",
+    "statut_date": null,
+    "statut_source": {
+      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+      "titre": "Candidatures à l'élection présidentielle française de 2027",
+      "type": "encyclopedie",
+      "date": "2026-10-04"
+    },
+    "parcours": [
+      {
+        "annee": 2026,
+        "libelle": "Ministre déléguée chargée de l'Égalité entre les femmes et les hommes",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
+    ],
+    "soutiens": [],
+    "precisions": [],
+    "liens_officiels": [],
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "xavier-bertrand",
+    "nom": "Bertrand",
+    "prenom": "Xavier",
+    "parti_id": "nous-france",
+    "statut": "declare",
+    "statut_date": "2024-02-03",
+    "statut_source": {
+      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+      "titre": "Candidatures à l'élection présidentielle française de 2027",
+      "type": "encyclopedie",
+      "date": "2026-10-04"
+    },
+    "parcours": [
+      {
+        "annee": 2026,
+        "libelle": "Président du conseil régional des Hauts-de-France",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
+    ],
+    "soutiens": [],
+    "precisions": [
+      {
+        "libelle": "Sa candidature est rattachée à Nous France, mouvement qu'il a fondé, tout en restant rattaché aux Républicains selon les sources consultées.",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
+    ],
+    "liens_officiels": [],
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "karim-bouamrane",
+    "nom": "Bouamrane",
+    "prenom": "Karim",
+    "parti_id": "parti-socialiste",
+    "statut": "declare",
+    "statut_date": "2026-06-09",
+    "statut_source": {
+      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+      "titre": "Candidatures à l'élection présidentielle française de 2027",
+      "type": "encyclopedie",
+      "date": "2026-10-04"
+    },
+    "parcours": [
+      {
+        "annee": 2026,
+        "libelle": "Maire de Saint-Ouen-sur-Seine et vice-président du conseil départemental de la Seine-Saint-Denis",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
+    ],
+    "soutiens": [],
+    "precisions": [],
+    "liens_officiels": [],
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "bernard-cazeneuve",
+    "nom": "Cazeneuve",
+    "prenom": "Bernard",
+    "parti_id": "la-convention",
+    "statut": "declare",
+    "statut_date": "2026-07-16",
+    "statut_source": {
+      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+      "titre": "Candidatures à l'élection présidentielle française de 2027",
+      "type": "encyclopedie",
+      "date": "2026-10-04"
+    },
+    "parcours": [
+      {
+        "annee": 2026,
+        "libelle": "Ancien Premier ministre, président de La Convention",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
+    ],
+    "soutiens": [],
+    "precisions": [
+      {
+        "libelle": "Il déclare sa candidature sans passer par la primaire socialiste, en invoquant « un contrat qui le lie aux Français ».",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
+    ],
+    "liens_officiels": [],
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "nicolas-dupont-aignan",
+    "nom": "Dupont-Aignan",
+    "prenom": "Nicolas",
+    "parti_id": "debout-la-france",
+    "statut": "declare",
+    "statut_date": "2026-09-19",
+    "statut_source": {
+      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+      "titre": "Candidatures à l'élection présidentielle française de 2027",
+      "type": "encyclopedie",
+      "date": "2026-10-04"
+    },
+    "parcours": [
+      {
+        "annee": 2026,
+        "libelle": "Président de Debout la France et maire d'Yerres",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
+    ],
+    "soutiens": [],
+    "precisions": [],
+    "liens_officiels": [],
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "sylvain-durif",
+    "nom": "Durif",
+    "prenom": "Sylvain",
+    "parti_id": "elvita",
+    "statut": "declare",
+    "statut_date": "2026-08-23",
+    "statut_source": {
+      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+      "titre": "Candidatures à l'élection présidentielle française de 2027",
+      "type": "encyclopedie",
+      "date": "2026-10-04"
+    },
+    "parcours": [
+      {
+        "annee": 2026,
+        "libelle": "Aucune fonction élective",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
+    ],
+    "soutiens": [],
+    "precisions": [],
+    "liens_officiels": [],
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "olivier-faure",
+    "nom": "Faure",
+    "prenom": "Olivier",
+    "parti_id": "parti-socialiste",
+    "statut": "declare",
+    "statut_date": "2026-08-30",
+    "statut_source": {
+      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+      "titre": "Candidatures à l'élection présidentielle française de 2027",
+      "type": "encyclopedie",
+      "date": "2026-10-04"
+    },
+    "parcours": [
+      {
+        "annee": 2026,
+        "libelle": "Premier secrétaire du Parti socialiste et député de Seine-et-Marne",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
+    ],
+    "soutiens": [
+      {
+        "libelle": "Marie-José Allemand",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "André Atallah",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Laurent Baumel",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Ericka Bareigts",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Karim Benbrahim",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Mickaël Bouloux",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Dorine Bregman",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Luc Broussy",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Carole Canette",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Rémi Cardon",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Paul Christophle",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Christophe Clergeau",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Pierrick Courbon",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Alain David",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Carlos Da Silva",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Arthur Delaporte",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Stéphane Delautrette",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Nassera Dutour",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Maxime des Gayets",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Arnaud Deslandes",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Dieynaba Diop",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Vincent Éblé",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Iñaki Echaniz",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Frédérique Espagnac",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Frédéric Fauvet",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Hervé Gillé",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Karine Gloanec Maurin",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Mathieu Hanotin",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Céline Hervieu",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Olivier Jacquin",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Gisèle Jourda",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Pierre Jouvet",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Régis Juanico",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Fatiha Keloua-Hachi",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Chaynesse Khirouni",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "André Laignel",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Audrey Linkenheld",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Victorin Lurel",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Estelle Mercier",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Philippe Naillet",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Corinne Narassiguin",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Anna Pic",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Émilienne Poumirol",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Emma Rafowicz",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Thierry Repentin",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Chloé Ridel",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Johanna Rolland",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Claudia Rouaux",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Lucien Stanzione",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Céline Thiébault-Martinez",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Jean-Claude Tissot",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Stéphane Troussel",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Cédric Van Styvendael",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Roger Vicot",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
+    ],
+    "precisions": [
+      {
+        "libelle": "Candidat à la primaire présidentielle socialiste de 2026, dont le premier tour se tenait les 9 et 10 octobre 2026.",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
+    ],
+    "liens_officiels": [],
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "raphael-glucksmann",
+    "nom": "Glucksmann",
+    "prenom": "Raphaël",
+    "parti_id": "place-publique",
+    "statut": "declare",
+    "statut_date": "2026-08-23",
+    "statut_source": {
+      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+      "titre": "Candidatures à l'élection présidentielle française de 2027",
+      "type": "encyclopedie",
+      "date": "2026-10-04"
+    },
+    "parcours": [
+      {
+        "annee": 2026,
+        "libelle": "Co-président de Place publique et député européen",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
+    ],
+    "soutiens": [
+      {
+        "libelle": "Christian Assaf",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "David Assouline",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Joël Aviragnet",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "François Bonneau",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Colombe Brossel",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Laurent Cathala",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Christophe Chaillou",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Daniel Cohn-Bendit",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Karine Daniel",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Marie-Pierre de La Gontrie",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Michaël Delafosse",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Carole Delga",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Jérôme Durain",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Lamia El Aaraje",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Rémi Féraud",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Claire Fita",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Guillaume Garot",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Jean-Marc Germain",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Océane Godard",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Laurence Harribey",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Florence Hérouin-Léautey",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Anne Hidalgo",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Sacha Houlié",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Yannick Jadot",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "François Kalfon",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Éric Kerrouche",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Aurore Lalucq",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Murielle Laurent",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Gérard Leseul",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Laurent Lhardit",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Monique Lubin",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Didier Marie",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Nicolas Mayer-Rossignol",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Alexandre Ouizille",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Dominique Potier",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Christophe Proença",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Marie Récalde",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Pierre-Alain Roiron",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "David Ros",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Marine Rosset",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Laurence Rossignol",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Aurélien Rousseau",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Éric Sargiacomo",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Hervé Saulignac",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Arnaud Simion",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Boris Vallaud",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Michaël Weber",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
+    ],
+    "precisions": [
+      {
+        "libelle": "Candidat à la primaire présidentielle socialiste de 2026, dont le premier tour se tenait les 9 et 10 octobre 2026.",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
+    ],
+    "liens_officiels": [],
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "jerome-guedj",
+    "nom": "Guedj",
+    "prenom": "Jérôme",
+    "parti_id": "parti-socialiste",
+    "statut": "declare",
+    "statut_date": "2026-02-05",
+    "statut_source": {
+      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+      "titre": "Candidatures à l'élection présidentielle française de 2027",
+      "type": "encyclopedie",
+      "date": "2026-10-04"
+    },
+    "parcours": [
+      {
+        "annee": 2026,
+        "libelle": "Député de l'Essonne et conseiller régional d'Île-de-France",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
+    ],
+    "soutiens": [],
+    "precisions": [
+      {
+        "libelle": "Déclaré candidat hors primaire le 5 février 2026, il annonce le 23 août 2026 rejoindre le cadre de la primaire socialiste.",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
+    ],
+    "liens_officiels": [],
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "francois-hollande",
+    "nom": "Hollande",
+    "prenom": "François",
+    "parti_id": "parti-socialiste",
+    "statut": "pressenti",
+    "statut_date": null,
+    "statut_source": {
+      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+      "titre": "Candidatures à l'élection présidentielle française de 2027",
+      "type": "encyclopedie",
+      "date": "2026-10-04"
+    },
+    "parcours": [
+      {
+        "annee": 2026,
+        "libelle": "Ancien président de la République, député de la Corrèze",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
+    ],
+    "soutiens": [],
+    "precisions": [],
+    "liens_officiels": [],
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "anasse-kazib",
+    "nom": "Kazib",
+    "prenom": "Anasse",
+    "parti_id": "revolution-permanente",
+    "statut": "declare",
+    "statut_date": "2026-06-01",
+    "statut_source": {
+      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+      "titre": "Candidatures à l'élection présidentielle française de 2027",
+      "type": "encyclopedie",
+      "date": "2026-10-04"
+    },
+    "parcours": [
+      {
+        "annee": 2026,
+        "libelle": "Porte-parole de Révolution permanente",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
+    ],
+    "soutiens": [],
+    "precisions": [],
+    "liens_officiels": [],
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "selma-labib",
+    "nom": "Labib",
+    "prenom": "Selma",
+    "parti_id": "npa-revolutionnaires",
+    "statut": "declare",
+    "statut_date": "2026-06-17",
+    "statut_source": {
+      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+      "titre": "Candidatures à l'élection présidentielle française de 2027",
+      "type": "encyclopedie",
+      "date": "2026-10-04"
+    },
+    "parcours": [
+      {
+        "annee": 2026,
+        "libelle": "Porte-parole du NPA – Révolutionnaires",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
+    ],
+    "soutiens": [],
+    "precisions": [],
+    "liens_officiels": [],
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "francis-lalanne",
+    "nom": "Lalanne",
+    "prenom": "Francis",
+    "parti_id": "france-libre",
+    "statut": "declare",
+    "statut_date": "2026-08-19",
+    "statut_source": {
+      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+      "titre": "Candidatures à l'élection présidentielle française de 2027",
+      "type": "encyclopedie",
+      "date": "2026-10-04"
+    },
+    "parcours": [
+      {
+        "annee": 2026,
+        "libelle": "Aucune fonction élective",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
+    ],
+    "soutiens": [],
+    "precisions": [],
+    "liens_officiels": [],
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "jean-lassalle",
+    "nom": "Lassalle",
+    "prenom": "Jean",
+    "parti_id": "resistons",
+    "statut": "pressenti",
+    "statut_date": null,
+    "statut_source": {
+      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+      "titre": "Candidatures à l'élection présidentielle française de 2027",
+      "type": "encyclopedie",
+      "date": "2026-10-04"
+    },
+    "parcours": [
+      {
+        "annee": 2026,
+        "libelle": "Président de Résistons",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
+    ],
+    "soutiens": [],
+    "precisions": [],
+    "liens_officiels": [],
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "bruno-le-maire",
+    "nom": "Le Maire",
+    "prenom": "Bruno",
+    "parti_id": "renaissance",
+    "statut": "pressenti",
+    "statut_date": null,
+    "statut_source": {
+      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+      "titre": "Candidatures à l'élection présidentielle française de 2027",
+      "type": "encyclopedie",
+      "date": "2026-10-04"
+    },
+    "parcours": [
+      {
+        "annee": 2026,
+        "libelle": "Ancien ministre d'État, ministre des Armées et des Anciens Combattants",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
+    ],
+    "soutiens": [],
+    "precisions": [],
+    "liens_officiels": [],
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "marine-le-pen",
+    "nom": "Le Pen",
+    "prenom": "Marine",
+    "parti_id": "rassemblement-national",
+    "statut": "declare",
+    "statut_date": "2026-07-07",
+    "statut_source": {
+      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+      "titre": "Candidatures à l'élection présidentielle française de 2027",
+      "type": "encyclopedie",
+      "date": "2026-10-04"
+    },
+    "parcours": [
+      {
+        "annee": 2026,
+        "libelle": "Présidente du groupe Rassemblement national à l'Assemblée nationale",
+        "source": {
+          "url": "https://www.franceinfo.fr/elections/presidentielle/presidentielle-2027-marine-le-pen-promet-140-milliards-d-euros-nets-d-economies-d-ici-a-2032_8224807.html",
+          "titre": "Présidentielle 2027 : Marine Le Pen promet « 140 milliards d'euros net d'économies » d'ici à 2032",
+          "type": "article-de-presse",
+          "date": "2026-10-06"
+        }
+      }
+    ],
+    "soutiens": [
+      {
+        "libelle": "Jordan Bardella, président du Rassemblement national",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Éric Ciotti, président de l'Union des droites pour la République",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Marion Maréchal, présidente d'Identité-Libertés",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
+    ],
+    "precisions": [
+      {
+        "libelle": "Condamnée en appel le 7 juillet 2026 dans l'affaire des assistants parlementaires du Front national. La cour d'appel de Paris a ramené la peine d'inéligibilité à 45 mois dont 30 avec sursis, soit 15 mois d'inéligibilité ferme déjà purgés au 30 juin 2026 du fait de l'exécution provisoire : elle est donc éligible à l'élection présidentielle de 2027.",
+        "source": {
+          "url": "https://www.touteleurope.eu/vie-politique-des-etats-membres/proces-des-assistants-du-rn-marine-le-pen-condamnee-en-appel-mais-eligible-a-l-election-presidentielle-2027/",
+          "titre": "Procès des assistants du RN : Marine Le Pen condamnée en appel, mais éligible à l'élection présidentielle 2027",
+          "type": "article-de-presse",
+          "date": "2026-07-07"
+        }
+      },
+      {
+        "libelle": "Son programme pour l'élection présidentielle de 2027 n'était pas encore rendu public au 11 septembre 2026 ; les mesures connues à cette date relèvent de déclarations publiques.",
+        "source": {
+          "url": "https://www.cnews.fr/france/2026-09-11/immigration-quelles-sont-les-propositions-des-candidats-lelection-presidentielle",
+          "titre": "Immigration : quelles sont les propositions des candidats à l'élection présidentielle ?",
+          "type": "article-de-presse",
+          "date": "2026-09-11"
+        }
+      }
+    ],
+    "liens_officiels": [
+      {
+        "libelle": "Site du Rassemblement national",
+        "url": "https://rassemblementnational.fr"
+      }
+    ],
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "david-lisnard",
+    "nom": "Lisnard",
+    "prenom": "David",
+    "parti_id": "nouvelle-energie",
+    "statut": "declare",
+    "statut_date": "2026-03-31",
+    "statut_source": {
+      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+      "titre": "Candidatures à l'élection présidentielle française de 2027",
+      "type": "encyclopedie",
+      "date": "2026-10-04"
+    },
+    "parcours": [
+      {
+        "annee": 2026,
+        "libelle": "Maire de Cannes et président de l'Association des maires de France",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
+    ],
+    "soutiens": [],
+    "precisions": [
+      {
+        "libelle": "Il déclare sa candidature le 31 mars 2026 en même temps que son départ des Républicains, tout en maintenant son souhait d'une primaire de la droite.",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
+    ],
+    "liens_officiels": [],
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "mira-markovic",
+    "nom": "Markovic",
+    "prenom": "Mira",
+    "parti_id": "parti-animaliste",
+    "statut": "declare",
+    "statut_date": "2026-10-02",
+    "statut_source": {
+      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+      "titre": "Candidatures à l'élection présidentielle française de 2027",
+      "type": "encyclopedie",
+      "date": "2026-10-04"
+    },
+    "parcours": [
+      {
+        "annee": 2026,
+        "libelle": "Cofondatrice du Parti animaliste",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
+    ],
+    "soutiens": [],
+    "precisions": [],
+    "liens_officiels": [],
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "benoit-mathieu",
+    "nom": "Mathieu",
+    "prenom": "Benoît",
+    "parti_id": null,
+    "statut": "declare",
+    "statut_date": "2026-03-30",
+    "statut_source": {
+      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+      "titre": "Candidatures à l'élection présidentielle française de 2027",
+      "type": "encyclopedie",
+      "date": "2026-10-04"
+    },
+    "parcours": [
+      {
+        "annee": 2026,
+        "libelle": "Aucune fonction élective",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
+    ],
+    "soutiens": [],
+    "precisions": [],
+    "liens_officiels": [],
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "emmanuel-maurel",
+    "nom": "Maurel",
+    "prenom": "Emmanuel",
+    "parti_id": "gauche-republicaine-et-socialiste",
+    "statut": "declare",
+    "statut_date": "2026-09-04",
+    "statut_source": {
+      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+      "titre": "Candidatures à l'élection présidentielle française de 2027",
+      "type": "encyclopedie",
+      "date": "2026-10-04"
+    },
+    "parcours": [
+      {
+        "annee": 2026,
+        "libelle": "Député du Val-d'Oise et animateur national de la Gauche républicaine et socialiste",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
+    ],
+    "soutiens": [
+      {
+        "libelle": "Marie-Noëlle Lienemann",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
+    ],
+    "precisions": [
+      {
+        "libelle": "Candidat à la primaire présidentielle socialiste de 2026, dont le premier tour se tenait les 9 et 10 octobre 2026.",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
+    ],
+    "liens_officiels": [],
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "jean-luc-melenchon",
+    "nom": "Mélenchon",
+    "prenom": "Jean-Luc",
+    "parti_id": "la-france-insoumise",
+    "statut": "declare",
+    "statut_date": "2026-05-03",
+    "statut_source": {
+      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+      "titre": "Candidatures à l'élection présidentielle française de 2027",
+      "type": "encyclopedie",
+      "date": "2026-10-04"
+    },
+    "parcours": [
+      {
+        "annee": 2026,
+        "libelle": "Candidat à l'élection présidentielle pour la quatrième fois",
+        "source": {
+          "url": "https://www.cnews.fr/france/2026-10-02/presidentielle-2027-depart-60-ans-hausse-des-petites-pensions-penibilite-quelles",
+          "titre": "Présidentielle 2027 : départ à 60 ans, hausse des petites pensions, pénibilité... Quelles sont les propositions des candidats de gauche sur les retraites ?",
+          "type": "article-de-presse",
+          "date": "2026-10-02"
+        }
+      }
+    ],
+    "soutiens": [
+      {
+        "libelle": "Philippe Poutou, porte-parole du NPA – L'Anticapitaliste",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
+    ],
+    "precisions": [
+      {
+        "libelle": "Son programme « L'Avenir en commun » compte 1 069 mesures et était annoncé disponible en librairie le 6 novembre ; les pages de chapitres du site de campagne n'étaient pas encore accessibles au 9 octobre 2026.",
+        "source": {
+          "url": "https://melenchon2027.fr/programme/decouvrir/",
+          "titre": "Découvrir le programme — L'Avenir en commun",
+          "type": "site-de-campagne",
+          "date": "2026-10-09"
+        }
+      }
+    ],
+    "liens_officiels": [
+      {
+        "libelle": "Site de campagne",
+        "url": "https://melenchon2027.fr"
+      },
+      {
+        "libelle": "Programme « L'Avenir en commun »",
+        "url": "https://melenchon2027.fr/programme/decouvrir/"
+      }
+    ],
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "manolo-mlekuz",
+    "nom": "Mlekuz",
+    "prenom": "Manolo",
+    "parti_id": "trajectoire",
+    "statut": "declare",
+    "statut_date": null,
+    "statut_source": {
+      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+      "titre": "Candidatures à l'élection présidentielle française de 2027",
+      "type": "encyclopedie",
+      "date": "2026-10-04"
+    },
+    "parcours": [
+      {
+        "annee": 2026,
+        "libelle": "Aucune fonction élective",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
+    ],
+    "soutiens": [],
+    "precisions": [
+      {
+        "libelle": "Sa candidature est présentée début 2026, sans date précise dans les sources consultées.",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
+    ],
+    "liens_officiels": [],
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "edouard-philippe",
+    "nom": "Philippe",
+    "prenom": "Édouard",
+    "parti_id": "horizons",
+    "statut": "declare",
+    "statut_date": "2024-09-03",
+    "statut_source": {
+      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+      "titre": "Candidatures à l'élection présidentielle française de 2027",
+      "type": "encyclopedie",
+      "date": "2026-10-04"
+    },
+    "parcours": [
+      {
+        "annee": 2026,
+        "libelle": "Président d'Horizons et maire du Havre, ancien Premier ministre",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
+    ],
+    "soutiens": [
+      {
+        "libelle": "Gérald Darmanin, garde des Sceaux, ministre de la Justice",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Laurent Wauquiez, président du groupe Droite républicaine à l'Assemblée nationale, après avoir soutenu Bruno Retailleau",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
+    ],
+    "precisions": [],
+    "liens_officiels": [],
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "florian-philippot",
+    "nom": "Philippot",
+    "prenom": "Florian",
+    "parti_id": "les-patriotes",
+    "statut": "declare",
+    "statut_date": "2026-05-09",
+    "statut_source": {
+      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+      "titre": "Candidatures à l'élection présidentielle française de 2027",
+      "type": "encyclopedie",
+      "date": "2026-10-04"
+    },
+    "parcours": [
+      {
+        "annee": 2026,
+        "libelle": "Président des Patriotes",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
+    ],
+    "soutiens": [],
+    "precisions": [
+      {
+        "libelle": "Il se dit prêt à se retirer si une candidature de droite souverainiste « plus rassembleuse » émergeait.",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
+    ],
+    "liens_officiels": [],
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "bruno-retailleau",
+    "nom": "Retailleau",
+    "prenom": "Bruno",
+    "parti_id": "les-republicains",
+    "statut": "investi",
+    "statut_date": "2026-04-19",
+    "statut_source": {
+      "url": "https://www.europe1.fr/politique/presidentielle-bruno-retailleau-presente-sa-fiche-de-route-pour-2027-926683",
+      "titre": "Présidentielle : Bruno Retailleau présente sa fiche de route pour 2027",
+      "type": "article-de-presse",
+      "date": "2026-04-21"
+    },
+    "parcours": [
+      {
+        "annee": 2026,
+        "libelle": "Président des Républicains, sénateur de la Vendée, ancien ministre de l'Intérieur",
+        "source": {
+          "url": "https://lcp.fr/actualites/retraites-bruno-retailleau-veut-un-age-minimal-de-depart-a-63-ans-et-un-taux-plein-a-65",
+          "titre": "Retraites : Bruno Retailleau veut un âge minimal de départ à 63 ans et un taux plein à 65 ans",
+          "type": "article-de-presse",
+          "date": "2026-09-23"
+        }
+      },
+      {
+        "annee": 2026,
+        "libelle": "Officialise sa candidature à l'élection présidentielle dans un entretien au Figaro",
+        "source": {
+          "url": "https://www.europe1.fr/politique/je-trace-ma-route-candidat-a-la-presidentielle-2027-bruno-retailleau-devoile-les-grandes-lignes-de-son-programme-895492",
+          "titre": "« Je trace ma route » : candidat à la présidentielle 2027, Bruno Retailleau dévoile les grandes lignes de son programme",
+          "type": "article-de-presse",
+          "date": "2026-02-13"
+        }
+      }
+    ],
+    "soutiens": [
+      {
+        "libelle": "Michel Barnier, ancien Premier ministre",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Robert Ménard, maire de Béziers",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Valérie Pécresse, présidente du conseil régional d'Île-de-France",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
+    ],
+    "precisions": [
+      {
+        "libelle": "Désigné candidat par un vote des adhérents des Républicains en avril 2026, après s'être déclaré dès février 2026.",
+        "source": {
+          "url": "https://www.cnews.fr/france/2026-09-11/immigration-quelles-sont-les-propositions-des-candidats-lelection-presidentielle",
+          "titre": "Immigration : quelles sont les propositions des candidats à l'élection présidentielle ?",
+          "type": "article-de-presse",
+          "date": "2026-09-11"
+        }
+      }
+    ],
+    "liens_officiels": [
+      {
+        "libelle": "Site des Républicains",
+        "url": "https://republicains.fr"
+      }
+    ],
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "sandrine-rousseau",
+    "nom": "Rousseau",
+    "prenom": "Sandrine",
+    "parti_id": "les-ecologistes",
+    "statut": "pressenti",
+    "statut_date": null,
+    "statut_source": {
+      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+      "titre": "Candidatures à l'élection présidentielle française de 2027",
+      "type": "encyclopedie",
+      "date": "2026-10-04"
+    },
+    "parcours": [
+      {
+        "annee": 2026,
+        "libelle": "Députée de Paris",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
+    ],
+    "soutiens": [],
+    "precisions": [],
+    "liens_officiels": [],
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "fabien-roussel",
+    "nom": "Roussel",
+    "prenom": "Fabien",
+    "parti_id": "parti-communiste-francais",
+    "statut": "investi",
+    "statut_date": "2026-09-06",
+    "statut_source": {
+      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+      "titre": "Candidatures à l'élection présidentielle française de 2027",
+      "type": "encyclopedie",
+      "date": "2026-10-04"
+    },
+    "parcours": [
+      {
+        "annee": 2026,
+        "libelle": "Secrétaire national du Parti communiste français et maire de Saint-Amand-les-Eaux",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
+    ],
+    "soutiens": [],
+    "precisions": [],
+    "liens_officiels": [],
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "segolene-royal",
+    "nom": "Royal",
+    "prenom": "Ségolène",
+    "parti_id": "parti-socialiste",
+    "statut": "declare",
+    "statut_date": "2026-07-10",
+    "statut_source": {
+      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+      "titre": "Candidatures à l'élection présidentielle française de 2027",
+      "type": "encyclopedie",
+      "date": "2026-10-04"
+    },
+    "parcours": [
+      {
+        "annee": 2026,
+        "libelle": "Ancienne ministre, candidate à l'élection présidentielle de 2007",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
+    ],
+    "soutiens": [
+      {
+        "libelle": "Luc Carvounas",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Béatrice Bellay",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
+    ],
+    "precisions": [
+      {
+        "libelle": "Candidate à la primaire présidentielle socialiste de 2026, dont le premier tour se tenait les 9 et 10 octobre 2026.",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
+    ],
+    "liens_officiels": [],
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "francois-ruffin",
+    "nom": "Ruffin",
+    "prenom": "François",
+    "parti_id": "debout",
+    "statut": "declare",
+    "statut_date": "2025-04-01",
+    "statut_source": {
+      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+      "titre": "Candidatures à l'élection présidentielle française de 2027",
+      "type": "encyclopedie",
+      "date": "2026-10-04"
+    },
+    "parcours": [
+      {
+        "annee": 2026,
+        "libelle": "Président de Debout ! et député de la Somme",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
+    ],
+    "soutiens": [
+      {
+        "libelle": "Sébastien Jumel",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Sophie Taillé-Polian",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Jean-Claude Raux",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Abou Sangaré",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Sébastien Peytavie",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      },
+      {
+        "libelle": "Fabien Onteniente",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
+    ],
+    "precisions": [
+      {
+        "libelle": "Candidat dans le cadre de la primaire de la gauche unitaire, il annonce qu'il restera candidat si la primaire n'a pas lieu.",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
+    ],
+    "liens_officiels": [],
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "marine-tondelier",
+    "nom": "Tondelier",
+    "prenom": "Marine",
+    "parti_id": "les-ecologistes",
+    "statut": "investi",
+    "statut_date": "2025-12-08",
+    "statut_source": {
+      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+      "titre": "Candidatures à l'élection présidentielle française de 2027",
+      "type": "encyclopedie",
+      "date": "2026-10-04"
+    },
+    "parcours": [
+      {
+        "annee": 2026,
+        "libelle": "Secrétaire nationale des Écologistes et conseillère régionale des Hauts-de-France",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
+    ],
+    "soutiens": [
+      {
+        "libelle": "Benoît Biteau",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
+    ],
+    "precisions": [
+      {
+        "libelle": "Désignée candidate des Écologistes avec 86 % des voix, dans le cadre de la primaire de la gauche unitaire.",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
+    ],
+    "liens_officiels": [],
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "manuel-valls",
+    "nom": "Valls",
+    "prenom": "Manuel",
+    "parti_id": "renaissance",
+    "statut": "pressenti",
+    "statut_date": null,
+    "statut_source": {
+      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+      "titre": "Candidatures à l'élection présidentielle française de 2027",
+      "type": "encyclopedie",
+      "date": "2026-10-04"
+    },
+    "parcours": [
+      {
+        "annee": 2026,
+        "libelle": "Ancien Premier ministre, ancien ministre d'État chargé des Outre-mer",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
+    ],
+    "soutiens": [],
+    "precisions": [],
+    "liens_officiels": [],
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "dominique-de-villepin",
+    "nom": "de Villepin",
+    "prenom": "Dominique",
+    "parti_id": "la-france-humaniste",
+    "statut": "pressenti",
+    "statut_date": null,
+    "statut_source": {
+      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+      "titre": "Candidatures à l'élection présidentielle française de 2027",
+      "type": "encyclopedie",
+      "date": "2026-10-04"
+    },
+    "parcours": [
+      {
+        "annee": 2026,
+        "libelle": "Ancien Premier ministre, président d'honneur de La France humaniste",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
+    ],
+    "soutiens": [],
+    "precisions": [
+      {
+        "libelle": "Il indique le 10 avril 2026 sa volonté d'être « un candidat du rassemblement ».",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
+    ],
+    "liens_officiels": [],
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "philippe-de-villiers",
+    "nom": "de Villiers",
+    "prenom": "Philippe",
+    "parti_id": "droite-souverainiste",
+    "statut": "pressenti",
+    "statut_date": null,
+    "statut_source": {
+      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+      "titre": "Candidatures à l'élection présidentielle française de 2027",
+      "type": "encyclopedie",
+      "date": "2026-10-04"
+    },
+    "parcours": [
+      {
+        "annee": 2026,
+        "libelle": "Ancien président du conseil général de la Vendée et ancien député européen",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
+    ],
+    "soutiens": [],
+    "precisions": [],
+    "liens_officiels": [],
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "eric-zemmour",
+    "nom": "Zemmour",
+    "prenom": "Éric",
+    "parti_id": "reconquete",
+    "statut": "declare",
+    "statut_date": "2026-09-17",
+    "statut_source": {
+      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+      "titre": "Candidatures à l'élection présidentielle française de 2027",
+      "type": "encyclopedie",
+      "date": "2026-10-04"
+    },
+    "parcours": [
+      {
+        "annee": 2026,
+        "libelle": "Président de Reconquête",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
+    ],
+    "soutiens": [
+      {
+        "libelle": "Sarah Knafo, députée européenne",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
+    ],
+    "precisions": [],
+    "liens_officiels": [],
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "clementine-autain",
+    "nom": "Autain",
+    "prenom": "Clémentine",
+    "parti_id": "l-apres",
+    "statut": "retire",
+    "statut_date": "2026-07-11",
+    "statut_source": {
+      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+      "titre": "Candidatures à l'élection présidentielle française de 2027",
+      "type": "encyclopedie",
+      "date": "2026-10-04"
+    },
+    "parcours": [
+      {
+        "annee": 2026,
+        "libelle": "Députée de la Seine-Saint-Denis",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
+    ],
+    "soutiens": [],
+    "precisions": [
+      {
+        "libelle": "Candidate à la primaire de la gauche unitaire annoncée en mars 2025, elle retire sa candidature le 11 juillet 2026.",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
+    ],
+    "liens_officiels": [],
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "benjamin-lucas-lundy",
+    "nom": "Lucas-Lundy",
+    "prenom": "Benjamin",
+    "parti_id": "generations",
+    "statut": "retire",
+    "statut_date": "2026-07-07",
+    "statut_source": {
+      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+      "titre": "Candidatures à l'élection présidentielle française de 2027",
+      "type": "encyclopedie",
+      "date": "2026-10-04"
+    },
+    "parcours": [
+      {
+        "annee": 2026,
+        "libelle": "Député des Yvelines",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
+    ],
+    "soutiens": [],
+    "precisions": [
+      {
+        "libelle": "Candidat à la primaire de la gauche unitaire annoncé le 15 mai 2026, il retire sa candidature le 7 juillet 2026.",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
+    ],
+    "liens_officiels": [],
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "lydie-massard",
+    "nom": "Massard",
+    "prenom": "Lydie",
+    "parti_id": "union-democratique-bretonne",
+    "statut": "retire",
+    "statut_date": "2026-09-09",
+    "statut_source": {
+      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+      "titre": "Candidatures à l'élection présidentielle française de 2027",
+      "type": "encyclopedie",
+      "date": "2026-10-04"
+    },
+    "parcours": [
+      {
+        "annee": 2026,
+        "libelle": "Co-porte-parole de Régions et peuples solidaires",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
+    ],
+    "soutiens": [],
+    "precisions": [
+      {
+        "libelle": "Candidate à la primaire de la gauche unitaire annoncée en avril 2026, elle retire sa candidature le 9 septembre 2026.",
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
+    ],
+    "liens_officiels": [],
+    "derniere_verification": "2026-10-09"
+  }
+]

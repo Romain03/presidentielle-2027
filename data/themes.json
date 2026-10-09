@@ -1,0 +1,62 @@
+[
+  {
+    "id": "defense",
+    "libelle": "Défense",
+    "description": "Armées, budget de la défense, dissuasion nucléaire, industrie de l'armement et engagements militaires."
+  },
+  {
+    "id": "ecologie",
+    "libelle": "Écologie",
+    "description": "Climat, énergie, biodiversité, transports et adaptation du territoire."
+  },
+  {
+    "id": "education",
+    "libelle": "Éducation",
+    "description": "École, collège, lycée, enseignement supérieur, recherche et formation professionnelle."
+  },
+  {
+    "id": "europe",
+    "libelle": "Europe",
+    "description": "Union européenne, traités, élargissement, politique commerciale et souveraineté européenne."
+  },
+  {
+    "id": "fiscalite",
+    "libelle": "Fiscalité",
+    "description": "Impôts, prélèvements, dépense publique, dette et équilibre budgétaire."
+  },
+  {
+    "id": "immigration",
+    "libelle": "Immigration",
+    "description": "Entrées et séjour des étrangers, asile, nationalité, éloignements et accords migratoires."
+  },
+  {
+    "id": "institutions",
+    "libelle": "Institutions",
+    "description": "Constitution, référendum, mode de scrutin, décentralisation et fonctionnement des pouvoirs publics."
+  },
+  {
+    "id": "logement",
+    "libelle": "Logement",
+    "description": "Construction, logement social, encadrement des loyers, accession à la propriété et hébergement d'urgence."
+  },
+  {
+    "id": "pouvoir-d-achat",
+    "libelle": "Pouvoir d'achat",
+    "description": "Salaires, SMIC, prix de l'énergie et de l'alimentation, prestations sociales et minima sociaux."
+  },
+  {
+    "id": "retraites",
+    "libelle": "Retraites",
+    "description": "Âge de départ, durée de cotisation, pénibilité, niveau des pensions et financement du système."
+  },
+  {
+    "id": "sante",
+    "libelle": "Santé",
+    "description": "Hôpital, accès aux soins, déserts médicaux, assurance maladie et santé mentale."
+  },
+  {
+    "id": "securite",
+    "libelle": "Sécurité",
+    "description": "Police, justice pénale, prisons, narcotrafic et sécurité du quotidien."
+  }
+]

@@ -1,0 +1,491 @@
+[
+  {
+    "id": "debout",
+    "nom": "Debout !",
+    "sigle": "Debout !",
+    "couleur": "#e8562a",
+    "famille": "gauche",
+    "nuance_ministerielle": null,
+    "positionnement_declare": null,
+    "site_officiel": null,
+    "processus_designation": null,
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "debout-la-france",
+    "nom": "Debout la France",
+    "sigle": "DLF",
+    "couleur": "#16558c",
+    "famille": "droite",
+    "nuance_ministerielle": {
+      "code": "DSV",
+      "libelle": "Droite souverainiste"
+    },
+    "positionnement_declare": null,
+    "site_officiel": "https://debout-la-france.fr",
+    "processus_designation": null,
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "droite-souverainiste",
+    "nom": "Droite souverainiste",
+    "sigle": "DS",
+    "couleur": "#4a6fa5",
+    "famille": "droite",
+    "nuance_ministerielle": {
+      "code": "DSV",
+      "libelle": "Droite souverainiste"
+    },
+    "positionnement_declare": null,
+    "site_officiel": null,
+    "processus_designation": null,
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "elvita",
+    "nom": "Elvita",
+    "sigle": "Elvita",
+    "couleur": "#8a8a8a",
+    "famille": "divers",
+    "nuance_ministerielle": null,
+    "positionnement_declare": null,
+    "site_officiel": null,
+    "processus_designation": null,
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "france-libre",
+    "nom": "France Libre",
+    "sigle": "FL",
+    "couleur": "#7d7d8a",
+    "famille": "divers",
+    "nuance_ministerielle": null,
+    "positionnement_declare": null,
+    "site_officiel": null,
+    "processus_designation": null,
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "gauche-republicaine-et-socialiste",
+    "nom": "Gauche républicaine et socialiste",
+    "sigle": "GRS",
+    "couleur": "#c4152f",
+    "famille": "gauche",
+    "nuance_ministerielle": null,
+    "positionnement_declare": null,
+    "site_officiel": "https://g-r-s.fr",
+    "processus_designation": null,
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "generation-ecologie",
+    "nom": "Génération écologie",
+    "sigle": "GE",
+    "couleur": "#7fbf3f",
+    "famille": "ecologistes",
+    "nuance_ministerielle": null,
+    "positionnement_declare": null,
+    "site_officiel": null,
+    "processus_designation": null,
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "generations",
+    "nom": "Génération·s",
+    "sigle": "G·s",
+    "couleur": "#e35c99",
+    "famille": "gauche",
+    "nuance_ministerielle": null,
+    "positionnement_declare": null,
+    "site_officiel": null,
+    "processus_designation": null,
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "horizons",
+    "nom": "Horizons",
+    "sigle": "HOR",
+    "couleur": "#1f6f8b",
+    "famille": "centre",
+    "nuance_ministerielle": null,
+    "positionnement_declare": null,
+    "site_officiel": "https://horizonsleparti.fr",
+    "processus_designation": null,
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "la-convention",
+    "nom": "La Convention",
+    "sigle": "LC",
+    "couleur": "#d98ba0",
+    "famille": "gauche",
+    "nuance_ministerielle": null,
+    "positionnement_declare": null,
+    "site_officiel": null,
+    "processus_designation": null,
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "la-france-humaniste",
+    "nom": "La France humaniste",
+    "sigle": "LFH",
+    "couleur": "#9a8f7d",
+    "famille": "divers",
+    "nuance_ministerielle": null,
+    "positionnement_declare": null,
+    "site_officiel": null,
+    "processus_designation": null,
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "la-france-insoumise",
+    "nom": "La France insoumise",
+    "sigle": "LFI",
+    "couleur": "#cc2443",
+    "famille": "gauche",
+    "nuance_ministerielle": {
+      "code": "FI",
+      "libelle": "La France insoumise"
+    },
+    "positionnement_declare": null,
+    "site_officiel": "https://lafranceinsoumise.fr",
+    "processus_designation": null,
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "l-apres",
+    "nom": "L'Après",
+    "sigle": "L'Après",
+    "couleur": "#d4446f",
+    "famille": "gauche",
+    "nuance_ministerielle": null,
+    "positionnement_declare": null,
+    "site_officiel": null,
+    "processus_designation": null,
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "les-ecologistes",
+    "nom": "Les Écologistes",
+    "sigle": "LE",
+    "couleur": "#2f9e44",
+    "famille": "ecologistes",
+    "nuance_ministerielle": {
+      "code": "VEC",
+      "libelle": "Les Écologistes"
+    },
+    "positionnement_declare": null,
+    "site_officiel": "https://lesecologistes.fr",
+    "processus_designation": {
+      "type": "vote-des-adherents",
+      "libelle": "Candidate désignée par les adhérents avec 86 % des voix, dans le cadre de la primaire de la gauche unitaire",
+      "dates": [
+        "2025-12-08"
+      ],
+      "source": {
+        "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+        "titre": "Candidatures à l'élection présidentielle française de 2027",
+        "type": "encyclopedie",
+        "date": "2026-10-04"
+      }
+    },
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "les-patriotes",
+    "nom": "Les Patriotes",
+    "sigle": "LP",
+    "couleur": "#3a6ea5",
+    "famille": "extreme-droite",
+    "nuance_ministerielle": null,
+    "positionnement_declare": null,
+    "site_officiel": "https://les-patriotes.fr",
+    "processus_designation": null,
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "les-republicains",
+    "nom": "Les Républicains",
+    "sigle": "LR",
+    "couleur": "#1e4b8f",
+    "famille": "droite",
+    "nuance_ministerielle": {
+      "code": "LR",
+      "libelle": "Les Républicains"
+    },
+    "positionnement_declare": null,
+    "site_officiel": "https://republicains.fr",
+    "processus_designation": {
+      "type": "vote-des-adherents",
+      "libelle": "Candidat désigné par une consultation interne des adhérents du parti",
+      "dates": [
+        "2026-04-19"
+      ],
+      "source": {
+        "url": "https://www.europe1.fr/politique/presidentielle-bruno-retailleau-presente-sa-fiche-de-route-pour-2027-926683",
+        "titre": "Présidentielle : Bruno Retailleau présente sa fiche de route pour 2027",
+        "type": "article-de-presse",
+        "date": "2026-04-21"
+      }
+    },
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "lutte-ouvriere",
+    "nom": "Lutte ouvrière",
+    "sigle": "LO",
+    "couleur": "#a51c30",
+    "famille": "extreme-gauche",
+    "nuance_ministerielle": {
+      "code": "EXG",
+      "libelle": "Extrême gauche"
+    },
+    "positionnement_declare": null,
+    "site_officiel": "https://lutte-ouvriere.org",
+    "processus_designation": null,
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "mouvement-democrate",
+    "nom": "Mouvement démocrate",
+    "sigle": "MoDem",
+    "couleur": "#ff9900",
+    "famille": "centre",
+    "nuance_ministerielle": null,
+    "positionnement_declare": null,
+    "site_officiel": "https://mouvementdemocrate.fr",
+    "processus_designation": null,
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "nous-france",
+    "nom": "Nous France",
+    "sigle": "NF",
+    "couleur": "#2b6cb0",
+    "famille": "droite",
+    "nuance_ministerielle": null,
+    "positionnement_declare": null,
+    "site_officiel": null,
+    "processus_designation": null,
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "nouvelle-energie",
+    "nom": "Nouvelle Énergie",
+    "sigle": "NE",
+    "couleur": "#4a90d9",
+    "famille": "droite",
+    "nuance_ministerielle": null,
+    "positionnement_declare": null,
+    "site_officiel": null,
+    "processus_designation": null,
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "npa-revolutionnaires",
+    "nom": "NPA – Révolutionnaires",
+    "sigle": "NPA-R",
+    "couleur": "#b02020",
+    "famille": "extreme-gauche",
+    "nuance_ministerielle": {
+      "code": "EXG",
+      "libelle": "Extrême gauche"
+    },
+    "positionnement_declare": null,
+    "site_officiel": null,
+    "processus_designation": null,
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "parti-animaliste",
+    "nom": "Parti animaliste",
+    "sigle": "PA",
+    "couleur": "#7ab800",
+    "famille": "divers",
+    "nuance_ministerielle": {
+      "code": "DIV",
+      "libelle": "Divers"
+    },
+    "positionnement_declare": null,
+    "site_officiel": "https://parti-animaliste.fr",
+    "processus_designation": null,
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "parti-communiste-francais",
+    "nom": "Parti communiste français",
+    "sigle": "PCF",
+    "couleur": "#dd0000",
+    "famille": "gauche",
+    "nuance_ministerielle": {
+      "code": "COM",
+      "libelle": "Parti communiste français"
+    },
+    "positionnement_declare": null,
+    "site_officiel": "https://pcf.fr",
+    "processus_designation": {
+      "type": "vote-des-adherents",
+      "libelle": "Candidat désigné par une consultation interne des adhérents du parti",
+      "dates": [
+        "2026-09-06"
+      ],
+      "source": {
+        "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+        "titre": "Candidatures à l'élection présidentielle française de 2027",
+        "type": "encyclopedie",
+        "date": "2026-10-04"
+      }
+    },
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "parti-socialiste",
+    "nom": "Parti socialiste",
+    "sigle": "PS",
+    "couleur": "#e8537e",
+    "famille": "gauche",
+    "nuance_ministerielle": {
+      "code": "SOC",
+      "libelle": "Parti socialiste"
+    },
+    "positionnement_declare": null,
+    "site_officiel": "https://parti-socialiste.fr",
+    "processus_designation": {
+      "type": "primaire-fermee",
+      "libelle": "Primaire présidentielle socialiste, organisée avec Place publique et la Gauche républicaine et socialiste : premier tour les 9 et 10 octobre 2026, second tour éventuel les 16 et 17 octobre",
+      "dates": [
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "source": {
+        "url": "https://lcp.fr/actualites/accord-avec-lfi-moyen-orient-pouvoir-d-achat-ce-qu-il-faut-retenir-du-premier-debat-de",
+        "titre": "Accord avec LFI, Moyen-Orient, pouvoir d'achat : ce qu'il faut retenir du premier débat de la primaire de gauche",
+        "type": "article-de-presse",
+        "date": "2026-09-23"
+      }
+    },
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "place-publique",
+    "nom": "Place publique",
+    "sigle": "PP",
+    "couleur": "#b8336a",
+    "famille": "gauche",
+    "nuance_ministerielle": null,
+    "positionnement_declare": null,
+    "site_officiel": "https://placepublique.eu",
+    "processus_designation": null,
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "rassemblement-national",
+    "nom": "Rassemblement national",
+    "sigle": "RN",
+    "couleur": "#0d378a",
+    "famille": "extreme-droite",
+    "nuance_ministerielle": {
+      "code": "RN",
+      "libelle": "Rassemblement national"
+    },
+    "positionnement_declare": null,
+    "site_officiel": "https://rassemblementnational.fr",
+    "processus_designation": null,
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "reconquete",
+    "nom": "Reconquête",
+    "sigle": "REC",
+    "couleur": "#12294f",
+    "famille": "extreme-droite",
+    "nuance_ministerielle": {
+      "code": "REC",
+      "libelle": "Reconquête"
+    },
+    "positionnement_declare": null,
+    "site_officiel": "https://parti-reconquete.fr",
+    "processus_designation": null,
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "renaissance",
+    "nom": "Renaissance",
+    "sigle": "RE",
+    "couleur": "#ffd400",
+    "famille": "centre",
+    "nuance_ministerielle": null,
+    "positionnement_declare": null,
+    "site_officiel": "https://parti-renaissance.fr",
+    "processus_designation": null,
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "resistons",
+    "nom": "Résistons",
+    "sigle": "RES",
+    "couleur": "#8a8a8a",
+    "famille": "divers",
+    "nuance_ministerielle": null,
+    "positionnement_declare": null,
+    "site_officiel": null,
+    "processus_designation": null,
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "revolution-permanente",
+    "nom": "Révolution permanente",
+    "sigle": "RP",
+    "couleur": "#9b1b1b",
+    "famille": "extreme-gauche",
+    "nuance_ministerielle": {
+      "code": "EXG",
+      "libelle": "Extrême gauche"
+    },
+    "positionnement_declare": null,
+    "site_officiel": "https://revolutionpermanente.fr",
+    "processus_designation": null,
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "trajectoire",
+    "nom": "Trajectoire",
+    "sigle": "TRA",
+    "couleur": "#6b7f8a",
+    "famille": "divers",
+    "nuance_ministerielle": null,
+    "positionnement_declare": null,
+    "site_officiel": null,
+    "processus_designation": null,
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "union-democratique-bretonne",
+    "nom": "Union démocratique bretonne",
+    "sigle": "UDB",
+    "couleur": "#e8a33d",
+    "famille": "regionalistes",
+    "nuance_ministerielle": {
+      "code": "REG",
+      "libelle": "Régionaliste"
+    },
+    "positionnement_declare": null,
+    "site_officiel": "https://udb.bzh",
+    "processus_designation": null,
+    "derniere_verification": "2026-10-09"
+  },
+  {
+    "id": "union-populaire-republicaine",
+    "nom": "Union populaire républicaine",
+    "sigle": "UPR",
+    "couleur": "#5a5a9a",
+    "famille": "divers",
+    "nuance_ministerielle": null,
+    "positionnement_declare": null,
+    "site_officiel": "https://upr.fr",
+    "processus_designation": null,
+    "derniere_verification": "2026-10-09"
+  }
+]

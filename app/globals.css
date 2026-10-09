@@ -1,0 +1,61 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-sans:
+    ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+    sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Les ancres de thème ne doivent pas passer sous l'en-tête collant. */
+:target {
+  scroll-margin-top: 5rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+/* Anneau de focus visible et contrasté sur les deux thèmes. */
+:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
+
+/* ------------------------------------------------------------------- iOS */
+
+/*
+ * Encoches et barre d'accueil : en mode « application installée », le contenu
+ * occupe tout l'écran. Ces marges évitent que l'en-tête passe sous l'encoche
+ * et que le pied de page passe sous la barre d'accueil.
+ */
+.zone-sure-haut {
+  padding-top: env(safe-area-inset-top);
+}
+
+.zone-sure-bas {
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+.zone-sure-cotes {
+  padding-left: env(safe-area-inset-left);
+  padding-right: env(safe-area-inset-right);
+}
+
+/* Évite le rebond élastique du document derrière l'en-tête collant sur iOS. */
+body {
+  overscroll-behavior-y: none;
+}
+
+/* Confort tactile : pas de surlignage bleu au tap sur les liens et boutons. */
+a,
+button,
+summary,
+label {
+  -webkit-tap-highlight-color: transparent;
+}
