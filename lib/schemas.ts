@@ -208,6 +208,14 @@ export const Jalon = z
     debut: Annee,
     /** null = fonction toujours exercée. */
     fin: Annee.nullable(),
+    /**
+     * Dates exactes quand la source les donne. Elles servent à deux choses :
+     * ordonner deux fonctions commencées la même année, et afficher la durée
+     * réelle d'un mandat très court. « 2017-2017 Ministre de l'Intérieur »
+     * laissait croire à une année de fonction, pour treize jours d'intérim.
+     */
+    debut_date: DateISO.nullable().default(null),
+    fin_date: DateISO.nullable().default(null),
     libelle: z.string().min(3),
     source: Source,
   })

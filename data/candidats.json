@@ -15,8 +15,10 @@
     "parcours": [
       {
         "debut": 2008,
-        "fin": 2014,
-        "libelle": "Conseillère municipale de Vaulx-en-Velin",
+        "fin": null,
+        "debut_date": "2008-12-08",
+        "fin_date": null,
+        "libelle": "Porte-parole (Lutte ouvrière)",
         "source": {
           "titre": "Wikidata",
           "type": "encyclopedie",
@@ -26,8 +28,10 @@
       },
       {
         "debut": 2008,
-        "fin": null,
-        "libelle": "Porte-parole (Lutte ouvrière)",
+        "fin": 2014,
+        "debut_date": "2008-03-21",
+        "fin_date": "2014-04-04",
+        "libelle": "Conseillère municipale de Vaulx-en-Velin",
         "source": {
           "titre": "Wikidata",
           "type": "encyclopedie",
@@ -110,6 +114,8 @@
       {
         "debut": 2007,
         "fin": null,
+        "debut_date": "2007-03-25",
+        "fin_date": null,
         "libelle": "Dirigeant (Union populaire républicaine)",
         "source": {
           "titre": "Wikidata",
@@ -120,8 +126,10 @@
       },
       {
         "debut": 2001,
-        "fin": 2008,
-        "libelle": "Conseiller de Paris",
+        "fin": null,
+        "debut_date": null,
+        "fin_date": null,
+        "libelle": "Inspecteur général des finances",
         "source": {
           "titre": "Wikidata",
           "type": "encyclopedie",
@@ -131,8 +139,10 @@
       },
       {
         "debut": 2001,
-        "fin": null,
-        "libelle": "Inspecteur général des finances",
+        "fin": 2008,
+        "debut_date": "2001-03-25",
+        "fin_date": "2008-03-24",
+        "libelle": "Conseiller de Paris",
         "source": {
           "titre": "Wikidata",
           "type": "encyclopedie",
@@ -225,6 +235,8 @@
       {
         "debut": 2024,
         "fin": null,
+        "debut_date": "2024-07-08",
+        "fin_date": null,
         "libelle": "Député de la dixième circonscription des Hauts-de-Seine",
         "source": {
           "titre": "Wikidata",
@@ -236,6 +248,8 @@
       {
         "debut": 2024,
         "fin": 2024,
+        "debut_date": "2024-01-09",
+        "fin_date": "2024-09-05",
         "libelle": "Premier ministre",
         "source": {
           "titre": "Wikidata",
@@ -247,6 +261,8 @@
       {
         "debut": 2023,
         "fin": 2024,
+        "debut_date": "2023-07-20",
+        "fin_date": "2024-01-09",
         "libelle": "Ministre de l'Éducation nationale",
         "source": {
           "titre": "Wikidata",
@@ -258,6 +274,8 @@
       {
         "debut": 2022,
         "fin": 2022,
+        "debut_date": "2022-06-22",
+        "fin_date": "2022-07-22",
         "libelle": "Député de la dixième circonscription des Hauts-de-Seine",
         "source": {
           "titre": "Wikidata",
@@ -269,6 +287,8 @@
       {
         "debut": 2022,
         "fin": 2023,
+        "debut_date": "2022-05-20",
+        "fin_date": "2023-07-20",
         "libelle": "Ministre délégué chargé des Comptes publics",
         "source": {
           "titre": "Wikidata",
@@ -280,6 +300,8 @@
       {
         "debut": 2017,
         "fin": 2018,
+        "debut_date": "2017-06-21",
+        "fin_date": "2018-11-16",
         "libelle": "Député de la dixième circonscription des Hauts-de-Seine",
         "source": {
           "titre": "Wikidata",
@@ -363,6 +385,8 @@
       {
         "debut": 2017,
         "fin": null,
+        "debut_date": "2017-01-01",
+        "fin_date": null,
         "libelle": "Conseiller communautaire de Troyes Champagne Métropole",
         "source": {
           "titre": "Wikidata",
@@ -374,6 +398,8 @@
       {
         "debut": 2016,
         "fin": null,
+        "debut_date": null,
+        "fin_date": null,
         "libelle": "Professeur associé (HEC Paris)",
         "source": {
           "titre": "Wikidata",
@@ -385,6 +411,8 @@
       {
         "debut": 2014,
         "fin": null,
+        "debut_date": "2014-03-23",
+        "fin_date": null,
         "libelle": "Conseiller municipal de Troyes",
         "source": {
           "titre": "Wikidata",
@@ -396,6 +424,8 @@
       {
         "debut": 2012,
         "fin": 2014,
+        "debut_date": "2012-06-17",
+        "fin_date": "2014-09-30",
         "libelle": "Député de la troisième circonscription de l'Aube",
         "source": {
           "titre": "Wikidata",
@@ -407,6 +437,8 @@
       {
         "debut": 2011,
         "fin": 2012,
+        "debut_date": "2011-06-29",
+        "fin_date": "2012-05-15",
         "libelle": "Ministre de l'Économie, des Finances et de la Souveraineté industrielle et numérique",
         "source": {
           "titre": "Wikidata",
@@ -418,6 +450,8 @@
       {
         "debut": 2010,
         "fin": 2011,
+        "debut_date": "2010-11-14",
+        "fin_date": "2011-06-29",
         "libelle": "Porte-parole du gouvernement",
         "source": {
           "titre": "Wikidata",
@@ -429,6 +463,8 @@
       {
         "debut": 2007,
         "fin": 2010,
+        "debut_date": "2007-06-20",
+        "fin_date": "2010-04-23",
         "libelle": "Député de la troisième circonscription de l'Aube",
         "source": {
           "titre": "Wikidata",
@@ -440,6 +476,8 @@
       {
         "debut": 2007,
         "fin": 2007,
+        "debut_date": "2007-03-26",
+        "fin_date": "2007-05-15",
         "libelle": "Ministre de l'Intérieur",
         "source": {
           "titre": "Wikidata",
@@ -451,6 +489,8 @@
       {
         "debut": 1997,
         "fin": 2005,
+        "debut_date": "1997-06-12",
+        "fin_date": "2005-07-02",
         "libelle": "Député de la troisième circonscription de l'Aube",
         "source": {
           "titre": "Wikidata",
@@ -462,6 +502,8 @@
       {
         "debut": 1995,
         "fin": null,
+        "debut_date": "1995-06-25",
+        "fin_date": null,
         "libelle": "Maire de Troyes",
         "source": {
           "titre": "Wikidata",
@@ -473,6 +515,8 @@
       {
         "debut": 1993,
         "fin": 1995,
+        "debut_date": "1993-04-02",
+        "fin_date": "1995-06-18",
         "libelle": "Député de la troisième circonscription de l'Aube",
         "source": {
           "titre": "Wikidata",
@@ -583,8 +627,10 @@
     "parcours": [
       {
         "debut": 2024,
-        "fin": 2024,
-        "libelle": "Député de la deuxième circonscription des Yvelines",
+        "fin": null,
+        "debut_date": null,
+        "fin_date": null,
+        "libelle": "Président de la Commission des Affaires étrangères",
         "source": {
           "titre": "Wikidata",
           "type": "encyclopedie",
@@ -595,6 +641,8 @@
       {
         "debut": 2024,
         "fin": null,
+        "debut_date": "2024-09-21",
+        "fin_date": null,
         "libelle": "Ministre des Affaires étrangères",
         "source": {
           "titre": "Wikidata",
@@ -605,8 +653,10 @@
       },
       {
         "debut": 2024,
-        "fin": null,
-        "libelle": "Président de la Commission des Affaires étrangères",
+        "fin": 2024,
+        "debut_date": "2024-07-08",
+        "fin_date": "2024-10-21",
+        "libelle": "Député de la deuxième circonscription des Yvelines",
         "source": {
           "titre": "Wikidata",
           "type": "encyclopedie",
@@ -617,6 +667,8 @@
       {
         "debut": 2022,
         "fin": null,
+        "debut_date": "2022-07-04",
+        "fin_date": null,
         "libelle": "Ministre délégué chargé de la Transition numérique et des Télécommunications",
         "source": {
           "titre": "Wikidata",
@@ -628,6 +680,8 @@
       {
         "debut": 2017,
         "fin": 2022,
+        "debut_date": "2017-06-21",
+        "fin_date": "2022-11-09",
         "libelle": "Député de la deuxième circonscription des Yvelines",
         "source": {
           "titre": "Wikidata",
@@ -639,6 +693,8 @@
       {
         "debut": 2015,
         "fin": 2017,
+        "debut_date": "2015-04-02",
+        "fin_date": "2017-11-30",
         "libelle": "Conseiller départemental de la Haute-Loire",
         "source": {
           "titre": "Wikidata",
@@ -741,6 +797,8 @@
       {
         "debut": 2007,
         "fin": null,
+        "debut_date": "2007-06-20",
+        "fin_date": null,
         "libelle": "Députée de la deuxième circonscription des Deux-Sèvres",
         "source": {
           "titre": "Wikidata",
@@ -752,6 +810,8 @@
       {
         "debut": 1990,
         "fin": 1992,
+        "debut_date": null,
+        "fin_date": null,
         "libelle": "Présidente (Fédération indépendante et démocratique lycéenne)",
         "source": {
           "titre": "Wikidata",
@@ -835,6 +895,8 @@
       {
         "debut": 2024,
         "fin": null,
+        "debut_date": "2024-02-12",
+        "fin_date": null,
         "libelle": "Député de la cinquième circonscription du Haut-Rhin",
         "source": {
           "titre": "Wikidata",
@@ -846,6 +908,8 @@
       {
         "debut": 2022,
         "fin": null,
+        "debut_date": "2022-07-04",
+        "fin_date": null,
         "libelle": "Ministre chargé du Commerce extérieur",
         "source": {
           "titre": "Wikidata",
@@ -856,8 +920,10 @@
       },
       {
         "debut": 2017,
-        "fin": 2022,
-        "libelle": "Député de la cinquième circonscription du Haut-Rhin",
+        "fin": null,
+        "debut_date": "2017-10-09",
+        "fin_date": null,
+        "libelle": "Représentant à l'Assemblée parlementaire du Conseil de l'Europe",
         "source": {
           "titre": "Wikidata",
           "type": "encyclopedie",
@@ -867,8 +933,10 @@
       },
       {
         "debut": 2017,
-        "fin": null,
-        "libelle": "Représentant à l'Assemblée parlementaire du Conseil de l'Europe",
+        "fin": 2022,
+        "debut_date": "2017-06-21",
+        "fin_date": "2022-08-04",
+        "libelle": "Député de la cinquième circonscription du Haut-Rhin",
         "source": {
           "titre": "Wikidata",
           "type": "encyclopedie",
@@ -879,6 +947,8 @@
       {
         "debut": 2015,
         "fin": 2017,
+        "debut_date": "2015-04-02",
+        "fin_date": "2017-09-11",
         "libelle": "Conseiller départemental du Haut-Rhin",
         "source": {
           "titre": "Wikidata",
@@ -890,6 +960,8 @@
       {
         "debut": 2008,
         "fin": null,
+        "debut_date": "2008-03-15",
+        "fin_date": null,
         "libelle": "Maire de Rixheim",
         "source": {
           "titre": "Wikidata",
@@ -990,8 +1062,10 @@
     "parcours": [
       {
         "debut": 2017,
-        "fin": 2025,
-        "libelle": "Députée de la dixième circonscription des Yvelines",
+        "fin": null,
+        "debut_date": "2017-06-27",
+        "fin_date": null,
+        "libelle": "Porte-parole (groupe Renaissance)",
         "source": {
           "titre": "Wikidata",
           "type": "encyclopedie",
@@ -1001,8 +1075,10 @@
       },
       {
         "debut": 2017,
-        "fin": null,
-        "libelle": "Porte-parole (groupe Renaissance)",
+        "fin": 2025,
+        "debut_date": "2017-06-21",
+        "fin_date": "2025-01-23",
+        "libelle": "Députée de la dixième circonscription des Yvelines",
         "source": {
           "titre": "Wikidata",
           "type": "encyclopedie",
@@ -1013,6 +1089,8 @@
       {
         "debut": 2016,
         "fin": null,
+        "debut_date": "2016-01-01",
+        "fin_date": null,
         "libelle": "Conseillère communautaire de Saint-Quentin-en-Yvelines",
         "source": {
           "titre": "Wikidata",
@@ -1024,6 +1102,8 @@
       {
         "debut": 2014,
         "fin": null,
+        "debut_date": "2014-03-30",
+        "fin_date": null,
         "libelle": "Conseillère (Magny-les-Hameaux)",
         "source": {
           "titre": "Wikidata",
@@ -1098,6 +1178,8 @@
       {
         "debut": 2017,
         "fin": null,
+        "debut_date": "2017-01-16",
+        "fin_date": null,
         "libelle": "Conseiller communautaire de l'Agglo du Saint-Quentinois",
         "source": {
           "titre": "Wikidata",
@@ -1109,7 +1191,9 @@
       {
         "debut": 2016,
         "fin": null,
-        "libelle": "Conseiller régional des Hauts-de-France",
+        "debut_date": "2016-01-04",
+        "fin_date": null,
+        "libelle": "Président du conseil régional des Hauts-de-France",
         "source": {
           "titre": "Wikidata",
           "type": "encyclopedie",
@@ -1120,7 +1204,9 @@
       {
         "debut": 2016,
         "fin": null,
-        "libelle": "Président du conseil régional des Hauts-de-France",
+        "debut_date": "2016-01-01",
+        "fin_date": null,
+        "libelle": "Conseiller régional des Hauts-de-France",
         "source": {
           "titre": "Wikidata",
           "type": "encyclopedie",
@@ -1131,6 +1217,8 @@
       {
         "debut": 2012,
         "fin": 2016,
+        "debut_date": "2012-06-17",
+        "fin_date": "2016-01-12",
         "libelle": "Député de la deuxième circonscription de l'Aisne",
         "source": {
           "titre": "Wikidata",
@@ -1142,6 +1230,8 @@
       {
         "debut": 2010,
         "fin": 2016,
+        "debut_date": "2010-10-04",
+        "fin_date": "2016-01-14",
         "libelle": "Maire de Saint-Quentin",
         "source": {
           "titre": "Wikidata",
@@ -1153,6 +1243,8 @@
       {
         "debut": 2009,
         "fin": 2010,
+        "debut_date": "2009-02-15",
+        "fin_date": "2010-12-15",
         "libelle": "Député de la deuxième circonscription de l'Aisne",
         "source": {
           "titre": "Wikidata",
@@ -1164,6 +1256,8 @@
       {
         "debut": 2007,
         "fin": 2007,
+        "debut_date": "2007-06-20",
+        "fin_date": "2007-07-19",
         "libelle": "Député de la deuxième circonscription de l'Aisne",
         "source": {
           "titre": "Wikidata",
@@ -1175,6 +1269,8 @@
       {
         "debut": 2007,
         "fin": 2012,
+        "debut_date": "2007-05-18",
+        "fin_date": "2012-05-10",
         "libelle": "Ministre du Travail",
         "source": {
           "titre": "Wikidata",
@@ -1186,6 +1282,8 @@
       {
         "debut": 2005,
         "fin": 2007,
+        "debut_date": "2005-06-02",
+        "fin_date": "2007-03-26",
         "libelle": "Ministre de la Santé",
         "source": {
           "titre": "Wikidata",
@@ -1197,6 +1295,8 @@
       {
         "debut": 2002,
         "fin": 2004,
+        "debut_date": "2002-06-19",
+        "fin_date": "2004-04-30",
         "libelle": "Député de la deuxième circonscription de l'Aisne",
         "source": {
           "titre": "Wikidata",
@@ -1291,6 +1391,8 @@
       {
         "debut": 2022,
         "fin": null,
+        "debut_date": "2022-11-24",
+        "fin_date": null,
         "libelle": "Président du conseil de surveillance (Société des Grands Projets)",
         "source": {
           "titre": "Wikidata",
@@ -1302,6 +1404,8 @@
       {
         "debut": 2021,
         "fin": null,
+        "debut_date": "2021-07-01",
+        "fin_date": null,
         "libelle": "Conseiller départemental de la Seine-Saint-Denis",
         "source": {
           "titre": "Wikidata",
@@ -1313,6 +1417,8 @@
       {
         "debut": 2021,
         "fin": null,
+        "debut_date": "2021-07-01",
+        "fin_date": null,
         "libelle": "Vice-président du conseil départemental de la Seine-Saint-Denis",
         "source": {
           "titre": "Wikidata",
@@ -1324,6 +1430,8 @@
       {
         "debut": 2020,
         "fin": null,
+        "debut_date": "2020-06-28",
+        "fin_date": null,
         "libelle": "Conseiller municipal de Saint-Ouen-sur-Seine",
         "source": {
           "titre": "Wikidata",
@@ -1335,6 +1443,8 @@
       {
         "debut": 2020,
         "fin": null,
+        "debut_date": "2020-06-28",
+        "fin_date": null,
         "libelle": "Maire de Saint-Ouen-sur-Seine",
         "source": {
           "titre": "Wikidata",
@@ -1399,6 +1509,8 @@
       {
         "debut": 2017,
         "fin": 2017,
+        "debut_date": "2017-06-16",
+        "fin_date": "2017-06-20",
         "libelle": "Député de la quatrième circonscription de la Manche",
         "source": {
           "titre": "Wikidata",
@@ -1410,6 +1522,8 @@
       {
         "debut": 2016,
         "fin": 2017,
+        "debut_date": "2016-12-06",
+        "fin_date": "2017-05-10",
         "libelle": "Premier ministre",
         "source": {
           "titre": "Wikidata",
@@ -1421,6 +1535,8 @@
       {
         "debut": 2014,
         "fin": 2016,
+        "debut_date": "2014-04-02",
+        "fin_date": "2016-12-06",
         "libelle": "Ministre de l'Intérieur",
         "source": {
           "titre": "Wikidata",
@@ -1432,6 +1548,8 @@
       {
         "debut": 2012,
         "fin": 2012,
+        "debut_date": "2012-06-20",
+        "fin_date": "2012-07-21",
         "libelle": "Député de la quatrième circonscription de la Manche",
         "source": {
           "titre": "Wikidata",
@@ -1443,6 +1561,8 @@
       {
         "debut": 2007,
         "fin": 2012,
+        "debut_date": "2007-06-20",
+        "fin_date": "2012-06-16",
         "libelle": "Député de la cinquième circonscription de la Manche",
         "source": {
           "titre": "Wikidata",
@@ -1454,6 +1574,8 @@
       {
         "debut": 1997,
         "fin": 2002,
+        "debut_date": "1997-06-12",
+        "fin_date": "2002-06-18",
         "libelle": "Député de la cinquième circonscription de la Manche",
         "source": {
           "titre": "Wikidata",
@@ -1465,6 +1587,8 @@
       {
         "debut": 1995,
         "fin": 2000,
+        "debut_date": "1995-06-25",
+        "fin_date": "2000-03-14",
         "libelle": "Maire (Octeville)",
         "source": {
           "titre": "Wikidata",
@@ -1559,7 +1683,9 @@
       {
         "debut": 2026,
         "fin": null,
-        "libelle": "Conseiller municipal de Yerres",
+        "debut_date": "2026-03-22",
+        "fin_date": null,
+        "libelle": "Maire de Yerres",
         "source": {
           "titre": "Wikidata",
           "type": "encyclopedie",
@@ -1570,7 +1696,9 @@
       {
         "debut": 2026,
         "fin": null,
-        "libelle": "Maire de Yerres",
+        "debut_date": "2026-03-15",
+        "fin_date": null,
+        "libelle": "Conseiller municipal de Yerres",
         "source": {
           "titre": "Wikidata",
           "type": "encyclopedie",
@@ -1581,6 +1709,8 @@
       {
         "debut": 1997,
         "fin": 2024,
+        "debut_date": "1997-06-01",
+        "fin_date": "2024-06-09",
         "libelle": "Député de la huitième circonscription de l'Essonne",
         "source": {
           "titre": "Wikidata",
@@ -1592,6 +1722,8 @@
       {
         "debut": 1995,
         "fin": 2017,
+        "debut_date": "1995-06-25",
+        "fin_date": "2017-07-23",
         "libelle": "Maire de Yerres",
         "source": {
           "titre": "Wikidata",
@@ -1755,6 +1887,8 @@
       {
         "debut": 2018,
         "fin": null,
+        "debut_date": null,
+        "fin_date": null,
         "libelle": "Premier secrétaire du Parti socialiste",
         "source": {
           "titre": "Wikidata",
@@ -1766,6 +1900,8 @@
       {
         "debut": 2012,
         "fin": null,
+        "debut_date": "2012-06-20",
+        "fin_date": null,
         "libelle": "Député de la onzième circonscription de Seine-et-Marne",
         "source": {
           "titre": "Wikidata",
@@ -2346,6 +2482,8 @@
       {
         "debut": 2019,
         "fin": null,
+        "debut_date": "2019-07-02",
+        "fin_date": null,
         "libelle": "Député européen",
         "source": {
           "titre": "Wikidata",
@@ -2900,6 +3038,8 @@
       {
         "debut": 2022,
         "fin": null,
+        "debut_date": "2022-06-22",
+        "fin_date": null,
         "libelle": "Député de la sixième circonscription de l'Essonne",
         "source": {
           "titre": "Wikidata",
@@ -2911,6 +3051,8 @@
       {
         "debut": 2015,
         "fin": null,
+        "debut_date": "2015-04-02",
+        "fin_date": null,
         "libelle": "Conseiller départemental de l'Essonne",
         "source": {
           "titre": "Wikidata",
@@ -2922,6 +3064,8 @@
       {
         "debut": 2012,
         "fin": 2014,
+        "debut_date": "2012-06-17",
+        "fin_date": "2014-05-02",
         "libelle": "Député de la sixième circonscription de l'Essonne",
         "source": {
           "titre": "Wikidata",
@@ -3025,6 +3169,8 @@
       {
         "debut": 2024,
         "fin": null,
+        "debut_date": "2024-07-08",
+        "fin_date": null,
         "libelle": "Député de la première circonscription de la Corrèze",
         "source": {
           "titre": "Wikidata",
@@ -3036,6 +3182,8 @@
       {
         "debut": 2012,
         "fin": 2017,
+        "debut_date": "2012-05-15",
+        "fin_date": "2017-05-14",
         "libelle": "Co-prince français d'Andorre",
         "source": {
           "titre": "Wikidata",
@@ -3047,6 +3195,8 @@
       {
         "debut": 2012,
         "fin": 2017,
+        "debut_date": "2012-05-15",
+        "fin_date": "2017-05-14",
         "libelle": "Président de la République française",
         "source": {
           "titre": "Wikidata",
@@ -3058,6 +3208,8 @@
       {
         "debut": 2008,
         "fin": 2012,
+        "debut_date": "2008-03-20",
+        "fin_date": null,
         "libelle": "Conseiller général (canton de Vigeois)",
         "source": {
           "titre": "Wikidata",
@@ -3069,6 +3221,8 @@
       {
         "debut": 2001,
         "fin": 2008,
+        "debut_date": "2001-03-17",
+        "fin_date": "2008-03-17",
         "libelle": "Maire de Tulle",
         "source": {
           "titre": "Wikidata",
@@ -3080,6 +3234,8 @@
       {
         "debut": 1999,
         "fin": 1999,
+        "debut_date": "1999-07-20",
+        "fin_date": "1999-12-17",
         "libelle": "Député européen",
         "source": {
           "titre": "Wikidata",
@@ -3090,8 +3246,10 @@
       },
       {
         "debut": 1997,
-        "fin": 2012,
-        "libelle": "Député de la première circonscription de la Corrèze",
+        "fin": 2008,
+        "debut_date": "1997-11-27",
+        "fin_date": "2008-11-26",
+        "libelle": "Premier secrétaire du Parti socialiste",
         "source": {
           "titre": "Wikidata",
           "type": "encyclopedie",
@@ -3101,8 +3259,10 @@
       },
       {
         "debut": 1997,
-        "fin": 2008,
-        "libelle": "Premier secrétaire du Parti socialiste",
+        "fin": 2012,
+        "debut_date": "1997-06-12",
+        "fin_date": "2012-05-14",
+        "libelle": "Député de la première circonscription de la Corrèze",
         "source": {
           "titre": "Wikidata",
           "type": "encyclopedie",
@@ -3113,6 +3273,8 @@
       {
         "debut": 1988,
         "fin": 1993,
+        "debut_date": "1988-06-23",
+        "fin_date": "1993-04-01",
         "libelle": "Député de la première circonscription de la Corrèze",
         "source": {
           "titre": "Wikidata",
@@ -3474,6 +3636,8 @@
       {
         "debut": 2017,
         "fin": null,
+        "debut_date": "2017-01-07",
+        "fin_date": null,
         "libelle": "Conseiller communautaire du Haut-Béarn",
         "source": {
           "titre": "Wikidata",
@@ -3485,6 +3649,8 @@
       {
         "debut": 2002,
         "fin": 2022,
+        "debut_date": "2002-06-19",
+        "fin_date": "2022-06-21",
         "libelle": "Député de la quatrième circonscription des Pyrénées-Atlantiques",
         "source": {
           "titre": "Wikidata",
@@ -3496,6 +3662,8 @@
       {
         "debut": 1989,
         "fin": 1999,
+        "debut_date": null,
+        "fin_date": null,
         "libelle": "Président (parc national des Pyrénées)",
         "source": {
           "titre": "Wikidata",
@@ -3507,6 +3675,8 @@
       {
         "debut": 1977,
         "fin": 2017,
+        "debut_date": "1977-03-26",
+        "fin_date": "2017-07-16",
         "libelle": "Conseiller municipal de Lourdios-Ichère",
         "source": {
           "titre": "Wikidata",
@@ -3518,6 +3688,8 @@
       {
         "debut": 1977,
         "fin": 2017,
+        "debut_date": "1977-03-26",
+        "fin_date": "2017-07-16",
         "libelle": "Maire de Lourdios-Ichère",
         "source": {
           "titre": "Wikidata",
@@ -3582,6 +3754,8 @@
       {
         "debut": 2025,
         "fin": 2025,
+        "debut_date": "2025-10-05",
+        "fin_date": "2025-10-06",
         "libelle": "Ministre de la Défense",
         "source": {
           "titre": "Wikidata",
@@ -3593,6 +3767,8 @@
       {
         "debut": 2017,
         "fin": 2024,
+        "debut_date": "2017-05-15",
+        "fin_date": "2024-09-21",
         "libelle": "Ministre de l'Économie, des Finances et de la Souveraineté industrielle et numérique",
         "source": {
           "titre": "Wikidata",
@@ -3604,6 +3780,8 @@
       {
         "debut": 2012,
         "fin": 2017,
+        "debut_date": "2012-06-17",
+        "fin_date": "2017-07-21",
         "libelle": "Député de la première circonscription de l'Eure",
         "source": {
           "titre": "Wikidata",
@@ -3614,8 +3792,10 @@
       },
       {
         "debut": 2010,
-        "fin": 2015,
-        "libelle": "Conseiller régional de Haute-Normandie",
+        "fin": 2012,
+        "debut_date": "2010-11-14",
+        "fin_date": "2012-05-15",
+        "libelle": "Ministre de l’Agriculture, de l’Alimentation, de la Pêche, de la Ruralité et de l’Aménagement du territoire",
         "source": {
           "titre": "Wikidata",
           "type": "encyclopedie",
@@ -3625,8 +3805,10 @@
       },
       {
         "debut": 2010,
-        "fin": 2012,
-        "libelle": "Ministre de l’Agriculture, de l’Alimentation, de la Pêche, de la Ruralité et de l’Aménagement du territoire",
+        "fin": 2015,
+        "debut_date": "2010-03-26",
+        "fin_date": "2015-12-31",
+        "libelle": "Conseiller régional de Haute-Normandie",
         "source": {
           "titre": "Wikidata",
           "type": "encyclopedie",
@@ -3637,6 +3819,8 @@
       {
         "debut": 2009,
         "fin": 2010,
+        "debut_date": "2009-06-23",
+        "fin_date": "2010-11-14",
         "libelle": "Ministre de l'Alimentation, de l'Agriculture et de la Pêche",
         "source": {
           "titre": "Wikidata",
@@ -3648,6 +3832,8 @@
       {
         "debut": 2007,
         "fin": 2009,
+        "debut_date": "2007-06-20",
+        "fin_date": "2009-01-13",
         "libelle": "Député de la première circonscription de l'Eure",
         "source": {
           "titre": "Wikidata",
@@ -3768,6 +3954,8 @@
       {
         "debut": 2021,
         "fin": 2025,
+        "debut_date": "2021-07-01",
+        "fin_date": null,
         "libelle": "Conseillère départementale du Pas-de-Calais",
         "source": {
           "titre": "Wikidata",
@@ -3779,6 +3967,8 @@
       {
         "debut": 2017,
         "fin": null,
+        "debut_date": "2017-06-21",
+        "fin_date": null,
         "libelle": "Députée de la onzième circonscription du Pas-de-Calais",
         "source": {
           "titre": "Wikidata",
@@ -3790,6 +3980,8 @@
       {
         "debut": 2016,
         "fin": 2021,
+        "debut_date": "2016-01-01",
+        "fin_date": "2021-07-02",
         "libelle": "Conseillère régionale des Hauts-de-France",
         "source": {
           "titre": "Wikidata",
@@ -3801,6 +3993,8 @@
       {
         "debut": 2011,
         "fin": 2021,
+        "debut_date": "2011-01-16",
+        "fin_date": "2021-12-13",
         "libelle": "Dirigeante (Rassemblement national)",
         "source": {
           "titre": "Wikidata",
@@ -3811,8 +4005,10 @@
       },
       {
         "debut": 2004,
-        "fin": 2010,
-        "libelle": "Conseillère régionale d'Île-de-France",
+        "fin": 2017,
+        "debut_date": "2004-07-20",
+        "fin_date": "2017-06-18",
+        "libelle": "Députée européenne",
         "source": {
           "titre": "Wikidata",
           "type": "encyclopedie",
@@ -3822,8 +4018,10 @@
       },
       {
         "debut": 2004,
-        "fin": 2017,
-        "libelle": "Députée européenne",
+        "fin": 2010,
+        "debut_date": "2004-03-28",
+        "fin_date": "2010-03-21",
+        "libelle": "Conseillère régionale d'Île-de-France",
         "source": {
           "titre": "Wikidata",
           "type": "encyclopedie",
@@ -3968,6 +4166,8 @@
       {
         "debut": 2015,
         "fin": null,
+        "debut_date": "2015-04-02",
+        "fin_date": null,
         "libelle": "Conseiller départemental des Alpes-Maritimes",
         "source": {
           "titre": "Wikidata",
@@ -3979,6 +4179,21 @@
       {
         "debut": 2014,
         "fin": null,
+        "debut_date": "2014-04-05",
+        "fin_date": null,
+        "libelle": "Maire de Cannes",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q3018298"
+        }
+      },
+      {
+        "debut": 2014,
+        "fin": null,
+        "debut_date": "2014-03-30",
+        "fin_date": null,
         "libelle": "Conseiller communautaire de Cannes Pays de Lérins",
         "source": {
           "titre": "Wikidata",
@@ -3990,18 +4205,9 @@
       {
         "debut": 2014,
         "fin": null,
+        "debut_date": "2014-03-30",
+        "fin_date": null,
         "libelle": "Conseiller municipal de Cannes",
-        "source": {
-          "titre": "Wikidata",
-          "type": "encyclopedie",
-          "date": "2026-10-10",
-          "url": "https://www.wikidata.org/wiki/Q3018298"
-        }
-      },
-      {
-        "debut": 2014,
-        "fin": null,
-        "libelle": "Maire de Cannes",
         "source": {
           "titre": "Wikidata",
           "type": "encyclopedie",
@@ -4012,6 +4218,8 @@
       {
         "debut": 2008,
         "fin": null,
+        "debut_date": "2008-03-16",
+        "fin_date": null,
         "libelle": "Conseiller général des Alpes-Maritimes",
         "source": {
           "titre": "Wikidata",
@@ -4185,6 +4393,8 @@
       {
         "debut": 2024,
         "fin": null,
+        "debut_date": "2024-07-08",
+        "fin_date": null,
         "libelle": "Député de la troisième circonscription du Val-d'Oise",
         "source": {
           "titre": "Wikidata",
@@ -4196,6 +4406,8 @@
       {
         "debut": 2019,
         "fin": null,
+        "debut_date": "2019-02-03",
+        "fin_date": null,
         "libelle": "Président (Gauche républicaine et socialiste)",
         "source": {
           "titre": "Wikidata",
@@ -4207,6 +4419,8 @@
       {
         "debut": 2014,
         "fin": 2024,
+        "debut_date": "2014-07-01",
+        "fin_date": "2024-07-15",
         "libelle": "Député européen",
         "source": {
           "titre": "Wikidata",
@@ -4310,6 +4524,8 @@
       {
         "debut": 2017,
         "fin": 2022,
+        "debut_date": "2017-06-21",
+        "fin_date": "2022-06-21",
         "libelle": "Député de la quatrième circonscription des Bouches-du-Rhône",
         "source": {
           "titre": "Wikidata",
@@ -4321,6 +4537,8 @@
       {
         "debut": 2009,
         "fin": 2017,
+        "debut_date": "2009-07-14",
+        "fin_date": "2017-06-18",
         "libelle": "Député européen",
         "source": {
           "titre": "Wikidata",
@@ -4332,6 +4550,8 @@
       {
         "debut": 2004,
         "fin": 2010,
+        "debut_date": "2004-09-26",
+        "fin_date": "2010-01-07",
         "libelle": "Sénateur (Essonne)",
         "source": {
           "titre": "Wikidata",
@@ -4343,6 +4563,8 @@
       {
         "debut": 2000,
         "fin": 2002,
+        "debut_date": "2000-03-27",
+        "fin_date": "2002-05-06",
         "libelle": "Ministre délégué (formation professionnelle)",
         "source": {
           "titre": "Wikidata",
@@ -4354,6 +4576,8 @@
       {
         "debut": 1998,
         "fin": 2004,
+        "debut_date": "1998-03-23",
+        "fin_date": "2004-04-02",
         "libelle": "Conseiller général (canton de Massy-Ouest)",
         "source": {
           "titre": "Wikidata",
@@ -4365,6 +4589,8 @@
       {
         "debut": 1986,
         "fin": 2000,
+        "debut_date": "1986-09-28",
+        "fin_date": "2000-04-27",
         "libelle": "Sénateur (Essonne)",
         "source": {
           "titre": "Wikidata",
@@ -4376,6 +4602,8 @@
       {
         "debut": 1985,
         "fin": 1992,
+        "debut_date": "1985-03-23",
+        "fin_date": "1992-04-02",
         "libelle": "Conseiller général (canton de Massy-Ouest)",
         "source": {
           "titre": "Wikidata",
@@ -4561,7 +4789,9 @@
       {
         "debut": 2020,
         "fin": null,
-        "libelle": "Conseiller municipal du Havre",
+        "debut_date": "2020-10-27",
+        "fin_date": null,
+        "libelle": "Membre du conseil d'administration (Atos SE)",
         "source": {
           "titre": "Wikidata",
           "type": "encyclopedie",
@@ -4572,6 +4802,8 @@
       {
         "debut": 2020,
         "fin": null,
+        "debut_date": "2020-07-05",
+        "fin_date": null,
         "libelle": "Maire du Havre",
         "source": {
           "titre": "Wikidata",
@@ -4583,7 +4815,9 @@
       {
         "debut": 2020,
         "fin": null,
-        "libelle": "Membre du conseil d'administration (Atos SE)",
+        "debut_date": "2020-06-28",
+        "fin_date": null,
+        "libelle": "Conseiller municipal du Havre",
         "source": {
           "titre": "Wikidata",
           "type": "encyclopedie",
@@ -4594,6 +4828,8 @@
       {
         "debut": 2017,
         "fin": 2017,
+        "debut_date": "2017-10-03",
+        "fin_date": "2017-10-16",
         "libelle": "Ministre de l'Intérieur",
         "source": {
           "titre": "Wikidata",
@@ -4605,6 +4841,8 @@
       {
         "debut": 2017,
         "fin": 2020,
+        "debut_date": "2017-05-15",
+        "fin_date": "2020-07-03",
         "libelle": "Premier ministre",
         "source": {
           "titre": "Wikidata",
@@ -4616,6 +4854,8 @@
       {
         "debut": 2014,
         "fin": null,
+        "debut_date": "2014-03-23",
+        "fin_date": null,
         "libelle": "Conseiller communautaire de l'agglomération havraise",
         "source": {
           "titre": "Wikidata",
@@ -4627,6 +4867,8 @@
       {
         "debut": 2012,
         "fin": 2017,
+        "debut_date": "2012-03-23",
+        "fin_date": "2017-06-15",
         "libelle": "Député de la septième circonscription de la Seine-Maritime",
         "source": {
           "titre": "Wikidata",
@@ -4638,7 +4880,9 @@
       {
         "debut": 2010,
         "fin": 2017,
-        "libelle": "Maire du Havre",
+        "debut_date": null,
+        "fin_date": "2017-06-25",
+        "libelle": "Président (communauté de l'agglomération havraise)",
         "source": {
           "titre": "Wikidata",
           "type": "encyclopedie",
@@ -4649,7 +4893,9 @@
       {
         "debut": 2010,
         "fin": 2017,
-        "libelle": "Président (communauté de l'agglomération havraise)",
+        "debut_date": "2010-10-24",
+        "fin_date": "2017-05-21",
+        "libelle": "Maire du Havre",
         "source": {
           "titre": "Wikidata",
           "type": "encyclopedie",
@@ -4660,6 +4906,8 @@
       {
         "debut": 2008,
         "fin": 2012,
+        "debut_date": "2008-03-17",
+        "fin_date": "2012-04-22",
         "libelle": "Conseiller général (canton du Havre-5)",
         "source": {
           "titre": "Wikidata",
@@ -4671,6 +4919,8 @@
       {
         "debut": 2004,
         "fin": 2008,
+        "debut_date": "2004-03-29",
+        "fin_date": "2008-03-18",
         "libelle": "Conseiller régional (Haute-Normandie)",
         "source": {
           "titre": "Wikidata",
@@ -4783,6 +5033,8 @@
       {
         "debut": 2017,
         "fin": null,
+        "debut_date": "2017-09-29",
+        "fin_date": null,
         "libelle": "Dirigeant (Les Patriotes)",
         "source": {
           "titre": "Wikidata",
@@ -4794,6 +5046,8 @@
       {
         "debut": 2016,
         "fin": null,
+        "debut_date": "2016-01-01",
+        "fin_date": null,
         "libelle": "Conseiller régional du Grand Est",
         "source": {
           "titre": "Wikidata",
@@ -4805,6 +5059,8 @@
       {
         "debut": 2014,
         "fin": null,
+        "debut_date": "2014-07-01",
+        "fin_date": null,
         "libelle": "Député européen",
         "source": {
           "titre": "Wikidata",
@@ -4816,6 +5072,8 @@
       {
         "debut": 2012,
         "fin": null,
+        "debut_date": "2012-07-12",
+        "fin_date": null,
         "libelle": "Chef adjoint (Rassemblement national)",
         "source": {
           "titre": "Wikidata",
@@ -4827,6 +5085,8 @@
       {
         "debut": 2009,
         "fin": null,
+        "debut_date": null,
+        "fin_date": null,
         "libelle": "Inspecteur de l'administration",
         "source": {
           "titre": "Wikidata",
@@ -4939,6 +5199,8 @@
       {
         "debut": 2024,
         "fin": 2025,
+        "debut_date": "2024-09-21",
+        "fin_date": "2025-10-12",
         "libelle": "Ministre de l'Intérieur",
         "source": {
           "titre": "Wikidata",
@@ -4950,6 +5212,8 @@
       {
         "debut": 2017,
         "fin": null,
+        "debut_date": null,
+        "fin_date": null,
         "libelle": "Président (Force républicaine)",
         "source": {
           "titre": "Wikidata",
@@ -4961,17 +5225,8 @@
       {
         "debut": 2015,
         "fin": null,
-        "libelle": "Conseiller régional des Pays de la Loire",
-        "source": {
-          "titre": "Wikidata",
-          "type": "encyclopedie",
-          "date": "2026-10-10",
-          "url": "https://www.wikidata.org/wiki/Q2926942"
-        }
-      },
-      {
-        "debut": 2015,
-        "fin": null,
+        "debut_date": null,
+        "fin_date": null,
         "libelle": "Président (groupe Les Républicains - Sénat)",
         "source": {
           "titre": "Wikidata",
@@ -4983,7 +5238,22 @@
       {
         "debut": 2015,
         "fin": 2017,
+        "debut_date": "2015-12-18",
+        "fin_date": "2017-09-30",
         "libelle": "Président du conseil régional des Pays de la Loire",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q2926942"
+        }
+      },
+      {
+        "debut": 2015,
+        "fin": null,
+        "debut_date": "2015-12-13",
+        "fin_date": null,
+        "libelle": "Conseiller régional des Pays de la Loire",
         "source": {
           "titre": "Wikidata",
           "type": "encyclopedie",
@@ -4994,6 +5264,8 @@
       {
         "debut": 2014,
         "fin": 2015,
+        "debut_date": "2014-10-02",
+        "fin_date": null,
         "libelle": "Président (Groupe Union pour un mouvement populaire)",
         "source": {
           "titre": "Wikidata",
@@ -5005,6 +5277,8 @@
       {
         "debut": 2010,
         "fin": 2015,
+        "debut_date": "2010-11-30",
+        "fin_date": "2015-04-02",
         "libelle": "Président du conseil général (Vendée)",
         "source": {
           "titre": "Wikidata",
@@ -5016,6 +5290,8 @@
       {
         "debut": 2004,
         "fin": null,
+        "debut_date": "2004-09-26",
+        "fin_date": null,
         "libelle": "Sénateur (Vendée)",
         "source": {
           "titre": "Wikidata",
@@ -5027,6 +5303,8 @@
       {
         "debut": 1998,
         "fin": 2004,
+        "debut_date": null,
+        "fin_date": null,
         "libelle": "Conseiller régional des Pays de la Loire",
         "source": {
           "titre": "Wikidata",
@@ -5038,6 +5316,8 @@
       {
         "debut": 1994,
         "fin": 1997,
+        "debut_date": "1994-11-27",
+        "fin_date": "1997-04-21",
         "libelle": "Député de la quatrième circonscription de la Vendée",
         "source": {
           "titre": "Wikidata",
@@ -5049,6 +5329,8 @@
       {
         "debut": 1988,
         "fin": 2015,
+        "debut_date": null,
+        "fin_date": null,
         "libelle": "Conseiller général (canton de Mortagne-sur-Sèvre)",
         "source": {
           "titre": "Wikidata",
@@ -5166,6 +5448,8 @@
       {
         "debut": 2022,
         "fin": null,
+        "debut_date": "2022-06-22",
+        "fin_date": null,
         "libelle": "Députée de la neuvième circonscription de Paris",
         "source": {
           "titre": "Wikidata",
@@ -5259,6 +5543,8 @@
       {
         "debut": 2025,
         "fin": null,
+        "debut_date": "2025-01-30",
+        "fin_date": null,
         "libelle": "Maire de Saint-Amand-les-Eaux",
         "source": {
           "titre": "Wikidata",
@@ -5270,6 +5556,8 @@
       {
         "debut": 2017,
         "fin": 2024,
+        "debut_date": "2017-06-21",
+        "fin_date": "2024-06-09",
         "libelle": "Député de la vingtième circonscription du Nord",
         "source": {
           "titre": "Wikidata",
@@ -5281,7 +5569,9 @@
       {
         "debut": 2014,
         "fin": null,
-        "libelle": "Conseiller communautaire de la Porte du Hainaut",
+        "debut_date": "2014-03-24",
+        "fin_date": null,
+        "libelle": "Conseiller municipal de Saint-Amand-les-Eaux",
         "source": {
           "titre": "Wikidata",
           "type": "encyclopedie",
@@ -5292,7 +5582,9 @@
       {
         "debut": 2014,
         "fin": null,
-        "libelle": "Conseiller municipal de Saint-Amand-les-Eaux",
+        "debut_date": "2014-03-23",
+        "fin_date": null,
+        "libelle": "Conseiller communautaire de la Porte du Hainaut",
         "source": {
           "titre": "Wikidata",
           "type": "encyclopedie",
@@ -5376,6 +5668,8 @@
       {
         "debut": 2017,
         "fin": 2020,
+        "debut_date": "2017-09-01",
+        "fin_date": "2020-01-24",
         "libelle": "Ambassadrice chargée des pôles et des affaires maritimes",
         "source": {
           "titre": "Wikidata",
@@ -5387,6 +5681,8 @@
       {
         "debut": 2004,
         "fin": 2014,
+        "debut_date": "2004-04-02",
+        "fin_date": "2014-04-21",
         "libelle": "Présidente du conseil régional de Poitou-Charentes",
         "source": {
           "titre": "Wikidata",
@@ -5398,6 +5694,8 @@
       {
         "debut": 2002,
         "fin": 2007,
+        "debut_date": "2002-06-19",
+        "fin_date": "2007-06-19",
         "libelle": "Députée de la deuxième circonscription des Deux-Sèvres",
         "source": {
           "titre": "Wikidata",
@@ -5409,6 +5707,8 @@
       {
         "debut": 1988,
         "fin": 1997,
+        "debut_date": "1988-06-23",
+        "fin_date": "1997-07-04",
         "libelle": "Députée de la deuxième circonscription des Deux-Sèvres",
         "source": {
           "titre": "Wikidata",
@@ -5549,6 +5849,8 @@
       {
         "debut": 2017,
         "fin": null,
+        "debut_date": "2017-06-21",
+        "fin_date": null,
         "libelle": "Député de la première circonscription de la Somme",
         "source": {
           "titre": "Wikidata",
@@ -5716,6 +6018,8 @@
       {
         "debut": 2022,
         "fin": null,
+        "debut_date": "2022-12-10",
+        "fin_date": null,
         "libelle": "Secrétaire nationale des Écologistes",
         "source": {
           "titre": "Wikidata",
@@ -5727,6 +6031,8 @@
       {
         "debut": 2021,
         "fin": null,
+        "debut_date": "2021-07-02",
+        "fin_date": null,
         "libelle": "Conseillère régionale des Hauts-de-France",
         "source": {
           "titre": "Wikidata",
@@ -5821,6 +6127,8 @@
       {
         "debut": 2024,
         "fin": 2025,
+        "debut_date": "2024-12-23",
+        "fin_date": "2025-10-12",
         "libelle": "Ministre des Outre-mer",
         "source": {
           "titre": "Wikidata",
@@ -5832,6 +6140,8 @@
       {
         "debut": 2019,
         "fin": 2021,
+        "debut_date": "2019-06-15",
+        "fin_date": "2021-08-31",
         "libelle": "Conseiller municipal de Barcelone",
         "source": {
           "titre": "Wikidata",
@@ -5843,6 +6153,8 @@
       {
         "debut": 2017,
         "fin": 2018,
+        "debut_date": "2017-01-06",
+        "fin_date": "2018-10-03",
         "libelle": "Député de la première circonscription de l'Essonne",
         "source": {
           "titre": "Wikidata",
@@ -5854,6 +6166,8 @@
       {
         "debut": 2014,
         "fin": 2016,
+        "debut_date": "2014-03-31",
+        "fin_date": "2016-12-06",
         "libelle": "Premier ministre",
         "source": {
           "titre": "Wikidata",
@@ -5865,6 +6179,8 @@
       {
         "debut": 2012,
         "fin": 2014,
+        "debut_date": "2012-05-16",
+        "fin_date": "2014-03-31",
         "libelle": "Ministre de l'Intérieur",
         "source": {
           "titre": "Wikidata",
@@ -5876,6 +6192,8 @@
       {
         "debut": 2002,
         "fin": 2012,
+        "debut_date": "2002-06-19",
+        "fin_date": "2012-07-21",
         "libelle": "Député de la première circonscription de l'Essonne",
         "source": {
           "titre": "Wikidata",
@@ -5887,6 +6205,8 @@
       {
         "debut": 2001,
         "fin": 2012,
+        "debut_date": "2001-03-18",
+        "fin_date": "2012-05-24",
         "libelle": "Maire d'Évry",
         "source": {
           "titre": "Wikidata",
@@ -5898,6 +6218,8 @@
       {
         "debut": 1986,
         "fin": 2002,
+        "debut_date": "1986-03-21",
+        "fin_date": "2002-06-20",
         "libelle": "Conseiller régional d'Île-de-France",
         "source": {
           "titre": "Wikidata",
@@ -5972,6 +6294,8 @@
       {
         "debut": 2005,
         "fin": 2007,
+        "debut_date": "2005-05-31",
+        "fin_date": "2007-05-17",
         "libelle": "Premier ministre",
         "source": {
           "titre": "Wikidata",
@@ -5983,6 +6307,8 @@
       {
         "debut": 2004,
         "fin": 2005,
+        "debut_date": "2004-03-31",
+        "fin_date": "2005-05-31",
         "libelle": "Ministre de l'Intérieur",
         "source": {
           "titre": "Wikidata",
@@ -5994,6 +6320,8 @@
       {
         "debut": 2002,
         "fin": 2004,
+        "debut_date": "2002-06-17",
+        "fin_date": "2004-03-31",
         "libelle": "Ministre des Affaires étrangères",
         "source": {
           "titre": "Wikidata",
@@ -6005,6 +6333,8 @@
       {
         "debut": 1995,
         "fin": 2002,
+        "debut_date": "1995-05-17",
+        "fin_date": "2002-05-06",
         "libelle": "Secrétaire général de la présidence de la République",
         "source": {
           "titre": "Wikidata",
@@ -6162,6 +6492,8 @@
       {
         "debut": 2004,
         "fin": 2014,
+        "debut_date": "2004-07-20",
+        "fin_date": "2014-06-30",
         "libelle": "Député européen",
         "source": {
           "titre": "Wikidata",
@@ -6173,6 +6505,8 @@
       {
         "debut": 1999,
         "fin": 1999,
+        "debut_date": "1999-07-20",
+        "fin_date": "1999-12-16",
         "libelle": "Député européen",
         "source": {
           "titre": "Wikidata",
@@ -6184,6 +6518,8 @@
       {
         "debut": 1997,
         "fin": 2004,
+        "debut_date": "1997-06-12",
+        "fin_date": "2004-07-20",
         "libelle": "Député de la quatrième circonscription de la Vendée",
         "source": {
           "titre": "Wikidata",
@@ -6194,8 +6530,10 @@
       },
       {
         "debut": 1994,
-        "fin": 1997,
-        "libelle": "Député européen",
+        "fin": 2018,
+        "debut_date": null,
+        "fin_date": null,
+        "libelle": "Président (Mouvement pour la France)",
         "source": {
           "titre": "Wikidata",
           "type": "encyclopedie",
@@ -6205,8 +6543,10 @@
       },
       {
         "debut": 1994,
-        "fin": 2018,
-        "libelle": "Président (Mouvement pour la France)",
+        "fin": 1997,
+        "debut_date": "1994-07-19",
+        "fin_date": "1997-06-15",
+        "libelle": "Député européen",
         "source": {
           "titre": "Wikidata",
           "type": "encyclopedie",
@@ -6217,6 +6557,8 @@
       {
         "debut": 1988,
         "fin": 1994,
+        "debut_date": "1988-06-23",
+        "fin_date": "1994-10-24",
         "libelle": "Député de la quatrième circonscription de la Vendée",
         "source": {
           "titre": "Wikidata",
@@ -6228,6 +6570,8 @@
       {
         "debut": 1987,
         "fin": 2010,
+        "debut_date": null,
+        "fin_date": null,
         "libelle": "Conseiller général de la Vendée",
         "source": {
           "titre": "Wikidata",
@@ -6239,6 +6583,8 @@
       {
         "debut": 1987,
         "fin": 1988,
+        "debut_date": "1987-06-02",
+        "fin_date": "1988-05-14",
         "libelle": "Député de la circonscription de la Vendée de 1986 à 1988",
         "source": {
           "titre": "Wikidata",
@@ -6250,6 +6596,8 @@
       {
         "debut": 1981,
         "fin": 1984,
+        "debut_date": null,
+        "fin_date": null,
         "libelle": "Délégué général (chambre de commerce et d'industrie des Pays de la Loire)",
         "source": {
           "titre": "Wikidata",
@@ -6261,6 +6609,8 @@
       {
         "debut": 1979,
         "fin": 1981,
+        "debut_date": null,
+        "fin_date": null,
         "libelle": "Sous-préfet de Vendôme",
         "source": {
           "titre": "Wikidata",
@@ -6272,6 +6622,8 @@
       {
         "debut": 1978,
         "fin": null,
+        "debut_date": null,
+        "fin_date": null,
         "libelle": "Directeur de cabinet (préfet de la Charente-Maritime)",
         "source": {
           "titre": "Wikidata",
@@ -6392,6 +6744,8 @@
       {
         "debut": 2021,
         "fin": null,
+        "debut_date": "2021-12-05",
+        "fin_date": null,
         "libelle": "Président (Reconquête)",
         "source": {
           "titre": "Wikidata",
@@ -6513,6 +6867,8 @@
       {
         "debut": 2017,
         "fin": null,
+        "debut_date": "2017-06-21",
+        "fin_date": null,
         "libelle": "Députée de la onzième circonscription de la Seine-Saint-Denis",
         "source": {
           "titre": "Wikidata",
@@ -6524,6 +6880,8 @@
       {
         "debut": 2015,
         "fin": 2017,
+        "debut_date": "2015-12-13",
+        "fin_date": "2017-07-27",
         "libelle": "Conseillère régionale d'Île-de-France",
         "source": {
           "titre": "Wikidata",
@@ -6645,6 +7003,8 @@
       {
         "debut": 2022,
         "fin": null,
+        "debut_date": "2022-06-22",
+        "fin_date": null,
         "libelle": "Député de la huitième circonscription des Yvelines",
         "source": {
           "titre": "Wikidata",
@@ -6729,6 +7089,8 @@
       {
         "debut": 2026,
         "fin": null,
+        "debut_date": null,
+        "fin_date": null,
         "libelle": "Conseillère municipale de Pontivy",
         "source": {
           "titre": "Wikidata",
@@ -6740,6 +7102,8 @@
       {
         "debut": 2023,
         "fin": 2024,
+        "debut_date": "2023-09-24",
+        "fin_date": null,
         "libelle": "Députée européenne",
         "source": {
           "titre": "Wikidata",
@@ -6751,6 +7115,8 @@
       {
         "debut": 2019,
         "fin": 2023,
+        "debut_date": null,
+        "fin_date": null,
         "libelle": "Porte-parole (Union démocratique bretonne)",
         "source": {
           "titre": "Wikidata",

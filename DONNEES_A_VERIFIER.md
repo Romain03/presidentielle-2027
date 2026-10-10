@@ -111,6 +111,15 @@ inégale :
 - une fonction de **Raphaël Glucksmann** (« conseiller », 2005) est écartée :
   son intitulé Wikidata ne dit ni de quoi ni auprès de qui.
 
+Deux fonctions appellent une vérification particulière :
+
+- **Édouard Philippe**, « membre du conseil d'administration d'Atos SE depuis
+  2020 » : Wikidata ne porte aucune date de fin, mais rien ne garantit que le
+  mandat court toujours. À confirmer ou à clore.
+- **Édouard Philippe**, ministre de l'Intérieur du 3 au 16 octobre 2017 : il
+  s'agit d'un intérim de treize jours. Le site l'affiche désormais au jour
+  près plutôt qu'en « 2017-2017 », mais la nature d'intérim n'est pas dite.
+
 **Les mandats parlementaires devraient être re-sourcés** aux fiches de
 l'Assemblée nationale et du Sénat, les fonctions gouvernementales au Journal
 officiel. Le script relancé écrasera ces corrections : il faudra alors les

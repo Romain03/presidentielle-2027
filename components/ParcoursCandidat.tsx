@@ -9,7 +9,7 @@ function Ligne({ jalon, avecSource }: { jalon: Jalon; avecSource: boolean }) {
   return (
     <li className="flex flex-col gap-0.5 sm:flex-row sm:gap-4">
       <span className="shrink-0 text-sm font-medium tabular-nums sm:w-32">
-        {periode(jalon.debut, jalon.fin)}
+        {periode(jalon.debut, jalon.fin, jalon.debut_date, jalon.fin_date)}
       </span>
       <span className="space-y-0.5">
         <span className="block text-sm text-stone-700 dark:text-stone-300">{jalon.libelle}</span>

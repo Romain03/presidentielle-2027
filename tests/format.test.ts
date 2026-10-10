@@ -34,3 +34,23 @@ describe('age', () => {
     expect(age({ date: null, annee: 1987 }, '2026-10-09')).toBeNull();
   });
 });
+
+describe('periode, mandats courts', () => {
+  it('affiche au jour près un intérim de deux semaines', () => {
+    expect(periode(2017, 2017, '2017-10-03', '2017-10-16')).toBe('3 au 16 octobre 2017');
+  });
+
+  it('nomme les deux mois quand la période en couvre deux', () => {
+    expect(periode(2017, 2017, '2017-09-28', '2017-10-16')).toBe(
+      '28 septembre au 16 octobre 2017',
+    );
+  });
+
+  it('reste en années au-delà du seuil', () => {
+    expect(periode(2017, 2020, '2017-05-15', '2020-07-03')).toBe('2017-2020');
+  });
+
+  it('ignore les dates exactes quand la fonction est toujours exercée', () => {
+    expect(periode(2020, null, '2020-07-05', null)).toBe('depuis 2020');
+  });
+});

@@ -307,6 +307,13 @@ def annee_de(temps):
     return int(temps['time'][1:5])
 
 
+def date_de(temps):
+    """Date exacte, uniquement quand la source est précise au jour."""
+    if not temps or not temps.get('time') or temps.get('precision') != 11:
+        return None
+    return temps['time'][1:11]
+
+
 def qualificatif(revendication, propriete):
     for q in revendication.get('qualifiers', {}).get(propriete, []):
         v = valeur(q)
@@ -367,13 +374,19 @@ def fusionner(jalons):
         for suivant in periodes[1:]:
             fin_courante = courant['fin'] if courant['fin'] is not None else 9999
             if suivant['debut'] - fin_courante <= 1:
-                courant['fin'] = (None if courant['fin'] is None or suivant['fin'] is None
-                                  else max(courant['fin'], suivant['fin']))
+                if courant['fin'] is None or suivant['fin'] is None:
+                    courant['fin'] = None
+                    courant['fin_date'] = None
+                elif suivant['fin'] >= courant['fin']:
+                    courant['fin'] = suivant['fin']
+                    courant['fin_date'] = suivant['fin_date']
             else:
                 fusionnes.append(courant)
                 courant = dict(suivant)
         fusionnes.append(courant)
-    fusionnes.sort(key=lambda j: (-j['debut'], j['libelle']))
+    fusionnes.sort(key=lambda j: (-j['debut'], j['debut_date'] or '', j['libelle']), reverse=False)
+    fusionnes.sort(key=lambda j: (-j['debut'], '' if j['debut_date'] is None else
+                                  ''.join(chr(255 - ord(c)) for c in j['debut_date']), j['libelle']))
     return fusionnes
 
 
@@ -466,6 +479,8 @@ def extraire(candidat, claims, source, signale):
         jalons.append({
             'debut': debut,
             'fin': annee_de(qualificatif(r, 'P582') or {}),
+            'debut_date': date_de(qualificatif(r, 'P580') or {}),
+            'fin_date': date_de(qualificatif(r, 'P582') or {}),
             'libelle': intitule,
             'source': source,
         })

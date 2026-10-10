@@ -47,12 +47,37 @@ export function pluriel(n: number, singulier: string, pluriel: string): string {
   return n <= 1 ? singulier : pluriel;
 }
 
+/** En deçà, la période est affichée au jour près plutôt qu'en années. */
+const COURT_EN_JOURS = 92;
+
 /**
  * Période d'un jalon de parcours : « depuis 2024 », « 2012-2017 », « 1999 ».
  * Le tiret reste un tiret du 6, comme partout sur le site.
+ *
+ * Un mandat très court est affiché au jour près : « 2017-2017 Ministre de
+ * l'Intérieur » laissait croire à une année de fonction, là où il s'agissait
+ * de treize jours d'intérim. La précision n'est donnée que si la source la
+ * porte.
  */
-export function periode(debut: number, fin: number | null): string {
+export function periode(
+  debut: number,
+  fin: number | null,
+  debutDate: string | null = null,
+  finDate: string | null = null,
+): string {
   if (fin === null) return `depuis ${debut}`;
+
+  if (debutDate !== null && finDate !== null) {
+    const jours = (Date.parse(finDate) - Date.parse(debutDate)) / 86_400_000;
+    if (jours >= 0 && jours < COURT_EN_JOURS) {
+      const [aD, mD, jD] = debutDate.split('-').map(Number);
+      const [aF, mF, jF] = finDate.split('-').map(Number);
+      if (aD === aF && mD === mF) return `${jD} au ${jF} ${MOIS[mF - 1]} ${aF}`;
+      if (aD === aF) return `${jD} ${MOIS[mD - 1]} au ${jF} ${MOIS[mF - 1]} ${aF}`;
+      return `${jD} ${MOIS[mD - 1]} ${aD} au ${jF} ${MOIS[mF - 1]} ${aF}`;
+    }
+  }
+
   if (fin === debut) return String(debut);
   return `${debut}-${fin}`;
 }
