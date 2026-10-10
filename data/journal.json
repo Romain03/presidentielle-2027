@@ -1,6 +1,15 @@
 [
   {
     "date": "2026-10-10",
+    "resume": "Sources : 20 Minutes entre dans le corpus, et le navigateur leve le blocage du robot",
+    "fichiers": [
+      "journal.json",
+      "propositions.json"
+    ],
+    "commit": "6af9a661a6"
+  },
+  {
+    "date": "2026-10-10",
     "resume": "Sources : CNews passe de 53 % a 5 % des citations",
     "fichiers": [
       "journal.json",

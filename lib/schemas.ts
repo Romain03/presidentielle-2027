@@ -266,7 +266,13 @@ export const Candidat = z
     statut: Statut,
     /** null quand la date n'a pas pu être vérifiée : l'écran l'indique. */
     statut_date: DateISO.nullable(),
-    statut_source: Source.nullable(),
+    /**
+     * Sources attestant le statut, la première étant la principale. Plusieurs
+     * sont possibles : savoir qu'une candidature n'est recensée que par une
+     * encyclopédie, ou au contraire confirmée par une rédaction, fait partie
+     * de ce que le lecteur doit pouvoir juger.
+     */
+    statut_sources: z.array(Source).default([]),
     biographie: Biographie.default({
       naissance: null,
       formations: [],

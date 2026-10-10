@@ -7,6 +7,7 @@ import BadgeStatut from '@/components/BadgeStatut';
 import BlocProposition from '@/components/BlocProposition';
 import DerniereMiseAJour from '@/components/DerniereMiseAJour';
 import LienSource from '@/components/LienSource';
+import Sources from '@/components/Sources';
 import CreditPhoto from '@/components/CreditPhoto';
 import PastilleParti from '@/components/PastilleParti';
 import PortraitCandidat from '@/components/PortraitCandidat';
@@ -74,7 +75,7 @@ export default async function PageCandidat({ params }: { params: Promise<{ slug:
                   : 'date non vérifiée'}
               </span>
             </div>
-            {candidat.statut_source !== null && <LienSource source={candidat.statut_source} />}
+            {candidat.statut_sources.length > 0 && <Sources sources={candidat.statut_sources} />}
           </div>
         </div>
 

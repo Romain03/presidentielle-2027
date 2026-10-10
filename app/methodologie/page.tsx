@@ -107,12 +107,20 @@ export default function PageMethodologie() {
           </li>
         </ol>
         <p className="text-sm leading-relaxed text-stone-700 dark:text-stone-300">
-          Une limite de ce procédé doit être dite : ne sont retenus que des articles qui ont pu
-          être ouverts et lus de bout en bout. Plusieurs grands titres - <i>Le Monde</i>,{' '}
-          <i>Les Échos</i>, <i>Libération</i>, <i>Le Figaro</i>, <i>La Croix</i>, Radio France,{' '}
-          <i>20 Minutes</i> - ne se laissent pas lire ainsi, et renvoyer vers eux sans les avoir
-          lus reviendrait à affirmer sans vérifier. Leur absence ici ne dit donc rien de leur
-          valeur : elle dit seulement ce qui a pu être contrôlé.
+          Deux limites de ce procédé doivent être dites. D’abord, ne sont retenus que des
+          articles qui ont pu être ouverts et lus de bout en bout : renvoyer vers un texte sans
+          l’avoir lu reviendrait à affirmer sans vérifier. L’absence d’un titre ici ne dit donc
+          rien de sa valeur, elle dit seulement ce qui a pu être contrôlé.
+        </p>
+        <p className="text-sm leading-relaxed text-stone-700 dark:text-stone-300">
+          Ensuite, certains articles ne sont lisibles que sur abonnement. Un tel article pose un
+          problème propre à ce site :{' '}
+          <strong className="font-semibold">une source que vous ne pouvez pas ouvrir ne vous
+          permet pas de vérifier</strong>, et vous demande de nous croire sur parole - l’inverse
+          de ce que ce site cherche à faire. Un article payant ne sert donc jamais de source
+          unique : il vient confirmer une source librement accessible. C’est le cas du
+          recensement des candidatures publié par <i>Le Monde</i>, qui corrobore des statuts
+          également sourcés ailleurs.
         </p>
         <p className="text-sm leading-relaxed text-stone-700 dark:text-stone-300">
           Une source n’est jamais remplacée par une autre sans que l’article ait été lu et

@@ -114,7 +114,7 @@ describe('Candidat', () => {
     photo: null,
     statut: 'declare' as const,
     statut_date: '2026-07-07',
-    statut_source: sourceValide,
+    statut_sources: [sourceValide],
     parcours: [],
     soutiens: [],
     precisions: [],

@@ -100,15 +100,52 @@ double rattachement dans ses précisions. À clarifier.
 
 ## 3. Sources à remplacer
 
-### Le roster vient d'une encyclopédie
-Les statuts et dates de candidature de la plupart des candidats sont sourcés à
-la page Wikipédia « Candidatures à l'élection présidentielle française de
-2027 », affichée comme telle (type de source : *Encyclopédie*). Cette page
-porte elle-même un avertissement sur le caractère possiblement spéculatif de
-son contenu. **Chaque statut devrait être re-sourcé sur la déclaration
-d'origine** - Wikipédia les référence toutes.
+### Le roster ne repose plus sur la seule encyclopédie
+Les statuts portaient tous une source unique : la page Wikipédia
+« Candidatures à l'élection présidentielle française de 2027 », qui porte
+elle-même un avertissement sur le caractère possiblement spéculatif de son
+contenu.
 
-Exceptions déjà sourcées à la presse : Marine Le Pen, Bruno Retailleau.
+Depuis le 10 octobre 2026, un statut peut porter **plusieurs sources**, et
+**33 des 44 candidatures sont corroborées** par le recensement des Décodeurs du
+*Monde* (« Présidentielle 2027 : qui sont les principaux candidats déclarés ou
+probables ? », mis à jour le 25 septembre 2026), lu intégralement. L'article est
+tenu à jour en continu et journalise ses propres corrections, ce qui en fait une
+référence plus solide qu'une page encyclopédique.
+
+**Réserve : c'est un article payant.** Le lecteur sans abonnement ne pourra pas
+le vérifier. Il vient donc en corroboration, jamais seul - voir « Ce que le
+navigateur change » plus bas.
+
+Les onze candidatures non recensées par Le Monde restent sur la seule
+encyclopédie : François Baroin, Jean-Noël Barrot, Aurore Bergé, Sylvain Durif,
+Bruno Le Maire, Mira Markovic, Manolo Mlekuz, Sandrine Rousseau, Manuel Valls,
+Philippe de Villiers, et Lydie Massard (voir ci-dessous).
+
+**À faire :** re-sourcer chaque statut sur la déclaration d'origine, que
+Wikipédia référence toutes. Trois candidatures recensées par Le Monde manquent
+encore au site : Juan Branco (Les Ruches), Clara Egger et Antoine Mikolajczak
+(Equinoxe).
+
+### Trois écarts révélés par la comparaison avec Le Monde
+
+**Lydie Massard - statut contradictoire.** Le site la donne retirée le
+9 septembre 2026, d'après Wikipédia. **Le Monde la recensait toujours parmi les
+candidatures déclarées au 25 septembre**, et son journal de corrections, qui
+enregistre pourtant les retraits de Clémentine Autain et de Benjamin Lucas, ne
+mentionne pas le sien. Le statut *retiré* est conservé, mais Le Monde a été
+retiré de ses sources : on ne cite pas une source contre ce qu'elle affirme. À
+trancher sur une déclaration de l'intéressée.
+
+**Olivier Becht - rattachement corrigé.** Le site le donnait à Renaissance. Le
+Monde l'étiquette « Ex-Renaissance » et le cite disant n'avoir « pas de camp
+politique », tout en restant apparenté au groupe macroniste à l'Assemblée. Sa
+candidature n'est plus rattachée à aucun parti, avec la précision affichée.
+
+**Xavier Bertrand - contradiction documentée, non tranchée.** Le Monde le
+rattache aux Républicains ; les données retiennent Nous France, le mouvement
+qu'il a fondé. La précision affichée sur sa fiche cite désormais les deux
+lectures.
 
 ### Concentration des sources de propositions
 Au 10 octobre 2026, les 57 propositions reposent sur 80 citations réparties sur

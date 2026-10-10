@@ -6,12 +6,6 @@
     "parti_id": "lutte-ouvriere",
     "statut": "declare",
     "statut_date": "2025-12-08",
-    "statut_source": {
-      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
-      "titre": "Candidatures à l'élection présidentielle française de 2027",
-      "type": "encyclopedie",
-      "date": "2026-10-04"
-    },
     "parcours": [
       {
         "debut": 2008,
@@ -95,7 +89,21 @@
           "date": "2026-10-04"
         }
       }
-    }
+    },
+    "statut_sources": [
+      {
+        "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+        "titre": "Candidatures à l'élection présidentielle française de 2027",
+        "type": "encyclopedie",
+        "date": "2026-10-04"
+      },
+      {
+        "url": "https://www.lemonde.fr/les-decodeurs/article/2026/07/02/presidentielle-2027-qui-sont-les-34-candidats-declares-et-probables_6680905_4355771.html",
+        "titre": "Présidentielle 2027 : qui sont les principaux candidats déclarés ou probables ?",
+        "type": "article-de-presse",
+        "date": "2026-09-25"
+      }
+    ]
   },
   {
     "id": "francois-asselineau",
@@ -104,12 +112,6 @@
     "parti_id": "union-populaire-republicaine",
     "statut": "declare",
     "statut_date": "2023-08-31",
-    "statut_source": {
-      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
-      "titre": "Candidatures à l'élection présidentielle française de 2027",
-      "type": "encyclopedie",
-      "date": "2026-10-04"
-    },
     "parcours": [
       {
         "debut": 2007,
@@ -216,7 +218,21 @@
           "date": "2026-10-04"
         }
       }
-    }
+    },
+    "statut_sources": [
+      {
+        "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+        "titre": "Candidatures à l'élection présidentielle française de 2027",
+        "type": "encyclopedie",
+        "date": "2026-10-04"
+      },
+      {
+        "url": "https://www.lemonde.fr/les-decodeurs/article/2026/07/02/presidentielle-2027-qui-sont-les-34-candidats-declares-et-probables_6680905_4355771.html",
+        "titre": "Présidentielle 2027 : qui sont les principaux candidats déclarés ou probables ?",
+        "type": "article-de-presse",
+        "date": "2026-09-25"
+      }
+    ]
   },
   {
     "id": "gabriel-attal",
@@ -225,12 +241,6 @@
     "parti_id": "renaissance",
     "statut": "declare",
     "statut_date": "2026-05-22",
-    "statut_source": {
-      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
-      "titre": "Candidatures à l'élection présidentielle française de 2027",
-      "type": "encyclopedie",
-      "date": "2026-10-04"
-    },
     "parcours": [
       {
         "debut": 2024,
@@ -366,7 +376,21 @@
           "date": "2026-10-04"
         }
       }
-    }
+    },
+    "statut_sources": [
+      {
+        "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+        "titre": "Candidatures à l'élection présidentielle française de 2027",
+        "type": "encyclopedie",
+        "date": "2026-10-04"
+      },
+      {
+        "url": "https://www.lemonde.fr/les-decodeurs/article/2026/07/02/presidentielle-2027-qui-sont-les-34-candidats-declares-et-probables_6680905_4355771.html",
+        "titre": "Présidentielle 2027 : qui sont les principaux candidats déclarés ou probables ?",
+        "type": "article-de-presse",
+        "date": "2026-09-25"
+      }
+    ]
   },
   {
     "id": "francois-baroin",
@@ -375,12 +399,6 @@
     "parti_id": "les-republicains",
     "statut": "pressenti",
     "statut_date": null,
-    "statut_source": {
-      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
-      "titre": "Candidatures à l'élection présidentielle française de 2027",
-      "type": "encyclopedie",
-      "date": "2026-10-04"
-    },
     "parcours": [
       {
         "debut": 2017,
@@ -609,7 +627,15 @@
           "date": "2026-10-04"
         }
       }
-    }
+    },
+    "statut_sources": [
+      {
+        "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+        "titre": "Candidatures à l'élection présidentielle française de 2027",
+        "type": "encyclopedie",
+        "date": "2026-10-04"
+      }
+    ]
   },
   {
     "id": "jean-noel-barrot",
@@ -618,12 +644,6 @@
     "parti_id": "mouvement-democrate",
     "statut": "pressenti",
     "statut_date": null,
-    "statut_source": {
-      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
-      "titre": "Candidatures à l'élection présidentielle française de 2027",
-      "type": "encyclopedie",
-      "date": "2026-10-04"
-    },
     "parcours": [
       {
         "debut": 2024,
@@ -778,7 +798,15 @@
           "date": "2026-10-04"
         }
       }
-    }
+    },
+    "statut_sources": [
+      {
+        "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+        "titre": "Candidatures à l'élection présidentielle française de 2027",
+        "type": "encyclopedie",
+        "date": "2026-10-04"
+      }
+    ]
   },
   {
     "id": "delphine-batho",
@@ -787,12 +815,6 @@
     "parti_id": "generation-ecologie",
     "statut": "declare",
     "statut_date": "2025-11-25",
-    "statut_source": {
-      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
-      "titre": "Candidatures à l'élection présidentielle française de 2027",
-      "type": "encyclopedie",
-      "date": "2026-10-04"
-    },
     "parcours": [
       {
         "debut": 2007,
@@ -876,21 +898,29 @@
           "date": "2026-10-04"
         }
       }
-    }
+    },
+    "statut_sources": [
+      {
+        "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+        "titre": "Candidatures à l'élection présidentielle française de 2027",
+        "type": "encyclopedie",
+        "date": "2026-10-04"
+      },
+      {
+        "url": "https://www.lemonde.fr/les-decodeurs/article/2026/07/02/presidentielle-2027-qui-sont-les-34-candidats-declares-et-probables_6680905_4355771.html",
+        "titre": "Présidentielle 2027 : qui sont les principaux candidats déclarés ou probables ?",
+        "type": "article-de-presse",
+        "date": "2026-09-25"
+      }
+    ]
   },
   {
     "id": "olivier-becht",
     "nom": "Becht",
     "prenom": "Olivier",
-    "parti_id": "renaissance",
+    "parti_id": null,
     "statut": "declare",
     "statut_date": "2026-09-24",
-    "statut_source": {
-      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
-      "titre": "Candidatures à l'élection présidentielle française de 2027",
-      "type": "encyclopedie",
-      "date": "2026-10-04"
-    },
     "parcours": [
       {
         "debut": 2024,
@@ -972,7 +1002,17 @@
       }
     ],
     "soutiens": [],
-    "precisions": [],
+    "precisions": [
+      {
+        "libelle": "Ancien adhérent de Renaissance, il affirme n'avoir « pas de camp politique » tout en restant apparenté au groupe macroniste à l'Assemblée. Sa candidature n'est donc rattachée à aucun parti ici.",
+        "source": {
+          "url": "https://www.lemonde.fr/les-decodeurs/article/2026/07/02/presidentielle-2027-qui-sont-les-34-candidats-declares-et-probables_6680905_4355771.html",
+          "titre": "Présidentielle 2027 : qui sont les principaux candidats déclarés ou probables ?",
+          "type": "article-de-presse",
+          "date": "2026-09-25"
+        }
+      }
+    ],
     "liens_officiels": [],
     "derniere_verification": "2026-10-09",
     "photo": {
@@ -1044,7 +1084,21 @@
           "date": "2026-10-04"
         }
       }
-    }
+    },
+    "statut_sources": [
+      {
+        "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+        "titre": "Candidatures à l'élection présidentielle française de 2027",
+        "type": "encyclopedie",
+        "date": "2026-10-04"
+      },
+      {
+        "url": "https://www.lemonde.fr/les-decodeurs/article/2026/07/02/presidentielle-2027-qui-sont-les-34-candidats-declares-et-probables_6680905_4355771.html",
+        "titre": "Présidentielle 2027 : qui sont les principaux candidats déclarés ou probables ?",
+        "type": "article-de-presse",
+        "date": "2026-09-25"
+      }
+    ]
   },
   {
     "id": "aurore-berge",
@@ -1053,12 +1107,6 @@
     "parti_id": "renaissance",
     "statut": "pressenti",
     "statut_date": null,
-    "statut_source": {
-      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
-      "titre": "Candidatures à l'élection présidentielle française de 2027",
-      "type": "encyclopedie",
-      "date": "2026-10-04"
-    },
     "parcours": [
       {
         "debut": 2017,
@@ -1159,7 +1207,15 @@
           "date": "2026-10-04"
         }
       }
-    }
+    },
+    "statut_sources": [
+      {
+        "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+        "titre": "Candidatures à l'élection présidentielle française de 2027",
+        "type": "encyclopedie",
+        "date": "2026-10-04"
+      }
+    ]
   },
   {
     "id": "xavier-bertrand",
@@ -1168,12 +1224,6 @@
     "parti_id": "nous-france",
     "statut": "declare",
     "statut_date": "2024-02-03",
-    "statut_source": {
-      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
-      "titre": "Candidatures à l'élection présidentielle française de 2027",
-      "type": "encyclopedie",
-      "date": "2026-10-04"
-    },
     "parcours": [
       {
         "debut": 2017,
@@ -1316,6 +1366,15 @@
           "type": "encyclopedie",
           "date": "2026-10-04"
         }
+      },
+      {
+        "libelle": "Le Monde le rattache aux Républicains, tandis que les données retiennent Nous France, le mouvement qu'il a fondé. Le double rattachement n'est pas tranché.",
+        "source": {
+          "url": "https://www.lemonde.fr/les-decodeurs/article/2026/07/02/presidentielle-2027-qui-sont-les-34-candidats-declares-et-probables_6680905_4355771.html",
+          "titre": "Présidentielle 2027 : qui sont les principaux candidats déclarés ou probables ?",
+          "type": "article-de-presse",
+          "date": "2026-09-25"
+        }
       }
     ],
     "liens_officiels": [],
@@ -1372,7 +1431,21 @@
           "date": "2026-10-04"
         }
       }
-    }
+    },
+    "statut_sources": [
+      {
+        "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+        "titre": "Candidatures à l'élection présidentielle française de 2027",
+        "type": "encyclopedie",
+        "date": "2026-10-04"
+      },
+      {
+        "url": "https://www.lemonde.fr/les-decodeurs/article/2026/07/02/presidentielle-2027-qui-sont-les-34-candidats-declares-et-probables_6680905_4355771.html",
+        "titre": "Présidentielle 2027 : qui sont les principaux candidats déclarés ou probables ?",
+        "type": "article-de-presse",
+        "date": "2026-09-25"
+      }
+    ]
   },
   {
     "id": "karim-bouamrane",
@@ -1381,12 +1454,6 @@
     "parti_id": "parti-socialiste",
     "statut": "declare",
     "statut_date": "2026-06-09",
-    "statut_source": {
-      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
-      "titre": "Candidatures à l'élection présidentielle française de 2027",
-      "type": "encyclopedie",
-      "date": "2026-10-04"
-    },
     "parcours": [
       {
         "debut": 2022,
@@ -1490,7 +1557,21 @@
           "date": "2026-10-04"
         }
       }
-    }
+    },
+    "statut_sources": [
+      {
+        "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+        "titre": "Candidatures à l'élection présidentielle française de 2027",
+        "type": "encyclopedie",
+        "date": "2026-10-04"
+      },
+      {
+        "url": "https://www.lemonde.fr/les-decodeurs/article/2026/07/02/presidentielle-2027-qui-sont-les-34-candidats-declares-et-probables_6680905_4355771.html",
+        "titre": "Présidentielle 2027 : qui sont les principaux candidats déclarés ou probables ?",
+        "type": "article-de-presse",
+        "date": "2026-09-25"
+      }
+    ]
   },
   {
     "id": "bernard-cazeneuve",
@@ -1499,12 +1580,6 @@
     "parti_id": "la-convention",
     "statut": "declare",
     "statut_date": "2026-07-16",
-    "statut_source": {
-      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
-      "titre": "Candidatures à l'élection présidentielle française de 2027",
-      "type": "encyclopedie",
-      "date": "2026-10-04"
-    },
     "parcours": [
       {
         "debut": 2017,
@@ -1664,7 +1739,21 @@
           "date": "2026-10-04"
         }
       }
-    }
+    },
+    "statut_sources": [
+      {
+        "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+        "titre": "Candidatures à l'élection présidentielle française de 2027",
+        "type": "encyclopedie",
+        "date": "2026-10-04"
+      },
+      {
+        "url": "https://www.lemonde.fr/les-decodeurs/article/2026/07/02/presidentielle-2027-qui-sont-les-34-candidats-declares-et-probables_6680905_4355771.html",
+        "titre": "Présidentielle 2027 : qui sont les principaux candidats déclarés ou probables ?",
+        "type": "article-de-presse",
+        "date": "2026-09-25"
+      }
+    ]
   },
   {
     "id": "nicolas-dupont-aignan",
@@ -1673,12 +1762,6 @@
     "parti_id": "debout-la-france",
     "statut": "declare",
     "statut_date": "2026-09-19",
-    "statut_source": {
-      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
-      "titre": "Candidatures à l'élection présidentielle française de 2027",
-      "type": "encyclopedie",
-      "date": "2026-10-04"
-    },
     "parcours": [
       {
         "debut": 2026,
@@ -1797,7 +1880,21 @@
           "date": "2026-10-04"
         }
       }
-    }
+    },
+    "statut_sources": [
+      {
+        "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+        "titre": "Candidatures à l'élection présidentielle française de 2027",
+        "type": "encyclopedie",
+        "date": "2026-10-04"
+      },
+      {
+        "url": "https://www.lemonde.fr/les-decodeurs/article/2026/07/02/presidentielle-2027-qui-sont-les-34-candidats-declares-et-probables_6680905_4355771.html",
+        "titre": "Présidentielle 2027 : qui sont les principaux candidats déclarés ou probables ?",
+        "type": "article-de-presse",
+        "date": "2026-09-25"
+      }
+    ]
   },
   {
     "id": "sylvain-durif",
@@ -1806,12 +1903,6 @@
     "parti_id": "elvita",
     "statut": "declare",
     "statut_date": "2026-08-23",
-    "statut_source": {
-      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
-      "titre": "Candidatures à l'élection présidentielle française de 2027",
-      "type": "encyclopedie",
-      "date": "2026-10-04"
-    },
     "parcours": [],
     "soutiens": [],
     "precisions": [],
@@ -1868,7 +1959,15 @@
           "date": "2026-10-04"
         }
       }
-    }
+    },
+    "statut_sources": [
+      {
+        "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+        "titre": "Candidatures à l'élection présidentielle française de 2027",
+        "type": "encyclopedie",
+        "date": "2026-10-04"
+      }
+    ]
   },
   {
     "id": "olivier-faure",
@@ -1877,12 +1976,6 @@
     "parti_id": "parti-socialiste",
     "statut": "declare",
     "statut_date": "2026-08-30",
-    "statut_source": {
-      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
-      "titre": "Candidatures à l'élection présidentielle française de 2027",
-      "type": "encyclopedie",
-      "date": "2026-10-04"
-    },
     "parcours": [
       {
         "debut": 2018,
@@ -2463,7 +2556,21 @@
           "date": "2026-10-04"
         }
       }
-    }
+    },
+    "statut_sources": [
+      {
+        "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+        "titre": "Candidatures à l'élection présidentielle française de 2027",
+        "type": "encyclopedie",
+        "date": "2026-10-04"
+      },
+      {
+        "url": "https://www.lemonde.fr/les-decodeurs/article/2026/07/02/presidentielle-2027-qui-sont-les-34-candidats-declares-et-probables_6680905_4355771.html",
+        "titre": "Présidentielle 2027 : qui sont les principaux candidats déclarés ou probables ?",
+        "type": "article-de-presse",
+        "date": "2026-09-25"
+      }
+    ]
   },
   {
     "id": "raphael-glucksmann",
@@ -2472,12 +2579,6 @@
     "parti_id": "place-publique",
     "statut": "declare",
     "statut_date": "2026-08-23",
-    "statut_source": {
-      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
-      "titre": "Candidatures à l'élection présidentielle française de 2027",
-      "type": "encyclopedie",
-      "date": "2026-10-04"
-    },
     "parcours": [
       {
         "debut": 2019,
@@ -3019,7 +3120,21 @@
           "date": "2026-10-04"
         }
       }
-    }
+    },
+    "statut_sources": [
+      {
+        "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+        "titre": "Candidatures à l'élection présidentielle française de 2027",
+        "type": "encyclopedie",
+        "date": "2026-10-04"
+      },
+      {
+        "url": "https://www.lemonde.fr/les-decodeurs/article/2026/07/02/presidentielle-2027-qui-sont-les-34-candidats-declares-et-probables_6680905_4355771.html",
+        "titre": "Présidentielle 2027 : qui sont les principaux candidats déclarés ou probables ?",
+        "type": "article-de-presse",
+        "date": "2026-09-25"
+      }
+    ]
   },
   {
     "id": "jerome-guedj",
@@ -3028,12 +3143,6 @@
     "parti_id": "parti-socialiste",
     "statut": "declare",
     "statut_date": "2026-02-05",
-    "statut_source": {
-      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
-      "titre": "Candidatures à l'élection présidentielle française de 2027",
-      "type": "encyclopedie",
-      "date": "2026-10-04"
-    },
     "parcours": [
       {
         "debut": 2022,
@@ -3150,7 +3259,21 @@
           "date": "2026-10-04"
         }
       }
-    }
+    },
+    "statut_sources": [
+      {
+        "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+        "titre": "Candidatures à l'élection présidentielle française de 2027",
+        "type": "encyclopedie",
+        "date": "2026-10-04"
+      },
+      {
+        "url": "https://www.lemonde.fr/les-decodeurs/article/2026/07/02/presidentielle-2027-qui-sont-les-34-candidats-declares-et-probables_6680905_4355771.html",
+        "titre": "Présidentielle 2027 : qui sont les principaux candidats déclarés ou probables ?",
+        "type": "article-de-presse",
+        "date": "2026-09-25"
+      }
+    ]
   },
   {
     "id": "francois-hollande",
@@ -3159,12 +3282,6 @@
     "parti_id": "parti-socialiste",
     "statut": "pressenti",
     "statut_date": null,
-    "statut_source": {
-      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
-      "titre": "Candidatures à l'élection présidentielle française de 2027",
-      "type": "encyclopedie",
-      "date": "2026-10-04"
-    },
     "parcours": [
       {
         "debut": 2024,
@@ -3385,7 +3502,21 @@
           "date": "2026-10-04"
         }
       }
-    }
+    },
+    "statut_sources": [
+      {
+        "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+        "titre": "Candidatures à l'élection présidentielle française de 2027",
+        "type": "encyclopedie",
+        "date": "2026-10-04"
+      },
+      {
+        "url": "https://www.lemonde.fr/les-decodeurs/article/2026/07/02/presidentielle-2027-qui-sont-les-34-candidats-declares-et-probables_6680905_4355771.html",
+        "titre": "Présidentielle 2027 : qui sont les principaux candidats déclarés ou probables ?",
+        "type": "article-de-presse",
+        "date": "2026-09-25"
+      }
+    ]
   },
   {
     "id": "anasse-kazib",
@@ -3394,12 +3525,6 @@
     "parti_id": "revolution-permanente",
     "statut": "declare",
     "statut_date": "2026-06-01",
-    "statut_source": {
-      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
-      "titre": "Candidatures à l'élection présidentielle française de 2027",
-      "type": "encyclopedie",
-      "date": "2026-10-04"
-    },
     "parcours": [],
     "soutiens": [],
     "precisions": [],
@@ -3456,7 +3581,21 @@
           "date": "2026-10-04"
         }
       }
-    }
+    },
+    "statut_sources": [
+      {
+        "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+        "titre": "Candidatures à l'élection présidentielle française de 2027",
+        "type": "encyclopedie",
+        "date": "2026-10-04"
+      },
+      {
+        "url": "https://www.lemonde.fr/les-decodeurs/article/2026/07/02/presidentielle-2027-qui-sont-les-34-candidats-declares-et-probables_6680905_4355771.html",
+        "titre": "Présidentielle 2027 : qui sont les principaux candidats déclarés ou probables ?",
+        "type": "article-de-presse",
+        "date": "2026-09-25"
+      }
+    ]
   },
   {
     "id": "selma-labib",
@@ -3465,12 +3604,6 @@
     "parti_id": "npa-revolutionnaires",
     "statut": "declare",
     "statut_date": "2026-06-17",
-    "statut_source": {
-      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
-      "titre": "Candidatures à l'élection présidentielle française de 2027",
-      "type": "encyclopedie",
-      "date": "2026-10-04"
-    },
     "parcours": [],
     "soutiens": [],
     "precisions": [],
@@ -3491,7 +3624,21 @@
           "date": "2026-10-04"
         }
       }
-    }
+    },
+    "statut_sources": [
+      {
+        "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+        "titre": "Candidatures à l'élection présidentielle française de 2027",
+        "type": "encyclopedie",
+        "date": "2026-10-04"
+      },
+      {
+        "url": "https://www.lemonde.fr/les-decodeurs/article/2026/07/02/presidentielle-2027-qui-sont-les-34-candidats-declares-et-probables_6680905_4355771.html",
+        "titre": "Présidentielle 2027 : qui sont les principaux candidats déclarés ou probables ?",
+        "type": "article-de-presse",
+        "date": "2026-09-25"
+      }
+    ]
   },
   {
     "id": "francis-lalanne",
@@ -3500,12 +3647,6 @@
     "parti_id": "france-libre",
     "statut": "declare",
     "statut_date": "2026-08-19",
-    "statut_source": {
-      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
-      "titre": "Candidatures à l'élection présidentielle française de 2027",
-      "type": "encyclopedie",
-      "date": "2026-10-04"
-    },
     "parcours": [],
     "soutiens": [],
     "precisions": [],
@@ -3617,7 +3758,21 @@
           "date": "2026-10-04"
         }
       }
-    }
+    },
+    "statut_sources": [
+      {
+        "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+        "titre": "Candidatures à l'élection présidentielle française de 2027",
+        "type": "encyclopedie",
+        "date": "2026-10-04"
+      },
+      {
+        "url": "https://www.lemonde.fr/les-decodeurs/article/2026/07/02/presidentielle-2027-qui-sont-les-34-candidats-declares-et-probables_6680905_4355771.html",
+        "titre": "Présidentielle 2027 : qui sont les principaux candidats déclarés ou probables ?",
+        "type": "article-de-presse",
+        "date": "2026-09-25"
+      }
+    ]
   },
   {
     "id": "jean-lassalle",
@@ -3626,12 +3781,6 @@
     "parti_id": "resistons",
     "statut": "pressenti",
     "statut_date": null,
-    "statut_source": {
-      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
-      "titre": "Candidatures à l'élection présidentielle française de 2027",
-      "type": "encyclopedie",
-      "date": "2026-10-04"
-    },
     "parcours": [
       {
         "debut": 2017,
@@ -3735,7 +3884,21 @@
           "date": "2026-10-04"
         }
       }
-    }
+    },
+    "statut_sources": [
+      {
+        "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+        "titre": "Candidatures à l'élection présidentielle française de 2027",
+        "type": "encyclopedie",
+        "date": "2026-10-04"
+      },
+      {
+        "url": "https://www.lemonde.fr/les-decodeurs/article/2026/07/02/presidentielle-2027-qui-sont-les-34-candidats-declares-et-probables_6680905_4355771.html",
+        "titre": "Présidentielle 2027 : qui sont les principaux candidats déclarés ou probables ?",
+        "type": "article-de-presse",
+        "date": "2026-09-25"
+      }
+    ]
   },
   {
     "id": "bruno-le-maire",
@@ -3744,12 +3907,6 @@
     "parti_id": "renaissance",
     "statut": "pressenti",
     "statut_date": null,
-    "statut_source": {
-      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
-      "titre": "Candidatures à l'élection présidentielle française de 2027",
-      "type": "encyclopedie",
-      "date": "2026-10-04"
-    },
     "parcours": [
       {
         "debut": 2025,
@@ -3935,7 +4092,15 @@
           "date": "2026-10-04"
         }
       }
-    }
+    },
+    "statut_sources": [
+      {
+        "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+        "titre": "Candidatures à l'élection présidentielle française de 2027",
+        "type": "encyclopedie",
+        "date": "2026-10-04"
+      }
+    ]
   },
   {
     "id": "marine-le-pen",
@@ -3944,12 +4109,6 @@
     "parti_id": "rassemblement-national",
     "statut": "declare",
     "statut_date": "2026-07-07",
-    "statut_source": {
-      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
-      "titre": "Candidatures à l'élection présidentielle française de 2027",
-      "type": "encyclopedie",
-      "date": "2026-10-04"
-    },
     "parcours": [
       {
         "debut": 2021,
@@ -4147,7 +4306,21 @@
           "date": "2026-10-06"
         }
       }
-    }
+    },
+    "statut_sources": [
+      {
+        "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+        "titre": "Candidatures à l'élection présidentielle française de 2027",
+        "type": "encyclopedie",
+        "date": "2026-10-04"
+      },
+      {
+        "url": "https://www.lemonde.fr/les-decodeurs/article/2026/07/02/presidentielle-2027-qui-sont-les-34-candidats-declares-et-probables_6680905_4355771.html",
+        "titre": "Présidentielle 2027 : qui sont les principaux candidats déclarés ou probables ?",
+        "type": "article-de-presse",
+        "date": "2026-09-25"
+      }
+    ]
   },
   {
     "id": "david-lisnard",
@@ -4156,12 +4329,6 @@
     "parti_id": "nouvelle-energie",
     "statut": "declare",
     "statut_date": "2026-03-31",
-    "statut_source": {
-      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
-      "titre": "Candidatures à l'élection présidentielle française de 2027",
-      "type": "encyclopedie",
-      "date": "2026-10-04"
-    },
     "parcours": [
       {
         "debut": 2015,
@@ -4304,7 +4471,21 @@
           "date": "2026-10-04"
         }
       }
-    }
+    },
+    "statut_sources": [
+      {
+        "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+        "titre": "Candidatures à l'élection présidentielle française de 2027",
+        "type": "encyclopedie",
+        "date": "2026-10-04"
+      },
+      {
+        "url": "https://www.lemonde.fr/les-decodeurs/article/2026/07/02/presidentielle-2027-qui-sont-les-34-candidats-declares-et-probables_6680905_4355771.html",
+        "titre": "Présidentielle 2027 : qui sont les principaux candidats déclarés ou probables ?",
+        "type": "article-de-presse",
+        "date": "2026-09-25"
+      }
+    ]
   },
   {
     "id": "mira-markovic",
@@ -4313,12 +4494,6 @@
     "parti_id": "parti-animaliste",
     "statut": "declare",
     "statut_date": "2026-10-02",
-    "statut_source": {
-      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
-      "titre": "Candidatures à l'élection présidentielle française de 2027",
-      "type": "encyclopedie",
-      "date": "2026-10-04"
-    },
     "parcours": [],
     "soutiens": [],
     "precisions": [],
@@ -4339,7 +4514,15 @@
           "date": "2026-10-04"
         }
       }
-    }
+    },
+    "statut_sources": [
+      {
+        "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+        "titre": "Candidatures à l'élection présidentielle française de 2027",
+        "type": "encyclopedie",
+        "date": "2026-10-04"
+      }
+    ]
   },
   {
     "id": "benoit-mathieu",
@@ -4348,12 +4531,6 @@
     "parti_id": null,
     "statut": "declare",
     "statut_date": "2026-03-30",
-    "statut_source": {
-      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
-      "titre": "Candidatures à l'élection présidentielle française de 2027",
-      "type": "encyclopedie",
-      "date": "2026-10-04"
-    },
     "parcours": [],
     "soutiens": [],
     "precisions": [],
@@ -4374,7 +4551,21 @@
           "date": "2026-10-04"
         }
       }
-    }
+    },
+    "statut_sources": [
+      {
+        "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+        "titre": "Candidatures à l'élection présidentielle française de 2027",
+        "type": "encyclopedie",
+        "date": "2026-10-04"
+      },
+      {
+        "url": "https://www.lemonde.fr/les-decodeurs/article/2026/07/02/presidentielle-2027-qui-sont-les-34-candidats-declares-et-probables_6680905_4355771.html",
+        "titre": "Présidentielle 2027 : qui sont les principaux candidats déclarés ou probables ?",
+        "type": "article-de-presse",
+        "date": "2026-09-25"
+      }
+    ]
   },
   {
     "id": "emmanuel-maurel",
@@ -4383,12 +4574,6 @@
     "parti_id": "gauche-republicaine-et-socialiste",
     "statut": "declare",
     "statut_date": "2026-09-04",
-    "statut_source": {
-      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
-      "titre": "Candidatures à l'élection présidentielle française de 2027",
-      "type": "encyclopedie",
-      "date": "2026-10-04"
-    },
     "parcours": [
       {
         "debut": 2024,
@@ -4505,7 +4690,21 @@
           "date": "2026-10-04"
         }
       }
-    }
+    },
+    "statut_sources": [
+      {
+        "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+        "titre": "Candidatures à l'élection présidentielle française de 2027",
+        "type": "encyclopedie",
+        "date": "2026-10-04"
+      },
+      {
+        "url": "https://www.lemonde.fr/les-decodeurs/article/2026/07/02/presidentielle-2027-qui-sont-les-34-candidats-declares-et-probables_6680905_4355771.html",
+        "titre": "Présidentielle 2027 : qui sont les principaux candidats déclarés ou probables ?",
+        "type": "article-de-presse",
+        "date": "2026-09-25"
+      }
+    ]
   },
   {
     "id": "jean-luc-melenchon",
@@ -4514,12 +4713,6 @@
     "parti_id": "la-france-insoumise",
     "statut": "declare",
     "statut_date": "2026-05-03",
-    "statut_source": {
-      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
-      "titre": "Candidatures à l'élection présidentielle française de 2027",
-      "type": "encyclopedie",
-      "date": "2026-10-04"
-    },
     "parcours": [
       {
         "debut": 2017,
@@ -4725,7 +4918,21 @@
           "date": "2026-10-02"
         }
       }
-    }
+    },
+    "statut_sources": [
+      {
+        "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+        "titre": "Candidatures à l'élection présidentielle française de 2027",
+        "type": "encyclopedie",
+        "date": "2026-10-04"
+      },
+      {
+        "url": "https://www.lemonde.fr/les-decodeurs/article/2026/07/02/presidentielle-2027-qui-sont-les-34-candidats-declares-et-probables_6680905_4355771.html",
+        "titre": "Présidentielle 2027 : qui sont les principaux candidats déclarés ou probables ?",
+        "type": "article-de-presse",
+        "date": "2026-09-25"
+      }
+    ]
   },
   {
     "id": "manolo-mlekuz",
@@ -4734,12 +4941,6 @@
     "parti_id": "trajectoire",
     "statut": "declare",
     "statut_date": null,
-    "statut_source": {
-      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
-      "titre": "Candidatures à l'élection présidentielle française de 2027",
-      "type": "encyclopedie",
-      "date": "2026-10-04"
-    },
     "parcours": [],
     "soutiens": [],
     "precisions": [
@@ -4770,7 +4971,15 @@
           "date": "2026-10-04"
         }
       }
-    }
+    },
+    "statut_sources": [
+      {
+        "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+        "titre": "Candidatures à l'élection présidentielle française de 2027",
+        "type": "encyclopedie",
+        "date": "2026-10-04"
+      }
+    ]
   },
   {
     "id": "edouard-philippe",
@@ -4779,12 +4988,6 @@
     "parti_id": "horizons",
     "statut": "declare",
     "statut_date": "2024-09-03",
-    "statut_source": {
-      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
-      "titre": "Candidatures à l'élection présidentielle française de 2027",
-      "type": "encyclopedie",
-      "date": "2026-10-04"
-    },
     "parcours": [
       {
         "debut": 2020,
@@ -5014,7 +5217,21 @@
           "date": "2026-10-04"
         }
       }
-    }
+    },
+    "statut_sources": [
+      {
+        "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+        "titre": "Candidatures à l'élection présidentielle française de 2027",
+        "type": "encyclopedie",
+        "date": "2026-10-04"
+      },
+      {
+        "url": "https://www.lemonde.fr/les-decodeurs/article/2026/07/02/presidentielle-2027-qui-sont-les-34-candidats-declares-et-probables_6680905_4355771.html",
+        "titre": "Présidentielle 2027 : qui sont les principaux candidats déclarés ou probables ?",
+        "type": "article-de-presse",
+        "date": "2026-09-25"
+      }
+    ]
   },
   {
     "id": "florian-philippot",
@@ -5023,12 +5240,6 @@
     "parti_id": "les-patriotes",
     "statut": "declare",
     "statut_date": "2026-05-09",
-    "statut_source": {
-      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
-      "titre": "Candidatures à l'élection présidentielle française de 2027",
-      "type": "encyclopedie",
-      "date": "2026-10-04"
-    },
     "parcours": [
       {
         "debut": 2017,
@@ -5180,7 +5391,21 @@
           "date": "2026-10-04"
         }
       }
-    }
+    },
+    "statut_sources": [
+      {
+        "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+        "titre": "Candidatures à l'élection présidentielle française de 2027",
+        "type": "encyclopedie",
+        "date": "2026-10-04"
+      },
+      {
+        "url": "https://www.lemonde.fr/les-decodeurs/article/2026/07/02/presidentielle-2027-qui-sont-les-34-candidats-declares-et-probables_6680905_4355771.html",
+        "titre": "Présidentielle 2027 : qui sont les principaux candidats déclarés ou probables ?",
+        "type": "article-de-presse",
+        "date": "2026-09-25"
+      }
+    ]
   },
   {
     "id": "bruno-retailleau",
@@ -5189,12 +5414,6 @@
     "parti_id": "les-republicains",
     "statut": "investi",
     "statut_date": "2026-04-19",
-    "statut_source": {
-      "url": "https://www.europe1.fr/politique/presidentielle-bruno-retailleau-presente-sa-fiche-de-route-pour-2027-926683",
-      "titre": "Présidentielle : Bruno Retailleau présente sa fiche de route pour 2027",
-      "type": "article-de-presse",
-      "date": "2026-04-21"
-    },
     "parcours": [
       {
         "debut": 2024,
@@ -5429,7 +5648,21 @@
           "date": "2026-09-23"
         }
       }
-    }
+    },
+    "statut_sources": [
+      {
+        "url": "https://www.europe1.fr/politique/presidentielle-bruno-retailleau-presente-sa-fiche-de-route-pour-2027-926683",
+        "titre": "Présidentielle : Bruno Retailleau présente sa fiche de route pour 2027",
+        "type": "article-de-presse",
+        "date": "2026-04-21"
+      },
+      {
+        "url": "https://www.lemonde.fr/les-decodeurs/article/2026/07/02/presidentielle-2027-qui-sont-les-34-candidats-declares-et-probables_6680905_4355771.html",
+        "titre": "Présidentielle 2027 : qui sont les principaux candidats déclarés ou probables ?",
+        "type": "article-de-presse",
+        "date": "2026-09-25"
+      }
+    ]
   },
   {
     "id": "sandrine-rousseau",
@@ -5438,12 +5671,6 @@
     "parti_id": "les-ecologistes",
     "statut": "pressenti",
     "statut_date": null,
-    "statut_source": {
-      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
-      "titre": "Candidatures à l'élection présidentielle française de 2027",
-      "type": "encyclopedie",
-      "date": "2026-10-04"
-    },
     "parcours": [
       {
         "debut": 2022,
@@ -5524,7 +5751,15 @@
           "date": "2026-10-04"
         }
       }
-    }
+    },
+    "statut_sources": [
+      {
+        "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+        "titre": "Candidatures à l'élection présidentielle française de 2027",
+        "type": "encyclopedie",
+        "date": "2026-10-04"
+      }
+    ]
   },
   {
     "id": "fabien-roussel",
@@ -5533,12 +5768,6 @@
     "parti_id": "parti-communiste-francais",
     "statut": "investi",
     "statut_date": "2026-09-06",
-    "statut_source": {
-      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
-      "titre": "Candidatures à l'élection présidentielle française de 2027",
-      "type": "encyclopedie",
-      "date": "2026-10-04"
-    },
     "parcours": [
       {
         "debut": 2025,
@@ -5649,7 +5878,21 @@
           "date": "2026-10-04"
         }
       }
-    }
+    },
+    "statut_sources": [
+      {
+        "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+        "titre": "Candidatures à l'élection présidentielle française de 2027",
+        "type": "encyclopedie",
+        "date": "2026-10-04"
+      },
+      {
+        "url": "https://www.lemonde.fr/les-decodeurs/article/2026/07/02/presidentielle-2027-qui-sont-les-34-candidats-declares-et-probables_6680905_4355771.html",
+        "titre": "Présidentielle 2027 : qui sont les principaux candidats déclarés ou probables ?",
+        "type": "article-de-presse",
+        "date": "2026-09-25"
+      }
+    ]
   },
   {
     "id": "segolene-royal",
@@ -5658,12 +5901,6 @@
     "parti_id": "parti-socialiste",
     "statut": "declare",
     "statut_date": "2026-07-10",
-    "statut_source": {
-      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
-      "titre": "Candidatures à l'élection présidentielle française de 2027",
-      "type": "encyclopedie",
-      "date": "2026-10-04"
-    },
     "parcours": [
       {
         "debut": 2017,
@@ -5830,7 +6067,21 @@
           "date": "2026-10-04"
         }
       }
-    }
+    },
+    "statut_sources": [
+      {
+        "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+        "titre": "Candidatures à l'élection présidentielle française de 2027",
+        "type": "encyclopedie",
+        "date": "2026-10-04"
+      },
+      {
+        "url": "https://www.lemonde.fr/les-decodeurs/article/2026/07/02/presidentielle-2027-qui-sont-les-34-candidats-declares-et-probables_6680905_4355771.html",
+        "titre": "Présidentielle 2027 : qui sont les principaux candidats déclarés ou probables ?",
+        "type": "article-de-presse",
+        "date": "2026-09-25"
+      }
+    ]
   },
   {
     "id": "francois-ruffin",
@@ -5839,12 +6090,6 @@
     "parti_id": "debout",
     "statut": "declare",
     "statut_date": "2025-04-01",
-    "statut_source": {
-      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
-      "titre": "Candidatures à l'élection présidentielle française de 2027",
-      "type": "encyclopedie",
-      "date": "2026-10-04"
-    },
     "parcours": [
       {
         "debut": 2017,
@@ -5999,7 +6244,21 @@
           "date": "2026-10-04"
         }
       }
-    }
+    },
+    "statut_sources": [
+      {
+        "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+        "titre": "Candidatures à l'élection présidentielle française de 2027",
+        "type": "encyclopedie",
+        "date": "2026-10-04"
+      },
+      {
+        "url": "https://www.lemonde.fr/les-decodeurs/article/2026/07/02/presidentielle-2027-qui-sont-les-34-candidats-declares-et-probables_6680905_4355771.html",
+        "titre": "Présidentielle 2027 : qui sont les principaux candidats déclarés ou probables ?",
+        "type": "article-de-presse",
+        "date": "2026-09-25"
+      }
+    ]
   },
   {
     "id": "marine-tondelier",
@@ -6008,12 +6267,6 @@
     "parti_id": "les-ecologistes",
     "statut": "investi",
     "statut_date": "2025-12-08",
-    "statut_source": {
-      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
-      "titre": "Candidatures à l'élection présidentielle française de 2027",
-      "type": "encyclopedie",
-      "date": "2026-10-04"
-    },
     "parcours": [
       {
         "debut": 2022,
@@ -6108,7 +6361,21 @@
           "date": "2026-10-04"
         }
       }
-    }
+    },
+    "statut_sources": [
+      {
+        "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+        "titre": "Candidatures à l'élection présidentielle française de 2027",
+        "type": "encyclopedie",
+        "date": "2026-10-04"
+      },
+      {
+        "url": "https://www.lemonde.fr/les-decodeurs/article/2026/07/02/presidentielle-2027-qui-sont-les-34-candidats-declares-et-probables_6680905_4355771.html",
+        "titre": "Présidentielle 2027 : qui sont les principaux candidats déclarés ou probables ?",
+        "type": "article-de-presse",
+        "date": "2026-09-25"
+      }
+    ]
   },
   {
     "id": "manuel-valls",
@@ -6117,12 +6384,6 @@
     "parti_id": "renaissance",
     "statut": "pressenti",
     "statut_date": null,
-    "statut_source": {
-      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
-      "titre": "Candidatures à l'élection présidentielle française de 2027",
-      "type": "encyclopedie",
-      "date": "2026-10-04"
-    },
     "parcours": [
       {
         "debut": 2024,
@@ -6275,7 +6536,15 @@
           "date": "2026-10-04"
         }
       }
-    }
+    },
+    "statut_sources": [
+      {
+        "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+        "titre": "Candidatures à l'élection présidentielle française de 2027",
+        "type": "encyclopedie",
+        "date": "2026-10-04"
+      }
+    ]
   },
   {
     "id": "dominique-de-villepin",
@@ -6284,12 +6553,6 @@
     "parti_id": "la-france-humaniste",
     "statut": "pressenti",
     "statut_date": null,
-    "statut_source": {
-      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
-      "titre": "Candidatures à l'élection présidentielle française de 2027",
-      "type": "encyclopedie",
-      "date": "2026-10-04"
-    },
     "parcours": [
       {
         "debut": 2005,
@@ -6473,7 +6736,21 @@
           "date": "2026-10-04"
         }
       }
-    }
+    },
+    "statut_sources": [
+      {
+        "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+        "titre": "Candidatures à l'élection présidentielle française de 2027",
+        "type": "encyclopedie",
+        "date": "2026-10-04"
+      },
+      {
+        "url": "https://www.lemonde.fr/les-decodeurs/article/2026/07/02/presidentielle-2027-qui-sont-les-34-candidats-declares-et-probables_6680905_4355771.html",
+        "titre": "Présidentielle 2027 : qui sont les principaux candidats déclarés ou probables ?",
+        "type": "article-de-presse",
+        "date": "2026-09-25"
+      }
+    ]
   },
   {
     "id": "philippe-de-villiers",
@@ -6482,12 +6759,6 @@
     "parti_id": "droite-souverainiste",
     "statut": "pressenti",
     "statut_date": null,
-    "statut_source": {
-      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
-      "titre": "Candidatures à l'élection présidentielle française de 2027",
-      "type": "encyclopedie",
-      "date": "2026-10-04"
-    },
     "parcours": [
       {
         "debut": 2004,
@@ -6725,7 +6996,15 @@
           "date": "2026-10-04"
         }
       }
-    }
+    },
+    "statut_sources": [
+      {
+        "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+        "titre": "Candidatures à l'élection présidentielle française de 2027",
+        "type": "encyclopedie",
+        "date": "2026-10-04"
+      }
+    ]
   },
   {
     "id": "eric-zemmour",
@@ -6734,12 +7013,6 @@
     "parti_id": "reconquete",
     "statut": "declare",
     "statut_date": "2026-09-17",
-    "statut_source": {
-      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
-      "titre": "Candidatures à l'élection présidentielle française de 2027",
-      "type": "encyclopedie",
-      "date": "2026-10-04"
-    },
     "parcours": [
       {
         "debut": 2021,
@@ -6848,7 +7121,21 @@
           "date": "2026-10-04"
         }
       }
-    }
+    },
+    "statut_sources": [
+      {
+        "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+        "titre": "Candidatures à l'élection présidentielle française de 2027",
+        "type": "encyclopedie",
+        "date": "2026-10-04"
+      },
+      {
+        "url": "https://www.lemonde.fr/les-decodeurs/article/2026/07/02/presidentielle-2027-qui-sont-les-34-candidats-declares-et-probables_6680905_4355771.html",
+        "titre": "Présidentielle 2027 : qui sont les principaux candidats déclarés ou probables ?",
+        "type": "article-de-presse",
+        "date": "2026-09-25"
+      }
+    ]
   },
   {
     "id": "clementine-autain",
@@ -6857,12 +7144,6 @@
     "parti_id": "l-apres",
     "statut": "retire",
     "statut_date": "2026-07-11",
-    "statut_source": {
-      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
-      "titre": "Candidatures à l'élection présidentielle française de 2027",
-      "type": "encyclopedie",
-      "date": "2026-10-04"
-    },
     "parcours": [
       {
         "debut": 2017,
@@ -6984,7 +7265,21 @@
           "date": "2026-10-04"
         }
       }
-    }
+    },
+    "statut_sources": [
+      {
+        "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+        "titre": "Candidatures à l'élection présidentielle française de 2027",
+        "type": "encyclopedie",
+        "date": "2026-10-04"
+      },
+      {
+        "url": "https://www.lemonde.fr/les-decodeurs/article/2026/07/02/presidentielle-2027-qui-sont-les-34-candidats-declares-et-probables_6680905_4355771.html",
+        "titre": "Présidentielle 2027 : qui sont les principaux candidats déclarés ou probables ?",
+        "type": "article-de-presse",
+        "date": "2026-09-25"
+      }
+    ]
   },
   {
     "id": "benjamin-lucas-lundy",
@@ -6993,12 +7288,6 @@
     "parti_id": "generations",
     "statut": "retire",
     "statut_date": "2026-07-07",
-    "statut_source": {
-      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
-      "titre": "Candidatures à l'élection présidentielle française de 2027",
-      "type": "encyclopedie",
-      "date": "2026-10-04"
-    },
     "parcours": [
       {
         "debut": 2022,
@@ -7070,7 +7359,21 @@
           "date": "2026-10-04"
         }
       }
-    }
+    },
+    "statut_sources": [
+      {
+        "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+        "titre": "Candidatures à l'élection présidentielle française de 2027",
+        "type": "encyclopedie",
+        "date": "2026-10-04"
+      },
+      {
+        "url": "https://www.lemonde.fr/les-decodeurs/article/2026/07/02/presidentielle-2027-qui-sont-les-34-candidats-declares-et-probables_6680905_4355771.html",
+        "titre": "Présidentielle 2027 : qui sont les principaux candidats déclarés ou probables ?",
+        "type": "article-de-presse",
+        "date": "2026-09-25"
+      }
+    ]
   },
   {
     "id": "lydie-massard",
@@ -7079,12 +7382,6 @@
     "parti_id": "union-democratique-bretonne",
     "statut": "retire",
     "statut_date": "2026-09-09",
-    "statut_source": {
-      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
-      "titre": "Candidatures à l'élection présidentielle française de 2027",
-      "type": "encyclopedie",
-      "date": "2026-10-04"
-    },
     "parcours": [
       {
         "debut": 2026,
@@ -7136,6 +7433,15 @@
           "type": "encyclopedie",
           "date": "2026-10-04"
         }
+      },
+      {
+        "libelle": "Au 25 septembre 2026, Le Monde la recensait toujours parmi les candidatures déclarées : le retrait du 9 septembre n'est attesté que par une encyclopédie.",
+        "source": {
+          "url": "https://www.lemonde.fr/les-decodeurs/article/2026/07/02/presidentielle-2027-qui-sont-les-34-candidats-declares-et-probables_6680905_4355771.html",
+          "titre": "Présidentielle 2027 : qui sont les principaux candidats déclarés ou probables ?",
+          "type": "article-de-presse",
+          "date": "2026-09-25"
+        }
       }
     ],
     "liens_officiels": [],
@@ -7172,6 +7478,14 @@
           "date": "2026-10-04"
         }
       }
-    }
+    },
+    "statut_sources": [
+      {
+        "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+        "titre": "Candidatures à l'élection présidentielle française de 2027",
+        "type": "encyclopedie",
+        "date": "2026-10-04"
+      }
+    ]
   }
 ]
