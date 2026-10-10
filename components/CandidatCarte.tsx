@@ -38,12 +38,22 @@ export default function CandidatCarte({ candidat }: { candidat: CandidatResume }
           </span>
         </div>
 
-        <div className="mt-auto flex flex-wrap items-center gap-x-3 gap-y-2 border-t border-stone-900/6 pt-3 dark:border-white/8">
-          <BadgeStatut statut={candidat.statut} />
-          <span className="text-xs text-stone-600 dark:text-stone-400">
-            {candidat.nombrePropositions}{' '}
-            {pluriel(candidat.nombrePropositions, 'proposition sourcée', 'propositions sourcées')}
-          </span>
+        <div className="mt-auto space-y-2 border-t border-stone-900/6 pt-3 dark:border-white/8">
+          <div className="flex flex-wrap items-center gap-x-3 gap-y-2">
+            <BadgeStatut statut={candidat.statut} />
+            <span className="text-xs text-stone-600 dark:text-stone-400">
+              {candidat.nombrePropositions}{' '}
+              {pluriel(candidat.nombrePropositions, 'proposition relevée', 'propositions relevées')}
+            </span>
+          </div>
+
+          {/* Les thèmes couverts disent ce qu'on trouvera sur la fiche ;
+              le statut, lui, est le même pour presque tout le monde. */}
+          {candidat.themes.length > 0 && (
+            <p className="text-xs leading-relaxed text-stone-600 dark:text-stone-400">
+              {candidat.themes.join(' · ')}
+            </p>
+          )}
         </div>
       </Link>
     </li>

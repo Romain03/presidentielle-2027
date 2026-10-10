@@ -129,9 +129,14 @@ export default function ComparateurInteractif({
               <option value="">
                 {complet ? `Maximum ${MAX_CANDIDATS} candidats` : '+ Ajouter un candidat'}
               </option>
+              {/* Le nombre de positions évite de composer une comparaison
+                  entre deux candidats dont rien n'a été relevé. */}
               {disponibles.map((c) => (
                 <option key={c.id} value={c.id}>
                   {nomComplet(c)}
+                  {c.nombrePropositions === 0
+                    ? ' - aucune position relevée'
+                    : ` - ${c.nombrePropositions} position${c.nombrePropositions > 1 ? 's' : ''}`}
                 </option>
               ))}
             </select>
@@ -179,16 +184,96 @@ export default function ComparateurInteractif({
       ) : (
         <>
           {/*
-            Comparer suppose des colonnes : contrairement aux pages de thème,
-            ce tableau ne peut pas être déplié en blocs. Il défile donc
-            horizontalement, la colonne des thèmes reste en place, et le
-            défilement est annoncé plutôt que laissé à deviner.
+            Sous 640 pixels, le tableau cède la place à des blocs empilés par
+            thème. Des colonnes de 150 pixels étiraient chaque position sur
+            quinze lignes : la comparaison devenait illisible au moment même
+            où elle devait servir. La lecture y est séquentielle plutôt que
+            côte à côte, ce qui est le seul compromis honnête sur un téléphone.
           */}
-          <p className="text-xs text-stone-600 sm:hidden dark:text-stone-400">
-            Faites glisser le tableau vers la gauche pour voir les autres candidats.
-          </p>
+          <div className="space-y-3 sm:hidden">
+            {lignes.map((ligne) => {
+              const repere = REPERES[ligne.statut];
+              return (
+                <section key={ligne.theme.id} className="carte space-y-3 p-4">
+                  <div>
+                    <h3 className="font-medium">
+                      <Link href={`/themes/${ligne.theme.id}/`} className="lien">
+                        {ligne.theme.libelle}
+                      </Link>
+                    </h3>
+                    <p className={`text-xs ${repere.classes}`}>
+                      <span aria-hidden="true">{repere.glyphe}</span> {repere.libelle}
+                    </p>
+                  </div>
 
-          <div className="carte overflow-x-auto">
+                  <ul className="space-y-2.5">
+                    {ligne.cellules.map((propositionsCellule, i) => {
+                      const candidat = selectionnes[i];
+                      return (
+                        <li
+                          key={candidat.id}
+                          className="border-l-[3px] pl-2.5"
+                          style={{ borderLeftColor: candidat.parti?.couleur ?? 'transparent' }}
+                        >
+                          <p className="text-sm font-medium">{nomComplet(candidat)}</p>
+                          {propositionsCellule.length === 0 ? (
+                            <p className="text-sm text-stone-600 dark:text-stone-400">
+                              Rien relevé par ce site
+                            </p>
+                          ) : (
+                            propositionsCellule.map((proposition) => (
+                              <div key={proposition.id} className="mt-1 space-y-1">
+                                <BadgeNature proposition={proposition} />
+                                <p className="text-sm leading-relaxed">{proposition.resume}</p>
+                              </div>
+                            ))
+                          )}
+                        </li>
+                      );
+                    })}
+                  </ul>
+
+                  {ligne.indicateurs.length > 0 && (
+                    <dl className="space-y-2 rounded-lg bg-creme-ombre p-3 text-xs dark:bg-nuit">
+                      {ligne.indicateurs.map((indicateur) => (
+                        <div key={indicateur.libelle}>
+                          <dt className="text-stone-600 dark:text-stone-400">
+                            {indicateur.libelle}
+                            {indicateur.divergent && (
+                              <span className="ml-1.5 text-amber-800 dark:text-amber-300">
+                                <span aria-hidden="true">⇄</span>
+                                <span className="sr-only">valeurs différentes</span>
+                              </span>
+                            )}
+                          </dt>
+                          <dd className="mt-0.5 space-y-0.5">
+                            {indicateur.valeurs.map((valeur, i) => (
+                              <span key={selectionnes[i].id} className="flex justify-between gap-3">
+                                <span className="text-stone-600 dark:text-stone-400">
+                                  {nomComplet(selectionnes[i])}
+                                </span>
+                                <span
+                                  className={`tabular-nums ${indicateur.divergent ? 'font-semibold' : ''}`}
+                                >
+                                  {valeur ?? '-'}
+                                </span>
+                              </span>
+                            ))}
+                          </dd>
+                        </div>
+                      ))}
+                    </dl>
+                  )}
+                </section>
+              );
+            })}
+          </div>
+
+          {/*
+            Au-delà, le tableau reprend : la colonne des thèmes reste en place
+            pendant le défilement horizontal, et le défilement est annoncé.
+          */}
+          <div className="carte hidden overflow-x-auto sm:block">
             <table className="w-full min-w-[46rem] border-collapse text-left text-sm">
               <caption className="sr-only">
                 Comparaison des positions par thème, candidats par ordre alphabétique

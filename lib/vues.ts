@@ -1,4 +1,4 @@
-import { candidats, getParti, nombrePropositions } from './data';
+import { candidats, getParti, nombrePropositions, themesRenseignes } from './data';
 import type { Famille, Photo, Statut } from './schemas';
 
 /**
@@ -22,6 +22,8 @@ export interface CandidatResume {
   statut: Statut;
   parti: PartiResume | null;
   nombrePropositions: number;
+  /** Libellés des thèmes sur lesquels une position est relevée. */
+  themes: string[];
 }
 
 export function resumeDuCandidat(id: string): CandidatResume | undefined {
@@ -44,6 +46,7 @@ export function resumeDuCandidat(id: string): CandidatResume | undefined {
         }
       : null,
     nombrePropositions: nombrePropositions(candidat.id),
+    themes: themesRenseignes(candidat.id).map((t) => t.libelle),
   };
 }
 

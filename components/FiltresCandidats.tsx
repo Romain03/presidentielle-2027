@@ -23,26 +23,41 @@ export default function FiltresCandidats({
   // Critère d'inclusion par défaut, documenté dans la méthodologie : factuel,
   // il n'écarte personne sur un jugement de « poids politique ».
   const [avecPropositions, setAvecPropositions] = useState(true);
+  const [tri, setTri] = useState<'alphabetique' | 'positions'>('alphabetique');
 
-  const affiches = useMemo(
-    () =>
-      candidats.filter(
-        (c) =>
-          (parti === '' || c.parti?.id === parti) &&
-          (famille === '' || c.parti?.famille === famille) &&
-          (statut === '' || c.statut === statut) &&
-          (!avecPropositions || c.nombrePropositions > 0),
-      ),
-    [candidats, parti, famille, statut, avecPropositions],
-  );
+  const affiches = useMemo(() => {
+    const retenus = candidats.filter(
+      (c) =>
+        (parti === '' || c.parti?.id === parti) &&
+        (famille === '' || c.parti?.famille === famille) &&
+        (statut === '' || c.statut === statut) &&
+        (!avecPropositions || c.nombrePropositions > 0),
+    );
+    /*
+     * L'ordre par défaut reste alphabétique : c'est le seul qui n'avantage
+     * personne. L'ordre par nombre de positions relevées est proposé parce
+     * qu'il répond à une question légitime - de qui sait-on quelque chose ? -
+     * mais il classe la collecte du site, pas les candidats.
+     */
+    if (tri === 'positions') {
+      return [...retenus].sort(
+        (a, b) =>
+          b.nombrePropositions - a.nombrePropositions ||
+          a.nom.localeCompare(b.nom, 'fr'),
+      );
+    }
+    return retenus;
+  }, [candidats, parti, famille, statut, avecPropositions, tri]);
 
   const filtreActif =
-    parti !== '' || famille !== '' || statut !== '' || avecPropositions !== true;
+    parti !== '' || famille !== '' || statut !== '' || avecPropositions !== true ||
+    tri !== 'alphabetique';
 
   function reinitialiser() {
     setParti('');
     setFamille('');
     setStatut('');
+    setTri('alphabetique');
     setAvecPropositions(true);
   }
 
@@ -56,7 +71,7 @@ export default function FiltresCandidats({
         aria-label="Filtres"
         className="carte p-4"
       >
-        <div className="grid gap-3 sm:grid-cols-3">
+        <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
           <div>
             <label htmlFor="filtre-parti" className="block pb-1 text-xs font-medium">
               Parti
@@ -92,6 +107,21 @@ export default function FiltresCandidats({
                   {LIBELLES_FAMILLE[f]}
                 </option>
               ))}
+            </select>
+          </div>
+
+          <div>
+            <label htmlFor="tri-candidats" className="block pb-1 text-xs font-medium">
+              Ordre
+            </label>
+            <select
+              id="tri-candidats"
+              value={tri}
+              onChange={(e) => setTri(e.target.value as 'alphabetique' | 'positions')}
+              className={CLASSES_CHAMP}
+            >
+              <option value="alphabetique">Alphabétique</option>
+              <option value="positions">Positions relevées</option>
             </select>
           </div>
 
