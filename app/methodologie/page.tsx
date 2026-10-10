@@ -225,6 +225,22 @@ export default function PageMethodologie() {
           La nuance n’est renseignée que lorsque son code officiel est certain ; elle s’affiche
           « Non renseignée » dans le cas contraire, plutôt que d’être devinée.
         </p>
+        <div className="max-w-2xl space-y-2 rounded-xl border border-amber-700/20 bg-amber-50/70 p-4 text-sm leading-relaxed text-stone-700 dark:border-amber-500/20 dark:bg-amber-950/20 dark:text-stone-300">
+          <p>
+            <strong className="font-semibold">En pratique, la règle ci-dessus ne s’applique
+            qu’à une minorité des partis.</strong>{' '}
+            {statistiques.partisSansNuance} des {statistiques.partis} formations recensées n’ont
+            pas de nuance ministérielle établie - les nuances sont publiées à l’occasion des
+            scrutins, et plusieurs de ces formations n’en ont pas encore disputé. Leur famille est
+            donc attribuée à la main, d’après leur dénomination et leurs déclarations.
+          </p>
+          <p>
+            C’est un classement éditorial, et il est présenté comme tel : la fiche de chaque parti
+            indique si sa nuance est connue, et la famille ne sert qu’au filtre. Les
+            incohérences apparentes - deux formations souverainistes rangées différemment, par
+            exemple - viennent de là.
+          </p>
+        </div>
         <p className="max-w-2xl text-sm leading-relaxed text-stone-700 dark:text-stone-300">
           Chaque famille dispose d’une{' '}
           <Link href="/familles/" className="lien">
@@ -340,12 +356,11 @@ export default function PageMethodologie() {
             appréciation, et le test s'allumera de lui-même quand ils seront franchis.
           </li>
           <li>
-            <strong className="font-semibold">L'axe gauche-droite</strong> n'est pas une note
-            attribuée à chaque réponse. Il est déduit de vos affinités avec chaque famille, en
-            plaçant les familles dans l'ordre conventionnel des blocs : extrême gauche à -2,
-            gauche et écologistes à -1, centre à 0, droite à +1, extrême droite à +2. « Divers »
-            et « Régionalistes » n'y figurent pas. C'est une convention de plus, au même titre
-            que le regroupement en familles.
+            <strong className="font-semibold">Aucun axe gauche-droite n'est calculé.</strong> Une
+            version antérieure plaçait le lecteur sur un axe allant de -2 à +2, déduit de ses
+            affinités avec chaque famille. C'était contradictoire deux fois : le site promet de ne
+            placer personne sur un axe, et cet axe reposait sur le classement en familles, qui est
+            une convention de ce site et non une donnée. Il a été retiré.
           </li>
         </ul>
         <p className="text-sm leading-relaxed text-stone-700 dark:text-stone-300">

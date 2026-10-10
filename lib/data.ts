@@ -198,4 +198,5 @@ export const statistiques = {
   propositions: propositions.length,
   candidatsAvecProposition: candidats.filter((c) => nombrePropositions(c.id) > 0).length,
   propositionsDeProgramme: propositions.filter((p) => p.nature === 'programme_officiel').length,
+  partisSansNuance: partis.filter((p) => p.nuance_ministerielle === null).length,
 };

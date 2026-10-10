@@ -1,13 +1,11 @@
 import { describe, expect, it } from 'vitest';
 import { candidats, propositions, questions } from '@/lib/data';
 import {
-  COORDONNEES_FAMILLE,
   MIN_CANDIDATS_ELIGIBLES,
   MIN_CANDIDATS_PAR_QUESTION,
   MIN_QUESTIONS_ACTIVES,
   calculerResultats,
   etatDuTest,
-  libelleAxe,
   positionsPourQuestion,
   questionsActives,
   toutesLesQuestions,
@@ -127,42 +125,3 @@ describe('calcul des affinités', () => {
   });
 });
 
-describe('axe gauche-droite', () => {
-  it('place à gauche qui choisit la valeur portée par la gauche', () => {
-    const axe = calculerResultats({ 'age-depart-retraite': 60 }).axe;
-    expect(axe).not.toBeNull();
-    expect(axe!).toBeLessThan(0);
-  });
-
-  it('place à droite qui choisit la valeur portée par la droite', () => {
-    const axe = calculerResultats({ 'age-depart-retraite': 65 }).axe;
-    expect(axe).not.toBeNull();
-    expect(axe!).toBeGreaterThan(0);
-  });
-
-  it('reste dans les bornes des coordonnées de familles', () => {
-    const bornes = Object.values(COORDONNEES_FAMILLE) as number[];
-    for (const valeur of [60, 62, 63, 65]) {
-      const axe = calculerResultats({ 'age-depart-retraite': valeur }).axe!;
-      expect(axe).toBeGreaterThanOrEqual(Math.min(...bornes));
-      expect(axe).toBeLessThanOrEqual(Math.max(...bornes));
-    }
-  });
-
-  it('n’est pas calculable sans réponse', () => {
-    expect(calculerResultats({}).axe).toBeNull();
-  });
-
-  it('exclut les familles hors axe', () => {
-    expect(COORDONNEES_FAMILLE.divers).toBeUndefined();
-    expect(COORDONNEES_FAMILLE.regionalistes).toBeUndefined();
-  });
-
-  it('nomme la position sans surinterpréter les bornes', () => {
-    expect(libelleAxe(-2)).toBe('Extrême gauche');
-    expect(libelleAxe(-1)).toBe('Gauche');
-    expect(libelleAxe(0)).toBe('Centre');
-    expect(libelleAxe(1)).toBe('Droite');
-    expect(libelleAxe(2)).toBe('Extrême droite');
-  });
-});

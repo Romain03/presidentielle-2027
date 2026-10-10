@@ -19,15 +19,6 @@ export const metadata: Metadata = {
     'Comparer ses réponses aux chiffres annoncés par les candidats à l’élection présidentielle de 2027, thème par thème.',
 };
 
-/** Bornes de nommage de l'axe, alignées sur `libelleAxe` de lib/test.ts. */
-const BORNES_AXE = [
-  { seuil: -1.5, libelle: LIBELLES_FAMILLE['extreme-gauche'] },
-  { seuil: -0.5, libelle: LIBELLES_FAMILLE.gauche },
-  { seuil: 0.49, libelle: LIBELLES_FAMILLE.centre },
-  { seuil: 1.49, libelle: LIBELLES_FAMILLE.droite },
-  { seuil: Infinity, libelle: LIBELLES_FAMILLE['extreme-droite'] },
-];
-
 export default function PageTest() {
   const etat = etatDuTest();
 
@@ -97,7 +88,6 @@ export default function PageTest() {
           libellesPartis={Object.fromEntries(partis.map((p) => [p.id, `${p.nom} (${p.sigle})`]))}
           libellesFamilles={LIBELLES_FAMILLE}
           couleursPartis={Object.fromEntries(partis.map((p) => [p.id, p.couleur]))}
-          nommerAxe={BORNES_AXE}
         />
       ) : (
         <section className="space-y-5">

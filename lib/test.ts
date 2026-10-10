@@ -1,9 +1,8 @@
 import { candidats, getCandidat, getParti, propositions, questions } from './data';
 import { formaterIndicateur } from './comparateur';
-import { agreger, COORDONNEES_FAMILLE, type Appartenance, type Reponses, type Resultats } from './test-calcul';
+import { agreger, type Appartenance, type Reponses, type Resultats } from './test-calcul';
 import { LIBELLES_FAMILLE, type Question } from './schemas';
 
-export { COORDONNEES_FAMILLE } from './test-calcul';
 export type { Affinite, Appartenance, Reponses, Resultats } from './test-calcul';
 
 /**
@@ -149,12 +148,4 @@ export function calculerResultats(reponses: Reponses): Resultats {
   return agreger(posees, appartenances(), reponses);
 }
 
-/** Libellé de la position sur l'axe, volontairement prudent. */
-export function libelleAxe(axe: number): string {
-  if (axe <= -1.5) return LIBELLES_FAMILLE['extreme-gauche'];
-  if (axe <= -0.5) return LIBELLES_FAMILLE.gauche;
-  if (axe < 0.5) return LIBELLES_FAMILLE.centre;
-  if (axe < 1.5) return LIBELLES_FAMILLE.droite;
-  return LIBELLES_FAMILLE['extreme-droite'];
-}
 

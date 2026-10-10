@@ -75,7 +75,6 @@ export default function TestProximite({
   libellesPartis,
   libellesFamilles,
   couleursPartis,
-  nommerAxe,
 }: {
   questions: QuestionClient[];
   candidats: CandidatClient[];
@@ -84,7 +83,6 @@ export default function TestProximite({
   libellesFamilles: Record<string, string>;
   couleursPartis: Record<string, string>;
   /** Bornes de l'axe, fournies par le serveur pour rester cohérentes. */
-  nommerAxe: { seuil: number; libelle: string }[];
 }) {
   const [reponses, setReponses] = useState<Record<string, number | null>>({});
   const [affiches, setAffiches] = useState(false);
@@ -123,11 +121,6 @@ export default function TestProximite({
         (id) => couleursPartis[id],
       ),
       famillesHabillees: habiller(brut.familles, (id) => libellesFamilles[id] ?? id),
-      libelleAxe:
-        brut.axe === null
-          ? null
-          : (nommerAxe.find((b) => brut.axe! <= b.seuil)?.libelle ??
-            nommerAxe[nommerAxe.length - 1].libelle),
     };
   }, [
     affiches,
@@ -138,7 +131,6 @@ export default function TestProximite({
     libellesPartis,
     libellesFamilles,
     couleursPartis,
-    nommerAxe,
   ]);
 
   function repondre(questionId: string, valeur: string) {
@@ -270,40 +262,6 @@ export default function TestProximite({
                 n’est pas comparable à un candidat comparé sur dix.
               </p>
             </section>
-
-            {resultats.axe !== null && resultats.libelleAxe !== null && (
-              <section className="space-y-3">
-                <h3 className="font-serif text-lg font-semibold">Où vos réponses vous situent</h3>
-                <div className="carte p-5">
-                  <div className="relative h-10">
-                    <div className="absolute inset-x-0 top-4 h-1.5 rounded-full bg-gradient-to-r from-stone-300 via-creme-ombre to-stone-300 dark:from-nuit-bord dark:via-nuit dark:to-nuit-bord" />
-                    <div
-                      className="absolute top-1.5 size-6 -translate-x-1/2 rounded-full border-2 border-white bg-stone-800 shadow dark:border-nuit-clair dark:bg-stone-200"
-                      style={{ left: `${((resultats.axe + 2) / 4) * 100}%` }}
-                      role="img"
-                      aria-label={`Position estimée : ${resultats.libelleAxe}`}
-                    />
-                  </div>
-                  <div className="flex justify-between text-xs text-stone-600 dark:text-stone-400">
-                    <span>Extrême gauche</span>
-                    <span>Centre</span>
-                    <span>Extrême droite</span>
-                  </div>
-                  <p className="mt-3 text-sm">
-                    Vos réponses vous rapprochent le plus de la famille{' '}
-                    <strong className="font-semibold">{resultats.libelleAxe}</strong>.
-                  </p>
-                  <p className="mt-1.5 text-xs leading-relaxed text-stone-600 dark:text-stone-400">
-                    Cette position est déduite de vos affinités avec chaque famille, en utilisant
-                    l’ordre conventionnel des blocs publié dans la{' '}
-                    <Link href="/methodologie/" className="lien">
-                      méthodologie
-                    </Link>
-                    . Les familles « Divers » et « Régionalistes » ne figurent pas sur cet axe.
-                  </p>
-                </div>
-              </section>
-            )}
 
             {resultats.famillesHabillees.length > 0 && (
               <section className="space-y-3">

@@ -36,26 +36,10 @@ export interface Resultats {
   candidats: Affinite[];
   partis: Affinite[];
   familles: Affinite[];
-  /** Position sur l'axe gauche-droite, de -2 à +2, ou null si incalculable. */
-  axe: number | null;
 }
 
 /** Réponses de l'utilisateur ; `null` quand il ne se prononce pas. */
 export type Reponses = Record<string, number | null>;
-
-/**
- * Position des familles sur l'axe gauche-droite. C'est une convention, comme
- * le regroupement en familles lui-même, et elle est publiée sur la page
- * Méthodologie. « Divers » et « Régionalistes » ne figurent pas sur cet axe.
- */
-export const COORDONNEES_FAMILLE: Record<string, number> = {
-  'extreme-gauche': -2,
-  gauche: -1,
-  ecologistes: -1,
-  centre: 0,
-  droite: 1,
-  'extreme-droite': 2,
-};
 
 /** 1 quand la valeur est identique, 0 aux deux extrémités de l'échelle. */
 export function accord(question: QuestionCalcul, choix: number, valeurCandidat: number): number {
@@ -113,13 +97,11 @@ export function agreger(
   const partis = grouper((id) => appartenances[id]?.partiId ?? null);
   const familles = grouper((id) => appartenances[id]?.famille ?? null);
 
-  // L'axe est la moyenne des coordonnées de familles, pondérée par l'affinité.
-  const surLAxe = familles.filter((f) => COORDONNEES_FAMILLE[f.id] !== undefined && f.score > 0);
-  const poids = surLAxe.reduce((s, f) => s + f.score, 0);
-  const axe =
-    poids === 0
-      ? null
-      : surLAxe.reduce((s, f) => s + COORDONNEES_FAMILLE[f.id] * f.score, 0) / poids;
-
-  return { questionsRepondues: repondues.length, candidats, partis, familles, axe };
+  /*
+   * Aucun axe gauche-droite n'est calculé. Le site promet de ne placer
+   * personne sur un axe, et le faire ici l'aurait contredit deux fois : en
+   * plaçant le lecteur, et en le plaçant d'après le classement en familles,
+   * qui est une convention de ce site et non une donnée.
+   */
+  return { questionsRepondues: repondues.length, candidats, partis, familles };
 }
