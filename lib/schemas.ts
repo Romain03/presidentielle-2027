@@ -59,6 +59,39 @@ export const Source = z
 
 export type Source = z.infer<typeof Source>;
 
+/**
+ * Hôtes dont les articles ne sont lisibles qu'avec un abonnement.
+ *
+ * Ce n'est pas un jugement sur ces rédactions, et ce sont souvent les
+ * meilleures. C'est une contrainte propre à ce site : une source que le lecteur
+ * ne peut pas ouvrir ne lui permet pas de vérifier, et lui demande de nous
+ * croire sur parole. Un article payant vient donc toujours derrière une source
+ * librement accessible - règle vérifiée par les tests, pas seulement promise.
+ */
+export const HOTES_PAYANTS: readonly string[] = [
+  'lemonde.fr',
+  'lefigaro.fr',
+  'liberation.fr',
+  'lesechos.fr',
+  'la-croix.com',
+  'mediapart.fr',
+  'lopinion.fr',
+  'marianne.net',
+  'lexpress.fr',
+  'nouvelobs.com',
+];
+
+/** Hôte d'une URL, sans le « www. ». */
+export function hoteDe(url: string): string {
+  return new URL(url).hostname.replace(/^www\./, '');
+}
+
+/** Une source est en accès libre si son hôte n'exige pas d'abonnement. */
+export function accesLibre(source: Source): boolean {
+  const hote = hoteDe(source.url);
+  return !HOTES_PAYANTS.some((payant) => hote === payant || hote.endsWith(`.${payant}`));
+}
+
 /* ------------------------------------------------------------------- partis */
 
 /**

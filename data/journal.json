@@ -1,6 +1,15 @@
 [
   {
     "date": "2026-10-10",
+    "resume": "Propositions : Le Monde etaye 20 citations, source unique tombe de 44 a 27",
+    "fichiers": [
+      "journal.json",
+      "propositions.json"
+    ],
+    "commit": "eb3134d17f"
+  },
+  {
+    "date": "2026-10-10",
     "resume": "Roster : les statuts portent plusieurs sources, 33 corrobores par Le Monde",
     "fichiers": [
       "candidats.json",

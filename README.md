@@ -270,6 +270,51 @@ Les positions évoluent. Reprendre chaque source, mettre `derniere_verification`
 
 ---
 
+## Veille automatique
+
+```bash
+npm run veille                 # rapport complet, avec appels réseau
+npm run veille -- --hors-ligne # seulement les contrôles sur les données
+npm run veille -- --ecrire     # enregistre les empreintes observées
+```
+
+Un workflow (`.github/workflows/veille.yml`) l'exécute **chaque lundi** et ouvre
+ou complète un ticket GitHub dès que quelque chose demande une lecture.
+
+### Ce qu'elle automatise
+
+| Contrôle | Pourquoi il ne peut pas être fait à l'œil |
+|---|---|
+| **Pages de programme apparues** | Les sites officiels de 26 partis et des candidats sont parcourus. C'est l'événement que le site attend : le jour où un programme paraît, les propositions doivent cesser de passer par une rédaction. |
+| **Pages vivantes modifiées** | Une page de programme n'a pas de date de publication. Elle est réécrite sous une citation qui, elle, ne bouge pas. Une empreinte du texte est comparée à celle de la semaine précédente. |
+| **Liens morts** | Une source qui ne répond plus n'est plus vérifiable par le lecteur, et le site cesse de tenir sa promesse sans rien afficher. |
+| **Propositions périmées** | Au-delà de 45 jours sans revérification. |
+| **Lacunes** | Candidatures engagées sans proposition, thèmes sans position, programmes connus mais non cités. |
+
+### Ce qu'elle n'automatise pas, et pourquoi
+
+**Elle ne publie rien et ne touche pas à `/data`.** Écrire une proposition
+suppose d'avoir lu l'article, vérifié sa date, vérifié que la mesure y figure
+bien et dans ces termes. Un robot qui déduirait une proposition d'une page de
+programme produirait exactement ce que ce dépôt interdit : une affirmation que
+personne n'a vérifiée. La règle « ne jamais inventer une proposition » n'a de
+valeur que si rien ne l'écrit à notre place.
+
+La veille fait donc tout le travail jusqu'à la décision, et s'arrête là. Elle
+transforme une surveillance impossible à tenir à la main - 32 pages de
+programme, une soixantaine de sources, des pages sans date - en une liste de
+lectures à faire.
+
+### Empreintes
+
+`veille/empreintes.json` est la mémoire de la veille : sans elle, la même page
+serait signalée comme modifiée à chaque exécution. Le fichier vit **hors de
+`data/`**, parce que le journal des données se construit sur l'historique Git de
+ce dossier et qu'un commit de veille y ajouterait une entrée trompeuse. Pour la
+même raison, le déploiement ignore les commits marqués `[veille]`.
+
+---
+
 ## Ce que les partis disent d'eux-mêmes
 
 Chaque fiche de parti porte un extrait de la façon dont la formation se

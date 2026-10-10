@@ -5154,7 +5154,12 @@
       }
     ],
     "precisions": [],
-    "liens_officiels": [],
+    "liens_officiels": [
+      {
+        "libelle": "Site de campagne « Avec Édouard 2027 »",
+        "url": "https://www.edouardphilippe.fr/"
+      }
+    ],
     "derniere_verification": "2026-10-09",
     "photo": {
       "fichier": "edouard-philippe.webp",

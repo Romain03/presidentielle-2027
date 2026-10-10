@@ -10,6 +10,7 @@ import {
   propositionsDuTheme,
   themes,
 } from '@/lib/data';
+import { accesLibre, hoteDe } from '@/lib/schemas';
 
 /**
  * Ces tests portent sur les données réelles de /data. Le simple fait
@@ -49,6 +50,18 @@ describe('données publiées', () => {
         expect(source.date).toMatch(/^\d{4}-\d{2}-\d{2}$/);
       }
     }
+  });
+
+  /*
+    La méthodologie publiée promet qu'un article payant ne sert jamais de source
+    unique. Ce test en fait une contrainte : la promesse ne peut plus être
+    oubliée au moment où l'accès à un abonnement rend la facilité tentante.
+  */
+  it('portent toutes au moins une source librement accessible', () => {
+    const captives = propositions.filter((p) => !p.sources.some(accesLibre));
+    expect(
+      captives.map((p) => `${p.id} : ${p.sources.map((s) => hoteDe(s.url)).join(', ')}`),
+    ).toEqual([]);
   });
 
   it('n’ont pas de source postérieure à sa date de vérification', () => {

@@ -1,0 +1,74 @@
+name: Veille des sources
+
+# La veille tourne seule ; elle ne publie rien. Elle ouvre un ticket quand
+# quelque chose demande une lecture humaine : un programme paru, une page citée
+# réécrite, un lien mort. Écrire une proposition suppose d'avoir lu l'article,
+# et c'est précisément ce qui ne doit pas être automatisé.
+on:
+  schedule:
+    # Tous les lundis à 6 h UTC. Un programme paraît rarement un dimanche soir,
+    # et le ticket attend ainsi le début de semaine.
+    - cron: '0 6 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: veille
+  cancel-in-progress: false
+
+jobs:
+  surveiller:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      - run: npm ci
+
+      # Le script sort en code 1 quand quelque chose demande une action : on
+      # récupère ce code sans faire échouer le job, qui a encore du travail.
+      - id: veille
+        run: |
+          set +e
+          npm run veille --silent -- --ecrire > rapport.md 2> empreintes.log
+          echo "action=$?" >> "$GITHUB_OUTPUT"
+          set -e
+          cat empreintes.log || true
+          cat rapport.md
+
+      # Les empreintes sont la mémoire de la veille : sans elles, la même page
+      # serait signalée comme « modifiée » à chaque exécution. Elles vivent hors
+      # de /data pour ne pas polluer le journal des données, qui se construit
+      # sur l'historique Git de ce dossier.
+      - name: Mémoriser les empreintes
+        run: |
+          if [ -n "$(git status --porcelain veille/)" ]; then
+            git config user.name  'github-actions[bot]'
+            git config user.email 'github-actions[bot]@users.noreply.github.com'
+            git add veille/
+            git commit -m '[veille] empreintes des pages surveillées'
+            git push
+          else
+            echo 'Aucune empreinte modifiée.'
+          fi
+
+      - name: Ouvrir ou compléter le ticket de veille
+        if: steps.veille.outputs.action != '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          titre='Veille des sources : éléments à vérifier'
+          numero=$(gh issue list --state open --search "$titre in:title" \
+                     --json number --jq '.[0].number // empty')
+          if [ -n "$numero" ]; then
+            gh issue comment "$numero" --body-file rapport.md
+          else
+            gh issue create --title "$titre" --body-file rapport.md
+          fi

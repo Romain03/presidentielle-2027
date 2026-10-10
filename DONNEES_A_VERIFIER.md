@@ -59,6 +59,44 @@ il appelle une reprise :
 
 ---
 
+### Trente-deux pages de programme trouvées par la veille, aucune exploitée
+La veille automatique du 10 octobre 2026 a parcouru les sites officiels des
+26 partis et des candidats, et y a trouvé **32 pages de programme qu'aucune
+proposition du site ne cite**. Le site se sourçait à la presse alors que des
+documents primaires étaient en ligne : c'est la plus grosse lacune révélée à ce
+jour, et elle était invisible sans ce parcours systématique.
+
+Les plus directement utiles, par ordre de priorité :
+
+| Candidature | Adresse |
+|---|---|
+| David Lisnard | `unenouvelleenergie.fr/notre-programme` |
+| Fabien Roussel | `pcf.fr/le_programme` |
+| Jean-Luc Mélenchon | `melenchon2027.fr/programme/laec` et `/plans-thematiques` |
+| Bruno Retailleau | `republicains.fr/nos-propositions` |
+| Éric Zemmour | `leprogrammepourlafrance.fr` |
+| Marine Le Pen | `rassemblementnational.fr/22-mesures` |
+| Nicolas Dupont-Aignan | `debout-la-france.fr/notre-projet` |
+| Florian Philippot | `les-patriotes.fr/projet-pour-la-france` |
+| François Asselineau | `upr.fr/notre-programme` |
+| Olivier Faure | `projet-socialiste.fr` et `letempsduprojet.fr` |
+| Raphaël Glucksmann | `place-publique.eu/.../le-projet` |
+| Delphine Batho | `generationecologie.fr/.../notre-projet` |
+| Lydie Massard | `udb.bzh/qui-sommes-nous/nos-idees` |
+
+**Deux de ces adresses concernent Lisnard et Roussel**, dont les retraites sont
+les dernières propositions sourcées à CNews. Il n'est pas certain qu'elles
+traitent des retraites, ni qu'elles soient datées de la campagne 2027 - la page
+du PCF semblait remonter à 2021-2022 lors d'une lecture précédente. Mais elles
+n'avaient jamais été ouvertes.
+
+**À faire :** les lire une par une, en vérifiant d'abord la date et le scrutin
+auquel elles se rapportent. Une page de parti n'est pas le programme d'un
+candidat, et un « projet » peut dater d'un scrutin passé. Le liste complète est
+dans `veille/empreintes.json`.
+
+---
+
 ## 2. Contradictions entre sources
 
 ### Marine Le Pen - durée de cotisation

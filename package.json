@@ -12,7 +12,8 @@
     "valider": "node scripts/valider-donnees.ts",
     "mobile": "npm run build && python3 -m http.server 4321 --directory out --bind 0.0.0.0",
     "ios": "NEXT_PUBLIC_SITE_URL=https://romain03.github.io/presidentielle-2027 npm run build && npx cap sync ios",
-    "ios:ouvrir": "npx cap open ios"
+    "ios:ouvrir": "npx cap open ios",
+    "veille": "node scripts/veille.ts"
   },
   "dependencies": {
     "@capacitor/app": "^8.1.2",

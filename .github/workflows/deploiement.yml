@@ -18,6 +18,10 @@ concurrency:
 jobs:
   construire:
     runs-on: ubuntu-latest
+    # La veille hebdomadaire pousse ses empreintes sur main. Ce commit ne touche
+    # rien de ce que le site affiche : le reconstruire produirait une page
+    # identique, et occuperait la file de déploiement pour rien.
+    if: ${{ !contains(github.event.head_commit.message, '[veille]') }}
     steps:
       - uses: actions/checkout@v4
 
