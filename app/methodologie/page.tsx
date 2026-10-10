@@ -132,9 +132,11 @@ export default function PageMethodologie() {
             {sourcesDesPropositions.medias.map((media) => (
               <li key={media.hote} className="flex items-baseline gap-2">
                 <span className="w-32 shrink-0 font-medium">{media.hote}</span>
+                {/* Le dénominateur est le nombre de citations, pas celui des
+                    propositions : une proposition peut en porter plusieurs. */}
                 <span className="tabular-nums">
-                  {media.nombre} proposition{media.nombre > 1 ? 's' : ''} ·{' '}
-                  {Math.round((media.nombre / statistiques.propositions) * 100)} %
+                  {media.nombre} citation{media.nombre > 1 ? 's' : ''} ·{' '}
+                  {Math.round((media.nombre / sourcesDesPropositions.citations) * 100)} %
                 </span>
               </li>
             ))}
