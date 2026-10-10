@@ -1,5 +1,5 @@
 import LienSource from '@/components/LienSource';
-import { periode, pluriel } from '@/lib/format';
+import { periode } from '@/lib/format';
 import type { Jalon } from '@/lib/schemas';
 
 /** Au-delà de ce nombre, les fonctions les plus anciennes sont repliées. */
@@ -51,8 +51,9 @@ export default function ParcoursCandidat({ jalons }: { jalons: Jalon[] }) {
       {anciens.length > 0 && (
         <details className="group">
           <summary className="cursor-pointer text-sm text-stone-600 underline decoration-stone-300 underline-offset-2 hover:text-stone-900 dark:text-stone-400 dark:decoration-stone-600 dark:hover:text-stone-100">
-            Afficher les {anciens.length}{' '}
-            {pluriel(anciens.length, 'fonction antérieure', 'fonctions antérieures')}
+            {anciens.length === 1
+              ? 'Afficher la fonction antérieure'
+              : `Afficher les ${anciens.length} fonctions antérieures`}
           </summary>
           <ol className="mt-3 space-y-3">
             {anciens.map((jalon) => (
