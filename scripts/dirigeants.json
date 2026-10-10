@@ -1,0 +1,52 @@
+{
+  "generation-ecologie": {
+    "nom": "Delphine Batho",
+    "fonction": "Coordinatrice nationale",
+    "url": "https://www.generationecologie.fr/a-propos/generation-ecologie/qui-sommes-nous/",
+    "titre": "Qui sommes-nous ? - Génération Écologie",
+    "type": "site-de-parti"
+  },
+  "gauche-republicaine-et-socialiste": {
+    "nom": "Emmanuel Maurel",
+    "fonction": "Animateur national",
+    "url": "https://g-r-s.fr",
+    "titre": "Gauche républicaine et socialiste",
+    "type": "site-de-parti"
+  },
+  "parti-socialiste": {
+    "nom": "Olivier Faure",
+    "fonction": "Premier secrétaire",
+    "url": "https://parti-socialiste.fr/notre-parti",
+    "titre": "Notre parti - Parti socialiste",
+    "type": "site-de-parti"
+  },
+  "nouvelle-energie": {
+    "nom": "David Lisnard",
+    "fonction": "Président",
+    "url": "https://www.unenouvelleenergie.fr/notre-programme/",
+    "titre": "Notre programme - Nouvelle Énergie",
+    "type": "site-de-parti"
+  },
+  "les-republicains": {
+    "nom": "Bruno Retailleau",
+    "fonction": "Président",
+    "url": "https://republicains.fr/qui-sommes-nous/",
+    "titre": "Qui sommes-nous ? - Les Républicains",
+    "type": "site-de-parti"
+  },
+  "les-ecologistes": { "depuis_candidat": "marine-tondelier", "fonction": "Secrétaire nationale" },
+  "parti-communiste-francais": { "depuis_candidat": "fabien-roussel", "fonction": "Secrétaire national" },
+  "lutte-ouvriere": { "depuis_candidat": "nathalie-arthaud", "fonction": "Porte-parole" },
+  "renaissance": { "depuis_candidat": "gabriel-attal", "fonction": "Secrétaire général" },
+  "place-publique": { "depuis_candidat": "raphael-glucksmann", "fonction": "Co-président" },
+  "la-convention": { "depuis_candidat": "bernard-cazeneuve", "fonction": "Président" },
+  "revolution-permanente": { "depuis_candidat": "anasse-kazib", "fonction": "Porte-parole" },
+  "npa-revolutionnaires": { "depuis_candidat": "selma-labib", "fonction": "Porte-parole" },
+  "debout": { "depuis_candidat": "francois-ruffin", "fonction": "Président" },
+  "debout-la-france": { "depuis_candidat": "nicolas-dupont-aignan", "fonction": "Président" },
+  "horizons": { "depuis_candidat": "edouard-philippe", "fonction": "Président" },
+  "les-patriotes": { "depuis_candidat": "florian-philippot", "fonction": "Président" },
+  "reconquete": { "depuis_candidat": "eric-zemmour", "fonction": "Président" },
+  "resistons": { "depuis_candidat": "jean-lassalle", "fonction": "Président" },
+  "union-populaire-republicaine": { "depuis_candidat": "francois-asselineau", "fonction": "Président" }
+}

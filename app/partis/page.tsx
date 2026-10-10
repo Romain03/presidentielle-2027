@@ -47,7 +47,7 @@ export default function PagePartis() {
                 </span>
                 {parti.dirigeant !== null && (
                   <span className="block text-xs text-stone-600 dark:text-stone-400">
-                    {parti.dirigeant.fonction} : {parti.dirigeant.nom}
+                    {parti.dirigeant.fonction ?? 'Direction'} : {parti.dirigeant.nom}
                   </span>
                 )}
 

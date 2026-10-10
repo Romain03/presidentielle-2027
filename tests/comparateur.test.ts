@@ -38,6 +38,7 @@ function proposition(
     resume,
     detail: 'Un détail suffisamment long pour le schéma.',
     citation: null,
+    programme_anterieur: null,
     nature: 'declaration_publique',
     indicateurs,
     source,

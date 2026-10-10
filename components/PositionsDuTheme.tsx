@@ -8,6 +8,7 @@ import LienSource from './LienSource';
 import { formaterIndicateur } from '@/lib/comparateur';
 import { formaterDateCourte, nomComplet, pluriel } from '@/lib/format';
 import type { Proposition } from '@/lib/schemas';
+import { enLice } from '@/lib/schemas';
 import type { CandidatResume } from '@/lib/vues';
 
 export interface LigneTheme {
@@ -16,25 +17,49 @@ export interface LigneTheme {
 }
 
 export default function PositionsDuTheme({ lignes }: { lignes: LigneTheme[] }) {
-  const [masquerVides, setMasquerVides] = useState(false);
-  const affichees = lignes.filter((l) => !masquerVides || l.propositions.length > 0);
-  const renseignees = lignes.filter((l) => l.propositions.length > 0).length;
+  /*
+   * Les lignes vides sont masquées par défaut, comme sur la liste des
+   * candidats et dans le comparateur. Quarante-quatre lignes dont quarante
+   * vides ne se lisent pas comme un tableau de positions : elles se lisent
+   * comme un tableau de silences, ce qu'elles ne sont pas.
+   */
+  const [masquerVides, setMasquerVides] = useState(true);
+  const [masquerNonEngages, setMasquerNonEngages] = useState(true);
+
+  const engagees = lignes.filter((l) => enLice(l.candidat.statut));
+  const retenues = masquerNonEngages ? engagees : lignes;
+  const affichees = retenues.filter((l) => !masquerVides || l.propositions.length > 0);
+  const renseignees = retenues.filter((l) => l.propositions.length > 0).length;
+  const horsLice = lignes.length - engagees.length;
 
   return (
     <div className="space-y-4">
-      <div className="flex flex-wrap items-center justify-between gap-3 text-sm">
-        <label className="-my-2 flex items-center gap-2.5 py-2">
-          <input
-            type="checkbox"
-            checked={masquerVides}
-            onChange={(e) => setMasquerVides(e.target.checked)}
-            className="size-4.5 rounded border-stone-400"
-          />
-          Masquer les positions non communiquées
-        </label>
+      <div className="flex flex-wrap items-center justify-between gap-x-6 gap-y-2 text-sm">
+        <div className="flex flex-wrap gap-x-6 gap-y-1">
+          <label className="-my-2 flex items-center gap-2.5 py-2">
+            <input
+              type="checkbox"
+              checked={masquerVides}
+              onChange={(e) => setMasquerVides(e.target.checked)}
+              className="size-4.5 rounded border-stone-400"
+            />
+            Masquer ceux sans position relevée
+          </label>
+          {horsLice > 0 && (
+            <label className="-my-2 flex items-center gap-2.5 py-2">
+              <input
+                type="checkbox"
+                checked={masquerNonEngages}
+                onChange={(e) => setMasquerNonEngages(e.target.checked)}
+                className="size-4.5 rounded border-stone-400"
+              />
+              Masquer les pressentis et les retraits ({horsLice})
+            </label>
+          )}
+        </div>
         <p aria-live="polite" className="text-stone-600 dark:text-stone-400">
-          {renseignees} {pluriel(renseignees, 'candidat s’est exprimé', 'candidats se sont exprimés')}{' '}
-          sur {lignes.length}
+          {renseignees} sur {retenues.length}{' '}
+          {pluriel(retenues.length, 'candidat a une position relevée', 'candidats ont une position relevée')}
         </p>
       </div>
 
@@ -90,13 +115,13 @@ export default function PositionsDuTheme({ lignes }: { lignes: LigneTheme[] }) {
                 <td className="block px-3 pb-3 pt-0 align-top sm:table-cell sm:p-3">
                   {propositions.length === 0 ? (
                     <span className="text-stone-600 dark:text-stone-400">
-                      Position non communiquée
+                      Rien relevé par ce site à ce jour
                     </span>
                   ) : (
                     <div className="space-y-3">
                       {propositions.map((proposition) => (
                         <div key={proposition.id} className="space-y-1.5">
-                          <BadgeNature nature={proposition.nature} />
+                          <BadgeNature proposition={proposition} />
                           <p className="leading-relaxed">{proposition.resume}</p>
                           {proposition.indicateurs.length > 0 && (
                             <ul className="flex flex-wrap gap-x-4 gap-y-0.5 text-xs text-stone-600 dark:text-stone-400">

@@ -4,12 +4,53 @@ import DerniereMiseAJour from '@/components/DerniereMiseAJour';
 import BadgeNature from '@/components/BadgeNature';
 import BadgeStatut from '@/components/BadgeStatut';
 import { candidats, derniereMiseAJour, statistiques } from '@/lib/data';
-import { LIBELLES_FAMILLE, STATUTS } from '@/lib/schemas';
+import { LIBELLES_FAMILLE, STATUTS, type Proposition } from '@/lib/schemas';
 
 export const metadata: Metadata = {
   title: 'Méthodologie',
   description:
     'Sources, règles de rédaction, critères d’inclusion et limites connues des données publiées sur ce site.',
+};
+
+/**
+ * Propositions fictives servant uniquement à montrer les trois repères. Elles
+ * ne sont jamais affichées comme des données : seuls leur nature et leur type
+ * de source comptent ici.
+ */
+const SOURCE_FICTIVE = {
+  url: 'https://example.org',
+  titre: 'Exemple',
+  date: '2026-01-01',
+};
+
+const EXEMPLE_BASE: Omit<Proposition, 'nature' | 'source'> = {
+  id: 'exemple',
+  candidat_id: 'exemple',
+  theme_id: 'exemple',
+  resume: 'Exemple de mesure servant à illustrer les repères.',
+  detail: 'Exemple de mesure servant à illustrer les repères.',
+  citation: null,
+  indicateurs: [],
+  programme_anterieur: null,
+  derniere_verification: '2026-01-01',
+};
+
+const EXEMPLES: Record<'programme' | 'rapporte' | 'declaration', Proposition> = {
+  programme: {
+    ...EXEMPLE_BASE,
+    nature: 'programme_officiel',
+    source: { ...SOURCE_FICTIVE, type: 'programme-officiel' },
+  },
+  rapporte: {
+    ...EXEMPLE_BASE,
+    nature: 'programme_officiel',
+    source: { ...SOURCE_FICTIVE, type: 'article-de-presse' },
+  },
+  declaration: {
+    ...EXEMPLE_BASE,
+    nature: 'declaration_publique',
+    source: { ...SOURCE_FICTIVE, type: 'interview' },
+  },
 };
 
 const CORRESPONDANCE_FAMILLES: { famille: keyof typeof LIBELLES_FAMILLE; nuances: string }[] = [
@@ -60,34 +101,47 @@ export default function PageMethodologie() {
 
       <section aria-labelledby="nature" className="max-w-2xl space-y-3">
         <h2 id="nature" className="text-lg font-semibold">
-          Mesure de programme ou déclaration publique
+          Ce qu’une proposition engage
         </h2>
         <p className="text-sm leading-relaxed text-stone-700 dark:text-stone-300">
-          Ces deux statuts ne sont pas équivalents et sont distingués partout, par une forme, une
-          bordure et un libellé :
+          Trois statuts, distingués partout par une forme, une bordure et un libellé. Le statut
+          n’est pas saisi : il est déduit de la nature de la mesure et du type de sa source, de
+          sorte qu’il ne peut pas affirmer davantage que ce que la source établit.
         </p>
         <ul className="space-y-2 text-sm text-stone-700 dark:text-stone-300">
           <li className="flex flex-wrap items-center gap-2">
-            <BadgeNature nature="programme_officiel" />
-            <span>mesure inscrite dans un programme ou un projet publié par le candidat.</span>
+            <BadgeNature proposition={EXEMPLES.programme} />
+            <span>mesure lue dans le programme publié par le candidat, lien à l’appui.</span>
           </li>
           <li className="flex flex-wrap items-center gap-2">
-            <BadgeNature nature="declaration_publique" />
+            <BadgeNature proposition={EXEMPLES.rapporte} />
+            <span>
+              mesure présentée comme figurant au programme, mais connue par un article de presse.
+              C’est aujourd’hui le cas des {statistiques.propositionsDeProgramme} mesures de
+              programme du site : aucune n’est sourcée au programme lui-même.
+            </span>
+          </li>
+          <li className="flex flex-wrap items-center gap-2">
+            <BadgeNature proposition={EXEMPLES.declaration} />
             <span>
               position exprimée publiquement - interview, discours, conférence de presse - sans
               être encore inscrite dans un programme publié.
             </span>
           </li>
         </ul>
+        <p className="text-sm leading-relaxed text-stone-700 dark:text-stone-300">
+          Un quatrième repère s’ajoute lorsque la mesure est reprise d’un scrutin antérieur, faute
+          de programme 2027 publié : il nomme le scrutin et son année.
+        </p>
       </section>
 
       <section aria-labelledby="absence" className="max-w-2xl space-y-3">
         <h2 id="absence" className="text-lg font-semibold">
-          « Position non communiquée »
+          « Rien relevé par ce site »
         </h2>
         <p className="text-sm leading-relaxed text-stone-700 dark:text-stone-300">
           Lorsqu’aucune proposition sourcée n’existe pour un couple candidat / thème, le site
-          affiche « Position non communiquée ». Cette mention est calculée à l’affichage : l’absence
+          affiche « Rien relevé par ce site ». Cette mention est calculée à l’affichage : l’absence
           n’est jamais stockée comme une donnée, ce qui évite d’affirmer qu’un candidat « n’a rien
           dit » alors que nous n’avons simplement rien trouvé de sourçable. Elle ne signifie donc
           pas que le candidat refuse de se prononcer.

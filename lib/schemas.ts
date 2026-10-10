@@ -128,7 +128,17 @@ export const Parti = z
       .nullable(),
     /** Dirigeant en exercice. Fonction et nom seulement : aucun jugement. */
     dirigeant: z
-      .object({ nom: z.string().min(2), fonction: z.string().min(2), source: Source })
+      .object({
+        nom: z.string().min(2),
+        /**
+         * Intitulé exact, tel que le parti le nomme : premier secrétaire,
+         * secrétaire national, coordinateur, porte-parole... `null` quand
+         * l'intitulé n'est pas établi : le site affiche alors « Direction »
+         * plutôt que de supposer « Président », ce qu'il faisait partout.
+         */
+        fonction: z.string().min(2).nullable(),
+        source: Source,
+      })
       .strict()
       .nullable(),
     /** Positionnement tel que le parti le formule lui-même, avec sa source. */
@@ -149,6 +159,17 @@ export type Parti = z.infer<typeof Parti>;
 export const STATUTS = ['investi', 'declare', 'pressenti', 'retire'] as const;
 export const Statut = z.enum(STATUTS);
 export type Statut = z.infer<typeof Statut>;
+
+/**
+ * Statuts d'une candidature réellement engagée. Les « pressentis » n'ont rien
+ * déclaré et les « retirés » se sont désistés : les compter avec les autres
+ * donnait un total de 44 qui laissait croire à 44 candidatures.
+ */
+export const STATUTS_EN_LICE: readonly Statut[] = ['investi', 'declare'];
+
+export function enLice(statut: Statut): boolean {
+  return STATUTS_EN_LICE.includes(statut);
+}
 
 export const LIBELLES_STATUT: Record<Statut, string> = {
   investi: 'Investi par son parti',
@@ -284,6 +305,15 @@ export type Theme = z.infer<typeof Theme>;
  * programme n'a pas le même statut qu'une déclaration publique.
  */
 export const NATURES = ['programme_officiel', 'declaration_publique'] as const;
+
+/**
+ * Scrutin dont la mesure est issue, lorsqu'il ne s'agit pas de 2027. Une
+ * position reconstituée depuis un programme antérieur n'engage pas le candidat
+ * de la même façon : le dire dans le détail replié ne suffisait pas.
+ */
+export const ProgrammeAnterieur = z
+  .object({ scrutin: z.string().min(4), annee: Annee })
+  .strict();
 export const Nature = z.enum(NATURES);
 export type Nature = z.infer<typeof Nature>;
 
@@ -322,6 +352,8 @@ export const Proposition = z
     /** Verbatim court quand il éclaire la mesure. */
     citation: z.string().min(3).nullable(),
     nature: Nature,
+    /** null quand la mesure est bien formulée pour 2027. */
+    programme_anterieur: ProgrammeAnterieur.nullable().default(null),
     indicateurs: z.array(Indicateur).default([]),
     /** Obligatoire : une proposition sans source ne passe pas le build. */
     source: Source,

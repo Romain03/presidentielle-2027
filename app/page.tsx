@@ -1,13 +1,21 @@
 import Link from 'next/link';
+import BadgeStatut from '@/components/BadgeStatut';
 import DerniereMiseAJour from '@/components/DerniereMiseAJour';
-import { derniereMiseAJour, statistiques, themes } from '@/lib/data';
+import PortraitCandidat from '@/components/PortraitCandidat';
+import {
+  candidats,
+  derniereMiseAJour,
+  getParti,
+  nombrePropositions,
+  propositionsDuTheme,
+  sourcesDesPropositions,
+  statistiques,
+  themes,
+} from '@/lib/data';
+import { nomListe, pluriel } from '@/lib/format';
+import { enLice } from '@/lib/schemas';
 
 const VUES = [
-  {
-    href: '/candidats/',
-    titre: 'Candidats',
-    texte: 'Qui se présente, sous quelle étiquette, et où en est sa candidature.',
-  },
   {
     href: '/themes/',
     titre: 'Thèmes',
@@ -21,7 +29,7 @@ const VUES = [
   {
     href: '/partis/',
     titre: 'Partis',
-    texte: 'Chaque formation, ses candidats, et comment elle les désigne.',
+    texte: 'Chaque formation dans ses propres mots, ses candidats, sa désignation.',
   },
   {
     href: '/familles/',
@@ -31,28 +39,139 @@ const VUES = [
 ];
 
 export default function Accueil() {
+  const engages = candidats.filter((c) => enLice(c.statut));
+  const couverts = engages.filter((c) => nombrePropositions(c.id) > 0).length;
+  const principal = sourcesDesPropositions.medias[0];
+  const partDuPrincipal = Math.round((principal.nombre / statistiques.propositions) * 100);
+
   return (
-    <div className="space-y-14">
+    <div className="space-y-12">
       <section className="space-y-5">
         <DerniereMiseAJour date={derniereMiseAJour} />
         <h1 className="max-w-3xl text-4xl font-semibold sm:text-5xl">
           Élection présidentielle française de 2027
         </h1>
         <p className="max-w-2xl text-lg leading-relaxed text-stone-700 dark:text-stone-300">
-          Qui sont les candidats, à quel parti ils appartiennent, et en quoi leurs programmes
-          diffèrent - thème par thème. Chaque information renvoie à sa source et porte sa date.
+          Qui se présente, sous quelle étiquette, et ce que chacun a dit - thème par thème. Chaque
+          information renvoie à sa source et porte sa date.
         </p>
-        <p className="max-w-2xl rounded-xl border border-amber-700/20 bg-amber-50/70 p-4 text-sm leading-relaxed text-stone-700 dark:border-amber-500/20 dark:bg-amber-950/20 dark:text-stone-300">
-          <strong className="font-semibold">Cette liste n’est pas définitive.</strong> Les
-          parrainages ne sont pas encore déposés auprès du Conseil constitutionnel, et la plupart
-          des programmes ne sont pas publiés. Ce qui manque est affiché comme manquant, jamais
-          comblé.
+
+        {/*
+          L'état de la collecte est annoncé avant le contenu, pas relégué en bas
+          de page : lire « 18 candidats sur 31 » change la façon dont on lit
+          tout le reste du site.
+        */}
+        <div className="max-w-2xl space-y-2 rounded-xl border border-amber-700/20 bg-amber-50/70 p-4 text-sm leading-relaxed text-stone-700 dark:border-amber-500/20 dark:bg-amber-950/20 dark:text-stone-300">
+          <p>
+            <strong className="font-semibold">Ce site est une collecte en cours, pas un
+            panorama.</strong>{' '}
+            {statistiques.propositions} propositions ont été relevées, dans{' '}
+            {sourcesDesPropositions.articles} articles de {sourcesDesPropositions.medias.length}{' '}
+            médias - dont {partDuPrincipal} % dans un seul. {couverts} des {statistiques.enLice}{' '}
+            candidatures engagées ont au moins une position relevée.
+          </p>
+          <p>
+            Ce qui manque est affiché comme manquant, jamais comblé. Les parrainages ne sont pas
+            déposés et la plupart des programmes ne sont pas publiés.{' '}
+            <Link href="/methodologie/#sources" className="lien">
+              D’où viennent ces informations
+            </Link>
+            .
+          </p>
+        </div>
+      </section>
+
+      <section aria-labelledby="en-lice" className="space-y-4">
+        <div className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
+          <h2 id="en-lice" className="text-xl font-semibold">
+            Les {statistiques.enLice} candidatures engagées
+          </h2>
+          <p className="text-sm text-stone-600 dark:text-stone-400">
+            {statistiques.pressentis} pressentis et {statistiques.retires} retraits sont recensés à
+            part :{' '}
+            <Link href="/candidats/" className="lien">
+              voir les {statistiques.candidats} personnes recensées
+            </Link>
+          </p>
+        </div>
+        <ul className="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
+          {engages.map((candidat) => {
+            const parti = getParti(candidat.parti_id);
+            const positions = nombrePropositions(candidat.id);
+            return (
+              <li key={candidat.id}>
+                <Link
+                  href={`/candidats/${candidat.id}/`}
+                  className="carte carte-interactive relative flex h-full items-center gap-3 overflow-hidden p-2.5"
+                >
+                  <span
+                    aria-hidden="true"
+                    className="absolute inset-y-0 left-0 w-1"
+                    style={{ backgroundColor: parti?.couleur ?? 'transparent' }}
+                  />
+                  <span className="pl-1.5">
+                    <PortraitCandidat candidat={candidat} taille={40} />
+                  </span>
+                  <span className="min-w-0 flex-1">
+                    <span className="block truncate text-sm font-medium">
+                      {nomListe(candidat)}
+                    </span>
+                    <span className="block truncate text-xs text-stone-600 dark:text-stone-400">
+                      {parti ? parti.sigle : 'Sans étiquette'} ·{' '}
+                      {positions === 0
+                        ? 'aucune position relevée'
+                        : `${positions} ${pluriel(positions, 'position', 'positions')}`}
+                    </span>
+                  </span>
+                  {candidat.statut === 'investi' && (
+                    <span className="shrink-0">
+                      <BadgeStatut statut={candidat.statut} />
+                    </span>
+                  )}
+                </Link>
+              </li>
+            );
+          })}
+        </ul>
+      </section>
+
+      <section aria-labelledby="themes" className="space-y-4">
+        <h2 id="themes" className="text-xl font-semibold">
+          Entrer par un sujet
+        </h2>
+        <p className="max-w-2xl text-sm text-stone-600 dark:text-stone-400">
+          Le nombre indique les positions relevées, pas l’importance du sujet : il mesure ce que le
+          site a trouvé.
         </p>
+        <ul className="flex flex-wrap gap-2">
+          {themes.map((theme) => {
+            const nombre = propositionsDuTheme(theme.id).length;
+            return (
+              <li key={theme.id}>
+                <Link
+                  href={`/themes/${theme.id}/`}
+                  className="inline-flex items-baseline gap-2 rounded-full border border-stone-900/10 bg-white px-3.5 py-2 text-sm transition hover:border-stone-900/25 hover:bg-creme-ombre dark:border-nuit-bord dark:bg-nuit-clair dark:hover:border-stone-500"
+                >
+                  {theme.libelle}
+                  <span
+                    className={`tabular-nums text-xs ${
+                      nombre === 0
+                        ? 'text-stone-500 dark:text-stone-500'
+                        : 'text-stone-600 dark:text-stone-400'
+                    }`}
+                  >
+                    {nombre === 0 ? 'rien relevé' : nombre}
+                  </span>
+                </Link>
+              </li>
+            );
+          })}
+        </ul>
       </section>
 
       <section aria-labelledby="commencer" className="space-y-4">
         <h2 id="commencer" className="text-xl font-semibold">
-          Par où commencer
+          Autres entrées
         </h2>
         <ul className="grid gap-3 sm:grid-cols-2">
           {VUES.map((vue) => (
@@ -77,64 +196,6 @@ export default function Accueil() {
             </li>
           ))}
         </ul>
-      </section>
-
-      <section aria-labelledby="themes" className="space-y-4">
-        <h2 id="themes" className="text-xl font-semibold">
-          Entrer par un sujet
-        </h2>
-        <ul className="flex flex-wrap gap-2">
-          {themes.map((theme) => (
-            <li key={theme.id}>
-              <Link
-                href={`/themes/${theme.id}/`}
-                className="inline-block rounded-full border border-stone-900/10 bg-white px-3.5 py-1.5 text-sm transition hover:border-stone-900/25 hover:bg-creme-ombre dark:border-nuit-bord dark:bg-nuit-clair dark:hover:border-stone-500"
-              >
-                {theme.libelle}
-              </Link>
-            </li>
-          ))}
-        </ul>
-      </section>
-
-      <section aria-labelledby="etat" className="space-y-4">
-        <h2 id="etat" className="text-xl font-semibold">
-          État des données
-        </h2>
-        <dl className="grid grid-cols-2 gap-3 sm:grid-cols-4">
-          {[
-            { libelle: 'Candidats recensés', valeur: statistiques.candidats },
-            {
-              libelle: 'Dont au moins une proposition',
-              valeur: statistiques.candidatsAvecProposition,
-            },
-            { libelle: 'Propositions sourcées', valeur: statistiques.propositions },
-            { libelle: 'Thèmes suivis', valeur: statistiques.themes },
-          ].map((item) => (
-            <div key={item.libelle} className="carte p-4">
-              <dd className="font-serif text-3xl font-semibold tabular-nums">{item.valeur}</dd>
-              <dt className="mt-1 text-xs leading-snug text-stone-600 dark:text-stone-400">
-                {item.libelle}
-              </dt>
-            </div>
-          ))}
-        </dl>
-        <p className="max-w-2xl text-sm leading-relaxed text-stone-600 dark:text-stone-400">
-          Un{' '}
-          <Link href="/test/" className="lien">
-            test de proximité
-          </Link>{' '}
-          est en préparation : il s’activera quand les programmes publiés permettront un calcul
-          qui veuille dire quelque chose.
-        </p>
-        <p className="max-w-2xl text-sm leading-relaxed text-stone-600 dark:text-stone-400">
-          Un candidat qui ne s’est pas exprimé sur un thème affiche « Position non communiquée » :
-          aucune position n’est déduite ni extrapolée.{' '}
-          <Link href="/methodologie/" className="lien">
-            Lire la méthodologie
-          </Link>
-          .
-        </p>
       </section>
     </div>
   );

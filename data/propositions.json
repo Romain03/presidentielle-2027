@@ -39,7 +39,8 @@
       "type": "article-de-presse",
       "date": "2026-09-23"
     },
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "programme_anterieur": null
   },
   {
     "id": "retailleau-immigration",
@@ -56,7 +57,8 @@
       "type": "article-de-presse",
       "date": "2026-09-11"
     },
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "programme_anterieur": null
   },
   {
     "id": "retailleau-institutions",
@@ -73,7 +75,8 @@
       "type": "article-de-presse",
       "date": "2026-04-21"
     },
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "programme_anterieur": null
   },
   {
     "id": "retailleau-securite",
@@ -90,7 +93,8 @@
       "type": "article-de-presse",
       "date": "2026-02-13"
     },
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "programme_anterieur": null
   },
   {
     "id": "melenchon-retraites",
@@ -132,7 +136,8 @@
       "type": "article-de-presse",
       "date": "2026-10-02"
     },
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "programme_anterieur": null
   },
   {
     "id": "le-pen-retraites",
@@ -168,7 +173,8 @@
       "type": "article-de-presse",
       "date": "2026-10-03"
     },
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "programme_anterieur": null
   },
   {
     "id": "le-pen-fiscalite",
@@ -198,7 +204,8 @@
       "type": "article-de-presse",
       "date": "2026-10-06"
     },
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "programme_anterieur": null
   },
   {
     "id": "ruffin-retraites",
@@ -228,7 +235,8 @@
       "type": "article-de-presse",
       "date": "2026-10-02"
     },
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "programme_anterieur": null
   },
   {
     "id": "tondelier-retraites",
@@ -258,7 +266,8 @@
       "type": "article-de-presse",
       "date": "2026-10-02"
     },
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "programme_anterieur": null
   },
   {
     "id": "faure-retraites",
@@ -282,7 +291,8 @@
       "type": "article-de-presse",
       "date": "2026-10-03"
     },
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "programme_anterieur": null
   },
   {
     "id": "glucksmann-retraites",
@@ -299,7 +309,8 @@
       "type": "article-de-presse",
       "date": "2026-10-03"
     },
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "programme_anterieur": null
   },
   {
     "id": "roussel-retraites",
@@ -329,7 +340,8 @@
       "type": "article-de-presse",
       "date": "2026-10-02"
     },
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "programme_anterieur": null
   },
   {
     "id": "dupont-aignan-retraites",
@@ -353,7 +365,8 @@
       "type": "article-de-presse",
       "date": "2026-10-03"
     },
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "programme_anterieur": null
   },
   {
     "id": "zemmour-retraites",
@@ -377,7 +390,8 @@
       "type": "article-de-presse",
       "date": "2026-10-03"
     },
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "programme_anterieur": null
   },
   {
     "id": "attal-retraites",
@@ -407,7 +421,8 @@
       "type": "article-de-presse",
       "date": "2026-10-03"
     },
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "programme_anterieur": null
   },
   {
     "id": "philippe-retraites",
@@ -437,7 +452,8 @@
       "type": "article-de-presse",
       "date": "2026-10-03"
     },
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "programme_anterieur": null
   },
   {
     "id": "lisnard-retraites",
@@ -461,7 +477,8 @@
       "type": "article-de-presse",
       "date": "2026-10-03"
     },
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "programme_anterieur": null
   },
   {
     "id": "arthaud-retraites",
@@ -491,7 +508,8 @@
       "type": "article-de-presse",
       "date": "2026-10-02"
     },
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "programme_anterieur": null
   },
   {
     "id": "hollande-retraites",
@@ -515,7 +533,8 @@
       "type": "article-de-presse",
       "date": "2026-10-02"
     },
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "programme_anterieur": null
   },
   {
     "id": "philippe-immigration",
@@ -532,7 +551,8 @@
       "type": "article-de-presse",
       "date": "2026-09-11"
     },
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "programme_anterieur": null
   },
   {
     "id": "attal-immigration",
@@ -549,7 +569,8 @@
       "type": "article-de-presse",
       "date": "2026-09-11"
     },
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "programme_anterieur": null
   },
   {
     "id": "glucksmann-immigration",
@@ -566,7 +587,8 @@
       "type": "article-de-presse",
       "date": "2026-09-11"
     },
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "programme_anterieur": null
   },
   {
     "id": "tondelier-pouvoir-d-achat",
@@ -590,7 +612,8 @@
       "type": "article-de-presse",
       "date": "2026-08-27"
     },
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "programme_anterieur": null
   },
   {
     "id": "melenchon-pouvoir-d-achat",
@@ -607,7 +630,8 @@
       "type": "article-de-presse",
       "date": "2026-08-27"
     },
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "programme_anterieur": null
   },
   {
     "id": "maurel-pouvoir-d-achat",
@@ -624,7 +648,8 @@
       "type": "article-de-presse",
       "date": "2026-09-23"
     },
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "programme_anterieur": null
   },
   {
     "id": "faure-pouvoir-d-achat",
@@ -648,7 +673,8 @@
       "type": "article-de-presse",
       "date": "2026-09-23"
     },
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "programme_anterieur": null
   },
   {
     "id": "royal-pouvoir-d-achat",
@@ -672,7 +698,8 @@
       "type": "article-de-presse",
       "date": "2026-09-23"
     },
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "programme_anterieur": null
   },
   {
     "id": "guedj-pouvoir-d-achat",
@@ -689,7 +716,8 @@
       "type": "article-de-presse",
       "date": "2026-09-23"
     },
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "programme_anterieur": null
   },
   {
     "id": "glucksmann-pouvoir-d-achat",
@@ -706,7 +734,8 @@
       "type": "article-de-presse",
       "date": "2026-08-27"
     },
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "programme_anterieur": null
   },
   {
     "id": "attal-pouvoir-d-achat",
@@ -723,7 +752,8 @@
       "type": "article-de-presse",
       "date": "2026-08-27"
     },
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "programme_anterieur": null
   },
   {
     "id": "glucksmann-fiscalite",
@@ -747,7 +777,8 @@
       "type": "article-de-presse",
       "date": "2026-09-23"
     },
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "programme_anterieur": null
   },
   {
     "id": "royal-fiscalite",
@@ -764,7 +795,8 @@
       "type": "article-de-presse",
       "date": "2026-09-23"
     },
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "programme_anterieur": null
   },
   {
     "id": "faure-fiscalite",
@@ -781,7 +813,8 @@
       "type": "article-de-presse",
       "date": "2026-09-23"
     },
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "programme_anterieur": null
   },
   {
     "id": "maurel-fiscalite",
@@ -798,7 +831,8 @@
       "type": "article-de-presse",
       "date": "2026-09-23"
     },
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "programme_anterieur": null
   },
   {
     "id": "philippe-fiscalite",
@@ -815,7 +849,8 @@
       "type": "article-de-presse",
       "date": "2026-08-27"
     },
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "programme_anterieur": null
   },
   {
     "id": "tondelier-ecologie",
@@ -832,7 +867,8 @@
       "type": "article-de-presse",
       "date": "2026-09-04"
     },
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "programme_anterieur": null
   },
   {
     "id": "melenchon-ecologie",
@@ -849,7 +885,8 @@
       "type": "article-de-presse",
       "date": "2026-09-04"
     },
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "programme_anterieur": null
   },
   {
     "id": "glucksmann-ecologie",
@@ -866,7 +903,8 @@
       "type": "article-de-presse",
       "date": "2026-09-04"
     },
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "programme_anterieur": null
   },
   {
     "id": "retailleau-ecologie",
@@ -890,7 +928,8 @@
       "type": "article-de-presse",
       "date": "2026-09-04"
     },
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "programme_anterieur": null
   },
   {
     "id": "philippe-ecologie",
@@ -907,7 +946,8 @@
       "type": "article-de-presse",
       "date": "2026-09-17"
     },
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "programme_anterieur": null
   },
   {
     "id": "attal-ecologie",
@@ -924,7 +964,8 @@
       "type": "article-de-presse",
       "date": "2026-09-04"
     },
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "programme_anterieur": null
   },
   {
     "id": "melenchon-europe",
@@ -941,7 +982,8 @@
       "type": "article-de-presse",
       "date": "2026-08-27"
     },
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "programme_anterieur": null
   },
   {
     "id": "faure-logement",
@@ -965,7 +1007,8 @@
       "type": "article-de-presse",
       "date": "2026-09-23"
     },
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "programme_anterieur": null
   },
   {
     "id": "glucksmann-defense",
@@ -982,7 +1025,8 @@
       "type": "article-de-presse",
       "date": "2026-09-23"
     },
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "programme_anterieur": null
   },
   {
     "id": "royal-defense",
@@ -999,7 +1043,8 @@
       "type": "article-de-presse",
       "date": "2026-09-23"
     },
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "programme_anterieur": null
   },
   {
     "id": "maurel-defense",
@@ -1016,7 +1061,8 @@
       "type": "article-de-presse",
       "date": "2026-09-23"
     },
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "programme_anterieur": null
   },
   {
     "id": "philippe-institutions",
@@ -1033,7 +1079,8 @@
       "type": "article-de-presse",
       "date": "2026-09-11"
     },
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "programme_anterieur": null
   },
   {
     "id": "le-pen-education",
@@ -1057,7 +1104,11 @@
       "type": "article-de-presse",
       "date": "2026-10-06"
     },
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "programme_anterieur": {
+      "scrutin": "élections législatives",
+      "annee": 2024
+    }
   },
   {
     "id": "philippe-education",
@@ -1081,7 +1132,8 @@
       "type": "article-de-presse",
       "date": "2026-10-06"
     },
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "programme_anterieur": null
   },
   {
     "id": "melenchon-education",
@@ -1117,7 +1169,11 @@
       "type": "article-de-presse",
       "date": "2026-10-06"
     },
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "programme_anterieur": {
+      "scrutin": "élection présidentielle",
+      "annee": 2022
+    }
   },
   {
     "id": "glucksmann-education",
@@ -1141,7 +1197,8 @@
       "type": "article-de-presse",
       "date": "2026-10-06"
     },
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "programme_anterieur": null
   },
   {
     "id": "attal-education",
@@ -1171,7 +1228,8 @@
       "type": "article-de-presse",
       "date": "2026-10-06"
     },
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "programme_anterieur": null
   },
   {
     "id": "tondelier-education",
@@ -1201,7 +1259,8 @@
       "type": "article-de-presse",
       "date": "2026-10-06"
     },
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "programme_anterieur": null
   },
   {
     "id": "retailleau-education",
@@ -1225,7 +1284,8 @@
       "type": "article-de-presse",
       "date": "2026-10-06"
     },
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "programme_anterieur": null
   },
   {
     "id": "faure-education",
@@ -1242,7 +1302,8 @@
       "type": "article-de-presse",
       "date": "2026-10-06"
     },
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "programme_anterieur": null
   },
   {
     "id": "philippe-securite",
@@ -1259,7 +1320,8 @@
       "type": "article-de-presse",
       "date": "2026-07-19"
     },
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "programme_anterieur": null
   },
   {
     "id": "philippe-defense",
@@ -1289,6 +1351,7 @@
       "type": "article-de-presse",
       "date": "2026-07-19"
     },
-    "derniere_verification": "2026-10-09"
+    "derniere_verification": "2026-10-09",
+    "programme_anterieur": null
   }
 ]

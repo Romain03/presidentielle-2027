@@ -253,7 +253,7 @@ export default async function PageFamille({ params }: { params: Promise<{ slug: 
                             >
                               {candidat ? nomComplet(candidat) : proposition.candidat_id}
                             </Link>
-                            <BadgeNature nature={proposition.nature} />
+                            <BadgeNature proposition={proposition} />
                           </p>
                           <p className="text-sm leading-relaxed">{proposition.resume}</p>
                           <LienSource source={proposition.source} />

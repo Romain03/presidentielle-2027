@@ -243,13 +243,13 @@ export default function ComparateurInteractif({
                           <td key={selectionnes[i].id} className="p-3 align-top">
                             {propositionsCellule.length === 0 ? (
                               <span className="text-stone-600 dark:text-stone-400">
-                                Position non communiquée
+                                Rien relevé par ce site
                               </span>
                             ) : (
                               <div className="space-y-2">
                                 {propositionsCellule.map((proposition) => (
                                   <div key={proposition.id} className="space-y-1.5">
-                                    <BadgeNature nature={proposition.nature} />
+                                    <BadgeNature proposition={proposition} />
                                     <p className="leading-relaxed">{proposition.resume}</p>
                                   </div>
                                 ))}

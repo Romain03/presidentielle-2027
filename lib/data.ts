@@ -4,6 +4,7 @@ import {
   Propositions,
   Questions,
   Themes,
+  enLice,
   type Candidat,
   type Parti,
   type Proposition,
@@ -169,10 +170,32 @@ export const derniereMiseAJour: string = [
   ...propositions.map((p) => p.derniere_verification),
 ].sort().at(-1)!;
 
+/** Médias d'où proviennent les propositions, et leur poids. Calculé, jamais saisi. */
+export const sourcesDesPropositions = (() => {
+  const parMedia = new Map<string, number>();
+  const articles = new Set<string>();
+  for (const proposition of propositions) {
+    articles.add(proposition.source.url);
+    const hote = new URL(proposition.source.url).hostname.replace(/^www\./, '');
+    parMedia.set(hote, (parMedia.get(hote) ?? 0) + 1);
+  }
+  return {
+    articles: articles.size,
+    medias: [...parMedia.entries()]
+      .map(([hote, nombre]) => ({ hote, nombre }))
+      .sort((a, b) => b.nombre - a.nombre || a.hote.localeCompare(b.hote)),
+  };
+})();
+
 export const statistiques = {
   candidats: candidats.length,
+  /** Candidatures engagées : investies ou déclarées. */
+  enLice: candidats.filter((c) => enLice(c.statut)).length,
+  pressentis: candidats.filter((c) => c.statut === 'pressenti').length,
+  retires: candidats.filter((c) => c.statut === 'retire').length,
   partis: partis.length,
   themes: themes.length,
   propositions: propositions.length,
   candidatsAvecProposition: candidats.filter((c) => nombrePropositions(c.id) > 0).length,
+  propositionsDeProgramme: propositions.filter((p) => p.nature === 'programme_officiel').length,
 };

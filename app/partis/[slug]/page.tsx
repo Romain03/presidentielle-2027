@@ -95,10 +95,13 @@ export default async function PageParti({ params }: { params: Promise<{ slug: st
               ) : (
                 <>
                   <span className="block">
-                    {parti.dirigeant.nom}{' '}
-                    <span className="text-stone-600 dark:text-stone-400">
-                      ({parti.dirigeant.fonction.toLowerCase()})
-                    </span>
+                    {parti.dirigeant.nom}
+                    {parti.dirigeant.fonction !== null && (
+                      <span className="text-stone-600 dark:text-stone-400">
+                        {' '}
+                        ({parti.dirigeant.fonction.toLowerCase()})
+                      </span>
+                    )}
                   </span>
                   <LienSource source={parti.dirigeant.source} />
                 </>
@@ -276,7 +279,7 @@ export default async function PageParti({ params }: { params: Promise<{ slug: st
                               {candidat ? nomComplet(candidat) : proposition.candidat_id}
                             </Link>
                           )}
-                          <BadgeNature nature={proposition.nature} />
+                          <BadgeNature proposition={proposition} />
                         </p>
                         <p className="text-sm leading-relaxed">{proposition.resume}</p>
                         <LienSource source={proposition.source} />

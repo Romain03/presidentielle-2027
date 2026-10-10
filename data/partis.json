@@ -73,10 +73,10 @@
       "nom": "Nicolas Dupont-Aignan",
       "fonction": "Président",
       "source": {
-        "titre": "Wikidata",
+        "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+        "titre": "Candidatures à l'élection présidentielle française de 2027",
         "type": "encyclopedie",
-        "date": "2026-10-10",
-        "url": "https://www.wikidata.org/wiki/Q12962"
+        "date": "2026-10-04"
       }
     }
   },
@@ -155,12 +155,12 @@
     },
     "dirigeant": {
       "nom": "Emmanuel Maurel",
-      "fonction": "Président",
+      "fonction": "Animateur national",
       "source": {
-        "titre": "Wikidata",
-        "type": "encyclopedie",
-        "date": "2026-10-10",
-        "url": "https://www.wikidata.org/wiki/Q58329311"
+        "url": "https://g-r-s.fr",
+        "titre": "Gauche républicaine et socialiste",
+        "type": "site-de-parti",
+        "date": "2026-10-10"
       }
     }
   },
@@ -193,13 +193,13 @@
       }
     },
     "dirigeant": {
-      "nom": "Yves Piétrasanta",
-      "fonction": "Président",
+      "nom": "Delphine Batho",
+      "fonction": "Coordinatrice nationale",
       "source": {
-        "titre": "Wikidata",
-        "type": "encyclopedie",
-        "date": "2026-10-10",
-        "url": "https://www.wikidata.org/wiki/Q1153753"
+        "url": "https://www.generationecologie.fr/a-propos/generation-ecologie/qui-sommes-nous/",
+        "titre": "Qui sommes-nous ? - Génération Écologie",
+        "type": "site-de-parti",
+        "date": "2026-10-10"
       }
     }
   },
@@ -265,10 +265,10 @@
       "nom": "Édouard Philippe",
       "fonction": "Président",
       "source": {
-        "titre": "Wikidata",
+        "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+        "titre": "Candidatures à l'élection présidentielle française de 2027",
         "type": "encyclopedie",
-        "date": "2026-10-10",
-        "url": "https://www.wikidata.org/wiki/Q108846587"
+        "date": "2026-10-04"
       }
     }
   },
@@ -300,7 +300,16 @@
         "url": "https://www.wikidata.org/wiki/Q135755468"
       }
     },
-    "dirigeant": null
+    "dirigeant": {
+      "nom": "Bernard Cazeneuve",
+      "fonction": "Président",
+      "source": {
+        "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+        "titre": "Candidatures à l'élection présidentielle française de 2027",
+        "type": "encyclopedie",
+        "date": "2026-10-04"
+      }
+    }
   },
   {
     "id": "la-france-humaniste",
@@ -349,7 +358,7 @@
     },
     "dirigeant": {
       "nom": "Manuel Bompard",
-      "fonction": "Président",
+      "fonction": null,
       "source": {
         "titre": "Wikidata",
         "type": "encyclopedie",
@@ -433,12 +442,12 @@
     },
     "dirigeant": {
       "nom": "Marine Tondelier",
-      "fonction": "Président",
+      "fonction": "Secrétaire nationale",
       "source": {
-        "titre": "Wikidata",
+        "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+        "titre": "Candidatures à l'élection présidentielle française de 2027",
         "type": "encyclopedie",
-        "date": "2026-10-10",
-        "url": "https://www.wikidata.org/wiki/Q613786"
+        "date": "2026-10-04"
       }
     }
   },
@@ -474,10 +483,10 @@
       "nom": "Florian Philippot",
       "fonction": "Président",
       "source": {
-        "titre": "Wikidata",
+        "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+        "titre": "Candidatures à l'élection présidentielle française de 2027",
         "type": "encyclopedie",
-        "date": "2026-10-10",
-        "url": "https://www.wikidata.org/wiki/Q41330182"
+        "date": "2026-10-04"
       }
     }
   },
@@ -528,10 +537,10 @@
       "nom": "Bruno Retailleau",
       "fonction": "Président",
       "source": {
-        "titre": "Wikidata",
-        "type": "encyclopedie",
-        "date": "2026-10-10",
-        "url": "https://www.wikidata.org/wiki/Q20012759"
+        "url": "https://republicains.fr/qui-sommes-nous/",
+        "titre": "Qui sommes-nous ? - Les Républicains",
+        "type": "site-de-parti",
+        "date": "2026-10-10"
       }
     }
   },
@@ -566,7 +575,16 @@
         "url": "https://www.wikidata.org/wiki/Q870667"
       }
     },
-    "dirigeant": null
+    "dirigeant": {
+      "nom": "Nathalie Arthaud",
+      "fonction": "Porte-parole",
+      "source": {
+        "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+        "titre": "Candidatures à l'élection présidentielle française de 2027",
+        "type": "encyclopedie",
+        "date": "2026-10-04"
+      }
+    }
   },
   {
     "id": "mouvement-democrate",
@@ -598,7 +616,7 @@
     },
     "dirigeant": {
       "nom": "François Bayrou",
-      "fonction": "Président",
+      "fonction": null,
       "source": {
         "titre": "Wikidata",
         "type": "encyclopedie",
@@ -649,7 +667,16 @@
         "url": "https://www.wikidata.org/wiki/Q123528596"
       }
     },
-    "dirigeant": null
+    "dirigeant": {
+      "nom": "David Lisnard",
+      "fonction": "Président",
+      "source": {
+        "url": "https://www.unenouvelleenergie.fr/notre-programme/",
+        "titre": "Notre programme - Nouvelle Énergie",
+        "type": "site-de-parti",
+        "date": "2026-10-10"
+      }
+    }
   },
   {
     "id": "npa-revolutionnaires",
@@ -666,7 +693,16 @@
     "processus_designation": null,
     "derniere_verification": "2026-10-09",
     "fondation": null,
-    "dirigeant": null
+    "dirigeant": {
+      "nom": "Selma Labib",
+      "fonction": "Porte-parole",
+      "source": {
+        "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+        "titre": "Candidatures à l'élection présidentielle française de 2027",
+        "type": "encyclopedie",
+        "date": "2026-10-04"
+      }
+    }
   },
   {
     "id": "parti-animaliste",
@@ -701,7 +737,7 @@
     },
     "dirigeant": {
       "nom": "Catherine Hélayel",
-      "fonction": "Président",
+      "fonction": null,
       "source": {
         "titre": "Wikidata",
         "type": "encyclopedie",
@@ -753,7 +789,16 @@
         "url": "https://www.wikidata.org/wiki/Q192821"
       }
     },
-    "dirigeant": null
+    "dirigeant": {
+      "nom": "Fabien Roussel",
+      "fonction": "Secrétaire national",
+      "source": {
+        "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+        "titre": "Candidatures à l'élection présidentielle française de 2027",
+        "type": "encyclopedie",
+        "date": "2026-10-04"
+      }
+    }
   },
   {
     "id": "parti-socialiste",
@@ -803,12 +848,12 @@
     },
     "dirigeant": {
       "nom": "Olivier Faure",
-      "fonction": "Président",
+      "fonction": "Premier secrétaire",
       "source": {
-        "titre": "Wikidata",
-        "type": "encyclopedie",
-        "date": "2026-10-10",
-        "url": "https://www.wikidata.org/wiki/Q170972"
+        "url": "https://parti-socialiste.fr/notre-parti",
+        "titre": "Notre parti - Parti socialiste",
+        "type": "site-de-parti",
+        "date": "2026-10-10"
       }
     }
   },
@@ -842,12 +887,12 @@
     },
     "dirigeant": {
       "nom": "Raphaël Glucksmann",
-      "fonction": "Président",
+      "fonction": "Co-président",
       "source": {
-        "titre": "Wikidata",
+        "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+        "titre": "Candidatures à l'élection présidentielle française de 2027",
         "type": "encyclopedie",
-        "date": "2026-10-10",
-        "url": "https://www.wikidata.org/wiki/Q58366009"
+        "date": "2026-10-04"
       }
     }
   },
@@ -919,10 +964,10 @@
       "nom": "Éric Zemmour",
       "fonction": "Président",
       "source": {
-        "titre": "Wikidata",
+        "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+        "titre": "Candidatures à l'élection présidentielle française de 2027",
         "type": "encyclopedie",
-        "date": "2026-10-10",
-        "url": "https://www.wikidata.org/wiki/Q109932430"
+        "date": "2026-10-04"
       }
     }
   },
@@ -956,12 +1001,12 @@
     },
     "dirigeant": {
       "nom": "Gabriel Attal",
-      "fonction": "Président",
+      "fonction": "Secrétaire général",
       "source": {
-        "titre": "Wikidata",
+        "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+        "titre": "Candidatures à l'élection présidentielle française de 2027",
         "type": "encyclopedie",
-        "date": "2026-10-10",
-        "url": "https://www.wikidata.org/wiki/Q23731823"
+        "date": "2026-10-04"
       }
     }
   },
@@ -997,10 +1042,10 @@
       "nom": "Jean Lassalle",
       "fonction": "Président",
       "source": {
-        "titre": "Wikidata",
+        "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+        "titre": "Candidatures à l'élection présidentielle française de 2027",
         "type": "encyclopedie",
-        "date": "2026-10-10",
-        "url": "https://www.wikidata.org/wiki/Q39052782"
+        "date": "2026-10-04"
       }
     }
   },
@@ -1035,7 +1080,16 @@
         "url": "https://www.wikidata.org/wiki/Q22981822"
       }
     },
-    "dirigeant": null
+    "dirigeant": {
+      "nom": "Anasse Kazib",
+      "fonction": "Porte-parole",
+      "source": {
+        "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+        "titre": "Candidatures à l'élection présidentielle française de 2027",
+        "type": "encyclopedie",
+        "date": "2026-10-04"
+      }
+    }
   },
   {
     "id": "trajectoire",
@@ -1116,10 +1170,10 @@
       "nom": "François Asselineau",
       "fonction": "Président",
       "source": {
-        "titre": "Wikidata",
+        "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+        "titre": "Candidatures à l'élection présidentielle française de 2027",
         "type": "encyclopedie",
-        "date": "2026-10-10",
-        "url": "https://www.wikidata.org/wiki/Q7030472"
+        "date": "2026-10-04"
       }
     }
   }

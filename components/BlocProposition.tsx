@@ -7,7 +7,7 @@ import type { Proposition } from '@/lib/schemas';
 export default function BlocProposition({ proposition }: { proposition: Proposition }) {
   return (
     <article className="carte space-y-3.5 p-5">
-      <BadgeNature nature={proposition.nature} />
+      <BadgeNature proposition={proposition} />
 
       <p className="text-[1.0625rem] leading-relaxed">{proposition.resume}</p>
 

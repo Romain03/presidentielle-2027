@@ -234,10 +234,18 @@ def main():
         else:
             parti['fondation'] = None
 
+        # P488 (« dirigeant ») ne dit pas l'intitulé du poste, et Wikidata y
+        # laisse des personnes mortes sans date de fin : Génération écologie
+        # affichait Yves Piétrasanta, mort en 2022. On vérifie donc, et on
+        # n'invente jamais le titre - scripts/appliquer-dirigeants.py le
+        # renseigne à partir d'une source.
         dirigeant_id = (valeur_simple(donnees, 'P488') or {}).get('id')
         nom_dirigeant = libelle(dirigeant_id) if dirigeant_id else None
+        if dirigeant_id and entite(dirigeant_id, 'claims').get('claims', {}).get('P570'):
+            print(f"  ✕  {parti['nom']} : dirigeant Wikidata décédé, écarté")
+            nom_dirigeant = None
         parti['dirigeant'] = (
-            {'nom': nom_dirigeant, 'fonction': 'Président', 'source': source}
+            {'nom': nom_dirigeant, 'fonction': None, 'source': source}
             if nom_dirigeant
             else None
         )
