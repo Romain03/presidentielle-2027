@@ -1,6 +1,15 @@
 [
   {
     "date": "2026-10-10",
+    "resume": "Roster : les statuts portent plusieurs sources, 33 corrobores par Le Monde",
+    "fichiers": [
+      "candidats.json",
+      "journal.json"
+    ],
+    "commit": "03cb42b264"
+  },
+  {
+    "date": "2026-10-10",
     "resume": "Sources : 20 Minutes entre dans le corpus, et le navigateur leve le blocage du robot",
     "fichiers": [
       "journal.json",

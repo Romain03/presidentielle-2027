@@ -148,39 +148,60 @@ qu'il a fondé. La précision affichée sur sa fiche cite désormais les deux
 lectures.
 
 ### Concentration des sources de propositions
-Au 10 octobre 2026, les 57 propositions reposent sur 80 citations réparties sur
-28 documents de 6 sources :
+Au 10 octobre 2026, les 57 propositions reposent sur 102 citations réparties sur
+32 documents de 8 sources :
 
 | Source | Citations | Part |
 |---|---|---|
-| lcp.fr | 26 | 32 % |
-| franceinfo.fr | 24 | 30 % |
-| publicsenat.fr | 20 | 25 % |
-| cnews.fr | 4 | 5 % |
-| edouardphilippe.fr | 4 | 5 % |
+| lcp.fr | 26 | 25 % |
+| franceinfo.fr | 24 | 24 % |
+| publicsenat.fr | 20 | 20 % |
+| lemonde.fr | 20 | 20 % |
+| cnews.fr | 4 | 4 % |
+| edouardphilippe.fr | 4 | 4 % |
+| 20minutes.fr | 2 | 2 % |
 | europe1.fr | 2 | 2 % |
 
-Trajectoire du 10 octobre 2026 : CNews pesait **53 %** le matin, **34 %** après
-l'ajout de corroborations de service public sur *retraites* et *éducation*,
-**5 %** après la seconde passe. Chaque article a été ouvert et lu avant d'être
-retenu ; aucune adresse n'a été substituée à une autre sans vérification.
+Trajectoire de la journée du 10 octobre 2026 : CNews pesait **53 %** le matin,
+**34 %** après l'ajout de corroborations de service public, **5 %** après le
+relevé du site de campagne d'Édouard Philippe, **4 %** après l'entrée du
+*Monde*. Les propositions à source unique sont passées de **44 à 27 sur 57**.
+Chaque article a été ouvert et lu avant d'être retenu.
 
 Ce qui a permis la baisse, dans l'ordre d'efficacité :
 
-1. **Le site de campagne d'Édouard Philippe** (`edouardphilippe.fr`), enfin
-   relevé, couvre mot pour mot ses mesures de *sécurité*, *défense*,
-   *immigration* et *écologie*. Ses propositions ne passent plus par une
-   rédaction. Au passage, il **confirme les chiffres de défense** que personne
-   d'autre ne reprenait : 45 000 à 250 000 réservistes, 100 000 à 700 000 obus.
-2. **Le panorama franceinfo du 30 septembre 2026** sur les retraites, lu
+1. **Le site de campagne d'Édouard Philippe** (`edouardphilippe.fr`) couvre mot
+   pour mot ses mesures de *sécurité*, *défense*, *immigration* et *écologie*.
+   Au passage, il **confirme les chiffres de défense** que personne d'autre ne
+   reprenait : 45 000 à 250 000 réservistes, 100 000 à 700 000 obus.
+2. **Le comparateur des Décodeurs du 9 octobre 2026** sur la primaire de la
+   gauche, lu en entier, recouvre **18 propositions** des cinq candidats du pôle
+   socialiste et a permis d'enrichir douze d'entre elles : SMIC chiffré,
+   positions sur l'impôt de solidarité sur la fortune et la « taxe Zucman »,
+   plafonnement des marges sur les carburants, nombre d'élèves par classe,
+   Parcoursup, carte scolaire.
+3. **Le panorama franceinfo du 30 septembre 2026** sur les retraites, lu
    candidat par candidat, couvre neuf candidatures dont Marine Tondelier et
-   Éric Zemmour, jusque-là sourcés à CNews seul.
-3. **Public Sénat** sur l'immigration : Raphaël Glucksmann (24 août 2026) et
-   Bruno Retailleau (3 septembre 2026 et 13 février 2026).
+   Éric Zemmour.
+4. **Le décryptage du *Monde* du 23 août 2026** sur LFI et Les Écologistes a
+   apporté à la proposition écologique de Jean-Luc Mélenchon ce qu'elle n'avait
+   pas : la « règle verte » constitutionnelle, la sortie du nucléaire, le 100 %
+   renouvelable et **son seul indicateur chiffré, - 65 % d'émissions en 2030**.
+5. **Public Sénat** sur l'immigration de Raphaël Glucksmann et de Bruno
+   Retailleau.
 
-**44 propositions sur 57 ne reposent encore que sur une seule source.** C'est
-plus qu'avant la revue en proportion, et c'est voulu : la corroboration a été
-ajoutée là où elle existait, pas fabriquée ailleurs.
+### La règle appliquée au *Monde*
+L'accès à un abonnement lève le paywall, mais pas le problème qu'il pose à ce
+site : le lecteur sans abonnement ne peut pas vérifier. Deux contraintes en
+découlent, et elles ont été tenues :
+
+1. **Le Monde n'est jamais source unique.** Il vient toujours derrière une
+   source librement accessible, dont il confirme ou complète la mesure.
+2. **Aucune proposition n'a été créée à partir de lui seul**, alors que le
+   comparateur des Décodeurs en contenait de quoi en écrire une dizaine de plus
+   - institutions des cinq candidats, mutuelle publique de Jérôme Guedj,
+   encadrement des loyers d'Emmanuel Maurel, service civique obligatoire de
+   Raphaël Glucksmann. Elles attendent une source libre.
 
 ### Les quatre propositions encore sourcées à CNews
 Il reste **4 citations CNews, sur 4 propositions** : les retraites de

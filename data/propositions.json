@@ -377,6 +377,12 @@
         "titre": "Changement de système, passage à 60 ou à 65 ans, capitalisation... Que proposent les principaux candidats à l'élection présidentielle pour les retraites ?",
         "type": "article-de-presse",
         "date": "2026-09-30"
+      },
+      {
+        "url": "https://www.lemonde.fr/les-decodeurs/article/2026/10/09/primaire-a-gauche-comparez-les-propositions-des-cinq-candidats_6790548_4355770.html",
+        "titre": "Primaire à gauche : comparez les propositions des cinq candidats",
+        "type": "article-de-presse",
+        "date": "2026-10-09"
       }
     ]
   },
@@ -409,6 +415,12 @@
         "titre": "Changement de système, passage à 60 ou à 65 ans, capitalisation... Que proposent les principaux candidats à l'élection présidentielle pour les retraites ?",
         "type": "article-de-presse",
         "date": "2026-09-30"
+      },
+      {
+        "url": "https://www.lemonde.fr/les-decodeurs/article/2026/10/09/primaire-a-gauche-comparez-les-propositions-des-cinq-candidats_6790548_4355770.html",
+        "titre": "Primaire à gauche : comparez les propositions des cinq candidats",
+        "type": "article-de-presse",
+        "date": "2026-10-09"
       }
     ]
   },
@@ -745,6 +757,12 @@
         "titre": "Fiscalité, école, immigration : ce que propose Raphaël Glucksmann",
         "type": "article-de-presse",
         "date": "2026-08-24"
+      },
+      {
+        "url": "https://www.lemonde.fr/les-decodeurs/article/2026/10/09/primaire-a-gauche-comparez-les-propositions-des-cinq-candidats_6790548_4355770.html",
+        "titre": "Primaire à gauche : comparez les propositions des cinq candidats",
+        "type": "article-de-presse",
+        "date": "2026-10-09"
       }
     ]
   },
@@ -800,7 +818,7 @@
     "candidat_id": "emmanuel-maurel",
     "theme_id": "pouvoir-d-achat",
     "resume": "Hausse du SMIC, indexation des salaires sur l'inflation et fin du gel du point d'indice des fonctionnaires.",
-    "detail": "Lors du premier débat de la primaire socialiste, le candidat a mis l'accent sur les salaires et la redistribution, avec une hausse du SMIC, l'indexation des salaires sur l'inflation et la fin du gel du point d'indice des fonctionnaires. Il plaide également pour un plafonnement des marges des raffineurs et des distributeurs de carburants.",
+    "detail": "Lors du premier débat de la primaire socialiste, le candidat a mis l'accent sur les salaires et la redistribution, avec une hausse du SMIC, l'indexation des salaires sur l'inflation et la fin du gel du point d'indice des fonctionnaires. Il plaide également pour un plafonnement des marges des raffineurs et des distributeurs de carburants. Il propose un SMIC à 1 700 euros net et un plafonnement des marges des distributeurs et des raffineurs sur les carburants.",
     "citation": null,
     "nature": "declaration_publique",
     "indicateurs": [],
@@ -812,6 +830,12 @@
         "titre": "Accord avec LFI, Moyen-Orient, pouvoir d'achat : ce qu'il faut retenir du premier débat de la primaire de gauche",
         "type": "article-de-presse",
         "date": "2026-09-23"
+      },
+      {
+        "url": "https://www.lemonde.fr/les-decodeurs/article/2026/10/09/primaire-a-gauche-comparez-les-propositions-des-cinq-candidats_6790548_4355770.html",
+        "titre": "Primaire à gauche : comparez les propositions des cinq candidats",
+        "type": "article-de-presse",
+        "date": "2026-10-09"
       }
     ]
   },
@@ -820,7 +844,7 @@
     "candidat_id": "olivier-faure",
     "theme_id": "pouvoir-d-achat",
     "resume": "Un SMIC à 1 700 euros net et une grande « conférence salariale » après l'élection, pour remettre à plat les aides aux entreprises et les conditionner à leur politique salariale.",
-    "detail": "Lors du premier débat de la primaire socialiste, le candidat a défendu un SMIC à 1 700 euros net. Il souhaite, comme Ségolène Royal, une grande « conférence salariale » après l'élection présidentielle, pour remettre à plat les aides aux entreprises et les conditionner à la politique salariale. Sur les carburants, il prône des aides ciblées et martèle qu'« il faut taxer Total », évoquant un plafonnement des marges du pétrolier.",
+    "detail": "Lors du premier débat de la primaire socialiste, le candidat a défendu un SMIC à 1 700 euros net. Il souhaite, comme Ségolène Royal, une grande « conférence salariale » après l'élection présidentielle, pour remettre à plat les aides aux entreprises et les conditionner à la politique salariale. Sur les carburants, il prône des aides ciblées et martèle qu'« il faut taxer Total », évoquant un plafonnement des marges du pétrolier. Il demande également la revalorisation du point d'indice des fonctionnaires et l'indexation des salaires sur l'inflation.",
     "citation": null,
     "nature": "declaration_publique",
     "indicateurs": [
@@ -839,6 +863,12 @@
         "titre": "Accord avec LFI, Moyen-Orient, pouvoir d'achat : ce qu'il faut retenir du premier débat de la primaire de gauche",
         "type": "article-de-presse",
         "date": "2026-09-23"
+      },
+      {
+        "url": "https://www.lemonde.fr/les-decodeurs/article/2026/10/09/primaire-a-gauche-comparez-les-propositions-des-cinq-candidats_6790548_4355770.html",
+        "titre": "Primaire à gauche : comparez les propositions des cinq candidats",
+        "type": "article-de-presse",
+        "date": "2026-10-09"
       }
     ]
   },
@@ -847,7 +877,7 @@
     "candidat_id": "segolene-royal",
     "theme_id": "pouvoir-d-achat",
     "resume": "Une grande « conférence salariale » après l'élection, et un plafonnement du prix de l'essence à 1,70 euro le litre jusqu'au 31 décembre, sur le modèle espagnol.",
-    "detail": "Lors du premier débat de la primaire socialiste, la candidate a défendu, comme Olivier Faure, une grande « conférence salariale » après l'élection présidentielle. Elle marque sa différence sur les carburants en prônant un plafonnement de l'essence pour tous les Français à 1,70 euro le litre jusqu'au 31 décembre, en disant vouloir s'inspirer de « l'exemple espagnol ».",
+    "detail": "Lors du premier débat de la primaire socialiste, la candidate a défendu, comme Olivier Faure, une grande « conférence salariale » après l'élection présidentielle. Elle marque sa différence sur les carburants en prônant un plafonnement de l'essence pour tous les Français à 1,70 euro le litre jusqu'au 31 décembre, en disant vouloir s'inspirer de « l'exemple espagnol ». Elle propose par ailleurs de bloquer les prix des produits de première nécessité, et se situe parmi les candidats qui veulent baisser les taxes sur les carburants plutôt que plafonner les marges.",
     "citation": null,
     "nature": "declaration_publique",
     "indicateurs": [
@@ -866,6 +896,12 @@
         "titre": "Accord avec LFI, Moyen-Orient, pouvoir d'achat : ce qu'il faut retenir du premier débat de la primaire de gauche",
         "type": "article-de-presse",
         "date": "2026-09-23"
+      },
+      {
+        "url": "https://www.lemonde.fr/les-decodeurs/article/2026/10/09/primaire-a-gauche-comparez-les-propositions-des-cinq-candidats_6790548_4355770.html",
+        "titre": "Primaire à gauche : comparez les propositions des cinq candidats",
+        "type": "article-de-presse",
+        "date": "2026-10-09"
       }
     ]
   },
@@ -874,7 +910,7 @@
     "candidat_id": "jerome-guedj",
     "theme_id": "pouvoir-d-achat",
     "resume": "Limitation des aides aux entreprises dont les salariés restent trop longtemps au niveau du SMIC.",
-    "detail": "Lors du premier débat de la primaire socialiste, le candidat a indiqué vouloir limiter les aides aux entreprises lorsque les salariés restent trop longtemps au SMIC. Il plaide également pour plafonner les marges des raffineurs et des distributeurs de carburants.",
+    "detail": "Lors du premier débat de la primaire socialiste, le candidat a indiqué vouloir limiter les aides aux entreprises lorsque les salariés restent trop longtemps au SMIC. Il plaide également pour plafonner les marges des raffineurs et des distributeurs de carburants. Le comparatif des Décodeurs lui attribue en outre un SMIC porté à 1 700 euros net, un plafonnement des marges des distributeurs et des raffineurs sur les carburants, et une baisse des taxes sur ceux-ci.",
     "citation": null,
     "nature": "declaration_publique",
     "indicateurs": [],
@@ -886,6 +922,12 @@
         "titre": "Accord avec LFI, Moyen-Orient, pouvoir d'achat : ce qu'il faut retenir du premier débat de la primaire de gauche",
         "type": "article-de-presse",
         "date": "2026-09-23"
+      },
+      {
+        "url": "https://www.lemonde.fr/les-decodeurs/article/2026/10/09/primaire-a-gauche-comparez-les-propositions-des-cinq-candidats_6790548_4355770.html",
+        "titre": "Primaire à gauche : comparez les propositions des cinq candidats",
+        "type": "article-de-presse",
+        "date": "2026-10-09"
       }
     ]
   },
@@ -894,7 +936,7 @@
     "candidat_id": "raphael-glucksmann",
     "theme_id": "pouvoir-d-achat",
     "resume": "Baisse de la CSG sur les salaires, financée par une taxation accrue des très gros héritages plutôt que par « la casse du modèle social » ou par l'aggravation de la dette.",
-    "detail": "Lors du débat organisé par le Medef, le candidat a promis de ne pas financer la hausse des salaires « par la casse du modèle social », ni « par l'aggravation de la dette ». « J'ai fait une proposition forte qui est de dire on baisse la CSG sur les salaires pour les salariés et on trouve l'argent où ? Eh bien chez les grands, les méga-héritiers », en taxant davantage les successions.",
+    "detail": "Lors du débat organisé par le Medef, le candidat a promis de ne pas financer la hausse des salaires « par la casse du modèle social », ni « par l'aggravation de la dette ». « J'ai fait une proposition forte qui est de dire on baisse la CSG sur les salaires pour les salariés et on trouve l'argent où ? Eh bien chez les grands, les méga-héritiers », en taxant davantage les successions. Il chiffre le SMIC visé à 1 600 euros net.",
     "citation": "on baisse la CSG sur les salaires pour les salariés et on trouve l'argent où ? Eh bien chez les grands, les méga-héritiers",
     "nature": "declaration_publique",
     "indicateurs": [],
@@ -906,6 +948,12 @@
         "titre": "Présidentielle 2027 : ce qu'il faut retenir du débat entre les candidats devant le Medef",
         "type": "article-de-presse",
         "date": "2026-08-27"
+      },
+      {
+        "url": "https://www.lemonde.fr/les-decodeurs/article/2026/10/09/primaire-a-gauche-comparez-les-propositions-des-cinq-candidats_6790548_4355770.html",
+        "titre": "Primaire à gauche : comparez les propositions des cinq candidats",
+        "type": "article-de-presse",
+        "date": "2026-10-09"
       }
     ]
   },
@@ -934,7 +982,7 @@
     "candidat_id": "raphael-glucksmann",
     "theme_id": "fiscalite",
     "resume": "Taxation accrue des très gros héritages et réforme du pacte Dutreil, avec un objectif affiché de 15 milliards d'euros de recettes.",
-    "detail": "Lors du premier débat de la primaire socialiste, le candidat a dit vouloir s'attaquer à une France devenue selon lui une « hérito-cratie », en taxant davantage les très gros héritages et en réformant le pacte Dutreil, avec l'objectif affiché de récupérer 15 milliards d'euros. Sur la dette, il considère que l'État doit « montrer l'exemple », tout en soulignant qu'elle « vient avant tout de la désindustrialisation de la France ».",
+    "detail": "Lors du premier débat de la primaire socialiste, le candidat a dit vouloir s'attaquer à une France devenue selon lui une « hérito-cratie », en taxant davantage les très gros héritages et en réformant le pacte Dutreil, avec l'objectif affiché de récupérer 15 milliards d'euros. Sur la dette, il considère que l'État doit « montrer l'exemple », tout en soulignant qu'elle « vient avant tout de la désindustrialisation de la France ». Il est également favorable à un prélèvement sur les patrimoines des ultrariches de type « taxe Zucman », mais le rétablissement de l'impôt de solidarité sur la fortune ne figure pas parmi ses priorités.",
     "citation": null,
     "nature": "declaration_publique",
     "indicateurs": [
@@ -953,6 +1001,12 @@
         "titre": "Accord avec LFI, Moyen-Orient, pouvoir d'achat : ce qu'il faut retenir du premier débat de la primaire de gauche",
         "type": "article-de-presse",
         "date": "2026-09-23"
+      },
+      {
+        "url": "https://www.lemonde.fr/les-decodeurs/article/2026/10/09/primaire-a-gauche-comparez-les-propositions-des-cinq-candidats_6790548_4355770.html",
+        "titre": "Primaire à gauche : comparez les propositions des cinq candidats",
+        "type": "article-de-presse",
+        "date": "2026-10-09"
       }
     ]
   },
@@ -961,7 +1015,7 @@
     "candidat_id": "segolene-royal",
     "theme_id": "fiscalite",
     "resume": "Rétablissement de l'impôt sur la fortune, suppression de certaines aides aux entreprises jugées « injustifiées » et réformes du train de vie de l'État. Elle exclut d'effacer, même partiellement, la dette publique.",
-    "detail": "Lors du premier débat de la primaire socialiste, la candidate a indiqué vouloir rétablir l'impôt sur la fortune pour faire rentrer de nouvelles recettes. Elle plaide pour des mesures d'économie en supprimant certaines aides aux entreprises jugées « injustifiées », et en menant des réformes sur le fonctionnement et le train de vie de l'État. Elle exclut d'effacer la dette, ne serait-ce qu'en partie : « Si on est défaillant dans le remboursement d'une dette (...) ça nous fragilise un peu plus ».",
+    "detail": "Lors du premier débat de la primaire socialiste, la candidate a indiqué vouloir rétablir l'impôt sur la fortune pour faire rentrer de nouvelles recettes. Elle plaide pour des mesures d'économie en supprimant certaines aides aux entreprises jugées « injustifiées », et en menant des réformes sur le fonctionnement et le train de vie de l'État. Elle exclut d'effacer la dette, ne serait-ce qu'en partie : « Si on est défaillant dans le remboursement d'une dette (...) ça nous fragilise un peu plus ». Elle ne s'est pas prononcée sur un prélèvement sur les patrimoines des ultrariches de type « taxe Zucman », à la différence des quatre autres candidats de la primaire. Elle lie son refus de débattre des retraites au rétablissement préalable de cet impôt sur la fortune financière.",
     "citation": null,
     "nature": "declaration_publique",
     "indicateurs": [],
@@ -973,6 +1027,12 @@
         "titre": "Accord avec LFI, Moyen-Orient, pouvoir d'achat : ce qu'il faut retenir du premier débat de la primaire de gauche",
         "type": "article-de-presse",
         "date": "2026-09-23"
+      },
+      {
+        "url": "https://www.lemonde.fr/les-decodeurs/article/2026/10/09/primaire-a-gauche-comparez-les-propositions-des-cinq-candidats_6790548_4355770.html",
+        "titre": "Primaire à gauche : comparez les propositions des cinq candidats",
+        "type": "article-de-presse",
+        "date": "2026-10-09"
       }
     ]
   },
@@ -981,7 +1041,7 @@
     "candidat_id": "olivier-faure",
     "theme_id": "fiscalite",
     "resume": "Redressement des comptes publics par le levier des recettes fiscales plutôt que par l'annulation de la dette, avec une taxation de Total et un plafonnement des marges du pétrolier.",
-    "detail": "Lors du premier débat de la primaire socialiste, le candidat a marqué sa différence avec Jean-Luc Mélenchon, disant préférer des pistes plus « concrètes » et une méthode plus « réalisable » que l'annulation pure et simple de la dette. C'est le levier des recettes fiscales qu'il estime le plus à même de redresser les comptes publics. Il martèle par ailleurs qu'« il faut taxer Total », évoquant un plafonnement des marges du pétrolier et une taxation de ses superprofits.",
+    "detail": "Lors du premier débat de la primaire socialiste, le candidat a marqué sa différence avec Jean-Luc Mélenchon, disant préférer des pistes plus « concrètes » et une méthode plus « réalisable » que l'annulation pure et simple de la dette. C'est le levier des recettes fiscales qu'il estime le plus à même de redresser les comptes publics. Il martèle par ailleurs qu'« il faut taxer Total », évoquant un plafonnement des marges du pétrolier et une taxation de ses superprofits. Le rétablissement de l'impôt de solidarité sur la fortune est absent de son programme : il lui préfère une taxation des gros héritages. Il est en revanche favorable à un prélèvement sur les patrimoines des ultrariches de type « taxe Zucman ».",
     "citation": "Il faut taxer Total",
     "nature": "declaration_publique",
     "indicateurs": [],
@@ -993,6 +1053,12 @@
         "titre": "Accord avec LFI, Moyen-Orient, pouvoir d'achat : ce qu'il faut retenir du premier débat de la primaire de gauche",
         "type": "article-de-presse",
         "date": "2026-09-23"
+      },
+      {
+        "url": "https://www.lemonde.fr/les-decodeurs/article/2026/10/09/primaire-a-gauche-comparez-les-propositions-des-cinq-candidats_6790548_4355770.html",
+        "titre": "Primaire à gauche : comparez les propositions des cinq candidats",
+        "type": "article-de-presse",
+        "date": "2026-10-09"
       }
     ]
   },
@@ -1001,7 +1067,7 @@
     "candidat_id": "emmanuel-maurel",
     "theme_id": "fiscalite",
     "resume": "Opposition à toute annulation, même partielle, de la dette ; priorité donnée à de nouvelles recettes fiscales et à la relance de l'activité, avec une critique de la politique de la Banque centrale européenne.",
-    "detail": "Lors du premier débat de la primaire socialiste, le candidat s'est opposé à l'annulation, même partielle, de la dette : « Je crois que personne ici ne veut foutre au feu la dette ». Il appelle à « faire rentrer des recettes fiscales » et à « relancer l'activité », tout en pointant la politique de la Banque centrale européenne, qui « pose problème ».",
+    "detail": "Lors du premier débat de la primaire socialiste, le candidat s'est opposé à l'annulation, même partielle, de la dette : « Je crois que personne ici ne veut foutre au feu la dette ». Il appelle à « faire rentrer des recettes fiscales » et à « relancer l'activité », tout en pointant la politique de la Banque centrale européenne, qui « pose problème ». Il fait du rétablissement de l'impôt de solidarité sur la fortune une priorité, réclame la taxation des superprofits pétroliers et se dit favorable à un prélèvement sur les patrimoines des ultrariches de type « taxe Zucman ».",
     "citation": "Je crois que personne ici ne veut foutre au feu la dette",
     "nature": "declaration_publique",
     "indicateurs": [],
@@ -1013,6 +1079,12 @@
         "titre": "Accord avec LFI, Moyen-Orient, pouvoir d'achat : ce qu'il faut retenir du premier débat de la primaire de gauche",
         "type": "article-de-presse",
         "date": "2026-09-23"
+      },
+      {
+        "url": "https://www.lemonde.fr/les-decodeurs/article/2026/10/09/primaire-a-gauche-comparez-les-propositions-des-cinq-candidats_6790548_4355770.html",
+        "titre": "Primaire à gauche : comparez les propositions des cinq candidats",
+        "type": "article-de-presse",
+        "date": "2026-10-09"
       }
     ]
   },
@@ -1041,7 +1113,7 @@
     "candidat_id": "marine-tondelier",
     "theme_id": "ecologie",
     "resume": "Préparation d'un « nouveau régime climatique » par une réunion des responsables politiques, et instauration d'un congé climatique.",
-    "detail": "Après l'été 2026, le plus chaud jamais enregistré en France, la candidate a exhorté le Premier ministre à réunir les responsables politiques pour préparer « le nouveau régime climatique », et proposé l'instauration d'un congé climatique. Son entourage indique n'avoir pas modifié le programme, « construit autour de l'urgence écologique bien avant l'été apocalyptique que nous venons de vivre ».",
+    "detail": "Après l'été 2026, le plus chaud jamais enregistré en France, la candidate a exhorté le Premier ministre à réunir les responsables politiques pour préparer « le nouveau régime climatique », et proposé l'instauration d'un congé climatique. Son entourage indique n'avoir pas modifié le programme, « construit autour de l'urgence écologique bien avant l'été apocalyptique que nous venons de vivre ». Lors des journées d'été du parti à Grenoble, le 21 août 2026, elle a fait de l'écologie la « mère de toutes les batailles » et dénoncé un « surendettement climatique » qui fait vivre « à crédit sur la planète », en liant la question à l'endettement des ménages dépendants des énergies fossiles. Plusieurs figures du parti souhaitent déplacer l'accent vers l'adaptation plutôt que la seule atténuation, et revendiquent une écologie politique d'abord européenne.",
     "citation": "Nous n'avons pas modifié notre programme car il a été construit autour de l'urgence écologique bien avant l'été apocalyptique que nous venons de vivre.",
     "nature": "declaration_publique",
     "indicateurs": [],
@@ -1053,6 +1125,12 @@
         "titre": "« On ne découvre rien » : les candidats à la présidentielle ont-ils adapté leur programme après les canicules d'un été « apocalyptique » ?",
         "type": "article-de-presse",
         "date": "2026-09-04"
+      },
+      {
+        "url": "https://www.lemonde.fr/politique/article/2026/08/23/presidentielle-2027-la-transition-ecologique-element-de-convergence-et-de-rivalite-entre-lfi-et-les-ecologistes_6754268_823448.html",
+        "titre": "Présidentielle 2027 : la transition écologique, élément de convergence et de rivalité entre LFI et Les Écologistes",
+        "type": "article-de-presse",
+        "date": "2026-08-23"
       }
     ]
   },
@@ -1060,11 +1138,18 @@
     "id": "melenchon-ecologie",
     "candidat_id": "jean-luc-melenchon",
     "theme_id": "ecologie",
-    "resume": "Planification écologique organisée autour d'« éco-régions » chargées de l'eau, de l'air, de la fertilité des sols et de la santé publique, et plan canicule actualisé : surveillance satellitaire, filière française de bombardiers d'eau, conscription citoyenne.",
-    "detail": "Le candidat exhorte à « la planification » écologique et met en avant son concept d'« éco-régions », de nouveaux territoires qui devront « organiser et prévoir tout ce qui concerne l'eau, l'air, la fertilité de la terre, la santé publique ». Son groupe parlementaire a présenté fin juin 2026 une actualisation de son plan canicule, et de nouvelles mesures ont été ajoutées au programme sur la lutte contre les incendies : instauration d'une surveillance satellitaire, d'une filière française de bombardiers d'eau, ou encore d'une conscription citoyenne en appui à la sécurité civile.",
+    "resume": "Planification écologique avec une « règle verte » constitutionnelle, objectif de - 65 % d'émissions en 2030, sortie du nucléaire et 100 % de renouvelables, organisés autour d'« éco-régions » chargées de l'eau et des sols.",
+    "detail": "Le candidat exhorte à « la planification » écologique et met en avant son concept d'« éco-régions », de nouveaux territoires qui devront « organiser et prévoir tout ce qui concerne l'eau, l'air, la fertilité de la terre, la santé publique ». Son groupe parlementaire a présenté fin juin 2026 une actualisation de son plan canicule, et de nouvelles mesures ont été ajoutées au programme sur la lutte contre les incendies : instauration d'une surveillance satellitaire, d'une filière française de bombardiers d'eau, ou encore d'une conscription citoyenne en appui à la sécurité civile. Le programme L'Avenir en commun, dont l'écologie occupe un quart, repose sur la planification écologique : inscription dans la Constitution d'une « règle verte » consistant à ne pas « prélever davantage à la nature que ce qu'elle est en état de reconstituer », relèvement de l'objectif climatique français à une baisse de 65 % des émissions de gaz à effet de serre en 2030 par rapport à 1990, contre 55 % aujourd'hui, sortie du nucléaire, passage à 100 % d'énergies renouvelables et agriculture « relocalisée », « diversifiée » et « écologique ». Les éco-régions seraient découpées à partir des bassins versants des fleuves et rivières, et se verraient confier d'abord la gestion de l'eau ; elles passeraient d'une ligne du programme de 2022 à un livret entier et à un « plan gouvernemental ». S'y ajoutent une « garde régionale de la sécurité civile » constituée par conscription et mobilisable en cas de crise, et l'abrogation de la loi Duplomb de 2025 sur les pesticides.",
     "citation": null,
     "nature": "declaration_publique",
-    "indicateurs": [],
+    "indicateurs": [
+      {
+        "libelle": "Baisse des émissions visée en 2030 (par rapport à 1990)",
+        "valeur": 65,
+        "unite": "%",
+        "valeur_comparable": 65
+      }
+    ],
     "derniere_verification": "2026-10-09",
     "programme_anterieur": null,
     "sources": [
@@ -1073,6 +1158,12 @@
         "titre": "« On ne découvre rien » : les candidats à la présidentielle ont-ils adapté leur programme après les canicules d'un été « apocalyptique » ?",
         "type": "article-de-presse",
         "date": "2026-09-04"
+      },
+      {
+        "url": "https://www.lemonde.fr/politique/article/2026/08/23/presidentielle-2027-la-transition-ecologique-element-de-convergence-et-de-rivalite-entre-lfi-et-les-ecologistes_6754268_823448.html",
+        "titre": "Présidentielle 2027 : la transition écologique, élément de convergence et de rivalité entre LFI et Les Écologistes",
+        "type": "article-de-presse",
+        "date": "2026-08-23"
       }
     ]
   },
@@ -1081,7 +1172,7 @@
     "candidat_id": "raphael-glucksmann",
     "theme_id": "ecologie",
     "resume": "Une « République écologique » dont la clé de voûte serait la sortie des énergies fossiles : renouvelables, électrification des usages, leasing social pour les voitures électriques, rénovation thermique, agroécologie et politique du train.",
-    "detail": "Le candidat défend l'instauration d'une « République écologique ». « Je serai le président de la transformation écologique. La clé de voûte sera la sortie des énergies fossiles », a-t-il développé le 26 août 2026, en listant ses principales mesures : « développement rapide des énergies renouvelables, électrification des usages, leasing social sur les voitures électriques, rénovation thermique des bâtiments, agroécologie, politique du train ».",
+    "detail": "Le candidat défend l'instauration d'une « République écologique ». « Je serai le président de la transformation écologique. La clé de voûte sera la sortie des énergies fossiles », a-t-il développé le 26 août 2026, en listant ses principales mesures : « développement rapide des énergies renouvelables, électrification des usages, leasing social sur les voitures électriques, rénovation thermique des bâtiments, agroécologie, politique du train ». Sa stratégie énergétique associe les renouvelables au maintien du nucléaire, auquel il accorde une place « fondamentale ».",
     "citation": "Je serai le président de la transformation écologique.",
     "nature": "declaration_publique",
     "indicateurs": [],
@@ -1093,6 +1184,12 @@
         "titre": "« On ne découvre rien » : les candidats à la présidentielle ont-ils adapté leur programme après les canicules d'un été « apocalyptique » ?",
         "type": "article-de-presse",
         "date": "2026-09-04"
+      },
+      {
+        "url": "https://www.lemonde.fr/les-decodeurs/article/2026/10/09/primaire-a-gauche-comparez-les-propositions-des-cinq-candidats_6790548_4355770.html",
+        "titre": "Primaire à gauche : comparez les propositions des cinq candidats",
+        "type": "article-de-presse",
+        "date": "2026-10-09"
       }
     ]
   },
@@ -1207,6 +1304,12 @@
         "titre": "Accord avec LFI, Moyen-Orient, pouvoir d'achat : ce qu'il faut retenir du premier débat de la primaire de gauche",
         "type": "article-de-presse",
         "date": "2026-09-23"
+      },
+      {
+        "url": "https://www.lemonde.fr/les-decodeurs/article/2026/10/09/primaire-a-gauche-comparez-les-propositions-des-cinq-candidats_6790548_4355770.html",
+        "titre": "Primaire à gauche : comparez les propositions des cinq candidats",
+        "type": "article-de-presse",
+        "date": "2026-10-09"
       }
     ]
   },
@@ -1227,6 +1330,12 @@
         "titre": "Accord avec LFI, Moyen-Orient, pouvoir d'achat : ce qu'il faut retenir du premier débat de la primaire de gauche",
         "type": "article-de-presse",
         "date": "2026-09-23"
+      },
+      {
+        "url": "https://www.lemonde.fr/les-decodeurs/article/2026/10/09/primaire-a-gauche-comparez-les-propositions-des-cinq-candidats_6790548_4355770.html",
+        "titre": "Primaire à gauche : comparez les propositions des cinq candidats",
+        "type": "article-de-presse",
+        "date": "2026-10-09"
       }
     ]
   },
@@ -1247,6 +1356,12 @@
         "titre": "Accord avec LFI, Moyen-Orient, pouvoir d'achat : ce qu'il faut retenir du premier débat de la primaire de gauche",
         "type": "article-de-presse",
         "date": "2026-09-23"
+      },
+      {
+        "url": "https://www.lemonde.fr/les-decodeurs/article/2026/10/09/primaire-a-gauche-comparez-les-propositions-des-cinq-candidats_6790548_4355770.html",
+        "titre": "Primaire à gauche : comparez les propositions des cinq candidats",
+        "type": "article-de-presse",
+        "date": "2026-10-09"
       }
     ]
   },
@@ -1406,7 +1521,7 @@
     "candidat_id": "raphael-glucksmann",
     "theme_id": "education",
     "resume": "Augmentation de tous les enseignants de 10 %, pouvant atteindre 25 % selon la carrière, et « plan de sauvetage de l'école publique » sur cinq ans : réduction des effectifs par classe en primaire et rénovation du bâti scolaire.",
-    "detail": "Le candidat place la question des rémunérations au premier plan et a annoncé vouloir augmenter tous les enseignants de 10 %, avec une progression pouvant atteindre 25 % en fonction de la carrière. Il propose un « plan de sauvetage de l'école publique » sur cinq ans, comprenant une réduction du nombre d'élèves par classe dans le primaire et un vaste programme de rénovation du bâti scolaire. Il propose également de repenser Parcoursup, de créer un encadrement de l'enseignement supérieur privé avec transparence des financements et aides publiques conditionnées, une aide nationale pour les frais liés à l'éloignement des étudiants, une réinvention des bourses étudiantes et l'intégration des établissements privés sous contrat à la carte scolaire.",
+    "detail": "Le candidat place la question des rémunérations au premier plan et a annoncé vouloir augmenter tous les enseignants de 10 %, avec une progression pouvant atteindre 25 % en fonction de la carrière. Il propose un « plan de sauvetage de l'école publique » sur cinq ans, comprenant une réduction du nombre d'élèves par classe dans le primaire et un vaste programme de rénovation du bâti scolaire. Il propose également de repenser Parcoursup, de créer un encadrement de l'enseignement supérieur privé avec transparence des financements et aides publiques conditionnées, une aide nationale pour les frais liés à l'éloignement des étudiants, une réinvention des bourses étudiantes et l'intégration des établissements privés sous contrat à la carte scolaire. Il souhaite en outre intégrer les établissements privés sous contrat à la carte scolaire, et réduire le nombre d'élèves par classe.",
     "citation": null,
     "nature": "declaration_publique",
     "indicateurs": [
@@ -1431,6 +1546,12 @@
         "titre": "Les professeurs courtisés par les candidats : quelles revalorisations proposent-ils, avec quels financements ?",
         "type": "article-de-presse",
         "date": "2026-08-31"
+      },
+      {
+        "url": "https://www.lemonde.fr/les-decodeurs/article/2026/10/09/primaire-a-gauche-comparez-les-propositions-des-cinq-candidats_6790548_4355770.html",
+        "titre": "Primaire à gauche : comparez les propositions des cinq candidats",
+        "type": "article-de-presse",
+        "date": "2026-10-09"
       }
     ]
   },
@@ -1556,7 +1677,7 @@
     "candidat_id": "olivier-faure",
     "theme_id": "education",
     "resume": "Rétablir l'égalité des chances : petit-déjeuner gratuit pour chaque enfant, renforcement de l'accompagnement des élèves en situation de handicap, meilleure rémunération des AESH et accès garanti à des psychologues et des infirmiers scolaires.",
-    "detail": "Le candidat place la lutte contre les inégalités au cœur de son projet. Parmi ses propositions : instaurer un petit-déjeuner gratuit pour chaque enfant à l'école, renforcer l'accompagnement des élèves en situation de handicap, mieux rémunérer les AESH, garantir à chaque élève un accès à des psychologues et à des infirmiers scolaires, et permettre à chaque élève de participer à une classe de découverte au cours de sa scolarité. Dans son ébauche de programme, il souhaite également relancer la politique d'éducation prioritaire, remettre à plat le système de bourses et d'aides sociales, et conditionner le financement des établissements privés sous contrat à des obligations de mixité sociale.",
+    "detail": "Le candidat place la lutte contre les inégalités au cœur de son projet. Parmi ses propositions : instaurer un petit-déjeuner gratuit pour chaque enfant à l'école, renforcer l'accompagnement des élèves en situation de handicap, mieux rémunérer les AESH, garantir à chaque élève un accès à des psychologues et à des infirmiers scolaires, et permettre à chaque élève de participer à une classe de découverte au cours de sa scolarité. Dans son ébauche de programme, il souhaite également relancer la politique d'éducation prioritaire, remettre à plat le système de bourses et d'aides sociales, et conditionner le financement des établissements privés sous contrat à des obligations de mixité sociale. Il vise un maximum de 19 élèves par classe et veut sortir de Parcoursup.",
     "citation": null,
     "nature": "declaration_publique",
     "indicateurs": [],
@@ -1568,6 +1689,12 @@
         "titre": "Présidentielle 2027 : que proposent les candidats pour l’école ?",
         "type": "article-de-presse",
         "date": "2026-08-31"
+      },
+      {
+        "url": "https://www.lemonde.fr/les-decodeurs/article/2026/10/09/primaire-a-gauche-comparez-les-propositions-des-cinq-candidats_6790548_4355770.html",
+        "titre": "Primaire à gauche : comparez les propositions des cinq candidats",
+        "type": "article-de-presse",
+        "date": "2026-10-09"
       }
     ]
   },
