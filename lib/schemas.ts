@@ -177,6 +177,55 @@ export const Photo = z
 
 export type Photo = z.infer<typeof Photo>;
 
+export const Annee = z.number().int().min(1900).max(2100);
+
+/** Fait biographique daté, toujours accompagné de sa source. */
+const FaitSource = z.object({ libelle: z.string().min(2), source: Source }).strict();
+
+export const Jalon = z
+  .object({
+    debut: Annee,
+    /** null = fonction toujours exercée. */
+    fin: Annee.nullable(),
+    libelle: z.string().min(3),
+    source: Source,
+  })
+  .strict()
+  .refine((j) => j.fin === null || j.fin >= j.debut, 'La fin précède le début');
+
+export type Jalon = z.infer<typeof Jalon>;
+
+/**
+ * Repères biographiques. La structure est la même pour tout le monde, et
+ * chaque case vide s'affiche comme telle : c'est la seule façon de présenter
+ * quarante-quatre parcours inégalement documentés sans avantager personne.
+ */
+export const Biographie = z
+  .object({
+    naissance: z
+      .object({
+        /** null quand la source ne donne que l'année. */
+        date: DateISO.nullable(),
+        annee: Annee,
+        lieu: z.string().min(2).nullable(),
+        source: Source,
+      })
+      .strict()
+      .nullable(),
+    /** Enseignement supérieur seulement. */
+    formations: z.array(FaitSource).default([]),
+    /** Métiers exercés, hors fonctions politiques. */
+    metiers: z.array(FaitSource).default([]),
+    /** Fonction occupée à la date de vérification, saisie à la main. */
+    situation: z
+      .object({ libelle: z.string().min(3), annee: Annee, source: Source })
+      .strict()
+      .nullable(),
+  })
+  .strict();
+
+export type Biographie = z.infer<typeof Biographie>;
+
 export const Candidat = z
   .object({
     id: Slug,
@@ -189,17 +238,17 @@ export const Candidat = z
     /** null quand la date n'a pas pu être vérifiée : l'écran l'indique. */
     statut_date: DateISO.nullable(),
     statut_source: Source.nullable(),
-    parcours: z
-      .array(
-        z
-          .object({
-            annee: z.number().int().min(1900).max(2100),
-            libelle: z.string().min(3),
-            source: Source.nullable(),
-          })
-          .strict(),
-      )
-      .default([]),
+    biographie: Biographie.default({
+      naissance: null,
+      formations: [],
+      metiers: [],
+      situation: null,
+    }),
+    /**
+     * Mandats et fonctions, du plus récent au plus ancien. Les périodes
+     * successives d'une même fonction sont fusionnées à la saisie.
+     */
+    parcours: z.array(Jalon).default([]),
     soutiens: z
       .array(z.object({ libelle: z.string().min(2), source: Source }).strict())
       .default([]),

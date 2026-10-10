@@ -294,6 +294,52 @@ export default function PageMethodologie() {
         </ul>
       </section>
 
+      <section aria-labelledby="parcours" className="max-w-2xl space-y-3">
+        <h2 id="parcours" className="text-lg font-semibold">
+          Repères biographiques et parcours
+        </h2>
+        <p className="max-w-2xl text-sm leading-relaxed text-stone-700 dark:text-stone-300">
+          Chaque fiche de candidat ouvre sur les mêmes quatre repères - naissance, études
+          supérieures, métiers exercés, fonction du moment - puis sur la liste des mandats et
+          fonctions, du plus récent au plus ancien. Les cases vides restent affichées : une
+          biographie mal documentée ne doit pas ressembler à une biographie courte.
+        </p>
+        <p className="max-w-2xl text-sm leading-relaxed text-stone-700 dark:text-stone-300">
+          Ces faits sont repris de Wikidata, de façon automatique et reproductible, par un script
+          publié avec le code. Quatre règles le gouvernent :
+        </p>
+        <ul className="list-disc space-y-1.5 pl-5 text-sm leading-relaxed text-stone-700 dark:text-stone-300">
+          <li>
+            les métiers sont retenus par liste blanche. Wikidata range parmi les professions des
+            catégories statistiques de l’INSEE et des qualificatifs d’opinion comme
+            « polémiste » ou « théoricien du complot » : ce sont des caractérisations par des
+            tiers, le site n’en reprend aucune, pour personne. Tout libellé inconnu est écarté et
+            signalé plutôt que publié ;
+          </li>
+          <li>
+            l’enseignement secondaire est écarté. Le lycée ne dit rien d’un parcours d’adulte, et
+            sa présence dépend surtout de l’assiduité des contributeurs ;
+          </li>
+          <li>
+            une fonction dont l’intitulé reste vague faute d’organisation ou de territoire
+            rattaché n’est pas affichée. Les périodes successives d’une même fonction sont
+            réunies en une seule ligne ;
+          </li>
+          <li>
+            les intitulés sont accordés au genre déclaré de la personne sur sa fiche Wikidata :
+            une députée n’est pas désignée comme député. L’accord porte sur le nom de la fonction
+            et sur ce qui le suit immédiatement, jamais au-delà.
+          </li>
+        </ul>
+        <p className="max-w-2xl text-sm leading-relaxed text-stone-700 dark:text-stone-300">
+          Wikidata est une source encyclopédique, donc secondaire : les dates y sont parfois
+          incomplètes et les mandats les plus anciens lacunaires. Elles ont vocation à être
+          reprises du Journal officiel et des sites des assemblées. La fonction du moment, elle,
+          est saisie à la main à partir d’une source datée, car c’est celle que Wikidata met à
+          jour le plus tard.
+        </p>
+      </section>
+
       <section aria-labelledby="photos" className="max-w-3xl space-y-3">
         <h2 id="photos" className="text-lg font-semibold">
           Crédits photographiques

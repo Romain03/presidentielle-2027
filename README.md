@@ -250,6 +250,49 @@ Les positions évoluent. Reprendre chaque source, mettre `derniere_verification`
 
 ---
 
+## Parcours des candidats
+
+Chaque fiche de candidat ouvre sur quatre repères identiques pour tout le
+monde - naissance, études supérieures, métiers exercés, fonction du moment -
+puis sur la liste des mandats et fonctions, du plus récent au plus ancien. Les
+cases vides restent affichées : une biographie mal documentée ne doit pas
+ressembler à une biographie courte.
+
+`python3 scripts/recuperer-parcours.py` remplit ces champs depuis Wikidata :
+naissance (P569, P19), études (P69), métiers (P106), mandats et fonctions
+(P39) avec leurs dates (P580, P582). Les réponses sont mises en cache sous
+`.cache/`, ignoré par Git ; relancer le script sans vider ce cache ne
+redemande rien au réseau.
+
+Quatre règles le gouvernent, pour les mêmes raisons que sur les fiches de
+parti :
+
+- **les métiers sont retenus par liste blanche.** Wikidata range parmi les
+  professions les catégories socio-professionnelles de l'INSEE
+  (« personnes diverses sans activité professionnelle de moins de 60 ans ») et
+  des qualificatifs d'opinion (« polémiste », « théoricien du complot »). Les
+  seconds sont des caractérisations par des tiers : le site n'en reprend
+  aucune, pour personne. Un libellé inconnu est écarté **et signalé** en fin
+  d'exécution, pour être ajouté sciemment. Une liste noire laisserait passer
+  la prochaine étiquette douteuse sans que personne ne le remarque ;
+- **l'enseignement secondaire est écarté** : le lycée ne dit rien d'un parcours
+  d'adulte, et sa présence dépend surtout de l'assiduité des contributeurs ;
+- **une fonction à l'intitulé vague est écartée** si aucun qualificatif ne la
+  rattache à une organisation ou à un territoire. « Président » seul ne vaut
+  rien ; « Président (Reconquête) » se vérifie. Les périodes successives d'une
+  même fonction sont réunies en une ligne : cinq mandats de député consécutifs
+  n'en font qu'un ;
+- **les intitulés sont accordés** au genre déclaré sur la fiche Wikidata de la
+  personne. L'accord porte sur le nom de la fonction et sur ce qui le suit
+  immédiatement, jamais au-delà : « conseillère municipale de Troyes », mais
+  « présidente du conseil général » - « général » y qualifie le conseil, pas
+  la personne.
+
+La fonction du moment n'est pas prise de Wikidata, qui la met à jour tard :
+elle est saisie à la main à partir d'une source datée.
+
+---
+
 ## Fiches des partis
 
 `python3 scripts/recuperer-partis.py` complète `data/partis.json` depuis

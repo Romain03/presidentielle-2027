@@ -14,13 +14,25 @@
     },
     "parcours": [
       {
-        "annee": 2026,
-        "libelle": "Porte-parole de Lutte ouvrière",
+        "debut": 2008,
+        "fin": 2014,
+        "libelle": "Conseillère municipale de Vaulx-en-Velin",
         "source": {
-          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
-          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "titre": "Wikidata",
           "type": "encyclopedie",
-          "date": "2026-10-04"
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q439490"
+        }
+      },
+      {
+        "debut": 2008,
+        "fin": null,
+        "libelle": "Porte-parole (Lutte ouvrière)",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q439490"
         }
       }
     ],
@@ -35,6 +47,50 @@
       "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
       "source_url": "https://commons.wikimedia.org/wiki/File:Nathalie_Arthaud_(LO)_19-05-2024.jpg",
       "description": "Portrait de Nathalie Arthaud"
+    },
+    "biographie": {
+      "naissance": {
+        "date": "1970-02-23",
+        "annee": 1970,
+        "lieu": "Peyrins",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q439490"
+        }
+      },
+      "formations": [],
+      "metiers": [
+        {
+          "libelle": "Institutrice",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q439490"
+          }
+        },
+        {
+          "libelle": "Enseignante",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q439490"
+          }
+        }
+      ],
+      "situation": {
+        "libelle": "Porte-parole de Lutte ouvrière",
+        "annee": 2026,
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
     }
   },
   {
@@ -52,13 +108,36 @@
     },
     "parcours": [
       {
-        "annee": 2026,
-        "libelle": "Président de l'Union populaire républicaine",
+        "debut": 2007,
+        "fin": null,
+        "libelle": "Dirigeant (Union populaire républicaine)",
         "source": {
-          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
-          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "titre": "Wikidata",
           "type": "encyclopedie",
-          "date": "2026-10-04"
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q12972"
+        }
+      },
+      {
+        "debut": 2001,
+        "fin": 2008,
+        "libelle": "Conseiller de Paris",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q12972"
+        }
+      },
+      {
+        "debut": 2001,
+        "fin": null,
+        "libelle": "Inspecteur général des finances",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q12972"
         }
       }
     ],
@@ -73,6 +152,60 @@
       "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
       "source_url": "https://commons.wikimedia.org/wiki/File:Fran%C3%A7ois_ASSELINEAU.jpg",
       "description": "Portrait de François Asselineau"
+    },
+    "biographie": {
+      "naissance": {
+        "date": "1957-09-14",
+        "annee": 1957,
+        "lieu": "Paris",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q12972"
+        }
+      },
+      "formations": [
+        {
+          "libelle": "HEC Paris",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q12972"
+          }
+        },
+        {
+          "libelle": "École nationale d'administration",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q12972"
+          }
+        }
+      ],
+      "metiers": [
+        {
+          "libelle": "Fonctionnaire",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q12972"
+          }
+        }
+      ],
+      "situation": {
+        "libelle": "Président de l'Union populaire républicaine",
+        "annee": 2026,
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
     }
   },
   {
@@ -90,13 +223,69 @@
     },
     "parcours": [
       {
-        "annee": 2026,
-        "libelle": "Secrétaire général de Renaissance, président du groupe EPR et député des Hauts-de-Seine",
+        "debut": 2024,
+        "fin": null,
+        "libelle": "Député de la dixième circonscription des Hauts-de-Seine",
         "source": {
-          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
-          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "titre": "Wikidata",
           "type": "encyclopedie",
-          "date": "2026-10-04"
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q30339350"
+        }
+      },
+      {
+        "debut": 2024,
+        "fin": 2024,
+        "libelle": "Premier ministre",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q30339350"
+        }
+      },
+      {
+        "debut": 2023,
+        "fin": 2024,
+        "libelle": "Ministre de l'Éducation nationale",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q30339350"
+        }
+      },
+      {
+        "debut": 2022,
+        "fin": 2022,
+        "libelle": "Député de la dixième circonscription des Hauts-de-Seine",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q30339350"
+        }
+      },
+      {
+        "debut": 2022,
+        "fin": 2023,
+        "libelle": "Ministre délégué chargé des Comptes publics",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q30339350"
+        }
+      },
+      {
+        "debut": 2017,
+        "fin": 2018,
+        "libelle": "Député de la dixième circonscription des Hauts-de-Seine",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q30339350"
         }
       }
     ],
@@ -111,6 +300,50 @@
       "licence_url": "https://creativecommons.org/licenses/by/4.0",
       "source_url": "https://commons.wikimedia.org/wiki/File:Gabriel_Attal_2025_(close_crop).jpg",
       "description": "Portrait de Gabriel Attal"
+    },
+    "biographie": {
+      "naissance": {
+        "date": "1989-03-16",
+        "annee": 1989,
+        "lieu": "Clamart",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q30339350"
+        }
+      },
+      "formations": [
+        {
+          "libelle": "Institut d'études politiques de Paris",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q30339350"
+          }
+        },
+        {
+          "libelle": "Université Paris-Panthéon-Assas",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q30339350"
+          }
+        }
+      ],
+      "metiers": [],
+      "situation": {
+        "libelle": "Secrétaire général de Renaissance, président du groupe EPR et député des Hauts-de-Seine",
+        "annee": 2026,
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
     }
   },
   {
@@ -128,13 +361,124 @@
     },
     "parcours": [
       {
-        "annee": 2026,
+        "debut": 2017,
+        "fin": null,
+        "libelle": "Conseiller communautaire de Troyes Champagne Métropole",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q736013"
+        }
+      },
+      {
+        "debut": 2016,
+        "fin": null,
+        "libelle": "Professeur associé (HEC Paris)",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q736013"
+        }
+      },
+      {
+        "debut": 2014,
+        "fin": null,
+        "libelle": "Conseiller municipal de Troyes",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q736013"
+        }
+      },
+      {
+        "debut": 2012,
+        "fin": 2014,
+        "libelle": "Député de la troisième circonscription de l'Aube",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q736013"
+        }
+      },
+      {
+        "debut": 2011,
+        "fin": 2012,
+        "libelle": "Ministre de l'Économie, des Finances et de la Souveraineté industrielle et numérique",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q736013"
+        }
+      },
+      {
+        "debut": 2010,
+        "fin": 2011,
+        "libelle": "Porte-parole du gouvernement",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q736013"
+        }
+      },
+      {
+        "debut": 2007,
+        "fin": 2010,
+        "libelle": "Député de la troisième circonscription de l'Aube",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q736013"
+        }
+      },
+      {
+        "debut": 2007,
+        "fin": 2007,
+        "libelle": "Ministre de l'Intérieur",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q736013"
+        }
+      },
+      {
+        "debut": 1997,
+        "fin": 2005,
+        "libelle": "Député de la troisième circonscription de l'Aube",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q736013"
+        }
+      },
+      {
+        "debut": 1995,
+        "fin": null,
         "libelle": "Maire de Troyes",
         "source": {
-          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
-          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "titre": "Wikidata",
           "type": "encyclopedie",
-          "date": "2026-10-04"
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q736013"
+        }
+      },
+      {
+        "debut": 1993,
+        "fin": 1995,
+        "libelle": "Député de la troisième circonscription de l'Aube",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q736013"
         }
       }
     ],
@@ -149,6 +493,78 @@
       "licence_url": "https://creativecommons.org/licenses/by/2.0",
       "source_url": "https://commons.wikimedia.org/wiki/File:Fran%C3%A7ois_Baroin_(50277562053)_(cropped).jpg",
       "description": "Portrait de François Baroin"
+    },
+    "biographie": {
+      "naissance": {
+        "date": "1965-06-21",
+        "annee": 1965,
+        "lieu": "Paris",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q736013"
+        }
+      },
+      "formations": [
+        {
+          "libelle": "Université Paris-Panthéon-Assas",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q736013"
+          }
+        },
+        {
+          "libelle": "Institut supérieur de gestion",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q736013"
+          }
+        },
+        {
+          "libelle": "Université Bourgogne-Europe",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q736013"
+          }
+        }
+      ],
+      "metiers": [
+        {
+          "libelle": "Journaliste",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q736013"
+          }
+        },
+        {
+          "libelle": "Avocat",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q736013"
+          }
+        }
+      ],
+      "situation": {
+        "libelle": "Maire de Troyes",
+        "annee": 2026,
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
     }
   },
   {
@@ -166,13 +582,69 @@
     },
     "parcours": [
       {
-        "annee": 2026,
-        "libelle": "Ministre de l'Europe et des Affaires étrangères",
+        "debut": 2024,
+        "fin": 2024,
+        "libelle": "Député de la deuxième circonscription des Yvelines",
         "source": {
-          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
-          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "titre": "Wikidata",
           "type": "encyclopedie",
-          "date": "2026-10-04"
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q30339198"
+        }
+      },
+      {
+        "debut": 2024,
+        "fin": null,
+        "libelle": "Ministre des Affaires étrangères",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q30339198"
+        }
+      },
+      {
+        "debut": 2024,
+        "fin": null,
+        "libelle": "Président de la Commission des Affaires étrangères",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q30339198"
+        }
+      },
+      {
+        "debut": 2022,
+        "fin": null,
+        "libelle": "Ministre délégué chargé de la Transition numérique et des Télécommunications",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q30339198"
+        }
+      },
+      {
+        "debut": 2017,
+        "fin": 2022,
+        "libelle": "Député de la deuxième circonscription des Yvelines",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q30339198"
+        }
+      },
+      {
+        "debut": 2015,
+        "fin": 2017,
+        "libelle": "Conseiller départemental de la Haute-Loire",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q30339198"
         }
       }
     ],
@@ -187,6 +659,69 @@
       "licence_url": "https://creativecommons.org/licenses/by/4.0",
       "source_url": "https://commons.wikimedia.org/wiki/File:Jean-No%C3%ABl_Barrot_2023_cropped.jpg",
       "description": "Portrait de Jean-Noël Barrot"
+    },
+    "biographie": {
+      "naissance": {
+        "date": "1983-05-13",
+        "annee": 1983,
+        "lieu": "7e arrondissement de Paris",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q30339198"
+        }
+      },
+      "formations": [
+        {
+          "libelle": "HEC Paris",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q30339198"
+          }
+        },
+        {
+          "libelle": "Institut d'études politiques de Paris",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q30339198"
+          }
+        },
+        {
+          "libelle": "École d'économie de Paris",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q30339198"
+          }
+        }
+      ],
+      "metiers": [
+        {
+          "libelle": "Économiste",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q30339198"
+          }
+        }
+      ],
+      "situation": {
+        "libelle": "Ministre de l'Europe et des Affaires étrangères",
+        "annee": 2026,
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
     }
   },
   {
@@ -204,13 +739,25 @@
     },
     "parcours": [
       {
-        "annee": 2026,
-        "libelle": "Présidente de Génération écologie et députée des Deux-Sèvres",
+        "debut": 2007,
+        "fin": null,
+        "libelle": "Députée de la deuxième circonscription des Deux-Sèvres",
         "source": {
-          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
-          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "titre": "Wikidata",
           "type": "encyclopedie",
-          "date": "2026-10-04"
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q291385"
+        }
+      },
+      {
+        "debut": 1990,
+        "fin": 1992,
+        "libelle": "Présidente (Fédération indépendante et démocratique lycéenne)",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q291385"
         }
       }
     ],
@@ -225,6 +772,50 @@
       "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
       "source_url": "https://commons.wikimedia.org/wiki/File:Delphine_Batho_(cropped-2).png",
       "description": "Portrait de Delphine Batho"
+    },
+    "biographie": {
+      "naissance": {
+        "date": "1973-03-23",
+        "annee": 1973,
+        "lieu": "12e arrondissement de Paris",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q291385"
+        }
+      },
+      "formations": [
+        {
+          "libelle": "Université Paris-Diderot",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q291385"
+          }
+        },
+        {
+          "libelle": "Université Paris-Cité",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q291385"
+          }
+        }
+      ],
+      "metiers": [],
+      "situation": {
+        "libelle": "Présidente de Génération écologie et députée des Deux-Sèvres",
+        "annee": 2026,
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
     }
   },
   {
@@ -242,13 +833,69 @@
     },
     "parcours": [
       {
-        "annee": 2026,
-        "libelle": "Député du Haut-Rhin apparenté Renaissance",
+        "debut": 2024,
+        "fin": null,
+        "libelle": "Député de la cinquième circonscription du Haut-Rhin",
         "source": {
-          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
-          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "titre": "Wikidata",
           "type": "encyclopedie",
-          "date": "2026-10-04"
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q30348845"
+        }
+      },
+      {
+        "debut": 2022,
+        "fin": null,
+        "libelle": "Ministre chargé du Commerce extérieur",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q30348845"
+        }
+      },
+      {
+        "debut": 2017,
+        "fin": 2022,
+        "libelle": "Député de la cinquième circonscription du Haut-Rhin",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q30348845"
+        }
+      },
+      {
+        "debut": 2017,
+        "fin": null,
+        "libelle": "Représentant à l'Assemblée parlementaire du Conseil de l'Europe",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q30348845"
+        }
+      },
+      {
+        "debut": 2015,
+        "fin": 2017,
+        "libelle": "Conseiller départemental du Haut-Rhin",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q30348845"
+        }
+      },
+      {
+        "debut": 2008,
+        "fin": null,
+        "libelle": "Maire de Rixheim",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q30348845"
         }
       }
     ],
@@ -263,6 +910,68 @@
       "licence_url": "https://creativecommons.org/licenses/by/4.0",
       "source_url": "https://commons.wikimedia.org/wiki/File:Olivier_Becht_en_2026_(cropped).png",
       "description": "Portrait de Olivier Becht"
+    },
+    "biographie": {
+      "naissance": {
+        "date": "1976-04-28",
+        "annee": 1976,
+        "lieu": "Strasbourg",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q30348845"
+        }
+      },
+      "formations": [
+        {
+          "libelle": "Institut d'études politiques de Strasbourg",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q30348845"
+          }
+        },
+        {
+          "libelle": "Institut d'études politiques de Paris",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q30348845"
+          }
+        },
+        {
+          "libelle": "Université Paris-Panthéon-Assas",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q30348845"
+          }
+        },
+        {
+          "libelle": "École nationale d'administration",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q30348845"
+          }
+        }
+      ],
+      "metiers": [],
+      "situation": {
+        "libelle": "Député du Haut-Rhin apparenté Renaissance",
+        "annee": 2026,
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
     }
   },
   {
@@ -280,13 +989,47 @@
     },
     "parcours": [
       {
-        "annee": 2026,
-        "libelle": "Ministre déléguée chargée de l'Égalité entre les femmes et les hommes",
+        "debut": 2017,
+        "fin": 2025,
+        "libelle": "Députée de la dixième circonscription des Yvelines",
         "source": {
-          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
-          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "titre": "Wikidata",
           "type": "encyclopedie",
-          "date": "2026-10-04"
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q29570183"
+        }
+      },
+      {
+        "debut": 2017,
+        "fin": null,
+        "libelle": "Porte-parole (groupe Renaissance)",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q29570183"
+        }
+      },
+      {
+        "debut": 2016,
+        "fin": null,
+        "libelle": "Conseillère communautaire de Saint-Quentin-en-Yvelines",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q29570183"
+        }
+      },
+      {
+        "debut": 2014,
+        "fin": null,
+        "libelle": "Conseillère (Magny-les-Hameaux)",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q29570183"
         }
       }
     ],
@@ -301,6 +1044,41 @@
       "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
       "source_url": "https://commons.wikimedia.org/wiki/File:AURORE_BERG%C3%89_04_(cropped).jpg",
       "description": "Portrait de Aurore Bergé"
+    },
+    "biographie": {
+      "naissance": {
+        "date": "1986-11-13",
+        "annee": 1986,
+        "lieu": "8e arrondissement de Paris",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q29570183"
+        }
+      },
+      "formations": [
+        {
+          "libelle": "Institut d'études politiques de Paris",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q29570183"
+          }
+        }
+      ],
+      "metiers": [],
+      "situation": {
+        "libelle": "Ministre déléguée chargée de l'Égalité entre les femmes et les hommes",
+        "annee": 2026,
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
     }
   },
   {
@@ -318,13 +1096,113 @@
     },
     "parcours": [
       {
-        "annee": 2026,
+        "debut": 2017,
+        "fin": null,
+        "libelle": "Conseiller communautaire de l'Agglo du Saint-Quentinois",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q203793"
+        }
+      },
+      {
+        "debut": 2016,
+        "fin": null,
+        "libelle": "Conseiller régional des Hauts-de-France",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q203793"
+        }
+      },
+      {
+        "debut": 2016,
+        "fin": null,
         "libelle": "Président du conseil régional des Hauts-de-France",
         "source": {
-          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
-          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "titre": "Wikidata",
           "type": "encyclopedie",
-          "date": "2026-10-04"
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q203793"
+        }
+      },
+      {
+        "debut": 2012,
+        "fin": 2016,
+        "libelle": "Député de la deuxième circonscription de l'Aisne",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q203793"
+        }
+      },
+      {
+        "debut": 2010,
+        "fin": 2016,
+        "libelle": "Maire de Saint-Quentin",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q203793"
+        }
+      },
+      {
+        "debut": 2009,
+        "fin": 2010,
+        "libelle": "Député de la deuxième circonscription de l'Aisne",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q203793"
+        }
+      },
+      {
+        "debut": 2007,
+        "fin": 2007,
+        "libelle": "Député de la deuxième circonscription de l'Aisne",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q203793"
+        }
+      },
+      {
+        "debut": 2007,
+        "fin": 2012,
+        "libelle": "Ministre du Travail",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q203793"
+        }
+      },
+      {
+        "debut": 2005,
+        "fin": 2007,
+        "libelle": "Ministre de la Santé",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q203793"
+        }
+      },
+      {
+        "debut": 2002,
+        "fin": 2004,
+        "libelle": "Député de la deuxième circonscription de l'Aisne",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q203793"
         }
       }
     ],
@@ -349,6 +1227,51 @@
       "licence_url": "https://creativecommons.org/licenses/by/4.0",
       "source_url": "https://commons.wikimedia.org/wiki/File:Xavier_Bertrand_-_2025_(cropped).jpg",
       "description": "Portrait de Xavier Bertrand"
+    },
+    "biographie": {
+      "naissance": {
+        "date": "1965-03-21",
+        "annee": 1965,
+        "lieu": "Châlons-en-Champagne",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q203793"
+        }
+      },
+      "formations": [
+        {
+          "libelle": "Université de Reims-Champagne-Ardenne",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q203793"
+          }
+        }
+      ],
+      "metiers": [
+        {
+          "libelle": "Agent général d'assurance",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q203793"
+          }
+        }
+      ],
+      "situation": {
+        "libelle": "Président du conseil régional des Hauts-de-France",
+        "annee": 2026,
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
     }
   },
   {
@@ -366,13 +1289,58 @@
     },
     "parcours": [
       {
-        "annee": 2026,
-        "libelle": "Maire de Saint-Ouen-sur-Seine et vice-président du conseil départemental de la Seine-Saint-Denis",
+        "debut": 2022,
+        "fin": null,
+        "libelle": "Président du conseil de surveillance (Société des Grands Projets)",
         "source": {
-          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
-          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "titre": "Wikidata",
           "type": "encyclopedie",
-          "date": "2026-10-04"
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q98251165"
+        }
+      },
+      {
+        "debut": 2021,
+        "fin": null,
+        "libelle": "Conseiller départemental de la Seine-Saint-Denis",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q98251165"
+        }
+      },
+      {
+        "debut": 2021,
+        "fin": null,
+        "libelle": "Vice-président du conseil départemental de la Seine-Saint-Denis",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q98251165"
+        }
+      },
+      {
+        "debut": 2020,
+        "fin": null,
+        "libelle": "Conseiller municipal de Saint-Ouen-sur-Seine",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q98251165"
+        }
+      },
+      {
+        "debut": 2020,
+        "fin": null,
+        "libelle": "Maire de Saint-Ouen-sur-Seine",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q98251165"
         }
       }
     ],
@@ -387,6 +1355,31 @@
       "licence_url": "https://creativecommons.org/licenses/by/4.0",
       "source_url": "https://commons.wikimedia.org/wiki/File:Karim_Bouamrane_en_2026_(cropped).jpg",
       "description": "Portrait de Karim Bouamrane"
+    },
+    "biographie": {
+      "naissance": {
+        "date": "1973-02-21",
+        "annee": 1973,
+        "lieu": null,
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q98251165"
+        }
+      },
+      "formations": [],
+      "metiers": [],
+      "situation": {
+        "libelle": "Maire de Saint-Ouen-sur-Seine et vice-président du conseil départemental de la Seine-Saint-Denis",
+        "annee": 2026,
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
     }
   },
   {
@@ -404,13 +1397,80 @@
     },
     "parcours": [
       {
-        "annee": 2026,
-        "libelle": "Ancien Premier ministre, président de La Convention",
+        "debut": 2017,
+        "fin": 2017,
+        "libelle": "Député de la quatrième circonscription de la Manche",
         "source": {
-          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
-          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "titre": "Wikidata",
           "type": "encyclopedie",
-          "date": "2026-10-04"
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q560890"
+        }
+      },
+      {
+        "debut": 2016,
+        "fin": 2017,
+        "libelle": "Premier ministre",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q560890"
+        }
+      },
+      {
+        "debut": 2014,
+        "fin": 2016,
+        "libelle": "Ministre de l'Intérieur",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q560890"
+        }
+      },
+      {
+        "debut": 2012,
+        "fin": 2012,
+        "libelle": "Député de la quatrième circonscription de la Manche",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q560890"
+        }
+      },
+      {
+        "debut": 2007,
+        "fin": 2012,
+        "libelle": "Député de la cinquième circonscription de la Manche",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q560890"
+        }
+      },
+      {
+        "debut": 1997,
+        "fin": 2002,
+        "libelle": "Député de la cinquième circonscription de la Manche",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q560890"
+        }
+      },
+      {
+        "debut": 1995,
+        "fin": 2000,
+        "libelle": "Maire (Octeville)",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q560890"
         }
       }
     ],
@@ -435,6 +1495,51 @@
       "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
       "source_url": "https://commons.wikimedia.org/wiki/File:Bernard_Cazeneuve,_(42399145362)_(cropped).jpg",
       "description": "Portrait de Bernard Cazeneuve"
+    },
+    "biographie": {
+      "naissance": {
+        "date": "1963-06-02",
+        "annee": 1963,
+        "lieu": "Senlis",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q560890"
+        }
+      },
+      "formations": [
+        {
+          "libelle": "Institut d'études politiques de Bordeaux",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q560890"
+          }
+        }
+      ],
+      "metiers": [
+        {
+          "libelle": "Avocat",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q560890"
+          }
+        }
+      ],
+      "situation": {
+        "libelle": "Ancien Premier ministre, président de La Convention",
+        "annee": 2026,
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
     }
   },
   {
@@ -452,13 +1557,47 @@
     },
     "parcours": [
       {
-        "annee": 2026,
-        "libelle": "Président de Debout la France et maire d'Yerres",
+        "debut": 2026,
+        "fin": null,
+        "libelle": "Conseiller municipal de Yerres",
         "source": {
-          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
-          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "titre": "Wikidata",
           "type": "encyclopedie",
-          "date": "2026-10-04"
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q12961"
+        }
+      },
+      {
+        "debut": 2026,
+        "fin": null,
+        "libelle": "Maire de Yerres",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q12961"
+        }
+      },
+      {
+        "debut": 1997,
+        "fin": 2024,
+        "libelle": "Député de la huitième circonscription de l'Essonne",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q12961"
+        }
+      },
+      {
+        "debut": 1995,
+        "fin": 2017,
+        "libelle": "Maire de Yerres",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q12961"
         }
       }
     ],
@@ -473,6 +1612,59 @@
       "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
       "source_url": "https://commons.wikimedia.org/wiki/File:Nicolas_Dupont-Aignan,_homme_politique_fran%C3%A7ais.jpg",
       "description": "Portrait de Nicolas Dupont-Aignan"
+    },
+    "biographie": {
+      "naissance": {
+        "date": "1961-03-07",
+        "annee": 1961,
+        "lieu": "15e arrondissement de Paris",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q12961"
+        }
+      },
+      "formations": [
+        {
+          "libelle": "Institut d'études politiques de Paris",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q12961"
+          }
+        },
+        {
+          "libelle": "Université Paris-Dauphine",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q12961"
+          }
+        },
+        {
+          "libelle": "École nationale d'administration",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q12961"
+          }
+        }
+      ],
+      "metiers": [],
+      "situation": {
+        "libelle": "Président de Debout la France et maire d'Yerres",
+        "annee": 2026,
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
     }
   },
   {
@@ -488,18 +1680,7 @@
       "type": "encyclopedie",
       "date": "2026-10-04"
     },
-    "parcours": [
-      {
-        "annee": 2026,
-        "libelle": "Aucune fonction élective",
-        "source": {
-          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
-          "titre": "Candidatures à l'élection présidentielle française de 2027",
-          "type": "encyclopedie",
-          "date": "2026-10-04"
-        }
-      }
-    ],
+    "parcours": [],
     "soutiens": [],
     "precisions": [],
     "liens_officiels": [],
@@ -511,6 +1692,50 @@
       "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "source_url": "https://commons.wikimedia.org/wiki/File:Sylvain_Durif.jpg",
       "description": "Portrait de Sylvain Durif"
+    },
+    "biographie": {
+      "naissance": {
+        "date": "1969-08-23",
+        "annee": 1969,
+        "lieu": null,
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q111050069"
+        }
+      },
+      "formations": [],
+      "metiers": [
+        {
+          "libelle": "Vidéaste",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q111050069"
+          }
+        },
+        {
+          "libelle": "Musicien",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q111050069"
+          }
+        }
+      ],
+      "situation": {
+        "libelle": "Aucune fonction élective",
+        "annee": 2026,
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
     }
   },
   {
@@ -528,13 +1753,25 @@
     },
     "parcours": [
       {
-        "annee": 2026,
-        "libelle": "Premier secrétaire du Parti socialiste et député de Seine-et-Marne",
+        "debut": 2018,
+        "fin": null,
+        "libelle": "Premier secrétaire du Parti socialiste",
         "source": {
-          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
-          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "titre": "Wikidata",
           "type": "encyclopedie",
-          "date": "2026-10-04"
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q3351018"
+        }
+      },
+      {
+        "debut": 2012,
+        "fin": null,
+        "libelle": "Député de la onzième circonscription de Seine-et-Marne",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q3351018"
         }
       }
     ],
@@ -1046,6 +2283,50 @@
       "licence_url": null,
       "source_url": "https://commons.wikimedia.org/wiki/File:OF_MATIGNON_-_MAXIME_CLAM_(cropped).png",
       "description": "Portrait de Olivier Faure"
+    },
+    "biographie": {
+      "naissance": {
+        "date": "1968-08-18",
+        "annee": 1968,
+        "lieu": "La Tronche",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q3351018"
+        }
+      },
+      "formations": [
+        {
+          "libelle": "Université d'Orléans",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q3351018"
+          }
+        },
+        {
+          "libelle": "Université Paris-I-Panthéon-Sorbonne",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q3351018"
+          }
+        }
+      ],
+      "metiers": [],
+      "situation": {
+        "libelle": "Premier secrétaire du Parti socialiste et député de Seine-et-Marne",
+        "annee": 2026,
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
     }
   },
   {
@@ -1063,13 +2344,14 @@
     },
     "parcours": [
       {
-        "annee": 2026,
-        "libelle": "Co-président de Place publique et député européen",
+        "debut": 2019,
+        "fin": null,
+        "libelle": "Député européen",
         "source": {
-          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
-          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "titre": "Wikidata",
           "type": "encyclopedie",
-          "date": "2026-10-04"
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q556149"
         }
       }
     ],
@@ -1518,6 +2800,87 @@
       "licence_url": "https://www.europarl.europa.eu/legal-notice/",
       "source_url": "https://commons.wikimedia.org/wiki/File:1720448398743_20240708_GLUCKSMANN_Raphael_FR_006.jpg",
       "description": "Portrait de Raphaël Glucksmann"
+    },
+    "biographie": {
+      "naissance": {
+        "date": "1979-10-15",
+        "annee": 1979,
+        "lieu": "Boulogne-Billancourt",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q556149"
+        }
+      },
+      "formations": [
+        {
+          "libelle": "Institut d'études politiques de Paris",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q556149"
+          }
+        }
+      ],
+      "metiers": [
+        {
+          "libelle": "Journaliste",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q556149"
+          }
+        },
+        {
+          "libelle": "Auteur",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q556149"
+          }
+        },
+        {
+          "libelle": "Documentaliste",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q556149"
+          }
+        },
+        {
+          "libelle": "Politologue",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q556149"
+          }
+        },
+        {
+          "libelle": "Réalisateur de documentaire",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q556149"
+          }
+        }
+      ],
+      "situation": {
+        "libelle": "Co-président de Place publique et député européen",
+        "annee": 2026,
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
     }
   },
   {
@@ -1535,13 +2898,36 @@
     },
     "parcours": [
       {
-        "annee": 2026,
-        "libelle": "Député de l'Essonne et conseiller régional d'Île-de-France",
+        "debut": 2022,
+        "fin": null,
+        "libelle": "Député de la sixième circonscription de l'Essonne",
         "source": {
-          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
-          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "titre": "Wikidata",
           "type": "encyclopedie",
-          "date": "2026-10-04"
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q3190925"
+        }
+      },
+      {
+        "debut": 2015,
+        "fin": null,
+        "libelle": "Conseiller départemental de l'Essonne",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q3190925"
+        }
+      },
+      {
+        "debut": 2012,
+        "fin": 2014,
+        "libelle": "Député de la sixième circonscription de l'Essonne",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q3190925"
         }
       }
     ],
@@ -1566,6 +2952,60 @@
       "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
       "source_url": "https://commons.wikimedia.org/wiki/File:J%C3%A9r%C3%B4me_Guedj_2010.jpg",
       "description": "Portrait de Jérôme Guedj"
+    },
+    "biographie": {
+      "naissance": {
+        "date": "1972-01-23",
+        "annee": 1972,
+        "lieu": "Pantin",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q3190925"
+        }
+      },
+      "formations": [
+        {
+          "libelle": "École nationale d'administration",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q3190925"
+          }
+        },
+        {
+          "libelle": "Institut d'études politiques de Paris",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q3190925"
+          }
+        }
+      ],
+      "metiers": [
+        {
+          "libelle": "Fonctionnaire",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q3190925"
+          }
+        }
+      ],
+      "situation": {
+        "libelle": "Député de l'Essonne et conseiller régional d'Île-de-France",
+        "annee": 2026,
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
     }
   },
   {
@@ -1583,13 +3023,102 @@
     },
     "parcours": [
       {
-        "annee": 2026,
-        "libelle": "Ancien président de la République, député de la Corrèze",
+        "debut": 2024,
+        "fin": null,
+        "libelle": "Député de la première circonscription de la Corrèze",
         "source": {
-          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
-          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "titre": "Wikidata",
           "type": "encyclopedie",
-          "date": "2026-10-04"
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q157"
+        }
+      },
+      {
+        "debut": 2012,
+        "fin": 2017,
+        "libelle": "Co-prince français d'Andorre",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q157"
+        }
+      },
+      {
+        "debut": 2012,
+        "fin": 2017,
+        "libelle": "Président de la République française",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q157"
+        }
+      },
+      {
+        "debut": 2008,
+        "fin": 2012,
+        "libelle": "Conseiller général (canton de Vigeois)",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q157"
+        }
+      },
+      {
+        "debut": 2001,
+        "fin": 2008,
+        "libelle": "Maire de Tulle",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q157"
+        }
+      },
+      {
+        "debut": 1999,
+        "fin": 1999,
+        "libelle": "Député européen",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q157"
+        }
+      },
+      {
+        "debut": 1997,
+        "fin": 2012,
+        "libelle": "Député de la première circonscription de la Corrèze",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q157"
+        }
+      },
+      {
+        "debut": 1997,
+        "fin": 2008,
+        "libelle": "Premier secrétaire du Parti socialiste",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q157"
+        }
+      },
+      {
+        "debut": 1988,
+        "fin": 1993,
+        "libelle": "Député de la première circonscription de la Corrèze",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q157"
         }
       }
     ],
@@ -1604,6 +3133,96 @@
       "licence_url": "https://creativecommons.org/licenses/by/4.0",
       "source_url": "https://commons.wikimedia.org/wiki/File:Fran%C3%A7ois_Hollande_-_Ceremony_of_Honour_for_Jacques_Delors_-_2024.jpg",
       "description": "Portrait de François Hollande"
+    },
+    "biographie": {
+      "naissance": {
+        "date": "1954-08-12",
+        "annee": 1954,
+        "lieu": "Rouen",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q157"
+        }
+      },
+      "formations": [
+        {
+          "libelle": "Université Paris-Panthéon-Assas",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q157"
+          }
+        },
+        {
+          "libelle": "Institut d'études politiques de Paris",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q157"
+          }
+        },
+        {
+          "libelle": "HEC Paris",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q157"
+          }
+        },
+        {
+          "libelle": "École nationale d'administration",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q157"
+          }
+        }
+      ],
+      "metiers": [
+        {
+          "libelle": "Magistrat",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q157"
+          }
+        },
+        {
+          "libelle": "Avocat",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q157"
+          }
+        },
+        {
+          "libelle": "Fonctionnaire",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q157"
+          }
+        }
+      ],
+      "situation": {
+        "libelle": "Ancien président de la République, député de la Corrèze",
+        "annee": 2026,
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
     }
   },
   {
@@ -1619,18 +3238,7 @@
       "type": "encyclopedie",
       "date": "2026-10-04"
     },
-    "parcours": [
-      {
-        "annee": 2026,
-        "libelle": "Porte-parole de Révolution permanente",
-        "source": {
-          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
-          "titre": "Candidatures à l'élection présidentielle française de 2027",
-          "type": "encyclopedie",
-          "date": "2026-10-04"
-        }
-      }
-    ],
+    "parcours": [],
     "soutiens": [],
     "precisions": [],
     "liens_officiels": [],
@@ -1642,6 +3250,50 @@
       "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
       "source_url": "https://commons.wikimedia.org/wiki/File:Anasse_Kazib,_d%C3%A9cembre_2021.jpg",
       "description": "Portrait de Anasse Kazib"
+    },
+    "biographie": {
+      "naissance": {
+        "date": null,
+        "annee": 1987,
+        "lieu": "Sarcelles",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q106405647"
+        }
+      },
+      "formations": [],
+      "metiers": [
+        {
+          "libelle": "Cheminot",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q106405647"
+          }
+        },
+        {
+          "libelle": "Syndicaliste",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q106405647"
+          }
+        }
+      ],
+      "situation": {
+        "libelle": "Porte-parole de Révolution permanente",
+        "annee": 2026,
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
     }
   },
   {
@@ -1657,10 +3309,19 @@
       "type": "encyclopedie",
       "date": "2026-10-04"
     },
-    "parcours": [
-      {
-        "annee": 2026,
+    "parcours": [],
+    "soutiens": [],
+    "precisions": [],
+    "liens_officiels": [],
+    "derniere_verification": "2026-10-09",
+    "photo": null,
+    "biographie": {
+      "naissance": null,
+      "formations": [],
+      "metiers": [],
+      "situation": {
         "libelle": "Porte-parole du NPA - Révolutionnaires",
+        "annee": 2026,
         "source": {
           "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
           "titre": "Candidatures à l'élection présidentielle française de 2027",
@@ -1668,12 +3329,7 @@
           "date": "2026-10-04"
         }
       }
-    ],
-    "soutiens": [],
-    "precisions": [],
-    "liens_officiels": [],
-    "derniere_verification": "2026-10-09",
-    "photo": null
+    }
   },
   {
     "id": "francis-lalanne",
@@ -1688,18 +3344,7 @@
       "type": "encyclopedie",
       "date": "2026-10-04"
     },
-    "parcours": [
-      {
-        "annee": 2026,
-        "libelle": "Aucune fonction élective",
-        "source": {
-          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
-          "titre": "Candidatures à l'élection présidentielle française de 2027",
-          "type": "encyclopedie",
-          "date": "2026-10-04"
-        }
-      }
-    ],
+    "parcours": [],
     "soutiens": [],
     "precisions": [],
     "liens_officiels": [],
@@ -1711,6 +3356,105 @@
       "licence_url": "https://creativecommons.org/licenses/by/4.0",
       "source_url": "https://commons.wikimedia.org/wiki/File:Lalanne_2021_(cropped).jpg",
       "description": "Portrait de Francis Lalanne"
+    },
+    "biographie": {
+      "naissance": {
+        "date": "1958-08-08",
+        "annee": 1958,
+        "lieu": "Bayonne",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q3081533"
+        }
+      },
+      "formations": [
+        {
+          "libelle": "Conservatoire à rayonnement régional de Marseille",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q3081533"
+          }
+        }
+      ],
+      "metiers": [
+        {
+          "libelle": "Acteur",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q3081533"
+          }
+        },
+        {
+          "libelle": "Chanteur",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q3081533"
+          }
+        },
+        {
+          "libelle": "Auteur-compositeur",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q3081533"
+          }
+        },
+        {
+          "libelle": "Poète",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q3081533"
+          }
+        },
+        {
+          "libelle": "Auteur-compositeur-interprète",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q3081533"
+          }
+        },
+        {
+          "libelle": "Artiste",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q3081533"
+          }
+        },
+        {
+          "libelle": "Musicien",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q3081533"
+          }
+        }
+      ],
+      "situation": {
+        "libelle": "Aucune fonction élective",
+        "annee": 2026,
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
     }
   },
   {
@@ -1728,13 +3472,58 @@
     },
     "parcours": [
       {
-        "annee": 2026,
-        "libelle": "Président de Résistons",
+        "debut": 2017,
+        "fin": null,
+        "libelle": "Conseiller communautaire du Haut-Béarn",
         "source": {
-          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
-          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "titre": "Wikidata",
           "type": "encyclopedie",
-          "date": "2026-10-04"
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q3173022"
+        }
+      },
+      {
+        "debut": 2002,
+        "fin": 2022,
+        "libelle": "Député de la quatrième circonscription des Pyrénées-Atlantiques",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q3173022"
+        }
+      },
+      {
+        "debut": 1989,
+        "fin": 1999,
+        "libelle": "Président (parc national des Pyrénées)",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q3173022"
+        }
+      },
+      {
+        "debut": 1977,
+        "fin": 2017,
+        "libelle": "Conseiller municipal de Lourdios-Ichère",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q3173022"
+        }
+      },
+      {
+        "debut": 1977,
+        "fin": 2017,
+        "libelle": "Maire de Lourdios-Ichère",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q3173022"
         }
       }
     ],
@@ -1749,6 +3538,31 @@
       "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
       "source_url": "https://commons.wikimedia.org/wiki/File:Jean_Lassalle.jpg",
       "description": "Portrait de Jean Lassalle"
+    },
+    "biographie": {
+      "naissance": {
+        "date": "1955-05-03",
+        "annee": 1955,
+        "lieu": "Lourdios-Ichère",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q3173022"
+        }
+      },
+      "formations": [],
+      "metiers": [],
+      "situation": {
+        "libelle": "Président de Résistons",
+        "annee": 2026,
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
     }
   },
   {
@@ -1766,13 +3580,80 @@
     },
     "parcours": [
       {
-        "annee": 2026,
-        "libelle": "Ancien ministre d'État, ministre des Armées et des Anciens Combattants",
+        "debut": 2025,
+        "fin": 2025,
+        "libelle": "Ministre de la Défense",
         "source": {
-          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
-          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "titre": "Wikidata",
           "type": "encyclopedie",
-          "date": "2026-10-04"
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q993472"
+        }
+      },
+      {
+        "debut": 2017,
+        "fin": 2024,
+        "libelle": "Ministre de l'Économie, des Finances et de la Souveraineté industrielle et numérique",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q993472"
+        }
+      },
+      {
+        "debut": 2012,
+        "fin": 2017,
+        "libelle": "Député de la première circonscription de l'Eure",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q993472"
+        }
+      },
+      {
+        "debut": 2010,
+        "fin": 2015,
+        "libelle": "Conseiller régional de Haute-Normandie",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q993472"
+        }
+      },
+      {
+        "debut": 2010,
+        "fin": 2012,
+        "libelle": "Ministre de l’Agriculture, de l’Alimentation, de la Pêche, de la Ruralité et de l’Aménagement du territoire",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q993472"
+        }
+      },
+      {
+        "debut": 2009,
+        "fin": 2010,
+        "libelle": "Ministre de l'Alimentation, de l'Agriculture et de la Pêche",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q993472"
+        }
+      },
+      {
+        "debut": 2007,
+        "fin": 2009,
+        "libelle": "Député de la première circonscription de l'Eure",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q993472"
         }
       }
     ],
@@ -1787,6 +3668,87 @@
       "licence_url": "https://creativecommons.org/licenses/by/2.0",
       "source_url": "https://commons.wikimedia.org/wiki/File:EU2024BE_240223_Informal_meeting_of_economic_and_financial_affairs_ministers_Gent_JNZT_0040_(53545889372).jpg",
       "description": "Portrait de Bruno Le Maire"
+    },
+    "biographie": {
+      "naissance": {
+        "date": "1969-04-15",
+        "annee": 1969,
+        "lieu": "Neuilly-sur-Seine",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q993472"
+        }
+      },
+      "formations": [
+        {
+          "libelle": "École normale supérieure",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q993472"
+          }
+        },
+        {
+          "libelle": "École nationale d'administration",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q993472"
+          }
+        },
+        {
+          "libelle": "Institut d'études politiques de Paris",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q993472"
+          }
+        }
+      ],
+      "metiers": [
+        {
+          "libelle": "Diplomate",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q993472"
+          }
+        },
+        {
+          "libelle": "Fonctionnaire",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q993472"
+          }
+        },
+        {
+          "libelle": "Consultant",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q993472"
+          }
+        }
+      ],
+      "situation": {
+        "libelle": "Ancien ministre d'État, ministre des Armées et des Anciens Combattants",
+        "annee": 2026,
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
     }
   },
   {
@@ -1804,13 +3766,69 @@
     },
     "parcours": [
       {
-        "annee": 2026,
-        "libelle": "Présidente du groupe Rassemblement national à l'Assemblée nationale",
+        "debut": 2021,
+        "fin": 2025,
+        "libelle": "Conseillère départementale du Pas-de-Calais",
         "source": {
-          "url": "https://www.franceinfo.fr/elections/presidentielle/presidentielle-2027-marine-le-pen-promet-140-milliards-d-euros-nets-d-economies-d-ici-a-2032_8224807.html",
-          "titre": "Présidentielle 2027 : Marine Le Pen promet « 140 milliards d'euros net d'économies » d'ici à 2032",
-          "type": "article-de-presse",
-          "date": "2026-10-06"
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q12927"
+        }
+      },
+      {
+        "debut": 2017,
+        "fin": null,
+        "libelle": "Députée de la onzième circonscription du Pas-de-Calais",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q12927"
+        }
+      },
+      {
+        "debut": 2016,
+        "fin": 2021,
+        "libelle": "Conseillère régionale des Hauts-de-France",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q12927"
+        }
+      },
+      {
+        "debut": 2011,
+        "fin": 2021,
+        "libelle": "Dirigeante (Rassemblement national)",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q12927"
+        }
+      },
+      {
+        "debut": 2004,
+        "fin": 2010,
+        "libelle": "Conseillère régionale d'Île-de-France",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q12927"
+        }
+      },
+      {
+        "debut": 2004,
+        "fin": 2017,
+        "libelle": "Députée européenne",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q12927"
         }
       }
     ],
@@ -1877,6 +3895,60 @@
       "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "source_url": "https://commons.wikimedia.org/wiki/File:Marine_Le_Pen_2025_(cropped).jpg",
       "description": "Portrait de Marine Le Pen"
+    },
+    "biographie": {
+      "naissance": {
+        "date": "1968-08-05",
+        "annee": 1968,
+        "lieu": "Neuilly-sur-Seine",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q12927"
+        }
+      },
+      "formations": [
+        {
+          "libelle": "Université Paris-Panthéon-Assas",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q12927"
+          }
+        }
+      ],
+      "metiers": [
+        {
+          "libelle": "Avocate",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q12927"
+          }
+        },
+        {
+          "libelle": "Juriste",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q12927"
+          }
+        }
+      ],
+      "situation": {
+        "libelle": "Présidente du groupe Rassemblement national à l'Assemblée nationale",
+        "annee": 2026,
+        "source": {
+          "url": "https://www.franceinfo.fr/elections/presidentielle/presidentielle-2027-marine-le-pen-promet-140-milliards-d-euros-nets-d-economies-d-ici-a-2032_8224807.html",
+          "titre": "Présidentielle 2027 : Marine Le Pen promet « 140 milliards d'euros net d'économies » d'ici à 2032",
+          "type": "article-de-presse",
+          "date": "2026-10-06"
+        }
+      }
     }
   },
   {
@@ -1894,13 +3966,58 @@
     },
     "parcours": [
       {
-        "annee": 2026,
-        "libelle": "Maire de Cannes et président de l'Association des maires de France",
+        "debut": 2015,
+        "fin": null,
+        "libelle": "Conseiller départemental des Alpes-Maritimes",
         "source": {
-          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
-          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "titre": "Wikidata",
           "type": "encyclopedie",
-          "date": "2026-10-04"
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q3018298"
+        }
+      },
+      {
+        "debut": 2014,
+        "fin": null,
+        "libelle": "Conseiller communautaire de Cannes Pays de Lérins",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q3018298"
+        }
+      },
+      {
+        "debut": 2014,
+        "fin": null,
+        "libelle": "Conseiller municipal de Cannes",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q3018298"
+        }
+      },
+      {
+        "debut": 2014,
+        "fin": null,
+        "libelle": "Maire de Cannes",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q3018298"
+        }
+      },
+      {
+        "debut": 2008,
+        "fin": null,
+        "libelle": "Conseiller général des Alpes-Maritimes",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q3018298"
         }
       }
     ],
@@ -1925,6 +4042,60 @@
       "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
       "source_url": "https://commons.wikimedia.org/wiki/File:David_Lisnard_-_2013.jpg",
       "description": "Portrait de David Lisnard"
+    },
+    "biographie": {
+      "naissance": {
+        "date": "1969-02-02",
+        "annee": 1969,
+        "lieu": "Limoges",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q3018298"
+        }
+      },
+      "formations": [
+        {
+          "libelle": "Institut d'études politiques de Bordeaux",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q3018298"
+          }
+        }
+      ],
+      "metiers": [
+        {
+          "libelle": "Footballeur",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q3018298"
+          }
+        },
+        {
+          "libelle": "Chef d'entreprise",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q3018298"
+          }
+        }
+      ],
+      "situation": {
+        "libelle": "Maire de Cannes et président de l'Association des maires de France",
+        "annee": 2026,
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
     }
   },
   {
@@ -1940,10 +4111,19 @@
       "type": "encyclopedie",
       "date": "2026-10-04"
     },
-    "parcours": [
-      {
-        "annee": 2026,
+    "parcours": [],
+    "soutiens": [],
+    "precisions": [],
+    "liens_officiels": [],
+    "derniere_verification": "2026-10-09",
+    "photo": null,
+    "biographie": {
+      "naissance": null,
+      "formations": [],
+      "metiers": [],
+      "situation": {
         "libelle": "Cofondatrice du Parti animaliste",
+        "annee": 2026,
         "source": {
           "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
           "titre": "Candidatures à l'élection présidentielle française de 2027",
@@ -1951,12 +4131,7 @@
           "date": "2026-10-04"
         }
       }
-    ],
-    "soutiens": [],
-    "precisions": [],
-    "liens_officiels": [],
-    "derniere_verification": "2026-10-09",
-    "photo": null
+    }
   },
   {
     "id": "benoit-mathieu",
@@ -1971,10 +4146,19 @@
       "type": "encyclopedie",
       "date": "2026-10-04"
     },
-    "parcours": [
-      {
-        "annee": 2026,
+    "parcours": [],
+    "soutiens": [],
+    "precisions": [],
+    "liens_officiels": [],
+    "derniere_verification": "2026-10-09",
+    "photo": null,
+    "biographie": {
+      "naissance": null,
+      "formations": [],
+      "metiers": [],
+      "situation": {
         "libelle": "Aucune fonction élective",
+        "annee": 2026,
         "source": {
           "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
           "titre": "Candidatures à l'élection présidentielle française de 2027",
@@ -1982,12 +4166,7 @@
           "date": "2026-10-04"
         }
       }
-    ],
-    "soutiens": [],
-    "precisions": [],
-    "liens_officiels": [],
-    "derniere_verification": "2026-10-09",
-    "photo": null
+    }
   },
   {
     "id": "emmanuel-maurel",
@@ -2004,13 +4183,36 @@
     },
     "parcours": [
       {
-        "annee": 2026,
-        "libelle": "Député du Val-d'Oise et animateur national de la Gauche républicaine et socialiste",
+        "debut": 2024,
+        "fin": null,
+        "libelle": "Député de la troisième circonscription du Val-d'Oise",
         "source": {
-          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
-          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "titre": "Wikidata",
           "type": "encyclopedie",
-          "date": "2026-10-04"
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q3052795"
+        }
+      },
+      {
+        "debut": 2019,
+        "fin": null,
+        "libelle": "Président (Gauche républicaine et socialiste)",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q3052795"
+        }
+      },
+      {
+        "debut": 2014,
+        "fin": 2024,
+        "libelle": "Député européen",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q3052795"
         }
       }
     ],
@@ -2045,6 +4247,50 @@
       "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
       "source_url": "https://commons.wikimedia.org/wiki/File:Emmanuel_Maurel_en_2016.jpg",
       "description": "Portrait de Emmanuel Maurel"
+    },
+    "biographie": {
+      "naissance": {
+        "date": "1973-05-10",
+        "annee": 1973,
+        "lieu": "Épinay-sur-Seine",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q3052795"
+        }
+      },
+      "formations": [
+        {
+          "libelle": "Institut d'études politiques de Paris",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q3052795"
+          }
+        },
+        {
+          "libelle": "Université Paris-Sorbonne",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q3052795"
+          }
+        }
+      ],
+      "metiers": [],
+      "situation": {
+        "libelle": "Député du Val-d'Oise et animateur national de la Gauche républicaine et socialiste",
+        "annee": 2026,
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
     }
   },
   {
@@ -2062,13 +4308,80 @@
     },
     "parcours": [
       {
-        "annee": 2026,
-        "libelle": "Candidat à l'élection présidentielle pour la quatrième fois",
+        "debut": 2017,
+        "fin": 2022,
+        "libelle": "Député de la quatrième circonscription des Bouches-du-Rhône",
         "source": {
-          "url": "https://www.cnews.fr/france/2026-10-02/presidentielle-2027-depart-60-ans-hausse-des-petites-pensions-penibilite-quelles",
-          "titre": "Présidentielle 2027 : départ à 60 ans, hausse des petites pensions, pénibilité... Quelles sont les propositions des candidats de gauche sur les retraites ?",
-          "type": "article-de-presse",
-          "date": "2026-10-02"
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q5829"
+        }
+      },
+      {
+        "debut": 2009,
+        "fin": 2017,
+        "libelle": "Député européen",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q5829"
+        }
+      },
+      {
+        "debut": 2004,
+        "fin": 2010,
+        "libelle": "Sénateur (Essonne)",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q5829"
+        }
+      },
+      {
+        "debut": 2000,
+        "fin": 2002,
+        "libelle": "Ministre délégué (formation professionnelle)",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q5829"
+        }
+      },
+      {
+        "debut": 1998,
+        "fin": 2004,
+        "libelle": "Conseiller général (canton de Massy-Ouest)",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q5829"
+        }
+      },
+      {
+        "debut": 1986,
+        "fin": 2000,
+        "libelle": "Sénateur (Essonne)",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q5829"
+        }
+      },
+      {
+        "debut": 1985,
+        "fin": 1992,
+        "libelle": "Conseiller général (canton de Massy-Ouest)",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q5829"
         }
       }
     ],
@@ -2112,6 +4425,78 @@
       "licence_url": "https://creativecommons.org/licenses/by/4.0",
       "source_url": "https://commons.wikimedia.org/wiki/File:Jean_Luc_M%C3%A9lenchon_en_mai_2026-_55261894422_(cropped).jpg",
       "description": "Portrait de Jean-Luc Mélenchon"
+    },
+    "biographie": {
+      "naissance": {
+        "date": "1951-08-19",
+        "annee": 1951,
+        "lieu": "Tanger",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q5829"
+        }
+      },
+      "formations": [
+        {
+          "libelle": "Université Marie-et-Louis-Pasteur",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q5829"
+          }
+        }
+      ],
+      "metiers": [
+        {
+          "libelle": "Journaliste",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q5829"
+          }
+        },
+        {
+          "libelle": "Correcteur",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q5829"
+          }
+        },
+        {
+          "libelle": "Enseignant du secondaire",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q5829"
+          }
+        },
+        {
+          "libelle": "Dessinateur de presse",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q5829"
+          }
+        }
+      ],
+      "situation": {
+        "libelle": "Candidat à l'élection présidentielle pour la quatrième fois",
+        "annee": 2026,
+        "source": {
+          "url": "https://www.cnews.fr/france/2026-10-02/presidentielle-2027-depart-60-ans-hausse-des-petites-pensions-penibilite-quelles",
+          "titre": "Présidentielle 2027 : départ à 60 ans, hausse des petites pensions, pénibilité... Quelles sont les propositions des candidats de gauche sur les retraites ?",
+          "type": "article-de-presse",
+          "date": "2026-10-02"
+        }
+      }
     }
   },
   {
@@ -2127,18 +4512,7 @@
       "type": "encyclopedie",
       "date": "2026-10-04"
     },
-    "parcours": [
-      {
-        "annee": 2026,
-        "libelle": "Aucune fonction élective",
-        "source": {
-          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
-          "titre": "Candidatures à l'élection présidentielle française de 2027",
-          "type": "encyclopedie",
-          "date": "2026-10-04"
-        }
-      }
-    ],
+    "parcours": [],
     "soutiens": [],
     "precisions": [
       {
@@ -2153,7 +4527,22 @@
     ],
     "liens_officiels": [],
     "derniere_verification": "2026-10-09",
-    "photo": null
+    "photo": null,
+    "biographie": {
+      "naissance": null,
+      "formations": [],
+      "metiers": [],
+      "situation": {
+        "libelle": "Aucune fonction élective",
+        "annee": 2026,
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
+    }
   },
   {
     "id": "edouard-philippe",
@@ -2170,13 +4559,124 @@
     },
     "parcours": [
       {
-        "annee": 2026,
-        "libelle": "Président d'Horizons et maire du Havre, ancien Premier ministre",
+        "debut": 2020,
+        "fin": null,
+        "libelle": "Conseiller municipal du Havre",
         "source": {
-          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
-          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "titre": "Wikidata",
           "type": "encyclopedie",
-          "date": "2026-10-04"
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q3579995"
+        }
+      },
+      {
+        "debut": 2020,
+        "fin": null,
+        "libelle": "Maire du Havre",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q3579995"
+        }
+      },
+      {
+        "debut": 2020,
+        "fin": null,
+        "libelle": "Membre du conseil d'administration (Atos SE)",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q3579995"
+        }
+      },
+      {
+        "debut": 2017,
+        "fin": 2017,
+        "libelle": "Ministre de l'Intérieur",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q3579995"
+        }
+      },
+      {
+        "debut": 2017,
+        "fin": 2020,
+        "libelle": "Premier ministre",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q3579995"
+        }
+      },
+      {
+        "debut": 2014,
+        "fin": null,
+        "libelle": "Conseiller communautaire de l'agglomération havraise",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q3579995"
+        }
+      },
+      {
+        "debut": 2012,
+        "fin": 2017,
+        "libelle": "Député de la septième circonscription de la Seine-Maritime",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q3579995"
+        }
+      },
+      {
+        "debut": 2010,
+        "fin": 2017,
+        "libelle": "Maire du Havre",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q3579995"
+        }
+      },
+      {
+        "debut": 2010,
+        "fin": 2017,
+        "libelle": "Président (communauté de l'agglomération havraise)",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q3579995"
+        }
+      },
+      {
+        "debut": 2008,
+        "fin": 2012,
+        "libelle": "Conseiller général (canton du Havre-5)",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q3579995"
+        }
+      },
+      {
+        "debut": 2004,
+        "fin": 2008,
+        "libelle": "Conseiller régional (Haute-Normandie)",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q3579995"
         }
       }
     ],
@@ -2210,6 +4710,60 @@
       "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "source_url": "https://commons.wikimedia.org/wiki/File:Edouard_Philippe_3x4_crop.jpg",
       "description": "Portrait de Édouard Philippe"
+    },
+    "biographie": {
+      "naissance": {
+        "date": "1970-11-28",
+        "annee": 1970,
+        "lieu": "Rouen",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q3579995"
+        }
+      },
+      "formations": [
+        {
+          "libelle": "Institut d'études politiques de Paris",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q3579995"
+          }
+        },
+        {
+          "libelle": "École nationale d'administration",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q3579995"
+          }
+        }
+      ],
+      "metiers": [
+        {
+          "libelle": "Avocat",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q3579995"
+          }
+        }
+      ],
+      "situation": {
+        "libelle": "Président d'Horizons et maire du Havre, ancien Premier ministre",
+        "annee": 2026,
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
     }
   },
   {
@@ -2227,13 +4781,58 @@
     },
     "parcours": [
       {
-        "annee": 2026,
-        "libelle": "Président des Patriotes",
+        "debut": 2017,
+        "fin": null,
+        "libelle": "Dirigeant (Les Patriotes)",
         "source": {
-          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
-          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "titre": "Wikidata",
           "type": "encyclopedie",
-          "date": "2026-10-04"
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q3074223"
+        }
+      },
+      {
+        "debut": 2016,
+        "fin": null,
+        "libelle": "Conseiller régional du Grand Est",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q3074223"
+        }
+      },
+      {
+        "debut": 2014,
+        "fin": null,
+        "libelle": "Député européen",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q3074223"
+        }
+      },
+      {
+        "debut": 2012,
+        "fin": null,
+        "libelle": "Chef adjoint (Rassemblement national)",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q3074223"
+        }
+      },
+      {
+        "debut": 2009,
+        "fin": null,
+        "libelle": "Inspecteur de l'administration",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q3074223"
         }
       }
     ],
@@ -2258,6 +4857,69 @@
       "licence_url": "https://creativecommons.org/licenses/by/4.0",
       "source_url": "https://commons.wikimedia.org/wiki/File:2022-04-16_16-49-26_MAM-Paris_02.jpg",
       "description": "Portrait de Florian Philippot"
+    },
+    "biographie": {
+      "naissance": {
+        "date": "1981-10-24",
+        "annee": 1981,
+        "lieu": "Croix",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q3074223"
+        }
+      },
+      "formations": [
+        {
+          "libelle": "HEC Paris",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q3074223"
+          }
+        },
+        {
+          "libelle": "École nationale d'administration",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q3074223"
+          }
+        },
+        {
+          "libelle": "Université Paris-Dauphine",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q3074223"
+          }
+        }
+      ],
+      "metiers": [
+        {
+          "libelle": "Fonctionnaire",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q3074223"
+          }
+        }
+      ],
+      "situation": {
+        "libelle": "Président des Patriotes",
+        "annee": 2026,
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
     }
   },
   {
@@ -2275,23 +4937,124 @@
     },
     "parcours": [
       {
-        "annee": 2026,
-        "libelle": "Président des Républicains, sénateur de la Vendée, ancien ministre de l'Intérieur",
+        "debut": 2024,
+        "fin": 2025,
+        "libelle": "Ministre de l'Intérieur",
         "source": {
-          "url": "https://lcp.fr/actualites/retraites-bruno-retailleau-veut-un-age-minimal-de-depart-a-63-ans-et-un-taux-plein-a-65",
-          "titre": "Retraites : Bruno Retailleau veut un âge minimal de départ à 63 ans et un taux plein à 65 ans",
-          "type": "article-de-presse",
-          "date": "2026-09-23"
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q2926942"
         }
       },
       {
-        "annee": 2026,
-        "libelle": "Officialise sa candidature à l'élection présidentielle dans un entretien au Figaro",
+        "debut": 2017,
+        "fin": null,
+        "libelle": "Président (Force républicaine)",
         "source": {
-          "url": "https://www.europe1.fr/politique/je-trace-ma-route-candidat-a-la-presidentielle-2027-bruno-retailleau-devoile-les-grandes-lignes-de-son-programme-895492",
-          "titre": "« Je trace ma route » : candidat à la présidentielle 2027, Bruno Retailleau dévoile les grandes lignes de son programme",
-          "type": "article-de-presse",
-          "date": "2026-02-13"
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q2926942"
+        }
+      },
+      {
+        "debut": 2015,
+        "fin": null,
+        "libelle": "Conseiller régional des Pays de la Loire",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q2926942"
+        }
+      },
+      {
+        "debut": 2015,
+        "fin": null,
+        "libelle": "Président (groupe Les Républicains - Sénat)",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q2926942"
+        }
+      },
+      {
+        "debut": 2015,
+        "fin": 2017,
+        "libelle": "Président du conseil régional des Pays de la Loire",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q2926942"
+        }
+      },
+      {
+        "debut": 2014,
+        "fin": 2015,
+        "libelle": "Président (Groupe Union pour un mouvement populaire)",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q2926942"
+        }
+      },
+      {
+        "debut": 2010,
+        "fin": 2015,
+        "libelle": "Président du conseil général (Vendée)",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q2926942"
+        }
+      },
+      {
+        "debut": 2004,
+        "fin": null,
+        "libelle": "Sénateur (Vendée)",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q2926942"
+        }
+      },
+      {
+        "debut": 1998,
+        "fin": 2004,
+        "libelle": "Conseiller régional des Pays de la Loire",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q2926942"
+        }
+      },
+      {
+        "debut": 1994,
+        "fin": 1997,
+        "libelle": "Député de la quatrième circonscription de la Vendée",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q2926942"
+        }
+      },
+      {
+        "debut": 1988,
+        "fin": 2015,
+        "libelle": "Conseiller général (canton de Mortagne-sur-Sèvre)",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q2926942"
         }
       }
     ],
@@ -2349,6 +5112,41 @@
       "licence_url": "https://creativecommons.org/licenses/by/4.0",
       "source_url": "https://commons.wikimedia.org/wiki/File:Bruno_Retailleau_-_Ministre_de_l%27Int%C3%A9rieur_fran%C3%A7ais_(cropped).jpg",
       "description": "Portrait de Bruno Retailleau"
+    },
+    "biographie": {
+      "naissance": {
+        "date": "1960-11-20",
+        "annee": 1960,
+        "lieu": "Cholet",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q2926942"
+        }
+      },
+      "formations": [
+        {
+          "libelle": "Institut d'études politiques de Paris",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q2926942"
+          }
+        }
+      ],
+      "metiers": [],
+      "situation": {
+        "libelle": "Président des Républicains, sénateur de la Vendée, ancien ministre de l'Intérieur",
+        "annee": 2026,
+        "source": {
+          "url": "https://lcp.fr/actualites/retraites-bruno-retailleau-veut-un-age-minimal-de-depart-a-63-ans-et-un-taux-plein-a-65",
+          "titre": "Retraites : Bruno Retailleau veut un âge minimal de départ à 63 ans et un taux plein à 65 ans",
+          "type": "article-de-presse",
+          "date": "2026-09-23"
+        }
+      }
     }
   },
   {
@@ -2366,13 +5164,14 @@
     },
     "parcours": [
       {
-        "annee": 2026,
-        "libelle": "Députée de Paris",
+        "debut": 2022,
+        "fin": null,
+        "libelle": "Députée de la neuvième circonscription de Paris",
         "source": {
-          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
-          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "titre": "Wikidata",
           "type": "encyclopedie",
-          "date": "2026-10-04"
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q21013136"
         }
       }
     ],
@@ -2387,6 +5186,60 @@
       "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
       "source_url": "https://commons.wikimedia.org/wiki/File:Sandrine_Rousseau_20210819_(cropped).jpg",
       "description": "Portrait de Sandrine Rousseau"
+    },
+    "biographie": {
+      "naissance": {
+        "date": "1972-03-08",
+        "annee": 1972,
+        "lieu": "Maisons-Alfort",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q21013136"
+        }
+      },
+      "formations": [
+        {
+          "libelle": "Université Lille-I",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q21013136"
+          }
+        },
+        {
+          "libelle": "Université de Poitiers",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q21013136"
+          }
+        }
+      ],
+      "metiers": [
+        {
+          "libelle": "Économiste",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q21013136"
+          }
+        }
+      ],
+      "situation": {
+        "libelle": "Députée de Paris",
+        "annee": 2026,
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
     }
   },
   {
@@ -2404,13 +5257,47 @@
     },
     "parcours": [
       {
-        "annee": 2026,
-        "libelle": "Secrétaire national du Parti communiste français et maire de Saint-Amand-les-Eaux",
+        "debut": 2025,
+        "fin": null,
+        "libelle": "Maire de Saint-Amand-les-Eaux",
         "source": {
-          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
-          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "titre": "Wikidata",
           "type": "encyclopedie",
-          "date": "2026-10-04"
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q30388733"
+        }
+      },
+      {
+        "debut": 2017,
+        "fin": 2024,
+        "libelle": "Député de la vingtième circonscription du Nord",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q30388733"
+        }
+      },
+      {
+        "debut": 2014,
+        "fin": null,
+        "libelle": "Conseiller communautaire de la Porte du Hainaut",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q30388733"
+        }
+      },
+      {
+        "debut": 2014,
+        "fin": null,
+        "libelle": "Conseiller municipal de Saint-Amand-les-Eaux",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q30388733"
         }
       }
     ],
@@ -2425,6 +5312,51 @@
       "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
       "source_url": "https://commons.wikimedia.org/wiki/File:Roussel_Fabien_1.jpg",
       "description": "Portrait de Fabien Roussel"
+    },
+    "biographie": {
+      "naissance": {
+        "date": "1969-04-16",
+        "annee": 1969,
+        "lieu": "Béthune",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q30388733"
+        }
+      },
+      "formations": [
+        {
+          "libelle": "Centre de formation et de perfectionnement des journalistes",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q30388733"
+          }
+        }
+      ],
+      "metiers": [
+        {
+          "libelle": "Journaliste",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q30388733"
+          }
+        }
+      ],
+      "situation": {
+        "libelle": "Secrétaire national du Parti communiste français et maire de Saint-Amand-les-Eaux",
+        "annee": 2026,
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
     }
   },
   {
@@ -2442,13 +5374,47 @@
     },
     "parcours": [
       {
-        "annee": 2026,
-        "libelle": "Ancienne ministre, candidate à l'élection présidentielle de 2007",
+        "debut": 2017,
+        "fin": 2020,
+        "libelle": "Ambassadrice chargée des pôles et des affaires maritimes",
         "source": {
-          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
-          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "titre": "Wikidata",
           "type": "encyclopedie",
-          "date": "2026-10-04"
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q81923"
+        }
+      },
+      {
+        "debut": 2004,
+        "fin": 2014,
+        "libelle": "Présidente du conseil régional de Poitou-Charentes",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q81923"
+        }
+      },
+      {
+        "debut": 2002,
+        "fin": 2007,
+        "libelle": "Députée de la deuxième circonscription des Deux-Sèvres",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q81923"
+        }
+      },
+      {
+        "debut": 1988,
+        "fin": 1997,
+        "libelle": "Députée de la deuxième circonscription des Deux-Sèvres",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q81923"
         }
       }
     ],
@@ -2492,6 +5458,78 @@
       "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
       "source_url": "https://commons.wikimedia.org/wiki/File:Royal_Toulouse_2012.JPG",
       "description": "Portrait de Ségolène Royal"
+    },
+    "biographie": {
+      "naissance": {
+        "date": "1953-09-22",
+        "annee": 1953,
+        "lieu": "Ouakam",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q81923"
+        }
+      },
+      "formations": [
+        {
+          "libelle": "Université Nancy-II",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q81923"
+          }
+        },
+        {
+          "libelle": "École nationale d'administration",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q81923"
+          }
+        },
+        {
+          "libelle": "Institut d'études politiques de Paris",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q81923"
+          }
+        },
+        {
+          "libelle": "Université de Lorraine",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q81923"
+          }
+        }
+      ],
+      "metiers": [
+        {
+          "libelle": "Avocate",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q81923"
+          }
+        }
+      ],
+      "situation": {
+        "libelle": "Ancienne ministre, candidate à l'élection présidentielle de 2007",
+        "annee": 2026,
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
     }
   },
   {
@@ -2509,13 +5547,14 @@
     },
     "parcours": [
       {
-        "annee": 2026,
-        "libelle": "Président de Debout ! et député de la Somme",
+        "debut": 2017,
+        "fin": null,
+        "libelle": "Député de la première circonscription de la Somme",
         "source": {
-          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
-          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "titre": "Wikidata",
           "type": "encyclopedie",
-          "date": "2026-10-04"
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q3085763"
         }
       }
     ],
@@ -2595,6 +5634,69 @@
       "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
       "source_url": "https://commons.wikimedia.org/wiki/File:Fran%C3%A7ois_Ruffin_(cropped).jpg",
       "description": "Portrait de François Ruffin"
+    },
+    "biographie": {
+      "naissance": {
+        "date": "1975-10-18",
+        "annee": 1975,
+        "lieu": "Calais",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q3085763"
+        }
+      },
+      "formations": [
+        {
+          "libelle": "Centre de formation des journalistes",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q3085763"
+          }
+        },
+        {
+          "libelle": "Université de Picardie Jules-Verne",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q3085763"
+          }
+        }
+      ],
+      "metiers": [
+        {
+          "libelle": "Journaliste",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q3085763"
+          }
+        },
+        {
+          "libelle": "Réalisateur de cinéma",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q3085763"
+          }
+        }
+      ],
+      "situation": {
+        "libelle": "Président de Debout ! et député de la Somme",
+        "annee": 2026,
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
     }
   },
   {
@@ -2612,13 +5714,25 @@
     },
     "parcours": [
       {
-        "annee": 2026,
-        "libelle": "Secrétaire nationale des Écologistes et conseillère régionale des Hauts-de-France",
+        "debut": 2022,
+        "fin": null,
+        "libelle": "Secrétaire nationale des Écologistes",
         "source": {
-          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
-          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "titre": "Wikidata",
           "type": "encyclopedie",
-          "date": "2026-10-04"
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q29917987"
+        }
+      },
+      {
+        "debut": 2021,
+        "fin": null,
+        "libelle": "Conseillère régionale des Hauts-de-France",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q29917987"
         }
       }
     ],
@@ -2653,6 +5767,41 @@
       "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
       "source_url": "https://commons.wikimedia.org/wiki/File:20210819_tondelier.m-cr3.jpg",
       "description": "Portrait de Marine Tondelier"
+    },
+    "biographie": {
+      "naissance": {
+        "date": "1986-08-23",
+        "annee": 1986,
+        "lieu": "Bois-Bernard",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q29917987"
+        }
+      },
+      "formations": [
+        {
+          "libelle": "Institut d’études politiques de Lille",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q29917987"
+          }
+        }
+      ],
+      "metiers": [],
+      "situation": {
+        "libelle": "Secrétaire nationale des Écologistes et conseillère régionale des Hauts-de-France",
+        "annee": 2026,
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
     }
   },
   {
@@ -2670,13 +5819,91 @@
     },
     "parcours": [
       {
-        "annee": 2026,
-        "libelle": "Ancien Premier ministre, ancien ministre d'État chargé des Outre-mer",
+        "debut": 2024,
+        "fin": 2025,
+        "libelle": "Ministre des Outre-mer",
         "source": {
-          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
-          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "titre": "Wikidata",
           "type": "encyclopedie",
-          "date": "2026-10-04"
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q10287"
+        }
+      },
+      {
+        "debut": 2019,
+        "fin": 2021,
+        "libelle": "Conseiller municipal de Barcelone",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q10287"
+        }
+      },
+      {
+        "debut": 2017,
+        "fin": 2018,
+        "libelle": "Député de la première circonscription de l'Essonne",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q10287"
+        }
+      },
+      {
+        "debut": 2014,
+        "fin": 2016,
+        "libelle": "Premier ministre",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q10287"
+        }
+      },
+      {
+        "debut": 2012,
+        "fin": 2014,
+        "libelle": "Ministre de l'Intérieur",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q10287"
+        }
+      },
+      {
+        "debut": 2002,
+        "fin": 2012,
+        "libelle": "Député de la première circonscription de l'Essonne",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q10287"
+        }
+      },
+      {
+        "debut": 2001,
+        "fin": 2012,
+        "libelle": "Maire d'Évry",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q10287"
+        }
+      },
+      {
+        "debut": 1986,
+        "fin": 2002,
+        "libelle": "Conseiller régional d'Île-de-France",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q10287"
         }
       }
     ],
@@ -2691,6 +5918,41 @@
       "licence_url": "https://creativecommons.org/licenses/by/4.0",
       "source_url": "https://commons.wikimedia.org/wiki/File:Manuel_Valls_2025_(cropped).jpg",
       "description": "Portrait de Manuel Valls"
+    },
+    "biographie": {
+      "naissance": {
+        "date": "1962-08-13",
+        "annee": 1962,
+        "lieu": "Horta",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q10287"
+        }
+      },
+      "formations": [
+        {
+          "libelle": "Université Paris-I-Panthéon-Sorbonne",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q10287"
+          }
+        }
+      ],
+      "metiers": [],
+      "situation": {
+        "libelle": "Ancien Premier ministre, ancien ministre d'État chargé des Outre-mer",
+        "annee": 2026,
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
     }
   },
   {
@@ -2708,13 +5970,47 @@
     },
     "parcours": [
       {
-        "annee": 2026,
-        "libelle": "Ancien Premier ministre, président d'honneur de La France humaniste",
+        "debut": 2005,
+        "fin": 2007,
+        "libelle": "Premier ministre",
         "source": {
-          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
-          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "titre": "Wikidata",
           "type": "encyclopedie",
-          "date": "2026-10-04"
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q131660"
+        }
+      },
+      {
+        "debut": 2004,
+        "fin": 2005,
+        "libelle": "Ministre de l'Intérieur",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q131660"
+        }
+      },
+      {
+        "debut": 2002,
+        "fin": 2004,
+        "libelle": "Ministre des Affaires étrangères",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q131660"
+        }
+      },
+      {
+        "debut": 1995,
+        "fin": 2002,
+        "libelle": "Secrétaire général de la présidence de la République",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q131660"
         }
       }
     ],
@@ -2739,6 +6035,114 @@
       "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
       "source_url": "https://commons.wikimedia.org/wiki/File:Dominique_de_Villepin_20100330_Salon_du_livre_de_Paris_2_cropped.jpg",
       "description": "Portrait de Dominique de Villepin"
+    },
+    "biographie": {
+      "naissance": {
+        "date": "1953-11-14",
+        "annee": 1953,
+        "lieu": "Rabat",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q131660"
+        }
+      },
+      "formations": [
+        {
+          "libelle": "Institut d'études politiques de Paris",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q131660"
+          }
+        },
+        {
+          "libelle": "Université de Paris",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q131660"
+          }
+        },
+        {
+          "libelle": "École nationale d'administration",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q131660"
+          }
+        },
+        {
+          "libelle": "Université Paris-Nanterre",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q131660"
+          }
+        },
+        {
+          "libelle": "Université Paris-Panthéon-Assas",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q131660"
+          }
+        }
+      ],
+      "metiers": [
+        {
+          "libelle": "Diplomate",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q131660"
+          }
+        },
+        {
+          "libelle": "Écrivain",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q131660"
+          }
+        },
+        {
+          "libelle": "Avocat",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q131660"
+          }
+        },
+        {
+          "libelle": "Galeriste",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q131660"
+          }
+        }
+      ],
+      "situation": {
+        "libelle": "Ancien Premier ministre, président d'honneur de La France humaniste",
+        "annee": 2026,
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
     }
   },
   {
@@ -2756,13 +6160,124 @@
     },
     "parcours": [
       {
-        "annee": 2026,
-        "libelle": "Ancien président du conseil général de la Vendée et ancien député européen",
+        "debut": 2004,
+        "fin": 2014,
+        "libelle": "Député européen",
         "source": {
-          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
-          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "titre": "Wikidata",
           "type": "encyclopedie",
-          "date": "2026-10-04"
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q704846"
+        }
+      },
+      {
+        "debut": 1999,
+        "fin": 1999,
+        "libelle": "Député européen",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q704846"
+        }
+      },
+      {
+        "debut": 1997,
+        "fin": 2004,
+        "libelle": "Député de la quatrième circonscription de la Vendée",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q704846"
+        }
+      },
+      {
+        "debut": 1994,
+        "fin": 1997,
+        "libelle": "Député européen",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q704846"
+        }
+      },
+      {
+        "debut": 1994,
+        "fin": 2018,
+        "libelle": "Président (Mouvement pour la France)",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q704846"
+        }
+      },
+      {
+        "debut": 1988,
+        "fin": 1994,
+        "libelle": "Député de la quatrième circonscription de la Vendée",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q704846"
+        }
+      },
+      {
+        "debut": 1987,
+        "fin": 2010,
+        "libelle": "Conseiller général de la Vendée",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q704846"
+        }
+      },
+      {
+        "debut": 1987,
+        "fin": 1988,
+        "libelle": "Député de la circonscription de la Vendée de 1986 à 1988",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q704846"
+        }
+      },
+      {
+        "debut": 1981,
+        "fin": 1984,
+        "libelle": "Délégué général (chambre de commerce et d'industrie des Pays de la Loire)",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q704846"
+        }
+      },
+      {
+        "debut": 1979,
+        "fin": 1981,
+        "libelle": "Sous-préfet de Vendôme",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q704846"
+        }
+      },
+      {
+        "debut": 1978,
+        "fin": null,
+        "libelle": "Directeur de cabinet (préfet de la Charente-Maritime)",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q704846"
         }
       }
     ],
@@ -2777,6 +6292,87 @@
       "licence_url": "https://www.europarl.europa.eu/legal-notice/",
       "source_url": "https://commons.wikimedia.org/wiki/File:DE_VILLIERS_Philippe_MEP.jpg",
       "description": "Portrait de Philippe de Villiers"
+    },
+    "biographie": {
+      "naissance": {
+        "date": "1949-03-25",
+        "annee": 1949,
+        "lieu": "Boulogne",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q704846"
+        }
+      },
+      "formations": [
+        {
+          "libelle": "École nationale d'administration",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q704846"
+          }
+        },
+        {
+          "libelle": "Institut d'études politiques de Paris",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q704846"
+          }
+        },
+        {
+          "libelle": "Faculté de droit de Nantes",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q704846"
+          }
+        }
+      ],
+      "metiers": [
+        {
+          "libelle": "Fonctionnaire",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q704846"
+          }
+        },
+        {
+          "libelle": "Essayiste",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q704846"
+          }
+        },
+        {
+          "libelle": "Écrivain",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q704846"
+          }
+        }
+      ],
+      "situation": {
+        "libelle": "Ancien président du conseil général de la Vendée et ancien député européen",
+        "annee": 2026,
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
     }
   },
   {
@@ -2794,13 +6390,14 @@
     },
     "parcours": [
       {
-        "annee": 2026,
-        "libelle": "Président de Reconquête",
+        "debut": 2021,
+        "fin": null,
+        "libelle": "Président (Reconquête)",
         "source": {
-          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
-          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "titre": "Wikidata",
           "type": "encyclopedie",
-          "date": "2026-10-04"
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q288477"
         }
       }
     ],
@@ -2825,6 +6422,78 @@
       "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "source_url": "https://commons.wikimedia.org/wiki/File:Portrait_d%27%C3%89ric_Zemmour,_avril_2022.jpg",
       "description": "Portrait de Éric Zemmour"
+    },
+    "biographie": {
+      "naissance": {
+        "date": "1958-08-31",
+        "annee": 1958,
+        "lieu": "Montreuil",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q288477"
+        }
+      },
+      "formations": [
+        {
+          "libelle": "Institut d'études politiques de Paris",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q288477"
+          }
+        }
+      ],
+      "metiers": [
+        {
+          "libelle": "Écrivain",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q288477"
+          }
+        },
+        {
+          "libelle": "Éditorialiste",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q288477"
+          }
+        },
+        {
+          "libelle": "Journaliste",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q288477"
+          }
+        },
+        {
+          "libelle": "Chroniqueur de presse",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q288477"
+          }
+        }
+      ],
+      "situation": {
+        "libelle": "Président de Reconquête",
+        "annee": 2026,
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
     }
   },
   {
@@ -2842,13 +6511,25 @@
     },
     "parcours": [
       {
-        "annee": 2026,
-        "libelle": "Députée de la Seine-Saint-Denis",
+        "debut": 2017,
+        "fin": null,
+        "libelle": "Députée de la onzième circonscription de la Seine-Saint-Denis",
         "source": {
-          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
-          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "titre": "Wikidata",
           "type": "encyclopedie",
-          "date": "2026-10-04"
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q2980738"
+        }
+      },
+      {
+        "debut": 2015,
+        "fin": 2017,
+        "libelle": "Conseillère régionale d'Île-de-France",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q2980738"
         }
       }
     ],
@@ -2873,6 +6554,78 @@
       "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
       "source_url": "https://commons.wikimedia.org/wiki/File:20210821_autin.c_6679_(cropped).jpg",
       "description": "Portrait de Clémentine Autain"
+    },
+    "biographie": {
+      "naissance": {
+        "date": "1973-05-26",
+        "annee": 1973,
+        "lieu": "Saint-Cloud",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q2980738"
+        }
+      },
+      "formations": [
+        {
+          "libelle": "Université Paris-VIII",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q2980738"
+          }
+        }
+      ],
+      "metiers": [
+        {
+          "libelle": "Journaliste",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q2980738"
+          }
+        },
+        {
+          "libelle": "Écrivaine",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q2980738"
+          }
+        },
+        {
+          "libelle": "Historienne",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q2980738"
+          }
+        },
+        {
+          "libelle": "Actrice",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q2980738"
+          }
+        }
+      ],
+      "situation": {
+        "libelle": "Députée de la Seine-Saint-Denis",
+        "annee": 2026,
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
     }
   },
   {
@@ -2890,13 +6643,14 @@
     },
     "parcours": [
       {
-        "annee": 2026,
-        "libelle": "Député des Yvelines",
+        "debut": 2022,
+        "fin": null,
+        "libelle": "Député de la huitième circonscription des Yvelines",
         "source": {
-          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
-          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "titre": "Wikidata",
           "type": "encyclopedie",
-          "date": "2026-10-04"
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q26214575"
         }
       }
     ],
@@ -2921,6 +6675,41 @@
       "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
       "source_url": "https://commons.wikimedia.org/wiki/File:20210819_lucas.benjamin_5936.jpg",
       "description": "Portrait de Benjamin Lucas-Lundy"
+    },
+    "biographie": {
+      "naissance": {
+        "date": "1990-10-08",
+        "annee": 1990,
+        "lieu": "Amiens",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q26214575"
+        }
+      },
+      "formations": [
+        {
+          "libelle": "Université de Picardie Jules-Verne",
+          "source": {
+            "titre": "Wikidata",
+            "type": "encyclopedie",
+            "date": "2026-10-10",
+            "url": "https://www.wikidata.org/wiki/Q26214575"
+          }
+        }
+      ],
+      "metiers": [],
+      "situation": {
+        "libelle": "Député des Yvelines",
+        "annee": 2026,
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
     }
   },
   {
@@ -2938,13 +6727,36 @@
     },
     "parcours": [
       {
-        "annee": 2026,
-        "libelle": "Co-porte-parole de Régions et peuples solidaires",
+        "debut": 2026,
+        "fin": null,
+        "libelle": "Conseillère municipale de Pontivy",
         "source": {
-          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
-          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "titre": "Wikidata",
           "type": "encyclopedie",
-          "date": "2026-10-04"
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q122803246"
+        }
+      },
+      {
+        "debut": 2023,
+        "fin": 2024,
+        "libelle": "Députée européenne",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q122803246"
+        }
+      },
+      {
+        "debut": 2019,
+        "fin": 2023,
+        "libelle": "Porte-parole (Union démocratique bretonne)",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q122803246"
         }
       }
     ],
@@ -2969,6 +6781,31 @@
       "licence_url": null,
       "source_url": "https://commons.wikimedia.org/wiki/File:Member_of_the_European_Parliament_for_France_Lydie_Massard.jpg",
       "description": "Portrait de Lydie Massard"
+    },
+    "biographie": {
+      "naissance": {
+        "date": "1978-08-24",
+        "annee": 1978,
+        "lieu": "Saint-Brieuc",
+        "source": {
+          "titre": "Wikidata",
+          "type": "encyclopedie",
+          "date": "2026-10-10",
+          "url": "https://www.wikidata.org/wiki/Q122803246"
+        }
+      },
+      "formations": [],
+      "metiers": [],
+      "situation": {
+        "libelle": "Co-porte-parole de Régions et peuples solidaires",
+        "annee": 2026,
+        "source": {
+          "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+          "titre": "Candidatures à l'élection présidentielle française de 2027",
+          "type": "encyclopedie",
+          "date": "2026-10-04"
+        }
+      }
     }
   }
 ]

@@ -11,6 +11,8 @@ import CreditPhoto from '@/components/CreditPhoto';
 import PastilleParti from '@/components/PastilleParti';
 import PortraitCandidat from '@/components/PortraitCandidat';
 import PositionNonCommuniquee from '@/components/PositionNonCommuniquee';
+import ParcoursCandidat from '@/components/ParcoursCandidat';
+import Reperes from '@/components/Reperes';
 import { candidats, getCandidat, getParti, propositionsDuCandidat, themes } from '@/lib/data';
 import { formaterDate, nomComplet } from '@/lib/format';
 
@@ -99,6 +101,13 @@ export default async function PageCandidat({ params }: { params: Promise<{ slug:
         )}
       </header>
 
+      <section aria-labelledby="reperes" className="space-y-3">
+        <h2 id="reperes" className="text-lg font-semibold">
+          Repères
+        </h2>
+        <Reperes biographie={candidat.biographie} reference={candidat.derniere_verification} />
+      </section>
+
       {candidat.precisions.length > 0 && (
         <section aria-labelledby="precisions" className="space-y-3">
           <h2 id="precisions" className="text-lg font-semibold">
@@ -124,23 +133,7 @@ export default async function PageCandidat({ params }: { params: Promise<{ slug:
         <h2 id="parcours" className="text-lg font-semibold">
           Parcours
         </h2>
-        {candidat.parcours.length === 0 ? (
-          <p className="text-sm text-stone-600 dark:text-stone-400">
-            Aucun jalon sourcé n’est renseigné à ce stade.
-          </p>
-        ) : (
-          <ul className="space-y-3">
-            {candidat.parcours.map((jalon) => (
-              <li key={`${jalon.annee}-${jalon.libelle}`} className="flex gap-3 text-sm">
-                <span className="w-12 shrink-0 tabular-nums font-medium">{jalon.annee}</span>
-                <span className="space-y-1">
-                  <span className="block text-stone-700 dark:text-stone-300">{jalon.libelle}</span>
-                  {jalon.source !== null && <LienSource source={jalon.source} />}
-                </span>
-              </li>
-            ))}
-          </ul>
-        )}
+        <ParcoursCandidat jalons={candidat.parcours} />
       </section>
 
       <section aria-labelledby="soutiens" className="space-y-3">

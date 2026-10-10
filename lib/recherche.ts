@@ -44,7 +44,22 @@ export function construireIndex(
       titre: nomComplet(c),
       sousTitre: p ? `${p.nom} (${p.sigle})` : 'Sans étiquette',
       lien: `/candidats/${c.id}/`,
-      texte: normaliser([nomComplet(c), p?.nom, p?.sigle].filter(Boolean).join(' ')),
+      // Le parcours entre dans l'index sans être affiché en résultat : on
+      // retrouve ainsi un candidat par une commune, une école ou un ministère.
+      texte: normaliser(
+        [
+          nomComplet(c),
+          p?.nom,
+          p?.sigle,
+          c.biographie.naissance?.lieu,
+          ...c.biographie.formations.map((f) => f.libelle),
+          ...c.biographie.metiers.map((m) => m.libelle),
+          c.biographie.situation?.libelle,
+          ...c.parcours.map((j) => j.libelle),
+        ]
+          .filter(Boolean)
+          .join(' '),
+      ),
     });
   }
 

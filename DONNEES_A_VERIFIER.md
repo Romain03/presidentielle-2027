@@ -94,6 +94,36 @@ d'origine** - Wikipédia les référence toutes.
 
 Exceptions déjà sourcées à la presse : Marine Le Pen, Bruno Retailleau.
 
+### Les parcours viennent de Wikidata
+Les 183 jalons de parcours, les dates de naissance, les études et les métiers
+sont repris de Wikidata (type de source : *Encyclopédie*), par le script
+`scripts/recuperer-parcours.py`. C'est une source secondaire, et elle est
+inégale :
+
+- les dates les plus anciennes sont souvent réduites à l'année ;
+- quelques dates sont visiblement incomplètes. **Dominique de Villepin**
+  apparaît ministre des Affaires étrangères « 2002-2002 » alors qu'il l'a été
+  jusqu'en 2004 : la revendication Wikidata porte une date de fin erronée ;
+- trois fonctions sont écartées faute de date de début : un mandat de
+  conseillère régionale de **Ségolène Royal**, et les mandats de conseiller
+  municipal de **Xavier Bertrand** (Saint-Quentin) et **Édouard Philippe**
+  (Le Havre) ;
+- une fonction de **Raphaël Glucksmann** (« conseiller », 2005) est écartée :
+  son intitulé Wikidata ne dit ni de quoi ni auprès de qui.
+
+**Les mandats parlementaires devraient être re-sourcés** aux fiches de
+l'Assemblée nationale et du Sénat, les fonctions gouvernementales au Journal
+officiel. Le script relancé écrasera ces corrections : il faudra alors les
+porter dans une table de saisie manuelle, comme pour les partis.
+
+### Quatre candidats sans fiche Wikidata
+**Selma Labib**, **Mira Markovic**, **Benoît Mathieu** et **Manolo Mlekuz**
+n'ont aucune entité Wikidata correspondante. Leurs quatre repères
+biographiques s'affichent « Non renseigné ». Seule leur fonction du moment,
+saisie à la main, est connue. Trois autres candidats - **Sylvain Durif**,
+**Anasse Kazib**, **Francis Lalanne** - ont une fiche mais n'ont jamais exercé
+de mandat : leur parcours est vide, ce qui est exact.
+
 ### Les soutiens aussi
 Les 121 soutiens enregistrés proviennent de la même page. Wikipédia renvoie une
 référence distincte pour chaque nom : **chacune devrait remplacer la source
@@ -241,6 +271,9 @@ exécution, donc une requalification serait détectée.
   et le PS.
 - `liens_officiels` n'est renseigné que pour trois candidats ; les sites de
   campagne des autres n'ont pas été vérifiés un par un.
+- `biographie.naissance` est `null` pour **4 candidats sur 44**, et
+  `biographie.metiers` est vide pour ceux dont Wikidata ne liste que des
+  catégories statistiques ou des fonctions politiques.
 
 ### Dates de statut manquantes
 `statut_date` est `null` pour les dix pressentis - par construction, ils n'ont

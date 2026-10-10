@@ -1,5 +1,13 @@
 import { describe, expect, it } from 'vitest';
-import { Candidat, Parti, Proposition, Source, Theme } from '@/lib/schemas';
+import {
+  Biographie,
+  Candidat,
+  Jalon,
+  Parti,
+  Proposition,
+  Source,
+  Theme,
+} from '@/lib/schemas';
 
 const sourceValide = {
   url: 'https://exemple.fr/article',
@@ -248,5 +256,70 @@ describe('Parti', () => {
 describe('Theme', () => {
   it('exige une description', () => {
     expect(Theme.safeParse({ id: 'retraites', libelle: 'Retraites' }).success).toBe(false);
+  });
+});
+
+describe('Jalon de parcours', () => {
+  const jalon = {
+    debut: 2012,
+    fin: 2017,
+    libelle: 'Président de la République française',
+    source: sourceValide,
+  };
+
+  it('accepte une fonction achevée', () => {
+    expect(Jalon.safeParse(jalon).success).toBe(true);
+  });
+
+  it('accepte une fonction toujours exercée', () => {
+    expect(Jalon.safeParse({ ...jalon, fin: null }).success).toBe(true);
+  });
+
+  it('refuse une fin antérieure au début', () => {
+    expect(Jalon.safeParse({ ...jalon, debut: 2017, fin: 2012 }).success).toBe(false);
+  });
+
+  it('refuse un jalon sans source : un mandat non sourcé ne vaut rien', () => {
+    const { source, ...sansSource } = jalon;
+    expect(Jalon.safeParse(sansSource).success).toBe(false);
+  });
+});
+
+describe('Biographie', () => {
+  const biographie = {
+    naissance: { date: '1954-08-12', annee: 1954, lieu: 'Rouen', source: sourceValide },
+    formations: [{ libelle: 'École nationale d’administration', source: sourceValide }],
+    metiers: [{ libelle: 'Magistrat', source: sourceValide }],
+    situation: { libelle: 'Député de la Corrèze', annee: 2026, source: sourceValide },
+  };
+
+  it('accepte une biographie complète', () => {
+    expect(Biographie.safeParse(biographie).success).toBe(true);
+  });
+
+  it('accepte une biographie entièrement vide : la structure reste la même', () => {
+    const resultat = Biographie.safeParse({
+      naissance: null,
+      formations: [],
+      metiers: [],
+      situation: null,
+    });
+    expect(resultat.success).toBe(true);
+  });
+
+  it('accepte une naissance dont seule l’année est connue', () => {
+    const resultat = Biographie.safeParse({
+      ...biographie,
+      naissance: { date: null, annee: 1987, lieu: 'Sarcelles', source: sourceValide },
+    });
+    expect(resultat.success).toBe(true);
+  });
+
+  it('refuse un fait biographique sans source', () => {
+    const resultat = Biographie.safeParse({
+      ...biographie,
+      formations: [{ libelle: 'Une école' }],
+    });
+    expect(resultat.success).toBe(false);
   });
 });

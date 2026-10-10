@@ -46,3 +46,26 @@ export function normaliser(texte: string): string {
 export function pluriel(n: number, singulier: string, pluriel: string): string {
   return n <= 1 ? singulier : pluriel;
 }
+
+/**
+ * Période d'un jalon de parcours : « depuis 2024 », « 2012-2017 », « 1999 ».
+ * Le tiret reste un tiret du 6, comme partout sur le site.
+ */
+export function periode(debut: number, fin: number | null): string {
+  if (fin === null) return `depuis ${debut}`;
+  if (fin === debut) return String(debut);
+  return `${debut}-${fin}`;
+}
+
+/**
+ * Âge atteint à une date donnée. La date de référence est celle de la dernière
+ * vérification des données, affichée en haut de chaque page : un âge sans date
+ * de référence vieillit en silence.
+ */
+export function age(naissance: { date: string | null; annee: number }, reference: string): number | null {
+  const [anneeRef, moisRef, jourRef] = reference.split('-').map(Number);
+  if (naissance.date === null) return null;
+  const [a, m, j] = naissance.date.split('-').map(Number);
+  const revolu = moisRef > m || (moisRef === m && jourRef >= j);
+  return anneeRef - a - (revolu ? 0 : 1);
+}

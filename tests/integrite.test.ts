@@ -85,3 +85,37 @@ describe('neutralité de présentation', () => {
     }
   });
 });
+
+describe('parcours des candidats', () => {
+  it('sont classés du plus récent au plus ancien', () => {
+    for (const candidat of candidats) {
+      const debuts = candidat.parcours.map((j) => j.debut);
+      expect(debuts).toEqual([...debuts].sort((a, b) => b - a));
+    }
+  });
+
+  it('ne contiennent pas deux fois la même fonction sur la même période', () => {
+    for (const candidat of candidats) {
+      const cles = candidat.parcours.map((j) => `${j.debut}-${j.fin}-${j.libelle}`);
+      expect(new Set(cles).size).toBe(cles.length);
+    }
+  });
+
+  it('ne commencent jamais après la dernière vérification', () => {
+    for (const candidat of candidats) {
+      const limite = Number(candidat.derniere_verification.slice(0, 4));
+      for (const jalon of candidat.parcours) {
+        expect(jalon.debut).toBeLessThanOrEqual(limite);
+      }
+    }
+  });
+
+  it('suivent une date de naissance antérieure à la première fonction', () => {
+    for (const candidat of candidats) {
+      const naissance = candidat.biographie.naissance;
+      if (naissance === null || candidat.parcours.length === 0) continue;
+      const premier = Math.min(...candidat.parcours.map((j) => j.debut));
+      expect(premier).toBeGreaterThan(naissance.annee);
+    }
+  });
+});
