@@ -262,7 +262,7 @@ export default function ComparateurInteractif({
                       {ligne.indicateurs.map((indicateur) => (
                         <tr
                           key={indicateur.libelle}
-                          className="bg-creme-ombre/60 text-xs dark:bg-nuit/40"
+                          className="bg-creme-ombre text-xs dark:bg-nuit"
                         >
                           {/* Fond opaque : une cellule figée laisse voir ce qui
                               défile dessous si elle est translucide. */}

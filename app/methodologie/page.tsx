@@ -300,6 +300,35 @@ export default function PageMethodologie() {
         </ul>
       </section>
 
+      <section aria-labelledby="positionnements" className="max-w-2xl space-y-3">
+        <h2 id="positionnements" className="text-lg font-semibold">
+          Ce que les partis disent d’eux-mêmes
+        </h2>
+        <p className="max-w-2xl text-sm leading-relaxed text-stone-700 dark:text-stone-300">
+          Chaque fiche de parti porte un extrait de la façon dont la formation se présente
+          elle-même, relevé sur son site officiel - page « Qui sommes-nous », manifeste, charte ou
+          statuts - et accompagné du lien. L’extrait n’est jamais reformulé : il est au besoin
+          raccourci, par suppression de phrases entières, jamais par réécriture.
+        </p>
+        <p className="max-w-2xl text-sm leading-relaxed text-stone-700 dark:text-stone-300">
+          C’est la seule manière que nous ayons trouvée de répondre à une question légitime - « en
+          quoi croit ce parti ? » - sans y répondre à sa place. Les caractérisations par des tiers
+          sont écartées : ni les étiquettes de la presse, ni la propriété « idéologie » de
+          Wikidata, qui engagent leur auteur et non la formation. Un parti est décrit ici par ses
+          mots, ou n’est pas décrit.
+        </p>
+        <p className="max-w-2xl text-sm leading-relaxed text-stone-700 dark:text-stone-300">
+          La page d’une famille politique rassemble ces extraits pour les formations qui la
+          composent. Elle ne les résume pas en une doctrine commune : les rapprochements que l’on
+          peut y lire sont ceux du lecteur. Sept formations sur trente-trois n’ont pas de site
+          officiel identifié et restent sans formulation.
+        </p>
+        <p className="max-w-2xl text-sm leading-relaxed text-stone-700 dark:text-stone-300">
+          Ces pages ne portent pas de date de publication. La date affichée est donc celle de la
+          consultation, comme pour les relevés Wikidata, et non celle d’une mise en ligne.
+        </p>
+      </section>
+
       <section aria-labelledby="parcours" className="max-w-2xl space-y-3">
         <h2 id="parcours" className="text-lg font-semibold">
           Repères biographiques et parcours

@@ -116,6 +116,12 @@ l'Assemblée nationale et du Sénat, les fonctions gouvernementales au Journal
 officiel. Le script relancé écrasera ces corrections : il faudra alors les
 porter dans une table de saisie manuelle, comme pour les partis.
 
+### Un site officiel erroné, corrigé
+L'adresse enregistrée pour **Place publique** était `placepublique.eu`, un
+domaine stationné qui n'appartient plus au parti. Le site réel porte un trait
+d'union : `place-publique.eu`. Les autres adresses mériteraient une
+vérification du même ordre.
+
 ### Quatre candidats sans fiche Wikidata
 **Selma Labib**, **Mira Markovic**, **Benoît Mathieu** et **Manolo Mlekuz**
 n'ont aucune entité Wikidata correspondante. Leurs quatre repères
@@ -265,8 +271,17 @@ exécution, donc une requalification serait détectée.
 ### Champs non renseignés
 - `soutiens` est renseigné pour **11 candidats sur 44** (121 noms). Les 33 autres
   n'en ont aucun : soit aucun soutien n'est documenté, soit il n'a pas été relevé.
-- `positionnement_declare` est `null` pour les 33 partis : aucune formulation
-  d'un parti sur lui-même n'a été trouvée et sourcée.
+- `positionnement_declare` est renseigné pour **26 partis sur 33**, relevé à la
+  main sur leur site officiel. Les sept autres - Droite souverainiste, Elvita,
+  France Libre, La France humaniste, NPA - Révolutionnaires, Nous France,
+  Trajectoire - n'ont pas de site officiel identifié.
+- Ces pages de présentation ne portent **aucune date de publication** : la date
+  enregistrée est celle de la consultation, comme pour les relevés Wikidata.
+  C'est un écart assumé au sens du champ `date`, qui désigne ailleurs la date
+  de publication.
+- Les extraits sont relevés à la main et devront être **revérifiés
+  périodiquement** : un parti qui refond son site rendra le lien caduc sans
+  que rien ne le signale.
 - `processus_designation` n'est renseigné que pour LR, le PCF, Les Écologistes
   et le PS.
 - `liens_officiels` n'est renseigné que pour trois candidats ; les sites de

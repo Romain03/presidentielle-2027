@@ -110,6 +110,67 @@ export default async function PageFamille({ params }: { params: Promise<{ slug: 
         </ul>
       </section>
 
+      {/*
+        Ce que les partis disent d'eux-mêmes, et rien d'autre. Résumer une
+        famille en une doctrine reviendrait à écrire à la place de ses membres,
+        qui ne sont d'accord ni entre eux ni forcément avec le regroupement.
+      */}
+      {(() => {
+        const declares = f.partis.filter((parti) => parti.positionnement_declare !== null);
+        const muets = f.partis.length - declares.length;
+        return (
+          <section aria-labelledby="positionnements" className="space-y-3">
+            <h2 id="positionnements" className="text-xl font-semibold">
+              Ce que ces partis disent d’eux-mêmes
+            </h2>
+            {declares.length === 0 ? (
+              <p className="max-w-2xl text-sm text-stone-600 dark:text-stone-400">
+                Aucune formulation d’un de ces partis sur lui-même n’a été relevée et sourcée à ce
+                stade.
+              </p>
+            ) : (
+              <>
+                <p className="max-w-2xl text-sm text-stone-600 dark:text-stone-400">
+                  Chaque extrait est repris mot pour mot du site de la formation. Les
+                  rapprochements que l’on peut y lire sont ceux du lecteur, pas ceux du site.
+                </p>
+                <ul className="space-y-3">
+                  {declares.map((parti) => (
+                    <li key={parti.id} className="carte relative overflow-hidden p-4">
+                      <span
+                        aria-hidden="true"
+                        className="absolute inset-y-0 left-0 w-1"
+                        style={{ backgroundColor: parti.couleur }}
+                      />
+                      <div className="space-y-1.5 pl-2.5">
+                        <Link href={`/partis/${parti.id}/`} className="lien text-sm font-medium">
+                          {parti.nom} ({parti.sigle})
+                        </Link>
+                        <blockquote className="font-serif text-base italic leading-relaxed text-stone-800 dark:text-stone-200">
+                          «&nbsp;{parti.positionnement_declare!.texte}&nbsp;»
+                        </blockquote>
+                        <LienSource source={parti.positionnement_declare!.source} />
+                      </div>
+                    </li>
+                  ))}
+                </ul>
+                {muets > 0 && (
+                  <p className="text-sm text-stone-600 dark:text-stone-400">
+                    {muets}{' '}
+                    {pluriel(
+                      muets,
+                      'autre parti de cette famille n’a pas de formulation relevée',
+                      'autres partis de cette famille n’ont pas de formulation relevée',
+                    )}
+                    .
+                  </p>
+                )}
+              </>
+            )}
+          </section>
+        );
+      })()}
+
       {f.candidats.length > 0 && (
         <section aria-labelledby="candidats" className="space-y-3">
           <h2 id="candidats" className="text-xl font-semibold">

@@ -268,6 +268,34 @@ Les positions évoluent. Reprendre chaque source, mettre `derniere_verification`
 
 ---
 
+## Ce que les partis disent d'eux-mêmes
+
+Chaque fiche de parti porte un extrait de la façon dont la formation se
+présente elle-même, relevé sur son site officiel - « Qui sommes-nous »,
+manifeste, charte ou statuts - avec le lien. 26 partis sur 33 en ont un ; les
+sept autres n'ont pas de site officiel identifié.
+
+Les textes sont dans `scripts/positionnements.json` et appliqués par
+`python3 scripts/appliquer-positionnements.py`. Le relevé est **manuel**, et
+c'est délibéré : il n'existe pas de page normalisée où lire cela. Chaque site
+place sa présentation ailleurs, la plupart des accueils sont des fils
+d'actualité, et un script qui devinerait la bonne phrase se tromperait
+souvent. Se tromper ici revient à faire dire à un parti ce qu'il n'a pas dit.
+
+Un extrait n'est jamais reformulé : il est au besoin raccourci, par
+suppression de phrases entières, jamais par réécriture.
+
+Ce que le site continue de ne pas reprendre : les caractérisations par des
+tiers. Ni les étiquettes de la presse, ni la propriété « idéologie » de
+Wikidata. Un parti est décrit par ses mots, ou n'est pas décrit.
+
+La page d'une famille politique rassemble les extraits des formations qui la
+composent, sans les résumer en une doctrine commune - l'appartenance à une
+famille n'implique aucun accord entre ses membres, et la famille est une
+convention de ce site, pas une organisation.
+
+---
+
 ## Parcours des candidats
 
 Chaque fiche de candidat ouvre sur quatre repères identiques pour tout le

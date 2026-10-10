@@ -50,6 +50,14 @@ export default function PagePartis() {
                     {parti.dirigeant.fonction} : {parti.dirigeant.nom}
                   </span>
                 )}
+
+                {/* Les premiers mots du parti sur lui-même, pour parcourir la
+                    liste sans ouvrir chaque fiche. La suite est sur la fiche. */}
+                {parti.positionnement_declare !== null && (
+                  <span className="mt-2 block border-l-2 border-stone-900/15 pl-2.5 font-serif text-sm italic leading-snug text-stone-700 line-clamp-3 dark:border-white/20 dark:text-stone-300">
+                    «&nbsp;{parti.positionnement_declare.texte}&nbsp;»
+                  </span>
+                )}
                 <span className="mt-2 block space-y-1">
                   {candidats.length === 0 ? (
                     <span className="text-sm text-stone-600 dark:text-stone-400">

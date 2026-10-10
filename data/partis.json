@@ -6,7 +6,15 @@
     "couleur": "#e8562a",
     "famille": "gauche",
     "nuance_ministerielle": null,
-    "positionnement_declare": null,
+    "positionnement_declare": {
+      "texte": "Debout ! est une force collective qui n’exclut pas mais qui rassemble : des élus locaux, nationaux, des militantes et militants, des syndicalistes, des travailleuses et travailleurs, des intellectuels, des expertes et experts qui tous, toutes, partagent une démarche, une ligne, une culture politique, des pratiques et méthodes militantes tournées vers les gens.",
+      "source": {
+        "url": "https://debout.fr/notre-mouvement/",
+        "titre": "Notre mouvement - Debout !",
+        "type": "site-de-parti",
+        "date": "2026-10-10"
+      }
+    },
     "site_officiel": "https://www.debout.fr/",
     "processus_designation": null,
     "derniere_verification": "2026-10-09",
@@ -40,7 +48,15 @@
       "code": "DSV",
       "libelle": "Droite souverainiste"
     },
-    "positionnement_declare": null,
+    "positionnement_declare": {
+      "texte": "Retrouvez notre projet, nos idées pour permettre de retrouver l’indépendance de la France et la liberté des Français.",
+      "source": {
+        "url": "https://www.debout-la-france.fr/notre-projet/",
+        "titre": "Notre projet - Debout la France",
+        "type": "site-de-parti",
+        "date": "2026-10-10"
+      }
+    },
     "site_officiel": "https://debout-la-france.fr",
     "processus_designation": null,
     "derniere_verification": "2026-10-09",
@@ -116,7 +132,15 @@
     "couleur": "#c4152f",
     "famille": "gauche",
     "nuance_ministerielle": null,
-    "positionnement_declare": null,
+    "positionnement_declare": {
+      "texte": "La Gauche Républicaine et Socialiste défend dès son origine une gauche rassemblée dans un Nouveau Front Populaire, pour l’écosocialisme, une Europe au service des peuples et l’affirmation des principes de Liberté, d’Égalité, de Fraternité et de Laïcité.",
+      "source": {
+        "url": "https://g-r-s.fr",
+        "titre": "Gauche républicaine et socialiste",
+        "type": "site-de-parti",
+        "date": "2026-10-10"
+      }
+    },
     "site_officiel": "https://g-r-s.fr",
     "processus_designation": null,
     "derniere_verification": "2026-10-09",
@@ -147,7 +171,15 @@
     "couleur": "#7fbf3f",
     "famille": "ecologistes",
     "nuance_ministerielle": null,
-    "positionnement_declare": null,
+    "positionnement_declare": {
+      "texte": "Génération Écologie est le parti de toutes celles et tous ceux qui défendent le climat, la nature, le vivant, la santé, les solidarités concrètes, les liens humains et les biens communs.",
+      "source": {
+        "url": "https://www.generationecologie.fr/a-propos/generation-ecologie/qui-sommes-nous/",
+        "titre": "Qui sommes-nous ? - Génération Écologie",
+        "type": "site-de-parti",
+        "date": "2026-10-10"
+      }
+    },
     "site_officiel": "https://www.generationecologie.fr/",
     "processus_designation": null,
     "derniere_verification": "2026-10-09",
@@ -178,7 +210,15 @@
     "couleur": "#e35c99",
     "famille": "gauche",
     "nuance_ministerielle": null,
-    "positionnement_declare": null,
+    "positionnement_declare": {
+      "texte": "Génération·s est le mouvement du futur désirable, pour porter des solutions aux urgences du présent et aux défis de l’avenir. Génération·s défend un projet d’espoir et de transformation radicale de la société, qui fait de la devise républicaine un programme vivant.",
+      "source": {
+        "url": "https://www.generation-s.fr/",
+        "titre": "Génération·s",
+        "type": "site-de-parti",
+        "date": "2026-10-10"
+      }
+    },
     "site_officiel": "https://www.generation-s.fr/",
     "processus_designation": null,
     "derniere_verification": "2026-10-09",
@@ -200,7 +240,15 @@
     "couleur": "#1f6f8b",
     "famille": "centre",
     "nuance_ministerielle": null,
-    "positionnement_declare": null,
+    "positionnement_declare": {
+      "texte": "Soucieux avant tout de l’intérêt général, nous croyons au dépassement des clivages artificiels et au rassemblement de toutes les bonnes volontés au service du pays, dans le respect des différences et des sensibilités.",
+      "source": {
+        "url": "https://horizonsleparti.fr/le-manifeste/",
+        "titre": "Le Manifeste - Horizons",
+        "type": "site-de-parti",
+        "date": "2026-10-10"
+      }
+    },
     "site_officiel": "https://horizonsleparti.fr",
     "processus_designation": null,
     "derniere_verification": "2026-10-09",
@@ -231,7 +279,15 @@
     "couleur": "#d98ba0",
     "famille": "gauche",
     "nuance_ministerielle": null,
-    "positionnement_declare": null,
+    "positionnement_declare": {
+      "texte": "Lancé à l’initiative de Bernard Cazeneuve en mars 2023, notre mouvement - La Convention - a vocation à rassembler des femmes et des hommes qui souhaitent construire, pour notre pays, un projet social-démocrate, républicain, humaniste et écologique.",
+      "source": {
+        "url": "https://www.la-convention.fr/",
+        "titre": "La Convention",
+        "type": "site-de-parti",
+        "date": "2026-10-10"
+      }
+    },
     "site_officiel": "https://www.la-convention.fr/",
     "processus_designation": null,
     "derniere_verification": "2026-10-09",
@@ -270,7 +326,15 @@
       "code": "FI",
       "libelle": "La France insoumise"
     },
-    "positionnement_declare": null,
+    "positionnement_declare": {
+      "texte": "La France insoumise est un mouvement réseau. Elle fédère des groupes d’action qui se constituent par la volonté des insoumis·es et disposent d’une autonomie d’action dans le respect du programme L’Avenir en commun.",
+      "source": {
+        "url": "https://lafranceinsoumise.fr/groupes-action/charte-groupes-action-de-france-insoumise/",
+        "titre": "Charte des groupes d’action de la France insoumise",
+        "type": "site-de-parti",
+        "date": "2026-10-10"
+      }
+    },
     "site_officiel": "https://lafranceinsoumise.fr",
     "processus_designation": null,
     "derniere_verification": "2026-10-09",
@@ -301,7 +365,15 @@
     "couleur": "#d4446f",
     "famille": "gauche",
     "nuance_ministerielle": null,
-    "positionnement_declare": null,
+    "positionnement_declare": {
+      "texte": "L’APRÈS, c’est l’Alliance pour la République écologique et sociale, une association politique créée sous le statut de la loi 1901. Elle est un outil démocratique de réflexion, d’analyse et d’élaboration stratégique au service de l’unité de la gauche et des écologistes dans une perspective de transformation radicale de la société.",
+      "source": {
+        "url": "https://l-apres.fr/pages/6rju0u8IWfJ0wAyMYDVmoq/qui-sommes-nous",
+        "titre": "Qui sommes-nous ? - L’Après",
+        "type": "site-de-parti",
+        "date": "2026-10-10"
+      }
+    },
     "site_officiel": "https://www.l-apres.fr/",
     "processus_designation": null,
     "derniere_verification": "2026-10-09",
@@ -326,7 +398,15 @@
       "code": "VEC",
       "libelle": "Les Écologistes"
     },
-    "positionnement_declare": null,
+    "positionnement_declare": {
+      "texte": "Nous sommes des écologistes anonymes du quotidien, des activistes engagé.e.s, des syndicalistes, des militant.e.s politiques et des élu.e.s. Toutes et tous, à notre manière, nous souhaitons nous rassembler et œuvrer pour la préservation du commun, du vivant et de tout ce qui nous lie.",
+      "source": {
+        "url": "https://lesecologistes.fr/pages/5TRvjIUe0F36vhcVDHdboB/notre-mouvement",
+        "titre": "Notre mouvement - Les Écologistes",
+        "type": "site-de-parti",
+        "date": "2026-10-10"
+      }
+    },
     "site_officiel": "https://lesecologistes.fr",
     "processus_designation": {
       "type": "vote-des-adherents",
@@ -369,7 +449,15 @@
     "couleur": "#3a6ea5",
     "famille": "extreme-droite",
     "nuance_ministerielle": null,
-    "positionnement_declare": null,
+    "positionnement_declare": {
+      "texte": "Les Patriotes proposent à tous les Français, en dépassant le clivage entre droite et gauche, de se rassembler pour l’indépendance nationale, le progrès social, la solidarité et la promotion du modèle culturel français, dans la pleine application des principes de la République.",
+      "source": {
+        "url": "https://les-patriotes.fr/notre-charte-des-patriotes/",
+        "titre": "Charte des Patriotes",
+        "type": "site-de-parti",
+        "date": "2026-10-10"
+      }
+    },
     "site_officiel": "https://les-patriotes.fr",
     "processus_designation": null,
     "derniere_verification": "2026-10-09",
@@ -403,7 +491,15 @@
       "code": "LR",
       "libelle": "Les Républicains"
     },
-    "positionnement_declare": null,
+    "positionnement_declare": {
+      "texte": "Nous sommes la droite qui défend la France des honnêtes gens, celle qui travaille, respecte les règles et aspire à une société de justice et de stabilité.",
+      "source": {
+        "url": "https://republicains.fr/qui-sommes-nous/",
+        "titre": "Qui sommes-nous ? - Les Républicains",
+        "type": "site-de-parti",
+        "date": "2026-10-10"
+      }
+    },
     "site_officiel": "https://republicains.fr",
     "processus_designation": {
       "type": "vote-des-adherents",
@@ -449,7 +545,15 @@
       "code": "EXG",
       "libelle": "Extrême gauche"
     },
-    "positionnement_declare": null,
+    "positionnement_declare": {
+      "texte": "Lutte ouvrière est une libre association de femmes et d’hommes, jeunes ou anciens, travailleurs manuels ou intellectuels, qui ne se résignent pas à l’idée que le capitalisme serait le seul avenir possible pour l’humanité. Nous voulons changer le monde. Nous restons profondément convaincus que le communisme est l’avenir du genre humain.",
+      "source": {
+        "url": "https://lutte-ouvriere.org",
+        "titre": "Lutte ouvrière",
+        "type": "site-de-parti",
+        "date": "2026-10-10"
+      }
+    },
     "site_officiel": "https://lutte-ouvriere.org",
     "processus_designation": null,
     "derniere_verification": "2026-10-09",
@@ -471,7 +575,15 @@
     "couleur": "#ff9900",
     "famille": "centre",
     "nuance_ministerielle": null,
-    "positionnement_declare": null,
+    "positionnement_declare": {
+      "texte": "Depuis 2007, nous sommes le Mouvement Démocrate fondé sous l’impulsion de François Bayrou et de Marielle de Sarnez. La charte des valeurs consacre le combat européen, l’équité, la justice sociale, la décentralisation, le dialogue et la culture du compromis.",
+      "source": {
+        "url": "https://www.mouvementdemocrate.fr/qui-sommes-nous-7915",
+        "titre": "Qui sommes-nous ? - Mouvement Démocrate",
+        "type": "site-de-parti",
+        "date": "2026-10-10"
+      }
+    },
     "site_officiel": "https://mouvementdemocrate.fr",
     "processus_designation": null,
     "derniere_verification": "2026-10-09",
@@ -516,7 +628,15 @@
     "couleur": "#4a90d9",
     "famille": "droite",
     "nuance_ministerielle": null,
-    "positionnement_declare": null,
+    "positionnement_declare": {
+      "texte": "À Nouvelle Énergie, nous défendons une doctrine ordo-libérale, fondée sur la liberté et la responsabilité individuelles, dans laquelle l’État conserve une place forte, mais réduite à ses prérogatives premières. Le triptyque « Liberté, Ordre, Dignité » résume les trois grands principes et finalités du projet.",
+      "source": {
+        "url": "https://www.unenouvelleenergie.fr/notre-programme/",
+        "titre": "Notre programme - Nouvelle Énergie",
+        "type": "site-de-parti",
+        "date": "2026-10-10"
+      }
+    },
     "site_officiel": "https://www.unenouvelleenergie.fr/",
     "processus_designation": null,
     "derniere_verification": "2026-10-09",
@@ -558,7 +678,15 @@
       "code": "DIV",
       "libelle": "Divers"
     },
-    "positionnement_declare": null,
+    "positionnement_declare": {
+      "texte": "Pour le Parti animaliste, défendre les animaux est un progrès pour la France. Un progrès pour notre environnement, notre santé, et un progrès moral.",
+      "source": {
+        "url": "https://parti-animaliste.fr/news/communique-de-presse/mira-markovic-representera-le-parti-animaliste-a-la-presidentielle",
+        "titre": "Mira Markovic représentera le Parti animaliste à la présidentielle",
+        "type": "communique",
+        "date": "2026-10-10"
+      }
+    },
     "site_officiel": "https://parti-animaliste.fr",
     "processus_designation": null,
     "derniere_verification": "2026-10-09",
@@ -592,7 +720,15 @@
       "code": "COM",
       "libelle": "Parti communiste français"
     },
-    "positionnement_declare": null,
+    "positionnement_declare": {
+      "texte": "Le Parti communiste français se donne pour objectif de promouvoir la pleine autonomie et le plein épanouissement de chaque femme et homme, en faisant reculer toutes les formes sociales d’exploitation, de domination et d’aliénation.",
+      "source": {
+        "url": "https://www.pcf.fr/le_pcf",
+        "titre": "Le Parti - Parti communiste français",
+        "type": "site-de-parti",
+        "date": "2026-10-10"
+      }
+    },
     "site_officiel": "https://pcf.fr",
     "processus_designation": {
       "type": "vote-des-adherents",
@@ -629,7 +765,15 @@
       "code": "SOC",
       "libelle": "Parti socialiste"
     },
-    "positionnement_declare": null,
+    "positionnement_declare": {
+      "texte": "Depuis 1905, nous incarnons le combat historique pour la justice sociale et le progrès humain, guidé par une boussole : transformer l’idéal républicain en conquêtes sociales concrètes.",
+      "source": {
+        "url": "https://parti-socialiste.fr/notre-parti",
+        "titre": "Notre parti - Parti socialiste",
+        "type": "site-de-parti",
+        "date": "2026-10-10"
+      }
+    },
     "site_officiel": "https://parti-socialiste.fr",
     "processus_designation": {
       "type": "primaire-fermee",
@@ -675,8 +819,16 @@
     "couleur": "#b8336a",
     "famille": "gauche",
     "nuance_ministerielle": null,
-    "positionnement_declare": null,
-    "site_officiel": "https://placepublique.eu",
+    "positionnement_declare": {
+      "texte": "Place publique est un parti citoyen né des causes et de l’énergie citoyenne, qui s’engage à redonner du sens à l’engagement politique.",
+      "source": {
+        "url": "https://place-publique.eu",
+        "titre": "Place publique",
+        "type": "site-de-parti",
+        "date": "2026-10-10"
+      }
+    },
+    "site_officiel": "https://place-publique.eu",
     "processus_designation": null,
     "derniere_verification": "2026-10-09",
     "fondation": {
@@ -709,7 +861,15 @@
       "code": "RN",
       "libelle": "Rassemblement national"
     },
-    "positionnement_declare": null,
+    "positionnement_declare": {
+      "texte": "Attaché à l’égalité devant la loi de tous les citoyens français sans distinction d’origine, de race ou de religion, le Rassemblement National défend la souveraineté, l’indépendance et l’identité de la nation. Il protège le caractère indivisible, laïc, démocratique et social de la République.",
+      "source": {
+        "url": "https://rassemblementnational.fr/statuts-du-rassemblement-national",
+        "titre": "Statuts du Rassemblement National",
+        "type": "site-de-parti",
+        "date": "2026-10-10"
+      }
+    },
     "site_officiel": "https://rassemblementnational.fr",
     "processus_designation": null,
     "derniere_verification": "2026-10-09",
@@ -734,7 +894,15 @@
       "code": "REC",
       "libelle": "Reconquête"
     },
-    "positionnement_declare": null,
+    "positionnement_declare": {
+      "texte": "Quand tous les partis ne proposent que des réformettes, nous lançons une vaste entreprise de reconquête. Reconquête de notre identité, de nos libertés, de notre sécurité, de notre puissance économique, de la valeur de notre instruction et de notre indépendance.",
+      "source": {
+        "url": "https://www.parti-reconquete.fr/",
+        "titre": "Reconquête",
+        "type": "site-de-parti",
+        "date": "2026-10-10"
+      }
+    },
     "site_officiel": "https://parti-reconquete.fr",
     "processus_designation": null,
     "derniere_verification": "2026-10-09",
@@ -765,7 +933,15 @@
     "couleur": "#ffd400",
     "famille": "centre",
     "nuance_ministerielle": null,
-    "positionnement_declare": null,
+    "positionnement_declare": {
+      "texte": "Renaissance, c’est bien plus qu’un parti politique. C’est une maison de rassemblement, un lieu d’idées et d’action, fidèle à l’esprit de dépassement qui nous a unis en 2016.",
+      "source": {
+        "url": "https://parti-renaissance.fr/le-parti",
+        "titre": "Le parti - Renaissance",
+        "type": "site-de-parti",
+        "date": "2026-10-10"
+      }
+    },
     "site_officiel": "https://parti-renaissance.fr",
     "processus_designation": null,
     "derniere_verification": "2026-10-09",
@@ -796,7 +972,15 @@
     "couleur": "#8a8a8a",
     "famille": "divers",
     "nuance_ministerielle": null,
-    "positionnement_declare": null,
+    "positionnement_declare": {
+      "texte": "Résistons ! est un mouvement politique qui engage les Français à reprendre la parole. Il organise l’écoute et l’échange, préalables essentiels au renouveau du peuple souverain, à la régénérescence de la démocratie et à la consolidation de la République.",
+      "source": {
+        "url": "https://resistons-france.fr/",
+        "titre": "Résistons !",
+        "type": "site-de-parti",
+        "date": "2026-10-10"
+      }
+    },
     "site_officiel": "https://resistons-france.fr/",
     "processus_designation": null,
     "derniere_verification": "2026-10-09",
@@ -830,7 +1014,15 @@
       "code": "EXG",
       "libelle": "Extrême gauche"
     },
-    "positionnement_declare": null,
+    "positionnement_declare": {
+      "texte": "Révolution Permanente s’inscrit dans le projet plus large de redonner une vitalité aux idées marxistes et révolutionnaires, en démontrant qu’elles n’ont pas vocation à rester confinées dans les bibliothèques, les caves ou les musées, mais gardent au contraire toute leur actualité pour comprendre le monde dans lequel nous vivons.",
+      "source": {
+        "url": "https://www.revolutionpermanente.fr/Qui-sommes-nous-1211",
+        "titre": "Qui sommes-nous ? - Révolution permanente",
+        "type": "site-de-parti",
+        "date": "2026-10-10"
+      }
+    },
     "site_officiel": "https://revolutionpermanente.fr",
     "processus_designation": null,
     "derniere_verification": "2026-10-09",
@@ -869,7 +1061,15 @@
       "code": "REG",
       "libelle": "Régionaliste"
     },
-    "positionnement_declare": null,
+    "positionnement_declare": {
+      "texte": "L’Union démocratique bretonne (UDB) est un parti politique de gauche, écologiste et autonomiste, présent en Bretagne, Loire-Atlantique incluse. L’UDB agit pour une société plaçant l’économie au service de l’humain, milite pour la transition écologique et pour une République fédérale, dans une Europe plus démocratique.",
+      "source": {
+        "url": "https://www.udb.bzh/qui-sommes-nous/nos-valeurs/",
+        "titre": "Nos valeurs - Union démocratique bretonne",
+        "type": "site-de-parti",
+        "date": "2026-10-10"
+      }
+    },
     "site_officiel": "https://udb.bzh",
     "processus_designation": null,
     "derniere_verification": "2026-10-09",
@@ -891,7 +1091,15 @@
     "couleur": "#5a5a9a",
     "famille": "divers",
     "nuance_ministerielle": null,
-    "positionnement_declare": null,
+    "positionnement_declare": {
+      "texte": "L’Union Populaire Républicaine (UPR) est le mouvement de libération nationale fondé le 25 mars 2007 par François Asselineau pour rendre à la France son indépendance politique, économique et militaire, en proposant la sortie de l’Union européenne, de l’euro et de l’OTAN.",
+      "source": {
+        "url": "https://upr.fr/qui-sommes-nous",
+        "titre": "Qui sommes-nous ? - Union populaire républicaine",
+        "type": "site-de-parti",
+        "date": "2026-10-10"
+      }
+    },
     "site_officiel": "https://upr.fr",
     "processus_designation": null,
     "derniere_verification": "2026-10-09",
