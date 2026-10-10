@@ -162,7 +162,16 @@ lisible :
   la page retraites du PCF semble remonter à 2021-2022, le discours de meeting
   de Nathalie Arthaud du 26 septembre 2026 cite les retraites comme un combat
   sans chiffrer de proposition, et `francoisruffin.fr` commente la réforme de
-  2023.
+  2023 ;
+- **20 Minutes**, désormais lisible au navigateur, ne porte rien sur ces quatre
+  candidatures : sa recherche interne ne renvoie que des articles consacrés à
+  Édouard Philippe, Bruno Retailleau et au Rassemblement national. Le panorama
+  « Quel candidat propose quoi sur les retraites » que des sites miroirs
+  attribuent à 20 Minutes **n'a pas été retrouvé sur 20minutes.fr** : son
+  identifiant d'article y renvoie une erreur 404. Ne pas s'y fier.
+
+Six rédactions lisibles et quatre sites de parti ont donc été vérifiés. La
+conclusion tient.
 
 Le constat est donc l'inverse d'un biais de couverture : sur ce thème, CNews est
 la seule rédaction lisible à avoir couvert les candidats que les autres
@@ -309,6 +318,30 @@ critère est factuel mais reste une décision du site.
 ---
 
 ## 5. Lacunes connues
+
+### Ce que le navigateur change, et ce qu'il ne change pas
+Les sites qui bloquent la récupération automatique **s'ouvrent dans un
+navigateur** : `lemonde.fr`, `lefigaro.fr`, `liberation.fr`, `la-croix.com`,
+`20minutes.fr` et `radiofrance.fr` ont été testés le 10 octobre 2026 et se
+lisent. La liste « Sources inaccessibles » ci-dessus décrit donc une limite du
+robot d'indexation, pas du navigateur.
+
+Deux limites subsistent, et elles sont de nature différente :
+
+1. **`lesechos.fr` est derrière un mur de détection de robot.** Il n'est pas
+   contourné.
+2. **Le paywall ne cède pas, et il n'y a rien à contourner.** Mesuré sur un
+   article du *Monde* marqué « réservé aux abonnés » : la page sert le titre, le
+   chapeau et trois paragraphes, soit environ 1 000 caractères, et le reste
+   **n'est pas présent dans le document**. Les articles en accès libre, eux,
+   arrivent entiers.
+
+**Conséquence de méthode, qui vaut d'être pesée :** une source que le lecteur ne
+peut pas ouvrir est une source faible *pour ce site*, quelle que soit la qualité
+de la rédaction. Le site existe pour que chacun puisse remonter à la source ;
+renvoyer vers un article payant déplace la confiance au lieu de la fonder. Si
+des titres payants sont utilisés, ils devraient venir en corroboration, derrière
+une source librement accessible.
 
 ### Le calendrier du scrutin : dates trouvées, pas encore publiées sur le site
 Le site n'affiche aucune date d'élection, au motif qu'aucun décret de

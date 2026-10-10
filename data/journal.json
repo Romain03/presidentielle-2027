@@ -1,6 +1,15 @@
 [
   {
     "date": "2026-10-10",
+    "resume": "Sources : CNews passe de 53 % a 5 % des citations",
+    "fichiers": [
+      "journal.json",
+      "propositions.json"
+    ],
+    "commit": "6623cb91de"
+  },
+  {
+    "date": "2026-10-10",
     "resume": "Sources : plusieurs par proposition, corroborations de service public",
     "fichiers": [
       "journal.json",
