@@ -47,6 +47,12 @@
         "titre": "Reculer ou avancer l’âge légal, avec ou sans capitalisation : ce que proposent les principaux candidats à l’élection présidentielle sur les retraites",
         "type": "article-de-presse",
         "date": "2026-09-30"
+      },
+      {
+        "url": "https://www.franceinfo.fr/economie/retraite/reforme-des-retraites/changement-de-systeme-passage-a-60-ou-a-65-ans-capitalisation-que-proposent-les-principaux-candidats-a-l-election-presidentielle-pour-les-retraites_8215784.html",
+        "titre": "Changement de système, passage à 60 ou à 65 ans, capitalisation... Que proposent les principaux candidats à l'élection présidentielle pour les retraites ?",
+        "type": "article-de-presse",
+        "date": "2026-09-30"
       }
     ]
   },
@@ -54,19 +60,25 @@
     "id": "retailleau-immigration",
     "candidat_id": "bruno-retailleau",
     "theme_id": "immigration",
-    "resume": "Référendum sur la politique migratoire précédé d'une révision de la Constitution, et projet de loi comprenant la suppression du droit du sol et le conditionnement des visas et de l'aide au développement aux pays refusant les retours d'OQTF.",
-    "detail": "Le candidat annonce vouloir organiser un référendum sur l'immigration en révisant la Constitution, en déclarant : « Je prends l'engagement que les Français pourront enfin définir la politique migratoire ». Il dit vouloir réduire les entrées sur le territoire national en usant de « tous les canaux existants ». Il évoque par ailleurs un projet de loi comprenant notamment la suppression du droit du sol et le conditionnement des visas et des aides au développement aux pays refusant de reprendre leurs ressortissants sous obligation de quitter le territoire français.",
-    "citation": "Je ne crois pas à l'immigration zéro, mais il faut être beaucoup plus strict",
+    "resume": "Révision de la Constitution dès le début du mandat, puis référendum à la rentrée 2027 : l'article 11 serait élargi à l'ensemble du domaine de la loi, immigration comprise, pour « réduire drastiquement l'immigration ».",
+    "detail": "Le candidat fait de la réforme constitutionnelle sa première priorité : le projet serait présenté au Parlement dès le début de son éventuel mandat, puis soumis directement aux Français par référendum à la rentrée 2027. Il s'agirait d'élargir l'article 11 de la Constitution à « l'ensemble du domaine de la loi » - immigration, sécurité, justice, éducation -, afin de pouvoir soumettre directement au vote plusieurs grands textes visant à « réduire drastiquement l'immigration, engager une véritable révolution de notre justice pénale, et redonner la primauté à notre droit national ». Il entend par ailleurs renforcer la condition d'assimilation pour l'accès à la nationalité et faciliter l'éloignement de certains étrangers. La France pourrait déroger aux règles européennes contrevenant à son « identité constitutionnelle ».",
+    "citation": "Je veux changer la Constitution pour redonner la parole au peuple",
     "nature": "declaration_publique",
     "indicateurs": [],
     "derniere_verification": "2026-10-09",
     "programme_anterieur": null,
     "sources": [
       {
-        "url": "https://www.cnews.fr/france/2026-09-11/immigration-quelles-sont-les-propositions-des-candidats-lelection-presidentielle",
-        "titre": "Immigration : quelles sont les propositions des candidats à l'élection présidentielle ?",
+        "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-bruno-retailleau-veut-renverser-la-table-avec-une-profonde-reforme-constitutionnelle",
+        "titre": "Présidentielle 2027 : Bruno Retailleau veut « renverser la table » avec une profonde réforme constitutionnelle",
         "type": "article-de-presse",
-        "date": "2026-09-11"
+        "date": "2026-09-03"
+      },
+      {
+        "url": "https://www.publicsenat.fr/actualites/politique/referendum-sur-limmigration-primaute-du-droit-national-le-projet-de-bruno-retailleau-est-il-faisable",
+        "titre": "Référendum sur l'immigration, primauté du droit national : le projet de Bruno Retailleau est-il faisable ?",
+        "type": "article-de-presse",
+        "date": "2026-02-13"
       }
     ]
   },
@@ -154,16 +166,16 @@
         "date": "2026-09-30"
       },
       {
-        "url": "https://www.cnews.fr/france/2026-10-02/presidentielle-2027-depart-60-ans-hausse-des-petites-pensions-penibilite-quelles",
-        "titre": "Présidentielle 2027 : départ à 60 ans, hausse des petites pensions, pénibilité... Quelles sont les propositions des candidats de gauche sur les retraites ?",
-        "type": "article-de-presse",
-        "date": "2026-10-02"
-      },
-      {
         "url": "https://lcp.fr/actualites/presidentielle-2027-qui-propose-quoi-sur-les-retraites-437864",
         "titre": "Présidentielle 2027 : qui propose quoi sur les retraites ?",
         "type": "article-de-presse",
         "date": "2026-06-19"
+      },
+      {
+        "url": "https://www.franceinfo.fr/economie/retraite/reforme-des-retraites/changement-de-systeme-passage-a-60-ou-a-65-ans-capitalisation-que-proposent-les-principaux-candidats-a-l-election-presidentielle-pour-les-retraites_8215784.html",
+        "titre": "Changement de système, passage à 60 ou à 65 ans, capitalisation... Que proposent les principaux candidats à l'élection présidentielle pour les retraites ?",
+        "type": "article-de-presse",
+        "date": "2026-09-30"
       }
     ]
   },
@@ -211,16 +223,16 @@
         "date": "2026-09-30"
       },
       {
-        "url": "https://www.cnews.fr/france/2026-10-03/retraites-voici-les-propositions-des-differents-candidats-lelection",
-        "titre": "Retraites : voici les propositions des différents candidats à l'élection présidentielle 2027",
-        "type": "article-de-presse",
-        "date": "2026-10-03"
-      },
-      {
         "url": "https://lcp.fr/actualites/presidentielle-2027-qui-propose-quoi-sur-les-retraites-437864",
         "titre": "Présidentielle 2027 : qui propose quoi sur les retraites ?",
         "type": "article-de-presse",
         "date": "2026-06-19"
+      },
+      {
+        "url": "https://www.franceinfo.fr/economie/retraite/reforme-des-retraites/changement-de-systeme-passage-a-60-ou-a-65-ans-capitalisation-que-proposent-les-principaux-candidats-a-l-election-presidentielle-pour-les-retraites_8215784.html",
+        "titre": "Changement de système, passage à 60 ou à 65 ans, capitalisation... Que proposent les principaux candidats à l'élection présidentielle pour les retraites ?",
+        "type": "article-de-presse",
+        "date": "2026-09-30"
       }
     ]
   },
@@ -316,10 +328,10 @@
     "programme_anterieur": null,
     "sources": [
       {
-        "url": "https://www.cnews.fr/france/2026-10-02/presidentielle-2027-depart-60-ans-hausse-des-petites-pensions-penibilite-quelles",
-        "titre": "Présidentielle 2027 : départ à 60 ans, hausse des petites pensions, pénibilité... Quelles sont les propositions des candidats de gauche sur les retraites ?",
+        "url": "https://www.franceinfo.fr/economie/retraite/reforme-des-retraites/changement-de-systeme-passage-a-60-ou-a-65-ans-capitalisation-que-proposent-les-principaux-candidats-a-l-election-presidentielle-pour-les-retraites_8215784.html",
+        "titre": "Changement de système, passage à 60 ou à 65 ans, capitalisation... Que proposent les principaux candidats à l'élection présidentielle pour les retraites ?",
         "type": "article-de-presse",
-        "date": "2026-10-02"
+        "date": "2026-09-30"
       }
     ]
   },
@@ -349,16 +361,16 @@
         "date": "2026-09-30"
       },
       {
-        "url": "https://www.cnews.fr/france/2026-10-03/retraites-voici-les-propositions-des-differents-candidats-lelection",
-        "titre": "Retraites : voici les propositions des différents candidats à l'élection présidentielle 2027",
-        "type": "article-de-presse",
-        "date": "2026-10-03"
-      },
-      {
         "url": "https://lcp.fr/actualites/presidentielle-2027-qui-propose-quoi-sur-les-retraites-437864",
         "titre": "Présidentielle 2027 : qui propose quoi sur les retraites ?",
         "type": "article-de-presse",
         "date": "2026-06-19"
+      },
+      {
+        "url": "https://www.franceinfo.fr/economie/retraite/reforme-des-retraites/changement-de-systeme-passage-a-60-ou-a-65-ans-capitalisation-que-proposent-les-principaux-candidats-a-l-election-presidentielle-pour-les-retraites_8215784.html",
+        "titre": "Changement de système, passage à 60 ou à 65 ans, capitalisation... Que proposent les principaux candidats à l'élection présidentielle pour les retraites ?",
+        "type": "article-de-presse",
+        "date": "2026-09-30"
       }
     ]
   },
@@ -381,16 +393,16 @@
         "date": "2026-09-30"
       },
       {
-        "url": "https://www.cnews.fr/france/2026-10-03/retraites-voici-les-propositions-des-differents-candidats-lelection",
-        "titre": "Retraites : voici les propositions des différents candidats à l'élection présidentielle 2027",
-        "type": "article-de-presse",
-        "date": "2026-10-03"
-      },
-      {
         "url": "https://lcp.fr/actualites/presidentielle-2027-qui-propose-quoi-sur-les-retraites-437864",
         "titre": "Présidentielle 2027 : qui propose quoi sur les retraites ?",
         "type": "article-de-presse",
         "date": "2026-06-19"
+      },
+      {
+        "url": "https://www.franceinfo.fr/economie/retraite/reforme-des-retraites/changement-de-systeme-passage-a-60-ou-a-65-ans-capitalisation-que-proposent-les-principaux-candidats-a-l-election-presidentielle-pour-les-retraites_8215784.html",
+        "titre": "Changement de système, passage à 60 ou à 65 ans, capitalisation... Que proposent les principaux candidats à l'élection présidentielle pour les retraites ?",
+        "type": "article-de-presse",
+        "date": "2026-09-30"
       }
     ]
   },
@@ -431,9 +443,9 @@
     "id": "dupont-aignan-retraites",
     "candidat_id": "nicolas-dupont-aignan",
     "theme_id": "retraites",
-    "resume": "Maintien de l'indexation des pensions sur l'inflation. Pour les générations futures, l'État placerait 10 000 euros à la naissance de chaque Français dans un fonds public, capital accessible à 60 ans en complément de retraite.",
-    "detail": "Le candidat met en avant le niveau des pensions et veut maintenir leur indexation sur l'inflation. Pour les générations futures, il propose que l'État place 10 000 euros à la naissance de chaque Français dans un fonds public ; le capital accumulé serait accessible à 60 ans et servirait de complément de retraite. Cet âge de 60 ans concerne l'accès au capital proposé, et non un nouvel âge légal de départ.",
-    "citation": null,
+    "resume": "Un capital public de 10 000 euros versé à chaque nouveau-né français sur un livret d'épargne-retraite, financé par les économies attendues d'une sortie de l'Union européenne.",
+    "detail": "Le candidat propose que l'État verse un capital de 10 000 euros à tous les nouveau-nés français sur un livret d'épargne-retraite. Il présente la mesure comme financée par les économies qu'il attend d'une sortie de l'Union européenne, qu'il chiffre à 15 milliards d'euros par an et qu'il affecterait pour partie à la réduction de la dette. L'article ne rapporte pas d'âge de déblocage du capital ni de position sur l'âge légal de départ.",
+    "citation": "Ces 15 milliards d'économie, je vais les redistribuer en réduisant la dette et en donnant un capital de 10 000 euros à tous les nouveau-nés français pour un livret d'épargne-retraite",
     "nature": "declaration_publique",
     "indicateurs": [
       {
@@ -447,10 +459,10 @@
     "programme_anterieur": null,
     "sources": [
       {
-        "url": "https://www.cnews.fr/france/2026-10-03/retraites-voici-les-propositions-des-differents-candidats-lelection",
-        "titre": "Retraites : voici les propositions des différents candidats à l'élection présidentielle 2027",
+        "url": "https://www.franceinfo.fr/politique/nicolas-dupont-aignan/je-serai-le-seul-candidat-qui-propose-de-sortir-de-l-union-europeenne-dit-nicolas-dupont-aignan-qui-se-lance-dans-sa-quatrieme-campagne-presidentielle_8201024.html",
+        "titre": "« Je serai le seul candidat qui propose de sortir de l'Union européenne », dit Nicolas Dupont-Aignan, qui se lance dans sa quatrième campagne présidentielle",
         "type": "article-de-presse",
-        "date": "2026-10-03"
+        "date": "2026-09-19"
       }
     ]
   },
@@ -474,10 +486,10 @@
     "programme_anterieur": null,
     "sources": [
       {
-        "url": "https://www.cnews.fr/france/2026-10-03/retraites-voici-les-propositions-des-differents-candidats-lelection",
-        "titre": "Retraites : voici les propositions des différents candidats à l'élection présidentielle 2027",
+        "url": "https://www.franceinfo.fr/economie/retraite/reforme-des-retraites/changement-de-systeme-passage-a-60-ou-a-65-ans-capitalisation-que-proposent-les-principaux-candidats-a-l-election-presidentielle-pour-les-retraites_8215784.html",
+        "titre": "Changement de système, passage à 60 ou à 65 ans, capitalisation... Que proposent les principaux candidats à l'élection présidentielle pour les retraites ?",
         "type": "article-de-presse",
-        "date": "2026-10-03"
+        "date": "2026-09-30"
       }
     ]
   },
@@ -513,16 +525,16 @@
         "date": "2026-09-30"
       },
       {
-        "url": "https://www.cnews.fr/france/2026-10-03/retraites-voici-les-propositions-des-differents-candidats-lelection",
-        "titre": "Retraites : voici les propositions des différents candidats à l'élection présidentielle 2027",
-        "type": "article-de-presse",
-        "date": "2026-10-03"
-      },
-      {
         "url": "https://lcp.fr/actualites/presidentielle-2027-qui-propose-quoi-sur-les-retraites-437864",
         "titre": "Présidentielle 2027 : qui propose quoi sur les retraites ?",
         "type": "article-de-presse",
         "date": "2026-06-19"
+      },
+      {
+        "url": "https://www.franceinfo.fr/economie/retraite/reforme-des-retraites/changement-de-systeme-passage-a-60-ou-a-65-ans-capitalisation-que-proposent-les-principaux-candidats-a-l-election-presidentielle-pour-les-retraites_8215784.html",
+        "titre": "Changement de système, passage à 60 ou à 65 ans, capitalisation... Que proposent les principaux candidats à l'élection présidentielle pour les retraites ?",
+        "type": "article-de-presse",
+        "date": "2026-09-30"
       }
     ]
   },
@@ -558,12 +570,6 @@
         "date": "2026-09-29"
       },
       {
-        "url": "https://www.cnews.fr/france/2026-10-03/retraites-voici-les-propositions-des-differents-candidats-lelection",
-        "titre": "Retraites : voici les propositions des différents candidats à l'élection présidentielle 2027",
-        "type": "article-de-presse",
-        "date": "2026-10-03"
-      },
-      {
         "url": "https://www.franceinfo.fr/elections/presidentielle/age-de-depart-a-65-ans-45-annuites-de-cotisation-edouard-philippe-candidat-horizons-a-la-presidentielle-devoile-son-projet-de-reforme-des-retraites_8214737.html",
         "titre": "Âge de départ à 65 ans, 45 annuités de cotisation : Édouard Philippe dévoile son projet de réforme des retraites",
         "type": "article-de-presse",
@@ -574,6 +580,12 @@
         "titre": "Retraites : Édouard Philippe veut porter l’âge de départ à 65 ans et la durée de cotisation à 45 ans",
         "type": "article-de-presse",
         "date": "2026-09-29"
+      },
+      {
+        "url": "https://www.franceinfo.fr/economie/retraite/reforme-des-retraites/changement-de-systeme-passage-a-60-ou-a-65-ans-capitalisation-que-proposent-les-principaux-candidats-a-l-election-presidentielle-pour-les-retraites_8215784.html",
+        "titre": "Changement de système, passage à 60 ou à 65 ans, capitalisation... Que proposent les principaux candidats à l'élection présidentielle pour les retraites ?",
+        "type": "article-de-presse",
+        "date": "2026-09-30"
       }
     ]
   },
@@ -661,12 +673,6 @@
         "titre": "Reculer ou avancer l’âge légal, avec ou sans capitalisation : ce que proposent les principaux candidats à l’élection présidentielle sur les retraites",
         "type": "article-de-presse",
         "date": "2026-09-30"
-      },
-      {
-        "url": "https://www.cnews.fr/france/2026-10-02/presidentielle-2027-depart-60-ans-hausse-des-petites-pensions-penibilite-quelles",
-        "titre": "Présidentielle 2027 : départ à 60 ans, hausse des petites pensions, pénibilité... Quelles sont les propositions des candidats de gauche sur les retraites ?",
-        "type": "article-de-presse",
-        "date": "2026-10-02"
       }
     ]
   },
@@ -677,16 +683,16 @@
     "resume": "Dénonciation de l'accord franco-algérien de 1968, restriction de l'immigration familiale, quotas migratoires, expulsion immédiate des délinquants étrangers et vote annuel au Parlement d'une liste de « pays sûrs ».",
     "detail": "Le candidat affiche le contrôle des flux migratoires comme l'une de ses priorités. Il plaide pour dénoncer l'accord de 1968 conclu avec l'Algérie, qui crée un statut spécifique pour les ressortissants algériens en matière de circulation, de séjour et d'emploi. Il souhaite restreindre l'immigration familiale et mettre en place une politique de quotas migratoires. Concernant les délinquants étrangers, il promet d'être « intraitable », prônant leur expulsion immédiate et la fin des aides sociales. Il se dit prêt à utiliser les centres de retour prévus par le règlement européen et propose de faire voter chaque année au Parlement une liste de « pays sûrs ».",
     "citation": "La France a le droit de choisir qui entre et réside sur son territoire",
-    "nature": "declaration_publique",
+    "nature": "programme_officiel",
     "indicateurs": [],
     "derniere_verification": "2026-10-09",
     "programme_anterieur": null,
     "sources": [
       {
-        "url": "https://www.cnews.fr/france/2026-09-11/immigration-quelles-sont-les-propositions-des-candidats-lelection-presidentielle",
-        "titre": "Immigration : quelles sont les propositions des candidats à l'élection présidentielle ?",
-        "type": "article-de-presse",
-        "date": "2026-09-11"
+        "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure",
+        "titre": "Pour une France plus sûre",
+        "type": "site-de-campagne",
+        "date": "2026-07-19"
       }
     ]
   },
@@ -703,12 +709,6 @@
     "programme_anterieur": null,
     "sources": [
       {
-        "url": "https://www.cnews.fr/france/2026-09-11/immigration-quelles-sont-les-propositions-des-candidats-lelection-presidentielle",
-        "titre": "Immigration : quelles sont les propositions des candidats à l'élection présidentielle ?",
-        "type": "article-de-presse",
-        "date": "2026-09-11"
-      },
-      {
         "url": "https://www.franceinfo.fr/politique/ni-possible-ni-souhaitable-en-vue-de-la-presidentielle-2027-le-bloc-central-montre-ses-divisions-sur-le-theme-de-l-immigration_8029442.html",
         "titre": "En vue de la présidentielle 2027, le bloc central montre ses divisions sur le thème de l’immigration",
         "type": "article-de-presse",
@@ -721,18 +721,18 @@
     "candidat_id": "raphael-glucksmann",
     "theme_id": "immigration",
     "resume": "Instauration d'une convention citoyenne sur l'immigration, composée de citoyens tirés au sort et « représentatifs », dont les propositions seraient ensuite votées au Parlement.",
-    "detail": "Dans un livre publié en juillet 2026, le candidat dit vouloir « structurer » le débat « sans tabou ». Il propose d'instaurer une convention citoyenne sur le thème de l'immigration, avec des citoyens tirés au sort et « représentatifs », confrontés à des données portant sur la démographie, l'économie ou la sécurité.",
-    "citation": "Tout sera public [et] débouchera sur des propositions votées au Parlement",
+    "detail": "Le candidat propose d'instaurer une convention citoyenne sur le thème de l'immigration, avec des citoyens tirés au sort et « représentatifs », « confrontés aux données démographiques, économiques ou sécuritaires ». Les tenants de positions opposées y seraient tenus d'écouter les arguments contraires. « Les propositions de cette convention citoyenne seront soumises au débat et au vote du Parlement. » Il présente la méthode comme déjà employée par Emmanuel Macron sur le climat et la fin de vie.",
+    "citation": null,
     "nature": "declaration_publique",
     "indicateurs": [],
     "derniere_verification": "2026-10-09",
     "programme_anterieur": null,
     "sources": [
       {
-        "url": "https://www.cnews.fr/france/2026-09-11/immigration-quelles-sont-les-propositions-des-candidats-lelection-presidentielle",
-        "titre": "Immigration : quelles sont les propositions des candidats à l'élection présidentielle ?",
+        "url": "https://www.publicsenat.fr/actualites/politique/fiscalite-ecole-immigration-ce-que-propose-raphael-glucksmann",
+        "titre": "Fiscalité, école, immigration : ce que propose Raphaël Glucksmann",
         "type": "article-de-presse",
-        "date": "2026-09-11"
+        "date": "2026-08-24"
       }
     ]
   },
@@ -1124,9 +1124,9 @@
     "programme_anterieur": null,
     "sources": [
       {
-        "url": "https://www.cnews.fr/france/2026-09-17/presidentielle-2027-edouard-philippe-devoile-son-programme-climatique-lors-dun",
-        "titre": "Présidentielle 2027 : Édouard Philippe dévoile son programme climatique lors d'un déplacement à Angers",
-        "type": "article-de-presse",
+        "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-conquerante",
+        "titre": "Pour une France plus conquérante",
+        "type": "site-de-campagne",
         "date": "2026-09-17"
       }
     ]
@@ -1262,19 +1262,19 @@
     "id": "philippe-institutions",
     "candidat_id": "edouard-philippe",
     "theme_id": "institutions",
-    "resume": "Opposition à une révision de la Constitution qui élargirait le champ du référendum à des sujets comme l'immigration.",
-    "detail": "Le candidat se distingue de Bruno Retailleau en s'opposant à l'idée de réviser la Constitution pour élargir le champ du référendum à des sujets comme l'immigration.",
-    "citation": null,
+    "resume": "Le recours au référendum n'est pas écarté : « S'il faut modifier la Constitution, le peuple peut [le faire] », mais ce n'est pas la voie privilégiée pour réduire l'immigration légale.",
+    "detail": "Interrogé sur l'immigration, le candidat n'écarte pas totalement le recours au référendum : « S'il faut modifier la Constitution, le peuple peut [le faire]. » Il place toutefois cette option en réserve plutôt qu'au cœur de sa campagne : son objectif de « diviser par deux l'immigration légale », tout en conservant une « immigration de travail », passerait d'abord par le regroupement familial, sans nécessairement exiger une révision constitutionnelle.",
+    "citation": "S'il faut modifier la Constitution, le peuple peut [le faire]",
     "nature": "declaration_publique",
     "indicateurs": [],
     "derniere_verification": "2026-10-09",
     "programme_anterieur": null,
     "sources": [
       {
-        "url": "https://www.cnews.fr/france/2026-09-11/immigration-quelles-sont-les-propositions-des-candidats-lelection-presidentielle",
-        "titre": "Immigration : quelles sont les propositions des candidats à l'élection présidentielle ?",
-        "type": "article-de-presse",
-        "date": "2026-09-11"
+        "url": "https://www.franceinfo.fr/politique/edouard-philippe/immigration-retraites-allocations-familiales-parcoursup-ce-qu-il-faut-retenir-de-l-interview-d-edouard-philippe-dans-l-emission-l-heure-de-verite_8228416.html",
+        "titre": "Immigration, allocations familiales, Parcoursup... Ce qu'il faut retenir de l'interview d'Édouard Philippe dans l'émission « L'Heure de vérité » sur France 2",
+        "type": "interview",
+        "date": "2026-10-08"
       }
     ]
   },
@@ -1305,12 +1305,6 @@
         "titre": "Présidentielle 2027 : que proposent les candidats pour l’école ?",
         "type": "article-de-presse",
         "date": "2026-08-31"
-      },
-      {
-        "url": "https://www.cnews.fr/france/2026-10-06/blocus-des-lycees-que-proposent-les-principaux-candidats-la-presidentielle-en",
-        "titre": "Blocus des lycées : que proposent les principaux candidats à la présidentielle en matière d'éducation ?",
-        "type": "article-de-presse",
-        "date": "2026-10-06"
       }
     ]
   },
@@ -1338,12 +1332,6 @@
         "titre": "Présidentielle 2027 : que proposent les candidats pour l’école ?",
         "type": "article-de-presse",
         "date": "2026-08-31"
-      },
-      {
-        "url": "https://www.cnews.fr/france/2026-10-06/blocus-des-lycees-que-proposent-les-principaux-candidats-la-presidentielle-en",
-        "titre": "Blocus des lycées : que proposent les principaux candidats à la présidentielle en matière d'éducation ?",
-        "type": "article-de-presse",
-        "date": "2026-10-06"
       },
       {
         "url": "https://www.franceinfo.fr/elections/presidentielle/presidentielle-2027-le-candidat-horizons-edouard-philippe-veut-augmenter-de-20-la-remuneration-moyenne-des-enseignants-sur-un-quinquennat_8159927.html",
@@ -1398,12 +1386,6 @@
         "titre": "Présidentielle 2027 : que proposent les candidats pour l’école ?",
         "type": "article-de-presse",
         "date": "2026-08-31"
-      },
-      {
-        "url": "https://www.cnews.fr/france/2026-10-06/blocus-des-lycees-que-proposent-les-principaux-candidats-la-presidentielle-en",
-        "titre": "Blocus des lycées : que proposent les principaux candidats à la présidentielle en matière d'éducation ?",
-        "type": "article-de-presse",
-        "date": "2026-10-06"
       }
     ]
   },
@@ -1431,12 +1413,6 @@
         "titre": "Présidentielle 2027 : que proposent les candidats pour l’école ?",
         "type": "article-de-presse",
         "date": "2026-08-31"
-      },
-      {
-        "url": "https://www.cnews.fr/france/2026-10-06/blocus-des-lycees-que-proposent-les-principaux-candidats-la-presidentielle-en",
-        "titre": "Blocus des lycées : que proposent les principaux candidats à la présidentielle en matière d'éducation ?",
-        "type": "article-de-presse",
-        "date": "2026-10-06"
       },
       {
         "url": "https://www.franceinfo.fr/elections/presidentielle/les-professeurs-courtises-par-les-candidats-a-la-presidentielle-2027-quelles-revalorisations-proposent-ils-avec-quels-financements_8161409.html",
@@ -1476,12 +1452,6 @@
         "titre": "Présidentielle 2027 : que proposent les candidats pour l’école ?",
         "type": "article-de-presse",
         "date": "2026-08-31"
-      },
-      {
-        "url": "https://www.cnews.fr/france/2026-10-06/blocus-des-lycees-que-proposent-les-principaux-candidats-la-presidentielle-en",
-        "titre": "Blocus des lycées : que proposent les principaux candidats à la présidentielle en matière d'éducation ?",
-        "type": "article-de-presse",
-        "date": "2026-10-06"
       },
       {
         "url": "https://lcp.fr/actualites/presidentielle-retour-du-certificat-d-etudes-revalorisation-des-salaires-ce-que-propose",
@@ -1529,12 +1499,6 @@
         "date": "2026-08-31"
       },
       {
-        "url": "https://www.cnews.fr/france/2026-10-06/blocus-des-lycees-que-proposent-les-principaux-candidats-la-presidentielle-en",
-        "titre": "Blocus des lycées : que proposent les principaux candidats à la présidentielle en matière d'éducation ?",
-        "type": "article-de-presse",
-        "date": "2026-10-06"
-      },
-      {
         "url": "https://www.franceinfo.fr/elections/presidentielle/les-professeurs-courtises-par-les-candidats-a-la-presidentielle-2027-quelles-revalorisations-proposent-ils-avec-quels-financements_8161409.html",
         "titre": "Les professeurs courtisés par les candidats : quelles revalorisations proposent-ils, avec quels financements ?",
         "type": "article-de-presse",
@@ -1568,12 +1532,6 @@
         "date": "2026-08-31"
       },
       {
-        "url": "https://www.cnews.fr/france/2026-10-06/blocus-des-lycees-que-proposent-les-principaux-candidats-la-presidentielle-en",
-        "titre": "Blocus des lycées : que proposent les principaux candidats à la présidentielle en matière d'éducation ?",
-        "type": "article-de-presse",
-        "date": "2026-10-06"
-      },
-      {
         "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-bruno-retailleau-veut-refonder-lecole-autour-de-quatre-axes-principaux",
         "titre": "Bruno Retailleau veut « refonder l’école » autour de quatre axes principaux",
         "type": "article-de-presse",
@@ -1598,12 +1556,6 @@
         "titre": "Présidentielle 2027 : que proposent les candidats pour l’école ?",
         "type": "article-de-presse",
         "date": "2026-08-31"
-      },
-      {
-        "url": "https://www.cnews.fr/france/2026-10-06/blocus-des-lycees-que-proposent-les-principaux-candidats-la-presidentielle-en",
-        "titre": "Blocus des lycées : que proposent les principaux candidats à la présidentielle en matière d'éducation ?",
-        "type": "article-de-presse",
-        "date": "2026-10-06"
       }
     ]
   },
@@ -1620,9 +1572,9 @@
     "programme_anterieur": null,
     "sources": [
       {
-        "url": "https://www.cnews.fr/france/2026-07-19/presidentielle-2027-edouard-philippe-defend-une-france-plus-sure-et-met-laccent",
-        "titre": "Présidentielle 2027 : Édouard Philippe défend « une France plus sûre » et met l'accent sur la sécurité",
-        "type": "article-de-presse",
+        "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure",
+        "titre": "Pour une France plus sûre",
+        "type": "site-de-campagne",
         "date": "2026-07-19"
       }
     ]
@@ -1653,9 +1605,9 @@
     "programme_anterieur": null,
     "sources": [
       {
-        "url": "https://www.cnews.fr/france/2026-07-19/presidentielle-2027-edouard-philippe-defend-une-france-plus-sure-et-met-laccent",
-        "titre": "Présidentielle 2027 : Édouard Philippe défend « une France plus sûre » et met l'accent sur la sécurité",
-        "type": "article-de-presse",
+        "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure",
+        "titre": "Pour une France plus sûre",
+        "type": "site-de-campagne",
         "date": "2026-07-19"
       }
     ]

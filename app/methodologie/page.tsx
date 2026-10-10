@@ -107,6 +107,14 @@ export default function PageMethodologie() {
           </li>
         </ol>
         <p className="text-sm leading-relaxed text-stone-700 dark:text-stone-300">
+          Une limite de ce procédé doit être dite : ne sont retenus que des articles qui ont pu
+          être ouverts et lus de bout en bout. Plusieurs grands titres - <i>Le Monde</i>,{' '}
+          <i>Les Échos</i>, <i>Libération</i>, <i>Le Figaro</i>, <i>La Croix</i>, Radio France,{' '}
+          <i>20 Minutes</i> - ne se laissent pas lire ainsi, et renvoyer vers eux sans les avoir
+          lus reviendrait à affirmer sans vérifier. Leur absence ici ne dit donc rien de leur
+          valeur : elle dit seulement ce qui a pu être contrôlé.
+        </p>
+        <p className="text-sm leading-relaxed text-stone-700 dark:text-stone-300">
           Une source n’est jamais remplacée par une autre sans que l’article ait été lu et
           vérifié : échanger une adresse contre une autre sans la lire reviendrait à inventer la
           provenance d’une information. Et une source d’origine n’est pas retirée lorsqu’une
@@ -120,13 +128,17 @@ export default function PageMethodologie() {
         */}
         <div className="space-y-2 rounded-xl border border-amber-700/20 bg-amber-50/70 p-4 text-sm leading-relaxed text-stone-700 dark:border-amber-500/20 dark:bg-amber-950/20 dark:text-stone-300">
           <p>
-            <strong className="font-semibold">En pratique, aucune proposition n’est aujourd’hui
-            sourcée à un document primaire.</strong>{' '}
-            Les programmes ne sont pas publiés : les {statistiques.propositions} propositions
-            viennent toutes d’articles de presse, soit{' '}
+            <strong className="font-semibold">En pratique, presque tout vient encore de la
+            presse.</strong>{' '}
+            Aucun programme complet n’est publié :{' '}
+            {sourcesDesPropositions.auxMotsDuCandidat} proposition
+            {sourcesDesPropositions.auxMotsDuCandidat > 1 ? 's' : ''} sur{' '}
+            {statistiques.propositions} s’appuie
+            {sourcesDesPropositions.auxMotsDuCandidat > 1 ? 'nt' : ''} sur les mots du candidat -
+            un site de campagne -, les autres sur des comptes rendus de presse. Au total{' '}
             {sourcesDesPropositions.citations} citations réparties sur{' '}
-            {sourcesDesPropositions.articles} articles de{' '}
-            {sourcesDesPropositions.medias.length} médias.
+            {sourcesDesPropositions.articles} documents de{' '}
+            {sourcesDesPropositions.medias.length} sources.
           </p>
           <ul className="space-y-0.5">
             {sourcesDesPropositions.medias.map((media) => (

@@ -75,6 +75,22 @@ Annoncé à **125 milliards d'euros** devant le Medef le 27 août, puis à
 probablement d'une évolution du chiffrage, pas d'une contradiction, mais ce
 n'est pas établi.
 
+### Édouard Philippe - référendum et Constitution : position inversée
+Jusqu'au 10 octobre 2026, le site lui prêtait une **opposition** à une révision
+de la Constitution élargissant le champ du référendum à l'immigration, d'après
+un panorama du 11 septembre 2026.
+
+Son interview à « L'Heure de vérité » sur France 2, rapportée par franceinfo le
+**8 octobre 2026**, dit l'inverse : « S'il faut modifier la Constitution, le
+peuple peut [le faire]. » Il n'écarte donc pas le référendum, tout en le
+plaçant en réserve - son objectif de diviser par deux l'immigration légale
+passerait d'abord par le regroupement familial.
+
+La proposition a été réécrite d'après la source la plus récente, qui est aussi
+de service public. **À surveiller** : la formulation reste prudente et peut
+évoluer ; les deux lectures ne sont pas strictement incompatibles si l'on
+distingue « ne pas exclure » et « proposer ».
+
 ### Xavier Bertrand - rattachement partisan
 Les sources le rattachent à la fois à **Nous France**, mouvement qu'il a fondé,
 et aux **Républicains**. Les données retiennent Nous France et signalent le
@@ -95,32 +111,67 @@ d'origine** - Wikipédia les référence toutes.
 Exceptions déjà sourcées à la presse : Marine Le Pen, Bruno Retailleau.
 
 ### Concentration des sources de propositions
-Au 10 octobre 2026, les 57 propositions reposent sur 88 citations réparties sur
-24 articles de 5 médias :
+Au 10 octobre 2026, les 57 propositions reposent sur 80 citations réparties sur
+28 documents de 6 sources :
 
-| Média | Citations | Part |
+| Source | Citations | Part |
 |---|---|---|
-| cnews.fr | 30 | 34 % |
-| lcp.fr | 26 | 30 % |
-| publicsenat.fr | 17 | 19 % |
-| franceinfo.fr | 13 | 15 % |
+| lcp.fr | 26 | 32 % |
+| franceinfo.fr | 24 | 30 % |
+| publicsenat.fr | 20 | 25 % |
+| cnews.fr | 4 | 5 % |
+| edouardphilippe.fr | 4 | 5 % |
 | europe1.fr | 2 | 2 % |
 
-CNews pesait 53 % avant la revue du 10 octobre ; des corroborations de service
-public (Public Sénat, LCP, franceinfo) ont été ajoutées sur les thèmes
-*retraites* et *éducation*, après lecture et vérification de chaque article.
+Trajectoire du 10 octobre 2026 : CNews pesait **53 %** le matin, **34 %** après
+l'ajout de corroborations de service public sur *retraites* et *éducation*,
+**5 %** après la seconde passe. Chaque article a été ouvert et lu avant d'être
+retenu ; aucune adresse n'a été substituée à une autre sans vérification.
 
-**40 propositions sur 57 ne reposent encore que sur une seule rédaction.** Les
-plus exposées sont celles que seule une rédaction rapporte :
+Ce qui a permis la baisse, dans l'ordre d'efficacité :
 
-- **Édouard Philippe, défense** (45 000 à 250 000 réservistes, 700 000 obus) et
-  **sécurité** : aucune reprise de service public trouvée, la source reste
-  unique.
-- Les thèmes *immigration*, *écologie*, *institutions* et *sécurité* n'ont reçu
-  qu'une corroboration partielle.
+1. **Le site de campagne d'Édouard Philippe** (`edouardphilippe.fr`), enfin
+   relevé, couvre mot pour mot ses mesures de *sécurité*, *défense*,
+   *immigration* et *écologie*. Ses propositions ne passent plus par une
+   rédaction. Au passage, il **confirme les chiffres de défense** que personne
+   d'autre ne reprenait : 45 000 à 250 000 réservistes, 100 000 à 700 000 obus.
+2. **Le panorama franceinfo du 30 septembre 2026** sur les retraites, lu
+   candidat par candidat, couvre neuf candidatures dont Marine Tondelier et
+   Éric Zemmour, jusque-là sourcés à CNews seul.
+3. **Public Sénat** sur l'immigration : Raphaël Glucksmann (24 août 2026) et
+   Bruno Retailleau (3 septembre 2026 et 13 février 2026).
 
-**À faire :** poursuivre thème par thème, et re-sourcer aux programmes dès leur
-parution. Ne jamais substituer une adresse à une autre sans avoir lu l'article.
+**44 propositions sur 57 ne reposent encore que sur une seule source.** C'est
+plus qu'avant la revue en proportion, et c'est voulu : la corroboration a été
+ajoutée là où elle existait, pas fabriquée ailleurs.
+
+### Les quatre propositions encore sourcées à CNews
+Il reste **4 citations CNews, sur 4 propositions** : les retraites de
+**François Ruffin, Fabien Roussel, David Lisnard et Nathalie Arthaud**, toutes
+issues du panorama du 2-3 octobre 2026.
+
+Recherche faite, aucune source de remplacement n'existe dans le périmètre
+lisible :
+
+- les panoramas « retraites » de LCP (19 juin 2026), de franceinfo
+  (30 septembre 2026) et de France 24 (27 août 2026) ne traitent que des
+  **principaux candidats** - sept à neuf noms -, et aucun des quatre n'y figure ;
+- les panoramas LCP et Public Sénat que renvoie la recherche sur ces noms
+  **datent de 2022** ;
+- leurs propres sites ne portent pas de proposition datée de la campagne 2027 :
+  la page retraites du PCF semble remonter à 2021-2022, le discours de meeting
+  de Nathalie Arthaud du 26 septembre 2026 cite les retraites comme un combat
+  sans chiffrer de proposition, et `francoisruffin.fr` commente la réforme de
+  2023.
+
+Le constat est donc l'inverse d'un biais de couverture : sur ce thème, CNews est
+la seule rédaction lisible à avoir couvert les candidats que les autres
+qualifient de secondaires. **Arbitrage à rendre** : conserver ces quatre
+propositions avec leur source affichée, ou les retirer et laisser quatre
+candidats déclarés sans position sur les retraites.
+
+**À faire :** re-sourcer aux programmes dès leur parution. Ne jamais substituer
+une adresse à une autre sans avoir lu l'article.
 
 ### Les parcours viennent de Wikidata
 Les 183 jalons de parcours, les dates de naissance, les études et les métiers
@@ -173,11 +224,18 @@ référence distincte pour chaque nom : **chacune devrait remplacer la source
 encyclopédique**. Les listes concernent surtout Olivier Faure (54) et Raphaël
 Glucksmann (47).
 
-### Le site de campagne d'Édouard Philippe
-Plusieurs de ses propositions - sécurité, défense, immigration - sont décrites
-par la presse comme figurant « sur son site de campagne ». **L'URL de ce site
-n'a pas été relevée** et les propositions sont donc sourcées via la presse. À
-remplacer par la source primaire, qui existe.
+### Le site de campagne d'Édouard Philippe - relevé le 10 octobre 2026
+`edouardphilippe.fr`, pages « Pour une France plus sûre » et « Pour une France
+plus conquérante ». Quatre propositions y sont désormais sourcées directement.
+
+**Réserve à connaître : ces pages ne portent pas de date de publication.** La
+date retenue est celle de la présentation publique du chapitre correspondant -
+19 juillet 2026 pour « plus sûre », 17 septembre 2026 pour le volet climatique -
+et non celle de la mise en ligne, qui n'est pas affichée. Le contenu a été lu le
+10 octobre 2026.
+
+Ces pages étant des engagements écrits publiés par le candidat, les mesures
+d'immigration sont passées de « déclaration publique » à « programme officiel ».
 
 ### Sites agrégateurs écartés
 Écartés : `votons-2027.fr`, `elyseescope.com`, `monvote2027.fr`,
@@ -200,7 +258,9 @@ ou Valérie Pécresse présentés comme candidats. **Aucune source non datée de
 d'ajouter une proposition.
 
 ### Sources inaccessibles
-`lemonde.fr`, `lefigaro.fr`, `liberation.fr` et `lesechos.fr` bloquent la
+`lemonde.fr`, `lefigaro.fr`, `liberation.fr`, `lesechos.fr`, `la-croix.com`,
+`radiofrance.fr`, `francetvinfo.fr`, `nouvelobs.com`, `humanite.fr` et
+`20minutes.fr` bloquent la
 récupération automatique. Les déclarations qu'ils rapportent ne peuvent être
 reprises que via une autre source les citant, ou par consultation manuelle.
 C'est le cas de l'interview fondatrice de Bruno Retailleau au Figaro

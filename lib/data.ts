@@ -193,6 +193,18 @@ export const sourcesDesPropositions = (() => {
     citations,
     /** Propositions ne reposant que sur une seule rédaction. */
     sourceUnique: propositions.filter((p) => p.sources.length === 1).length,
+    /**
+     * Propositions adossées aux mots du candidat - programme, site de campagne,
+     * site de parti - et non au seul compte rendu d'une rédaction.
+     */
+    auxMotsDuCandidat: propositions.filter((p) =>
+      p.sources.some(
+        (s) =>
+          s.type === 'programme-officiel' ||
+          s.type === 'site-de-campagne' ||
+          s.type === 'site-de-parti',
+      ),
+    ).length,
     articles: articles.size,
     medias: [...parMedia.entries()]
       .map(([hote, nombre]) => ({ hote, nombre }))

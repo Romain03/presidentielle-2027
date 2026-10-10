@@ -1,6 +1,15 @@
 [
   {
     "date": "2026-10-10",
+    "resume": "Sources : plusieurs par proposition, corroborations de service public",
+    "fichiers": [
+      "journal.json",
+      "propositions.json"
+    ],
+    "commit": "add82cee66"
+  },
+  {
+    "date": "2026-10-10",
     "resume": "Journal des donnees, limites assumees, pile serif allongee",
     "fichiers": [
       "journal.json"
