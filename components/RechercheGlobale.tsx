@@ -176,14 +176,14 @@ export default function RechercheGlobale() {
       {ouvert &&
         createPortal(
           <div
-            className="fixed inset-0 z-50 flex items-stretch justify-center bg-stone-900/40 backdrop-blur-sm sm:items-start sm:p-4 sm:pt-[10vh]"
+            className="fondu fixed inset-0 z-50 flex items-stretch justify-center bg-stone-900/40 backdrop-blur-sm sm:items-start sm:p-4 sm:pt-[10vh]"
             onClick={fermer}
           >
             <div
               role="dialog"
               aria-modal="true"
               aria-label="Recherche"
-              className="zone-sure-haut flex h-full w-full flex-col overflow-hidden border-stone-900/10 bg-creme shadow-2xl sm:h-auto sm:max-h-[70vh] sm:max-w-2xl sm:rounded-2xl sm:border dark:border-nuit-bord dark:bg-nuit-clair"
+              className="surgissement zone-sure-haut flex h-full w-full flex-col overflow-hidden border-stone-900/10 bg-creme shadow-2xl sm:h-auto sm:max-h-[70vh] sm:max-w-2xl sm:rounded-2xl sm:border dark:border-nuit-bord dark:bg-nuit-clair"
               onClick={(e) => e.stopPropagation()}
               onKeyDown={auClavierDeLaFenetre}
             >

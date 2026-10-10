@@ -1,7 +1,10 @@
 import type { Metadata, Viewport } from 'next';
 import './globals.css';
+import ApparitionPage from '@/components/ApparitionPage';
+import { SCRIPT_AVANT_PEINTURE } from '@/components/ChoixTheme';
 import EnTete from '@/components/EnTete';
 import PiedDePage from '@/components/PiedDePage';
+import RetourEnHaut from '@/components/RetourEnHaut';
 import ServiceWorker from '@/components/ServiceWorker';
 
 // Next applique le basePath aux liens de navigation, mais pas aux URL
@@ -42,15 +45,20 @@ export const viewport: Viewport = {
   width: 'device-width',
   initialScale: 1,
   viewportFit: 'cover',
-  themeColor: [
-    { media: '(prefers-color-scheme: light)', color: '#f8fafc' },
-    { media: '(prefers-color-scheme: dark)', color: '#0f172a' },
-  ],
+  themeColor: '#faf7f1',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="fr">
+      <head>
+        {/*
+          Le thème est appliqué avant la première peinture : sans cela, un
+          lecteur ayant choisi le sombre verrait le fond crème clignoter à
+          chaque chargement.
+        */}
+        <script dangerouslySetInnerHTML={{ __html: SCRIPT_AVANT_PEINTURE }} />
+      </head>
       <body className="min-h-screen bg-creme font-sans text-stone-900 antialiased dark:bg-nuit dark:text-stone-100">
         <a
           href="#contenu"
@@ -63,9 +71,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           id="contenu"
           className="gouttiere mx-auto w-full max-w-6xl py-8 sm:py-10"
         >
-          {children}
+          <ApparitionPage>{children}</ApparitionPage>
         </main>
         <PiedDePage />
+        <RetourEnHaut />
         <ServiceWorker />
       </body>
     </html>

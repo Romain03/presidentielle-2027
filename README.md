@@ -114,12 +114,30 @@ inactif tant que le site n'est pas déployé.
 - Manifeste d'application, icônes 180/192/512 et icône *maskable*.
 - Ouverture en mode autonome (`apple-mobile-web-app-capable`), car Safari lit
   encore cette balise en plus de la balise standard.
-- Couleur de barre d'état adaptée au thème clair et au thème sombre.
+- Couleur de barre d'état accordée au papier, et mise à jour si le lecteur
+  choisit le thème sombre.
 - Marges pour l'encoche et la barre d'accueil (`env(safe-area-inset-*)`).
 - Détection téléphonique désactivée : sans cela, iOS transforme les nombres
   affichés - âges, montants, annuités - en liens d'appel.
 - Mise en page pensée pour mobile d'abord ; les tableaux larges défilent dans
   leur propre cadre, jamais la page.
+
+---
+
+## Thème clair et thème sombre
+
+Le site s'affiche en crème par défaut, **quel que soit le réglage du système**.
+Suivre `prefers-color-scheme` lui donnait deux visages selon l'appareil - crème
+sur un ordinateur réglé en clair, nuit sur un téléphone réglé en sombre - alors
+que sa couleur de papier fait partie de son identité.
+
+Le thème sombre reste disponible, par le bouton de l'en-tête. Le choix est
+conservé dans le `localStorage` de l'appareil et appliqué par un court script
+avant la première peinture, pour éviter que le fond clignote au chargement.
+
+En CSS, la variante `dark:` de Tailwind est redéfinie pour répondre à
+`[data-theme='sombre']` plutôt qu'au média : les quelque 280 classes `dark:`
+existantes fonctionnent sans changement.
 
 ---
 

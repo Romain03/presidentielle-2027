@@ -1,6 +1,14 @@
 @import 'tailwindcss';
 
 /*
+ * Le thème sombre ne suit plus le réglage du système : il ne s'applique que
+ * si le lecteur le demande. Le site avait sinon deux visages selon l'appareil
+ * - crème sur un ordinateur réglé en clair, nuit sur un téléphone réglé en
+ * sombre - alors que son identité tient en partie à sa couleur de papier.
+ */
+@custom-variant dark (&:where([data-theme='sombre'], [data-theme='sombre'] *));
+
+/*
  * Palette et typographie.
  *
  * Le sujet est austère : la chaleur vient de la matière - fond crème,
@@ -44,6 +52,12 @@
   html {
     scroll-behavior: smooth;
     -webkit-text-size-adjust: 100%;
+    /* Formulaires et barres de défilement suivent le thème choisi. */
+    color-scheme: light;
+  }
+
+  html[data-theme='sombre'] {
+    color-scheme: dark;
   }
 
   body {
@@ -81,10 +95,8 @@
     border-radius: 0.25rem;
   }
 
-  @media (prefers-color-scheme: dark) {
-    :focus-visible {
-      outline-color: var(--color-ocre-clair);
-    }
+  [data-theme='sombre'] :focus-visible {
+    outline-color: var(--color-ocre-clair);
   }
 
   /* Confort tactile : pas de surlignage bleu au tap sur les liens et boutons. */
@@ -145,17 +157,15 @@
     }
   }
 
-  @media (prefers-color-scheme: dark) {
-    .carte {
-      border-color: var(--color-nuit-bord);
-      background-color: var(--color-nuit-clair);
-      box-shadow: none;
-    }
+  [data-theme='sombre'] .carte {
+    border-color: var(--color-nuit-bord);
+    background-color: var(--color-nuit-clair);
+    box-shadow: none;
+  }
 
-    .carte-interactive:hover {
-      border-color: #4d4538;
-      box-shadow: none;
-    }
+  [data-theme='sombre'] .carte-interactive:hover {
+    border-color: #4d4538;
+    box-shadow: none;
   }
 
   /* ---------------------------------------------------------------- liens */
@@ -175,14 +185,12 @@
     text-decoration-color: currentColor;
   }
 
-  @media (prefers-color-scheme: dark) {
-    .lien {
-      text-decoration-color: --alpha(#fff / 35%);
-    }
+  [data-theme='sombre'] .lien {
+    text-decoration-color: --alpha(#fff / 35%);
+  }
 
-    .lien:hover {
-      color: var(--color-ocre-clair);
-    }
+  [data-theme='sombre'] .lien:hover {
+    color: var(--color-ocre-clair);
   }
 }
 
@@ -225,5 +233,132 @@
 
   &::-webkit-scrollbar {
     display: none;
+  }
+}
+
+/* ------------------------------------------------------------ mouvement */
+
+/*
+ * Le mouvement sert à situer, jamais à décorer : une apparition brève quand
+ * la page change, une ombre qui vient quand on quitte le haut de page, un
+ * enfoncement au doigt. Tout est court et discret - le sujet ne se prête pas
+ * aux effets, et une animation que l'on remarque est une animation de trop.
+ *
+ * Tout est dans `motion-safe` : la règle de mouvement réduit, plus haut,
+ * annule le reste.
+ */
+
+@keyframes apparition {
+  from {
+    opacity: 0;
+    transform: translateY(0.5rem);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes fondu {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes surgissement {
+  from {
+    opacity: 0;
+    transform: translateY(-0.75rem) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  /*
+   * `backwards` et non `both` : l'élément retrouve son style normal une fois
+   * l'animation finie. Un `transform` résiduel, même identitaire, ferait de
+   * lui le bloc conteneur de ses descendants en position fixe.
+   */
+  .apparition {
+    animation: apparition 300ms cubic-bezier(0.22, 1, 0.36, 1) backwards;
+  }
+
+  .fondu {
+    animation: fondu 180ms ease-out backwards;
+  }
+
+  .surgissement {
+    animation: surgissement 220ms cubic-bezier(0.22, 1, 0.36, 1) backwards;
+  }
+
+  /* L'en-tête se détache du contenu dès que la page défile. */
+  @supports (animation-timeline: scroll()) {
+    .entete {
+      animation: ombre-entete linear both;
+      animation-timeline: scroll();
+      animation-range: 0 5rem;
+    }
+
+    @keyframes ombre-entete {
+      from {
+        box-shadow: none;
+      }
+      to {
+        box-shadow: 0 1px 16px --alpha(var(--color-stone-900) / 7%);
+      }
+    }
+  }
+
+  /*
+   * Repli et dépli progressifs. `interpolate-size` est nécessaire pour animer
+   * vers une hauteur automatique ; là où il manque, le dépli reste instantané.
+   */
+  @supports (interpolate-size: allow-keywords) {
+    :root {
+      interpolate-size: allow-keywords;
+    }
+
+    details::details-content {
+      block-size: 0;
+      overflow: hidden;
+      transition:
+        block-size 260ms cubic-bezier(0.22, 1, 0.36, 1),
+        content-visibility 260ms allow-discrete;
+    }
+
+    details[open]::details-content {
+      block-size: auto;
+    }
+  }
+}
+
+/*
+ * Passage d'un thème à l'autre : les couleurs glissent au lieu de sauter.
+ * La transition n'est posée que pendant la bascule, sinon elle s'appliquerait
+ * aussi au survol et au chargement, où elle n'a rien à faire.
+ */
+@media (prefers-reduced-motion: no-preference) {
+  .bascule-theme *,
+  .bascule-theme *::before,
+  .bascule-theme *::after {
+    transition:
+      background-color 220ms ease,
+      border-color 220ms ease,
+      color 220ms ease,
+      box-shadow 220ms ease !important;
+  }
+}
+
+/* Enfoncement au clic et au doigt : le site répond au toucher. */
+@media (prefers-reduced-motion: no-preference) {
+  .carte-interactive:active {
+    transform: scale(0.994);
+    transition-duration: 80ms;
   }
 }
