@@ -416,6 +416,20 @@ export type Question = z.infer<typeof Question>;
 /* -------------------------------------------------------------- collections */
 
 export const Partis = z.array(Parti);
+/** Entrée du journal des données, dérivée de l'historique du dépôt. */
+export const EntreeJournal = z
+  .object({
+    date: DateISO,
+    resume: z.string().min(5),
+    fichiers: z.array(z.string().min(3)).min(1),
+    commit: z.string().min(7),
+  })
+  .strict();
+
+export type EntreeJournal = z.infer<typeof EntreeJournal>;
+
+export const Journal = z.array(EntreeJournal);
+
 export const Candidats = z.array(Candidat);
 export const Themes = z.array(Theme);
 export const Propositions = z.array(Proposition);

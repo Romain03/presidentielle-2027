@@ -20,6 +20,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'comparateur/',
     'methodologie/',
     'a-propos/',
+    'journal/',
   ];
 
   return [

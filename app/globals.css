@@ -20,7 +20,16 @@
   --font-sans:
     ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
     sans-serif;
-  --font-serif: ui-serif, 'Iowan Old Style', Georgia, 'Times New Roman', serif;
+  /*
+   * Aucune police n'est téléchargée : le site est consulté en situation de
+   * campagne, parfois en mobilité, et une police de titre coûte de 20 à 60 Ko
+   * avant le premier mot lisible. La pile est simplement allongée pour que
+   * Times New Roman, qui ne va pas avec le reste, devienne un dernier recours
+   * plutôt qu'un choix fréquent hors environnement Apple.
+   */
+  --font-serif:
+    ui-serif, 'Iowan Old Style', 'Palatino Linotype', Palatino, Charter, 'Bitstream Charter',
+    'Source Serif 4', 'Noto Serif', 'Liberation Serif', Georgia, 'Times New Roman', serif;
 
   /* Papier */
   --color-creme: #faf7f1;

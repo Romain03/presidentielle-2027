@@ -515,8 +515,9 @@ export default function PageMethodologie() {
         <ul className="list-disc space-y-1.5 pl-5 text-sm leading-relaxed text-stone-700 dark:text-stone-300">
           <li>
             Le site compte {statistiques.propositions} propositions pour{' '}
-            {statistiques.candidats} candidats : la couverture est très inégale d’un candidat et
-            d’un thème à l’autre, parce que la plupart des programmes ne sont pas publiés.
+            {statistiques.enLice} candidatures engagées : la couverture est très inégale d’un
+            candidat et d’un thème à l’autre, parce que la plupart des programmes ne sont pas
+            publiés et parce que les articles dépouillés n’ont pas traité tous les sujets.
           </li>
           <li>
             Une position rapportée par la presse peut être résumée ou tronquée par rapport à ce que
@@ -527,9 +528,37 @@ export default function PageMethodologie() {
             affichées pour que l’ancienneté d’une information soit visible.
           </li>
           <li>
+            <strong className="font-semibold">Une seule proposition par couple candidat / thème,
+            c’est trop grossier pour comparer.</strong> Chaque résumé condense trois à cinq
+            mesures, et le comparateur ne peut alors conclure qu’à des formulations différentes,
+            ce qui est toujours vrai. Seuls les indicateurs chiffrés - âge de départ, durée de
+            cotisation, montant - sont réellement comparables, et ce sont eux qu’il faudra
+            prendre comme grille : trois à cinq sous-questions fixes par thème, plutôt qu’un
+            résumé par thème. C’est la refonte la plus utile qui reste à faire, et elle suppose
+            de reprendre les sources une par une.
+          </li>
+          <li>
+            <strong className="font-semibold">{statistiques.propositionsSansCitation} propositions
+            sur {statistiques.propositions} ne portent aucune citation</strong>, alors que la règle
+            de rédaction en fait un appui. Un résumé sans verbatim est une paraphrase de
+            paraphrase : le lien vers la source reste le seul recours.
+          </li>
+          <li>
+            <strong className="font-semibold">Les portraits ne sont pas homogènes.</strong> Ils
+            sont choisis mécaniquement sur Wikimedia Commons, ce qui garantit l’égalité de
+            traitement mais pas l’égalité de rendu : certains datent de 2010, d’autres de 2026,
+            l’un est détouré sur fond blanc, un autre pris sous un éclairage de scène. Un choix
+            mécanique n’est pas un traitement égal, et une harmonisation supposerait un jugement
+            esthétique que ce site s’interdit par ailleurs.
+          </li>
+          <li>
             Les informations incertaines, contradictoires ou non sourçables sont consignées dans le
             fichier <code className="rounded bg-stone-100 px-1 py-0.5 text-xs dark:bg-stone-800">DONNEES_A_VERIFIER.md</code>{' '}
-            du dépôt plutôt que publiées ici.
+            du dépôt plutôt que publiées ici, et chaque modification des données figure au{' '}
+            <Link href="/journal/" className="lien">
+              journal
+            </Link>
+            .
           </li>
         </ul>
       </section>

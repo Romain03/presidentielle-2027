@@ -2,16 +2,19 @@ import {
   Candidats,
   Partis,
   Propositions,
+  Journal,
   Questions,
   Themes,
   enLice,
   type Candidat,
+  type EntreeJournal,
   type Parti,
   type Proposition,
   type Question,
   type Theme,
 } from './schemas';
 import candidatsJson from '../data/candidats.json';
+import journalJson from '../data/journal.json';
 import partisJson from '../data/partis.json';
 import propositionsJson from '../data/propositions.json';
 import questionsJson from '../data/questions.json';
@@ -54,6 +57,9 @@ export const propositions: Proposition[] = valider(
   propositionsJson,
   'propositions.json',
 );
+/** Journal des modifications des données, du plus récent au plus ancien. */
+export const journal: EntreeJournal[] = valider(Journal, journalJson, 'journal.json');
+
 export const questions: Question[] = valider(Questions, questionsJson, 'questions.json');
 
 /* ------------------------------------------------- intégrité référentielle */
@@ -199,4 +205,5 @@ export const statistiques = {
   candidatsAvecProposition: candidats.filter((c) => nombrePropositions(c.id) > 0).length,
   propositionsDeProgramme: propositions.filter((p) => p.nature === 'programme_officiel').length,
   partisSansNuance: partis.filter((p) => p.nuance_ministerielle === null).length,
+  propositionsSansCitation: propositions.filter((p) => p.citation === null).length,
 };

@@ -28,6 +28,11 @@ export default function PiedDePage() {
               </Link>
             </li>
             <li>
+              <Link href="/journal/" className="underline underline-offset-2">
+                Journal des données
+              </Link>
+            </li>
+            <li>
               <a
                 href="https://github.com/Romain03/presidentielle-2027"
                 target="_blank"

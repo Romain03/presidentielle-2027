@@ -1,0 +1,98 @@
+[
+  {
+    "date": "2026-10-10",
+    "resume": "Parcours : dates exactes pour les mandats courts, ordre reel",
+    "fichiers": [
+      "candidats.json"
+    ],
+    "commit": "7f0d1a7c59"
+  },
+  {
+    "date": "2026-10-10",
+    "resume": "Revue externe : transparence des sources, page A propos, details de texte",
+    "fichiers": [
+      "candidats.json"
+    ],
+    "commit": "a4bea655c1"
+  },
+  {
+    "date": "2026-10-10",
+    "resume": "Revue externe : libelles honnetes, badges exacts, dirigeants corriges",
+    "fichiers": [
+      "partis.json",
+      "propositions.json"
+    ],
+    "commit": "f7e5ffc709"
+  },
+  {
+    "date": "2026-10-10",
+    "resume": "Partis : leurs propres mots, et un theme sombre lisible",
+    "fichiers": [
+      "partis.json"
+    ],
+    "commit": "5d7e2f8255"
+  },
+  {
+    "date": "2026-10-10",
+    "resume": "Fiches candidats : reperes biographiques et parcours",
+    "fichiers": [
+      "candidats.json"
+    ],
+    "commit": "990ed03041"
+  },
+  {
+    "date": "2026-10-10",
+    "resume": "Fiches de parti : faits verifiables et propositions des candidats",
+    "fichiers": [
+      "partis.json"
+    ],
+    "commit": "9e04e2085d"
+  },
+  {
+    "date": "2026-10-10",
+    "resume": "Test de proximite : moteur, interface et seuils d'activation",
+    "fichiers": [
+      "propositions.json",
+      "questions.json"
+    ],
+    "commit": "2f99d84305"
+  },
+  {
+    "date": "2026-10-09",
+    "resume": "Pages par famille politique",
+    "fichiers": [
+      "candidats.json",
+      "propositions.json"
+    ],
+    "commit": "7cc08cc5b8"
+  },
+  {
+    "date": "2026-10-09",
+    "resume": "Portraits des candidats, sous licence libre",
+    "fichiers": [
+      "candidats.json"
+    ],
+    "commit": "730ad8bf36"
+  },
+  {
+    "date": "2026-10-09",
+    "resume": "Tirets simples et refonte visuelle plus chaleureuse",
+    "fichiers": [
+      "candidats.json",
+      "partis.json",
+      "propositions.json"
+    ],
+    "commit": "a50da2b09f"
+  },
+  {
+    "date": "2026-10-09",
+    "resume": "Application Présidentielle 2027 : données, interface et déploiement",
+    "fichiers": [
+      "candidats.json",
+      "partis.json",
+      "propositions.json",
+      "themes.json"
+    ],
+    "commit": "f70096e846"
+  }
+]
