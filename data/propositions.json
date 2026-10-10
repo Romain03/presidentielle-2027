@@ -461,11 +461,17 @@
     "id": "dupont-aignan-retraites",
     "candidat_id": "nicolas-dupont-aignan",
     "theme_id": "retraites",
-    "resume": "Un capital public de 10 000 euros versé à chaque nouveau-né français sur un livret d'épargne-retraite, financé par les économies attendues d'une sortie de l'Union européenne.",
-    "detail": "Le candidat propose que l'État verse un capital de 10 000 euros à tous les nouveau-nés français sur un livret d'épargne-retraite. Il présente la mesure comme financée par les économies qu'il attend d'une sortie de l'Union européenne, qu'il chiffre à 15 milliards d'euros par an et qu'il affecterait pour partie à la réduction de la dette. L'article ne rapporte pas d'âge de déblocage du capital ni de position sur l'âge légal de départ.",
+    "resume": "Maintien de l'âge de départ et de la durée de cotisation aux niveaux actuels, indexation des pensions au moins sur l'inflation, et capital public de 10 000 euros versé à chaque nouveau-né sur un livret d'épargne-retraite.",
+    "detail": "Le candidat propose que l'État verse un capital de 10 000 euros à tous les nouveau-nés français sur un livret d'épargne-retraite. Il présente la mesure comme financée par les économies qu'il attend d'une sortie de l'Union européenne, qu'il chiffre à 15 milliards d'euros par an et qu'il affecterait pour partie à la réduction de la dette. L'article ne rapporte pas d'âge de déblocage du capital ni de position sur l'âge légal de départ.\n\nLe projet publié par son parti ajoute ce que l'article ne rapportait pas : maintenir « l'âge minimum de départ à la retraite et la durée de cotisations aux niveaux actuels », et « indexer les retraites a minima sur l'inflation pour augmenter les retraites chaque année de manière juste ». S'y ajoutent la réversion pour les veuves, la prise en compte de la pénibilité, une restriction de l'allocation de solidarité aux personnes âgées pour les étrangers et un volet successions. Cette page ne porte pas la mention « Projet 2027 » dont le parti marque les sections déjà actualisées pour le scrutin, et n'est pas datée : elle est retenue comme la position courante du parti, non comme un programme de campagne.",
     "citation": "Ces 15 milliards d'économie, je vais les redistribuer en réduisant la dette et en donnant un capital de 10 000 euros à tous les nouveau-nés français pour un livret d'épargne-retraite",
     "nature": "declaration_publique",
     "indicateurs": [
+      {
+        "libelle": "Âge légal de départ",
+        "valeur": "inchangé",
+        "unite": null,
+        "valeur_comparable": null
+      },
       {
         "libelle": "Versement public à la naissance",
         "valeur": 10000,
@@ -473,9 +479,15 @@
         "valeur_comparable": 10000
       }
     ],
-    "derniere_verification": "2026-10-09",
+    "derniere_verification": "2026-10-10",
     "programme_anterieur": null,
     "sources": [
+      {
+        "url": "https://www.debout-la-france.fr/projet/retraites/",
+        "titre": "Retraites - Le projet de Debout la France",
+        "type": "site-de-parti",
+        "date": "2026-10-10"
+      },
       {
         "url": "https://www.franceinfo.fr/politique/nicolas-dupont-aignan/je-serai-le-seul-candidat-qui-propose-de-sortir-de-l-union-europeenne-dit-nicolas-dupont-aignan-qui-se-lance-dans-sa-quatrieme-campagne-presidentielle_8201024.html",
         "titre": "« Je serai le seul candidat qui propose de sortir de l'Union européenne », dit Nicolas Dupont-Aignan, qui se lance dans sa quatrième campagne présidentielle",
@@ -617,26 +629,38 @@
     "id": "lisnard-retraites",
     "candidat_id": "david-lisnard",
     "theme_id": "retraites",
-    "resume": "Pas de retour sur la réforme de 2023 et objectif de 65 ans. Sa proposition la plus structurante porte sur le financement : un socle de pension par répartition complété par une part de capitalisation obligatoire et collective.",
-    "detail": "Le candidat ne veut pas revenir sur la réforme de 2023. Son programme affiche un objectif de 65 ans, mais sa proposition la plus structurante concerne le financement : maintenir un socle de pension par répartition et lui ajouter une part de capitalisation obligatoire et collective. Pour financer le passage vers ce système, il envisage notamment de ne plus revaloriser avec l'inflation les pensions supérieures à environ 2 000 euros par mois.",
-    "citation": null,
-    "nature": "declaration_publique",
+    "resume": "Âge légal porté à 65 ans en préalable, puis bascule de tous les régimes vers la capitalisation : un socle de pension minimale par répartition pour tous dès 65 ans, complété par un minimum vieillesse de 1 000 euros par mois.",
+    "detail": "Le programme du candidat traite les retraites en deux temps. En préalable, « la norme de l'âge légal de 65 ans est un impératif national urgent pour des raisons d'équilibre financier » : à défaut, écrit-il, les pensions devraient être baissées alors qu'il faut augmenter les petites retraites. Il invoque l'alignement sur les autres pays, qui « rallongent la durée d'activité jusqu'à 65 ans au moins », et la justice générationnelle.\n\nVient ensuite la réforme de fond, qui combine répartition et capitalisation. Un socle de pension minimale par répartition serait conservé pour tous les retraités, « attribué à tous sans condition dès l'âge de 65 ans », complété par un minimum vieillesse porté à 1 000 euros par mois. Tous les autres régimes évolueraient vers la capitalisation, alimentée par des cotisations obligatoires des salariés et des employeurs ; chaque Français investirait ces contributions dans un dispositif individuel de son choix, une partie étant orientée vers les entreprises françaises. Une part de cette épargne serait déblocable pour l'achat de la résidence principale.\n\nLa transition se ferait par environ huit tranches successives, pour atteindre un montant capitalisé évalué à 116 milliards d'euros, soit environ 40 % du montant total des retraites. Une « Agence Centrale Publique de Retraite » remplacerait tous les organismes actuels et en assurerait la gestion.",
+    "citation": "la norme de l'âge légal de 65 ans est un impératif national urgent",
+    "nature": "programme_officiel",
     "indicateurs": [
       {
         "libelle": "Âge légal de départ",
         "valeur": 65,
         "unite": "ans",
         "valeur_comparable": 65
+      },
+      {
+        "libelle": "Minimum vieillesse visé",
+        "valeur": 1000,
+        "unite": "euros par mois",
+        "valeur_comparable": 1000
+      },
+      {
+        "libelle": "Part capitalisée visée",
+        "valeur": 40,
+        "unite": "%",
+        "valeur_comparable": 40
       }
     ],
-    "derniere_verification": "2026-10-09",
+    "derniere_verification": "2026-10-10",
     "programme_anterieur": null,
     "sources": [
       {
-        "url": "https://www.cnews.fr/france/2026-10-03/retraites-voici-les-propositions-des-differents-candidats-lelection",
-        "titre": "Retraites : voici les propositions des différents candidats à l'élection présidentielle 2027",
-        "type": "article-de-presse",
-        "date": "2026-10-03"
+        "url": "https://www.unenouvelleenergie.fr/notre-programme/reussir-une-nouvelle-ambition-francaise/",
+        "titre": "Réussir une nouvelle ambition française - Le programme de David Lisnard",
+        "type": "programme-officiel",
+        "date": "2026-10-10"
       }
     ]
   },

@@ -59,41 +59,74 @@ il appelle une reprise :
 
 ---
 
-### Trente-deux pages de programme trouvées par la veille, aucune exploitée
-La veille automatique du 10 octobre 2026 a parcouru les sites officiels des
-26 partis et des candidats, et y a trouvé **32 pages de programme qu'aucune
-proposition du site ne cite**. Le site se sourçait à la presse alors que des
-documents primaires étaient en ligne : c'est la plus grosse lacune révélée à ce
-jour, et elle était invisible sans ce parcours systématique.
+### Lecture des 32 pages de programme trouvées par la veille
+La veille du 10 octobre 2026 a trouvé **32 pages de programme en ligne qu'aucune
+proposition du site ne citait**. Elles ont été ouvertes une par une. Le résultat
+est très inégal, et le tri lui-même était le travail utile.
 
-Les plus directement utiles, par ordre de priorité :
+**Deux ont été exploitées.**
 
-| Candidature | Adresse |
-|---|---|
-| David Lisnard | `unenouvelleenergie.fr/notre-programme` |
-| Fabien Roussel | `pcf.fr/le_programme` |
-| Jean-Luc Mélenchon | `melenchon2027.fr/programme/laec` et `/plans-thematiques` |
-| Bruno Retailleau | `republicains.fr/nos-propositions` |
-| Éric Zemmour | `leprogrammepourlafrance.fr` |
-| Marine Le Pen | `rassemblementnational.fr/22-mesures` |
-| Nicolas Dupont-Aignan | `debout-la-france.fr/notre-projet` |
-| Florian Philippot | `les-patriotes.fr/projet-pour-la-france` |
-| François Asselineau | `upr.fr/notre-programme` |
-| Olivier Faure | `projet-socialiste.fr` et `letempsduprojet.fr` |
-| Raphaël Glucksmann | `place-publique.eu/.../le-projet` |
-| Delphine Batho | `generationecologie.fr/.../notre-projet` |
-| Lydie Massard | `udb.bzh/qui-sommes-nous/nos-idees` |
+- **David Lisnard** - `unenouvelleenergie.fr/notre-programme/reussir-une-nouvelle-ambition-francaise`.
+  C'est bien son programme de 2027, et il est détaillé : âge légal de 65 ans posé
+  en préalable, socle de pension minimale par répartition attribué sans condition
+  dès 65 ans, minimum vieillesse à 1 000 euros, bascule de tous les autres
+  régimes vers la capitalisation, transition en huit tranches, 116 milliards
+  capitalisés soit 40 % du total, et une « Agence Centrale Publique de Retraite »
+  remplaçant les organismes actuels. **Sa proposition ne passe plus par aucune
+  rédaction** et gagne trois indicateurs chiffrés.
+  *Correction au passage* : le site parlait d'une capitalisation « obligatoire et
+  collective ». Le programme dit l'inverse sur le second point : les cotisations
+  sont obligatoires, mais chacun les investit « dans un dispositif individuel de
+  son choix ».
+- **Nicolas Dupont-Aignan** - `debout-la-france.fr/projet/retraites`. Le projet du
+  parti rétablit ce qu'il avait fallu retirer faute de source : maintien de l'âge
+  et de la durée de cotisation aux niveaux actuels, et indexation des pensions
+  « a minima sur l'inflation ». **Réserve affichée sur la fiche** : cette page ne
+  porte pas la mention « Projet 2027 » dont le parti marque les sections déjà
+  actualisées, et n'est pas datée. Elle est retenue comme position courante du
+  parti, pas comme un programme de campagne.
 
-**Deux de ces adresses concernent Lisnard et Roussel**, dont les retraites sont
-les dernières propositions sourcées à CNews. Il n'est pas certain qu'elles
-traitent des retraites, ni qu'elles soient datées de la campagne 2027 - la page
-du PCF semblait remonter à 2021-2022 lors d'une lecture précédente. Mais elles
-n'avaient jamais été ouvertes.
+**Quatre ont été écartées, et il fallait les ouvrir pour le savoir.**
 
-**À faire :** les lire une par une, en vérifiant d'abord la date et le scrutin
-auquel elles se rapportent. Une page de parti n'est pas le programme d'un
-candidat, et un « projet » peut dater d'un scrutin passé. Le liste complète est
-dans `veille/empreintes.json`.
+- **Fabien Roussel** - les pages de programme du PCF datent toutes d'avant 2027 :
+  `un_projet_pour_la_france` porte un horodatage de **février 2022**, la page
+  retraites de **décembre 2022**, et l'article de Public Sénat sur ses
+  « 180 propositions pour une France des jours heureux » est du **24 janvier
+  2022**. Trois pièges de 2022 en une seule recherche.
+- **François Ruffin** - `debout.fr` publie un manifeste, pas de programme ni de
+  mesure chiffrée.
+- **Bruno Retailleau** - `republicains.fr/nos-propositions` n'est pas daté, ne
+  traite ni des retraites, ni de l'immigration, ni de la sécurité, et surtout
+  **ce sont les propositions du parti, pas celles du candidat**. Les attribuer à
+  Bruno Retailleau serait exactement l'inférence que ce dépôt interdit.
+- **Jean-Luc Mélenchon** - `melenchon2027.fr/programme2025/livre` annonce
+  *L'Avenir en commun, édition 2025* et en liste quinze chapitres, dont ceux qui
+  intéressent directement le site : « Élever le niveau d'instruction »,
+  « Partage des richesses », « Travailler tous, travailler moins, travailler
+  mieux », « Planification écologique ». **Tous les liens de chapitres renvoient
+  une erreur 404**, côté serveur comme côté client. Le texte du programme est
+  donc inaccessible. C'est la plus grosse source primaire en attente : à
+  reprendre dès que le site est réparé, et la veille hebdomadaire le signalera.
+
+**À faire :** les 26 autres pages trouvées concernent des partis sans proposition
+au site, ou des documents de scrutins passés. La liste complète est dans
+`veille/empreintes.json`.
+
+### Pages de programme sans date de publication
+Trois sources primaires sont des pages vivantes qui ne portent aucune date :
+`edouardphilippe.fr`, `unenouvelleenergie.fr` et `debout-la-france.fr`. Deux
+conventions ont été appliquées, et il faut savoir laquelle vaut pour quoi :
+
+- pour **Édouard Philippe**, la date retenue est celle de la présentation
+  publique du chapitre correspondant, attestée par la presse : 19 juillet 2026
+  pour « plus sûre », 17 septembre 2026 pour le volet climatique ;
+- pour **David Lisnard** et **Debout la France**, aucune présentation datée ne
+  correspond à la page : la date retenue est **celle de la lecture**, seule date
+  que le site puisse attester.
+
+**À faire :** unifier. La date de lecture est la plus honnête pour une page
+vivante, mais elle perd l'information de parution quand celle-ci existe. Un
+champ distinct serait préférable à une convention implicite.
 
 ---
 

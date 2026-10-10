@@ -1,5 +1,14 @@
 [
   {
+    "date": "2026-10-11",
+    "resume": "Veille automatique des sources, hebdomadaire, qui ne publie rien",
+    "fichiers": [
+      "candidats.json",
+      "journal.json"
+    ],
+    "commit": "cdfa2ab13a"
+  },
+  {
     "date": "2026-10-10",
     "resume": "Propositions : Le Monde etaye 20 citations, source unique tombe de 44 a 27",
     "fichiers": [
