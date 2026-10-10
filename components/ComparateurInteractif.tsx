@@ -12,7 +12,7 @@ import {
   validerSelection,
   type StatutLigne,
 } from '@/lib/comparateur';
-import { nomComplet } from '@/lib/format';
+import { nomComplet, pluriel } from '@/lib/format';
 import type { Proposition, Theme } from '@/lib/schemas';
 import type { CandidatResume } from '@/lib/vues';
 
@@ -108,7 +108,7 @@ export default function ComparateurInteractif({
               <button
                 type="button"
                 onClick={() => setSelection(selection.filter((id) => id !== candidat.id))}
-                className="grid size-5 place-items-center rounded-full text-stone-600 hover:bg-stone-200 hover:text-stone-900 dark:hover:bg-stone-700 dark:hover:text-stone-100"
+                className="grid size-7 place-items-center rounded-full text-stone-600 hover:bg-stone-200 hover:text-stone-900 dark:hover:bg-stone-700 dark:hover:text-stone-100"
                 aria-label={`Retirer ${nomComplet(candidat)} de la comparaison`}
               >
                 <span aria-hidden="true">✕</span>
@@ -124,7 +124,7 @@ export default function ComparateurInteractif({
               onChange={(e) => {
                 if (e.target.value !== '') setSelection([...selection, e.target.value]);
               }}
-              className="rounded-md border border-stone-300 bg-white px-2.5 py-1.5 text-sm disabled:opacity-50 dark:border-stone-700 dark:bg-nuit-clair"
+              className="min-h-11 rounded-md border border-stone-300 bg-white px-2.5 py-2 text-sm disabled:opacity-50 sm:min-h-0 sm:py-1.5 dark:border-stone-700 dark:bg-nuit-clair"
             >
               <option value="">
                 {complet ? `Maximum ${MAX_CANDIDATS} candidats` : '+ Ajouter un candidat'}
@@ -148,18 +148,24 @@ export default function ComparateurInteractif({
 
         {erreurs.length === 0 && (
           <div className="flex flex-wrap items-center justify-between gap-3 border-t border-stone-100 pt-3 text-sm dark:border-nuit-bord">
-            <label className="flex items-center gap-2">
+            <label className="-my-2 flex items-center gap-2.5 py-2">
               <input
                 type="checkbox"
                 checked={masquerVides}
                 onChange={(e) => setMasquerVides(e.target.checked)}
-                className="size-4 rounded border-stone-400"
+                className="size-4.5 rounded border-stone-400"
               />
               Masquer les thèmes sans aucune position
             </label>
             <p className="text-stone-600 dark:text-stone-400">
-              {comparaison.nombreDivergences} thème(s) où les positions diffèrent ·{' '}
-              {comparaison.nombreIncompletes} non comparable(s)
+              {comparaison.nombreDivergences}{' '}
+              {pluriel(
+                comparaison.nombreDivergences,
+                'thème où les positions diffèrent',
+                'thèmes où les positions diffèrent',
+              )}{' '}
+              · {comparaison.nombreIncompletes}{' '}
+              {pluriel(comparaison.nombreIncompletes, 'non comparable', 'non comparables')}
             </p>
           </div>
         )}
@@ -172,6 +178,16 @@ export default function ComparateurInteractif({
         </p>
       ) : (
         <>
+          {/*
+            Comparer suppose des colonnes : contrairement aux pages de thème,
+            ce tableau ne peut pas être déplié en blocs. Il défile donc
+            horizontalement, la colonne des thèmes reste en place, et le
+            défilement est annoncé plutôt que laissé à deviner.
+          */}
+          <p className="text-xs text-stone-600 sm:hidden dark:text-stone-400">
+            Faites glisser le tableau vers la gauche pour voir les autres candidats.
+          </p>
+
           <div className="carte overflow-x-auto">
             <table className="w-full min-w-[46rem] border-collapse text-left text-sm">
               <caption className="sr-only">
@@ -179,7 +195,10 @@ export default function ComparateurInteractif({
               </caption>
               <thead>
                 <tr className="border-b border-stone-200 dark:border-nuit-bord">
-                  <th scope="col" className="w-48 p-3 align-bottom font-semibold">
+                  <th
+                    scope="col"
+                    className="sticky left-0 z-10 w-48 bg-white p-3 align-bottom font-semibold shadow-[1px_0_0_0_--alpha(var(--color-stone-900)/8%)] dark:bg-nuit-clair"
+                  >
                     Thème
                   </th>
                   {selectionnes.map((candidat) => (
@@ -206,7 +225,10 @@ export default function ComparateurInteractif({
                   return (
                     <tbody key={ligne.theme.id} className="border-b border-stone-200 dark:border-nuit-bord">
                       <tr>
-                        <th scope="row" className="p-3 align-top font-medium">
+                        <th
+                          scope="row"
+                          className="sticky left-0 z-10 bg-white p-3 align-top font-medium shadow-[1px_0_0_0_--alpha(var(--color-stone-900)/8%)] dark:bg-nuit-clair"
+                        >
                           <Link
                             href={`/themes/${ligne.theme.id}/`}
                             className="underline-offset-2 hover:underline"
@@ -242,7 +264,12 @@ export default function ComparateurInteractif({
                           key={indicateur.libelle}
                           className="bg-creme-ombre/60 text-xs dark:bg-nuit/40"
                         >
-                          <th scope="row" className="py-1.5 pl-6 pr-3 font-normal text-stone-600 dark:text-stone-400">
+                          {/* Fond opaque : une cellule figée laisse voir ce qui
+                              défile dessous si elle est translucide. */}
+                          <th
+                            scope="row"
+                            className="sticky left-0 z-10 bg-creme-ombre py-1.5 pl-6 pr-3 font-normal text-stone-600 shadow-[1px_0_0_0_--alpha(var(--color-stone-900)/8%)] dark:bg-nuit dark:text-stone-400"
+                          >
                             {indicateur.libelle}
                             {indicateur.divergent && (
                               <span className="ml-1.5 text-amber-800 dark:text-amber-300">

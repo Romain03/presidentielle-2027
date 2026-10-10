@@ -28,183 +28,202 @@
   --color-ocre-clair: #e0b457;
 }
 
-html {
-  scroll-behavior: smooth;
-  -webkit-text-size-adjust: 100%;
-}
-
-body {
-  line-height: 1.65;
-}
-
-/* Les titres en sérif donnent le ton éditorial, sans coût de chargement :
-   « New York » sur les appareils Apple, Georgia ailleurs. */
-h1,
-h2 {
-  font-family: var(--font-serif);
-  letter-spacing: -0.015em;
-  line-height: 1.2;
-}
-
-h1 {
-  text-wrap: balance;
-}
-
-p {
-  text-wrap: pretty;
-}
-
-/* Les ancres de thème ne doivent pas passer sous l'en-tête collant. */
-:target {
-  scroll-margin-top: 6rem;
-}
-
-@media (prefers-reduced-motion: reduce) {
-  html {
-    scroll-behavior: auto;
-  }
-
-  *,
-  *::before,
-  *::after {
-    transition-duration: 0.01ms !important;
-    animation-duration: 0.01ms !important;
-  }
-}
-
-/* Anneau de focus visible et contrasté sur les deux thèmes. */
-:focus-visible {
-  outline: 2px solid var(--color-ocre);
-  outline-offset: 2px;
-  border-radius: 0.25rem;
-}
-
-@media (prefers-color-scheme: dark) {
-  :focus-visible {
-    outline-color: var(--color-ocre-clair);
-  }
-}
-
-/* ------------------------------------------------------------------ cartes */
-
 /*
- * Surface commune à toutes les cartes du site. Bordure discrète plus ombre
- * très douce : la hiérarchie se lit sans traits durs.
+ * Tout ce qui suit est rangé dans une couche CSS.
+ *
+ * Une règle écrite hors couche l'emporte sur n'importe quel utilitaire
+ * Tailwind, qui vit dans la couche `utilities`. Sans ces `@layer`, la règle
+ * `.zone-sure-cotes` annulait silencieusement le `px-4` de la zone de contenu
+ * et le texte touchait les bords de l'écran sur mobile ; la règle destinée à
+ * agrandir les cibles tactiles réduisait au contraire la hauteur des liens de
+ * navigation. Le défaut ne se voyait pas dans le code : il fallait mesurer la
+ * page pour le trouver.
  */
-.carte {
-  border-radius: 0.875rem;
-  border: 1px solid --alpha(var(--color-stone-900) / 8%);
-  background-color: #fff;
-  box-shadow:
-    0 1px 2px --alpha(var(--color-stone-900) / 4%),
-    0 4px 12px --alpha(var(--color-stone-900) / 3%);
-}
 
-.carte-interactive {
-  transition:
-    border-color 150ms ease,
-    box-shadow 150ms ease,
-    transform 150ms ease;
-}
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
 
-.carte-interactive:hover {
-  border-color: --alpha(var(--color-stone-900) / 18%);
-  box-shadow:
-    0 1px 2px --alpha(var(--color-stone-900) / 5%),
-    0 8px 24px --alpha(var(--color-stone-900) / 7%);
-}
+  body {
+    line-height: 1.65;
+    /* Évite le rebond élastique du document derrière l'en-tête collant sur iOS. */
+    overscroll-behavior-y: none;
+  }
 
-@media (hover: hover) {
-  .carte-interactive:hover {
-    transform: translateY(-1px);
+  /* Les titres en sérif donnent le ton éditorial, sans coût de chargement :
+     « New York » sur les appareils Apple, Georgia ailleurs. */
+  h1,
+  h2 {
+    font-family: var(--font-serif);
+    letter-spacing: -0.015em;
+    line-height: 1.2;
+  }
+
+  h1 {
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  /* Les ancres de thème ne doivent pas passer sous l'en-tête collant. */
+  :target {
+    scroll-margin-top: 6rem;
+  }
+
+  /* Anneau de focus visible et contrasté sur les deux thèmes. */
+  :focus-visible {
+    outline: 2px solid var(--color-ocre);
+    outline-offset: 2px;
+    border-radius: 0.25rem;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :focus-visible {
+      outline-color: var(--color-ocre-clair);
+    }
+  }
+
+  /* Confort tactile : pas de surlignage bleu au tap sur les liens et boutons. */
+  a,
+  button,
+  summary,
+  label {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+      transition-duration: 0.01ms !important;
+      animation-duration: 0.01ms !important;
+    }
   }
 }
 
-@media (prefers-color-scheme: dark) {
+@layer components {
+  /* --------------------------------------------------------------- cartes */
+
+  /*
+   * Surface commune à toutes les cartes du site. Bordure discrète plus ombre
+   * très douce : la hiérarchie se lit sans traits durs.
+   */
   .carte {
-    border-color: var(--color-nuit-bord);
-    background-color: var(--color-nuit-clair);
-    box-shadow: none;
+    border-radius: 0.875rem;
+    border: 1px solid --alpha(var(--color-stone-900) / 8%);
+    background-color: #fff;
+    box-shadow:
+      0 1px 2px --alpha(var(--color-stone-900) / 4%),
+      0 4px 12px --alpha(var(--color-stone-900) / 3%);
+  }
+
+  .carte-interactive {
+    transition:
+      border-color 150ms ease,
+      box-shadow 150ms ease,
+      transform 150ms ease;
   }
 
   .carte-interactive:hover {
-    border-color: #4d4538;
-    box-shadow: none;
+    border-color: --alpha(var(--color-stone-900) / 18%);
+    box-shadow:
+      0 1px 2px --alpha(var(--color-stone-900) / 5%),
+      0 8px 24px --alpha(var(--color-stone-900) / 7%);
   }
-}
 
-/* ------------------------------------------------------------------- liens */
+  @media (hover: hover) {
+    .carte-interactive:hover {
+      transform: translateY(-1px);
+    }
+  }
 
-.lien {
-  text-decoration: underline;
-  text-decoration-thickness: 1px;
-  text-underline-offset: 0.2em;
-  text-decoration-color: --alpha(var(--color-stone-900) / 30%);
-  transition: text-decoration-color 150ms ease, color 150ms ease;
-}
+  @media (prefers-color-scheme: dark) {
+    .carte {
+      border-color: var(--color-nuit-bord);
+      background-color: var(--color-nuit-clair);
+      box-shadow: none;
+    }
 
-.lien:hover {
-  color: var(--color-ocre);
-  text-decoration-color: currentColor;
-}
+    .carte-interactive:hover {
+      border-color: #4d4538;
+      box-shadow: none;
+    }
+  }
 
-@media (prefers-color-scheme: dark) {
+  /* ---------------------------------------------------------------- liens */
+
   .lien {
-    text-decoration-color: --alpha(#fff / 35%);
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.2em;
+    text-decoration-color: --alpha(var(--color-stone-900) / 30%);
+    transition:
+      text-decoration-color 150ms ease,
+      color 150ms ease;
   }
 
   .lien:hover {
-    color: var(--color-ocre-clair);
+    color: var(--color-ocre);
+    text-decoration-color: currentColor;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .lien {
+      text-decoration-color: --alpha(#fff / 35%);
+    }
+
+    .lien:hover {
+      color: var(--color-ocre-clair);
+    }
   }
 }
 
 /* ------------------------------------------------------------------- iOS */
 
 /*
- * Encoches et barre d'accueil : en mode « application installée », le contenu
- * occupe tout l'écran. Ces marges évitent que l'en-tête passe sous l'encoche
- * et que le pied de page passe sous la barre d'accueil.
+ * Gouttière latérale de la zone de contenu. Elle vaut la marge de lecture
+ * ordinaire, et l'encoche seulement lorsque celle-ci est plus large - en
+ * paysage sur un téléphone à encoche, ou en mode « application installée ».
+ *
+ * C'est cette classe, et elle seule, qui porte la marge horizontale : y
+ * ajouter un `px-*` reviendrait à écraser la prise en compte de l'encoche.
  */
-.zone-sure-haut {
-  padding-top: env(safe-area-inset-top);
-}
+@utility gouttiere {
+  padding-left: max(1rem, env(safe-area-inset-left));
+  padding-right: max(1rem, env(safe-area-inset-right));
 
-.zone-sure-bas {
-  padding-bottom: env(safe-area-inset-bottom);
-}
-
-.zone-sure-cotes {
-  padding-left: env(safe-area-inset-left);
-  padding-right: env(safe-area-inset-right);
-}
-
-/* Évite le rebond élastique du document derrière l'en-tête collant sur iOS. */
-body {
-  overscroll-behavior-y: none;
-}
-
-/* Confort tactile : pas de surlignage bleu au tap sur les liens et boutons. */
-a,
-button,
-summary,
-label {
-  -webkit-tap-highlight-color: transparent;
-}
-
-/* Cibles tactiles confortables sur mobile. */
-@media (pointer: coarse) {
-  nav a,
-  summary {
-    padding-block: 0.15rem;
+  @media (width >= 40rem) {
+    padding-left: max(1.5rem, env(safe-area-inset-left));
+    padding-right: max(1.5rem, env(safe-area-inset-right));
   }
 }
 
-/* Rangée défilante sans barre visible (navigation sur mobile). */
-.sans-barre-defilement {
-  scrollbar-width: none;
-  -ms-overflow-style: none;
+/*
+ * Encoche et barre d'accueil : en mode « application installée », le contenu
+ * occupe tout l'écran. Ces marges s'ajoutent à celles de l'élément.
+ */
+@utility zone-sure-haut {
+  padding-top: env(safe-area-inset-top);
 }
 
-.sans-barre-defilement::-webkit-scrollbar {
-  display: none;
+@utility zone-sure-bas {
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+/* Rangée défilante sans barre visible (navigation sur mobile). */
+@utility sans-barre-defilement {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
 }

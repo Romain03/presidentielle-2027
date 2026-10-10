@@ -23,12 +23,12 @@ export default function PositionsDuTheme({ lignes }: { lignes: LigneTheme[] }) {
   return (
     <div className="space-y-4">
       <div className="flex flex-wrap items-center justify-between gap-3 text-sm">
-        <label className="flex items-center gap-2">
+        <label className="-my-2 flex items-center gap-2.5 py-2">
           <input
             type="checkbox"
             checked={masquerVides}
             onChange={(e) => setMasquerVides(e.target.checked)}
-            className="size-4 rounded border-stone-400"
+            className="size-4.5 rounded border-stone-400"
           />
           Masquer les positions non communiquées
         </label>
@@ -38,12 +38,17 @@ export default function PositionsDuTheme({ lignes }: { lignes: LigneTheme[] }) {
         </p>
       </div>
 
-      <div className="carte overflow-x-auto">
-        <table className="w-full min-w-[42rem] border-collapse text-left text-sm">
+      {/*
+        Sous 640 pixels, le tableau se déplie en blocs empilés : trois colonnes
+        dans 340 pixels obligeaient à faire défiler chacune des quarante-quatre
+        lignes horizontalement pour lire une position.
+      */}
+      <div className="carte sm:overflow-x-auto">
+        <table className="block w-full border-collapse text-left text-sm sm:table sm:min-w-[42rem]">
           <caption className="sr-only">
             Positions des candidats sur ce thème, par ordre alphabétique
           </caption>
-          <thead>
+          <thead className="hidden sm:table-header-group">
             <tr className="border-b border-stone-200 dark:border-nuit-bord">
               <th scope="col" className="w-52 p-3 font-semibold">
                 Candidat
@@ -56,13 +61,13 @@ export default function PositionsDuTheme({ lignes }: { lignes: LigneTheme[] }) {
               </th>
             </tr>
           </thead>
-          <tbody>
+          <tbody className="block sm:table-row-group">
             {affichees.map(({ candidat, propositions }) => (
               <tr
                 key={candidat.id}
-                className="border-b border-stone-200 last:border-0 dark:border-nuit-bord"
+                className="block border-b border-stone-200 last:border-0 sm:table-row dark:border-nuit-bord"
               >
-                <th scope="row" className="p-3 align-top font-normal">
+                <th scope="row" className="block p-3 pb-1.5 text-left align-top font-normal sm:table-cell sm:pb-3">
                   <span
                     className="flex items-center gap-2.5 border-l-[3px] pl-2"
                     style={{ borderLeftColor: candidat.parti?.couleur ?? 'transparent' }}
@@ -82,7 +87,7 @@ export default function PositionsDuTheme({ lignes }: { lignes: LigneTheme[] }) {
                   </span>
                 </th>
 
-                <td className="p-3 align-top">
+                <td className="block px-3 pb-3 pt-0 align-top sm:table-cell sm:p-3">
                   {propositions.length === 0 ? (
                     <span className="text-stone-600 dark:text-stone-400">
                       Position non communiquée
@@ -111,7 +116,13 @@ export default function PositionsDuTheme({ lignes }: { lignes: LigneTheme[] }) {
                   )}
                 </td>
 
-                <td className="p-3 align-top">
+                <td
+                  className={
+                    propositions.length === 0
+                      ? 'hidden align-top sm:table-cell sm:p-3'
+                      : 'block px-3 pb-3 pt-0 align-top sm:table-cell sm:p-3'
+                  }
+                >
                   {propositions.length === 0 ? (
                     <span aria-hidden="true" className="text-stone-400">
                       -

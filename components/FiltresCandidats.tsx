@@ -6,8 +6,9 @@ import { FAMILLES, LIBELLES_FAMILLE, LIBELLES_STATUT, STATUTS } from '@/lib/sche
 import { pluriel } from '@/lib/format';
 import type { CandidatResume, PartiResume } from '@/lib/vues';
 
+// Hauteur confortable au doigt sur mobile, compacte au pointeur fin.
 const CLASSES_CHAMP =
-  'w-full rounded-md border border-stone-300 bg-white px-2.5 py-1.5 text-sm dark:border-stone-700 dark:bg-nuit-clair';
+  'min-h-11 w-full rounded-md border border-stone-300 bg-white px-2.5 py-2 text-sm sm:min-h-0 sm:py-1.5 dark:border-stone-700 dark:bg-nuit-clair';
 
 export default function FiltresCandidats({
   candidats,
@@ -115,12 +116,12 @@ export default function FiltresCandidats({
         </div>
 
         <div className="mt-3 flex flex-wrap items-center justify-between gap-3 border-t border-stone-100 pt-3 dark:border-nuit-bord">
-          <label className="flex items-center gap-2 text-sm">
+          <label className="-my-2 flex items-center gap-2.5 py-2 text-sm">
             <input
               type="checkbox"
               checked={avecPropositions}
               onChange={(e) => setAvecPropositions(e.target.checked)}
-              className="size-4 rounded border-stone-400"
+              className="size-4.5 rounded border-stone-400"
             />
             Seulement les candidats ayant au moins une proposition sourcée
           </label>

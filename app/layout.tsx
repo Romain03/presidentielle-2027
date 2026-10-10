@@ -61,7 +61,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <EnTete />
         <main
           id="contenu"
-          className="zone-sure-cotes mx-auto w-full max-w-6xl px-4 py-8 sm:px-6 sm:py-10"
+          className="gouttiere mx-auto w-full max-w-6xl py-8 sm:py-10"
         >
           {children}
         </main>

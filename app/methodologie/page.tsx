@@ -152,9 +152,10 @@ export default function PageMethodologie() {
           candidats peuvent avancer le même chiffre pour des raisons opposées. Un indicateur
           énoncé par un seul candidat n’y figure pas, puisqu’il n’apprend rien sur la famille.
         </p>
-        <div className="carte overflow-x-auto">
-          <table className="w-full min-w-[32rem] border-collapse text-left text-sm">
-            <thead>
+        {/* Deux colonnes dans 340 pixels : empilées sous 640, comme ailleurs. */}
+        <div className="carte sm:overflow-x-auto">
+          <table className="block w-full border-collapse text-left text-sm sm:table sm:min-w-[32rem]">
+            <thead className="hidden sm:table-header-group">
               <tr className="border-b border-stone-200 dark:border-nuit-bord">
                 <th scope="col" className="p-3 font-semibold">
                   Famille (filtre)
@@ -164,18 +165,23 @@ export default function PageMethodologie() {
                 </th>
               </tr>
             </thead>
-            <tbody>
+            <tbody className="block sm:table-row-group">
               {CORRESPONDANCE_FAMILLES.map((ligne) => (
                 <tr
                   key={ligne.famille}
-                  className="border-b border-stone-200 last:border-0 dark:border-nuit-bord"
+                  className="block border-b border-stone-200 last:border-0 sm:table-row dark:border-nuit-bord"
                 >
-                  <th scope="row" className="p-3 font-medium">
+                  <th
+                    scope="row"
+                    className="block p-3 pb-0.5 text-left font-medium sm:table-cell sm:pb-3"
+                  >
                     <Link href={`/familles/${ligne.famille}/`} className="lien">
                       {LIBELLES_FAMILLE[ligne.famille]}
                     </Link>
                   </th>
-                  <td className="p-3 text-stone-700 dark:text-stone-300">{ligne.nuances}</td>
+                  <td className="block px-3 pb-3 pt-0 text-stone-700 sm:table-cell sm:p-3 dark:text-stone-300">
+                    {ligne.nuances}
+                  </td>
                 </tr>
               ))}
             </tbody>

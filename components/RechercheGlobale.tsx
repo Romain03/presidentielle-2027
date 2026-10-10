@@ -211,7 +211,7 @@ export default function RechercheGlobale() {
                   onChange={(e) => setRequete(e.target.value)}
                   onKeyDown={auClavierDuChamp}
                   placeholder="Candidat, parti, proposition…"
-                  className="w-full min-w-0 bg-transparent py-4 text-base outline-none focus-visible:outline-none! placeholder:text-stone-400 [&::-webkit-search-cancel-button]:appearance-none"
+                  className="w-full min-w-0 bg-transparent py-4 text-base outline-none focus-visible:outline-none placeholder:text-stone-400 [&::-webkit-search-cancel-button]:appearance-none"
                 />
 
                 {requete.length > 0 && (
