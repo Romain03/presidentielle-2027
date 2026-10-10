@@ -69,3 +69,27 @@ export function age(naissance: { date: string | null; annee: number }, reference
   const revolu = moisRef > m || (moisRef === m && jourRef >= j);
   return anneeRef - a - (revolu ? 0 : 1);
 }
+
+/**
+ * Groupe les milliers à la française : 160000 devient « 160 000 ». L'espace est
+ * insécable fine, comme le veut la typographie française, et les années sont
+ * laissées telles quelles.
+ */
+export function formaterNombre(valeur: number | string): string {
+  const texte = String(valeur);
+  return texte.replace(/\d+/g, (bloc) =>
+    bloc.length <= 4 && /^(19|20)\d\d$/.test(bloc)
+      ? bloc
+      : bloc.replace(/\B(?=(\d{3})+(?!\d))/g, ' '),
+  );
+}
+
+/**
+ * Élide la préposition devant une voyelle : « de Édouard » devient
+ * « d'Édouard ». Le H est laissé de côté : il est aspiré une fois sur deux, et
+ * se tromper se voit plus que de ne rien faire.
+ */
+export function elider(preposition: 'de' | 'que', mot: string): string {
+  const premiere = mot.normalize('NFD').replace(/[̀-ͯ]/g, '')[0]?.toLowerCase() ?? '';
+  return 'aeiou'.includes(premiere) ? `${preposition.slice(0, -1)}’${mot}` : `${preposition} ${mot}`;
+}

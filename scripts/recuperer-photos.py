@@ -20,6 +20,7 @@ Un candidat sans portrait libre garde son monogramme.
 
 import io
 import json
+import unicodedata
 import os
 import re
 import sys
@@ -122,6 +123,12 @@ def carre(img: Image.Image) -> Image.Image:
     return img.crop(boite).resize((COTE, COTE), Image.LANCZOS)
 
 
+def elider(nom):
+    """« de Édouard » est fautif : on élide devant une voyelle."""
+    premiere = unicodedata.normalize('NFD', nom)[0].lower()
+    return f'd’{nom}' if premiere in 'aeiou' else f'de {nom}'
+
+
 def main():
     os.makedirs(DOSSIER, exist_ok=True)
     candidats = json.load(io.open('data/candidats.json', encoding='utf-8'))
@@ -169,7 +176,7 @@ def main():
             'licence': infos['licence'],
             'licence_url': infos['licence_url'],
             'source_url': infos['page'],
-            'description': f'Portrait de {nom}',
+            'description': f'Portrait {elider(nom)}',
         }
         retenus += 1
         poids = os.path.getsize(destination) // 1024

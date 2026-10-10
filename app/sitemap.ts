@@ -9,7 +9,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const modifie = new Date(derniereMiseAJour);
   const url = (chemin: string) => `${SITE}/${chemin}`.replace(/([^:]\/)\/+/g, '$1');
 
-  const racines = ['', 'candidats/', 'partis/', 'themes/', 'comparateur/', 'methodologie/'];
+  // Le test n'y figure pas tant qu'il est éteint : référencer une page qui
+  // annonce son propre report n'aide personne.
+  const racines = [
+    '',
+    'candidats/',
+    'partis/',
+    'themes/',
+    'familles/',
+    'comparateur/',
+    'methodologie/',
+    'a-propos/',
+  ];
 
   return [
     ...racines.map((chemin) => ({

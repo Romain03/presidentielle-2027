@@ -1,4 +1,4 @@
-import { normaliser } from './format';
+import { formaterNombre, normaliser } from './format';
 import type { Candidat, Indicateur, Proposition, Theme } from './schemas';
 
 /**
@@ -55,7 +55,8 @@ export interface ErreurSelection {
 
 /** « 63 » + « ans » → « 63 ans ». */
 export function formaterIndicateur(i: Indicateur): string {
-  return i.unite === null ? String(i.valeur) : `${i.valeur} ${i.unite}`;
+  const valeur = formaterNombre(i.valeur);
+  return i.unite === null ? valeur : `${valeur} ${i.unite}`;
 }
 
 export function validerSelection(ids: string[], idsConnus: Set<string>): ErreurSelection[] {

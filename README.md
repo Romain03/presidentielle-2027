@@ -5,10 +5,12 @@ Application web statique pour explorer l'élection présidentielle française de
 information affichée porte sa source et sa date ; l'absence d'information est
 affichée comme telle et jamais comblée.
 
-**État au 9 octobre 2026 :** 44 candidats, 33 partis, 57 propositions sourcées
-sur 11 des 12 thèmes. La couverture est volontairement inégale : elle suit ce qui est
-réellement sourçable, et la plupart des programmes ne sont pas encore publiés.
-Les lacunes sont documentées dans [`DONNEES_A_VERIFIER.md`](DONNEES_A_VERIFIER.md).
+**État au 9 octobre 2026 :** 31 candidatures engagées (plus 10 pressentis et
+3 retraits), 33 partis, 57 propositions sourcées sur 11 des 12 thèmes suivis.
+Ces 57 propositions viennent de 13 articles de 4 médias, dont 53 % d'un seul :
+la couverture du site est d'abord celle de ces articles, et elle est dite
+comme telle sur chaque page. Les lacunes sont documentées dans
+[`DONNEES_A_VERIFIER.md`](DONNEES_A_VERIFIER.md).
 
 ---
 

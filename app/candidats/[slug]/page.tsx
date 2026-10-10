@@ -40,6 +40,7 @@ export default async function PageCandidat({ params }: { params: Promise<{ slug:
   if (!candidat) notFound();
 
   const parti = getParti(candidat.parti_id);
+  const couverts = themes.filter((t) => propositionsDuCandidat(candidat.id, t.id).length > 0);
 
   return (
     <article className="space-y-10">
@@ -101,68 +102,14 @@ export default async function PageCandidat({ params }: { params: Promise<{ slug:
         )}
       </header>
 
-      <section aria-labelledby="reperes" className="space-y-3">
-        <h2 id="reperes" className="text-lg font-semibold">
-          Repères
-        </h2>
-        <Reperes biographie={candidat.biographie} reference={candidat.derniere_verification} />
-      </section>
-
-      {candidat.precisions.length > 0 && (
-        <section aria-labelledby="precisions" className="space-y-3">
-          <h2 id="precisions" className="text-lg font-semibold">
-            Précisions factuelles
-          </h2>
-          <ul className="space-y-3">
-            {candidat.precisions.map((precision) => (
-              <li
-                key={precision.source.url + precision.libelle.slice(0, 20)}
-                className="space-y-1.5 carte p-4 text-sm"
-              >
-                <p className="leading-relaxed text-stone-700 dark:text-stone-300">
-                  {precision.libelle}
-                </p>
-                <LienSource source={precision.source} />
-              </li>
-            ))}
-          </ul>
-        </section>
-      )}
-
-      <section aria-labelledby="parcours" className="space-y-3">
-        <h2 id="parcours" className="text-lg font-semibold">
-          Parcours
-        </h2>
-        <ParcoursCandidat jalons={candidat.parcours} />
-      </section>
-
-      <section aria-labelledby="soutiens" className="space-y-3">
-        <h2 id="soutiens" className="text-lg font-semibold">
-          Soutiens
-        </h2>
-        {candidat.soutiens.length === 0 ? (
-          <p className="text-sm text-stone-600 dark:text-stone-400">
-            Aucun soutien sourcé n’est renseigné à ce stade.
-          </p>
-        ) : (
-          <ul className="space-y-2">
-            {candidat.soutiens.map((soutien) => (
-              <li key={soutien.libelle} className="space-y-1 text-sm">
-                <span className="block text-stone-700 dark:text-stone-300">{soutien.libelle}</span>
-                <LienSource source={soutien.source} />
-              </li>
-            ))}
-          </ul>
-        )}
-      </section>
-
       <section aria-labelledby="positions" className="space-y-4">
         <h2 id="positions" className="text-lg font-semibold">
           Positions par thème
         </h2>
         <p className="text-sm text-stone-600 dark:text-stone-400">
-          Les douze thèmes suivis sont affichés dans l’ordre alphabétique, y compris ceux sur
-          lesquels le candidat ne s’est pas exprimé.
+          {couverts.length} des {themes.length} thèmes suivis portent une position relevée. Les
+          autres sont affichés quand même, dans l’ordre alphabétique : une case vide est une
+          lacune de ce site, pas un silence du candidat.
         </p>
         <div className="space-y-6">
           {themes.map((theme) => {
@@ -186,6 +133,70 @@ export default async function PageCandidat({ params }: { params: Promise<{ slug:
           })}
         </div>
       </section>
+      <section aria-labelledby="reperes" className="space-y-3">
+        <h2 id="reperes" className="text-lg font-semibold">
+          Repères
+        </h2>
+        <Reperes biographie={candidat.biographie} reference={candidat.derniere_verification} />
+      </section>
+
+      <section aria-labelledby="parcours" className="space-y-3">
+        <h2 id="parcours" className="text-lg font-semibold">
+          Parcours
+        </h2>
+        <ParcoursCandidat jalons={candidat.parcours} />
+      </section>
+
+      <section aria-labelledby="soutiens" className="space-y-3">
+        <h2 id="soutiens" className="text-lg font-semibold">
+          Soutiens{candidat.soutiens.length > 0 && ` (${candidat.soutiens.length})`}
+        </h2>
+        {candidat.soutiens.length === 0 ? (
+          <p className="text-sm text-stone-600 dark:text-stone-400">
+            Aucun soutien sourcé n’est renseigné à ce stade.
+          </p>
+        ) : (
+          /* Replié au-delà de quelques noms : cinquante-quatre soutiens
+             repoussaient tout le reste de la fiche hors de l'écran. */
+          <details open={candidat.soutiens.length <= 8}>
+            <summary className="cursor-pointer text-sm text-stone-600 underline decoration-stone-300 underline-offset-2 hover:text-stone-900 dark:text-stone-400 dark:decoration-stone-600 dark:hover:text-stone-100">
+              Afficher les {candidat.soutiens.length} soutiens recensés
+            </summary>
+            <ul className="mt-3 space-y-2">
+              {candidat.soutiens.map((soutien) => (
+                <li key={soutien.libelle} className="space-y-1 text-sm">
+                  <span className="block text-stone-700 dark:text-stone-300">
+                    {soutien.libelle}
+                  </span>
+                  <LienSource source={soutien.source} />
+                </li>
+              ))}
+            </ul>
+          </details>
+        )}
+      </section>
+
+      {candidat.precisions.length > 0 && (
+        <section aria-labelledby="precisions" className="space-y-3">
+          <h2 id="precisions" className="text-lg font-semibold">
+            Précisions factuelles
+          </h2>
+          <ul className="space-y-3">
+            {candidat.precisions.map((precision) => (
+              <li
+                key={precision.source.url + precision.libelle.slice(0, 20)}
+                className="space-y-1.5 carte p-4 text-sm"
+              >
+                <p className="leading-relaxed text-stone-700 dark:text-stone-300">
+                  {precision.libelle}
+                </p>
+                <LienSource source={precision.source} />
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+
     </article>
   );
 }

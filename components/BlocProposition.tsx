@@ -43,7 +43,7 @@ export default function BlocProposition({ proposition }: { proposition: Proposit
       <footer className="flex flex-wrap items-baseline gap-x-3 gap-y-1 border-t border-stone-900/6 pt-3 dark:border-white/8">
         <LienSource source={proposition.source} />
         <span className="text-xs text-stone-600 dark:text-stone-400">
-          Vérifié le {formaterDateCourte(proposition.derniere_verification)}
+          Relevé le {formaterDateCourte(proposition.derniere_verification)}
         </span>
       </footer>
     </article>

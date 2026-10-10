@@ -11,6 +11,7 @@ const LIENS = [
   { href: '/familles/', libelle: 'Familles' },
   { href: '/comparateur/', libelle: 'Comparateur' },
   { href: '/methodologie/', libelle: 'Méthodologie' },
+  { href: '/a-propos/', libelle: 'À propos' },
 ];
 
 export default function EnTete() {

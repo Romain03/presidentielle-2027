@@ -45,9 +45,22 @@ export default function Reperes({
   const { naissance, formations, metiers, situation } = biographie;
   const annees = naissance !== null ? age(naissance, reference) : null;
 
+  /*
+   * Naissance, études et métiers viennent presque toujours du même relevé.
+   * Répéter le lien sous chacune des trois cases ajoutait trois lignes de
+   * bruit pour une seule information.
+   */
+  const sources = [naissance?.source, formations[0]?.source, metiers[0]?.source].filter(
+    (source) => source !== undefined,
+  );
+  const partagee =
+    sources.length > 1 && sources.every((source) => source.url === sources[0].url)
+      ? sources[0]
+      : undefined;
+
   return (
     <dl className="grid gap-x-8 gap-y-4 sm:grid-cols-2">
-      <Case intitule="Naissance" source={naissance?.source}>
+      <Case intitule="Naissance" source={partagee === undefined ? naissance?.source : undefined}>
         {naissance === null ? (
           <NonRenseigne accord="e" />
         ) : (
@@ -61,7 +74,10 @@ export default function Reperes({
         )}
       </Case>
 
-      <Case intitule="Études supérieures" source={formations[0]?.source}>
+      <Case
+        intitule="Études supérieures"
+        source={partagee === undefined ? formations[0]?.source : undefined}
+      >
         {formations.length === 0 ? (
           <NonRenseigne accord="es" />
         ) : (
@@ -69,7 +85,7 @@ export default function Reperes({
         )}
       </Case>
 
-      <Case intitule="Métiers exercés" source={metiers[0]?.source}>
+      <Case intitule="Métiers exercés" source={partagee === undefined ? metiers[0]?.source : undefined}>
         {metiers.length === 0 ? (
           <NonRenseigne accord="s" />
         ) : (
@@ -85,6 +101,11 @@ export default function Reperes({
           <span className="block">{situation.libelle}</span>
         )}
       </Case>
+      {partagee !== undefined && (
+        <div className="sm:col-span-2">
+          <LienSource source={partagee} />
+        </div>
+      )}
     </dl>
   );
 }

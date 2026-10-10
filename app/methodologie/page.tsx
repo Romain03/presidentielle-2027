@@ -3,7 +3,7 @@ import Link from 'next/link';
 import DerniereMiseAJour from '@/components/DerniereMiseAJour';
 import BadgeNature from '@/components/BadgeNature';
 import BadgeStatut from '@/components/BadgeStatut';
-import { candidats, derniereMiseAJour, statistiques } from '@/lib/data';
+import { candidats, derniereMiseAJour, sourcesDesPropositions, statistiques } from '@/lib/data';
 import { LIBELLES_FAMILLE, STATUTS, type Proposition } from '@/lib/schemas';
 
 export const metadata: Metadata = {
@@ -82,12 +82,42 @@ export default function PageMethodologie() {
         </h2>
         <p className="text-sm leading-relaxed text-stone-700 dark:text-stone-300">
           Chaque information publiée ici porte une source, un type de source et une date de
-          publication. Les sources primaires sont privilégiées dans cet ordre : programme
-          officiel, site de campagne, site du parti, décisions du Conseil constitutionnel,
-          Journal officiel. À défaut - c’est fréquent tant que les programmes ne sont pas publiés -
-          nous citons un article de presse daté qui rapporte une déclaration, et la nature de la
-          proposition le signale.
+          publication. L’ordre de préférence est : programme officiel, site de campagne, site du
+          parti, décisions du Conseil constitutionnel, Journal officiel. À défaut, nous citons un
+          article de presse daté qui rapporte une déclaration.
         </p>
+
+        {/*
+          Le décompte est calculé sur les données publiées, jamais saisi : il ne
+          peut pas devenir faux sans que le site change avec lui.
+        */}
+        <div className="space-y-2 rounded-xl border border-amber-700/20 bg-amber-50/70 p-4 text-sm leading-relaxed text-stone-700 dark:border-amber-500/20 dark:bg-amber-950/20 dark:text-stone-300">
+          <p>
+            <strong className="font-semibold">En pratique, aucune proposition n’est aujourd’hui
+            sourcée à un document primaire.</strong>{' '}
+            Les {statistiques.propositions} propositions publiées viennent toutes d’articles de
+            presse : {sourcesDesPropositions.articles} articles, {sourcesDesPropositions.medias.length}{' '}
+            médias.
+          </p>
+          <ul className="space-y-0.5">
+            {sourcesDesPropositions.medias.map((media) => (
+              <li key={media.hote} className="flex items-baseline gap-2">
+                <span className="w-32 shrink-0 font-medium">{media.hote}</span>
+                <span className="tabular-nums">
+                  {media.nombre} proposition{media.nombre > 1 ? 's' : ''} ·{' '}
+                  {Math.round((media.nombre / statistiques.propositions) * 100)} %
+                </span>
+              </li>
+            ))}
+          </ul>
+          <p>
+            La conséquence est à connaître : ce que le site montre dépend de ce que ces articles
+            ont choisi de couvrir, et un média y pèse plus que les autres. Un thème peu traité par
+            eux paraîtra déserté par les candidats, ce qui n’est pas la même chose. Le
+            re-sourcement vers les programmes et les sites de campagne, quand ils paraissent, est
+            la première des corrections à venir.
+          </p>
+        </div>
         <p className="text-sm leading-relaxed text-stone-700 dark:text-stone-300">
           Les sites agrégateurs de programmes, souvent générés automatiquement et sans source
           vérifiable, sont exclus : plusieurs d’entre eux attribuaient à des candidats des

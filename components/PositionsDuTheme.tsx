@@ -158,7 +158,7 @@ export default function PositionsDuTheme({ lignes }: { lignes: LigneTheme[] }) {
                         <div key={proposition.id} className="space-y-0.5">
                           <LienSource source={proposition.source} />
                           <p className="text-xs text-stone-600 dark:text-stone-400">
-                            Vérifié le {formaterDateCourte(proposition.derniere_verification)}
+                            Relevé le {formaterDateCourte(proposition.derniere_verification)}
                           </p>
                         </div>
                       ))}
