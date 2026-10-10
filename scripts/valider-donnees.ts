@@ -60,9 +60,9 @@ for (const p of propositions) {
   if (!idsThemes.has(p.theme_id)) {
     erreurs.push(`propositions.json → ${p.id} : thème inconnu « ${p.theme_id} »`);
   }
-  if (p.source.date > p.derniere_verification) {
+  if (p.sources.some((source: { date: string }) => source.date > p.derniere_verification)) {
     erreurs.push(
-      `propositions.json → ${p.id} : source du ${p.source.date} postérieure à la vérification du ${p.derniere_verification}`,
+      `propositions.json → ${p.id} : source du ${p.sources[0].date} postérieure à la vérification du ${p.derniere_verification}`,
     );
   }
 }

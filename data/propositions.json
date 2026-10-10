@@ -33,14 +33,22 @@
         "valeur_comparable": 40
       }
     ],
-    "source": {
-      "url": "https://lcp.fr/actualites/retraites-bruno-retailleau-veut-un-age-minimal-de-depart-a-63-ans-et-un-taux-plein-a-65",
-      "titre": "Retraites : Bruno Retailleau veut un âge minimal de départ à 63 ans et un taux plein à 65 ans",
-      "type": "article-de-presse",
-      "date": "2026-09-23"
-    },
     "derniere_verification": "2026-10-09",
-    "programme_anterieur": null
+    "programme_anterieur": null,
+    "sources": [
+      {
+        "url": "https://lcp.fr/actualites/retraites-bruno-retailleau-veut-un-age-minimal-de-depart-a-63-ans-et-un-taux-plein-a-65",
+        "titre": "Retraites : Bruno Retailleau veut un âge minimal de départ à 63 ans et un taux plein à 65 ans",
+        "type": "article-de-presse",
+        "date": "2026-09-23"
+      },
+      {
+        "url": "https://www.publicsenat.fr/actualites/politique/reculer-ou-avancer-lage-legal-avec-ou-sans-capitalisation-ce-que-proposent-les-principaux-candidats-a-lelection-presidentielle-sur-les-retraites",
+        "titre": "Reculer ou avancer l’âge légal, avec ou sans capitalisation : ce que proposent les principaux candidats à l’élection présidentielle sur les retraites",
+        "type": "article-de-presse",
+        "date": "2026-09-30"
+      }
+    ]
   },
   {
     "id": "retailleau-immigration",
@@ -51,14 +59,16 @@
     "citation": "Je ne crois pas à l'immigration zéro, mais il faut être beaucoup plus strict",
     "nature": "declaration_publique",
     "indicateurs": [],
-    "source": {
-      "url": "https://www.cnews.fr/france/2026-09-11/immigration-quelles-sont-les-propositions-des-candidats-lelection-presidentielle",
-      "titre": "Immigration : quelles sont les propositions des candidats à l'élection présidentielle ?",
-      "type": "article-de-presse",
-      "date": "2026-09-11"
-    },
     "derniere_verification": "2026-10-09",
-    "programme_anterieur": null
+    "programme_anterieur": null,
+    "sources": [
+      {
+        "url": "https://www.cnews.fr/france/2026-09-11/immigration-quelles-sont-les-propositions-des-candidats-lelection-presidentielle",
+        "titre": "Immigration : quelles sont les propositions des candidats à l'élection présidentielle ?",
+        "type": "article-de-presse",
+        "date": "2026-09-11"
+      }
+    ]
   },
   {
     "id": "retailleau-institutions",
@@ -69,14 +79,16 @@
     "citation": "réviser la Constitution pour redonner le pouvoir aux Français, par le biais du référendum",
     "nature": "declaration_publique",
     "indicateurs": [],
-    "source": {
-      "url": "https://www.europe1.fr/politique/presidentielle-bruno-retailleau-presente-sa-fiche-de-route-pour-2027-926683",
-      "titre": "Présidentielle : Bruno Retailleau présente sa fiche de route pour 2027",
-      "type": "article-de-presse",
-      "date": "2026-04-21"
-    },
     "derniere_verification": "2026-10-09",
-    "programme_anterieur": null
+    "programme_anterieur": null,
+    "sources": [
+      {
+        "url": "https://www.europe1.fr/politique/presidentielle-bruno-retailleau-presente-sa-fiche-de-route-pour-2027-926683",
+        "titre": "Présidentielle : Bruno Retailleau présente sa fiche de route pour 2027",
+        "type": "article-de-presse",
+        "date": "2026-04-21"
+      }
+    ]
   },
   {
     "id": "retailleau-securite",
@@ -87,14 +99,16 @@
     "citation": null,
     "nature": "declaration_publique",
     "indicateurs": [],
-    "source": {
-      "url": "https://www.europe1.fr/politique/je-trace-ma-route-candidat-a-la-presidentielle-2027-bruno-retailleau-devoile-les-grandes-lignes-de-son-programme-895492",
-      "titre": "« Je trace ma route » : candidat à la présidentielle 2027, Bruno Retailleau dévoile les grandes lignes de son programme",
-      "type": "article-de-presse",
-      "date": "2026-02-13"
-    },
     "derniere_verification": "2026-10-09",
-    "programme_anterieur": null
+    "programme_anterieur": null,
+    "sources": [
+      {
+        "url": "https://www.europe1.fr/politique/je-trace-ma-route-candidat-a-la-presidentielle-2027-bruno-retailleau-devoile-les-grandes-lignes-de-son-programme-895492",
+        "titre": "« Je trace ma route » : candidat à la présidentielle 2027, Bruno Retailleau dévoile les grandes lignes de son programme",
+        "type": "article-de-presse",
+        "date": "2026-02-13"
+      }
+    ]
   },
   {
     "id": "melenchon-retraites",
@@ -130,20 +144,34 @@
         "valeur_comparable": 62
       }
     ],
-    "source": {
-      "url": "https://www.cnews.fr/france/2026-10-02/presidentielle-2027-depart-60-ans-hausse-des-petites-pensions-penibilite-quelles",
-      "titre": "Présidentielle 2027 : départ à 60 ans, hausse des petites pensions, pénibilité... Quelles sont les propositions des candidats de gauche sur les retraites ?",
-      "type": "article-de-presse",
-      "date": "2026-10-02"
-    },
     "derniere_verification": "2026-10-09",
-    "programme_anterieur": null
+    "programme_anterieur": null,
+    "sources": [
+      {
+        "url": "https://www.publicsenat.fr/actualites/politique/reculer-ou-avancer-lage-legal-avec-ou-sans-capitalisation-ce-que-proposent-les-principaux-candidats-a-lelection-presidentielle-sur-les-retraites",
+        "titre": "Reculer ou avancer l’âge légal, avec ou sans capitalisation : ce que proposent les principaux candidats à l’élection présidentielle sur les retraites",
+        "type": "article-de-presse",
+        "date": "2026-09-30"
+      },
+      {
+        "url": "https://www.cnews.fr/france/2026-10-02/presidentielle-2027-depart-60-ans-hausse-des-petites-pensions-penibilite-quelles",
+        "titre": "Présidentielle 2027 : départ à 60 ans, hausse des petites pensions, pénibilité... Quelles sont les propositions des candidats de gauche sur les retraites ?",
+        "type": "article-de-presse",
+        "date": "2026-10-02"
+      },
+      {
+        "url": "https://lcp.fr/actualites/presidentielle-2027-qui-propose-quoi-sur-les-retraites-437864",
+        "titre": "Présidentielle 2027 : qui propose quoi sur les retraites ?",
+        "type": "article-de-presse",
+        "date": "2026-06-19"
+      }
+    ]
   },
   {
     "id": "le-pen-retraites",
     "candidat_id": "marine-le-pen",
     "theme_id": "retraites",
-    "resume": "Âge légal de départ à 62 ans pour la majorité des actifs, avec un départ possible dès 60 ans pour les personnes ayant commencé à travailler avant 20 ans et totalisant 40 annuités.",
+    "resume": "Âge légal de départ à 62 ans avec 42 annuités de cotisation, et départ possible dès 60 ans pour les personnes ayant commencé à travailler avant 20 ans et totalisant 40 annuités.",
     "detail": "La candidate propose un âge légal de 62 ans pour la majorité des actifs. Les personnes ayant commencé à travailler avant 20 ans pourraient partir dès 60 ans, à condition de totaliser 40 annuités. Son parti défend ainsi une distinction fondée sur l'âge d'entrée dans la vie active, plutôt qu'un retour général à 60 ans.",
     "citation": null,
     "nature": "declaration_publique",
@@ -162,19 +190,39 @@
       },
       {
         "libelle": "Durée de cotisation annoncée",
+        "valeur": 42,
+        "unite": "annuités",
+        "valeur_comparable": 42
+      },
+      {
+        "libelle": "Durée de cotisation pour un départ anticipé",
         "valeur": 40,
         "unite": "annuités",
         "valeur_comparable": 40
       }
     ],
-    "source": {
-      "url": "https://www.cnews.fr/france/2026-10-03/retraites-voici-les-propositions-des-differents-candidats-lelection",
-      "titre": "Retraites : voici les propositions des différents candidats à l'élection présidentielle 2027",
-      "type": "article-de-presse",
-      "date": "2026-10-03"
-    },
     "derniere_verification": "2026-10-09",
-    "programme_anterieur": null
+    "programme_anterieur": null,
+    "sources": [
+      {
+        "url": "https://www.publicsenat.fr/actualites/politique/reculer-ou-avancer-lage-legal-avec-ou-sans-capitalisation-ce-que-proposent-les-principaux-candidats-a-lelection-presidentielle-sur-les-retraites",
+        "titre": "Reculer ou avancer l’âge légal, avec ou sans capitalisation : ce que proposent les principaux candidats à l’élection présidentielle sur les retraites",
+        "type": "article-de-presse",
+        "date": "2026-09-30"
+      },
+      {
+        "url": "https://www.cnews.fr/france/2026-10-03/retraites-voici-les-propositions-des-differents-candidats-lelection",
+        "titre": "Retraites : voici les propositions des différents candidats à l'élection présidentielle 2027",
+        "type": "article-de-presse",
+        "date": "2026-10-03"
+      },
+      {
+        "url": "https://lcp.fr/actualites/presidentielle-2027-qui-propose-quoi-sur-les-retraites-437864",
+        "titre": "Présidentielle 2027 : qui propose quoi sur les retraites ?",
+        "type": "article-de-presse",
+        "date": "2026-06-19"
+      }
+    ]
   },
   {
     "id": "le-pen-fiscalite",
@@ -198,14 +246,16 @@
         "valeur_comparable": null
       }
     ],
-    "source": {
-      "url": "https://www.franceinfo.fr/elections/presidentielle/presidentielle-2027-marine-le-pen-promet-140-milliards-d-euros-nets-d-economies-d-ici-a-2032_8224807.html",
-      "titre": "Présidentielle 2027 : Marine Le Pen promet « 140 milliards d'euros net d'économies » d'ici à 2032",
-      "type": "article-de-presse",
-      "date": "2026-10-06"
-    },
     "derniere_verification": "2026-10-09",
-    "programme_anterieur": null
+    "programme_anterieur": null,
+    "sources": [
+      {
+        "url": "https://www.franceinfo.fr/elections/presidentielle/presidentielle-2027-marine-le-pen-promet-140-milliards-d-euros-nets-d-economies-d-ici-a-2032_8224807.html",
+        "titre": "Présidentielle 2027 : Marine Le Pen promet « 140 milliards d'euros net d'économies » d'ici à 2032",
+        "type": "article-de-presse",
+        "date": "2026-10-06"
+      }
+    ]
   },
   {
     "id": "ruffin-retraites",
@@ -229,14 +279,16 @@
         "valeur_comparable": 40
       }
     ],
-    "source": {
-      "url": "https://www.cnews.fr/france/2026-10-02/presidentielle-2027-depart-60-ans-hausse-des-petites-pensions-penibilite-quelles",
-      "titre": "Présidentielle 2027 : départ à 60 ans, hausse des petites pensions, pénibilité... Quelles sont les propositions des candidats de gauche sur les retraites ?",
-      "type": "article-de-presse",
-      "date": "2026-10-02"
-    },
     "derniere_verification": "2026-10-09",
-    "programme_anterieur": null
+    "programme_anterieur": null,
+    "sources": [
+      {
+        "url": "https://www.cnews.fr/france/2026-10-02/presidentielle-2027-depart-60-ans-hausse-des-petites-pensions-penibilite-quelles",
+        "titre": "Présidentielle 2027 : départ à 60 ans, hausse des petites pensions, pénibilité... Quelles sont les propositions des candidats de gauche sur les retraites ?",
+        "type": "article-de-presse",
+        "date": "2026-10-02"
+      }
+    ]
   },
   {
     "id": "tondelier-retraites",
@@ -260,14 +312,16 @@
         "valeur_comparable": 62
       }
     ],
-    "source": {
-      "url": "https://www.cnews.fr/france/2026-10-02/presidentielle-2027-depart-60-ans-hausse-des-petites-pensions-penibilite-quelles",
-      "titre": "Présidentielle 2027 : départ à 60 ans, hausse des petites pensions, pénibilité... Quelles sont les propositions des candidats de gauche sur les retraites ?",
-      "type": "article-de-presse",
-      "date": "2026-10-02"
-    },
     "derniere_verification": "2026-10-09",
-    "programme_anterieur": null
+    "programme_anterieur": null,
+    "sources": [
+      {
+        "url": "https://www.cnews.fr/france/2026-10-02/presidentielle-2027-depart-60-ans-hausse-des-petites-pensions-penibilite-quelles",
+        "titre": "Présidentielle 2027 : départ à 60 ans, hausse des petites pensions, pénibilité... Quelles sont les propositions des candidats de gauche sur les retraites ?",
+        "type": "article-de-presse",
+        "date": "2026-10-02"
+      }
+    ]
   },
   {
     "id": "faure-retraites",
@@ -285,14 +339,28 @@
         "valeur_comparable": 62
       }
     ],
-    "source": {
-      "url": "https://www.cnews.fr/france/2026-10-03/retraites-voici-les-propositions-des-differents-candidats-lelection",
-      "titre": "Retraites : voici les propositions des différents candidats à l'élection présidentielle 2027",
-      "type": "article-de-presse",
-      "date": "2026-10-03"
-    },
     "derniere_verification": "2026-10-09",
-    "programme_anterieur": null
+    "programme_anterieur": null,
+    "sources": [
+      {
+        "url": "https://www.publicsenat.fr/actualites/politique/reculer-ou-avancer-lage-legal-avec-ou-sans-capitalisation-ce-que-proposent-les-principaux-candidats-a-lelection-presidentielle-sur-les-retraites",
+        "titre": "Reculer ou avancer l’âge légal, avec ou sans capitalisation : ce que proposent les principaux candidats à l’élection présidentielle sur les retraites",
+        "type": "article-de-presse",
+        "date": "2026-09-30"
+      },
+      {
+        "url": "https://www.cnews.fr/france/2026-10-03/retraites-voici-les-propositions-des-differents-candidats-lelection",
+        "titre": "Retraites : voici les propositions des différents candidats à l'élection présidentielle 2027",
+        "type": "article-de-presse",
+        "date": "2026-10-03"
+      },
+      {
+        "url": "https://lcp.fr/actualites/presidentielle-2027-qui-propose-quoi-sur-les-retraites-437864",
+        "titre": "Présidentielle 2027 : qui propose quoi sur les retraites ?",
+        "type": "article-de-presse",
+        "date": "2026-06-19"
+      }
+    ]
   },
   {
     "id": "glucksmann-retraites",
@@ -303,14 +371,28 @@
     "citation": null,
     "nature": "declaration_publique",
     "indicateurs": [],
-    "source": {
-      "url": "https://www.cnews.fr/france/2026-10-03/retraites-voici-les-propositions-des-differents-candidats-lelection",
-      "titre": "Retraites : voici les propositions des différents candidats à l'élection présidentielle 2027",
-      "type": "article-de-presse",
-      "date": "2026-10-03"
-    },
     "derniere_verification": "2026-10-09",
-    "programme_anterieur": null
+    "programme_anterieur": null,
+    "sources": [
+      {
+        "url": "https://www.publicsenat.fr/actualites/politique/reculer-ou-avancer-lage-legal-avec-ou-sans-capitalisation-ce-que-proposent-les-principaux-candidats-a-lelection-presidentielle-sur-les-retraites",
+        "titre": "Reculer ou avancer l’âge légal, avec ou sans capitalisation : ce que proposent les principaux candidats à l’élection présidentielle sur les retraites",
+        "type": "article-de-presse",
+        "date": "2026-09-30"
+      },
+      {
+        "url": "https://www.cnews.fr/france/2026-10-03/retraites-voici-les-propositions-des-differents-candidats-lelection",
+        "titre": "Retraites : voici les propositions des différents candidats à l'élection présidentielle 2027",
+        "type": "article-de-presse",
+        "date": "2026-10-03"
+      },
+      {
+        "url": "https://lcp.fr/actualites/presidentielle-2027-qui-propose-quoi-sur-les-retraites-437864",
+        "titre": "Présidentielle 2027 : qui propose quoi sur les retraites ?",
+        "type": "article-de-presse",
+        "date": "2026-06-19"
+      }
+    ]
   },
   {
     "id": "roussel-retraites",
@@ -334,14 +416,16 @@
         "valeur_comparable": 40
       }
     ],
-    "source": {
-      "url": "https://www.cnews.fr/france/2026-10-02/presidentielle-2027-depart-60-ans-hausse-des-petites-pensions-penibilite-quelles",
-      "titre": "Présidentielle 2027 : départ à 60 ans, hausse des petites pensions, pénibilité... Quelles sont les propositions des candidats de gauche sur les retraites ?",
-      "type": "article-de-presse",
-      "date": "2026-10-02"
-    },
     "derniere_verification": "2026-10-09",
-    "programme_anterieur": null
+    "programme_anterieur": null,
+    "sources": [
+      {
+        "url": "https://www.cnews.fr/france/2026-10-02/presidentielle-2027-depart-60-ans-hausse-des-petites-pensions-penibilite-quelles",
+        "titre": "Présidentielle 2027 : départ à 60 ans, hausse des petites pensions, pénibilité... Quelles sont les propositions des candidats de gauche sur les retraites ?",
+        "type": "article-de-presse",
+        "date": "2026-10-02"
+      }
+    ]
   },
   {
     "id": "dupont-aignan-retraites",
@@ -359,14 +443,16 @@
         "valeur_comparable": 10000
       }
     ],
-    "source": {
-      "url": "https://www.cnews.fr/france/2026-10-03/retraites-voici-les-propositions-des-differents-candidats-lelection",
-      "titre": "Retraites : voici les propositions des différents candidats à l'élection présidentielle 2027",
-      "type": "article-de-presse",
-      "date": "2026-10-03"
-    },
     "derniere_verification": "2026-10-09",
-    "programme_anterieur": null
+    "programme_anterieur": null,
+    "sources": [
+      {
+        "url": "https://www.cnews.fr/france/2026-10-03/retraites-voici-les-propositions-des-differents-candidats-lelection",
+        "titre": "Retraites : voici les propositions des différents candidats à l'élection présidentielle 2027",
+        "type": "article-de-presse",
+        "date": "2026-10-03"
+      }
+    ]
   },
   {
     "id": "zemmour-retraites",
@@ -384,14 +470,16 @@
         "valeur_comparable": 64.5
       }
     ],
-    "source": {
-      "url": "https://www.cnews.fr/france/2026-10-03/retraites-voici-les-propositions-des-differents-candidats-lelection",
-      "titre": "Retraites : voici les propositions des différents candidats à l'élection présidentielle 2027",
-      "type": "article-de-presse",
-      "date": "2026-10-03"
-    },
     "derniere_verification": "2026-10-09",
-    "programme_anterieur": null
+    "programme_anterieur": null,
+    "sources": [
+      {
+        "url": "https://www.cnews.fr/france/2026-10-03/retraites-voici-les-propositions-des-differents-candidats-lelection",
+        "titre": "Retraites : voici les propositions des différents candidats à l'élection présidentielle 2027",
+        "type": "article-de-presse",
+        "date": "2026-10-03"
+      }
+    ]
   },
   {
     "id": "attal-retraites",
@@ -415,14 +503,28 @@
         "valeur_comparable": 1000
       }
     ],
-    "source": {
-      "url": "https://www.cnews.fr/france/2026-10-03/retraites-voici-les-propositions-des-differents-candidats-lelection",
-      "titre": "Retraites : voici les propositions des différents candidats à l'élection présidentielle 2027",
-      "type": "article-de-presse",
-      "date": "2026-10-03"
-    },
     "derniere_verification": "2026-10-09",
-    "programme_anterieur": null
+    "programme_anterieur": null,
+    "sources": [
+      {
+        "url": "https://www.publicsenat.fr/actualites/politique/reculer-ou-avancer-lage-legal-avec-ou-sans-capitalisation-ce-que-proposent-les-principaux-candidats-a-lelection-presidentielle-sur-les-retraites",
+        "titre": "Reculer ou avancer l’âge légal, avec ou sans capitalisation : ce que proposent les principaux candidats à l’élection présidentielle sur les retraites",
+        "type": "article-de-presse",
+        "date": "2026-09-30"
+      },
+      {
+        "url": "https://www.cnews.fr/france/2026-10-03/retraites-voici-les-propositions-des-differents-candidats-lelection",
+        "titre": "Retraites : voici les propositions des différents candidats à l'élection présidentielle 2027",
+        "type": "article-de-presse",
+        "date": "2026-10-03"
+      },
+      {
+        "url": "https://lcp.fr/actualites/presidentielle-2027-qui-propose-quoi-sur-les-retraites-437864",
+        "titre": "Présidentielle 2027 : qui propose quoi sur les retraites ?",
+        "type": "article-de-presse",
+        "date": "2026-06-19"
+      }
+    ]
   },
   {
     "id": "philippe-retraites",
@@ -446,14 +548,34 @@
         "valeur_comparable": 45
       }
     ],
-    "source": {
-      "url": "https://www.cnews.fr/france/2026-10-03/retraites-voici-les-propositions-des-differents-candidats-lelection",
-      "titre": "Retraites : voici les propositions des différents candidats à l'élection présidentielle 2027",
-      "type": "article-de-presse",
-      "date": "2026-10-03"
-    },
     "derniere_verification": "2026-10-09",
-    "programme_anterieur": null
+    "programme_anterieur": null,
+    "sources": [
+      {
+        "url": "https://www.publicsenat.fr/actualites/politique/retraites-edouard-philippe-sort-du-bois-et-propose-un-age-de-depart-a-65-ans",
+        "titre": "Retraites : Édouard Philippe sort du bois et propose un âge de départ à 65 ans",
+        "type": "article-de-presse",
+        "date": "2026-09-29"
+      },
+      {
+        "url": "https://www.cnews.fr/france/2026-10-03/retraites-voici-les-propositions-des-differents-candidats-lelection",
+        "titre": "Retraites : voici les propositions des différents candidats à l'élection présidentielle 2027",
+        "type": "article-de-presse",
+        "date": "2026-10-03"
+      },
+      {
+        "url": "https://www.franceinfo.fr/elections/presidentielle/age-de-depart-a-65-ans-45-annuites-de-cotisation-edouard-philippe-candidat-horizons-a-la-presidentielle-devoile-son-projet-de-reforme-des-retraites_8214737.html",
+        "titre": "Âge de départ à 65 ans, 45 annuités de cotisation : Édouard Philippe dévoile son projet de réforme des retraites",
+        "type": "article-de-presse",
+        "date": "2026-09-29"
+      },
+      {
+        "url": "https://lcp.fr/actualites/retraites-edouard-philippe-veut-porter-l-age-de-depart-a-65-ans-et-la-duree-de",
+        "titre": "Retraites : Édouard Philippe veut porter l’âge de départ à 65 ans et la durée de cotisation à 45 ans",
+        "type": "article-de-presse",
+        "date": "2026-09-29"
+      }
+    ]
   },
   {
     "id": "lisnard-retraites",
@@ -471,14 +593,16 @@
         "valeur_comparable": 65
       }
     ],
-    "source": {
-      "url": "https://www.cnews.fr/france/2026-10-03/retraites-voici-les-propositions-des-differents-candidats-lelection",
-      "titre": "Retraites : voici les propositions des différents candidats à l'élection présidentielle 2027",
-      "type": "article-de-presse",
-      "date": "2026-10-03"
-    },
     "derniere_verification": "2026-10-09",
-    "programme_anterieur": null
+    "programme_anterieur": null,
+    "sources": [
+      {
+        "url": "https://www.cnews.fr/france/2026-10-03/retraites-voici-les-propositions-des-differents-candidats-lelection",
+        "titre": "Retraites : voici les propositions des différents candidats à l'élection présidentielle 2027",
+        "type": "article-de-presse",
+        "date": "2026-10-03"
+      }
+    ]
   },
   {
     "id": "arthaud-retraites",
@@ -502,14 +626,16 @@
         "valeur_comparable": 40
       }
     ],
-    "source": {
-      "url": "https://www.cnews.fr/france/2026-10-02/presidentielle-2027-depart-60-ans-hausse-des-petites-pensions-penibilite-quelles",
-      "titre": "Présidentielle 2027 : départ à 60 ans, hausse des petites pensions, pénibilité... Quelles sont les propositions des candidats de gauche sur les retraites ?",
-      "type": "article-de-presse",
-      "date": "2026-10-02"
-    },
     "derniere_verification": "2026-10-09",
-    "programme_anterieur": null
+    "programme_anterieur": null,
+    "sources": [
+      {
+        "url": "https://www.cnews.fr/france/2026-10-02/presidentielle-2027-depart-60-ans-hausse-des-petites-pensions-penibilite-quelles",
+        "titre": "Présidentielle 2027 : départ à 60 ans, hausse des petites pensions, pénibilité... Quelles sont les propositions des candidats de gauche sur les retraites ?",
+        "type": "article-de-presse",
+        "date": "2026-10-02"
+      }
+    ]
   },
   {
     "id": "hollande-retraites",
@@ -527,14 +653,22 @@
         "valeur_comparable": 63
       }
     ],
-    "source": {
-      "url": "https://www.cnews.fr/france/2026-10-02/presidentielle-2027-depart-60-ans-hausse-des-petites-pensions-penibilite-quelles",
-      "titre": "Présidentielle 2027 : départ à 60 ans, hausse des petites pensions, pénibilité... Quelles sont les propositions des candidats de gauche sur les retraites ?",
-      "type": "article-de-presse",
-      "date": "2026-10-02"
-    },
     "derniere_verification": "2026-10-09",
-    "programme_anterieur": null
+    "programme_anterieur": null,
+    "sources": [
+      {
+        "url": "https://www.publicsenat.fr/actualites/politique/reculer-ou-avancer-lage-legal-avec-ou-sans-capitalisation-ce-que-proposent-les-principaux-candidats-a-lelection-presidentielle-sur-les-retraites",
+        "titre": "Reculer ou avancer l’âge légal, avec ou sans capitalisation : ce que proposent les principaux candidats à l’élection présidentielle sur les retraites",
+        "type": "article-de-presse",
+        "date": "2026-09-30"
+      },
+      {
+        "url": "https://www.cnews.fr/france/2026-10-02/presidentielle-2027-depart-60-ans-hausse-des-petites-pensions-penibilite-quelles",
+        "titre": "Présidentielle 2027 : départ à 60 ans, hausse des petites pensions, pénibilité... Quelles sont les propositions des candidats de gauche sur les retraites ?",
+        "type": "article-de-presse",
+        "date": "2026-10-02"
+      }
+    ]
   },
   {
     "id": "philippe-immigration",
@@ -545,14 +679,16 @@
     "citation": "La France a le droit de choisir qui entre et réside sur son territoire",
     "nature": "declaration_publique",
     "indicateurs": [],
-    "source": {
-      "url": "https://www.cnews.fr/france/2026-09-11/immigration-quelles-sont-les-propositions-des-candidats-lelection-presidentielle",
-      "titre": "Immigration : quelles sont les propositions des candidats à l'élection présidentielle ?",
-      "type": "article-de-presse",
-      "date": "2026-09-11"
-    },
     "derniere_verification": "2026-10-09",
-    "programme_anterieur": null
+    "programme_anterieur": null,
+    "sources": [
+      {
+        "url": "https://www.cnews.fr/france/2026-09-11/immigration-quelles-sont-les-propositions-des-candidats-lelection-presidentielle",
+        "titre": "Immigration : quelles sont les propositions des candidats à l'élection présidentielle ?",
+        "type": "article-de-presse",
+        "date": "2026-09-11"
+      }
+    ]
   },
   {
     "id": "attal-immigration",
@@ -563,14 +699,22 @@
     "citation": "Notre ligne est claire, ce que nous voulons, c'est accueillir moins pour accueillir mieux",
     "nature": "declaration_publique",
     "indicateurs": [],
-    "source": {
-      "url": "https://www.cnews.fr/france/2026-09-11/immigration-quelles-sont-les-propositions-des-candidats-lelection-presidentielle",
-      "titre": "Immigration : quelles sont les propositions des candidats à l'élection présidentielle ?",
-      "type": "article-de-presse",
-      "date": "2026-09-11"
-    },
     "derniere_verification": "2026-10-09",
-    "programme_anterieur": null
+    "programme_anterieur": null,
+    "sources": [
+      {
+        "url": "https://www.cnews.fr/france/2026-09-11/immigration-quelles-sont-les-propositions-des-candidats-lelection-presidentielle",
+        "titre": "Immigration : quelles sont les propositions des candidats à l'élection présidentielle ?",
+        "type": "article-de-presse",
+        "date": "2026-09-11"
+      },
+      {
+        "url": "https://www.franceinfo.fr/politique/ni-possible-ni-souhaitable-en-vue-de-la-presidentielle-2027-le-bloc-central-montre-ses-divisions-sur-le-theme-de-l-immigration_8029442.html",
+        "titre": "En vue de la présidentielle 2027, le bloc central montre ses divisions sur le thème de l’immigration",
+        "type": "article-de-presse",
+        "date": "2026-05-26"
+      }
+    ]
   },
   {
     "id": "glucksmann-immigration",
@@ -581,14 +725,16 @@
     "citation": "Tout sera public [et] débouchera sur des propositions votées au Parlement",
     "nature": "declaration_publique",
     "indicateurs": [],
-    "source": {
-      "url": "https://www.cnews.fr/france/2026-09-11/immigration-quelles-sont-les-propositions-des-candidats-lelection-presidentielle",
-      "titre": "Immigration : quelles sont les propositions des candidats à l'élection présidentielle ?",
-      "type": "article-de-presse",
-      "date": "2026-09-11"
-    },
     "derniere_verification": "2026-10-09",
-    "programme_anterieur": null
+    "programme_anterieur": null,
+    "sources": [
+      {
+        "url": "https://www.cnews.fr/france/2026-09-11/immigration-quelles-sont-les-propositions-des-candidats-lelection-presidentielle",
+        "titre": "Immigration : quelles sont les propositions des candidats à l'élection présidentielle ?",
+        "type": "article-de-presse",
+        "date": "2026-09-11"
+      }
+    ]
   },
   {
     "id": "tondelier-pouvoir-d-achat",
@@ -606,14 +752,16 @@
         "valeur_comparable": null
       }
     ],
-    "source": {
-      "url": "https://lcp.fr/actualites/presidentielle-2027-ce-qu-il-faut-retenir-du-premier-debat-entre-les-candidats-440670",
-      "titre": "Présidentielle 2027 : ce qu'il faut retenir du débat entre les candidats devant le Medef",
-      "type": "article-de-presse",
-      "date": "2026-08-27"
-    },
     "derniere_verification": "2026-10-09",
-    "programme_anterieur": null
+    "programme_anterieur": null,
+    "sources": [
+      {
+        "url": "https://lcp.fr/actualites/presidentielle-2027-ce-qu-il-faut-retenir-du-premier-debat-entre-les-candidats-440670",
+        "titre": "Présidentielle 2027 : ce qu'il faut retenir du débat entre les candidats devant le Medef",
+        "type": "article-de-presse",
+        "date": "2026-08-27"
+      }
+    ]
   },
   {
     "id": "melenchon-pouvoir-d-achat",
@@ -624,14 +772,16 @@
     "citation": "Il faut augmenter les salaires, il faut augmenter le Smic",
     "nature": "declaration_publique",
     "indicateurs": [],
-    "source": {
-      "url": "https://lcp.fr/actualites/presidentielle-2027-ce-qu-il-faut-retenir-du-premier-debat-entre-les-candidats-440670",
-      "titre": "Présidentielle 2027 : ce qu'il faut retenir du débat entre les candidats devant le Medef",
-      "type": "article-de-presse",
-      "date": "2026-08-27"
-    },
     "derniere_verification": "2026-10-09",
-    "programme_anterieur": null
+    "programme_anterieur": null,
+    "sources": [
+      {
+        "url": "https://lcp.fr/actualites/presidentielle-2027-ce-qu-il-faut-retenir-du-premier-debat-entre-les-candidats-440670",
+        "titre": "Présidentielle 2027 : ce qu'il faut retenir du débat entre les candidats devant le Medef",
+        "type": "article-de-presse",
+        "date": "2026-08-27"
+      }
+    ]
   },
   {
     "id": "maurel-pouvoir-d-achat",
@@ -642,14 +792,16 @@
     "citation": null,
     "nature": "declaration_publique",
     "indicateurs": [],
-    "source": {
-      "url": "https://lcp.fr/actualites/accord-avec-lfi-moyen-orient-pouvoir-d-achat-ce-qu-il-faut-retenir-du-premier-debat-de",
-      "titre": "Accord avec LFI, Moyen-Orient, pouvoir d'achat : ce qu'il faut retenir du premier débat de la primaire de gauche",
-      "type": "article-de-presse",
-      "date": "2026-09-23"
-    },
     "derniere_verification": "2026-10-09",
-    "programme_anterieur": null
+    "programme_anterieur": null,
+    "sources": [
+      {
+        "url": "https://lcp.fr/actualites/accord-avec-lfi-moyen-orient-pouvoir-d-achat-ce-qu-il-faut-retenir-du-premier-debat-de",
+        "titre": "Accord avec LFI, Moyen-Orient, pouvoir d'achat : ce qu'il faut retenir du premier débat de la primaire de gauche",
+        "type": "article-de-presse",
+        "date": "2026-09-23"
+      }
+    ]
   },
   {
     "id": "faure-pouvoir-d-achat",
@@ -667,14 +819,16 @@
         "valeur_comparable": null
       }
     ],
-    "source": {
-      "url": "https://lcp.fr/actualites/accord-avec-lfi-moyen-orient-pouvoir-d-achat-ce-qu-il-faut-retenir-du-premier-debat-de",
-      "titre": "Accord avec LFI, Moyen-Orient, pouvoir d'achat : ce qu'il faut retenir du premier débat de la primaire de gauche",
-      "type": "article-de-presse",
-      "date": "2026-09-23"
-    },
     "derniere_verification": "2026-10-09",
-    "programme_anterieur": null
+    "programme_anterieur": null,
+    "sources": [
+      {
+        "url": "https://lcp.fr/actualites/accord-avec-lfi-moyen-orient-pouvoir-d-achat-ce-qu-il-faut-retenir-du-premier-debat-de",
+        "titre": "Accord avec LFI, Moyen-Orient, pouvoir d'achat : ce qu'il faut retenir du premier débat de la primaire de gauche",
+        "type": "article-de-presse",
+        "date": "2026-09-23"
+      }
+    ]
   },
   {
     "id": "royal-pouvoir-d-achat",
@@ -692,14 +846,16 @@
         "valeur_comparable": null
       }
     ],
-    "source": {
-      "url": "https://lcp.fr/actualites/accord-avec-lfi-moyen-orient-pouvoir-d-achat-ce-qu-il-faut-retenir-du-premier-debat-de",
-      "titre": "Accord avec LFI, Moyen-Orient, pouvoir d'achat : ce qu'il faut retenir du premier débat de la primaire de gauche",
-      "type": "article-de-presse",
-      "date": "2026-09-23"
-    },
     "derniere_verification": "2026-10-09",
-    "programme_anterieur": null
+    "programme_anterieur": null,
+    "sources": [
+      {
+        "url": "https://lcp.fr/actualites/accord-avec-lfi-moyen-orient-pouvoir-d-achat-ce-qu-il-faut-retenir-du-premier-debat-de",
+        "titre": "Accord avec LFI, Moyen-Orient, pouvoir d'achat : ce qu'il faut retenir du premier débat de la primaire de gauche",
+        "type": "article-de-presse",
+        "date": "2026-09-23"
+      }
+    ]
   },
   {
     "id": "guedj-pouvoir-d-achat",
@@ -710,14 +866,16 @@
     "citation": null,
     "nature": "declaration_publique",
     "indicateurs": [],
-    "source": {
-      "url": "https://lcp.fr/actualites/accord-avec-lfi-moyen-orient-pouvoir-d-achat-ce-qu-il-faut-retenir-du-premier-debat-de",
-      "titre": "Accord avec LFI, Moyen-Orient, pouvoir d'achat : ce qu'il faut retenir du premier débat de la primaire de gauche",
-      "type": "article-de-presse",
-      "date": "2026-09-23"
-    },
     "derniere_verification": "2026-10-09",
-    "programme_anterieur": null
+    "programme_anterieur": null,
+    "sources": [
+      {
+        "url": "https://lcp.fr/actualites/accord-avec-lfi-moyen-orient-pouvoir-d-achat-ce-qu-il-faut-retenir-du-premier-debat-de",
+        "titre": "Accord avec LFI, Moyen-Orient, pouvoir d'achat : ce qu'il faut retenir du premier débat de la primaire de gauche",
+        "type": "article-de-presse",
+        "date": "2026-09-23"
+      }
+    ]
   },
   {
     "id": "glucksmann-pouvoir-d-achat",
@@ -728,14 +886,16 @@
     "citation": "on baisse la CSG sur les salaires pour les salariés et on trouve l'argent où ? Eh bien chez les grands, les méga-héritiers",
     "nature": "declaration_publique",
     "indicateurs": [],
-    "source": {
-      "url": "https://lcp.fr/actualites/presidentielle-2027-ce-qu-il-faut-retenir-du-premier-debat-entre-les-candidats-440670",
-      "titre": "Présidentielle 2027 : ce qu'il faut retenir du débat entre les candidats devant le Medef",
-      "type": "article-de-presse",
-      "date": "2026-08-27"
-    },
     "derniere_verification": "2026-10-09",
-    "programme_anterieur": null
+    "programme_anterieur": null,
+    "sources": [
+      {
+        "url": "https://lcp.fr/actualites/presidentielle-2027-ce-qu-il-faut-retenir-du-premier-debat-entre-les-candidats-440670",
+        "titre": "Présidentielle 2027 : ce qu'il faut retenir du débat entre les candidats devant le Medef",
+        "type": "article-de-presse",
+        "date": "2026-08-27"
+      }
+    ]
   },
   {
     "id": "attal-pouvoir-d-achat",
@@ -746,14 +906,16 @@
     "citation": "le premier engagement que je prendrai (...), c'est de revenir sur ces hausses du coût du travail",
     "nature": "declaration_publique",
     "indicateurs": [],
-    "source": {
-      "url": "https://lcp.fr/actualites/presidentielle-2027-ce-qu-il-faut-retenir-du-premier-debat-entre-les-candidats-440670",
-      "titre": "Présidentielle 2027 : ce qu'il faut retenir du débat entre les candidats devant le Medef",
-      "type": "article-de-presse",
-      "date": "2026-08-27"
-    },
     "derniere_verification": "2026-10-09",
-    "programme_anterieur": null
+    "programme_anterieur": null,
+    "sources": [
+      {
+        "url": "https://lcp.fr/actualites/presidentielle-2027-ce-qu-il-faut-retenir-du-premier-debat-entre-les-candidats-440670",
+        "titre": "Présidentielle 2027 : ce qu'il faut retenir du débat entre les candidats devant le Medef",
+        "type": "article-de-presse",
+        "date": "2026-08-27"
+      }
+    ]
   },
   {
     "id": "glucksmann-fiscalite",
@@ -771,14 +933,16 @@
         "valeur_comparable": 15
       }
     ],
-    "source": {
-      "url": "https://lcp.fr/actualites/accord-avec-lfi-moyen-orient-pouvoir-d-achat-ce-qu-il-faut-retenir-du-premier-debat-de",
-      "titre": "Accord avec LFI, Moyen-Orient, pouvoir d'achat : ce qu'il faut retenir du premier débat de la primaire de gauche",
-      "type": "article-de-presse",
-      "date": "2026-09-23"
-    },
     "derniere_verification": "2026-10-09",
-    "programme_anterieur": null
+    "programme_anterieur": null,
+    "sources": [
+      {
+        "url": "https://lcp.fr/actualites/accord-avec-lfi-moyen-orient-pouvoir-d-achat-ce-qu-il-faut-retenir-du-premier-debat-de",
+        "titre": "Accord avec LFI, Moyen-Orient, pouvoir d'achat : ce qu'il faut retenir du premier débat de la primaire de gauche",
+        "type": "article-de-presse",
+        "date": "2026-09-23"
+      }
+    ]
   },
   {
     "id": "royal-fiscalite",
@@ -789,14 +953,16 @@
     "citation": null,
     "nature": "declaration_publique",
     "indicateurs": [],
-    "source": {
-      "url": "https://lcp.fr/actualites/accord-avec-lfi-moyen-orient-pouvoir-d-achat-ce-qu-il-faut-retenir-du-premier-debat-de",
-      "titre": "Accord avec LFI, Moyen-Orient, pouvoir d'achat : ce qu'il faut retenir du premier débat de la primaire de gauche",
-      "type": "article-de-presse",
-      "date": "2026-09-23"
-    },
     "derniere_verification": "2026-10-09",
-    "programme_anterieur": null
+    "programme_anterieur": null,
+    "sources": [
+      {
+        "url": "https://lcp.fr/actualites/accord-avec-lfi-moyen-orient-pouvoir-d-achat-ce-qu-il-faut-retenir-du-premier-debat-de",
+        "titre": "Accord avec LFI, Moyen-Orient, pouvoir d'achat : ce qu'il faut retenir du premier débat de la primaire de gauche",
+        "type": "article-de-presse",
+        "date": "2026-09-23"
+      }
+    ]
   },
   {
     "id": "faure-fiscalite",
@@ -807,14 +973,16 @@
     "citation": "Il faut taxer Total",
     "nature": "declaration_publique",
     "indicateurs": [],
-    "source": {
-      "url": "https://lcp.fr/actualites/accord-avec-lfi-moyen-orient-pouvoir-d-achat-ce-qu-il-faut-retenir-du-premier-debat-de",
-      "titre": "Accord avec LFI, Moyen-Orient, pouvoir d'achat : ce qu'il faut retenir du premier débat de la primaire de gauche",
-      "type": "article-de-presse",
-      "date": "2026-09-23"
-    },
     "derniere_verification": "2026-10-09",
-    "programme_anterieur": null
+    "programme_anterieur": null,
+    "sources": [
+      {
+        "url": "https://lcp.fr/actualites/accord-avec-lfi-moyen-orient-pouvoir-d-achat-ce-qu-il-faut-retenir-du-premier-debat-de",
+        "titre": "Accord avec LFI, Moyen-Orient, pouvoir d'achat : ce qu'il faut retenir du premier débat de la primaire de gauche",
+        "type": "article-de-presse",
+        "date": "2026-09-23"
+      }
+    ]
   },
   {
     "id": "maurel-fiscalite",
@@ -825,14 +993,16 @@
     "citation": "Je crois que personne ici ne veut foutre au feu la dette",
     "nature": "declaration_publique",
     "indicateurs": [],
-    "source": {
-      "url": "https://lcp.fr/actualites/accord-avec-lfi-moyen-orient-pouvoir-d-achat-ce-qu-il-faut-retenir-du-premier-debat-de",
-      "titre": "Accord avec LFI, Moyen-Orient, pouvoir d'achat : ce qu'il faut retenir du premier débat de la primaire de gauche",
-      "type": "article-de-presse",
-      "date": "2026-09-23"
-    },
     "derniere_verification": "2026-10-09",
-    "programme_anterieur": null
+    "programme_anterieur": null,
+    "sources": [
+      {
+        "url": "https://lcp.fr/actualites/accord-avec-lfi-moyen-orient-pouvoir-d-achat-ce-qu-il-faut-retenir-du-premier-debat-de",
+        "titre": "Accord avec LFI, Moyen-Orient, pouvoir d'achat : ce qu'il faut retenir du premier débat de la primaire de gauche",
+        "type": "article-de-presse",
+        "date": "2026-09-23"
+      }
+    ]
   },
   {
     "id": "philippe-fiscalite",
@@ -843,14 +1013,16 @@
     "citation": "La France, elle a une parole, elle la tient et elle remet en ordre ses comptes",
     "nature": "declaration_publique",
     "indicateurs": [],
-    "source": {
-      "url": "https://lcp.fr/actualites/presidentielle-2027-ce-qu-il-faut-retenir-du-premier-debat-entre-les-candidats-440670",
-      "titre": "Présidentielle 2027 : ce qu'il faut retenir du débat entre les candidats devant le Medef",
-      "type": "article-de-presse",
-      "date": "2026-08-27"
-    },
     "derniere_verification": "2026-10-09",
-    "programme_anterieur": null
+    "programme_anterieur": null,
+    "sources": [
+      {
+        "url": "https://lcp.fr/actualites/presidentielle-2027-ce-qu-il-faut-retenir-du-premier-debat-entre-les-candidats-440670",
+        "titre": "Présidentielle 2027 : ce qu'il faut retenir du débat entre les candidats devant le Medef",
+        "type": "article-de-presse",
+        "date": "2026-08-27"
+      }
+    ]
   },
   {
     "id": "tondelier-ecologie",
@@ -861,14 +1033,16 @@
     "citation": "Nous n'avons pas modifié notre programme car il a été construit autour de l'urgence écologique bien avant l'été apocalyptique que nous venons de vivre.",
     "nature": "declaration_publique",
     "indicateurs": [],
-    "source": {
-      "url": "https://www.franceinfo.fr/elections/presidentielle/on-ne-decouvre-rien-les-candidats-a-la-presidentielle-ont-ils-adapte-leur-programme-apres-les-canicules-d-un-ete-apocalyptique_8174960.html",
-      "titre": "« On ne découvre rien » : les candidats à la présidentielle ont-ils adapté leur programme après les canicules d'un été « apocalyptique » ?",
-      "type": "article-de-presse",
-      "date": "2026-09-04"
-    },
     "derniere_verification": "2026-10-09",
-    "programme_anterieur": null
+    "programme_anterieur": null,
+    "sources": [
+      {
+        "url": "https://www.franceinfo.fr/elections/presidentielle/on-ne-decouvre-rien-les-candidats-a-la-presidentielle-ont-ils-adapte-leur-programme-apres-les-canicules-d-un-ete-apocalyptique_8174960.html",
+        "titre": "« On ne découvre rien » : les candidats à la présidentielle ont-ils adapté leur programme après les canicules d'un été « apocalyptique » ?",
+        "type": "article-de-presse",
+        "date": "2026-09-04"
+      }
+    ]
   },
   {
     "id": "melenchon-ecologie",
@@ -879,14 +1053,16 @@
     "citation": null,
     "nature": "declaration_publique",
     "indicateurs": [],
-    "source": {
-      "url": "https://www.franceinfo.fr/elections/presidentielle/on-ne-decouvre-rien-les-candidats-a-la-presidentielle-ont-ils-adapte-leur-programme-apres-les-canicules-d-un-ete-apocalyptique_8174960.html",
-      "titre": "« On ne découvre rien » : les candidats à la présidentielle ont-ils adapté leur programme après les canicules d'un été « apocalyptique » ?",
-      "type": "article-de-presse",
-      "date": "2026-09-04"
-    },
     "derniere_verification": "2026-10-09",
-    "programme_anterieur": null
+    "programme_anterieur": null,
+    "sources": [
+      {
+        "url": "https://www.franceinfo.fr/elections/presidentielle/on-ne-decouvre-rien-les-candidats-a-la-presidentielle-ont-ils-adapte-leur-programme-apres-les-canicules-d-un-ete-apocalyptique_8174960.html",
+        "titre": "« On ne découvre rien » : les candidats à la présidentielle ont-ils adapté leur programme après les canicules d'un été « apocalyptique » ?",
+        "type": "article-de-presse",
+        "date": "2026-09-04"
+      }
+    ]
   },
   {
     "id": "glucksmann-ecologie",
@@ -897,14 +1073,16 @@
     "citation": "Je serai le président de la transformation écologique.",
     "nature": "declaration_publique",
     "indicateurs": [],
-    "source": {
-      "url": "https://www.franceinfo.fr/elections/presidentielle/on-ne-decouvre-rien-les-candidats-a-la-presidentielle-ont-ils-adapte-leur-programme-apres-les-canicules-d-un-ete-apocalyptique_8174960.html",
-      "titre": "« On ne découvre rien » : les candidats à la présidentielle ont-ils adapté leur programme après les canicules d'un été « apocalyptique » ?",
-      "type": "article-de-presse",
-      "date": "2026-09-04"
-    },
     "derniere_verification": "2026-10-09",
-    "programme_anterieur": null
+    "programme_anterieur": null,
+    "sources": [
+      {
+        "url": "https://www.franceinfo.fr/elections/presidentielle/on-ne-decouvre-rien-les-candidats-a-la-presidentielle-ont-ils-adapte-leur-programme-apres-les-canicules-d-un-ete-apocalyptique_8174960.html",
+        "titre": "« On ne découvre rien » : les candidats à la présidentielle ont-ils adapté leur programme après les canicules d'un été « apocalyptique » ?",
+        "type": "article-de-presse",
+        "date": "2026-09-04"
+      }
+    ]
   },
   {
     "id": "retailleau-ecologie",
@@ -922,14 +1100,16 @@
         "valeur_comparable": 43
       }
     ],
-    "source": {
-      "url": "https://www.franceinfo.fr/elections/presidentielle/on-ne-decouvre-rien-les-candidats-a-la-presidentielle-ont-ils-adapte-leur-programme-apres-les-canicules-d-un-ete-apocalyptique_8174960.html",
-      "titre": "« On ne découvre rien » : les candidats à la présidentielle ont-ils adapté leur programme après les canicules d'un été « apocalyptique » ?",
-      "type": "article-de-presse",
-      "date": "2026-09-04"
-    },
     "derniere_verification": "2026-10-09",
-    "programme_anterieur": null
+    "programme_anterieur": null,
+    "sources": [
+      {
+        "url": "https://www.franceinfo.fr/elections/presidentielle/on-ne-decouvre-rien-les-candidats-a-la-presidentielle-ont-ils-adapte-leur-programme-apres-les-canicules-d-un-ete-apocalyptique_8174960.html",
+        "titre": "« On ne découvre rien » : les candidats à la présidentielle ont-ils adapté leur programme après les canicules d'un été « apocalyptique » ?",
+        "type": "article-de-presse",
+        "date": "2026-09-04"
+      }
+    ]
   },
   {
     "id": "philippe-ecologie",
@@ -940,14 +1120,16 @@
     "citation": null,
     "nature": "programme_officiel",
     "indicateurs": [],
-    "source": {
-      "url": "https://www.cnews.fr/france/2026-09-17/presidentielle-2027-edouard-philippe-devoile-son-programme-climatique-lors-dun",
-      "titre": "Présidentielle 2027 : Édouard Philippe dévoile son programme climatique lors d'un déplacement à Angers",
-      "type": "article-de-presse",
-      "date": "2026-09-17"
-    },
     "derniere_verification": "2026-10-09",
-    "programme_anterieur": null
+    "programme_anterieur": null,
+    "sources": [
+      {
+        "url": "https://www.cnews.fr/france/2026-09-17/presidentielle-2027-edouard-philippe-devoile-son-programme-climatique-lors-dun",
+        "titre": "Présidentielle 2027 : Édouard Philippe dévoile son programme climatique lors d'un déplacement à Angers",
+        "type": "article-de-presse",
+        "date": "2026-09-17"
+      }
+    ]
   },
   {
     "id": "attal-ecologie",
@@ -958,14 +1140,16 @@
     "citation": null,
     "nature": "declaration_publique",
     "indicateurs": [],
-    "source": {
-      "url": "https://www.franceinfo.fr/elections/presidentielle/on-ne-decouvre-rien-les-candidats-a-la-presidentielle-ont-ils-adapte-leur-programme-apres-les-canicules-d-un-ete-apocalyptique_8174960.html",
-      "titre": "« On ne découvre rien » : les candidats à la présidentielle ont-ils adapté leur programme après les canicules d'un été « apocalyptique » ?",
-      "type": "article-de-presse",
-      "date": "2026-09-04"
-    },
     "derniere_verification": "2026-10-09",
-    "programme_anterieur": null
+    "programme_anterieur": null,
+    "sources": [
+      {
+        "url": "https://www.franceinfo.fr/elections/presidentielle/on-ne-decouvre-rien-les-candidats-a-la-presidentielle-ont-ils-adapte-leur-programme-apres-les-canicules-d-un-ete-apocalyptique_8174960.html",
+        "titre": "« On ne découvre rien » : les candidats à la présidentielle ont-ils adapté leur programme après les canicules d'un été « apocalyptique » ?",
+        "type": "article-de-presse",
+        "date": "2026-09-04"
+      }
+    ]
   },
   {
     "id": "melenchon-europe",
@@ -976,14 +1160,16 @@
     "citation": "Nous devons donc modifier le traité qui fait l'Union européenne",
     "nature": "declaration_publique",
     "indicateurs": [],
-    "source": {
-      "url": "https://lcp.fr/actualites/presidentielle-2027-ce-qu-il-faut-retenir-du-premier-debat-entre-les-candidats-440670",
-      "titre": "Présidentielle 2027 : ce qu'il faut retenir du débat entre les candidats devant le Medef",
-      "type": "article-de-presse",
-      "date": "2026-08-27"
-    },
     "derniere_verification": "2026-10-09",
-    "programme_anterieur": null
+    "programme_anterieur": null,
+    "sources": [
+      {
+        "url": "https://lcp.fr/actualites/presidentielle-2027-ce-qu-il-faut-retenir-du-premier-debat-entre-les-candidats-440670",
+        "titre": "Présidentielle 2027 : ce qu'il faut retenir du débat entre les candidats devant le Medef",
+        "type": "article-de-presse",
+        "date": "2026-08-27"
+      }
+    ]
   },
   {
     "id": "faure-logement",
@@ -1001,14 +1187,16 @@
         "valeur_comparable": 30
       }
     ],
-    "source": {
-      "url": "https://lcp.fr/actualites/accord-avec-lfi-moyen-orient-pouvoir-d-achat-ce-qu-il-faut-retenir-du-premier-debat-de",
-      "titre": "Accord avec LFI, Moyen-Orient, pouvoir d'achat : ce qu'il faut retenir du premier débat de la primaire de gauche",
-      "type": "article-de-presse",
-      "date": "2026-09-23"
-    },
     "derniere_verification": "2026-10-09",
-    "programme_anterieur": null
+    "programme_anterieur": null,
+    "sources": [
+      {
+        "url": "https://lcp.fr/actualites/accord-avec-lfi-moyen-orient-pouvoir-d-achat-ce-qu-il-faut-retenir-du-premier-debat-de",
+        "titre": "Accord avec LFI, Moyen-Orient, pouvoir d'achat : ce qu'il faut retenir du premier débat de la primaire de gauche",
+        "type": "article-de-presse",
+        "date": "2026-09-23"
+      }
+    ]
   },
   {
     "id": "glucksmann-defense",
@@ -1019,14 +1207,16 @@
     "citation": null,
     "nature": "declaration_publique",
     "indicateurs": [],
-    "source": {
-      "url": "https://lcp.fr/actualites/accord-avec-lfi-moyen-orient-pouvoir-d-achat-ce-qu-il-faut-retenir-du-premier-debat-de",
-      "titre": "Accord avec LFI, Moyen-Orient, pouvoir d'achat : ce qu'il faut retenir du premier débat de la primaire de gauche",
-      "type": "article-de-presse",
-      "date": "2026-09-23"
-    },
     "derniere_verification": "2026-10-09",
-    "programme_anterieur": null
+    "programme_anterieur": null,
+    "sources": [
+      {
+        "url": "https://lcp.fr/actualites/accord-avec-lfi-moyen-orient-pouvoir-d-achat-ce-qu-il-faut-retenir-du-premier-debat-de",
+        "titre": "Accord avec LFI, Moyen-Orient, pouvoir d'achat : ce qu'il faut retenir du premier débat de la primaire de gauche",
+        "type": "article-de-presse",
+        "date": "2026-09-23"
+      }
+    ]
   },
   {
     "id": "royal-defense",
@@ -1037,14 +1227,16 @@
     "citation": "Il faut un équilibre entre la force de défense et la force de négociation",
     "nature": "declaration_publique",
     "indicateurs": [],
-    "source": {
-      "url": "https://lcp.fr/actualites/accord-avec-lfi-moyen-orient-pouvoir-d-achat-ce-qu-il-faut-retenir-du-premier-debat-de",
-      "titre": "Accord avec LFI, Moyen-Orient, pouvoir d'achat : ce qu'il faut retenir du premier débat de la primaire de gauche",
-      "type": "article-de-presse",
-      "date": "2026-09-23"
-    },
     "derniere_verification": "2026-10-09",
-    "programme_anterieur": null
+    "programme_anterieur": null,
+    "sources": [
+      {
+        "url": "https://lcp.fr/actualites/accord-avec-lfi-moyen-orient-pouvoir-d-achat-ce-qu-il-faut-retenir-du-premier-debat-de",
+        "titre": "Accord avec LFI, Moyen-Orient, pouvoir d'achat : ce qu'il faut retenir du premier débat de la primaire de gauche",
+        "type": "article-de-presse",
+        "date": "2026-09-23"
+      }
+    ]
   },
   {
     "id": "maurel-defense",
@@ -1055,14 +1247,16 @@
     "citation": null,
     "nature": "declaration_publique",
     "indicateurs": [],
-    "source": {
-      "url": "https://lcp.fr/actualites/accord-avec-lfi-moyen-orient-pouvoir-d-achat-ce-qu-il-faut-retenir-du-premier-debat-de",
-      "titre": "Accord avec LFI, Moyen-Orient, pouvoir d'achat : ce qu'il faut retenir du premier débat de la primaire de gauche",
-      "type": "article-de-presse",
-      "date": "2026-09-23"
-    },
     "derniere_verification": "2026-10-09",
-    "programme_anterieur": null
+    "programme_anterieur": null,
+    "sources": [
+      {
+        "url": "https://lcp.fr/actualites/accord-avec-lfi-moyen-orient-pouvoir-d-achat-ce-qu-il-faut-retenir-du-premier-debat-de",
+        "titre": "Accord avec LFI, Moyen-Orient, pouvoir d'achat : ce qu'il faut retenir du premier débat de la primaire de gauche",
+        "type": "article-de-presse",
+        "date": "2026-09-23"
+      }
+    ]
   },
   {
     "id": "philippe-institutions",
@@ -1073,14 +1267,16 @@
     "citation": null,
     "nature": "declaration_publique",
     "indicateurs": [],
-    "source": {
-      "url": "https://www.cnews.fr/france/2026-09-11/immigration-quelles-sont-les-propositions-des-candidats-lelection-presidentielle",
-      "titre": "Immigration : quelles sont les propositions des candidats à l'élection présidentielle ?",
-      "type": "article-de-presse",
-      "date": "2026-09-11"
-    },
     "derniere_verification": "2026-10-09",
-    "programme_anterieur": null
+    "programme_anterieur": null,
+    "sources": [
+      {
+        "url": "https://www.cnews.fr/france/2026-09-11/immigration-quelles-sont-les-propositions-des-candidats-lelection-presidentielle",
+        "titre": "Immigration : quelles sont les propositions des candidats à l'élection présidentielle ?",
+        "type": "article-de-presse",
+        "date": "2026-09-11"
+      }
+    ]
   },
   {
     "id": "le-pen-education",
@@ -1098,17 +1294,25 @@
         "valeur_comparable": null
       }
     ],
-    "source": {
-      "url": "https://www.cnews.fr/france/2026-10-06/blocus-des-lycees-que-proposent-les-principaux-candidats-la-presidentielle-en",
-      "titre": "Blocus des lycées : que proposent les principaux candidats à la présidentielle en matière d'éducation ?",
-      "type": "article-de-presse",
-      "date": "2026-10-06"
-    },
     "derniere_verification": "2026-10-09",
     "programme_anterieur": {
       "scrutin": "élections législatives",
       "annee": 2024
-    }
+    },
+    "sources": [
+      {
+        "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-que-proposent-les-candidats-pour-lecole",
+        "titre": "Présidentielle 2027 : que proposent les candidats pour l’école ?",
+        "type": "article-de-presse",
+        "date": "2026-08-31"
+      },
+      {
+        "url": "https://www.cnews.fr/france/2026-10-06/blocus-des-lycees-que-proposent-les-principaux-candidats-la-presidentielle-en",
+        "titre": "Blocus des lycées : que proposent les principaux candidats à la présidentielle en matière d'éducation ?",
+        "type": "article-de-presse",
+        "date": "2026-10-06"
+      }
+    ]
   },
   {
     "id": "philippe-education",
@@ -1126,14 +1330,34 @@
         "valeur_comparable": null
       }
     ],
-    "source": {
-      "url": "https://www.cnews.fr/france/2026-10-06/blocus-des-lycees-que-proposent-les-principaux-candidats-la-presidentielle-en",
-      "titre": "Blocus des lycées : que proposent les principaux candidats à la présidentielle en matière d'éducation ?",
-      "type": "article-de-presse",
-      "date": "2026-10-06"
-    },
     "derniere_verification": "2026-10-09",
-    "programme_anterieur": null
+    "programme_anterieur": null,
+    "sources": [
+      {
+        "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-que-proposent-les-candidats-pour-lecole",
+        "titre": "Présidentielle 2027 : que proposent les candidats pour l’école ?",
+        "type": "article-de-presse",
+        "date": "2026-08-31"
+      },
+      {
+        "url": "https://www.cnews.fr/france/2026-10-06/blocus-des-lycees-que-proposent-les-principaux-candidats-la-presidentielle-en",
+        "titre": "Blocus des lycées : que proposent les principaux candidats à la présidentielle en matière d'éducation ?",
+        "type": "article-de-presse",
+        "date": "2026-10-06"
+      },
+      {
+        "url": "https://www.franceinfo.fr/elections/presidentielle/presidentielle-2027-le-candidat-horizons-edouard-philippe-veut-augmenter-de-20-la-remuneration-moyenne-des-enseignants-sur-un-quinquennat_8159927.html",
+        "titre": "Édouard Philippe veut augmenter de 20 % la rémunération moyenne des enseignants sur un quinquennat",
+        "type": "article-de-presse",
+        "date": "2026-08-28"
+      },
+      {
+        "url": "https://www.franceinfo.fr/elections/presidentielle/les-professeurs-courtises-par-les-candidats-a-la-presidentielle-2027-quelles-revalorisations-proposent-ils-avec-quels-financements_8161409.html",
+        "titre": "Les professeurs courtisés par les candidats : quelles revalorisations proposent-ils, avec quels financements ?",
+        "type": "article-de-presse",
+        "date": "2026-08-31"
+      }
+    ]
   },
   {
     "id": "melenchon-education",
@@ -1163,17 +1387,25 @@
         "valeur_comparable": null
       }
     ],
-    "source": {
-      "url": "https://www.cnews.fr/france/2026-10-06/blocus-des-lycees-que-proposent-les-principaux-candidats-la-presidentielle-en",
-      "titre": "Blocus des lycées : que proposent les principaux candidats à la présidentielle en matière d'éducation ?",
-      "type": "article-de-presse",
-      "date": "2026-10-06"
-    },
     "derniere_verification": "2026-10-09",
     "programme_anterieur": {
       "scrutin": "élection présidentielle",
       "annee": 2022
-    }
+    },
+    "sources": [
+      {
+        "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-que-proposent-les-candidats-pour-lecole",
+        "titre": "Présidentielle 2027 : que proposent les candidats pour l’école ?",
+        "type": "article-de-presse",
+        "date": "2026-08-31"
+      },
+      {
+        "url": "https://www.cnews.fr/france/2026-10-06/blocus-des-lycees-que-proposent-les-principaux-candidats-la-presidentielle-en",
+        "titre": "Blocus des lycées : que proposent les principaux candidats à la présidentielle en matière d'éducation ?",
+        "type": "article-de-presse",
+        "date": "2026-10-06"
+      }
+    ]
   },
   {
     "id": "glucksmann-education",
@@ -1191,14 +1423,28 @@
         "valeur_comparable": null
       }
     ],
-    "source": {
-      "url": "https://www.cnews.fr/france/2026-10-06/blocus-des-lycees-que-proposent-les-principaux-candidats-la-presidentielle-en",
-      "titre": "Blocus des lycées : que proposent les principaux candidats à la présidentielle en matière d'éducation ?",
-      "type": "article-de-presse",
-      "date": "2026-10-06"
-    },
     "derniere_verification": "2026-10-09",
-    "programme_anterieur": null
+    "programme_anterieur": null,
+    "sources": [
+      {
+        "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-que-proposent-les-candidats-pour-lecole",
+        "titre": "Présidentielle 2027 : que proposent les candidats pour l’école ?",
+        "type": "article-de-presse",
+        "date": "2026-08-31"
+      },
+      {
+        "url": "https://www.cnews.fr/france/2026-10-06/blocus-des-lycees-que-proposent-les-principaux-candidats-la-presidentielle-en",
+        "titre": "Blocus des lycées : que proposent les principaux candidats à la présidentielle en matière d'éducation ?",
+        "type": "article-de-presse",
+        "date": "2026-10-06"
+      },
+      {
+        "url": "https://www.franceinfo.fr/elections/presidentielle/les-professeurs-courtises-par-les-candidats-a-la-presidentielle-2027-quelles-revalorisations-proposent-ils-avec-quels-financements_8161409.html",
+        "titre": "Les professeurs courtisés par les candidats : quelles revalorisations proposent-ils, avec quels financements ?",
+        "type": "article-de-presse",
+        "date": "2026-08-31"
+      }
+    ]
   },
   {
     "id": "attal-education",
@@ -1222,14 +1468,34 @@
         "valeur_comparable": 200
       }
     ],
-    "source": {
-      "url": "https://www.cnews.fr/france/2026-10-06/blocus-des-lycees-que-proposent-les-principaux-candidats-la-presidentielle-en",
-      "titre": "Blocus des lycées : que proposent les principaux candidats à la présidentielle en matière d'éducation ?",
-      "type": "article-de-presse",
-      "date": "2026-10-06"
-    },
     "derniere_verification": "2026-10-09",
-    "programme_anterieur": null
+    "programme_anterieur": null,
+    "sources": [
+      {
+        "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-que-proposent-les-candidats-pour-lecole",
+        "titre": "Présidentielle 2027 : que proposent les candidats pour l’école ?",
+        "type": "article-de-presse",
+        "date": "2026-08-31"
+      },
+      {
+        "url": "https://www.cnews.fr/france/2026-10-06/blocus-des-lycees-que-proposent-les-principaux-candidats-la-presidentielle-en",
+        "titre": "Blocus des lycées : que proposent les principaux candidats à la présidentielle en matière d'éducation ?",
+        "type": "article-de-presse",
+        "date": "2026-10-06"
+      },
+      {
+        "url": "https://lcp.fr/actualites/presidentielle-retour-du-certificat-d-etudes-revalorisation-des-salaires-ce-que-propose",
+        "titre": "Retour du certificat d’études, revalorisation des salaires : ce que propose Gabriel Attal pour l’école",
+        "type": "article-de-presse",
+        "date": "2026-08-28"
+      },
+      {
+        "url": "https://www.franceinfo.fr/elections/presidentielle/les-professeurs-courtises-par-les-candidats-a-la-presidentielle-2027-quelles-revalorisations-proposent-ils-avec-quels-financements_8161409.html",
+        "titre": "Les professeurs courtisés par les candidats : quelles revalorisations proposent-ils, avec quels financements ?",
+        "type": "article-de-presse",
+        "date": "2026-08-31"
+      }
+    ]
   },
   {
     "id": "tondelier-education",
@@ -1253,14 +1519,28 @@
         "valeur_comparable": null
       }
     ],
-    "source": {
-      "url": "https://www.cnews.fr/france/2026-10-06/blocus-des-lycees-que-proposent-les-principaux-candidats-la-presidentielle-en",
-      "titre": "Blocus des lycées : que proposent les principaux candidats à la présidentielle en matière d'éducation ?",
-      "type": "article-de-presse",
-      "date": "2026-10-06"
-    },
     "derniere_verification": "2026-10-09",
-    "programme_anterieur": null
+    "programme_anterieur": null,
+    "sources": [
+      {
+        "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-que-proposent-les-candidats-pour-lecole",
+        "titre": "Présidentielle 2027 : que proposent les candidats pour l’école ?",
+        "type": "article-de-presse",
+        "date": "2026-08-31"
+      },
+      {
+        "url": "https://www.cnews.fr/france/2026-10-06/blocus-des-lycees-que-proposent-les-principaux-candidats-la-presidentielle-en",
+        "titre": "Blocus des lycées : que proposent les principaux candidats à la présidentielle en matière d'éducation ?",
+        "type": "article-de-presse",
+        "date": "2026-10-06"
+      },
+      {
+        "url": "https://www.franceinfo.fr/elections/presidentielle/les-professeurs-courtises-par-les-candidats-a-la-presidentielle-2027-quelles-revalorisations-proposent-ils-avec-quels-financements_8161409.html",
+        "titre": "Les professeurs courtisés par les candidats : quelles revalorisations proposent-ils, avec quels financements ?",
+        "type": "article-de-presse",
+        "date": "2026-08-31"
+      }
+    ]
   },
   {
     "id": "retailleau-education",
@@ -1278,14 +1558,28 @@
         "valeur_comparable": 135
       }
     ],
-    "source": {
-      "url": "https://www.cnews.fr/france/2026-10-06/blocus-des-lycees-que-proposent-les-principaux-candidats-la-presidentielle-en",
-      "titre": "Blocus des lycées : que proposent les principaux candidats à la présidentielle en matière d'éducation ?",
-      "type": "article-de-presse",
-      "date": "2026-10-06"
-    },
     "derniere_verification": "2026-10-09",
-    "programme_anterieur": null
+    "programme_anterieur": null,
+    "sources": [
+      {
+        "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-que-proposent-les-candidats-pour-lecole",
+        "titre": "Présidentielle 2027 : que proposent les candidats pour l’école ?",
+        "type": "article-de-presse",
+        "date": "2026-08-31"
+      },
+      {
+        "url": "https://www.cnews.fr/france/2026-10-06/blocus-des-lycees-que-proposent-les-principaux-candidats-la-presidentielle-en",
+        "titre": "Blocus des lycées : que proposent les principaux candidats à la présidentielle en matière d'éducation ?",
+        "type": "article-de-presse",
+        "date": "2026-10-06"
+      },
+      {
+        "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-bruno-retailleau-veut-refonder-lecole-autour-de-quatre-axes-principaux",
+        "titre": "Bruno Retailleau veut « refonder l’école » autour de quatre axes principaux",
+        "type": "article-de-presse",
+        "date": "2026-09-02"
+      }
+    ]
   },
   {
     "id": "faure-education",
@@ -1296,14 +1590,22 @@
     "citation": null,
     "nature": "declaration_publique",
     "indicateurs": [],
-    "source": {
-      "url": "https://www.cnews.fr/france/2026-10-06/blocus-des-lycees-que-proposent-les-principaux-candidats-la-presidentielle-en",
-      "titre": "Blocus des lycées : que proposent les principaux candidats à la présidentielle en matière d'éducation ?",
-      "type": "article-de-presse",
-      "date": "2026-10-06"
-    },
     "derniere_verification": "2026-10-09",
-    "programme_anterieur": null
+    "programme_anterieur": null,
+    "sources": [
+      {
+        "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-que-proposent-les-candidats-pour-lecole",
+        "titre": "Présidentielle 2027 : que proposent les candidats pour l’école ?",
+        "type": "article-de-presse",
+        "date": "2026-08-31"
+      },
+      {
+        "url": "https://www.cnews.fr/france/2026-10-06/blocus-des-lycees-que-proposent-les-principaux-candidats-la-presidentielle-en",
+        "titre": "Blocus des lycées : que proposent les principaux candidats à la présidentielle en matière d'éducation ?",
+        "type": "article-de-presse",
+        "date": "2026-10-06"
+      }
+    ]
   },
   {
     "id": "philippe-securite",
@@ -1314,14 +1616,16 @@
     "citation": "Il faut remettre de l'ordre chez nous, dans nos rues",
     "nature": "programme_officiel",
     "indicateurs": [],
-    "source": {
-      "url": "https://www.cnews.fr/france/2026-07-19/presidentielle-2027-edouard-philippe-defend-une-france-plus-sure-et-met-laccent",
-      "titre": "Présidentielle 2027 : Édouard Philippe défend « une France plus sûre » et met l'accent sur la sécurité",
-      "type": "article-de-presse",
-      "date": "2026-07-19"
-    },
     "derniere_verification": "2026-10-09",
-    "programme_anterieur": null
+    "programme_anterieur": null,
+    "sources": [
+      {
+        "url": "https://www.cnews.fr/france/2026-07-19/presidentielle-2027-edouard-philippe-defend-une-france-plus-sure-et-met-laccent",
+        "titre": "Présidentielle 2027 : Édouard Philippe défend « une France plus sûre » et met l'accent sur la sécurité",
+        "type": "article-de-presse",
+        "date": "2026-07-19"
+      }
+    ]
   },
   {
     "id": "philippe-defense",
@@ -1345,13 +1649,15 @@
         "valeur_comparable": 700000
       }
     ],
-    "source": {
-      "url": "https://www.cnews.fr/france/2026-07-19/presidentielle-2027-edouard-philippe-defend-une-france-plus-sure-et-met-laccent",
-      "titre": "Présidentielle 2027 : Édouard Philippe défend « une France plus sûre » et met l'accent sur la sécurité",
-      "type": "article-de-presse",
-      "date": "2026-07-19"
-    },
     "derniere_verification": "2026-10-09",
-    "programme_anterieur": null
+    "programme_anterieur": null,
+    "sources": [
+      {
+        "url": "https://www.cnews.fr/france/2026-07-19/presidentielle-2027-edouard-philippe-defend-une-france-plus-sure-et-met-laccent",
+        "titre": "Présidentielle 2027 : Édouard Philippe défend « une France plus sûre » et met l'accent sur la sécurité",
+        "type": "article-de-presse",
+        "date": "2026-07-19"
+      }
+    ]
   }
 ]

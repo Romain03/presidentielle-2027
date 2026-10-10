@@ -41,7 +41,7 @@ function proposition(
     programme_anterieur: null,
     nature: 'declaration_publique',
     indicateurs,
-    source,
+    sources: [source],
     derniere_verification: '2026-10-09',
   };
 }

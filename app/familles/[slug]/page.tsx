@@ -7,6 +7,7 @@ import DerniereMiseAJour from '@/components/DerniereMiseAJour';
 import IndicateursGroupe from '@/components/IndicateursGroupe';
 import LienRetour from '@/components/LienRetour';
 import LienSource from '@/components/LienSource';
+import Sources from '@/components/Sources';
 import PortraitCandidat from '@/components/PortraitCandidat';
 import { candidatsDuParti, derniereMiseAJour, getCandidat } from '@/lib/data';
 import { synthetiserFamille } from '@/lib/familles';
@@ -256,7 +257,7 @@ export default async function PageFamille({ params }: { params: Promise<{ slug: 
                             <BadgeNature proposition={proposition} />
                           </p>
                           <p className="text-sm leading-relaxed">{proposition.resume}</p>
-                          <LienSource source={proposition.source} />
+                          <Sources sources={proposition.sources} />
                         </li>
                       );
                     })}

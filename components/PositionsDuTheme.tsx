@@ -5,6 +5,7 @@ import { useState } from 'react';
 import BadgeNature from './BadgeNature';
 import PortraitCandidat from './PortraitCandidat';
 import LienSource from './LienSource';
+import Sources from './Sources';
 import { formaterIndicateur } from '@/lib/comparateur';
 import { formaterDateCourte, nomComplet, pluriel } from '@/lib/format';
 import type { Proposition } from '@/lib/schemas';
@@ -156,7 +157,7 @@ export default function PositionsDuTheme({ lignes }: { lignes: LigneTheme[] }) {
                     <div className="space-y-2">
                       {propositions.map((proposition) => (
                         <div key={proposition.id} className="space-y-0.5">
-                          <LienSource source={proposition.source} />
+                          <Sources sources={proposition.sources} />
                           <p className="text-xs text-stone-600 dark:text-stone-400">
                             Relevé le {formaterDateCourte(proposition.derniere_verification)}
                           </p>

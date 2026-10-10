@@ -94,6 +94,34 @@ d'origine** - Wikipédia les référence toutes.
 
 Exceptions déjà sourcées à la presse : Marine Le Pen, Bruno Retailleau.
 
+### Concentration des sources de propositions
+Au 10 octobre 2026, les 57 propositions reposent sur 88 citations réparties sur
+24 articles de 5 médias :
+
+| Média | Citations | Part |
+|---|---|---|
+| cnews.fr | 30 | 34 % |
+| lcp.fr | 26 | 30 % |
+| publicsenat.fr | 17 | 19 % |
+| franceinfo.fr | 13 | 15 % |
+| europe1.fr | 2 | 2 % |
+
+CNews pesait 53 % avant la revue du 10 octobre ; des corroborations de service
+public (Public Sénat, LCP, franceinfo) ont été ajoutées sur les thèmes
+*retraites* et *éducation*, après lecture et vérification de chaque article.
+
+**40 propositions sur 57 ne reposent encore que sur une seule rédaction.** Les
+plus exposées sont celles que seule une rédaction rapporte :
+
+- **Édouard Philippe, défense** (45 000 à 250 000 réservistes, 700 000 obus) et
+  **sécurité** : aucune reprise de service public trouvée, la source reste
+  unique.
+- Les thèmes *immigration*, *écologie*, *institutions* et *sécurité* n'ont reçu
+  qu'une corroboration partielle.
+
+**À faire :** poursuivre thème par thème, et re-sourcer aux programmes dès leur
+parution. Ne jamais substituer une adresse à une autre sans avoir lu l'article.
+
 ### Les parcours viennent de Wikidata
 Les 183 jalons de parcours, les dates de naissance, les études et les métiers
 sont repris de Wikidata (type de source : *Encyclopédie*), par le script

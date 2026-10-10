@@ -180,12 +180,19 @@ export const derniereMiseAJour: string = [
 export const sourcesDesPropositions = (() => {
   const parMedia = new Map<string, number>();
   const articles = new Set<string>();
+  let citations = 0;
   for (const proposition of propositions) {
-    articles.add(proposition.source.url);
-    const hote = new URL(proposition.source.url).hostname.replace(/^www\./, '');
-    parMedia.set(hote, (parMedia.get(hote) ?? 0) + 1);
+    for (const source of proposition.sources) {
+      articles.add(source.url);
+      citations += 1;
+      const hote = new URL(source.url).hostname.replace(/^www\./, '');
+      parMedia.set(hote, (parMedia.get(hote) ?? 0) + 1);
+    }
   }
   return {
+    citations,
+    /** Propositions ne reposant que sur une seule rédaction. */
+    sourceUnique: propositions.filter((p) => p.sources.length === 1).length,
     articles: articles.size,
     medias: [...parMedia.entries()]
       .map(([hote, nombre]) => ({ hote, nombre }))

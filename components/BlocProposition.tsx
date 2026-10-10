@@ -1,5 +1,6 @@
 import BadgeNature from './BadgeNature';
 import LienSource from './LienSource';
+import Sources from './Sources';
 import { formaterIndicateur } from '@/lib/comparateur';
 import { formaterDateCourte } from '@/lib/format';
 import type { Proposition } from '@/lib/schemas';
@@ -41,7 +42,7 @@ export default function BlocProposition({ proposition }: { proposition: Proposit
       </details>
 
       <footer className="flex flex-wrap items-baseline gap-x-3 gap-y-1 border-t border-stone-900/6 pt-3 dark:border-white/8">
-        <LienSource source={proposition.source} />
+        <Sources sources={proposition.sources} />
         <span className="text-xs text-stone-600 dark:text-stone-400">
           Relevé le {formaterDateCourte(proposition.derniere_verification)}
         </span>

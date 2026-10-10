@@ -7,6 +7,7 @@ import DerniereMiseAJour from '@/components/DerniereMiseAJour';
 import IndicateursGroupe from '@/components/IndicateursGroupe';
 import LienRetour from '@/components/LienRetour';
 import LienSource from '@/components/LienSource';
+import Sources from '@/components/Sources';
 import PortraitCandidat from '@/components/PortraitCandidat';
 import { candidatsDuParti, getCandidat, getParti, nombrePropositions, partis } from '@/lib/data';
 import { synthetiserGroupe } from '@/lib/synthese';
@@ -282,7 +283,7 @@ export default async function PageParti({ params }: { params: Promise<{ slug: st
                           <BadgeNature proposition={proposition} />
                         </p>
                         <p className="text-sm leading-relaxed">{proposition.resume}</p>
-                        <LienSource source={proposition.source} />
+                        <Sources sources={proposition.sources} />
                       </li>
                     );
                   })}

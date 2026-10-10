@@ -7,9 +7,9 @@ affichée comme telle et jamais comblée.
 
 **État au 9 octobre 2026 :** 31 candidatures engagées (plus 10 pressentis et
 3 retraits), 33 partis, 57 propositions sourcées sur 11 des 12 thèmes suivis.
-Ces 57 propositions viennent de 13 articles de 4 médias, dont 53 % d'un seul :
-la couverture du site est d'abord celle de ces articles, et elle est dite
-comme telle sur chaque page. Les lacunes sont documentées dans
+Ces 57 propositions reposent sur 88 citations réparties sur 24 articles de
+5 médias ; une proposition peut en porter plusieurs. La couverture du site est
+d'abord celle de ces articles, et elle est dite comme telle sur chaque page. Les lacunes sont documentées dans
 [`DONNEES_A_VERIFIER.md`](DONNEES_A_VERIFIER.md).
 
 ---

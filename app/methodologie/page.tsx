@@ -23,7 +23,7 @@ const SOURCE_FICTIVE = {
   date: '2026-01-01',
 };
 
-const EXEMPLE_BASE: Omit<Proposition, 'nature' | 'source'> = {
+const EXEMPLE_BASE: Omit<Proposition, 'nature' | 'sources'> = {
   id: 'exemple',
   candidat_id: 'exemple',
   theme_id: 'exemple',
@@ -39,17 +39,17 @@ const EXEMPLES: Record<'programme' | 'rapporte' | 'declaration', Proposition> = 
   programme: {
     ...EXEMPLE_BASE,
     nature: 'programme_officiel',
-    source: { ...SOURCE_FICTIVE, type: 'programme-officiel' },
+    sources: [{ ...SOURCE_FICTIVE, type: 'programme-officiel' }],
   },
   rapporte: {
     ...EXEMPLE_BASE,
     nature: 'programme_officiel',
-    source: { ...SOURCE_FICTIVE, type: 'article-de-presse' },
+    sources: [{ ...SOURCE_FICTIVE, type: 'article-de-presse' }],
   },
   declaration: {
     ...EXEMPLE_BASE,
     nature: 'declaration_publique',
-    source: { ...SOURCE_FICTIVE, type: 'interview' },
+    sources: [{ ...SOURCE_FICTIVE, type: 'interview' }],
   },
 };
 
@@ -82,9 +82,36 @@ export default function PageMethodologie() {
         </h2>
         <p className="text-sm leading-relaxed text-stone-700 dark:text-stone-300">
           Chaque information publiée ici porte une source, un type de source et une date de
-          publication. L’ordre de préférence est : programme officiel, site de campagne, site du
-          parti, décisions du Conseil constitutionnel, Journal officiel. À défaut, nous citons un
-          article de presse daté qui rapporte une déclaration.
+          publication, et <strong className="font-semibold">une proposition peut en porter
+          plusieurs</strong> : la première établit l’essentiel de la mesure, les suivantes la
+          corroborent ou apportent un détail qu’elle ne donne pas.
+        </p>
+        <p className="text-sm leading-relaxed text-stone-700 dark:text-stone-300">
+          L’ordre de préférence est le suivant, et il repose sur ce qui est vérifiable, non sur
+          une appréciation de la qualité des rédactions :
+        </p>
+        <ol className="list-decimal space-y-1.5 pl-5 text-sm leading-relaxed text-stone-700 dark:text-stone-300">
+          <li>
+            <strong className="font-semibold">les mots du candidat</strong> : programme publié,
+            site de campagne, site du parti. Rien n’est alors interprété.
+          </li>
+          <li>
+            <strong className="font-semibold">les médias à indépendance statutaire</strong> -
+            service public et chaînes parlementaires - et les agences de presse. Le critère est
+            juridique, pas éditorial : leur indépendance est inscrite dans un texte, ce qui se
+            vérifie, là où « média objectif » ne se vérifie pas.
+          </li>
+          <li>
+            <strong className="font-semibold">tout autre titre de presse daté</strong>, sans
+            exclusive, à condition qu’il rapporte une déclaration identifiable.
+          </li>
+        </ol>
+        <p className="text-sm leading-relaxed text-stone-700 dark:text-stone-300">
+          Une source n’est jamais remplacée par une autre sans que l’article ait été lu et
+          vérifié : échanger une adresse contre une autre sans la lire reviendrait à inventer la
+          provenance d’une information. Et une source d’origine n’est pas retirée lorsqu’une
+          meilleure est trouvée : elle porte souvent un détail que la nouvelle ne donne pas, et
+          savoir qui a rapporté quoi fait partie de ce que le lecteur doit pouvoir juger.
         </p>
 
         {/*
@@ -95,9 +122,11 @@ export default function PageMethodologie() {
           <p>
             <strong className="font-semibold">En pratique, aucune proposition n’est aujourd’hui
             sourcée à un document primaire.</strong>{' '}
-            Les {statistiques.propositions} propositions publiées viennent toutes d’articles de
-            presse : {sourcesDesPropositions.articles} articles, {sourcesDesPropositions.medias.length}{' '}
-            médias.
+            Les programmes ne sont pas publiés : les {statistiques.propositions} propositions
+            viennent toutes d’articles de presse, soit{' '}
+            {sourcesDesPropositions.citations} citations réparties sur{' '}
+            {sourcesDesPropositions.articles} articles de{' '}
+            {sourcesDesPropositions.medias.length} médias.
           </p>
           <ul className="space-y-0.5">
             {sourcesDesPropositions.medias.map((media) => (
@@ -112,10 +141,14 @@ export default function PageMethodologie() {
           </ul>
           <p>
             La conséquence est à connaître : ce que le site montre dépend de ce que ces articles
-            ont choisi de couvrir, et un média y pèse plus que les autres. Un thème peu traité par
-            eux paraîtra déserté par les candidats, ce qui n’est pas la même chose. Le
-            re-sourcement vers les programmes et les sites de campagne, quand ils paraissent, est
-            la première des corrections à venir.
+            ont choisi de couvrir. Un thème peu traité par eux paraîtra déserté par les candidats,
+            ce qui n’est pas la même chose.
+          </p>
+          <p>
+            {sourcesDesPropositions.sourceUnique} propositions sur {statistiques.propositions} ne
+            reposent encore que sur une seule rédaction. Elles sont reconnaissables : leur fiche
+            ne porte qu’un seul lien de source. Les corroborer, puis les re-sourcer aux programmes
+            quand ils paraîtront, est la première des corrections à venir.
           </p>
         </div>
         <p className="text-sm leading-relaxed text-stone-700 dark:text-stone-300">

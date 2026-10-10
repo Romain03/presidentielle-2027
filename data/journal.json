@@ -1,6 +1,14 @@
 [
   {
     "date": "2026-10-10",
+    "resume": "Journal des donnees, limites assumees, pile serif allongee",
+    "fichiers": [
+      "journal.json"
+    ],
+    "commit": "e7470afdf7"
+  },
+  {
+    "date": "2026-10-10",
     "resume": "Parcours : dates exactes pour les mandats courts, ordre reel",
     "fichiers": [
       "candidats.json"

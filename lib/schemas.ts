@@ -363,8 +363,17 @@ export const Proposition = z
     /** null quand la mesure est bien formulée pour 2027. */
     programme_anterieur: ProgrammeAnterieur.nullable().default(null),
     indicateurs: z.array(Indicateur).default([]),
-    /** Obligatoire : une proposition sans source ne passe pas le build. */
-    source: Source,
+    /**
+     * Au moins une source, la première étant la principale - celle qui établit
+     * l'essentiel de la mesure. Les suivantes corroborent, ou portent un détail
+     * que la principale ne donne pas.
+     *
+     * Le pluriel n'est pas cosmétique : tant que le site ne citait qu'une
+     * source par mesure, remplacer un article par un autre obligeait à
+     * abandonner ce que seul le premier rapportait. On ajoutait donc rarement,
+     * et une rédaction a fini par porter la moitié du contenu du site.
+     */
+    sources: z.array(Source).min(1),
     derniere_verification: DateISO,
   })
   .strict();

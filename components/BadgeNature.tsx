@@ -38,8 +38,10 @@ const STYLES: Record<Niveau, { glyphe: string; libelle: string; classes: string 
 
 export function niveauDeLaSource(proposition: Proposition): Niveau {
   if (proposition.nature !== 'programme_officiel') return 'declaration';
-  return proposition.source.type === 'programme-officiel' ||
-    proposition.source.type === 'site-de-campagne'
+  // Il suffit qu'une seule des sources soit le document lui-même.
+  return proposition.sources.some(
+    (source) => source.type === 'programme-officiel' || source.type === 'site-de-campagne',
+  )
     ? 'programme'
     : 'programme-rapporte';
 }

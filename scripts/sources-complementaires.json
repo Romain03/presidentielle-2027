@@ -1,0 +1,164 @@
+{
+  "_lisez-moi": "Sources ajoutées ou promues en principale, après lecture de l'article et vérification qu'il porte bien le contenu de la proposition. « principale » place la source en tête ; sinon elle est ajoutée à la suite.",
+  "sources": {
+    "publicsenat-retraites-2026-09-30": {
+      "url": "https://www.publicsenat.fr/actualites/politique/reculer-ou-avancer-lage-legal-avec-ou-sans-capitalisation-ce-que-proposent-les-principaux-candidats-a-lelection-presidentielle-sur-les-retraites",
+      "titre": "Reculer ou avancer l’âge légal, avec ou sans capitalisation : ce que proposent les principaux candidats à l’élection présidentielle sur les retraites",
+      "type": "article-de-presse",
+      "date": "2026-09-30"
+    },
+    "publicsenat-philippe-retraites-2026-09-29": {
+      "url": "https://www.publicsenat.fr/actualites/politique/retraites-edouard-philippe-sort-du-bois-et-propose-un-age-de-depart-a-65-ans",
+      "titre": "Retraites : Édouard Philippe sort du bois et propose un âge de départ à 65 ans",
+      "type": "article-de-presse",
+      "date": "2026-09-29"
+    },
+    "lcp-philippe-retraites": {
+      "url": "https://lcp.fr/actualites/retraites-edouard-philippe-veut-porter-l-age-de-depart-a-65-ans-et-la-duree-de",
+      "titre": "Retraites : Édouard Philippe veut porter l’âge de départ à 65 ans et la durée de cotisation à 45 ans",
+      "type": "article-de-presse",
+      "date": "2026-09-29"
+    },
+    "franceinfo-philippe-retraites": {
+      "url": "https://www.franceinfo.fr/elections/presidentielle/age-de-depart-a-65-ans-45-annuites-de-cotisation-edouard-philippe-candidat-horizons-a-la-presidentielle-devoile-son-projet-de-reforme-des-retraites_8214737.html",
+      "titre": "Âge de départ à 65 ans, 45 annuités de cotisation : Édouard Philippe dévoile son projet de réforme des retraites",
+      "type": "article-de-presse",
+      "date": "2026-09-29"
+    },
+    "lcp-retraites-qui-propose-quoi": {
+      "url": "https://lcp.fr/actualites/presidentielle-2027-qui-propose-quoi-sur-les-retraites-437864",
+      "titre": "Présidentielle 2027 : qui propose quoi sur les retraites ?",
+      "type": "article-de-presse",
+      "date": "2026-06-19"
+    },
+    "publicsenat-ecole-2026-08-31": {
+      "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-que-proposent-les-candidats-pour-lecole",
+      "titre": "Présidentielle 2027 : que proposent les candidats pour l’école ?",
+      "type": "article-de-presse",
+      "date": "2026-08-31"
+    },
+    "franceinfo-philippe-ecole": {
+      "url": "https://www.franceinfo.fr/elections/presidentielle/presidentielle-2027-le-candidat-horizons-edouard-philippe-veut-augmenter-de-20-la-remuneration-moyenne-des-enseignants-sur-un-quinquennat_8159927.html",
+      "titre": "Édouard Philippe veut augmenter de 20 % la rémunération moyenne des enseignants sur un quinquennat",
+      "type": "article-de-presse",
+      "date": "2026-08-28"
+    },
+    "lcp-attal-ecole": {
+      "url": "https://lcp.fr/actualites/presidentielle-retour-du-certificat-d-etudes-revalorisation-des-salaires-ce-que-propose",
+      "titre": "Retour du certificat d’études, revalorisation des salaires : ce que propose Gabriel Attal pour l’école",
+      "type": "article-de-presse",
+      "date": "2026-08-28"
+    },
+    "publicsenat-retailleau-ecole": {
+      "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-bruno-retailleau-veut-refonder-lecole-autour-de-quatre-axes-principaux",
+      "titre": "Bruno Retailleau veut « refonder l’école » autour de quatre axes principaux",
+      "type": "article-de-presse",
+      "date": "2026-09-02"
+    },
+    "franceinfo-enseignants-revalorisation": {
+      "url": "https://www.franceinfo.fr/elections/presidentielle/les-professeurs-courtises-par-les-candidats-a-la-presidentielle-2027-quelles-revalorisations-proposent-ils-avec-quels-financements_8161409.html",
+      "titre": "Les professeurs courtisés par les candidats : quelles revalorisations proposent-ils, avec quels financements ?",
+      "type": "article-de-presse",
+      "date": "2026-08-31"
+    },
+    "franceinfo-bloc-central-immigration": {
+      "url": "https://www.franceinfo.fr/politique/ni-possible-ni-souhaitable-en-vue-de-la-presidentielle-2027-le-bloc-central-montre-ses-divisions-sur-le-theme-de-l-immigration_8029442.html",
+      "titre": "En vue de la présidentielle 2027, le bloc central montre ses divisions sur le thème de l’immigration",
+      "type": "article-de-presse",
+      "date": "2026-05-26"
+    }
+  },
+  "propositions": {
+    "philippe-retraites": {
+      "principale": "publicsenat-philippe-retraites-2026-09-29",
+      "ajouts": [
+        "franceinfo-philippe-retraites",
+        "lcp-philippe-retraites"
+      ]
+    },
+    "attal-retraites": {
+      "principale": "publicsenat-retraites-2026-09-30",
+      "ajouts": [
+        "lcp-retraites-qui-propose-quoi"
+      ]
+    },
+    "le-pen-retraites": {
+      "principale": "publicsenat-retraites-2026-09-30",
+      "ajouts": [
+        "lcp-retraites-qui-propose-quoi"
+      ]
+    },
+    "melenchon-retraites": {
+      "principale": "publicsenat-retraites-2026-09-30",
+      "ajouts": [
+        "lcp-retraites-qui-propose-quoi"
+      ]
+    },
+    "glucksmann-retraites": {
+      "principale": "publicsenat-retraites-2026-09-30",
+      "ajouts": [
+        "lcp-retraites-qui-propose-quoi"
+      ]
+    },
+    "faure-retraites": {
+      "principale": "publicsenat-retraites-2026-09-30",
+      "ajouts": [
+        "lcp-retraites-qui-propose-quoi"
+      ]
+    },
+    "hollande-retraites": {
+      "principale": "publicsenat-retraites-2026-09-30"
+    },
+    "retailleau-retraites": {
+      "ajouts": [
+        "publicsenat-retraites-2026-09-30"
+      ]
+    },
+    "philippe-education": {
+      "principale": "publicsenat-ecole-2026-08-31",
+      "ajouts": [
+        "franceinfo-philippe-ecole",
+        "franceinfo-enseignants-revalorisation"
+      ]
+    },
+    "attal-education": {
+      "principale": "publicsenat-ecole-2026-08-31",
+      "ajouts": [
+        "lcp-attal-ecole",
+        "franceinfo-enseignants-revalorisation"
+      ]
+    },
+    "retailleau-education": {
+      "principale": "publicsenat-ecole-2026-08-31",
+      "ajouts": [
+        "publicsenat-retailleau-ecole"
+      ]
+    },
+    "glucksmann-education": {
+      "principale": "publicsenat-ecole-2026-08-31",
+      "ajouts": [
+        "franceinfo-enseignants-revalorisation"
+      ]
+    },
+    "tondelier-education": {
+      "principale": "publicsenat-ecole-2026-08-31",
+      "ajouts": [
+        "franceinfo-enseignants-revalorisation"
+      ]
+    },
+    "melenchon-education": {
+      "principale": "publicsenat-ecole-2026-08-31"
+    },
+    "le-pen-education": {
+      "principale": "publicsenat-ecole-2026-08-31"
+    },
+    "faure-education": {
+      "principale": "publicsenat-ecole-2026-08-31"
+    },
+    "attal-immigration": {
+      "ajouts": [
+        "franceinfo-bloc-central-immigration"
+      ]
+    }
+  }
+}

@@ -25,7 +25,7 @@ const propositionValide = {
   citation: null,
   nature: 'programme_officiel' as const,
   indicateurs: [],
-  source: sourceValide,
+  sources: [sourceValide],
   derniere_verification: '2026-10-09',
 };
 
@@ -57,14 +57,23 @@ describe('Proposition', () => {
   });
 
   it('refuse une proposition sans source : c’est la garantie centrale du site', () => {
-    const { source, ...sansSource } = propositionValide;
+    const { sources, ...sansSource } = propositionValide;
     expect(Proposition.safeParse(sansSource).success).toBe(false);
+    expect(Proposition.safeParse({ ...propositionValide, sources: [] }).success).toBe(false);
+  });
+
+  it('accepte plusieurs sources, la première étant la principale', () => {
+    const resultat = Proposition.safeParse({
+      ...propositionValide,
+      sources: [sourceValide, { ...sourceValide, url: 'https://exemple.org/corroboration' }],
+    });
+    expect(resultat.success).toBe(true);
   });
 
   it('refuse une source sans date', () => {
     const { date, ...sourceSansDate } = sourceValide;
     expect(
-      Proposition.safeParse({ ...propositionValide, source: sourceSansDate }).success,
+      Proposition.safeParse({ ...propositionValide, sources: [sourceSansDate] }).success,
     ).toBe(false);
   });
 

@@ -43,14 +43,19 @@ describe('données publiées', () => {
 
   it('portent toutes une source avec une URL et une date', () => {
     for (const proposition of propositions) {
-      expect(proposition.source.url).toMatch(/^https?:\/\//);
-      expect(proposition.source.date).toMatch(/^\d{4}-\d{2}-\d{2}$/);
+      expect(proposition.sources.length).toBeGreaterThan(0);
+      for (const source of proposition.sources) {
+        expect(source.url).toMatch(/^https?:\/\//);
+        expect(source.date).toMatch(/^\d{4}-\d{2}-\d{2}$/);
+      }
     }
   });
 
   it('n’ont pas de source postérieure à sa date de vérification', () => {
     for (const proposition of propositions) {
-      expect(proposition.source.date <= proposition.derniere_verification).toBe(true);
+      for (const source of proposition.sources) {
+        expect(source.date <= proposition.derniere_verification).toBe(true);
+      }
     }
   });
 
