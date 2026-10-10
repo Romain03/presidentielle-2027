@@ -310,6 +310,30 @@ critère est factuel mais reste une décision du site.
 
 ## 5. Lacunes connues
 
+### Le calendrier du scrutin : dates trouvées, pas encore publiées sur le site
+Le site n'affiche aucune date d'élection, au motif qu'aucun décret de
+convocation des électeurs n'était paru. **C'était une lacune de recherche, pas
+de source** : les dates ont été officialisées en conseil des ministres le
+1er juillet 2026 et sont rapportées par plusieurs rédactions de service public.
+
+- **Premier tour : dimanche 18 avril 2027. Second tour : dimanche 2 mai 2027.**
+- Vote anticipé la veille dans plusieurs départements et collectivités
+  d'outre-mer, soit les samedis 17 avril et 1er mai 2027.
+- Fondement : article 7 de la Constitution, qui impose un scrutin de vingt à
+  trente-cinq jours avant l'expiration des pouvoirs du président en exercice,
+  entamés le 14 mai 2022.
+- L'autre option écartée plaçait les tours une semaine plus tôt, les 11 et
+  25 avril.
+
+Sources lues : LCP (30 juin 2026), Public Sénat (1er juillet 2026),
+la1ere.franceinfo.fr (vote anticipé outre-mer), Le Monde (1er juillet 2026,
+article en accès libre, cite la confirmation par la porte-parole du
+gouvernement).
+
+**À faire :** le décret de convocation reste à paraître ; il sera la source
+primaire et devra remplacer la presse. Les dates ne sont pas encore affichées
+sur le site, faute de structure de données pour le calendrier.
+
 ### Couverture thématique
 57 propositions pour 528 couples candidat × thème possibles, soit **11 %**.
 
