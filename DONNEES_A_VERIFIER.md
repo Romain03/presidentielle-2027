@@ -166,9 +166,14 @@ lisible :
 
 Le constat est donc l'inverse d'un biais de couverture : sur ce thème, CNews est
 la seule rédaction lisible à avoir couvert les candidats que les autres
-qualifient de secondaires. **Arbitrage à rendre** : conserver ces quatre
-propositions avec leur source affichée, ou les retirer et laisser quatre
-candidats déclarés sans position sur les retraites.
+qualifient de secondaires.
+
+**Arbitrage rendu le 10 octobre 2026 : les quatre propositions sont
+conservées**, avec leur source affichée comme toutes les autres. Les retirer
+aurait réduit la comparaison des retraites de 16 à 12 candidats, c'est-à-dire
+aux seuls noms que les grandes rédactions suivent - le site aurait alors importé
+leur hiérarchie des candidatures. Les chiffres sont vérifiables et la provenance
+est visible sur chaque fiche ; le lecteur juge.
 
 **À faire :** re-sourcer aux programmes dès leur parution. Ne jamais substituer
 une adresse à une autre sans avoir lu l'article.
