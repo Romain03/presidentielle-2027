@@ -15,7 +15,10 @@ jamais l'inverse.
 
 À chaque exécution, dans cet ordre :
 
-1. `npm ci` puis `npm run veille` - le rapport dit ce qui a bougé.
+0. `git pull --rebase origin main`. La veille de GitHub tourne de son côté et
+   pousse sa mémoire : partir d'une copie en retard ferait échouer le `git push`
+   de la fin.
+1. `npm ci` puis `npm run veille -- --ecrire` - le rapport dit ce qui a bougé.
 2. Pour chaque **changement d'état annoncé dans la presse**, appliquer le test de
    véracité du §3.
 3. Appliquer les modifications que le §2 autorise, et elles seules.
@@ -157,28 +160,34 @@ façon de vérifier que le protocole a été suivi.
 
 ---
 
-## 7. Quand cette session se déclenche, et ce qu'elle coûte
+## 7. Qui exécute ce protocole, et ce que ça coûte
 
-Elle est une étape de `.github/workflows/veille.yml`, et elle **ne s'exécute que
-si la veille a compté au moins un changement d'état annoncé dans la presse**.
+Deux dispositifs, aux rôles différents.
 
-C'est délibéré, et c'est une question d'argent : la veille elle-même est un
-script Node qui n'appelle aucun modèle et ne coûte rien. La vérification, elle,
-est facturée à l'usage sur le compte API. La faire tourner deux fois par jour
-pour conclure « rien à signaler » aurait été payer pour du silence. Les jours
-sans annonce, rien n'est appelé.
+**La veille**, dans `.github/workflows/veille.yml`, tourne chez GitHub deux fois
+par jour, à 6 h et 18 h UTC. C'est un script Node : il n'appelle aucun modèle,
+il ne coûte rien, et il tourne même machine éteinte. Il **signale** - il n'écrit
+jamais dans `data/`.
 
-Le compteur vient de `scripts/veille.ts`, qui écrit `evenements=N` sur sa sortie
-d'erreur.
+**Ce protocole**, exécuté par une tâche planifiée de l'application Claude
+(`presidentielle-veille`, deux fois par jour en heure locale). Elle tourne sur
+l'abonnement : **aucune facturation à l'usage, aucune clé API**. En contrepartie
+elle ne s'exécute **que si l'application est ouverte** ; si elle était fermée à
+l'heure prévue, la tâche part au lancement suivant.
+
+Cette asymétrie est voulue. Le signal doit être fiable même machine éteinte, et
+c'est le rôle de la veille sur GitHub. La correction, elle, demande de lire des
+articles et de juger : elle peut attendre que l'application soit ouverte.
+
+Le compteur `evenements=N` qu'écrit `scripts/veille.ts` sur sa sortie d'erreur
+dit s'il y a quelque chose à vérifier. S'il vaut zéro, le cycle s'arrête après
+l'étape 1 : inutile de lire quoi que ce soit.
 
 ## 8. Arrêter l'automatisation
 
-Trois niveaux, du plus fin au plus radical :
-
-1. **supprimer le secret `ANTHROPIC_API_KEY`** : la vérification est sautée, la
-   veille continue de signaler ;
-2. **supprimer l'étape « Vérifier et corriger »** de `veille.yml` ;
-3. **désactiver le workflow** dans l'onglet *Actions* du dépôt.
+- **La correction** : supprimer la tâche `presidentielle-veille` dans la liste
+  des tâches planifiées de l'application. La veille continue de signaler.
+- **Le signalement** : désactiver le workflow dans l'onglet *Actions* du dépôt.
 
 Les modifications de données arrivent toutes par un commit préfixé `[auto]` sur
 `main` : `git log --grep '\[auto\]'` les isole, `git revert` les annule.

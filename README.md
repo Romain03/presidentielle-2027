@@ -327,16 +327,20 @@ même raison, le déploiement ignore les commits marqués `[veille]`.
 
 ## Mise à jour autonome
 
-La veille signale ; elle n'écrit pas. Une étape supplémentaire de
-`veille.yml` lance Claude Code dans le dépôt pour **appliquer les corrections
-établies** : vérifier une annonce auprès de deux rédactions, puis mettre à jour
-un statut de candidature, un processus de désignation ou une proposition.
+La veille signale ; elle n'écrit pas. La correction est faite par une **tâche
+planifiée de l'application Claude**, deux fois par jour, qui **applique les
+corrections établies** : vérifier une annonce auprès de deux rédactions, puis
+mettre à jour un statut de candidature, un processus de désignation ou une
+proposition.
 
-Elle ne se déclenche **que si la veille a compté au moins un changement d'état
-annoncé dans la presse**. La veille est un script Node qui n'appelle aucun
-modèle et ne coûte rien ; la vérification est facturée à l'usage. La faire
-tourner deux fois par jour pour conclure « rien à signaler » aurait été payer
-pour du silence.
+Elle tourne **sur l'abonnement, sans clé API ni facturation à l'usage**. En
+contrepartie elle ne s'exécute que si l'application est ouverte ; si elle était
+fermée à l'heure prévue, la tâche part au lancement suivant.
+
+Cette asymétrie est voulue : le **signal** doit être fiable même machine éteinte,
+et c'est le rôle du workflow GitHub, qui ne coûte rien. La **correction**, elle,
+demande de lire des articles et de juger - elle peut attendre que l'application
+soit ouverte.
 
 Les règles qu'il suit sont dans [`PROTOCOLE_AUTONOME.md`](PROTOCOLE_AUTONOME.md)
 et n'ont rien d'implicite : ce qu'il peut modifier seul, ce qu'il ne doit jamais
@@ -352,21 +356,20 @@ Trois garde-fous valent d'être connus :
 - **rien n'est poussé si un test échoue**, et chaque exécution rend compte de ce
   qu'elle a **écarté** autant que de ce qu'elle a appliqué.
 
-### L'activer
+### Pourquoi pas GitHub Actions pour la correction
 
-Un seul secret à créer, dans *Settings → Secrets and variables → Actions* :
-`ANTHROPIC_API_KEY`. **Il facture à l'usage sur le compte API**, qui est distinct
-d'un abonnement Claude : l'action n'accepte pas d'authentification par
-abonnement. Sans ce secret, l'étape est simplement sautée et la veille continue
-de fonctionner seule.
+Parce que l'action officielle n'accepte **que** une clé API facturée à l'usage,
+ou Bedrock / Vertex / Foundry. Aucune authentification par abonnement Claude
+n'est prévue. Faire tourner la correction chez GitHub aurait donc signifié payer
+en plus de l'abonnement, pour un travail que l'abonnement couvre déjà.
 
 ### L'arrêter
 
-Trois niveaux : supprimer le secret (la veille continue de signaler), supprimer
-l'étape « Vérifier et corriger » de `veille.yml`, ou désactiver le workflow dans
-l'onglet *Actions*. Les modifications autonomes arrivent par des commits
-préfixés `[auto]` : `git log --grep '\[auto\]'` les isole et `git revert` les
-annule.
+Supprimer la tâche `presidentielle-veille` dans les tâches planifiées de
+l'application arrête la correction ; la veille continue de signaler. Désactiver
+le workflow dans l'onglet *Actions* arrête le signalement. Les modifications
+autonomes arrivent par des commits préfixés `[auto]` : `git log --grep
+'\[auto\]'` les isole et `git revert` les annule.
 
 ---
 
