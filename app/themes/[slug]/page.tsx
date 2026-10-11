@@ -5,6 +5,7 @@ import DerniereMiseAJour from '@/components/DerniereMiseAJour';
 import PositionsDuTheme, { type LigneTheme } from '@/components/PositionsDuTheme';
 import { candidats, derniereMiseAJour, getTheme, propositionsDuCandidat, themes } from '@/lib/data';
 import { pluriel } from '@/lib/format';
+import { enLice } from '@/lib/schemas';
 import { resumeDuCandidat } from '@/lib/vues';
 
 export function generateStaticParams() {
@@ -39,7 +40,19 @@ export default async function PageTheme({ params }: { params: Promise<{ slug: st
     candidat: resumeDuCandidat(candidat.id)!,
     propositions: propositionsDuCandidat(candidat.id, theme.id),
   }));
+  /*
+    Deux comptes, et non un seul. Le tableau masque par défaut les pressentis et
+    les retraits : annoncer « 1 position relevée » puis afficher un tableau vide
+    sous « 0 sur 27 » était contradictoire pour le lecteur, alors que les deux
+    chiffres étaient justes - ils ne portaient simplement pas sur le même
+    ensemble. C'est le cas de la santé et du logement, dont les seules positions
+    relevées appartiennent à des battus de la primaire socialiste.
+  */
+  const relevesEnLice = lignes
+    .filter((ligne) => enLice(ligne.candidat.statut))
+    .reduce((total, ligne) => total + ligne.propositions.length, 0);
   const releves = lignes.reduce((total, ligne) => total + ligne.propositions.length, 0);
+  const relevesHorsLice = releves - relevesEnLice;
 
   return (
     <article className="space-y-6">
@@ -57,9 +70,19 @@ export default async function PageTheme({ params }: { params: Promise<{ slug: st
         {releves < SEUIL_COLLECTE && (
           <p className="max-w-2xl rounded-xl border border-amber-700/20 bg-amber-50/70 p-4 text-sm leading-relaxed text-stone-700 dark:border-amber-500/20 dark:bg-amber-950/20 dark:text-stone-300">
             <strong className="font-semibold">Collecte en cours sur ce thème.</strong>{' '}
-            {releves === 0
-              ? 'Aucune position n’y a encore été relevée.'
-              : `${releves} ${pluriel(releves, 'position y a été relevée', 'positions y ont été relevées')}.`}{' '}
+            {relevesEnLice === 0
+              ? 'Aucune position n’y a été relevée chez les candidatures encore en course.'
+              : `${relevesEnLice} ${pluriel(relevesEnLice, 'position y a été relevée', 'positions y ont été relevées')} chez les candidatures encore en course.`}{' '}
+            {relevesHorsLice > 0 && (
+              <>
+                {relevesHorsLice}{' '}
+                {pluriel(
+                  relevesHorsLice,
+                  'autre appartient à une candidature retirée ou pressentie, et n’apparaît qu’en décochant le filtre du tableau.',
+                  'autres appartiennent à des candidatures retirées ou pressenties, et n’apparaissent qu’en décochant le filtre du tableau.',
+                )}{' '}
+              </>
+            )}
             Les propositions du site proviennent d’articles de presse, et ce sujet y est peu
             traité : l’absence mesure la couverture de ces articles, pas le silence des candidats.
           </p>

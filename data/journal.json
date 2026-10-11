@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-10-11",
-    "resume": "Mise en forme des données, sans changement de contenu",
+    "resume": "16 documents de programme au départ",
     "fichiers": [
       "documents.json"
     ],
@@ -9,7 +9,7 @@
   },
   {
     "date": "2026-10-11",
-    "resume": "5 propositions modifiées",
+    "resume": "5 propositions modifiées — 5 positions gagnent une source",
     "fichiers": [
       "propositions.json"
     ],
@@ -17,7 +17,7 @@
   },
   {
     "date": "2026-10-11",
-    "resume": "15 candidatures modifiées",
+    "resume": "15 candidatures modifiées — 15 fiches reçoivent un lien officiel",
     "fichiers": [
       "candidats.json"
     ],
@@ -25,7 +25,7 @@
   },
   {
     "date": "2026-10-11",
-    "resume": "5 candidatures modifiées · 3 partis modifiés",
+    "resume": "5 candidatures modifiées · 3 partis modifiés — Olivier Faure passe de « Candidature déclarée » à « Ne concourt plus » ; Raphaël Glucksmann passe de « Candidature déclarée » à « Candidature investie » ; Jérôme Guedj passe de « Candidature déclarée » à « Ne concourt plus » ; Emmanuel Maurel passe de « Candidature déclarée » à « Ne concourt plus » ; et 1 autre",
     "fichiers": [
       "candidats.json",
       "partis.json"
@@ -34,7 +34,7 @@
   },
   {
     "date": "2026-10-11",
-    "resume": "1 candidature modifiée · 11 propositions ajoutées · 9 propositions modifiées",
+    "resume": "1 candidature modifiée · 11 propositions ajoutées · 9 propositions modifiées — 9 positions gagnent une source",
     "fichiers": [
       "candidats.json",
       "propositions.json"
@@ -53,7 +53,7 @@
   },
   {
     "date": "2026-10-11",
-    "resume": "2 propositions modifiées",
+    "resume": "2 propositions modifiées — 1 position gagne une source",
     "fichiers": [
       "propositions.json"
     ],
@@ -61,7 +61,7 @@
   },
   {
     "date": "2026-10-11",
-    "resume": "1 candidature modifiée",
+    "resume": "1 candidature modifiée — 1 fiche reçoit un lien officiel",
     "fichiers": [
       "candidats.json"
     ],
@@ -69,7 +69,7 @@
   },
   {
     "date": "2026-10-10",
-    "resume": "20 propositions modifiées",
+    "resume": "20 propositions modifiées — 20 positions gagnent une source",
     "fichiers": [
       "propositions.json"
     ],
@@ -85,7 +85,7 @@
   },
   {
     "date": "2026-10-10",
-    "resume": "2 propositions modifiées",
+    "resume": "2 propositions modifiées — 2 positions gagnent une source",
     "fichiers": [
       "propositions.json"
     ],
@@ -93,7 +93,7 @@
   },
   {
     "date": "2026-10-10",
-    "resume": "27 propositions modifiées",
+    "resume": "27 propositions modifiées — 2 positions gagnent une source",
     "fichiers": [
       "propositions.json"
     ],
@@ -101,7 +101,7 @@
   },
   {
     "date": "2026-10-10",
-    "resume": "57 propositions modifiées",
+    "resume": "57 propositions modifiées — 57 positions gagnent une source",
     "fichiers": [
       "propositions.json"
     ],

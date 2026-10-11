@@ -198,6 +198,21 @@ export function getTheme(id: string): Theme | undefined {
   return themes.find((t) => t.id === id);
 }
 
+/**
+ * Le candidat porteur de cette proposition concourt-il encore ?
+ *
+ * La question n'est pas rhétorique : les cinq candidats de la primaire du pôle
+ * socialiste avaient tous des positions relevées, et quatre d'entre eux ne
+ * concourent plus. Leurs propositions restent publiées - les effacer serait
+ * réécrire l'histoire de la campagne - mais les compter avec les autres fait
+ * annoncer « 68 propositions » à côté de « 27 candidatures engagées » quand
+ * celles-ci n'en portent que 47.
+ */
+export function porteeParUnCandidatEnLice(proposition: Proposition): boolean {
+  const candidat = candidats.find((c) => c.id === proposition.candidat_id);
+  return candidat !== undefined && enLice(candidat.statut);
+}
+
 /** Propositions d'un candidat, éventuellement restreintes à un thème. */
 export function propositionsDuCandidat(candidatId: string, themeId?: string): Proposition[] {
   return propositions.filter(
@@ -299,6 +314,10 @@ export const statistiques = {
   partis: partis.length,
   themes: themes.length,
   propositions: propositions.length,
+  /** Propositions portées par une candidature encore en course. */
+  propositionsEnLice: propositions.filter(porteeParUnCandidatEnLice).length,
+  /** Propositions d'anciens candidats et de pressentis, conservées et signalées. */
+  propositionsHorsLice: propositions.filter((p) => !porteeParUnCandidatEnLice(p)).length,
   candidatsAvecProposition: candidats.filter((c) => nombrePropositions(c.id) > 0).length,
   propositionsDeProgramme: propositions.filter((p) => p.nature === 'programme_officiel').length,
   partisSansNuance: partis.filter((p) => p.nuance_ministerielle === null).length,

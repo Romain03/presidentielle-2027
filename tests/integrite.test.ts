@@ -9,9 +9,11 @@ import {
   partis,
   propositions,
   propositionsDuTheme,
+  porteeParUnCandidatEnLice,
+  statistiques,
   themes,
 } from '@/lib/data';
-import { accesLibre, hoteDe } from '@/lib/schemas';
+import { accesLibre, enLice, hoteDe } from '@/lib/schemas';
 
 /**
  * Ces tests portent sur les données réelles de /data. Le simple fait
@@ -162,6 +164,53 @@ describe('parcours des candidats', () => {
       if (naissance === null || candidat.parcours.length === 0) continue;
       const premier = Math.min(...candidat.parcours.map((j) => j.debut));
       expect(premier).toBeGreaterThan(naissance.annee);
+    }
+  });
+});
+
+/**
+ * Les battus d'une primaire gardent leurs propositions publiées, et c'est
+ * voulu : effacer ce qu'un candidat a défendu pendant sa campagne reviendrait à
+ * la réécrire. Mais les compter avec les autres faisait annoncer « 68
+ * propositions » à côté de « 27 candidatures engagées », et la page Santé
+ * affichait « 1 position relevée » au-dessus d'un tableau vide - sa seule
+ * position appartenant à un battu, masqué par le filtre par défaut.
+ */
+describe('comptes selon le statut du candidat', () => {
+  it('séparent les propositions en lice de celles qui ne le sont plus', () => {
+    expect(statistiques.propositionsEnLice + statistiques.propositionsHorsLice).toBe(
+      statistiques.propositions,
+    );
+    expect(statistiques.propositionsHorsLice).toBeGreaterThan(0);
+  });
+
+  it('ne comptent en lice que des propositions de candidats investis ou déclarés', () => {
+    for (const proposition of propositions.filter(porteeParUnCandidatEnLice)) {
+      const candidat = getCandidat(proposition.candidat_id)!;
+      expect(enLice(candidat.statut), proposition.id).toBe(true);
+    }
+    for (const proposition of propositions.filter((p) => !porteeParUnCandidatEnLice(p))) {
+      const candidat = getCandidat(proposition.candidat_id)!;
+      expect(enLice(candidat.statut), proposition.id).toBe(false);
+    }
+  });
+
+  // Ce test ne force pas la couverture : il vérifie qu'un thème dont toutes les
+  // positions sont masquées par défaut reste détectable, pour que la page le
+  // dise au lecteur plutôt que de lui montrer un tableau vide.
+  it('repèrent les thèmes dont aucune position n’est portée par une candidature en lice', () => {
+    const muetsEnLice = themes.filter(
+      (theme) =>
+        propositionsDuTheme(theme.id).length > 0 &&
+        propositionsDuTheme(theme.id).filter(porteeParUnCandidatEnLice).length === 0,
+    );
+    // La liste peut être vide un jour - c'est le but. Ce qui est interdit, c'est
+    // qu'un tel thème existe sans que le compte en lice le révèle.
+    for (const theme of muetsEnLice) {
+      const total = propositionsDuTheme(theme.id).length;
+      const enCourse = propositionsDuTheme(theme.id).filter(porteeParUnCandidatEnLice).length;
+      expect(total, theme.id).toBeGreaterThan(0);
+      expect(enCourse, theme.id).toBe(0);
     }
   });
 });

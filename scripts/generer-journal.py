@@ -33,7 +33,13 @@ ENTITES = {
     'themes.json': ('thème', 'thèmes'),
     'questions.json': ('question', 'questions'),
     'calendrier.json': ('étape du calendrier', 'étapes du calendrier'),
+    'documents.json': ('document de programme', 'documents de programme'),
 }
+
+# Accord du participe, par fichier. Le déduire du mot était source d'erreurs :
+# « document » est masculin, « étape » féminin, et la liste ci-dessus mélange
+# les deux.
+FEMININS = {'proposition', 'candidature', 'question', 'étape du calendrier'}
 
 # Dérivé des autres : le mentionner reviendrait à journaliser le journal.
 IGNORES = {'journal.json'}
@@ -61,8 +67,100 @@ def charger(empreinte, chemin):
         return None
     if not isinstance(donnees, list):
         return None
-    return {e['id']: json.dumps(e, sort_keys=True, ensure_ascii=False)
-            for e in donnees if isinstance(e, dict) and 'id' in e}
+    return {e['id']: e for e in donnees if isinstance(e, dict) and 'id' in e}
+
+
+def empreinte_entite(entite):
+    return json.dumps(entite, sort_keys=True, ensure_ascii=False)
+
+
+def libelles_statut():
+    """Les libellés de statut, lus dans lib/schemas.ts.
+
+    Les recopier ici les aurait figés : « Investi par son parti » a été corrigé
+    en « Candidature investie » parce qu'il était faux pour Raphaël Glucksmann,
+    désigné par une primaire de trois partis. Le journal doit suivre.
+    """
+    source = io.open('lib/schemas.ts', encoding='utf-8').read()
+    bloc = re.search(r'LIBELLES_STATUT[^{]*\{(.*?)\n\};', source, re.S)
+    if not bloc:
+        return {}
+    return dict(re.findall(r"(\w+):\s*'([^']+)'", bloc.group(1)))
+
+
+STATUTS = libelles_statut()
+
+
+def nom(entite):
+    """Nom lisible d'une entité, quel que soit le fichier."""
+    if 'prenom' in entite and 'nom' in entite:
+        return f"{entite['prenom']} {entite['nom']}"
+    return entite.get('nom') or entite.get('titre') or entite.get('libelle') or entite['id']
+
+
+def faits_saillants(avant, apres, fichier, candidats):
+    """Les changements qui méritent une phrase, et non un décompte.
+
+    « 15 candidatures modifiées » n'apprend rien, et l'investiture de Raphaël
+    Glucksmann disparaissait dans ce total alors que c'est l'événement le plus
+    important de la semaine. Un changement de statut est donc nommé, toujours ;
+    les ajouts le sont quand ils sont assez peu nombreux pour tenir en une
+    ligne.
+    """
+    if avant is None:
+        return []
+    faits = []
+
+    if fichier == 'candidats.json':
+        for id_, apr in apres.items():
+            av = avant.get(id_)
+            if av is None:
+                faits.append(f'entrée de {nom(apr)}')
+            elif av.get('statut') != apr.get('statut'):
+                depuis = STATUTS.get(av.get('statut', ''), av.get('statut', ''))
+                vers = STATUTS.get(apr.get('statut', ''), apr.get('statut', ''))
+                faits.append(f'{nom(apr)} passe de « {depuis} » à « {vers} »')
+
+        # « 15 candidatures modifiées » désignait en réalité quinze fiches qui
+        # venaient de recevoir leur site officiel. L'ampleur sans la teneur
+        # n'apprend rien ; l'agrégat la donne sans allonger la ligne.
+        liens = sum(
+            1
+            for id_, apr in apres.items()
+            if id_ in avant
+            and len(apr.get('liens_officiels', [])) > len(avant[id_].get('liens_officiels', []))
+        )
+        if liens > 0:
+            faits.append(
+                f"{liens} {'fiche reçoit' if liens == 1 else 'fiches reçoivent'} un lien officiel"
+            )
+
+    elif fichier in ('propositions.json', 'documents.json'):
+        ajoutes = [a for i, a in apres.items() if i not in avant]
+        # Au-delà de quatre, nommer chacun donnerait une phrase illisible : le
+        # décompte reste, et c'est lui qui est juste.
+        if fichier == 'propositions.json':
+            sourcees = sum(
+                1
+                for id_, apr in apres.items()
+                if id_ in avant
+                and len(apr.get('sources', [])) > len(avant[id_].get('sources', []))
+            )
+            if sourcees > 0:
+                faits.append(
+                    f"{sourcees} {'position gagne' if sourcees == 1 else 'positions gagnent'}"
+                    ' une source'
+                )
+        if 1 <= len(ajoutes) <= 4:
+            for entite in ajoutes:
+                qui = candidats.get(entite.get('candidat_id'), {})
+                libelle = nom(qui) if qui else entite.get('candidat_id', '')
+                if fichier == 'propositions.json':
+                    faits.append(f"position de {libelle} sur « {entite.get('theme_id', '')} »")
+                else:
+                    faits.append(f"{entite.get('titre', '')} ({libelle})")
+
+    return faits
 
 
 def accorder(nombre, singulier, pluriel, participe):
@@ -77,20 +175,16 @@ def decrire(avant, apres, singulier, pluriel):
         return [f'{len(apres)} {pluriel if len(apres) > 1 else singulier} au départ']
     ajoutes = [i for i in apres if i not in avant]
     retires = [i for i in avant if i not in apres]
-    modifies = [i for i in apres if i in avant and avant[i] != apres[i]]
+    modifies = [i for i in apres
+                if i in avant and empreinte_entite(avant[i]) != empreinte_entite(apres[i])]
     morceaux = []
+    e = 'e' if singulier in FEMININS else ''
     if ajoutes:
-        morceaux.append(accorder(len(ajoutes), singulier, pluriel, 'ajoutée'
-                                 if singulier in ('proposition', 'candidature', 'question')
-                                 else 'ajouté'))
+        morceaux.append(accorder(len(ajoutes), singulier, pluriel, 'ajouté' + e))
     if modifies:
-        morceaux.append(accorder(len(modifies), singulier, pluriel, 'modifiée'
-                                 if singulier in ('proposition', 'candidature', 'question')
-                                 else 'modifié'))
+        morceaux.append(accorder(len(modifies), singulier, pluriel, 'modifié' + e))
     if retires:
-        morceaux.append(accorder(len(retires), singulier, pluriel, 'retirée'
-                                 if singulier in ('proposition', 'candidature', 'question')
-                                 else 'retiré'))
+        morceaux.append(accorder(len(retires), singulier, pluriel, 'retiré' + e))
     return morceaux
 
 
@@ -108,7 +202,12 @@ def main():
         if not fichiers:
             continue
 
+        # Les candidatures du commit servent à nommer qui porte une position
+        # ou un document ajouté.
+        candidats = charger(empreinte, 'data/candidats.json') or {}
+
         morceaux = []
+        faits = []
         for fichier in fichiers:
             if fichier not in ENTITES:
                 continue
@@ -119,13 +218,23 @@ def main():
                 morceaux.append(f'{pluriel} retirés du dépôt')
                 continue
             morceaux.extend(decrire(avant, apres, singulier, pluriel))
+            faits.extend(faits_saillants(avant, apres, fichier, candidats))
 
         # Un commit peut toucher un fichier de données sans en changer le
         # contenu : reformatage, tri. Le dire plutôt que de l'inventer.
         resume = ' · '.join(morceaux) if morceaux else 'Mise en forme des données, sans changement de contenu'
+        resume = resume[0].upper() + resume[1:]
+        # Le décompte dit l'ampleur, les faits disent la teneur. Les deux, dans
+        # cet ordre : « 15 candidatures modifiées » reste vrai, mais ce que le
+        # lecteur retient est l'investiture qu'il contenait.
+        if faits:
+            resume += ' — ' + ' ; '.join(faits[:4])
+            if len(faits) > 4:
+                reste = len(faits) - 4
+                resume += f" ; et {reste} {'autre' if reste == 1 else 'autres'}"
         entrees.append({
             'date': date,
-            'resume': resume[0].upper() + resume[1:],
+            'resume': resume,
             'fichiers': fichiers,
             'commit': empreinte[:10],
         })

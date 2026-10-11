@@ -32,6 +32,16 @@ export default function PositionsDuTheme({ lignes }: { lignes: LigneTheme[] }) {
   const affichees = retenues.filter((l) => !masquerVides || l.propositions.length > 0);
   const renseignees = retenues.filter((l) => l.propositions.length > 0).length;
   const horsLice = lignes.length - engagees.length;
+  /*
+   * Positions qu'un filtre actif dérobe au lecteur. Sans ce compte, le tableau
+   * de la santé se vidait entièrement sans rien expliquer : sa seule position
+   * appartient à un battu de la primaire socialiste, masqué par défaut.
+   */
+  const masqueesHorsLice = masquerNonEngages
+    ? lignes
+        .filter((l) => !enLice(l.candidat.statut))
+        .reduce((total, l) => total + l.propositions.length, 0)
+    : 0;
 
   return (
     <div className="space-y-4">
@@ -61,6 +71,7 @@ export default function PositionsDuTheme({ lignes }: { lignes: LigneTheme[] }) {
         <p aria-live="polite" className="text-stone-600 dark:text-stone-400">
           {renseignees} sur {retenues.length}{' '}
           {pluriel(retenues.length, 'candidat a une position relevée', 'candidats ont une position relevée')}
+          {masquerNonEngages && horsLice > 0 ? ' parmi les candidatures engagées' : ''}
         </p>
       </div>
 
@@ -88,6 +99,16 @@ export default function PositionsDuTheme({ lignes }: { lignes: LigneTheme[] }) {
             </tr>
           </thead>
           <tbody className="block sm:table-row-group">
+            {affichees.length === 0 && (
+              <tr className="block sm:table-row">
+                <td colSpan={3} className="block p-4 text-stone-700 sm:table-cell dark:text-stone-300">
+                  Aucune ligne ne correspond aux filtres cochés.{' '}
+                  {masqueesHorsLice > 0
+                    ? `${masqueesHorsLice} ${pluriel(masqueesHorsLice, 'position relevée est portée', 'positions relevées sont portées')} par une candidature retirée ou pressentie : décochez « Masquer les pressentis et les retraits » pour ${pluriel(masqueesHorsLice, 'la', 'les')} lire.`
+                    : 'Aucune position n’a été relevée sur ce thème, quel que soit le filtre.'}
+                </td>
+              </tr>
+            )}
             {affichees.map(({ candidat, propositions }) => (
               <tr
                 key={candidat.id}

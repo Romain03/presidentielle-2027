@@ -635,8 +635,13 @@ export default function PageMethodologie() {
         </h2>
         <ul className="list-disc space-y-1.5 pl-5 text-sm leading-relaxed text-stone-700 dark:text-stone-300">
           <li>
-            Le site compte {statistiques.propositions} propositions pour{' '}
-            {statistiques.enLice} candidatures engagées : la couverture est très inégale d’un
+            Le site compte {statistiques.propositions} propositions, dont{' '}
+            {statistiques.propositionsEnLice} portées par l’une des {statistiques.enLice}{' '}
+            candidatures engagées. Les {statistiques.propositionsHorsLice} autres appartiennent à
+            des candidats retirés - les quatre battus de la primaire du pôle socialiste, pour
+            l’essentiel - ou pressentis : elles restent publiées, parce qu’effacer ce qu’un
+            candidat a défendu pendant sa campagne reviendrait à la réécrire, mais elles sont
+            comptées à part partout où un total est affiché. La couverture reste très inégale d’un
             candidat et d’un thème à l’autre, parce que la plupart des programmes ne sont pas
             publiés et parce que les articles dépouillés n’ont pas traité tous les sujets.
           </li>

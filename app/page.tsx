@@ -76,11 +76,13 @@ export default function Accueil() {
           <p>
             <strong className="font-semibold">Ce site est une collecte en cours, pas un
             panorama.</strong>{' '}
-            {statistiques.propositions} propositions ont été relevées, dans{' '}
-            {sourcesDesPropositions.articles} articles de {sourcesDesPropositions.medias.length}{' '}
-            sources - dont {partDuPrincipal} % des citations dans une seule. {couverts} des{' '}
-            {statistiques.enLice}{' '}
-            candidatures engagées ont au moins une position relevée.
+            {statistiques.propositionsEnLice} propositions de candidats en lice ont été
+            relevées, et {statistiques.propositionsHorsLice} d’anciens candidats ou de pressentis -
+            conservées parce qu’une campagne ne s’efface pas, signalées parce qu’elles n’engagent
+            plus personne. Le tout dans {sourcesDesPropositions.articles} articles de{' '}
+            {sourcesDesPropositions.medias.length} sources, dont {partDuPrincipal} % des citations
+            dans une seule. {couverts} des {statistiques.enLice} candidatures engagées ont au moins
+            une position relevée.
           </p>
           <p>
             Ce qui manque est affiché comme manquant, jamais comblé. Les parrainages ne sont pas
