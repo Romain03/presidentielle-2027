@@ -1,6 +1,8 @@
 import {
   Calendrier,
   Candidats,
+  DocumentsProgramme,
+  NATURES_DOCUMENT,
   Partis,
   Propositions,
   Journal,
@@ -8,6 +10,7 @@ import {
   Themes,
   enLice,
   type Candidat,
+  type DocumentProgramme,
   type EtapeCalendrier,
   type EntreeJournal,
   type Parti,
@@ -17,6 +20,7 @@ import {
 } from './schemas';
 import calendrierJson from '../data/calendrier.json';
 import candidatsJson from '../data/candidats.json';
+import documentsJson from '../data/documents.json';
 import journalJson from '../data/journal.json';
 import partisJson from '../data/partis.json';
 import propositionsJson from '../data/propositions.json';
@@ -71,6 +75,31 @@ export const propositions: Proposition[] = valider(
   propositionsJson,
   'propositions.json',
 );
+
+/**
+ * Documents de programme publiés en PDF sur les sites officiels, par ordre
+ * alphabétique de candidat puis du plus récent au plus ancien. Un document sans
+ * date établie passe en dernier : il n'y a pas de rang à lui inventer.
+ */
+export const documents: DocumentProgramme[] = valider(
+  DocumentsProgramme,
+  documentsJson,
+  'documents.json',
+).sort((a, b) => {
+  const rangA = candidats.findIndex((c) => c.id === a.candidat_id);
+  const rangB = candidats.findIndex((c) => c.id === b.candidat_id);
+  if (rangA !== rangB) return rangA - rangB;
+  if (a.date_document === null) return b.date_document === null ? 0 : 1;
+  if (b.date_document === null) return -1;
+  const parDate = b.date_document.localeCompare(a.date_document);
+  if (parDate !== 0) return parDate;
+  // À date égale - une lettre et sa synthèse paraissent le même jour - le
+  // document le plus englobant passe devant : lire la synthèse en premier
+  // laisserait croire qu'elle est le programme.
+  const parNature = NATURES_DOCUMENT.indexOf(a.nature) - NATURES_DOCUMENT.indexOf(b.nature);
+  return parNature || a.titre.localeCompare(b.titre, 'fr');
+});
+
 /** Journal des modifications des données, du plus récent au plus ancien. */
 export const journal: EntreeJournal[] = valider(Journal, journalJson, 'journal.json');
 
@@ -110,6 +139,26 @@ function verifierIntegrite(): void {
     if (!idsThemes.has(p.theme_id)) {
       erreurs.push(`propositions.json : « ${p.id} » référence un thème inconnu « ${p.theme_id} »`);
     }
+  }
+
+  doublons(documents.map((d) => d.id), 'documents.json');
+
+  const urlsDocuments = new Set<string>();
+  for (const d of documents) {
+    if (!idsCandidats.has(d.candidat_id)) {
+      erreurs.push(`documents.json : « ${d.id} » référence un candidat inconnu « ${d.candidat_id} »`);
+    }
+    for (const theme of d.themes) {
+      if (!idsThemes.has(theme)) {
+        erreurs.push(`documents.json : « ${d.id} » référence un thème inconnu « ${theme} »`);
+      }
+    }
+    // Deux entrées pointant le même fichier afficheraient deux fois le même
+    // document, et l'une des deux porterait forcément un titre inexact.
+    if (urlsDocuments.has(d.url)) {
+      erreurs.push(`documents.json : le fichier « ${d.url} » est référencé deux fois`);
+    }
+    urlsDocuments.add(d.url);
   }
 
   doublons(questions.map((q) => q.id), 'questions.json');
@@ -164,6 +213,20 @@ export function propositionsDuTheme(themeId: string): Proposition[] {
     .sort((a, b) => (rang.get(a.candidat_id) ?? 0) - (rang.get(b.candidat_id) ?? 0));
 }
 
+/** Documents de programme d'un candidat, du plus récent au plus ancien. */
+export function documentsDuCandidat(candidatId: string): DocumentProgramme[] {
+  return documents.filter((d) => d.candidat_id === candidatId);
+}
+
+/**
+ * Documents portant sur un thème. Les programmes généraux n'y figurent pas :
+ * ils traitent le thème parmi beaucoup d'autres, et les faire apparaître dans
+ * les douze thèmes reviendrait à les y noyer.
+ */
+export function documentsDuTheme(themeId: string): DocumentProgramme[] {
+  return documents.filter((d) => d.themes.includes(themeId));
+}
+
 export function candidatsDuParti(partiId: string): Candidat[] {
   return candidats.filter((c) => c.parti_id === partiId);
 }
@@ -188,6 +251,7 @@ export const derniereMiseAJour: string = [
   ...partis.map((p) => p.derniere_verification),
   ...candidats.map((c) => c.derniere_verification),
   ...propositions.map((p) => p.derniere_verification),
+  ...documents.map((d) => d.derniere_verification),
 ].sort().at(-1)!;
 
 /** Médias d'où proviennent les propositions, et leur poids. Calculé, jamais saisi. */
@@ -239,4 +303,7 @@ export const statistiques = {
   propositionsDeProgramme: propositions.filter((p) => p.nature === 'programme_officiel').length,
   partisSansNuance: partis.filter((p) => p.nuance_ministerielle === null).length,
   propositionsSansCitation: propositions.filter((p) => p.citation === null).length,
+  documents: documents.length,
+  candidatsAvecDocument: new Set(documents.map((d) => d.candidat_id)).size,
+  pagesDeDocuments: documents.reduce((somme, d) => somme + d.pages, 0),
 };

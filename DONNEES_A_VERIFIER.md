@@ -4,7 +4,8 @@ Tout ce qui est incertain, contradictoire ou non sourçable est consigné ici
 plutôt que publié sur le site. Rien de ce qui figure dans cette liste n'est
 affiché comme un fait dans `/data`.
 
-Dernière revue : **9 octobre 2026** - 33 partis, 44 candidats, 57 propositions.
+Dernière revue : **11 octobre 2026** - 33 partis, 44 candidats, 68 propositions,
+16 documents de programme.
 
 ---
 
@@ -485,6 +486,70 @@ critère est factuel mais reste une décision du site.
 ---
 
 ## 5. Lacunes connues
+
+### Programmes en PDF : documents écartés, et pourquoi (11 octobre 2026)
+Les sites officiels de tous les candidats et de tous les partis suivis ont été
+balayés à la recherche de documents de programme téléchargeables. Seize
+documents ont été retenus et publiés sur `/programmes` ; ceux ci-dessous ont été
+trouvés, ouverts, datés, puis **écartés**. Ils sont consignés parce qu'ils sont
+toujours en ligne et qu'un lecteur pourrait les prendre pour des programmes de
+2027.
+
+- **Rassemblement national, seize livrets « projet »**
+  (`rassemblementnational.fr/livrets-thematiques`), dont `projet-la-sante.pdf`,
+  `projet-lecologie.pdf`, `projet-l-ecole.pdf` et
+  `projet-controle-de-limmigration.pdf`. Aucune date affichée ; les métadonnées
+  des fichiers donnent des dates de fabrication du **17 janvier au 28 février
+  2022**. Ce sont les livrets de la campagne présidentielle précédente.
+- **Rassemblement national, `202406-programme.pdf`.** C'est le document que la
+  page d'accueil met en avant sous « Découvrez le programme ». Le site lui-même
+  l'intitule « Législatives 2024 ». Idem pour
+  `202411-programme-europeennes.pdf`, européennes de 2024.
+- **Rassemblement national, `GRN-CONTRE-BUDGET-2026.pdf`** (8 pages,
+  24 octobre 2025). Document récent, mais c'est le contre-budget du **groupe
+  parlementaire**, pas un programme de candidature. Non retenu comme document de
+  programme ; pourrait servir de source à une proposition fiscale, à condition
+  de l'attribuer au groupe et non à Marine Le Pen.
+- **Jean-Luc Mélenchon, `melenchon2027.fr/wp-content/uploads/2026/04/PROGRAMME-FRONT-POPULAIRE.pdf`**
+  (26 pages). Déposé sur le site de campagne en avril 2026, mais son texte est
+  le **contrat de législature du Nouveau Front populaire** : « Les 30 juin et
+  7 juillet, votez pour le Nouveau Front Populaire ». Scrutin de 2024.
+- **Parti animaliste** : `programme-national-2022.pdf` (présidentielle de 2022)
+  et `programme-europeennes-2024.pdf` (autre scrutin).
+- **Union populaire républicaine** : `upr.fr/notre-programme` ne propose que les
+  programmes de **2012, 2017 et 2022**. Rien pour 2027.
+- **Debout la France** : seul PDF trouvé, une charte d'usage des réseaux
+  sociaux de 2022. Pas un programme.
+- **Fabien Roussel** : la page `/materiel` contient neuf affiches, tracts et
+  autocollants. Ce n'est pas du programme, et ils ne sont pas listés. Seul le
+  « Plan Jeunesse 2027-2032 » l'est.
+- **David Lisnard, « Discours de Bayeux - 17 juin 2026 »** (publié sur sa page
+  programme). Un discours est une déclaration publique, pas un document de
+  programme : non listé. **À lire comme source possible de propositions.**
+
+### Candidatures engagées sans aucun document de programme
+Vingt et une des vingt-sept candidatures engagées ne publient aucun document
+téléchargeable. Deux cas méritent d'être suivis de près :
+
+- **Raphaël Glucksmann**, désigné par la primaire du pôle socialiste : son site
+  `glucks2027.fr` ne comporte **ni programme ni document**. La page propose un
+  formulaire d'adhésion et un formulaire de don, et rien d'autre.
+- **Édouard Philippe** : `edouardphilippe.fr` est un site de mobilisation
+  (comités de soutien, agenda). Aucun document.
+
+### Date d'un document non établie
+**« Le livre noir de la bureaucratie »** (Nouvelle Énergie, 24 pages) est publié
+sans date sur la page programme, et son fichier ne porte **aucune métadonnée de
+date**. Il est listé avec la mention « date non établie » plutôt qu'avec une
+date devinée. À reprendre si Nouvelle Énergie la publie.
+
+### Nombre de pages : ne pas se fier au comptage d'objets
+Deux PDF de La Convention annonçaient 172 et 16 pages au comptage des objets
+`/Type /Page`, alors que la page de publication annonce 86 et 8. Les deux
+fichiers contiennent des objets de page en double. C'est `/Count` du nœud
+`/Type /Pages` qui fait foi, et c'est lui qui a été relevé. **Tout nombre de
+pages exactement double de celui annoncé par le site doit être revérifié.**
+
 
 ### Ce que le navigateur change, et ce qu'il ne change pas
 Les sites qui bloquent la récupération automatique **s'ouvrent dans un

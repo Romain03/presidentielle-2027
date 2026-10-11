@@ -28,6 +28,7 @@ import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 import {
   Candidats,
+  DocumentsProgramme,
   Partis,
   Propositions,
   Themes,
@@ -127,6 +128,7 @@ const candidats = lire(Candidats, 'candidats.json');
 const partis = lire(Partis, 'partis.json');
 const propositions = lire(Propositions, 'propositions.json');
 const themes = lire(Themes, 'themes.json');
+const documents = lire(DocumentsProgramme, 'documents.json');
 
 /* ---------------------------------------------------------------- empreintes */
 
@@ -184,6 +186,51 @@ async function recuperer(url: string): Promise<Reponse> {
     });
     if (!reponse.ok) return { statut: reponse.status, erreur: reponse.statusText || 'réponse non OK' };
     return { statut: reponse.status, html: await reponse.text() };
+  } catch (cause) {
+    return { statut: 0, erreur: cause instanceof Error ? cause.message : String(cause) };
+  }
+}
+
+/**
+ * Interroge un fichier sans le télécharger. Les documents de programme pèsent
+ * jusqu'à 37 Mo : les rapatrier deux fois par jour serait inutile et impoli
+ * envers des sites de campagne. Une requête HEAD suffit à savoir si le fichier
+ * est toujours là, et s'il a changé de taille.
+ */
+type Fichier = { statut: number; octets: number | null; signature: string | null };
+
+async function interroger(url: string): Promise<Fichier | { statut: number; erreur: string }> {
+  const entetes = {
+    'user-agent': 'presidentielle-2027-veille (+https://github.com/Romain03/presidentielle-2027)',
+    accept: 'application/pdf',
+  };
+  try {
+    let reponse = await fetch(url, {
+      method: 'HEAD',
+      redirect: 'follow',
+      headers: entetes,
+      signal: AbortSignal.timeout(20_000),
+    });
+    // Tous les hébergeurs n'acceptent pas HEAD. On demande alors le premier
+    // octet : la réponse porte les mêmes en-têtes pour un coût équivalent.
+    if (reponse.status === 405 || reponse.status === 501) {
+      reponse = await fetch(url, {
+        redirect: 'follow',
+        headers: { ...entetes, range: 'bytes=0-0' },
+        signal: AbortSignal.timeout(20_000),
+      });
+    }
+    if (!reponse.ok && reponse.status !== 206) {
+      return { statut: reponse.status, erreur: reponse.statusText || 'réponse non OK' };
+    }
+    const brut = reponse.headers.get('content-range')?.split('/')[1]
+      ?? reponse.headers.get('content-length');
+    const octets = brut !== null && brut !== undefined && /^\d+$/.test(brut) ? Number(brut) : null;
+    return {
+      statut: reponse.status,
+      octets,
+      signature: reponse.headers.get('etag') ?? reponse.headers.get('last-modified'),
+    };
   } catch (cause) {
     return { statut: 0, erreur: cause instanceof Error ? cause.message : String(cause) };
   }
@@ -302,6 +349,8 @@ const liensMorts: string[] = [];
 const pagesModifiees: string[] = [];
 const pagesNouvelles: string[] = [];
 const programmesDecouverts: string[] = [];
+const documentsAbsents: string[] = [];
+const documentsRemplaces: string[] = [];
 
 /**
  * Déduplication globale, et non par site : melenchon2027.fr est atteint à la
@@ -396,6 +445,38 @@ async function surveiller(): Promise<void> {
       };
     }
   }
+
+  // 5. Documents de programme : le fichier est-il toujours là, et le même ?
+  //
+  // Un PDF vit à une adresse stable et peut être remplacé sans que rien ne
+  // l'indique : une « v2 » publiée sous le même nom, et le nombre de pages
+  // affiché ici devient faux. La taille annoncée par l'hébergeur est comparée
+  // au poids relevé à la main dans /data, ce qui attrape les deux cas - le
+  // fichier remplacé, et le chiffre erroné de notre côté.
+  for (const document of documents) {
+    const reponse = await interroger(document.url);
+    if ('erreur' in reponse) {
+      const refusAttendu = [401, 403, 429].includes(reponse.statut);
+      if (!refusAttendu) {
+        documentsAbsents.push(
+          `${document.id} → ${reponse.statut || 'injoignable'} ${reponse.erreur}\n  ${document.url}`,
+        );
+      }
+      continue;
+    }
+    if (reponse.octets === null) continue;
+    const attendus = document.poids_ko * 1024;
+    // Une tolérance de 2 %, parce que le poids est arrondi au kilo-octet et que
+    // certains hébergeurs recompressent à la volée.
+    const ecart = Math.abs(reponse.octets - attendus) / attendus;
+    if (ecart > 0.02) {
+      const observes = Math.round(reponse.octets / 1024);
+      documentsRemplaces.push(
+        `${document.id} — ${observes} ko en ligne, ${document.poids_ko} ko dans les données`
+          + ` (écart de ${Math.round(ecart * 100)} %)\n  ${document.url}`,
+      );
+    }
+  }
 }
 
 /* ------------------------------------------------------------------- rapport */
@@ -413,6 +494,8 @@ async function principal(): Promise<void> {
     liensMorts.length +
     pagesModifiees.length +
     programmesDecouverts.length +
+    documentsAbsents.length +
+    documentsRemplaces.length +
     payantesSeules.length;
 
   const rapport = [
@@ -420,7 +503,7 @@ async function principal(): Promise<void> {
     '',
     horsLigne
       ? '_Exécution hors ligne : seuls les contrôles sur les données ont été faits._'
-      : `_${sourcesUniques.size} sources citées contrôlées._`,
+      : `_${sourcesUniques.size} sources citées et ${documents.length} documents de programme contrôlés._`,
     '',
     '## Ce qui demande une action',
     '',
@@ -440,6 +523,16 @@ async function principal(): Promise<void> {
       'Aucune page citée n’a changé depuis la dernière veille.',
     ),
     bloc('Liens morts', liensMorts, 'Toutes les sources joignables répondent.'),
+    bloc(
+      'Documents de programme injoignables',
+      documentsAbsents,
+      'Les documents de programme répondent tous.',
+    ),
+    bloc(
+      'Documents de programme dont la taille a changé',
+      documentsRemplaces,
+      'Aucun document n’a été remplacé sous son adresse.',
+    ),
     bloc(
       'Propositions sans aucune source en accès libre',
       payantesSeules.map((p) => p.id),

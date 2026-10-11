@@ -38,6 +38,7 @@ jamais l'inverse.
 | **Processus de désignation** d'un parti | Test de véracité réussi |
 | **Ajout** d'une proposition | Article lu en entier, §3 et §4 |
 | **Ajout d'une source** à une proposition existante | Article lu, et il porte bien la mesure décrite |
+| **Ajout d'un document** à `documents.json` | Fichier ouvert, daté, et postérieur au 1ᵉʳ janvier 2026 |
 | **Précision factuelle** sur une fiche | Source lue |
 | **`derniere_verification`** des entrées touchées | Toujours, à la date du jour |
 | **`DONNEES_A_VERIFIER.md`** | Toujours, et c'est le réflexe par défaut |
@@ -119,6 +120,21 @@ Ils ont tous failli faire écrire une fausseté. Les vérifier à chaque fois.
 - **Les pages vivantes.** Une page de programme n'a pas de date de publication
   et peut être réécrite sous une citation qui ne bouge pas. C'est ce que
   surveille `veille/empreintes.json`.
+- **Les PDF sans date, et c'est la règle.** Un document de programme n'affiche
+  presque jamais sa date, vit à une adresse stable, et reste en ligne d'une
+  campagne à l'autre. Le Rassemblement national publie toujours seize livrets
+  thématiques sous le bouton « Découvrez le programme » : leurs fichiers ont été
+  fabriqués **en janvier et février 2022**. Son bouton « le programme » mène au
+  programme des **législatives de 2024**, et le PDF déposé sur le site de
+  campagne de Jean-Luc Mélenchon est le contrat du Nouveau Front populaire de
+  **juin 2024**. Avant de retenir un document : relever la date dans ses
+  métadonnées (`/CreationDate`, `/ModDate`), vérifier qu'elle est postérieure à
+  2026, et vérifier que le texte ne parle pas d'un autre scrutin. Sans date
+  établie, le document se consigne, il ne se publie pas.
+- **Le nombre de pages d'un PDF.** Compter les objets `/Type /Page` donne un
+  chiffre faux quand le fichier contient des pages en double : deux documents de
+  La Convention annonçaient ainsi le double de leur pagination réelle. C'est le
+  `/Count` du nœud `/Type /Pages` qui fait foi.
 
 ---
 

@@ -6,6 +6,7 @@ import LienRetour from '@/components/LienRetour';
 import BadgeStatut from '@/components/BadgeStatut';
 import BlocProposition from '@/components/BlocProposition';
 import DerniereMiseAJour from '@/components/DerniereMiseAJour';
+import DocumentsProgramme from '@/components/DocumentsProgramme';
 import LienSource from '@/components/LienSource';
 import Sources from '@/components/Sources';
 import CreditPhoto from '@/components/CreditPhoto';
@@ -13,7 +14,14 @@ import PastilleParti from '@/components/PastilleParti';
 import PortraitCandidat from '@/components/PortraitCandidat';
 import ParcoursCandidat from '@/components/ParcoursCandidat';
 import Reperes from '@/components/Reperes';
-import { candidats, getCandidat, getParti, propositionsDuCandidat, themes } from '@/lib/data';
+import {
+  candidats,
+  documentsDuCandidat,
+  getCandidat,
+  getParti,
+  propositionsDuCandidat,
+  themes,
+} from '@/lib/data';
 import { formaterDate, nomComplet, elider } from '@/lib/format';
 
 export function generateStaticParams() {
@@ -41,6 +49,7 @@ export default async function PageCandidat({ params }: { params: Promise<{ slug:
 
   const parti = getParti(candidat.parti_id);
   const couverts = themes.filter((t) => propositionsDuCandidat(candidat.id, t.id).length > 0);
+  const docs = documentsDuCandidat(candidat.id);
   const muets = themes.filter(
     (theme) => propositionsDuCandidat(candidat.id, theme.id).length === 0,
   );
@@ -104,6 +113,21 @@ export default async function PageCandidat({ params }: { params: Promise<{ slug:
           </nav>
         )}
       </header>
+
+      {docs.length > 0 && (
+        <section aria-labelledby="documents" className="space-y-3">
+          <h2 id="documents" className="text-lg font-semibold">
+            Documents de programme
+          </h2>
+          {/*
+            Ces liens mènent au fichier publié par le candidat, sans passer par
+            un formulaire : plusieurs sites ne donnent leur programme qu'en
+            échange d'une adresse électronique, et lire un programme ne devrait
+            pas coûter une inscription.
+          */}
+          <DocumentsProgramme documents={docs} />
+        </section>
+      )}
 
       <section aria-labelledby="positions" className="space-y-4">
         <h2 id="positions" className="text-lg font-semibold">

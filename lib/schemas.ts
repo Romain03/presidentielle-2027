@@ -488,6 +488,101 @@ export type EntreeJournal = z.infer<typeof EntreeJournal>;
 
 export const Journal = z.array(EntreeJournal);
 
+/* ------------------------------------------------- documents de programme */
+
+/**
+ * Nature d'un document de programme, du plus englobant au plus étroit.
+ */
+export const NATURES_DOCUMENT = ['programme', 'synthese', 'livret-thematique'] as const;
+
+export const NatureDocument = z.enum(NATURES_DOCUMENT);
+export type NatureDocument = z.infer<typeof NatureDocument>;
+
+export const LIBELLES_NATURE_DOCUMENT: Record<NatureDocument, string> = {
+  programme: 'Programme',
+  synthese: 'Synthèse',
+  'livret-thematique': 'Livret thématique',
+};
+
+/**
+ * D'où vient la date portée par un document. Un PDF n'affiche presque jamais
+ * sa date : elle se lit dans ses métadonnées, sur la page qui le publie, ou
+ * dans son texte. Dire laquelle permet au lecteur de juger ce qu'elle vaut -
+ * une date de métadonnées est une date de fabrication du fichier, pas une date
+ * de publication.
+ */
+export const ORIGINES_DATE = ['metadonnees-pdf', 'page-de-publication', 'document'] as const;
+
+export const OrigineDate = z.enum(ORIGINES_DATE);
+export type OrigineDate = z.infer<typeof OrigineDate>;
+
+export const LIBELLES_ORIGINE_DATE: Record<OrigineDate, string> = {
+  'metadonnees-pdf': 'date de fabrication du fichier',
+  'page-de-publication': 'date annoncée par le site',
+  document: 'date imprimée dans le document',
+};
+
+/**
+ * Un document de programme publié en PDF sur un site officiel.
+ *
+ * Ces documents sont la source la plus primaire qui existe : les mots du
+ * candidat, sans intermédiaire. Ils sont pourtant les plus difficiles à
+ * trouver - enfouis dans une page de matériel militant, derrière un formulaire
+ * qui réclame une adresse électronique, ou publiés sans date.
+ *
+ * Le document n'est jamais recopié ici : le lien pointe vers le fichier tel
+ * que le candidat le publie. Héberger une copie, ce serait figer une version
+ * et laisser croire qu'elle est à jour.
+ *
+ * `editeur` sépare ce que le candidat signe de ce que son parti publie. C'est
+ * la distinction la plus facile à perdre : un livret des Républicains n'est pas
+ * un engagement personnel de Bruno Retailleau, même s'il le préside.
+ */
+export const DocumentProgramme = z
+  .object({
+    id: Slug,
+    candidat_id: Slug,
+    titre: z.string().min(3),
+    nature: NatureDocument,
+    /** Qui signe le document : le candidat, ou l'organisation qui le soutient. */
+    publie_par: z.enum(['candidat', 'parti']),
+    /** Nom de l'organisation qui publie, telle qu'elle se nomme elle-même. */
+    editeur: z.string().min(2),
+    /** Le fichier, chez le candidat. */
+    url: z.string().url(),
+    /** La page du site officiel qui met ce fichier à disposition. */
+    page_source: z.string().url(),
+    pages: z.number().int().positive().max(2000),
+    poids_ko: z.number().int().positive(),
+    /** Date du document. `null` quand elle n'a pas pu être établie. */
+    date_document: DateISO.nullable(),
+    origine_date: OrigineDate.nullable(),
+    /** Thèmes du site que le document couvre. Vide pour un programme général. */
+    themes: z.array(Slug).default([]),
+    derniere_verification: DateISO,
+  })
+  .strict()
+  .refine((d) => (d.date_document === null) === (d.origine_date === null), {
+    message: "Une date de document doit dire d'où elle vient, et réciproquement",
+    path: ['origine_date'],
+  })
+  // Le lien doit mener au fichier, pas à une page qui le présente : c'est tout
+  // l'intérêt de cette liste. Un lecteur qui clique obtient le document.
+  .refine((d) => new URL(d.url).pathname.toLowerCase().endsWith('.pdf'), {
+    message: 'Le lien doit pointer directement sur le fichier PDF',
+    path: ['url'],
+  })
+  // Un livret thématique sans thème serait introuvable ; un programme général
+  // qui en annonce un laisserait croire qu'il s'y limite.
+  .refine((d) => (d.nature === 'livret-thematique' ? d.themes.length > 0 : true), {
+    message: 'Un livret thématique doit dire sur quels thèmes il porte',
+    path: ['themes'],
+  });
+
+export type DocumentProgramme = z.infer<typeof DocumentProgramme>;
+
+export const DocumentsProgramme = z.array(DocumentProgramme);
+
 /* --------------------------------------------------------------- calendrier */
 
 /**

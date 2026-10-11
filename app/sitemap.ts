@@ -16,6 +16,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'candidats/',
     'partis/',
     'themes/',
+    'programmes/',
     'familles/',
     'comparateur/',
     'methodologie/',

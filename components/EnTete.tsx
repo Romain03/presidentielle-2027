@@ -8,6 +8,7 @@ const LIENS = [
   { href: '/candidats/', libelle: 'Candidats' },
   { href: '/partis/', libelle: 'Partis' },
   { href: '/themes/', libelle: 'Thèmes' },
+  { href: '/programmes/', libelle: 'Programmes' },
   { href: '/familles/', libelle: 'Familles' },
   { href: '/comparateur/', libelle: 'Comparateur' },
   { href: '/methodologie/', libelle: 'Méthodologie' },
@@ -17,7 +18,7 @@ const LIENS = [
 export default function EnTete() {
   // Le test n'entre dans la navigation que lorsqu'il est réellement utilisable.
   const liens = etatDuTest().actif
-    ? [...LIENS.slice(0, 4), { href: '/test/', libelle: 'Test' }, ...LIENS.slice(4)]
+    ? [...LIENS.slice(0, 5), { href: '/test/', libelle: 'Test' }, ...LIENS.slice(5)]
     : LIENS;
 
   return (

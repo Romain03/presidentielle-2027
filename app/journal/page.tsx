@@ -17,6 +17,8 @@ const LIBELLES_FICHIER: Record<string, string> = {
   'partis.json': 'Partis',
   'propositions.json': 'Propositions',
   'themes.json': 'Thèmes',
+  'documents.json': 'Programmes en PDF',
+  'calendrier.json': 'Calendrier',
   'questions.json': 'Questions du test',
   'journal.json': 'Journal',
 };

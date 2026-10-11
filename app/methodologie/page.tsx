@@ -220,6 +220,62 @@ export default function PageMethodologie() {
         </p>
       </section>
 
+      <section aria-labelledby="documents" className="max-w-2xl space-y-3">
+        <h2 id="documents" className="text-lg font-semibold">
+          Les programmes en PDF, et ceux qui ont été écartés
+        </h2>
+        <p className="text-sm leading-relaxed text-stone-700 dark:text-stone-300">
+          La page{' '}
+          <Link href="/programmes/" className="lien">
+            Programmes en PDF
+          </Link>{' '}
+          réunit les documents de programme publiés par les candidats et leurs partis, en lien
+          direct vers le fichier. Plusieurs sites ne donnent leur programme qu’en échange d’une
+          adresse électronique : lire un programme ne devrait pas coûter une inscription.
+        </p>
+        <p className="text-sm leading-relaxed text-stone-700 dark:text-stone-300">
+          Chaque document a été ouvert, et daté avant d’être retenu. C’est indispensable : un PDF
+          n’affiche presque jamais sa date, et un document d’une campagne précédente reste
+          consultable sous le même intitulé, à la même adresse. La date affichée indique au survol
+          d’où elle vient - métadonnées du fichier, page de publication, ou texte du document.
+        </p>
+        <p className="text-sm leading-relaxed text-stone-700 dark:text-stone-300">
+          Les documents suivants ont été trouvés, vérifiés, puis écartés. Ils sont nommés ici parce
+          qu’un lecteur qui les trouverait de lui-même, sur ces mêmes sites officiels, pourrait les
+          prendre pour des programmes de 2027.
+        </p>
+        <ul className="space-y-2 text-sm text-stone-700 dark:text-stone-300">
+          <li>
+            Les seize livrets thématiques du Rassemblement national, dont la santé et l’écologie,
+            toujours en ligne sous le bouton « Découvrez le programme » : leurs fichiers ont été
+            fabriqués en janvier et février 2022. Le document que la page d’accueil présente comme
+            « le programme » est celui des législatives de 2024.
+          </li>
+          <li>
+            Le PDF publié sur le site de campagne de Jean-Luc Mélenchon : c’est le contrat de
+            législature du Nouveau Front populaire, qui appelle à voter les 30 juin et 7 juillet
+            2024.
+          </li>
+          <li>
+            Le programme national du Parti animaliste (2022) et son livret des européennes (2024).
+          </li>
+          <li>
+            Les programmes de l’Union populaire républicaine, qui n’existent que pour 2012, 2017 et
+            2022.
+          </li>
+        </ul>
+        <p className="text-sm leading-relaxed text-stone-700 dark:text-stone-300">
+          Les affiches, tracts et autocollants ne sont pas des documents de programme et ne
+          figurent pas dans cette liste. Un discours non plus : il est traité comme une déclaration
+          publique, et peut à ce titre servir de source à une proposition.
+        </p>
+        <p className="text-sm leading-relaxed text-stone-700 dark:text-stone-300">
+          Aucun fichier n’est recopié sur ce site. Le lien mène au document tel que le candidat le
+          publie, et la veille interroge chaque fichier deux fois par jour : un lien qui tombe, ou
+          un document remplacé sous la même adresse, ouvre un signalement.
+        </p>
+      </section>
+
       <section aria-labelledby="absence" className="max-w-2xl space-y-3">
         <h2 id="absence" className="text-lg font-semibold">
           « Rien relevé par ce site »

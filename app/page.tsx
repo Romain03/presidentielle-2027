@@ -23,6 +23,11 @@ const VUES = [
     texte: 'Sur un sujet donné, ce que chacun propose, côte à côte.',
   },
   {
+    href: '/programmes/',
+    titre: 'Programmes en PDF',
+    texte: 'Les documents publiés par les candidats, en lien direct et sans formulaire.',
+  },
+  {
     href: '/comparateur/',
     titre: 'Comparateur',
     texte: 'Deux à quatre candidats, thème par thème, et ce qui les sépare.',
@@ -79,7 +84,12 @@ export default function Accueil() {
           </p>
           <p>
             Ce qui manque est affiché comme manquant, jamais comblé. Les parrainages ne sont pas
-            déposés et la plupart des programmes ne sont pas publiés.{' '}
+            déposés, et {statistiques.candidatsAvecDocument} candidats seulement publient un
+            document de programme -{' '}
+            <Link href="/programmes/" className="lien">
+              ils sont réunis ici
+            </Link>
+            .{' '}
             <Link href="/methodologie/#sources" className="lien">
               D’où viennent ces informations
             </Link>
