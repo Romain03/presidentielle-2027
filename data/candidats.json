@@ -1375,10 +1375,19 @@
           "type": "article-de-presse",
           "date": "2026-09-25"
         }
+      },
+      {
+        "libelle": "Il annonce qu'il se présentera « en candidat indépendant », refusant la primaire de la droite et du centre, alors que Les Républicains ont investi Bruno Retailleau : « Quand je me déclarerai, ce sera en candidat indépendant, je l'assume. »",
+        "source": {
+          "url": "https://www.franceinfo.fr/elections/presidentielle/xavier-bertrand-figure-de-la-droite-et-president-de-la-region-hauts-de-france-annonce-sa-candidature-a-l-election-presidentielle_8164871.html",
+          "titre": "Xavier Bertrand, président de la région Hauts-de-France, annonce sa candidature à l'élection présidentielle",
+          "type": "article-de-presse",
+          "date": "2026-08-27"
+        }
       }
     ],
     "liens_officiels": [],
-    "derniere_verification": "2026-10-09",
+    "derniere_verification": "2026-10-10",
     "photo": {
       "fichier": "xavier-bertrand.webp",
       "auteur": "Claudio Centonze / European Union, 2025 / EC - Audiovisual Service",
@@ -1444,6 +1453,12 @@
         "titre": "Présidentielle 2027 : qui sont les principaux candidats déclarés ou probables ?",
         "type": "article-de-presse",
         "date": "2026-09-25"
+      },
+      {
+        "url": "https://www.franceinfo.fr/elections/presidentielle/xavier-bertrand-figure-de-la-droite-et-president-de-la-region-hauts-de-france-annonce-sa-candidature-a-l-election-presidentielle_8164871.html",
+        "titre": "Xavier Bertrand, président de la région Hauts-de-France, annonce sa candidature à l'élection présidentielle",
+        "type": "article-de-presse",
+        "date": "2026-08-27"
       }
     ]
   },
