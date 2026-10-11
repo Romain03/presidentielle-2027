@@ -325,6 +325,42 @@ même raison, le déploiement ignore les commits marqués `[veille]`.
 
 ---
 
+## Mise à jour autonome
+
+La veille signale ; elle n'écrit pas. Un second workflow,
+`.github/workflows/mise-a-jour-autonome.yml`, lance Claude Code dans le dépôt
+après chaque passage de veille pour **appliquer les corrections établies** :
+vérifier une annonce auprès de deux rédactions, puis mettre à jour un statut de
+candidature, un processus de désignation ou une proposition.
+
+Les règles qu'il suit sont dans [`PROTOCOLE_AUTONOME.md`](PROTOCOLE_AUTONOME.md)
+et n'ont rien d'implicite : ce qu'il peut modifier seul, ce qu'il ne doit jamais
+toucher, le test de véracité en quatre points, les pièges déjà rencontrés, et
+les six cas où il doit s'arrêter sans rien changer.
+
+Trois garde-fous valent d'être connus :
+
+- **deux sources indépendantes lues** sont exigées avant tout changement de
+  statut. Un titre ne suffit pas, et « Glucksmann vainqueur dès le premier
+  tour ? » publié six jours avant le scrutin était une émission de débat ;
+- **aucune suppression** de donnée n'est permise sans un humain ;
+- **rien n'est poussé si un test échoue**, et chaque exécution rend compte de ce
+  qu'elle a **écarté** autant que de ce qu'elle a appliqué.
+
+### L'activer
+
+Un seul secret à créer, dans *Settings → Secrets and variables → Actions* :
+`ANTHROPIC_API_KEY`. Sans lui le job s'arrête proprement en le disant, et la
+veille continue de fonctionner seule.
+
+### L'arrêter
+
+Désactiver le workflow dans l'onglet *Actions*, ou supprimer le fichier. Les
+modifications autonomes arrivent par des commits marqués `[auto]` : `git log` les
+isole et `git revert` les annule.
+
+---
+
 ## Ce que les partis disent d'eux-mêmes
 
 Chaque fiche de parti porte un extrait de la façon dont la formation se
