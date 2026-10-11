@@ -211,7 +211,11 @@ export function enLice(statut: Statut): boolean {
 }
 
 export const LIBELLES_STATUT: Record<Statut, string> = {
-  investi: 'Investi par son parti',
+  // « Investi par son parti » était faux pour Raphaël Glucksmann : il a été
+  // désigné par une primaire de trois partis, et n'est pas membre du Parti
+  // socialiste qui le porte. Le libellé dit donc l'acte, pas son auteur ; la
+  // précision de chaque fiche nomme le processus.
+  investi: 'Candidature investie',
   declare: 'Candidature déclarée',
   pressenti: 'Pressenti',
   retire: 'Ne concourt plus',
