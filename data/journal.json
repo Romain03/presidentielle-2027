@@ -1,6 +1,15 @@
 [
   {
     "date": "2026-10-11",
+    "resume": "1 candidature modifiée · 11 propositions ajoutées · 9 propositions modifiées",
+    "fichiers": [
+      "candidats.json",
+      "propositions.json"
+    ],
+    "commit": "971620f81d"
+  },
+  {
+    "date": "2026-10-11",
     "resume": "2 étapes du calendrier au départ · 1 candidature modifiée · 5 partis modifiés",
     "fichiers": [
       "calendrier.json",

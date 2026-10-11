@@ -142,8 +142,21 @@
       }
     },
     "site_officiel": "https://g-r-s.fr",
-    "processus_designation": null,
-    "derniere_verification": "2026-10-09",
+    "processus_designation": {
+      "type": "primaire-fermee",
+      "libelle": "Primaire présidentielle du pôle socialiste, organisée par le Parti socialiste avec Place publique et la Gauche républicaine et socialiste. Le premier tour, ouvert le 9 octobre 2026 et prolongé jusqu'au 11 octobre à 18 heures après une cyberattaque par déni de service contre la plateforme de vote, a été remporté dès ce tour par Raphaël Glucksmann avec 66,17 % des suffrages exprimés, devant Olivier Faure (14,46 %), Ségolène Royal (7,62 %), Emmanuel Maurel (5,92 %) et Jérôme Guedj (5,83 %). Participation : 120 787 votants sur 134 467 inscrits. Le second tour prévu les 16 et 17 octobre n'a pas eu lieu.",
+      "dates": [
+        "2026-10-09",
+        "2026-10-11"
+      ],
+      "source": {
+        "url": "https://www.publicsenat.fr/actualites/politique/primaire-de-la-gauche-raphael-glucksmann-plie-le-match-et-remporte-le-scrutin-des-le-premier-tour-avec-66",
+        "titre": "Primaire de la gauche : Raphaël Glucksmann plie le match et remporte le scrutin dès le premier tour avec 66 %",
+        "type": "article-de-presse",
+        "date": "2026-10-11"
+      }
+    },
+    "derniere_verification": "2026-10-11",
     "fondation": {
       "annee": 2018,
       "source": {
@@ -822,21 +835,19 @@
     "site_officiel": "https://parti-socialiste.fr",
     "processus_designation": {
       "type": "primaire-fermee",
-      "libelle": "Primaire présidentielle socialiste, organisée avec Place publique et la Gauche républicaine et socialiste. Le premier tour, ouvert le 9 octobre 2026, a été prolongé jusqu'au dimanche 11 octobre à 18 heures après une cyberattaque par déni de service contre la plateforme de vote ; un second tour est prévu les 16 et 17 octobre. Le seuil de 100 000 votants sur 140 000 inscrits a été franchi le 10 octobre au soir, et des experts techniques ont conclu à l'absence d'altération de la sincérité du scrutin.",
+      "libelle": "Primaire présidentielle du pôle socialiste, organisée par le Parti socialiste avec Place publique et la Gauche républicaine et socialiste. Le premier tour, ouvert le 9 octobre 2026 et prolongé jusqu'au 11 octobre à 18 heures après une cyberattaque par déni de service contre la plateforme de vote, a été remporté dès ce tour par Raphaël Glucksmann avec 66,17 % des suffrages exprimés, devant Olivier Faure (14,46 %), Ségolène Royal (7,62 %), Emmanuel Maurel (5,92 %) et Jérôme Guedj (5,83 %). Participation : 120 787 votants sur 134 467 inscrits. Le second tour prévu les 16 et 17 octobre n'a pas eu lieu.",
       "dates": [
         "2026-10-09",
-        "2026-10-11",
-        "2026-10-16",
-        "2026-10-17"
+        "2026-10-11"
       ],
       "source": {
-        "url": "https://www.franceinfo.fr/elections/presidentielle/la-plateforme-de-vote-pour-la-primaire-socialiste-victime-d-une-cyberattaque-depuis-son-ouverture-annonce-la-commission-d-organisation_8229811.html",
-        "titre": "La plateforme de vote pour la primaire de la gauche « victime d'une cyberattaque », le scrutin prolongé jusqu'à dimanche à 18 heures",
+        "url": "https://www.publicsenat.fr/actualites/politique/primaire-de-la-gauche-raphael-glucksmann-plie-le-match-et-remporte-le-scrutin-des-le-premier-tour-avec-66",
+        "titre": "Primaire de la gauche : Raphaël Glucksmann plie le match et remporte le scrutin dès le premier tour avec 66 %",
         "type": "article-de-presse",
-        "date": "2026-10-09"
+        "date": "2026-10-11"
       }
     },
-    "derniere_verification": "2026-10-10",
+    "derniere_verification": "2026-10-11",
     "fondation": {
       "annee": 1969,
       "source": {
@@ -874,8 +885,21 @@
       }
     },
     "site_officiel": "https://place-publique.eu",
-    "processus_designation": null,
-    "derniere_verification": "2026-10-09",
+    "processus_designation": {
+      "type": "primaire-fermee",
+      "libelle": "Primaire présidentielle du pôle socialiste, organisée par le Parti socialiste avec Place publique et la Gauche républicaine et socialiste. Le premier tour, ouvert le 9 octobre 2026 et prolongé jusqu'au 11 octobre à 18 heures après une cyberattaque par déni de service contre la plateforme de vote, a été remporté dès ce tour par Raphaël Glucksmann avec 66,17 % des suffrages exprimés, devant Olivier Faure (14,46 %), Ségolène Royal (7,62 %), Emmanuel Maurel (5,92 %) et Jérôme Guedj (5,83 %). Participation : 120 787 votants sur 134 467 inscrits. Le second tour prévu les 16 et 17 octobre n'a pas eu lieu.",
+      "dates": [
+        "2026-10-09",
+        "2026-10-11"
+      ],
+      "source": {
+        "url": "https://www.publicsenat.fr/actualites/politique/primaire-de-la-gauche-raphael-glucksmann-plie-le-match-et-remporte-le-scrutin-des-le-premier-tour-avec-66",
+        "titre": "Primaire de la gauche : Raphaël Glucksmann plie le match et remporte le scrutin dès le premier tour avec 66 %",
+        "type": "article-de-presse",
+        "date": "2026-10-11"
+      }
+    },
+    "derniere_verification": "2026-10-11",
     "fondation": {
       "annee": 2018,
       "source": {

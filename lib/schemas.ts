@@ -195,8 +195,14 @@ export type Statut = z.infer<typeof Statut>;
 
 /**
  * Statuts d'une candidature réellement engagée. Les « pressentis » n'ont rien
- * déclaré et les « retirés » se sont désistés : les compter avec les autres
- * donnait un total de 44 qui laissait croire à 44 candidatures.
+ * déclaré et ceux qui ne concourent plus sont sortis de la course : les compter
+ * avec les autres donnait un total de 44 qui laissait croire à 44 candidatures.
+ *
+ * Le statut `retire` couvre deux situations différentes - un désistement
+ * volontaire, et une défaite à une primaire dont le règlement ne retient qu'un
+ * candidat. D'où son libellé, « Ne concourt plus » : « Retiré » laissait croire
+ * à un renoncement personnel là où le processus avait tranché. La précision
+ * affichée sur chaque fiche dit laquelle des deux situations s'applique.
  */
 export const STATUTS_EN_LICE: readonly Statut[] = ['investi', 'declare'];
 
@@ -208,7 +214,7 @@ export const LIBELLES_STATUT: Record<Statut, string> = {
   investi: 'Investi par son parti',
   declare: 'Candidature déclarée',
   pressenti: 'Pressenti',
-  retire: 'Retiré',
+  retire: 'Ne concourt plus',
 };
 
 /**
