@@ -540,7 +540,7 @@
     "candidat_id": "gabriel-attal",
     "theme_id": "retraites",
     "resume": "Suppression à terme de l'âge légal : le montant de la pension dépendrait de la durée cotisée et du moment choisi pour partir. Il propose aussi une part de capitalisation, amorcée par un versement public de 1 000 euros à la naissance.",
-    "detail": "Le candidat défend une rupture avec le débat traditionnel sur l'âge légal : il voudrait, à terme, le supprimer. Le montant de la pension dépendrait alors de la durée cotisée et du moment choisi pour partir - un départ plus précoce donnerait une pension plus faible, un départ plus tardif une pension plus élevée. Il propose aussi une part de capitalisation, notamment amorcée par un versement public de 1 000 euros à la naissance. Ses paramètres précis restent à fixer.",
+    "detail": "Le candidat défend une rupture avec le débat traditionnel sur l'âge légal : il voudrait, à terme, le supprimer. Le montant de la pension dépendrait alors de la durée cotisée et du moment choisi pour partir - un départ plus précoce donnerait une pension plus faible, un départ plus tardif une pension plus élevée. Il propose aussi une part de capitalisation, notamment amorcée par un versement public de 1 000 euros à la naissance. Ses paramètres précis restent à fixer. Son programme publié confirme le déplacement du curseur de l'âge vers la durée de cotisation, sans y associer de calendrier.",
     "citation": null,
     "nature": "declaration_publique",
     "indicateurs": [
@@ -557,9 +557,15 @@
         "valeur_comparable": 1000
       }
     ],
-    "derniere_verification": "2026-10-09",
+    "derniere_verification": "2026-10-11",
     "programme_anterieur": null,
     "sources": [
+      {
+        "url": "https://attalpresident.fr/programme/travail-salaires",
+        "titre": "Travail et salaires - Les chantiers capitaux de Gabriel Attal",
+        "type": "programme-officiel",
+        "date": "2026-10-11"
+      },
       {
         "url": "https://www.publicsenat.fr/actualites/politique/reculer-ou-avancer-lage-legal-avec-ou-sans-capitalisation-ce-que-proposent-les-principaux-candidats-a-lelection-presidentielle-sur-les-retraites",
         "titre": "Reculer ou avancer l’âge légal, avec ou sans capitalisation : ce que proposent les principaux candidats à l’élection présidentielle sur les retraites",
@@ -761,13 +767,19 @@
     "candidat_id": "gabriel-attal",
     "theme_id": "immigration",
     "resume": "« Accueillir moins pour accueillir mieux » en privilégiant l'immigration de travail, avec un système à points inspiré du modèle canadien et un durcissement des conditions du regroupement familial.",
-    "detail": "Le candidat place la maîtrise de l'immigration parmi ses chantiers prioritaires et dit vouloir privilégier l'immigration de travail. Il évoque la mise en place d'un système à points sur le modèle du Canada, établi sur des critères tels qu'une offre d'emploi stable, un logement, la maîtrise de la langue française et le respect des valeurs du pays. En parallèle, il entend durcir les conditions du regroupement familial.",
+    "detail": "Le candidat place la maîtrise de l'immigration parmi ses chantiers prioritaires et dit vouloir privilégier l'immigration de travail. Il évoque la mise en place d'un système à points sur le modèle du Canada, établi sur des critères tels qu'une offre d'emploi stable, un logement, la maîtrise de la langue française et le respect des valeurs du pays. En parallèle, il entend durcir les conditions du regroupement familial. Son programme publié confirme la formule « accueillir moins pour accueillir mieux » et le système à points inspiré du modèle canadien, en donnant la priorité à l'immigration de travail sur le regroupement familial. Il appuie le constat sur les chiffres de 2024 : 7,7 millions d'immigrés soit 11,3 % de la population, 2,9 millions de visas délivrés, et 157 947 demandes d'asile enregistrées.",
     "citation": "Notre ligne est claire, ce que nous voulons, c'est accueillir moins pour accueillir mieux",
-    "nature": "declaration_publique",
+    "nature": "programme_officiel",
     "indicateurs": [],
-    "derniere_verification": "2026-10-09",
+    "derniere_verification": "2026-10-11",
     "programme_anterieur": null,
     "sources": [
+      {
+        "url": "https://attalpresident.fr/programme/frontieres",
+        "titre": "Frontières - Les chantiers capitaux de Gabriel Attal",
+        "type": "programme-officiel",
+        "date": "2026-10-11"
+      },
       {
         "url": "https://www.franceinfo.fr/politique/ni-possible-ni-souhaitable-en-vue-de-la-presidentielle-2027-le-bloc-central-montre-ses-divisions-sur-le-theme-de-l-immigration_8029442.html",
         "titre": "En vue de la présidentielle 2027, le bloc central montre ses divisions sur le thème de l’immigration",
@@ -1035,13 +1047,32 @@
     "candidat_id": "gabriel-attal",
     "theme_id": "pouvoir-d-achat",
     "resume": "Revenir sur les hausses du coût du travail intervenues depuis 2024, présentées comme un frein à la compétitivité des entreprises.",
-    "detail": "Lors du débat organisé par le Medef, le candidat a dit vouloir « revenir sur les hausses du coût du travail qui sont intervenues depuis 2024 ». « Ce qu'il aurait fallu faire, c'est ne pas augmenter le coût du travail depuis 2024 », a-t-il jugé, évoquant la dissolution de l'Assemblée et les budgets des gouvernements suivants. Il a également insisté sur l'importance de la question du logement.",
+    "detail": "Lors du débat organisé par le Medef, le candidat a dit vouloir « revenir sur les hausses du coût du travail qui sont intervenues depuis 2024 ». « Ce qu'il aurait fallu faire, c'est ne pas augmenter le coût du travail depuis 2024 », a-t-il jugé, évoquant la dissolution de l'Assemblée et les budgets des gouvernements suivants. Il a également insisté sur l'importance de la question du logement. Son programme publié chiffre l'objectif : porter le salaire médian de 2 200 euros nets vers 3 300 euros, montant qu'il estime atteignable avec une productivité comparable à celle des États-Unis. Les leviers annoncés sont la baisse des charges salariales pour augmenter le net, la suppression du plafond annuel de 220 heures supplémentaires, une « Constitution du travail » en lieu et place d'un code passé de 5 000 à 11 000 articles entre 2004 et 2025, et la formation de 200 000 professionnels de la petite enfance d'ici 2030 pour lever l'obstacle de la garde d'enfants.",
     "citation": "le premier engagement que je prendrai (...), c'est de revenir sur ces hausses du coût du travail",
-    "nature": "declaration_publique",
-    "indicateurs": [],
-    "derniere_verification": "2026-10-09",
+    "nature": "programme_officiel",
+    "indicateurs": [
+      {
+        "libelle": "Salaire médian visé",
+        "valeur": 3300,
+        "unite": "euros nets",
+        "valeur_comparable": 3300
+      },
+      {
+        "libelle": "Professionnels de la petite enfance à former d’ici 2030",
+        "valeur": 200000,
+        "unite": "professionnels",
+        "valeur_comparable": null
+      }
+    ],
+    "derniere_verification": "2026-10-11",
     "programme_anterieur": null,
     "sources": [
+      {
+        "url": "https://attalpresident.fr/programme/travail-salaires",
+        "titre": "Travail et salaires - Les chantiers capitaux de Gabriel Attal",
+        "type": "programme-officiel",
+        "date": "2026-10-11"
+      },
       {
         "url": "https://lcp.fr/actualites/presidentielle-2027-ce-qu-il-faut-retenir-du-premier-debat-entre-les-candidats-440670",
         "titre": "Présidentielle 2027 : ce qu'il faut retenir du débat entre les candidats devant le Medef",
@@ -1336,13 +1367,26 @@
     "candidat_id": "gabriel-attal",
     "theme_id": "ecologie",
     "resume": "Création d'un ministère de l'Eau dès l'accession à l'Élysée, et propositions sur la géothermie et sur l'eau enrichies au cours de l'été 2026.",
-    "detail": "Selon son entourage, le candidat « n'a évidemment pas attendu ce tragique été » pour proposer ses mesures et a enrichi au cours de l'été 2026 ses annonces de l'année précédente, notamment sur la géothermie et sur l'eau. Il veut créer un ministère de l'Eau dès son accession à l'Élysée.",
+    "detail": "Selon son entourage, le candidat « n'a évidemment pas attendu ce tragique été » pour proposer ses mesures et a enrichi au cours de l'été 2026 ses annonces de l'année précédente, notamment sur la géothermie et sur l'eau. Il veut créer un ministère de l'Eau dès son accession à l'Élysée. Son programme publié fixe un rythme : tripler la baisse annuelle des émissions, de 1,8 % à 5 % par an jusqu'en 2030, pour tenir les engagements climatiques de la France. Il y soutient que « croissance et décarbonation ne s'opposent pas », en s'appuyant sur une baisse de 32 % des émissions territoriales depuis 1990 et sur un produit intérieur brut en hausse de 18 % entre 2010 et 2024 pour une intensité carbone en baisse de 36 %. Le reste de la page est un diagnostic chiffré plutôt qu'une liste de mesures.",
     "citation": null,
-    "nature": "declaration_publique",
-    "indicateurs": [],
-    "derniere_verification": "2026-10-09",
+    "nature": "programme_officiel",
+    "indicateurs": [
+      {
+        "libelle": "Rythme annuel de baisse des émissions visé",
+        "valeur": 5,
+        "unite": "% par an",
+        "valeur_comparable": 5
+      }
+    ],
+    "derniere_verification": "2026-10-11",
     "programme_anterieur": null,
     "sources": [
+      {
+        "url": "https://attalpresident.fr/programme/dette-ecologique",
+        "titre": "Dette écologique - Les chantiers capitaux de Gabriel Attal",
+        "type": "programme-officiel",
+        "date": "2026-10-11"
+      },
       {
         "url": "https://www.franceinfo.fr/elections/presidentielle/on-ne-decouvre-rien-les-candidats-a-la-presidentielle-ont-ils-adapte-leur-programme-apres-les-canicules-d-un-ete-apocalyptique_8174960.html",
         "titre": "« On ne découvre rien » : les candidats à la présidentielle ont-ils adapté leur programme après les canicules d'un été « apocalyptique » ?",
@@ -1657,9 +1701,9 @@
     "candidat_id": "gabriel-attal",
     "theme_id": "education",
     "resume": "Passer sous la barre des 20 élèves par classe en primaire tout en maintenant le « choc des savoirs », et augmenter de 200 euros par mois le salaire des professeurs, jusqu'à 500 euros net en fin de carrière.",
-    "detail": "Ancien ministre de l'Éducation, le candidat fait de l'école l'un de ses « chantiers capitaux » : le niveau scolaire « s'est dégradé » et l'école de la République doit « retrouver sa capacité à transmettre ». Sa priorité est de passer sous la barre des 20 élèves par classe en primaire, tout en maintenant le « choc des savoirs ». Il propose d'augmenter de 200 euros par mois le salaire des professeurs, jusqu'à 500 euros net en fin de carrière, et de garantir un même ministre de l'Éducation pendant les cinq ans du quinquennat. Au collège, il veut renforcer les exigences à l'entrée en sixième avec le rétablissement d'un certificat d'études, interdire les réseaux sociaux aux moins de 15 ans, raccourcir les journées d'école aux dépens des vacances, accorder davantage d'autonomie aux établissements et créer un conseil de discipline pour le primaire.",
+    "detail": "Ancien ministre de l'Éducation, le candidat fait de l'école l'un de ses « chantiers capitaux » : le niveau scolaire « s'est dégradé » et l'école de la République doit « retrouver sa capacité à transmettre ». Sa priorité est de passer sous la barre des 20 élèves par classe en primaire, tout en maintenant le « choc des savoirs ». Il propose d'augmenter de 200 euros par mois le salaire des professeurs, jusqu'à 500 euros net en fin de carrière, et de garantir un même ministre de l'Éducation pendant les cinq ans du quinquennat. Au collège, il veut renforcer les exigences à l'entrée en sixième avec le rétablissement d'un certificat d'études, interdire les réseaux sociaux aux moins de 15 ans, raccourcir les journées d'école aux dépens des vacances, accorder davantage d'autonomie aux établissements et créer un conseil de discipline pour le primaire. Son programme publié rattache la mesure à un objectif de classement : revenir « à l'une des premières places » de l'enquête PISA en dix ans, la France étant passée de la 7e à la 20e place des nations occidentales en mathématiques en vingt-cinq ans. Il y présente la baisse démographique attendue - 1,7 million d'élèves en moins en dix ans - comme l'occasion de réduire les effectifs et de revaloriser les enseignants plutôt que de faire des économies. S'y ajoutent la restriction de l'accès aux réseaux sociaux pour les moins de 15 ans, la lutte contre le harcèlement et un volet santé mentale.",
     "citation": null,
-    "nature": "declaration_publique",
+    "nature": "programme_officiel",
     "indicateurs": [
       {
         "libelle": "Élèves par classe visés",
@@ -1672,11 +1716,23 @@
         "valeur": "200 € par mois, jusqu'à 500 € en fin de carrière",
         "unite": null,
         "valeur_comparable": 200
+      },
+      {
+        "libelle": "Baisse démographique attendue en dix ans",
+        "valeur": 1700000,
+        "unite": "élèves",
+        "valeur_comparable": null
       }
     ],
-    "derniere_verification": "2026-10-09",
+    "derniere_verification": "2026-10-11",
     "programme_anterieur": null,
     "sources": [
+      {
+        "url": "https://attalpresident.fr/programme/education",
+        "titre": "Éducation - Les chantiers capitaux de Gabriel Attal",
+        "type": "programme-officiel",
+        "date": "2026-10-11"
+      },
       {
         "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-que-proposent-les-candidats-pour-lecole",
         "titre": "Présidentielle 2027 : que proposent les candidats pour l’école ?",

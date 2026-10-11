@@ -1,6 +1,14 @@
 [
   {
     "date": "2026-10-11",
+    "resume": "15 candidatures modifiées",
+    "fichiers": [
+      "candidats.json"
+    ],
+    "commit": "72cfeb14fb"
+  },
+  {
+    "date": "2026-10-11",
     "resume": "5 candidatures modifiées · 3 partis modifiés",
     "fichiers": [
       "candidats.json",
