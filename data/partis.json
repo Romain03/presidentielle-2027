@@ -346,7 +346,7 @@
     },
     "site_officiel": "https://lafranceinsoumise.fr",
     "processus_designation": null,
-    "derniere_verification": "2026-10-09",
+    "derniere_verification": "2026-10-10",
     "fondation": {
       "annee": 2016,
       "source": {
@@ -358,12 +358,12 @@
     },
     "dirigeant": {
       "nom": "Manuel Bompard",
-      "fonction": null,
+      "fonction": "Coordinateur national",
       "source": {
-        "titre": "Wikidata",
-        "type": "encyclopedie",
-        "date": "2026-10-10",
-        "url": "https://www.wikidata.org/wiki/Q27978402"
+        "url": "https://www.franceinfo.fr/elections/legislatives/legislatives-2024-ce-qu-il-faut-retenir-de-la-journee-du-mardi-25-juin-marquee-par-le-debat-entre-jordan-bardella-gabriel-attal-et-manuel-bompard_6625950.html",
+        "titre": "Le débat entre Jordan Bardella, Gabriel Attal et Manuel Bompard",
+        "type": "article-de-presse",
+        "date": "2024-06-25"
       }
     }
   },
@@ -604,7 +604,7 @@
     },
     "site_officiel": "https://mouvementdemocrate.fr",
     "processus_designation": null,
-    "derniere_verification": "2026-10-09",
+    "derniere_verification": "2026-10-10",
     "fondation": {
       "annee": 2007,
       "source": {
@@ -616,12 +616,12 @@
     },
     "dirigeant": {
       "nom": "François Bayrou",
-      "fonction": null,
+      "fonction": "Président",
       "source": {
-        "titre": "Wikidata",
-        "type": "encyclopedie",
-        "date": "2026-10-10",
-        "url": "https://www.wikidata.org/wiki/Q587370"
+        "url": "https://www.mouvementdemocrate.fr/",
+        "titre": "Mouvement démocrate - site officiel",
+        "type": "site-de-parti",
+        "date": "2026-10-10"
       }
     }
   },
@@ -725,7 +725,7 @@
     },
     "site_officiel": "https://parti-animaliste.fr",
     "processus_designation": null,
-    "derniere_verification": "2026-10-09",
+    "derniere_verification": "2026-10-10",
     "fondation": {
       "annee": 2016,
       "source": {
@@ -736,13 +736,13 @@
       }
     },
     "dirigeant": {
-      "nom": "Catherine Hélayel",
-      "fonction": null,
+      "nom": "Douchka Markovic",
+      "fonction": "Coprésidente",
       "source": {
-        "titre": "Wikidata",
-        "type": "encyclopedie",
-        "date": "2026-10-10",
-        "url": "https://www.wikidata.org/wiki/Q27867942"
+        "url": "https://parti-animaliste.fr/",
+        "titre": "Parti animaliste - site officiel",
+        "type": "site-de-parti",
+        "date": "2026-10-10"
       }
     }
   },
@@ -822,21 +822,21 @@
     "site_officiel": "https://parti-socialiste.fr",
     "processus_designation": {
       "type": "primaire-fermee",
-      "libelle": "Primaire présidentielle socialiste, organisée avec Place publique et la Gauche républicaine et socialiste : premier tour les 9 et 10 octobre 2026, second tour éventuel les 16 et 17 octobre",
+      "libelle": "Primaire présidentielle socialiste, organisée avec Place publique et la Gauche républicaine et socialiste. Le premier tour, ouvert le 9 octobre 2026, a été prolongé jusqu'au dimanche 11 octobre à 18 heures après une cyberattaque par déni de service contre la plateforme de vote ; un second tour est prévu les 16 et 17 octobre. Le seuil de 100 000 votants sur 140 000 inscrits a été franchi le 10 octobre au soir, et des experts techniques ont conclu à l'absence d'altération de la sincérité du scrutin.",
       "dates": [
         "2026-10-09",
-        "2026-10-10",
+        "2026-10-11",
         "2026-10-16",
         "2026-10-17"
       ],
       "source": {
-        "url": "https://lcp.fr/actualites/accord-avec-lfi-moyen-orient-pouvoir-d-achat-ce-qu-il-faut-retenir-du-premier-debat-de",
-        "titre": "Accord avec LFI, Moyen-Orient, pouvoir d'achat : ce qu'il faut retenir du premier débat de la primaire de gauche",
+        "url": "https://www.franceinfo.fr/elections/presidentielle/la-plateforme-de-vote-pour-la-primaire-socialiste-victime-d-une-cyberattaque-depuis-son-ouverture-annonce-la-commission-d-organisation_8229811.html",
+        "titre": "La plateforme de vote pour la primaire de la gauche « victime d'une cyberattaque », le scrutin prolongé jusqu'à dimanche à 18 heures",
         "type": "article-de-presse",
-        "date": "2026-09-23"
+        "date": "2026-10-09"
       }
     },
-    "derniere_verification": "2026-10-09",
+    "derniere_verification": "2026-10-10",
     "fondation": {
       "annee": 1969,
       "source": {
@@ -917,7 +917,7 @@
     },
     "site_officiel": "https://rassemblementnational.fr",
     "processus_designation": null,
-    "derniere_verification": "2026-10-09",
+    "derniere_verification": "2026-10-10",
     "fondation": {
       "annee": 1972,
       "source": {
@@ -927,7 +927,16 @@
         "url": "https://www.wikidata.org/wiki/Q205150"
       }
     },
-    "dirigeant": null
+    "dirigeant": {
+      "nom": "Jordan Bardella",
+      "fonction": "Président",
+      "source": {
+        "url": "https://www.franceinfo.fr/politique/jordan-bardella/direct-propos-antisemites-attribues-a-jordan-bardella-le-president-du-rn-ment-ehontement-accuse-gerald-darmanin_8219365.html",
+        "titre": "Propos antisémites attribués à Jordan Bardella : les réactions politiques",
+        "type": "article-de-presse",
+        "date": "2026-09-30"
+      }
+    }
   },
   {
     "id": "reconquete",

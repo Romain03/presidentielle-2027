@@ -203,12 +203,9 @@ export default async function PageFamille({ params }: { params: Promise<{ slug: 
           Ce que disent ses candidats
         </h2>
 
-        {f.themesRenseignes.length === 0 ? (
-          <p className="text-sm text-stone-600 dark:text-stone-400">
-            Aucun candidat de cette famille ne s’est exprimé de manière sourçable sur l’un des
-            douze thèmes suivis.
-          </p>
-        ) : (
+        {/* Même doublon que sur les fiches de parti : la liste des thèmes
+            muets ci-dessous nomme déjà les thèmes concernés. */}
+        {f.themesRenseignes.length > 0 && (
           <div className="space-y-4">
             {f.themesRenseignes.map((bloc) => (
               <section key={bloc.theme.id} className="carte p-5">
@@ -220,7 +217,7 @@ export default async function PageFamille({ params }: { params: Promise<{ slug: 
                   </h3>
                   <p className="text-sm text-stone-600 dark:text-stone-400">
                     {bloc.exprimes}{' '}
-                    {pluriel(bloc.exprimes, 'candidat s’est exprimé', 'candidats se sont exprimés')}{' '}
+                    {pluriel(bloc.exprimes, 'position relevée', 'positions relevées')}{' '}
                     sur {f.candidats.length}
                   </p>
                 </div>
@@ -270,7 +267,7 @@ export default async function PageFamille({ params }: { params: Promise<{ slug: 
 
         {f.themesMuets.length > 0 && (
           <p className="text-sm leading-relaxed text-stone-600 dark:text-stone-400">
-            Aucun candidat de cette famille ne s’est exprimé de manière sourçable sur :{' '}
+            Aucune position n’a été relevée dans cette famille sur :{' '}
             {f.themesMuets.map((theme, i) => (
               <span key={theme.id}>
                 {i > 0 && ', '}

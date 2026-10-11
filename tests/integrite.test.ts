@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import {
+  calendrier,
   candidats,
   derniereMiseAJour,
   getCandidat,
@@ -79,6 +80,33 @@ describe('données publiées', () => {
       ...propositions.map((p) => p.derniere_verification),
     ];
     expect(derniereMiseAJour).toBe(toutes.sort().at(-1));
+  });
+});
+
+describe('calendrier du scrutin', () => {
+  it('est trié par ordre chronologique', () => {
+    const dates = calendrier.map((e) => e.date);
+    expect([...dates].sort()).toEqual(dates);
+  });
+
+  it('ne porte que des dates postérieures au dernier relevé', () => {
+    for (const etape of calendrier) expect(etape.date > derniereMiseAJour).toBe(true);
+  });
+
+  /*
+    Une date de scrutin fausse est la pire erreur que ce site puisse faire :
+    elle enverrait quelqu'un voter le mauvais jour. Chaque étape porte donc sa
+    source, et le second tour tombe deux semaines après le premier, comme
+    l'impose le code électoral.
+  */
+  it('porte une source par étape et respecte l’écart de deux semaines', () => {
+    for (const etape of calendrier) expect(etape.sources.length).toBeGreaterThan(0);
+    const premier = calendrier.find((e) => e.id === 'premier-tour');
+    const second = calendrier.find((e) => e.id === 'second-tour');
+    expect(premier && second).toBeTruthy();
+    const ecart =
+      (new Date(second!.date).getTime() - new Date(premier!.date).getTime()) / 86_400_000;
+    expect(ecart).toBe(14);
   });
 });
 

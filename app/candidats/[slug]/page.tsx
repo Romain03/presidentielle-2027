@@ -11,11 +11,10 @@ import Sources from '@/components/Sources';
 import CreditPhoto from '@/components/CreditPhoto';
 import PastilleParti from '@/components/PastilleParti';
 import PortraitCandidat from '@/components/PortraitCandidat';
-import PositionNonCommuniquee from '@/components/PositionNonCommuniquee';
 import ParcoursCandidat from '@/components/ParcoursCandidat';
 import Reperes from '@/components/Reperes';
 import { candidats, getCandidat, getParti, propositionsDuCandidat, themes } from '@/lib/data';
-import { formaterDate, nomComplet } from '@/lib/format';
+import { formaterDate, nomComplet, elider } from '@/lib/format';
 
 export function generateStaticParams() {
   return candidats.map((c) => ({ slug: c.id }));
@@ -31,7 +30,7 @@ export async function generateMetadata({
   if (!candidat) return { title: 'Candidat introuvable' };
   return {
     title: nomComplet(candidat),
-    description: `Parcours, parti, soutiens et positions par thème de ${nomComplet(candidat)} pour l’élection présidentielle de 2027.`,
+    description: `Parcours, parti, soutiens et positions par thème ${elider('de', nomComplet(candidat))} pour l’élection présidentielle de 2027.`,
   };
 }
 
@@ -42,6 +41,9 @@ export default async function PageCandidat({ params }: { params: Promise<{ slug:
 
   const parti = getParti(candidat.parti_id);
   const couverts = themes.filter((t) => propositionsDuCandidat(candidat.id, t.id).length > 0);
+  const muets = themes.filter(
+    (theme) => propositionsDuCandidat(candidat.id, theme.id).length === 0,
+  );
 
   return (
     <article className="space-y-10">
@@ -109,30 +111,48 @@ export default async function PageCandidat({ params }: { params: Promise<{ slug:
         </h2>
         <p className="text-sm text-stone-600 dark:text-stone-400">
           {couverts.length} des {themes.length} thèmes suivis portent une position relevée. Les
-          autres sont affichés quand même, dans l’ordre alphabétique : une case vide est une
-          lacune de ce site, pas un silence du candidat.
+          autres sont listés à la fin : une case vide est une lacune de ce site, pas un silence du
+          candidat.
         </p>
+
+        {/*
+          Les thèmes sans position sont regroupés au lieu d'être intercalés un
+          par un. Intercalés, ils doublaient la longueur de la page et il
+          fallait franchir dix « Rien relevé » pour aller d'une position à la
+          suivante. Chaque thème muet garde son ancre : les fiches de parti
+          pointent vers /candidats/x/#theme.
+        */}
         <div className="space-y-6">
-          {themes.map((theme) => {
-            const propositions = propositionsDuCandidat(candidat.id, theme.id);
-            return (
+          {themes
+            .filter((theme) => propositionsDuCandidat(candidat.id, theme.id).length > 0)
+            .map((theme) => (
               <section key={theme.id} id={theme.id} className="space-y-2.5">
                 <h3 className="font-medium">
                   <Link href={`/themes/${theme.id}/`} className="underline-offset-2 hover:underline">
                     {theme.libelle}
                   </Link>
                 </h3>
-                {propositions.length === 0 ? (
-                  <PositionNonCommuniquee />
-                ) : (
-                  propositions.map((proposition) => (
-                    <BlocProposition key={proposition.id} proposition={proposition} />
-                  ))
-                )}
+                {propositionsDuCandidat(candidat.id, theme.id).map((proposition) => (
+                  <BlocProposition key={proposition.id} proposition={proposition} />
+                ))}
               </section>
-            );
-          })}
+            ))}
         </div>
+
+        {muets.length > 0 && (
+          <p className="text-sm leading-relaxed text-stone-600 dark:text-stone-400">
+            Rien relevé par ce site à ce jour sur{' '}
+            {muets.map((theme, i) => (
+              <span key={theme.id} id={theme.id}>
+                {i > 0 && (i === muets.length - 1 ? ' et ' : ', ')}
+                <Link href={`/themes/${theme.id}/`} className="lien">
+                  {theme.libelle.toLowerCase()}
+                </Link>
+              </span>
+            ))}
+            .
+          </p>
+        )}
       </section>
       <section aria-labelledby="reperes" className="space-y-3">
         <h2 id="reperes" className="text-lg font-semibold">

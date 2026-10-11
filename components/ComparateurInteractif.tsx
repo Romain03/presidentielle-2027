@@ -116,7 +116,7 @@ export default function ComparateurInteractif({
             </span>
           ))}
 
-          <label className="flex items-center gap-2 text-sm">
+          <label className="flex min-w-0 basis-full items-center gap-2 text-sm sm:basis-auto">
             <span className="sr-only">Ajouter un candidat à la comparaison</span>
             <select
               value=""
@@ -124,7 +124,7 @@ export default function ComparateurInteractif({
               onChange={(e) => {
                 if (e.target.value !== '') setSelection([...selection, e.target.value]);
               }}
-              className="min-h-11 rounded-md border border-stone-300 bg-white px-2.5 py-2 text-sm disabled:opacity-50 sm:min-h-0 sm:py-1.5 dark:border-stone-700 dark:bg-nuit-clair"
+              className="min-h-11 w-full min-w-0 rounded-md border border-stone-300 bg-white px-2.5 py-2 text-sm disabled:opacity-50 sm:min-h-0 sm:w-auto sm:py-1.5 dark:border-stone-700 dark:bg-nuit-clair"
             >
               <option value="">
                 {complet ? `Maximum ${MAX_CANDIDATS} candidats` : '+ Ajouter un candidat'}

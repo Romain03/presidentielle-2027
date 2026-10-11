@@ -12,7 +12,7 @@
 import { readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
-import { Candidats, Partis, Propositions, Questions, Themes } from '../lib/schemas.ts';
+import { Calendrier, Candidats, Partis, Propositions, Questions, Themes } from '../lib/schemas.ts';
 
 const racine = join(dirname(fileURLToPath(import.meta.url)), '..');
 const erreurs: string[] = [];
@@ -41,6 +41,7 @@ const candidats = valider<any>(Candidats, 'candidats.json');
 const themes = valider<any>(Themes, 'themes.json');
 const propositions = valider<any>(Propositions, 'propositions.json');
 const questionsTest = valider<any>(Questions, 'questions.json');
+valider<any>(Calendrier, 'calendrier.json');
 
 /* --------------------------------------------------- intégrité référentielle */
 

@@ -1,69 +1,63 @@
 [
   {
     "date": "2026-10-11",
-    "resume": "Veille automatique des sources, hebdomadaire, qui ne publie rien",
+    "resume": "2 propositions modifiées",
     "fichiers": [
-      "candidats.json",
-      "journal.json"
+      "propositions.json"
+    ],
+    "commit": "9d51f3d22f"
+  },
+  {
+    "date": "2026-10-11",
+    "resume": "1 candidature modifiée",
+    "fichiers": [
+      "candidats.json"
     ],
     "commit": "cdfa2ab13a"
   },
   {
     "date": "2026-10-10",
-    "resume": "Propositions : Le Monde etaye 20 citations, source unique tombe de 44 a 27",
+    "resume": "20 propositions modifiées",
     "fichiers": [
-      "journal.json",
       "propositions.json"
     ],
     "commit": "eb3134d17f"
   },
   {
     "date": "2026-10-10",
-    "resume": "Roster : les statuts portent plusieurs sources, 33 corrobores par Le Monde",
+    "resume": "44 candidatures modifiées",
     "fichiers": [
-      "candidats.json",
-      "journal.json"
+      "candidats.json"
     ],
     "commit": "03cb42b264"
   },
   {
     "date": "2026-10-10",
-    "resume": "Sources : 20 Minutes entre dans le corpus, et le navigateur leve le blocage du robot",
+    "resume": "2 propositions modifiées",
     "fichiers": [
-      "journal.json",
       "propositions.json"
     ],
     "commit": "6af9a661a6"
   },
   {
     "date": "2026-10-10",
-    "resume": "Sources : CNews passe de 53 % a 5 % des citations",
+    "resume": "27 propositions modifiées",
     "fichiers": [
-      "journal.json",
       "propositions.json"
     ],
     "commit": "6623cb91de"
   },
   {
     "date": "2026-10-10",
-    "resume": "Sources : plusieurs par proposition, corroborations de service public",
+    "resume": "57 propositions modifiées",
     "fichiers": [
-      "journal.json",
       "propositions.json"
     ],
     "commit": "add82cee66"
   },
   {
     "date": "2026-10-10",
-    "resume": "Journal des donnees, limites assumees, pile serif allongee",
-    "fichiers": [
-      "journal.json"
-    ],
-    "commit": "e7470afdf7"
-  },
-  {
-    "date": "2026-10-10",
-    "resume": "Parcours : dates exactes pour les mandats courts, ordre reel",
+    "resume": "37 candidatures modifiées",
     "fichiers": [
       "candidats.json"
     ],
@@ -71,7 +65,7 @@
   },
   {
     "date": "2026-10-10",
-    "resume": "Revue externe : transparence des sources, page A propos, details de texte",
+    "resume": "7 candidatures modifiées",
     "fichiers": [
       "candidats.json"
     ],
@@ -79,7 +73,7 @@
   },
   {
     "date": "2026-10-10",
-    "resume": "Revue externe : libelles honnetes, badges exacts, dirigeants corriges",
+    "resume": "22 partis modifiés · 57 propositions modifiées",
     "fichiers": [
       "partis.json",
       "propositions.json"
@@ -88,7 +82,7 @@
   },
   {
     "date": "2026-10-10",
-    "resume": "Partis : leurs propres mots, et un theme sombre lisible",
+    "resume": "26 partis modifiés",
     "fichiers": [
       "partis.json"
     ],
@@ -96,7 +90,7 @@
   },
   {
     "date": "2026-10-10",
-    "resume": "Fiches candidats : reperes biographiques et parcours",
+    "resume": "44 candidatures modifiées",
     "fichiers": [
       "candidats.json"
     ],
@@ -104,7 +98,7 @@
   },
   {
     "date": "2026-10-10",
-    "resume": "Fiches de parti : faits verifiables et propositions des candidats",
+    "resume": "33 partis modifiés",
     "fichiers": [
       "partis.json"
     ],
@@ -112,7 +106,7 @@
   },
   {
     "date": "2026-10-10",
-    "resume": "Test de proximite : moteur, interface et seuils d'activation",
+    "resume": "29 propositions modifiées · 6 questions au départ",
     "fichiers": [
       "propositions.json",
       "questions.json"
@@ -121,7 +115,7 @@
   },
   {
     "date": "2026-10-09",
-    "resume": "Pages par famille politique",
+    "resume": "1 candidature modifiée · 6 propositions modifiées",
     "fichiers": [
       "candidats.json",
       "propositions.json"
@@ -130,7 +124,7 @@
   },
   {
     "date": "2026-10-09",
-    "resume": "Portraits des candidats, sous licence libre",
+    "resume": "44 candidatures modifiées",
     "fichiers": [
       "candidats.json"
     ],
@@ -138,7 +132,7 @@
   },
   {
     "date": "2026-10-09",
-    "resume": "Tirets simples et refonte visuelle plus chaleureuse",
+    "resume": "2 candidatures modifiées · 1 parti modifié · 4 propositions modifiées",
     "fichiers": [
       "candidats.json",
       "partis.json",
@@ -148,7 +142,7 @@
   },
   {
     "date": "2026-10-09",
-    "resume": "Application Présidentielle 2027 : données, interface et déploiement",
+    "resume": "44 candidatures au départ · 33 partis au départ · 57 propositions au départ · 12 thèmes au départ",
     "fichiers": [
       "candidats.json",
       "partis.json",

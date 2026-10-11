@@ -1,4 +1,5 @@
 import {
+  Calendrier,
   Candidats,
   Partis,
   Propositions,
@@ -7,12 +8,14 @@ import {
   Themes,
   enLice,
   type Candidat,
+  type EtapeCalendrier,
   type EntreeJournal,
   type Parti,
   type Proposition,
   type Question,
   type Theme,
 } from './schemas';
+import calendrierJson from '../data/calendrier.json';
 import candidatsJson from '../data/candidats.json';
 import journalJson from '../data/journal.json';
 import partisJson from '../data/partis.json';
@@ -52,6 +55,17 @@ const parNomParti = (a: Parti, b: Parti) => a.nom.localeCompare(b.nom, 'fr');
 export const partis: Parti[] = valider(Partis, partisJson, 'partis.json').sort(parNomParti);
 export const candidats: Candidat[] = valider(Candidats, candidatsJson, 'candidats.json').sort(parNom);
 export const themes: Theme[] = valider(Themes, themesJson, 'themes.json').sort(parLibelle);
+
+/**
+ * Les échéances du scrutin, par ordre chronologique. Seules y figurent les
+ * dates officialisées : une étape dont la date dépend d'un décret non paru est
+ * absente plutôt qu'estimée.
+ */
+export const calendrier: EtapeCalendrier[] = valider(
+  Calendrier,
+  calendrierJson,
+  'calendrier.json',
+).sort((x, y) => x.date.localeCompare(y.date));
 export const propositions: Proposition[] = valider(
   Propositions,
   propositionsJson,

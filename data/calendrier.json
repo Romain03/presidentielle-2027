@@ -1,0 +1,56 @@
+[
+  {
+    "id": "premier-tour",
+    "libelle": "Premier tour",
+    "date": "2027-04-18",
+    "date_fin": null,
+    "precision": "Date officialisée en conseil des ministres le 1er juillet 2026. L'article 7 de la Constitution impose un scrutin de vingt à trente-cinq jours avant l'expiration du mandat en cours. La Guadeloupe, la Martinique, la Guyane, Saint-Pierre-et-Miquelon, Saint-Barthélemy, Saint-Martin et la Polynésie française votent la veille, le samedi 17 avril, pour ne pas voter après la publication des résultats métropolitains.",
+    "sources": [
+      {
+        "url": "https://lcp.fr/actualites/presidentielle-2027-les-dates-du-premier-et-du-second-tour-fixees-438582",
+        "titre": "L'élection présidentielle aura lieu les 18 avril et 2 mai 2027",
+        "type": "article-de-presse",
+        "date": "2026-06-30"
+      },
+      {
+        "url": "https://www.publicsenat.fr/actualites/politique/la-prochaine-election-presidentielle-aura-lieu-les-18-avril-et-2-mai-2027",
+        "titre": "La prochaine élection présidentielle aura lieu les 18 avril et 2 mai 2027",
+        "type": "article-de-presse",
+        "date": "2026-07-01"
+      },
+      {
+        "url": "https://la1ere.franceinfo.fr/la-prochaine-election-presidentielle-aura-lieu-les-18-avril-et-2-mai-2027-mais-le-vote-se-deroulera-la-veille-dans-certains-territoires-ultramarins-1715707.html",
+        "titre": "La prochaine élection présidentielle aura lieu les 18 avril et 2 mai 2027, mais le vote se déroulera la veille dans certains territoires ultramarins",
+        "type": "article-de-presse",
+        "date": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "id": "second-tour",
+    "libelle": "Second tour",
+    "date": "2027-05-02",
+    "date_fin": null,
+    "precision": "Deux semaines après le premier tour, au lendemain du 1er-Mai. La Guadeloupe, la Martinique, la Guyane, Saint-Pierre-et-Miquelon, Saint-Barthélemy, Saint-Martin et la Polynésie française votent la veille, le samedi 1er mai, pour ne pas voter après la publication des résultats métropolitains.",
+    "sources": [
+      {
+        "url": "https://lcp.fr/actualites/presidentielle-2027-les-dates-du-premier-et-du-second-tour-fixees-438582",
+        "titre": "L'élection présidentielle aura lieu les 18 avril et 2 mai 2027",
+        "type": "article-de-presse",
+        "date": "2026-06-30"
+      },
+      {
+        "url": "https://www.publicsenat.fr/actualites/politique/la-prochaine-election-presidentielle-aura-lieu-les-18-avril-et-2-mai-2027",
+        "titre": "La prochaine élection présidentielle aura lieu les 18 avril et 2 mai 2027",
+        "type": "article-de-presse",
+        "date": "2026-07-01"
+      },
+      {
+        "url": "https://la1ere.franceinfo.fr/la-prochaine-election-presidentielle-aura-lieu-les-18-avril-et-2-mai-2027-mais-le-vote-se-deroulera-la-veille-dans-certains-territoires-ultramarins-1715707.html",
+        "titre": "La prochaine élection présidentielle aura lieu les 18 avril et 2 mai 2027, mais le vote se déroulera la veille dans certains territoires ultramarins",
+        "type": "article-de-presse",
+        "date": "2026-07-01"
+      }
+    ]
+  }
+]

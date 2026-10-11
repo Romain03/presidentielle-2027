@@ -385,6 +385,16 @@ export default function PageMethodologie() {
           endroit du site qui produit un pourcentage, et il obéit à des règles strictes, parce
           qu'un score de proximité mal construit est plus trompeur qu'une absence de score.
         </p>
+        <p className="rounded-xl border border-amber-700/20 bg-amber-50/70 p-4 text-sm leading-relaxed text-stone-700 dark:border-amber-500/20 dark:bg-amber-950/20 dark:text-stone-300">
+          <strong className="font-semibold">Il n'est pas encore en service</strong>, faute
+          d'indicateurs comparables en nombre suffisant. C'est pourquoi il ne figure ni dans le
+          menu ni dans le plan du site : référencer une page qui annonce son propre report
+          n'aiderait personne. La page existe, décrit ce qui manque et{' '}
+          <Link href="/test/" className="lien">
+            peut être consultée
+          </Link>{' '}
+          ; elle s'activera d'elle-même quand les données le permettront.
+        </p>
         <ul className="list-disc space-y-1.5 pl-5 text-sm leading-relaxed text-stone-700 dark:text-stone-300">
           <li>
             <strong className="font-semibold">Aucune question n'est inventée.</strong> Chacune
@@ -579,7 +589,7 @@ export default function PageMethodologie() {
             le candidat a dit. Le lien vers la source permet de le vérifier.
           </li>
           <li>
-            Les positions évoluent. La date de source et la date de dernière vérification sont
+            Les positions évoluent. La date de la source et la date du dernier relevé sont
             affichées pour que l’ancienneté d’une information soit visible.
           </li>
           <li>

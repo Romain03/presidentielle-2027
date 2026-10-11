@@ -478,6 +478,29 @@ export type EntreeJournal = z.infer<typeof EntreeJournal>;
 
 export const Journal = z.array(EntreeJournal);
 
+/* --------------------------------------------------------------- calendrier */
+
+/**
+ * Une échéance du scrutin. Rien n'y est calculé ni déduit : seules figurent
+ * les dates officialisées, avec la source qui l'atteste. Les étapes dont la
+ * date dépend d'un décret non paru sont absentes plutôt qu'estimées.
+ */
+export const EtapeCalendrier = z
+  .object({
+    id: Slug,
+    libelle: z.string().min(3),
+    date: DateISO,
+    /** Second jour d'une étape qui en couvre deux (outre-mer, primaires). */
+    date_fin: DateISO.nullable().default(null),
+    precision: z.string().min(3).nullable().default(null),
+    sources: z.array(Source).min(1),
+  })
+  .strict();
+
+export type EtapeCalendrier = z.infer<typeof EtapeCalendrier>;
+
+export const Calendrier = z.array(EtapeCalendrier);
+
 export const Candidats = z.array(Candidat);
 export const Themes = z.array(Theme);
 export const Propositions = z.array(Proposition);

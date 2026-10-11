@@ -4992,19 +4992,6 @@
       {
         "debut": 2020,
         "fin": null,
-        "debut_date": "2020-10-27",
-        "fin_date": null,
-        "libelle": "Membre du conseil d'administration (Atos SE)",
-        "source": {
-          "titre": "Wikidata",
-          "type": "encyclopedie",
-          "date": "2026-10-10",
-          "url": "https://www.wikidata.org/wiki/Q3579995"
-        }
-      },
-      {
-        "debut": 2020,
-        "fin": null,
         "debut_date": "2020-07-05",
         "fin_date": null,
         "libelle": "Maire du Havre",
@@ -5029,16 +5016,29 @@
         }
       },
       {
-        "debut": 2017,
-        "fin": 2017,
-        "debut_date": "2017-10-03",
-        "fin_date": "2017-10-16",
-        "libelle": "Ministre de l'Intérieur",
+        "debut": 2020,
+        "fin": 2023,
+        "debut_date": "2020-10-27",
+        "fin_date": null,
+        "libelle": "Membre du conseil d'administration (Atos SE)",
         "source": {
-          "titre": "Wikidata",
-          "type": "encyclopedie",
-          "date": "2026-10-10",
-          "url": "https://www.wikidata.org/wiki/Q3579995"
+          "url": "https://atos.net/fr/2023/communiques-de-presse_2023_05_17/evolution-de-la-composition-du-conseil-dadministration-datos-et-convocation-de-lassemblee-generale-annuelle-2023",
+          "titre": "Évolution de la composition du conseil d'administration d'Atos et convocation de l'assemblée générale annuelle 2023",
+          "type": "communique",
+          "date": "2023-05-17"
+        }
+      },
+      {
+        "debut": 2018,
+        "fin": 2018,
+        "debut_date": null,
+        "fin_date": null,
+        "libelle": "Ministre de l'Intérieur par intérim",
+        "source": {
+          "url": "https://www.franceinfo.fr/politique/gouvernement-d-edouard-philippe/demission-de-gerard-collomb/remaniement-reporte-deplacements-avec-les-forces-de-l-ordre-discours-a-l-assemblee-la-semaine-ou-edouard-philippe-s-est-demultiplie_2985303.html",
+          "titre": "Remaniement reporté, déplacements avec les forces de l'ordre, discours à l'Assemblée... La semaine où Édouard Philippe s'est démultiplié",
+          "type": "article-de-presse",
+          "date": "2018-10-14"
         }
       },
       {
@@ -5160,7 +5160,7 @@
         "url": "https://www.edouardphilippe.fr/"
       }
     ],
-    "derniere_verification": "2026-10-09",
+    "derniere_verification": "2026-10-10",
     "photo": {
       "fichier": "edouard-philippe.webp",
       "auteur": "Wasasaq8",
@@ -5209,6 +5209,24 @@
             "type": "encyclopedie",
             "date": "2026-10-10",
             "url": "https://www.wikidata.org/wiki/Q3579995"
+          }
+        },
+        {
+          "libelle": "Membre du Conseil d’État",
+          "source": {
+            "url": "https://www.franceinfo.fr/politique/emmanuel-macron/qui-est-edouard-philippe-le-nouveau-premier-ministre_2192607.html",
+            "titre": "Qui est Édouard Philippe, le nouveau Premier ministre ?",
+            "type": "article-de-presse",
+            "date": "2017-05-15"
+          }
+        },
+        {
+          "libelle": "Passage dans le privé, notamment chez Areva",
+          "source": {
+            "url": "https://www.franceinfo.fr/politique/emmanuel-macron/qui-est-edouard-philippe-le-nouveau-premier-ministre_2192607.html",
+            "titre": "Qui est Édouard Philippe, le nouveau Premier ministre ?",
+            "type": "article-de-presse",
+            "date": "2017-05-15"
           }
         }
       ],

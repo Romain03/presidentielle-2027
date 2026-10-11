@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import DerniereMiseAJour from '@/components/DerniereMiseAJour';
-import { candidats, derniereMiseAJour, propositionsDuTheme, themes } from '@/lib/data';
+import { candidats, statistiques, derniereMiseAJour, propositionsDuTheme, themes } from '@/lib/data';
 import { pluriel } from '@/lib/format';
 
 export const metadata: Metadata = {
@@ -36,8 +36,8 @@ export default function PageThemes() {
                   {theme.description}
                 </span>
                 <span className="mt-2 block text-xs text-stone-600 dark:text-stone-400">
-                  {nombre} {pluriel(nombre, 'candidat s’est exprimé', 'candidats se sont exprimés')}{' '}
-                  sur {candidats.length}
+                  {nombre} des {statistiques.enLice} candidatures engagées{' '}
+                  {pluriel(nombre, 'a une position relevée', 'ont une position relevée')}
                 </span>
               </Link>
             </li>

@@ -250,6 +250,20 @@
 }
 
 /* Rangée défilante sans barre visible (navigation sur mobile). */
+/**
+ * Dégradé au bord droit d'une liste qui défile horizontalement, pour dire
+ * qu'elle continue. Sans lui, et la barre de défilement étant masquée, la
+ * dernière pastille du menu mobile était simplement coupée.
+ *
+ * Le dégradé n'est posé qu'au pointeur grossier : au pointeur fin la barre de
+ * défilement réapparaît au survol et suffit.
+ */
+@utility indice-defilement {
+  @media (pointer: coarse) {
+    mask-image: linear-gradient(to right, #000 calc(100% - 1.75rem), transparent);
+  }
+}
+
 @utility sans-barre-defilement {
   scrollbar-width: none;
   -ms-overflow-style: none;

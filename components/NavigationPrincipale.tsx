@@ -57,7 +57,12 @@ export default function NavigationPrincipale({
 
   return (
     <nav aria-label="Navigation principale" className="lg:hidden">
-      <ul className="sans-barre-defilement -mx-4 flex gap-1 overflow-x-auto px-4 pb-2 sm:-mx-6 sm:px-6">
+      {/*
+        La barre de défilement est masquée, et les sept pastilles ne tiennent
+        pas sur un écran de téléphone : la dernière était coupée sans que rien
+        n'indique qu'on pouvait faire défiler. Le dégradé du bord droit le dit.
+      */}
+      <ul className="sans-barre-defilement indice-defilement -mx-4 flex gap-1 overflow-x-auto px-4 pb-2 sm:-mx-6 sm:px-6">
         {liens.map((lien) => {
           const courant = estCourant(chemin, lien.href);
           return (

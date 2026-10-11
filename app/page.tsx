@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import BadgeStatut from '@/components/BadgeStatut';
+import CalendrierScrutin from '@/components/CalendrierScrutin';
 import DerniereMiseAJour from '@/components/DerniereMiseAJour';
 import PortraitCandidat from '@/components/PortraitCandidat';
 import {
@@ -42,7 +43,12 @@ export default function Accueil() {
   const engages = candidats.filter((c) => enLice(c.statut));
   const couverts = engages.filter((c) => nombrePropositions(c.id) > 0).length;
   const principal = sourcesDesPropositions.medias[0];
-  const partDuPrincipal = Math.round((principal.nombre / statistiques.propositions) * 100);
+  // Denominateur : les citations, comme en methodologie. Le rapporter aux
+  // propositions donnait 46 % contre 25 % pour la meme realite, une
+  // proposition pouvant porter plusieurs sources.
+  const partDuPrincipal = Math.round(
+    (principal.nombre / sourcesDesPropositions.citations) * 100,
+  );
 
   return (
     <div className="space-y-12">
@@ -67,7 +73,8 @@ export default function Accueil() {
             panorama.</strong>{' '}
             {statistiques.propositions} propositions ont été relevées, dans{' '}
             {sourcesDesPropositions.articles} articles de {sourcesDesPropositions.medias.length}{' '}
-            médias - dont {partDuPrincipal} % dans un seul. {couverts} des {statistiques.enLice}{' '}
+            sources - dont {partDuPrincipal} % des citations dans une seule. {couverts} des{' '}
+            {statistiques.enLice}{' '}
             candidatures engagées ont au moins une position relevée.
           </p>
           <p>
@@ -79,6 +86,49 @@ export default function Accueil() {
             .
           </p>
         </div>
+      </section>
+
+      <CalendrierScrutin />
+
+      {/*
+        Les sujets passent avant la liste des candidatures. Sur mobile, les 31
+        cartes s'empilent sur une colonne : « Entrer par un sujet » arrivait à
+        3 000 px du haut, soit après les trois quarts de la page, alors que
+        c'est la porte d'entrée la plus utile pour qui ne connaît pas encore
+        les candidats.
+      */}
+      <section aria-labelledby="themes" className="space-y-4">
+        <h2 id="themes" className="text-xl font-semibold">
+          Entrer par un sujet
+        </h2>
+        <p className="max-w-2xl text-sm text-stone-600 dark:text-stone-400">
+          Le nombre indique les positions relevées, pas l’importance du sujet : il mesure ce que le
+          site a trouvé.
+        </p>
+        <ul className="flex flex-wrap gap-2">
+          {themes.map((theme) => {
+            const nombre = propositionsDuTheme(theme.id).length;
+            return (
+              <li key={theme.id}>
+                <Link
+                  href={`/themes/${theme.id}/`}
+                  className="inline-flex items-baseline gap-2 rounded-full border border-stone-900/10 bg-white px-3.5 py-2 text-sm transition hover:border-stone-900/25 hover:bg-creme-ombre dark:border-nuit-bord dark:bg-nuit-clair dark:hover:border-stone-500"
+                >
+                  {theme.libelle}
+                  <span
+                    className={`tabular-nums text-xs ${
+                      nombre === 0
+                        ? 'text-stone-500 dark:text-stone-500'
+                        : 'text-stone-600 dark:text-stone-400'
+                    }`}
+                  >
+                    {nombre === 0 ? 'rien relevé' : nombre}
+                  </span>
+                </Link>
+              </li>
+            );
+          })}
+        </ul>
       </section>
 
       <section aria-labelledby="en-lice" className="space-y-4">
@@ -128,40 +178,6 @@ export default function Accueil() {
                       <BadgeStatut statut={candidat.statut} />
                     </span>
                   )}
-                </Link>
-              </li>
-            );
-          })}
-        </ul>
-      </section>
-
-      <section aria-labelledby="themes" className="space-y-4">
-        <h2 id="themes" className="text-xl font-semibold">
-          Entrer par un sujet
-        </h2>
-        <p className="max-w-2xl text-sm text-stone-600 dark:text-stone-400">
-          Le nombre indique les positions relevées, pas l’importance du sujet : il mesure ce que le
-          site a trouvé.
-        </p>
-        <ul className="flex flex-wrap gap-2">
-          {themes.map((theme) => {
-            const nombre = propositionsDuTheme(theme.id).length;
-            return (
-              <li key={theme.id}>
-                <Link
-                  href={`/themes/${theme.id}/`}
-                  className="inline-flex items-baseline gap-2 rounded-full border border-stone-900/10 bg-white px-3.5 py-2 text-sm transition hover:border-stone-900/25 hover:bg-creme-ombre dark:border-nuit-bord dark:bg-nuit-clair dark:hover:border-stone-500"
-                >
-                  {theme.libelle}
-                  <span
-                    className={`tabular-nums text-xs ${
-                      nombre === 0
-                        ? 'text-stone-500 dark:text-stone-500'
-                        : 'text-stone-600 dark:text-stone-400'
-                    }`}
-                  >
-                    {nombre === 0 ? 'rien relevé' : nombre}
-                  </span>
                 </Link>
               </li>
             );

@@ -232,12 +232,18 @@ export default async function PageParti({ params }: { params: Promise<{ slug: st
           Ce que proposent ses candidats
         </h2>
 
-        {synthese.themesRenseignes.length === 0 ? (
+        {/*
+          Quand aucun thème n'est renseigné, la liste des thèmes muets ci-dessous
+          dit déjà la même chose en nommant les thèmes : une phrase générique
+          avant elle donnait deux fois de suite la même information.
+        */}
+        {membres.length === 0 && (
           <p className="text-sm text-stone-600 dark:text-stone-400">
-            Aucun candidat de ce parti ne s’est exprimé de manière sourçable sur l’un des douze
-            thèmes suivis.
+            Aucun candidat n’est rattaché à ce parti à ce stade.
           </p>
-        ) : (
+        )}
+
+        {synthese.themesRenseignes.length > 0 && (
           <div className="space-y-4">
             {synthese.themesRenseignes.map((bloc) => (
               <section key={bloc.theme.id} className="carte p-5">
@@ -252,8 +258,8 @@ export default async function PageParti({ params }: { params: Promise<{ slug: st
                   </h3>
                   <p className="text-sm text-stone-600 dark:text-stone-400">
                     {bloc.exprimes}{' '}
-                    {pluriel(bloc.exprimes, 'candidat s’est exprimé', 'candidats se sont exprimés')}
-                    {membres.length > 1 && ` sur ${membres.length}`}
+                    {pluriel(bloc.exprimes, 'position relevée', 'positions relevées')}
+                    {membres.length > 1 && ` sur ${membres.length} candidats`}
                   </p>
                 </div>
 
@@ -295,7 +301,7 @@ export default async function PageParti({ params }: { params: Promise<{ slug: st
 
         {synthese.themesMuets.length > 0 && membres.length > 0 && (
           <p className="text-sm leading-relaxed text-stone-600 dark:text-stone-400">
-            Aucun candidat de ce parti ne s’est exprimé de manière sourçable sur :{' '}
+            Aucune position n’a été relevée pour ce parti sur :{' '}
             {synthese.themesMuets.map((theme, i) => (
               <span key={theme.id}>
                 {i > 0 && ', '}

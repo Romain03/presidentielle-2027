@@ -159,7 +159,7 @@ export default function FiltresCandidats({
           <div className="flex items-center gap-3">
             <p aria-live="polite" className="text-sm text-stone-600 dark:text-stone-400">
               {affiches.length} {pluriel(affiches.length, 'candidat affiché', 'candidats affichés')}{' '}
-              sur {candidats.length}
+              sur {candidats.length} recensés
             </p>
             {filtreActif && (
               <button
