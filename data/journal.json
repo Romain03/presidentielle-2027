@@ -1,5 +1,13 @@
 [
   {
+    "date": "2026-10-12",
+    "resume": "7 propositions ajoutées · 1 proposition modifiée — 1 position gagne une source",
+    "fichiers": [
+      "propositions.json"
+    ],
+    "commit": "b22293f79a"
+  },
+  {
     "date": "2026-10-11",
     "resume": "16 documents de programme au départ",
     "fichiers": [

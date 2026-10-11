@@ -9,6 +9,7 @@ import {
   partis,
   propositions,
   propositionsDuTheme,
+  indicateursPartages,
   porteeParUnCandidatEnLice,
   statistiques,
   themes,
@@ -212,5 +213,62 @@ describe('comptes selon le statut du candidat', () => {
       expect(total, theme.id).toBeGreaterThan(0);
       expect(enCourse, theme.id).toBe(0);
     }
+  });
+});
+
+/**
+ * Un indicateur ne compare que s'il porte le même libellé chez tous les
+ * candidats. « Revalorisation des enseignants » et « Revalorisation des
+ * enseignants (montant mensuel) » désignaient la même grandeur sous deux noms :
+ * le comparateur alignait cinq candidats d'un côté, deux de l'autre, et aucun
+ * des deux groupes ne voyait l'autre. Le défaut est invisible à l'œil nu dans
+ * un fichier de soixante-quinze propositions.
+ */
+describe('libellés des indicateurs', () => {
+  const libelles = [
+    ...new Set(propositions.flatMap((p) => p.indicateurs.map((i) => i.libelle))),
+  ].sort();
+
+  it('ne contiennent aucun libellé englobé dans un autre', () => {
+    const fautifs: string[] = [];
+    for (const a of libelles) {
+      for (const b of libelles) {
+        if (a !== b && b.startsWith(a)) fautifs.push(`« ${a} » est le début de « ${b} »`);
+      }
+    }
+    expect(fautifs).toEqual([]);
+  });
+
+  /*
+   * Deux unités renseignées qui diffèrent sous un même libellé font comparer
+   * des grandeurs différentes : « 2 000 euros bruts » contre « 1 700 euros
+   * nets » rangés sous « SMIC visé ». Une unité absente, en revanche, est
+   * légitime - « inchangé » et « supprimé » ne sont pas des âges, et la valeur
+   * porte alors ses propres termes.
+   */
+  it('ne mélangent pas deux unités renseignées sous un même libellé', () => {
+    const unites = new Map<string, Set<string>>();
+    for (const proposition of propositions) {
+      for (const indicateur of proposition.indicateurs) {
+        if (indicateur.unite === null) continue;
+        const vues = unites.get(indicateur.libelle) ?? new Set<string>();
+        vues.add(indicateur.unite);
+        unites.set(indicateur.libelle, vues);
+      }
+    }
+    const melanges = [...unites.entries()]
+      .filter(([, vues]) => vues.size > 1)
+      .map(([libelle, vues]) => `${libelle} : ${[...vues].join(' / ')}`);
+    expect(melanges).toEqual([]);
+  });
+
+  it('n’annoncent comme comparable qu’un thème portant un chiffre commun', () => {
+    for (const theme of themes) {
+      const partages = indicateursPartages(theme.id);
+      for (const { candidats: nombre } of partages) expect(nombre).toBeGreaterThanOrEqual(2);
+    }
+    expect(statistiques.themesComparables).toBe(
+      themes.filter((t) => indicateursPartages(t.id).length > 0).length,
+    );
   });
 });

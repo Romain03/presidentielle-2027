@@ -305,6 +305,33 @@ export const sourcesDesPropositions = (() => {
   };
 })();
 
+/**
+ * Indicateurs réellement comparables d'un thème : ceux qu'au moins deux
+ * candidatures en lice ont renseignés sur la même grandeur.
+ *
+ * C'est la seule mesure honnête de ce que le comparateur peut faire. Le site
+ * annonçait auparavant des « positions formulées différemment » sur chaque
+ * ligne remplie - vrai, puisque deux résumés rédigés séparément diffèrent
+ * toujours, et donc sans valeur. Compter les chiffres communs dit au lecteur
+ * où la comparaison porte, et où elle ne porte pas encore.
+ */
+export function indicateursPartages(themeId: string): { libelle: string; candidats: number }[] {
+  const parLibelle = new Map<string, Set<string>>();
+  for (const proposition of propositions) {
+    if (proposition.theme_id !== themeId) continue;
+    if (!porteeParUnCandidatEnLice(proposition)) continue;
+    for (const indicateur of proposition.indicateurs) {
+      const vus = parLibelle.get(indicateur.libelle) ?? new Set<string>();
+      vus.add(proposition.candidat_id);
+      parLibelle.set(indicateur.libelle, vus);
+    }
+  }
+  return [...parLibelle.entries()]
+    .filter(([, candidats]) => candidats.size >= 2)
+    .map(([libelle, candidats]) => ({ libelle, candidats: candidats.size }))
+    .sort((a, b) => b.candidats - a.candidats || a.libelle.localeCompare(b.libelle, 'fr'));
+}
+
 export const statistiques = {
   candidats: candidats.length,
   /** Candidatures engagées : investies ou déclarées. */
@@ -325,4 +352,6 @@ export const statistiques = {
   documents: documents.length,
   candidatsAvecDocument: new Set(documents.map((d) => d.candidat_id)).size,
   pagesDeDocuments: documents.reduce((somme, d) => somme + d.pages, 0),
+  /** Thèmes où le comparateur peut aligner au moins un chiffre commun. */
+  themesComparables: themes.filter((t) => indicateursPartages(t.id).length > 0).length,
 };

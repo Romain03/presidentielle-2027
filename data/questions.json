@@ -8,10 +8,22 @@
     "indicateur": "Âge légal de départ",
     "unite": "ans",
     "options": [
-      { "valeur": 60, "libelle": "60 ans" },
-      { "valeur": 62, "libelle": "62 ans" },
-      { "valeur": 63, "libelle": "63 ans" },
-      { "valeur": 65, "libelle": "65 ans" }
+      {
+        "valeur": 60,
+        "libelle": "60 ans"
+      },
+      {
+        "valeur": 62,
+        "libelle": "62 ans"
+      },
+      {
+        "valeur": 63,
+        "libelle": "63 ans"
+      },
+      {
+        "valeur": 65,
+        "libelle": "65 ans"
+      }
     ]
   },
   {
@@ -23,9 +35,18 @@
     "indicateur": "Durée de cotisation annoncée",
     "unite": "annuités",
     "options": [
-      { "valeur": 40, "libelle": "40 annuités" },
-      { "valeur": 43, "libelle": "43 annuités" },
-      { "valeur": 45, "libelle": "45 annuités" }
+      {
+        "valeur": 40,
+        "libelle": "40 annuités"
+      },
+      {
+        "valeur": 43,
+        "libelle": "43 annuités"
+      },
+      {
+        "valeur": 45,
+        "libelle": "45 annuités"
+      }
     ]
   },
   {
@@ -37,9 +58,18 @@
     "indicateur": "Départ anticipé possible dès",
     "unite": "ans",
     "options": [
-      { "valeur": 55, "libelle": "55 ans" },
-      { "valeur": 57, "libelle": "57 ans" },
-      { "valeur": 60, "libelle": "60 ans" }
+      {
+        "valeur": 55,
+        "libelle": "55 ans"
+      },
+      {
+        "valeur": 57,
+        "libelle": "57 ans"
+      },
+      {
+        "valeur": 60,
+        "libelle": "60 ans"
+      }
     ]
   },
   {
@@ -51,9 +81,18 @@
     "indicateur": "Versement public à la naissance",
     "unite": "euros",
     "options": [
-      { "valeur": 0, "libelle": "Aucun versement" },
-      { "valeur": 1000, "libelle": "1 000 euros" },
-      { "valeur": 10000, "libelle": "10 000 euros" }
+      {
+        "valeur": 0,
+        "libelle": "Aucun versement"
+      },
+      {
+        "valeur": 1000,
+        "libelle": "1 000 euros"
+      },
+      {
+        "valeur": 10000,
+        "libelle": "10 000 euros"
+      }
     ]
   },
   {
@@ -65,10 +104,22 @@
     "indicateur": "Élèves par classe visés",
     "unite": "élèves",
     "options": [
-      { "valeur": 12, "libelle": "12 élèves" },
-      { "valeur": 19, "libelle": "19 élèves" },
-      { "valeur": 22, "libelle": "22 élèves" },
-      { "valeur": 25, "libelle": "25 élèves ou plus" }
+      {
+        "valeur": 12,
+        "libelle": "12 élèves"
+      },
+      {
+        "valeur": 19,
+        "libelle": "19 élèves"
+      },
+      {
+        "valeur": 22,
+        "libelle": "22 élèves"
+      },
+      {
+        "valeur": 25,
+        "libelle": "25 élèves ou plus"
+      }
     ]
   },
   {
@@ -77,13 +128,25 @@
     "dimension": "societal",
     "intitule": "De combien augmenter le salaire mensuel des enseignants en début de carrière ?",
     "precision": "Hausse nette mensuelle, en début de carrière.",
-    "indicateur": "Revalorisation des enseignants (montant mensuel)",
+    "indicateur": "Revalorisation des enseignants, en euros par mois",
     "unite": "euros par mois",
     "options": [
-      { "valeur": 0, "libelle": "Pas de hausse" },
-      { "valeur": 135, "libelle": "135 euros" },
-      { "valeur": 200, "libelle": "200 euros" },
-      { "valeur": 300, "libelle": "300 euros ou plus" }
+      {
+        "valeur": 0,
+        "libelle": "Pas de hausse"
+      },
+      {
+        "valeur": 135,
+        "libelle": "135 euros"
+      },
+      {
+        "valeur": 200,
+        "libelle": "200 euros"
+      },
+      {
+        "valeur": 300,
+        "libelle": "300 euros ou plus"
+      }
     ]
   }
 ]

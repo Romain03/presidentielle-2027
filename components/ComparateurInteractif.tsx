@@ -21,10 +21,15 @@ import type { CandidatResume } from '@/lib/vues';
  * affichées - pas une appréciation du contenu des propositions.
  */
 const REPERES: Record<StatutLigne, { glyphe: string; libelle: string; classes: string }> = {
-  divergence: {
+  comparable: {
     glyphe: '⇄',
-    libelle: 'Positions renseignées et formulées différemment',
+    libelle: 'Comparable : un chiffre commun est aligné ci-dessous',
     classes: 'text-amber-900 dark:text-amber-200',
+  },
+  juxtaposee: {
+    glyphe: '≠',
+    libelle: 'Deux positions, mais rien de commun à aligner : textes juxtaposés',
+    classes: 'text-stone-700 dark:text-stone-300',
   },
   'formulations-identiques': {
     glyphe: '=',
@@ -163,14 +168,16 @@ export default function ComparateurInteractif({
               Masquer les thèmes sans aucune position
             </label>
             <p className="text-stone-600 dark:text-stone-400">
-              {comparaison.nombreDivergences}{' '}
+              {comparaison.nombreComparables}{' '}
               {pluriel(
-                comparaison.nombreDivergences,
-                'thème où les positions diffèrent',
-                'thèmes où les positions diffèrent',
+                comparaison.nombreComparables,
+                'thème réellement comparable',
+                'thèmes réellement comparables',
               )}{' '}
-              · {comparaison.nombreIncompletes}{' '}
-              {pluriel(comparaison.nombreIncompletes, 'non comparable', 'non comparables')}
+              · {comparaison.nombreJuxtaposees}{' '}
+              {pluriel(comparaison.nombreJuxtaposees, 'juxtaposé', 'juxtaposés')} ·{' '}
+              {comparaison.nombreIncompletes}{' '}
+              {pluriel(comparaison.nombreIncompletes, 'incomplet', 'incomplets')}
             </p>
           </div>
         )}
@@ -395,9 +402,19 @@ export default function ComparateurInteractif({
               </p>
             ))}
             <p className="pt-1">
-              La mise en évidence est structurelle : elle signale que des positions renseignées
-              sont formulées différemment, et aligne les chiffres que les candidats ont eux-mêmes
-              énoncés. Aucun score de proximité ni classement n’est calculé.
+              La mise en évidence est structurelle, jamais sémantique : elle aligne les chiffres
+              que les candidats ont eux-mêmes énoncés. Aucun score de proximité ni classement
+              n’est calculé.
+            </p>
+            <p>
+              Un thème n’est dit comparable que si deux candidats au moins ont avancé un chiffre
+              sur la même grandeur. Sinon, le tableau le dit : il juxtapose deux textes, et c’est
+              au lecteur de les lire. Ce repère annonçait auparavant que les positions étaient
+              « formulées différemment » - vrai sur chaque ligne, donc sans valeur.{' '}
+              <Link href="/methodologie/#comparateur" className="lien">
+                Pourquoi si peu de thèmes sont comparables
+              </Link>
+              .
             </p>
           </section>
         </>

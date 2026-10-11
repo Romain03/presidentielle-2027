@@ -405,11 +405,22 @@ export default function PageMethodologie() {
           Ce que fait - et ne fait pas - le comparateur
         </h2>
         <p className="text-sm leading-relaxed text-stone-700 dark:text-stone-300">
-          La mise en évidence des divergences est structurelle. Le comparateur signale qu’un thème
-          est renseigné chez tous les candidats sélectionnés et que les formulations diffèrent, ou
-          qu’une position manque et que la ligne n’est donc pas comparable. Il aligne par ailleurs
-          les indicateurs chiffrés que les candidats ont eux-mêmes énoncés, et marque ceux dont les
-          valeurs diffèrent.
+          La mise en évidence est structurelle. Le comparateur aligne les indicateurs chiffrés que
+          les candidats ont eux-mêmes énoncés, et marque ceux dont les valeurs diffèrent. Il ne
+          déclare un thème comparable que si deux candidats au moins ont avancé un chiffre sur la
+          même grandeur ; sinon il annonce qu’il juxtapose deux textes, et c’est au lecteur de les
+          lire.
+        </p>
+        <p className="text-sm leading-relaxed text-stone-700 dark:text-stone-300">
+          <strong className="font-semibold">
+            À ce jour, {statistiques.themesComparables} des {statistiques.themes} thèmes sont
+            réellement comparables
+          </strong>{' '}
+          - les retraites et l’éducation. C’est la mesure honnête de ce que cet outil peut faire,
+          et elle était jusqu’ici masquée : chaque ligne renseignée portait la mention
+          « positions formulées différemment », vraie partout et donc sans valeur, puisque deux
+          résumés rédigés séparément diffèrent toujours. Ce repère ne constatait pas une
+          divergence, il constatait que deux textes ne sont pas le même texte.
         </p>
         <p className="text-sm leading-relaxed text-stone-700 dark:text-stone-300">
           Les libellés et les unités de ces indicateurs sont harmonisés d’un candidat à l’autre
@@ -422,8 +433,8 @@ export default function PageMethodologie() {
         <p className="text-sm leading-relaxed text-stone-700 dark:text-stone-300">
           <strong className="font-semibold">Le comparateur</strong> ne calcule aucun score de
           proximité, ne place aucun candidat sur un axe et ne qualifie jamais une position de plus
-          ou moins radicale, réaliste ou coûteuse. Deux positions marquées comme divergentes
-          peuvent être très proches sur le fond : seule leur formulation est comparée. Cet
+          ou moins radicale, réaliste ou coûteuse. Deux chiffres différents sur une même grandeur
+          ne disent pas lequel est préférable : seuls les chiffres sont alignés. Cet
           engagement vaut pour le comparateur et pour lui seul ; le{' '}
           <Link href="/test/" className="lien">
             test de proximité

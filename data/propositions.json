@@ -824,7 +824,7 @@
     "nature": "declaration_publique",
     "indicateurs": [
       {
-        "libelle": "SMIC visé",
+        "libelle": "SMIC visé, en brut",
         "valeur": 2000,
         "unite": "euros bruts",
         "valeur_comparable": null
@@ -903,7 +903,7 @@
     "nature": "declaration_publique",
     "indicateurs": [
       {
-        "libelle": "SMIC visé",
+        "libelle": "SMIC visé, en net",
         "valeur": 1700,
         "unite": "euros nets",
         "valeur_comparable": null
@@ -1550,7 +1550,7 @@
     "nature": "declaration_publique",
     "indicateurs": [
       {
-        "libelle": "Revalorisation des enseignants",
+        "libelle": "Revalorisation des enseignants, en pourcentage",
         "valeur": "3 % par an",
         "unite": null,
         "valeur_comparable": null
@@ -1580,7 +1580,7 @@
     "nature": "programme_officiel",
     "indicateurs": [
       {
-        "libelle": "Revalorisation des enseignants",
+        "libelle": "Revalorisation des enseignants, en pourcentage",
         "valeur": "20 % sur le quinquennat",
         "unite": null,
         "valeur_comparable": null
@@ -1631,7 +1631,7 @@
         "valeur_comparable": null
       },
       {
-        "libelle": "Revalorisation des enseignants",
+        "libelle": "Revalorisation des enseignants, en pourcentage",
         "valeur": 15,
         "unite": "%",
         "valeur_comparable": null
@@ -1661,7 +1661,7 @@
     "nature": "declaration_publique",
     "indicateurs": [
       {
-        "libelle": "Revalorisation des enseignants",
+        "libelle": "Revalorisation des enseignants, en pourcentage",
         "valeur": "10 %, jusqu'à 25 % selon la carrière",
         "unite": null,
         "valeur_comparable": null
@@ -1712,7 +1712,7 @@
         "valeur_comparable": 20
       },
       {
-        "libelle": "Revalorisation des enseignants (montant mensuel)",
+        "libelle": "Revalorisation des enseignants, en euros par mois",
         "valeur": "200 € par mois, jusqu'à 500 € en fin de carrière",
         "unite": null,
         "valeur_comparable": 200
@@ -1769,7 +1769,7 @@
         "valeur_comparable": 19
       },
       {
-        "libelle": "Revalorisation des enseignants",
+        "libelle": "Revalorisation des enseignants, en pourcentage",
         "valeur": "15 % en cinq ans, en plus de l’inflation",
         "unite": null,
         "valeur_comparable": null
@@ -1802,7 +1802,7 @@
     "nature": "programme_officiel",
     "indicateurs": [
       {
-        "libelle": "Revalorisation des enseignants (montant mensuel)",
+        "libelle": "Revalorisation des enseignants, en euros par mois",
         "valeur": "135 € net en début de carrière, jusqu'à 300 € en fin",
         "unite": null,
         "valeur_comparable": 135

@@ -14,9 +14,25 @@ import type { Candidat, Indicateur, Proposition, Theme } from './schemas';
 export const MIN_CANDIDATS = 2;
 export const MAX_CANDIDATS = 4;
 
+/**
+ * État d'une ligne de comparaison.
+ *
+ * « Positions renseignées et formulées différemment » figurait auparavant sur
+ * chaque ligne remplie. C'était vrai, et sans valeur : deux résumés rédigés
+ * séparément diffèrent toujours. Le repère n'apprenait donc rien et laissait
+ * croire à un constat de divergence là où il n'y avait qu'une constatation
+ * typographique.
+ *
+ * Ce qui distingue réellement deux lignes, c'est l'existence d'un **indicateur
+ * partagé** : un chiffre que les deux candidats ont énoncé sur la même
+ * grandeur. Avec lui, la comparaison porte ; sans lui, le site ne peut que
+ * juxtaposer deux textes - et il le dit.
+ */
 export type StatutLigne =
-  /** Tous les candidats se sont exprimés, et les formulations diffèrent. */
-  | 'divergence'
+  /** Au moins un indicateur chiffré est renseigné chez deux candidats au moins. */
+  | 'comparable'
+  /** Tous se sont exprimés, mais rien de commun à aligner : prose contre prose. */
+  | 'juxtaposee'
   /** Tous se sont exprimés dans des termes identiques après normalisation. */
   | 'formulations-identiques'
   /** Au moins un candidat ne s'est pas exprimé : la ligne n'est pas comparable. */
@@ -44,7 +60,10 @@ export interface LigneComparaison {
 export interface Comparaison<C extends { id: string } = Candidat> {
   candidats: C[];
   lignes: LigneComparaison[];
-  nombreDivergences: number;
+  /** Lignes portant au moins un chiffre commun à aligner. */
+  nombreComparables: number;
+  /** Lignes où les deux candidats parlent, sans rien de commun à aligner. */
+  nombreJuxtaposees: number;
   nombreIncompletes: number;
 }
 
@@ -136,7 +155,7 @@ function comparerIndicateurs(cellules: Proposition[][]): IndicateurCompare[] {
     .filter((i) => i.valeurs.filter((v) => v !== null).length >= 2);
 }
 
-function statutDeLigne(cellules: Proposition[][]): StatutLigne {
+function statutDeLigne(cellules: Proposition[][], indicateurs: IndicateurCompare[]): StatutLigne {
   const renseignees = cellules.filter((c) => c.length > 0).length;
   if (renseignees === 0) return 'vide';
   if (renseignees < cellules.length) return 'incomplete';
@@ -144,7 +163,10 @@ function statutDeLigne(cellules: Proposition[][]): StatutLigne {
   const textes = cellules.map((propositions) =>
     normaliser(propositions.map((p) => p.resume).join(' ')),
   );
-  return new Set(textes).size > 1 ? 'divergence' : 'formulations-identiques';
+  if (new Set(textes).size === 1) return 'formulations-identiques';
+  // `comparerIndicateurs` ne retient que les indicateurs renseignés chez deux
+  // candidats au moins : leur simple présence suffit donc à qualifier la ligne.
+  return indicateurs.length > 0 ? 'comparable' : 'juxtaposee';
 }
 
 export function construireComparaison<C extends { id: string }>(
@@ -156,18 +178,15 @@ export function construireComparaison<C extends { id: string }>(
     const cellules = candidatsSelectionnes.map((candidat) =>
       propositions.filter((p) => p.candidat_id === candidat.id && p.theme_id === theme.id),
     );
-    return {
-      theme,
-      cellules,
-      statut: statutDeLigne(cellules),
-      indicateurs: comparerIndicateurs(cellules),
-    };
+    const indicateurs = comparerIndicateurs(cellules);
+    return { theme, cellules, statut: statutDeLigne(cellules, indicateurs), indicateurs };
   });
 
   return {
     candidats: candidatsSelectionnes,
     lignes,
-    nombreDivergences: lignes.filter((l) => l.statut === 'divergence').length,
+    nombreComparables: lignes.filter((l) => l.statut === 'comparable').length,
+    nombreJuxtaposees: lignes.filter((l) => l.statut === 'juxtaposee').length,
     nombreIncompletes: lignes.filter((l) => l.statut === 'incomplete').length,
   };
 }

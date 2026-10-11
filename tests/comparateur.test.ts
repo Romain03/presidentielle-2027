@@ -97,7 +97,8 @@ describe('construireComparaison - statut des lignes', () => {
   it('marque « vide » quand personne ne s’est exprimé', () => {
     const c = construireComparaison(candidats, [theme('t')], []);
     expect(c.lignes[0].statut).toBe('vide');
-    expect(c.nombreDivergences).toBe(0);
+    expect(c.nombreComparables).toBe(0);
+    expect(c.nombreJuxtaposees).toBe(0);
   });
 
   it('marque « incomplete » quand une position manque', () => {
@@ -107,14 +108,53 @@ describe('construireComparaison - statut des lignes', () => {
     expect(c.lignes[0].cellules[1]).toEqual([]);
   });
 
-  it('marque « divergence » quand les deux positions existent et diffèrent', () => {
+  /*
+   * « Positions formulées différemment » figurait sur chaque ligne remplie :
+   * deux résumés rédigés séparément diffèrent toujours, donc le repère
+   * n'apprenait rien. Une ligne n'est désormais dite comparable que s'il existe
+   * un chiffre commun à aligner.
+   */
+  it('juxtapose, et ne compare pas, deux textes sans chiffre commun', () => {
     const c = construireComparaison(
       candidats,
       [theme('t')],
       [proposition('a', 't', 'Retraite à 60 ans'), proposition('b', 't', 'Retraite à 65 ans')],
     );
-    expect(c.lignes[0].statut).toBe('divergence');
-    expect(c.nombreDivergences).toBe(1);
+    expect(c.lignes[0].statut).toBe('juxtaposee');
+    expect(c.nombreComparables).toBe(0);
+    expect(c.nombreJuxtaposees).toBe(1);
+  });
+
+  it('marque « comparable » dès qu’un indicateur est renseigné chez deux candidats', () => {
+    const age = (valeur: number) => [
+      { libelle: 'Âge légal de départ', valeur, unite: 'ans', valeur_comparable: valeur },
+    ];
+    const c = construireComparaison(
+      candidats,
+      [theme('t')],
+      [
+        proposition('a', 't', 'Retraite à 60 ans', age(60)),
+        proposition('b', 't', 'Retraite à 65 ans', age(65)),
+      ],
+    );
+    expect(c.lignes[0].statut).toBe('comparable');
+    expect(c.nombreComparables).toBe(1);
+    expect(c.lignes[0].indicateurs[0].divergent).toBe(true);
+  });
+
+  it('ne compare pas un indicateur renseigné chez un seul candidat', () => {
+    const c = construireComparaison(
+      candidats,
+      [theme('t')],
+      [
+        proposition('a', 't', 'Retraite à 60 ans', [
+          { libelle: 'Âge légal de départ', valeur: 60, unite: 'ans', valeur_comparable: 60 },
+        ]),
+        proposition('b', 't', 'Une autre mesure'),
+      ],
+    );
+    expect(c.lignes[0].indicateurs).toHaveLength(0);
+    expect(c.lignes[0].statut).toBe('juxtaposee');
   });
 
   it('marque « formulations-identiques » malgré accents, casse et ponctuation', () => {
@@ -127,7 +167,7 @@ describe('construireComparaison - statut des lignes', () => {
       ],
     );
     expect(c.lignes[0].statut).toBe('formulations-identiques');
-    expect(c.nombreDivergences).toBe(0);
+    expect(c.nombreComparables).toBe(0);
   });
 
   it('respecte l’ordre des candidats dans les cellules', () => {
