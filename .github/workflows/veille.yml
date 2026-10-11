@@ -1,14 +1,21 @@
 name: Veille des sources
 
 # La veille tourne seule ; elle ne publie rien. Elle ouvre un ticket quand
-# quelque chose demande une lecture humaine : un programme paru, une page citée
-# réécrite, un lien mort. Écrire une proposition suppose d'avoir lu l'article,
-# et c'est précisément ce qui ne doit pas être automatisé.
+# quelque chose demande une lecture humaine : une investiture, un retrait, un
+# résultat de scrutin, un programme paru, une page citée réécrite, un lien mort.
+# Écrire une proposition ou changer un statut suppose d'avoir lu l'article, et
+# c'est précisément ce qui ne doit pas être automatisé.
 on:
   schedule:
-    # Tous les lundis à 6 h UTC. Un programme paraît rarement un dimanche soir,
-    # et le ticket attend ainsi le début de semaine.
-    - cron: '0 6 * * 1'
+    # Deux fois par jour, 6 h et 18 h UTC.
+    #
+    # L'hebdomadaire ne suffisait pas : le 11 octobre 2026, le résultat de la
+    # primaire du pôle socialiste a été proclamé un dimanche à 18 h 23 heure de
+    # Paris, et le site serait resté faux jusqu'au lundi matin suivant - cinq
+    # candidatures affichées comme déclarées alors qu'une seule restait en
+    # course. Une campagne produit des annonces tous les jours, souvent en fin
+    # de journée : le passage de 18 h UTC les voit le soir même.
+    - cron: '0 6,18 * * *'
   workflow_dispatch:
 
 permissions:

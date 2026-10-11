@@ -38,6 +38,35 @@ import {
 
 const racine = join(dirname(fileURLToPath(import.meta.url)), '..');
 const CHEMIN_EMPREINTES = join(racine, 'veille', 'empreintes.json');
+const CHEMIN_ARTICLES = join(racine, 'veille', 'articles-vus.json');
+
+/**
+ * Fils d'actualité des rédactions librement accessibles.
+ *
+ * La veille des sources citées ne voyait pas les événements : le 11 octobre
+ * 2026, Raphaël Glucksmann a remporté la primaire du pôle socialiste et le site
+ * a continué d'afficher cinq candidatures déclarées, parce qu'aucune page citée
+ * n'avait changé. Un résultat d'élection n'est pas une modification de source,
+ * c'est une information nouvelle - et elle passe par les fils.
+ *
+ * LCP n'expose pas de flux : ses articles sont trouvés par la recherche, pas
+ * par cette veille.
+ */
+const FLUX = [
+  { nom: 'franceinfo - politique', url: 'https://www.franceinfo.fr/politique.rss' },
+  { nom: 'franceinfo - présidentielle', url: 'https://www.franceinfo.fr/elections/presidentielle.rss' },
+  { nom: 'Public Sénat', url: 'https://www.publicsenat.fr/feed' },
+];
+
+/**
+ * Titres qui annoncent un changement d'état, et non un commentaire.
+ *
+ * Ce sont ceux qui rendent le site faux sans rien y toucher : une investiture,
+ * un retrait, un résultat, la parution d'un programme. Ils sont signalés à
+ * part, parce qu'ils demandent une correction et pas seulement une lecture.
+ */
+const MOTS_EVENEMENT =
+  /\b(investi|investiture|d[ée]sign[ée]|remporte|vainqueur|[ée]limin[ée]|se retire|retire sa candidature|renonce|jette l'[ée]ponge|annonce sa candidature|se d[ée]clare|candidat[e]? [àa] l'[ée]lection|r[ée]sultats?|d[ée]voile (?:son|ses)|pr[ée]sente (?:son|ses)|programme|parrainages?|exclu[e]? (?:du|de)|quitte (?:le|les))\b/i;
 
 const horsLigne = process.argv.includes('--hors-ligne');
 const ecrire = process.argv.includes('--ecrire');
@@ -109,6 +138,12 @@ const empreintesConnues: Empreintes = existsSync(CHEMIN_EMPREINTES)
   : {};
 const empreintesObservees: Empreintes = {};
 
+/** URL des articles déjà passés dans un rapport, pour ne les signaler qu'une fois. */
+const premierPassage = !existsSync(CHEMIN_ARTICLES);
+const articlesVus: Record<string, string> = premierPassage
+  ? {}
+  : JSON.parse(readFileSync(CHEMIN_ARTICLES, 'utf8'));
+
 /**
  * Empreinte du texte d'une page, et non de son HTML : les attributs, les
  * scripts et les identifiants de cache changent à chaque déploiement sans que
@@ -154,6 +189,56 @@ async function recuperer(url: string): Promise<Reponse> {
   }
 }
 
+/* ------------------------------------------------------------- fils d'actualité */
+
+type Article = { titre: string; url: string; date: string; flux: string };
+
+/** Décode les entités XML d'un titre : les fils les échappent deux fois. */
+function detexter(brut: string): string {
+  return brut
+    .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1')
+    .replace(/&#x([0-9a-f]+);/gi, (_, h) => String.fromCodePoint(parseInt(h, 16)))
+    .replace(/&#(\d+);/g, (_, d) => String.fromCodePoint(Number(d)))
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"')
+    .replace(/&apos;|&#39;/g, "'")
+    .replace(/&nbsp;/g, ' ')
+    .replace(/&amp;/g, '&')
+    .replace(/<[^>]+>/g, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function champ(bloc: string, nom: string): string {
+  const m = bloc.match(new RegExp(`<${nom}[^>]*>([\\s\\S]*?)</${nom}>`, 'i'));
+  return m ? detexter(m[1]) : '';
+}
+
+async function lireFlux(flux: { nom: string; url: string }): Promise<Article[]> {
+  const reponse = await recuperer(flux.url);
+  if ('erreur' in reponse) return [];
+  const blocs = reponse.html.split(/<(?:item|entry)[\s>]/i).slice(1);
+  const articles: Article[] = [];
+  for (const bloc of blocs) {
+    const titre = champ(bloc, 'title');
+    // Atom met l'adresse dans un attribut, RSS dans un élément.
+    const lien =
+      champ(bloc, 'link') ||
+      (bloc.match(/<link[^>]*href="([^"]+)"/i)?.[1] ?? '');
+    if (!titre || !lien) continue;
+    articles.push({
+      titre,
+      // Les fils ajoutent un marqueur de provenance (?xtor=, #xtor=) : sans le
+      // retirer, la même adresse serait signalée à chaque changement de marqueur.
+      url: lien.split(/[?#]/)[0],
+      date: (champ(bloc, 'pubDate') || champ(bloc, 'updated') || champ(bloc, 'published')).slice(0, 25),
+      flux: flux.nom,
+    });
+  }
+  return articles;
+}
+
 /* ------------------------------------------------------------- contrôles secs */
 
 const aujourdhui = new Date();
@@ -196,6 +281,23 @@ const programmesNonExploites = candidats
 
 /* ----------------------------------------------------------- contrôles réseau */
 
+/**
+ * Patronymes des candidatures recensées, et libellés des partis engagés.
+ * Un titre qui n'en contient aucun ne concerne pas ce site.
+ */
+const NOMS_SUIVIS = [
+  ...new Set([
+    ...candidats.map((c) => c.nom),
+    ...partis.filter((p) => candidats.some((c) => c.parti_id === p.id)).map((p) => p.sigle),
+  ]),
+].filter((n) => n.length >= 4);
+
+function concerneLeSite(titre: string): string | null {
+  return NOMS_SUIVIS.find((nom) => new RegExp(`\\b${nom.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`, 'i').test(titre)) ?? null;
+}
+
+const evenements: string[] = [];
+const actualites: string[] = [];
 const liensMorts: string[] = [];
 const pagesModifiees: string[] = [];
 const pagesNouvelles: string[] = [];
@@ -250,7 +352,22 @@ async function surveiller(): Promise<void> {
     }
   }
 
-  // 3. Sites officiels : une page de programme est-elle apparue ?
+  // 3. Fils d'actualité : un événement a-t-il eu lieu ?
+  for (const flux of FLUX) {
+    for (const article of await lireFlux(flux)) {
+      if (articlesVus[article.url]) continue;
+      const nom = concerneLeSite(article.titre);
+      if (nom === null) continue;
+      articlesVus[article.url] = new Date().toISOString().slice(0, 10);
+      const ligne = `**${nom}** — ${article.titre}\n  ${article.flux} · ${article.date} · ${article.url}`;
+      // Au premier passage, les fils contiennent des semaines d'archives :
+      // tout signaler noierait le rapport. Seuls les changements d'état le sont.
+      if (MOTS_EVENEMENT.test(article.titre)) evenements.push(ligne);
+      else if (!premierPassage) actualites.push(ligne);
+    }
+  }
+
+  // 4. Sites officiels : une page de programme est-elle apparue ?
   const sitesOfficiels = [
     ...partis.flatMap((p) => (p.site_officiel ? [p.site_officiel] : [])),
     ...candidats.flatMap((c) => c.liens_officiels.map((l) => l.url)),
@@ -292,6 +409,7 @@ async function principal(): Promise<void> {
   if (!horsLigne) await surveiller();
 
   const aAgir =
+    evenements.length +
     liensMorts.length +
     pagesModifiees.length +
     programmesDecouverts.length +
@@ -306,6 +424,11 @@ async function principal(): Promise<void> {
     '',
     '## Ce qui demande une action',
     '',
+    bloc(
+      'Changements d’état annoncés dans la presse',
+      evenements,
+      'Aucune investiture, aucun retrait, aucun résultat annoncé depuis la dernière veille.',
+    ),
     bloc(
       'Pages de programme apparues',
       programmesDecouverts,
@@ -324,6 +447,13 @@ async function principal(): Promise<void> {
     ),
     '## Ce qui attend du travail',
     '',
+    bloc(
+      'Autres articles mentionnant une candidature suivie',
+      actualites.slice(0, 25),
+      premierPassage
+        ? 'Premier passage : les archives des fils ne sont pas listées.'
+        : 'Aucun.',
+    ),
     bloc(
       'Programmes connus mais non exploités',
       programmesNonExploites,
@@ -357,7 +487,19 @@ async function principal(): Promise<void> {
     const fusion = { ...empreintesConnues, ...empreintesObservees };
     const triees = Object.fromEntries(Object.entries(fusion).sort(([a], [b]) => a.localeCompare(b)));
     writeFileSync(CHEMIN_EMPREINTES, `${JSON.stringify(triees, null, 2)}\n`);
-    console.error(`\nEmpreintes enregistrées : ${Object.keys(triees).length}`);
+
+    // Les articles sont oubliés au bout de 120 jours : la mémoire sert à ne pas
+    // signaler deux fois, pas à archiver la campagne.
+    const limite = new Date(Date.now() - 120 * 86_400_000).toISOString().slice(0, 10);
+    const recents = Object.fromEntries(
+      Object.entries(articlesVus)
+        .filter(([, vu]) => vu >= limite)
+        .sort(([a], [b]) => a.localeCompare(b)),
+    );
+    writeFileSync(CHEMIN_ARTICLES, `${JSON.stringify(recents, null, 2)}\n`);
+    console.error(
+      `\nEmpreintes : ${Object.keys(triees).length} · articles mémorisés : ${Object.keys(recents).length}`,
+    );
   }
 
   // Code de sortie non nul quand quelque chose demande une action : le

@@ -278,13 +278,20 @@ npm run veille -- --hors-ligne # seulement les contrôles sur les données
 npm run veille -- --ecrire     # enregistre les empreintes observées
 ```
 
-Un workflow (`.github/workflows/veille.yml`) l'exécute **chaque lundi** et ouvre
-ou complète un ticket GitHub dès que quelque chose demande une lecture.
+Un workflow (`.github/workflows/veille.yml`) l'exécute **deux fois par jour**,
+à 6 h et 18 h UTC, et ouvre ou complète un ticket GitHub dès que quelque chose
+demande une lecture.
+
+La cadence hebdomadaire ne suffisait pas. Le 11 octobre 2026, le résultat de la
+primaire du pôle socialiste a été proclamé un dimanche à 18 h 23 : le site aurait
+affiché cinq candidatures déclarées, alors qu'une seule restait en course,
+jusqu'au lundi matin suivant.
 
 ### Ce qu'elle automatise
 
 | Contrôle | Pourquoi il ne peut pas être fait à l'œil |
 |---|---|
+| **Changements d'état annoncés dans la presse** | Les fils de franceinfo et de Public Sénat sont lus et filtrés sur les patronymes des candidatures recensées. Un titre qui annonce une investiture, un retrait, un résultat ou la parution d'un programme est signalé à part : ce sont ceux qui rendent le site faux **sans que rien n'y change**. C'est exactement ce que la veille des sources ne voyait pas. |
 | **Pages de programme apparues** | Les sites officiels de 26 partis et des candidats sont parcourus. C'est l'événement que le site attend : le jour où un programme paraît, les propositions doivent cesser de passer par une rédaction. |
 | **Pages vivantes modifiées** | Une page de programme n'a pas de date de publication. Elle est réécrite sous une citation qui, elle, ne bouge pas. Une empreinte du texte est comparée à celle de la semaine précédente. |
 | **Liens morts** | Une source qui ne répond plus n'est plus vérifiable par le lecteur, et le site cesse de tenir sa promesse sans rien afficher. |
@@ -305,10 +312,13 @@ transforme une surveillance impossible à tenir à la main - 32 pages de
 programme, une soixantaine de sources, des pages sans date - en une liste de
 lectures à faire.
 
-### Empreintes
+### Mémoire
 
-`veille/empreintes.json` est la mémoire de la veille : sans elle, la même page
-serait signalée comme modifiée à chaque exécution. Le fichier vit **hors de
+`veille/empreintes.json` et `veille/articles-vus.json` sont la mémoire de la
+veille : sans elles, la même page serait signalée comme modifiée et le même
+article comme nouveau à chaque exécution. Les articles sont oubliés au bout de
+120 jours - la mémoire sert à ne pas signaler deux fois, pas à archiver la
+campagne. Ces fichiers vivent **hors de
 `data/`**, parce que le journal des données se construit sur l'historique Git de
 ce dossier et qu'un commit de veille y ajouterait une entrée trompeuse. Pour la
 même raison, le déploiement ignore les commits marqués `[veille]`.
