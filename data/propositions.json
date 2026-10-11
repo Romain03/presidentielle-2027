@@ -2172,7 +2172,7 @@
     "resume": "Une « règle d'or sociale » : toute exonération de cotisation décidée par l'État compensée à l'euro près à la Sécurité sociale, et tout déséquilibre des comptes sociaux rétabli en cinq ans.",
     "detail": "Le candidat propose une « règle d'or sociale » qu'il énonce ainsi : « Toute exonération de cotisation décidée par l'État doit être compensée à l'euro près à la Sécurité sociale et tout déséquilibre des comptes sociaux doit être rétabli dans un délai de cinq ans. » La mesure vise les exonérations non compensées, qui creusent les comptes sociaux sans apparaître comme une dépense de l'État.\n\nIl inscrit cette proposition dans trois priorités annoncées : « la refondation de nos services publics », « la modernisation de nos institutions centrales et territoriales » et « garantir notre souveraineté ». L'article ne détaille pas ces deux dernières, et le site ne les transforme donc pas en propositions.",
     "citation": "Toute exonération de cotisation décidée par l'État doit être compensée à l'euro près à la Sécurité sociale",
-    "nature": "declaration_publique",
+    "nature": "programme_officiel",
     "programme_anterieur": null,
     "indicateurs": [
       {
@@ -2184,13 +2184,25 @@
     ],
     "sources": [
       {
+        "url": "https://assets.nationbuilder.com/laconvention/pages/2515/attachments/original/1784151599/Auxfrancaisversionfinale1507.pdf",
+        "titre": "Tenir la promesse de la France - lettre de Bernard Cazeneuve aux Françaises et aux Français",
+        "type": "programme-officiel",
+        "date": "2026-07-15"
+      },
+      {
+        "url": "https://assets.nationbuilder.com/laconvention/pages/2513/attachments/original/1784135398/Synthese_mesuresVfinale.pdf",
+        "titre": "Synthèse de la lettre de Bernard Cazeneuve aux Françaises et aux Français",
+        "type": "programme-officiel",
+        "date": "2026-07-15"
+      },
+      {
         "url": "https://lcp.fr/actualites/presidentielle-2027-pret-a-se-lancer-dans-la-course-a-l-elysee-bernard-cazeneuve-decline",
         "titre": "Présidentielle 2027 : prêt à se lancer dans la course à l'Élysée, Bernard Cazeneuve décline la primaire socialiste",
         "type": "article-de-presse",
         "date": "2026-07-16"
       }
     ],
-    "derniere_verification": "2026-10-10"
+    "derniere_verification": "2026-10-11"
   },
   {
     "id": "batho-ecologie",
@@ -2211,5 +2223,233 @@
       }
     ],
     "derniere_verification": "2026-10-10"
+  },
+  {
+    "id": "cazeneuve-sante",
+    "candidat_id": "bernard-cazeneuve",
+    "theme_id": "sante",
+    "resume": "Faire de la santé mentale une grande cause nationale, avec formation des personnels de santé et de l'éducation, et restaurer le sens des métiers du soin dans tous les territoires.",
+    "detail": "Dans sa lettre aux Français, le candidat range la santé parmi les protections dues « à chaque âge de la vie ». Son constat porte d'abord sur l'accès : « quelle que soit la taille de la commune », obtenir un médecin traitant, un rendez-vous chez un spécialiste ou des soins hospitaliers « est devenu source d'inquiétudes », et les urgences sont « désorganisées, en dépit du dévouement des personnels soignants ». Il refuse d'y voir un problème seulement budgétaire : « les soignants se découragent d'avoir vu disparaître le sens profond de leur métier », et leur restituer cette vocation « relève de l'urgence » - la reconnaissance de la Nation appelée par les applaudissements aux fenêtres pendant le confinement n'étant pas venue. Le second volet est la santé mentale, « épreuve silencieuse de la société française, en particulier de sa jeunesse » : plus d'un jeune sur cinq déclare des symptômes dépressifs, les services de psychiatrie sont saturés, les délais de prise en charge se comptent en mois et les pédopsychiatres manquent partout. L'engagement est d'en faire une grande cause nationale et de former à cette prise en charge les personnels de santé et de l'éducation. S'y ajoute le grand âge : la prise en charge de la dépendance et le soutien aux aidants familiaux, « chantier considérable » dont la soutenabilité financière doit être garantie aux familles les plus modestes. Aucun chiffre de moyens ni calendrier n'accompagne ces engagements dans le document.",
+    "citation": "La santé mentale est devenue l'épreuve silencieuse de la société française, en particulier de sa jeunesse.",
+    "nature": "programme_officiel",
+    "indicateurs": [
+      {
+        "libelle": "Jeunes déclarant des symptômes dépressifs",
+        "valeur": "plus d'un sur cinq",
+        "unite": null,
+        "valeur_comparable": 20
+      }
+    ],
+    "derniere_verification": "2026-10-11",
+    "programme_anterieur": null,
+    "sources": [
+      {
+        "url": "https://assets.nationbuilder.com/laconvention/pages/2515/attachments/original/1784151599/Auxfrancaisversionfinale1507.pdf",
+        "titre": "Tenir la promesse de la France - lettre de Bernard Cazeneuve aux Françaises et aux Français",
+        "type": "programme-officiel",
+        "date": "2026-07-15"
+      },
+      {
+        "url": "https://assets.nationbuilder.com/laconvention/pages/2513/attachments/original/1784135398/Synthese_mesuresVfinale.pdf",
+        "titre": "Synthèse de la lettre de Bernard Cazeneuve aux Françaises et aux Français",
+        "type": "programme-officiel",
+        "date": "2026-07-15"
+      }
+    ]
+  },
+  {
+    "id": "cazeneuve-logement",
+    "candidat_id": "bernard-cazeneuve",
+    "theme_id": "logement",
+    "resume": "Un grand plan de constructions et de rénovations, « à la fois social et écologique », soutenu par des mécanismes innovants d'accession à la propriété, pour faire baisser les prix.",
+    "detail": "Le candidat qualifie le logement de « scandale passé sous silence » et le range sous la « dignité garantie ». Son constat nomme les situations : des jeunes qui ne peuvent plus se loger là où ils travaillent, des familles qui consacrent plus de la moitié de leurs revenus à leur loyer, et « des soignants, des enseignants, des policiers, des gendarmes, des pompiers, des surveillants pénitentiaires, ceux dont le travail tient la République debout », qui ne trouvent plus de toit décent. Il refuse d'y voir une mécanique de marché : c'est « le résultat de choix politiques qui ont volontairement sacrifié l'investissement dans le logement social, laissé la spéculation prendre le pas sur l'habitation et renoncé à réguler ». La réponse annoncée est un grand plan de constructions et de rénovations, social et écologique à la fois, appuyé sur des mécanismes innovants d'accession à la propriété. La rénovation est présentée ailleurs dans le document comme un « geste à la fois social et climatique », et elle est rattachée au plan École-Climat-Solidarité, engagement sur dix ans que la lettre désigne comme « les grands travaux de la prochaine majorité ». Le document ne chiffre ni un nombre de logements à construire, ni un budget, ni un calendrier propre au logement.",
+    "citation": "Le logement est devenu, en France, un scandale passé sous silence.",
+    "nature": "programme_officiel",
+    "indicateurs": [],
+    "derniere_verification": "2026-10-11",
+    "programme_anterieur": null,
+    "sources": [
+      {
+        "url": "https://assets.nationbuilder.com/laconvention/pages/2515/attachments/original/1784151599/Auxfrancaisversionfinale1507.pdf",
+        "titre": "Tenir la promesse de la France - lettre de Bernard Cazeneuve aux Françaises et aux Français",
+        "type": "programme-officiel",
+        "date": "2026-07-15"
+      },
+      {
+        "url": "https://assets.nationbuilder.com/laconvention/pages/2513/attachments/original/1784135398/Synthese_mesuresVfinale.pdf",
+        "titre": "Synthèse de la lettre de Bernard Cazeneuve aux Françaises et aux Français",
+        "type": "programme-officiel",
+        "date": "2026-07-15"
+      }
+    ]
+  },
+  {
+    "id": "cazeneuve-securite",
+    "candidat_id": "bernard-cazeneuve",
+    "theme_id": "securite",
+    "resume": "Une police de proximité dotée d'effectifs dédiés et formés, un investissement dans la prévention, et contre le narcotrafic un Parquet européen aux compétences élargies, le gel des avoirs et des peines réellement exécutées.",
+    "detail": "Le candidat place la sécurité comme « première des protections » et conteste son appropriation partisane : « La sécurité n'est pas un thème de droite, et la gauche aurait intérêt à s'en saisir, plutôt que de continuer à s'en méfier. Elle est due au peuple. » Son argument est que l'insécurité frappe d'abord « les plus fragiles, les plus isolés, ceux qui n'ont pas le choix du quartier où ils vivent ». Trois volets sont annoncés. La police de proximité d'abord, qui « ne peut devenir une réalité que si la Nation dispose d'effectifs dédiés et formés » pour établir la relation de confiance avec les habitants. La prévention ensuite, assumée comme une composante de la sécurité et non comme son alternative : « une politique de sécurité qui n'investit pas dans l'école, les structures de prévention, les dispositifs de seconde chance est condamnée à l'échec ». Contre les trafics et la criminalité organisée enfin - « de véritables entreprises criminelles prennent en otages des quartiers entiers, corrompent des institutions et tuent des jeunes » - une méthode qu'il dit éprouvée : unités spécialisées, peines réellement exécutées, coopération européenne renforcée, Parquet européen aux compétences élargies, gel des avoirs et traque des financements, « et d'abord contre le fléau du trafic de drogues ». Sur la justice, il annonce la sortie du « tout-comparution immédiate » et de la prison par défaut, la synthèse relevant un passage de 31 000 comparutions immédiates en 2001 à près de 50 000 en 2021. Aucun effectif policier n'est chiffré.",
+    "citation": "La sécurité n'est pas un thème de droite, et la gauche aurait intérêt à s'en saisir. Elle est due au peuple.",
+    "nature": "programme_officiel",
+    "indicateurs": [
+      {
+        "libelle": "Comparutions immédiates annuelles constatées",
+        "valeur": "31 000 en 2001, près de 50 000 en 2021",
+        "unite": "affaires",
+        "valeur_comparable": null
+      }
+    ],
+    "derniere_verification": "2026-10-11",
+    "programme_anterieur": null,
+    "sources": [
+      {
+        "url": "https://assets.nationbuilder.com/laconvention/pages/2515/attachments/original/1784151599/Auxfrancaisversionfinale1507.pdf",
+        "titre": "Tenir la promesse de la France - lettre de Bernard Cazeneuve aux Françaises et aux Français",
+        "type": "programme-officiel",
+        "date": "2026-07-15"
+      },
+      {
+        "url": "https://assets.nationbuilder.com/laconvention/pages/2513/attachments/original/1784135398/Synthese_mesuresVfinale.pdf",
+        "titre": "Synthèse de la lettre de Bernard Cazeneuve aux Françaises et aux Français",
+        "type": "programme-officiel",
+        "date": "2026-07-15"
+      }
+    ]
+  },
+  {
+    "id": "cazeneuve-institutions",
+    "candidat_id": "bernard-cazeneuve",
+    "theme_id": "institutions",
+    "resume": "Rétablir le septennat, discipliner le 49.3 et les ordonnances, introduire une dose de proportionnelle aux législatives, et limiter par la loi la concentration capitalistique des médias.",
+    "detail": "Le candidat écarte explicitement le changement de régime - « la Nation a si souvent souffert du grand fracas institutionnel » - et vise les usages plutôt que les textes. Sa cause désignée est « l'ego-présidentialisme » : le quinquennat a transformé le Président en chef de majorité et l'a privé de sa hauteur d'arbitre. D'où le rétablissement du septennat, la restauration du rôle du Premier ministre, qui engagerait systématiquement sa responsabilité devant le Parlement « d'abord à son entrée en fonction », une discipline sur le 49.3, les ordonnances et les procédures accélérées, une dose de proportionnelle aux législatives, et une fabrique de la loi simplifiée puis ouverte à la participation citoyenne. Le diagnostic est chiffré dans la lettre : cinq Premiers ministres en quatre ans, et depuis 2017 cinq ministres de la Culture, huit de l'Éducation nationale, dix de la Santé. Sur les contre-pouvoirs, il écrit qu'« un pouvoir qui s'irrite des contre-pouvoirs n'est pas seulement désagréable : il est dangereux », et annonce des moyens et une indépendance reconnue pour la justice, la réhabilitation des corps intermédiaires, et des limites fixées par la loi à la concentration capitalistique des médias. La décentralisation complète l'ensemble : la France étant « l'un des pays les plus centralisés d'Europe », une refonte de la territorialité doit clarifier qui fait quoi, avec deux normes supprimées pour une créée.",
+    "citation": "Un pouvoir qui s'irrite des contre-pouvoirs n'est pas seulement désagréable. Il est dangereux.",
+    "nature": "programme_officiel",
+    "indicateurs": [
+      {
+        "libelle": "Durée du mandat présidentiel proposée",
+        "valeur": 7,
+        "unite": "ans",
+        "valeur_comparable": 7
+      },
+      {
+        "libelle": "Normes supprimées pour une créée",
+        "valeur": 2,
+        "unite": "normes",
+        "valeur_comparable": 2
+      }
+    ],
+    "derniere_verification": "2026-10-11",
+    "programme_anterieur": null,
+    "sources": [
+      {
+        "url": "https://assets.nationbuilder.com/laconvention/pages/2515/attachments/original/1784151599/Auxfrancaisversionfinale1507.pdf",
+        "titre": "Tenir la promesse de la France - lettre de Bernard Cazeneuve aux Françaises et aux Français",
+        "type": "programme-officiel",
+        "date": "2026-07-15"
+      },
+      {
+        "url": "https://assets.nationbuilder.com/laconvention/pages/2513/attachments/original/1784135398/Synthese_mesuresVfinale.pdf",
+        "titre": "Synthèse de la lettre de Bernard Cazeneuve aux Françaises et aux Français",
+        "type": "programme-officiel",
+        "date": "2026-07-15"
+      }
+    ]
+  },
+  {
+    "id": "cazeneuve-europe",
+    "candidat_id": "bernard-cazeneuve",
+    "theme_id": "europe",
+    "resume": "Mettre fin à la règle de l'unanimité au profit des décisions à la majorité, et faire de l'Europe « un contrat plutôt qu'un cadre de contraintes » : réforme budgétaire et politique industrielle commune.",
+    "detail": "Le candidat assume un ancrage « européen et réformiste » et veut que l'Europe devienne « un contrat plutôt qu'un cadre de contraintes ». Son engagement le plus net porte sur la décision : la fin de la règle de l'unanimité au profit des décisions à la majorité, l'unanimité étant devenue selon lui « le levier de ceux qui veulent paralyser le continent depuis l'intérieur ». S'y ajoutent une réforme budgétaire et une politique industrielle commune, une doctrine de la concurrence « moins dogmatique » et une approche commerciale « moins naïve », une défense crédible, et une politique migratoire pensée à l'échelle du continent. Le financement de la puissance de calcul européenne pour l'intelligence artificielle est rattaché au même ensemble : il ne serait pas financé par l'État mais rendu possible par le retour de l'épargne européenne « qui traverse aujourd'hui l'Atlantique », avec priorité donnée aux usages « qui ne se vendent pas » - l'hôpital, l'école, l'État - et les données des Français stockées en Europe, sous la loi française. Sur le plan international, la lettre y joint la défense de l'ordre fondé sur le droit, une réforme du Conseil de sécurité des Nations unies et un partenariat « débarrassé du paternalisme » avec les pays du Sud global.",
+    "citation": "L'unanimité est devenue le levier de ceux qui veulent paralyser le continent depuis l'intérieur.",
+    "nature": "programme_officiel",
+    "indicateurs": [],
+    "derniere_verification": "2026-10-11",
+    "programme_anterieur": null,
+    "sources": [
+      {
+        "url": "https://assets.nationbuilder.com/laconvention/pages/2515/attachments/original/1784151599/Auxfrancaisversionfinale1507.pdf",
+        "titre": "Tenir la promesse de la France - lettre de Bernard Cazeneuve aux Françaises et aux Français",
+        "type": "programme-officiel",
+        "date": "2026-07-15"
+      },
+      {
+        "url": "https://assets.nationbuilder.com/laconvention/pages/2513/attachments/original/1784135398/Synthese_mesuresVfinale.pdf",
+        "titre": "Synthèse de la lettre de Bernard Cazeneuve aux Françaises et aux Français",
+        "type": "programme-officiel",
+        "date": "2026-07-15"
+      }
+    ]
+  },
+  {
+    "id": "cazeneuve-defense",
+    "candidat_id": "bernard-cazeneuve",
+    "theme_id": "defense",
+    "resume": "Réarmer « à proportion de la menace », rester dans l'OTAN « sans rien y abdiquer », ouvrir une réflexion sur l'apport de la dissuasion française y compris avec le Royaume-Uni, et élargir la réserve citoyenne.",
+    "detail": "Le candidat part d'un constat qu'il formule sans détour : « la protection américaine, qui structurait la sécurité européenne depuis 1945, n'est plus garantie ». Au tableau des périls - guerre en Ukraine, Proche-Orient, menace sur Taïwan - il répond par un réarmement « à proportion de la menace », des moyens rendus aux forces, une industrie de défense consolidée, des coopérations européennes planifiées et une préférence donnée aux productions nationales et continentales. Sa position sur l'alliance est double : rester « dans l'OTAN sans rien y abdiquer », et contribuer à l'Europe de la défense « sans prétendre s'y substituer ». Il annonce l'ouverture d'une réflexion sur l'architecture européenne de sécurité : l'apport de la dissuasion française, « y compris avec le Royaume-Uni », et une protection antimissile coordonnée du continent. Une réserve citoyenne « plus ambitieuse, ouverte à davantage de Français » doit retisser le lien entre la Nation et ses armées. Sur le Proche-Orient, la lettre condamne explicitement la politique du gouvernement Netanyahou, qui « ruine la perspective d'une paix à deux États », tout en affirmant que la France ne renoncera « ni à vouloir la sécurité pour Israël ni à exiger un État pour les Palestiniens ». Aucun objectif budgétaire de défense n'est chiffré.",
+    "citation": "La protection américaine, qui structurait la sécurité européenne depuis 1945, n'est plus garantie.",
+    "nature": "programme_officiel",
+    "indicateurs": [],
+    "derniere_verification": "2026-10-11",
+    "programme_anterieur": null,
+    "sources": [
+      {
+        "url": "https://assets.nationbuilder.com/laconvention/pages/2515/attachments/original/1784151599/Auxfrancaisversionfinale1507.pdf",
+        "titre": "Tenir la promesse de la France - lettre de Bernard Cazeneuve aux Françaises et aux Français",
+        "type": "programme-officiel",
+        "date": "2026-07-15"
+      },
+      {
+        "url": "https://assets.nationbuilder.com/laconvention/pages/2513/attachments/original/1784135398/Synthese_mesuresVfinale.pdf",
+        "titre": "Synthèse de la lettre de Bernard Cazeneuve aux Françaises et aux Français",
+        "type": "programme-officiel",
+        "date": "2026-07-15"
+      }
+    ]
+  },
+  {
+    "id": "cazeneuve-retraites",
+    "candidat_id": "bernard-cazeneuve",
+    "theme_id": "retraites",
+    "resume": "Reprendre la réforme par la durée de cotisation plutôt que par un nouveau recul de l'âge légal, rétablir la pénibilité ouvrant droit au départ anticipé, et rendre sa cohérence au dispositif des carrières longues.",
+    "detail": "Le candidat défend un système par répartition « que nul ne saurait remettre en cause, car lui seul assure la justice », tout en jugeant une réforme nécessaire « parce que la démographie et l'équilibre du système l'exigent ». Il demande de reprendre la question « patiemment, avec les partenaires sociaux, sans cette brutalité qui a tant abîmé la confiance », en précisant que « reprendre patiemment ne veut pas dire reporter, ni rester dans le flou ». Quatre principes sont énoncés. La durée de cotisation d'abord, désignée comme « le levier le plus juste » parce qu'elle valorise le travail accompli indépendamment de l'âge d'entrée : plutôt que de reculer encore l'âge légal « au prix d'un débat sans issue », il propose de reprendre « sur des bases nouvelles et négociées » la trajectoire d'allongement engagée en 2014. La pénibilité ensuite, « vidée de sa substance » par les dernières réformes : les travailleurs exposés aux postures contraignantes, au port de charges, aux vibrations et aux risques chimiques doivent retrouver le droit à un départ anticipé. La justice envers les carrières longues en troisième lieu, le dispositif ayant été « durci sans nécessité ». L'emploi des seniors enfin, dont le taux demeure quinze points en deçà de celui des pays européens les plus performants : aménagement des postes, retraites progressives, sanctions contre les discriminations à l'embauche, et liberté de travailler plus longtemps pour qui le souhaite. Il ne chiffre ni un âge, ni une durée de cotisation cible.",
+    "citation": "Le premier, c'est la durée de cotisation. C'est le levier le plus juste, il valorise le travail accompli, indépendamment de l'âge où l'on a commencé.",
+    "nature": "programme_officiel",
+    "indicateurs": [
+      {
+        "libelle": "Levier retenu pour la réforme",
+        "valeur": "durée de cotisation, sans nouveau recul de l'âge légal",
+        "unite": null,
+        "valeur_comparable": null
+      },
+      {
+        "libelle": "Trajectoire d'allongement reprise",
+        "valeur": 2014,
+        "unite": "réforme de",
+        "valeur_comparable": null
+      },
+      {
+        "libelle": "Écart du taux d'emploi des seniors avec les meilleurs pays européens",
+        "valeur": 15,
+        "unite": "points",
+        "valeur_comparable": 15
+      }
+    ],
+    "derniere_verification": "2026-10-11",
+    "programme_anterieur": null,
+    "sources": [
+      {
+        "url": "https://assets.nationbuilder.com/laconvention/pages/2515/attachments/original/1784151599/Auxfrancaisversionfinale1507.pdf",
+        "titre": "Tenir la promesse de la France - lettre de Bernard Cazeneuve aux Françaises et aux Français",
+        "type": "programme-officiel",
+        "date": "2026-07-15"
+      },
+      {
+        "url": "https://assets.nationbuilder.com/laconvention/pages/2513/attachments/original/1784135398/Synthese_mesuresVfinale.pdf",
+        "titre": "Synthèse de la lettre de Bernard Cazeneuve aux Françaises et aux Français",
+        "type": "programme-officiel",
+        "date": "2026-07-15"
+      }
+    ]
   }
 ]

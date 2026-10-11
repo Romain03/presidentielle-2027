@@ -487,6 +487,51 @@ critère est factuel mais reste une décision du site.
 
 ## 5. Lacunes connues
 
+### Les livrets de parti ne peuvent pas devenir des propositions de candidat
+Treize des seize documents de programme listés sont **signés par un parti**, pas
+par le candidat : les huit livrets des Républicains, les trois de Nouvelle
+Énergie, le projet des Patriotes, le projet 2027 des Écologistes. Le protocole
+autonome l'interdit explicitement - « le parti n'est pas le candidat. Les
+propositions publiées par un parti ne sont pas celles de son candidat. » Ces
+documents sont donc **listés et datés, mais pas exploités** comme positions.
+
+Le livret **Logement** des Républicains est le plus frustrant : 48 pages, des
+chiffres partout (450 000 logements par an visés contre 270 000 mises en
+chantier en 2024, 2,9 millions de ménages en attente d'un logement social,
+9 000 € de TVA reversés à la commune par logement neuf, amortissement du
+bailleur privé à 4 % par an, intérêts d'emprunt déductibles à 50 % avec un
+enfant et 100 % à partir de trois, suppression des quotas SRU de 20 et 25 %).
+**Ce qu'il faut pour les exploiter** : établir que Bruno Retailleau les porte
+personnellement - conférence de presse, discours, entretien où il les reprend à
+son compte. La page `republicains.fr/nos-propositions` mentionne des annexes de
+conférence de presse : à vérifier. Même chose pour le livret Santé de Nouvelle
+Énergie et David Lisnard.
+
+### Un PDF dont le texte n'est pas entièrement extractible
+Le **livret Santé de Nouvelle Énergie** (12 pages) est le seul document du
+corpus dont le texte ne se lit pas en entier : ses polices de mise en valeur
+portent une table `/ToUnicode` incomplète, et une centaine d'opérateurs
+d'affichage rendent une chaîne vide. Les phrases en ressortent amputées - « nous
+sommes des millions de Français à rencontrer [...] soins ». **Rien ne doit en
+être cité sans lecture à l'écran.** Les autres documents s'extraient entre 0 et
+7 % de caractères non résolus, et les trous y sont visibles (`\ufffd`).
+
+### Les chiffres de Bernard Cazeneuve à recouper
+Sept positions ont été tirées de sa lettre du 15 juillet 2026, document signé de
+sa main. Les chiffres qu'elle avance n'ont pas été recoupés auprès d'une source
+indépendante et sont attribués au document, non vérifiés comme faits : plus d'un
+jeune sur cinq déclarant des symptômes dépressifs ; 31 000 comparutions
+immédiates en 2001 contre près de 50 000 en 2021 ; taux d'emploi des seniors
+quinze points sous les meilleurs pays européens ; dette à 117,5 % du PIB au
+premier trimestre 2026 ; cinq Premiers ministres en quatre ans et dix ministres
+de la Santé depuis 2017. **À recouper avant d'en faire des indicateurs
+comparables.**
+
+Par ailleurs, cette lettre **ne déclare aucune candidature** : « je n'écris pas
+pour ajouter mon nom à la liste des prétendants ». Le site le donne comme
+déclaré au 16 juillet 2026, soit le lendemain. La chronologie est cohérente mais
+la source de la déclaration elle-même n'a pas été relue à cette occasion.
+
 ### Programmes en PDF : documents écartés, et pourquoi (11 octobre 2026)
 Les sites officiels de tous les candidats et de tous les partis suivis ont été
 balayés à la recherche de documents de programme téléchargeables. Seize
