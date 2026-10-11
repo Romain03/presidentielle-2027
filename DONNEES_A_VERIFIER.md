@@ -130,6 +130,44 @@ champ distinct serait préférable à une convention implicite.
 
 ---
 
+### Revue externe du 11 octobre 2026 : ce qui reste
+Les corrections de forme, de vocabulaire et de chiffres ont été faites, le
+calendrier est affiché, et six erreurs factuelles sont corrigées. Ce qui suit ne
+l'est pas, et c'est l'essentiel.
+
+**1. Le contenu, qui est le vrai chantier.** 57 propositions, 18 candidatures
+couvertes sur 31, *santé* à zéro, *Europe* et *logement* à une seule position.
+Un site très honnête sur ses lacunes reste un site presque vide. Tout le travail
+du 10 octobre est allé au sourçage : il a divisé par dix la dépendance à une
+rédaction, mais n'a pas ajouté une seule position. Les deux chantiers sont
+distincts et celui-ci n'a pas commencé.
+
+**2. La refonte en sous-questions.** Chaque thème porte un résumé libre par
+candidat, si bien que le comparateur ne peut que conclure « formulées
+différemment ». Le remède connu est de découper chaque thème en trois à cinq
+sous-questions fixes - pour les retraites : âge légal, durée de cotisation,
+pénibilité, capitalisation, minimum de pension - et de n'y répondre que par ce
+que la source dit. Cela suppose de relire les 33 articles déjà cités, et c'est
+la condition pour que le site compare autre chose que des formulations.
+
+**3. Les sources primaires restent minoritaires.** Six propositions sur 57
+reposent sur un document du candidat, 26 sur une seule rédaction, et les
+121 soutiens viennent toujours de Wikipédia. Les 33 pages de programme trouvées
+par la veille ont été lues ; ce qu'elles contenaient est épuisé. La suite dépend
+de la parution des programmes, que la veille hebdomadaire surveille.
+
+**4. La page d'accueil sur mobile reste longue** - 5 300 px, dont 42 % pour les
+31 cartes de candidatures. Les sujets sont remontés de 3 000 à 1 760 px, mais la
+liste n'a été ni repliée ni tronquée : **n'en montrer qu'une partie serait une
+sélection éditoriale**, et replier les 31 d'un bloc masquerait le contenu
+principal derrière un clic. Le choix est assumé, il n'est pas définitif.
+
+**5. Les portraits restent hétérogènes** - cadrages, fonds et qualités
+différents selon la source. C'est consigné dans les limites affichées sur le
+site, pas corrigé.
+
+---
+
 ## 2. Contradictions entre sources
 
 ### Marine Le Pen - durée de cotisation

@@ -5,6 +5,7 @@ import { useRouter } from 'next/navigation';
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { createPortal } from 'react-dom';
 import { LIBELLES_TYPE, rechercher, type EntreeIndex, type TypeResultat } from '@/lib/recherche';
+import { IconeLoupe } from './Icones';
 
 const ORDRE_TYPES: TypeResultat[] = ['candidat', 'parti', 'proposition'];
 
@@ -167,9 +168,7 @@ export default function RechercheGlobale() {
         aria-label="Rechercher sur le site"
         className="inline-flex shrink-0 items-center gap-2 rounded-full border border-stone-900/10 bg-white/70 px-2.5 py-2 text-sm text-stone-600 transition-colors hover:border-stone-900/20 hover:bg-white hover:text-stone-900 sm:px-3.5 dark:border-nuit-bord dark:bg-nuit-clair/70 dark:text-stone-400 dark:hover:border-stone-500 dark:hover:bg-nuit-clair dark:hover:text-stone-100"
       >
-        <span aria-hidden="true" className="text-base leading-none">
-          ⌕
-        </span>
+        <IconeLoupe />
         <span className="hidden sm:inline">Rechercher</span>
       </button>
 
@@ -188,9 +187,7 @@ export default function RechercheGlobale() {
               onKeyDown={auClavierDeLaFenetre}
             >
               <div className="flex items-center gap-1 border-b border-stone-900/10 px-3 transition-colors focus-within:border-ocre dark:border-nuit-bord dark:focus-within:border-ocre-clair">
-                <span aria-hidden="true" className="pl-1 text-lg text-stone-400">
-                  ⌕
-                </span>
+                <IconeLoupe taille={20} className="ml-1 shrink-0 text-stone-400" />
                 <label htmlFor="recherche-champ" className="sr-only">
                   Rechercher un candidat, un parti ou une proposition
                 </label>

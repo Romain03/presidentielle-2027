@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import { IconeLune, IconeSoleil } from './Icones';
 
 /**
  * Choix du thème, clair par défaut.
@@ -71,9 +72,7 @@ export default function ChoixTheme() {
       title={theme === 'sombre' ? 'Thème clair' : 'Thème sombre'}
       className="grid size-9 shrink-0 place-items-center rounded-full border border-stone-900/10 bg-white/70 text-stone-600 transition-colors hover:border-stone-900/20 hover:bg-white hover:text-stone-900 active:scale-95 motion-safe:transition-transform dark:border-nuit-bord dark:bg-nuit-clair/70 dark:text-stone-400 dark:hover:border-stone-500 dark:hover:bg-nuit-clair dark:hover:text-stone-100"
     >
-      <span aria-hidden="true" className="text-base leading-none">
-        {monte && theme === 'sombre' ? '☀' : '☾'}
-      </span>
+      {monte && theme === 'sombre' ? <IconeSoleil /> : <IconeLune />}
     </button>
   );
 }
