@@ -351,6 +351,7 @@ const pagesNouvelles: string[] = [];
 const programmesDecouverts: string[] = [];
 const documentsAbsents: string[] = [];
 const documentsRemplaces: string[] = [];
+const documentsNonControlables: string[] = [];
 
 /**
  * Déduplication globale, et non par site : melenchon2027.fr est atteint à la
@@ -456,8 +457,18 @@ async function surveiller(): Promise<void> {
   for (const document of documents) {
     const reponse = await interroger(document.url);
     if ('erreur' in reponse) {
-      const refusAttendu = [401, 403, 429].includes(reponse.statut);
-      if (!refusAttendu) {
+      // Un 403 ne veut pas dire que le fichier a disparu : plusieurs
+      // hébergeurs refusent toute requête automatique alors que le même
+      // fichier s'ouvre sans difficulté dans un navigateur. Le signaler comme
+      // lien mort serait faux - mais le passer sous silence laisserait croire
+      // que le document est surveillé alors qu'il ne l'est pas. Il change donc
+      // de colonne au lieu de disparaître.
+      if ([401, 403, 429].includes(reponse.statut)) {
+        documentsNonControlables.push(
+          `${document.id} — l'hébergeur refuse la requête automatique (${reponse.statut}),`
+            + ` à vérifier à la main\n  ${document.url}`,
+        );
+      } else {
         documentsAbsents.push(
           `${document.id} → ${reponse.statut || 'injoignable'} ${reponse.erreur}\n  ${document.url}`,
         );
@@ -540,6 +551,11 @@ async function principal(): Promise<void> {
     ),
     '## Ce qui attend du travail',
     '',
+    bloc(
+      'Documents de programme que la veille ne peut pas contrôler',
+      documentsNonControlables,
+      'Tous les documents listés sont contrôlables automatiquement.',
+    ),
     bloc(
       'Autres articles mentionnant une candidature suivie',
       actualites.slice(0, 25),

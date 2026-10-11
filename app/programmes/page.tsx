@@ -121,8 +121,10 @@ export default function PageProgrammes() {
         <Link href="/a-propos/" className="lien">
           La page À propos
         </Link>{' '}
-        indique comment le signaler. Les {documents.length} fichiers listés sont par ailleurs
-        surveillés : un lien qui tombe ou un fichier remplacé ouvre un signalement.
+        indique comment le signaler. Ces fichiers sont par ailleurs interrogés deux fois par jour :
+        un lien qui tombe, ou un document remplacé sous la même adresse, ouvre un signalement. Un
+        document y échappe sur les {documents.length} : son hébergeur refuse les requêtes
+        automatiques, et il est revérifié à la main.
       </p>
     </div>
   );
