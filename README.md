@@ -327,11 +327,16 @@ même raison, le déploiement ignore les commits marqués `[veille]`.
 
 ## Mise à jour autonome
 
-La veille signale ; elle n'écrit pas. Un second workflow,
-`.github/workflows/mise-a-jour-autonome.yml`, lance Claude Code dans le dépôt
-après chaque passage de veille pour **appliquer les corrections établies** :
-vérifier une annonce auprès de deux rédactions, puis mettre à jour un statut de
-candidature, un processus de désignation ou une proposition.
+La veille signale ; elle n'écrit pas. Une étape supplémentaire de
+`veille.yml` lance Claude Code dans le dépôt pour **appliquer les corrections
+établies** : vérifier une annonce auprès de deux rédactions, puis mettre à jour
+un statut de candidature, un processus de désignation ou une proposition.
+
+Elle ne se déclenche **que si la veille a compté au moins un changement d'état
+annoncé dans la presse**. La veille est un script Node qui n'appelle aucun
+modèle et ne coûte rien ; la vérification est facturée à l'usage. La faire
+tourner deux fois par jour pour conclure « rien à signaler » aurait été payer
+pour du silence.
 
 Les règles qu'il suit sont dans [`PROTOCOLE_AUTONOME.md`](PROTOCOLE_AUTONOME.md)
 et n'ont rien d'implicite : ce qu'il peut modifier seul, ce qu'il ne doit jamais
@@ -350,14 +355,18 @@ Trois garde-fous valent d'être connus :
 ### L'activer
 
 Un seul secret à créer, dans *Settings → Secrets and variables → Actions* :
-`ANTHROPIC_API_KEY`. Sans lui le job s'arrête proprement en le disant, et la
-veille continue de fonctionner seule.
+`ANTHROPIC_API_KEY`. **Il facture à l'usage sur le compte API**, qui est distinct
+d'un abonnement Claude : l'action n'accepte pas d'authentification par
+abonnement. Sans ce secret, l'étape est simplement sautée et la veille continue
+de fonctionner seule.
 
 ### L'arrêter
 
-Désactiver le workflow dans l'onglet *Actions*, ou supprimer le fichier. Les
-modifications autonomes arrivent par des commits marqués `[auto]` : `git log` les
-isole et `git revert` les annule.
+Trois niveaux : supprimer le secret (la veille continue de signaler), supprimer
+l'étape « Vérifier et corriger » de `veille.yml`, ou désactiver le workflow dans
+l'onglet *Actions*. Les modifications autonomes arrivent par des commits
+préfixés `[auto]` : `git log --grep '\[auto\]'` les isole et `git revert` les
+annule.
 
 ---
 

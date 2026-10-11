@@ -157,9 +157,28 @@ façon de vérifier que le protocole a été suivi.
 
 ---
 
-## 7. Arrêter l'automatisation
+## 7. Quand cette session se déclenche, et ce qu'elle coûte
 
-Désactiver le workflow dans l'onglet *Actions* du dépôt, ou supprimer
-`.github/workflows/mise-a-jour-autonome.yml`. Les modifications de données
-arrivent toutes par un commit signé `[auto]` sur `main` : `git log` les isole,
-`git revert` les annule.
+Elle est une étape de `.github/workflows/veille.yml`, et elle **ne s'exécute que
+si la veille a compté au moins un changement d'état annoncé dans la presse**.
+
+C'est délibéré, et c'est une question d'argent : la veille elle-même est un
+script Node qui n'appelle aucun modèle et ne coûte rien. La vérification, elle,
+est facturée à l'usage sur le compte API. La faire tourner deux fois par jour
+pour conclure « rien à signaler » aurait été payer pour du silence. Les jours
+sans annonce, rien n'est appelé.
+
+Le compteur vient de `scripts/veille.ts`, qui écrit `evenements=N` sur sa sortie
+d'erreur.
+
+## 8. Arrêter l'automatisation
+
+Trois niveaux, du plus fin au plus radical :
+
+1. **supprimer le secret `ANTHROPIC_API_KEY`** : la vérification est sautée, la
+   veille continue de signaler ;
+2. **supprimer l'étape « Vérifier et corriger »** de `veille.yml` ;
+3. **désactiver le workflow** dans l'onglet *Actions* du dépôt.
+
+Les modifications de données arrivent toutes par un commit préfixé `[auto]` sur
+`main` : `git log --grep '\[auto\]'` les isole, `git revert` les annule.

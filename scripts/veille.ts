@@ -502,6 +502,20 @@ async function principal(): Promise<void> {
     );
   }
 
+  /*
+    Deux signaux distincts, sur la sortie d'erreur pour ne pas polluer le
+    rapport :
+
+    - `evenements` compte les changements d'état annoncés dans la presse. Le
+      workflow s'en sert pour n'appeler un modèle que les jours où il y a
+      vraiment quelque chose à vérifier. Sans ce compteur, la vérification
+      tournerait deux fois par jour pour conclure « rien à faire », et serait
+      facturée pour ça.
+    - `a_agir` couvre tout ce qui demande une lecture, événements compris.
+  */
+  console.error(`evenements=${evenements.length}`);
+  console.error(`a_agir=${aAgir}`);
+
   // Code de sortie non nul quand quelque chose demande une action : le
   // workflow s'en sert pour ouvrir un ticket plutôt que passer inaperçu.
   process.exitCode = aAgir > 0 ? 1 : 0;
