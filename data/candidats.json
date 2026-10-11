@@ -36,8 +36,13 @@
     ],
     "soutiens": [],
     "precisions": [],
-    "liens_officiels": [],
-    "derniere_verification": "2026-10-09",
+    "liens_officiels": [
+      {
+        "libelle": "Site de la candidate",
+        "url": "https://www.nathalie-arthaud.info/"
+      }
+    ],
+    "derniere_verification": "2026-10-11",
     "photo": {
       "fichier": "nathalie-arthaud.webp",
       "auteur": "Kokluts",
@@ -155,8 +160,13 @@
     ],
     "soutiens": [],
     "precisions": [],
-    "liens_officiels": [],
-    "derniere_verification": "2026-10-09",
+    "liens_officiels": [
+      {
+        "libelle": "Site de l’Union populaire républicaine",
+        "url": "https://upr.fr/"
+      }
+    ],
+    "derniere_verification": "2026-10-11",
     "photo": {
       "fichier": "francois-asselineau.webp",
       "auteur": "Union Populaire Républicaine",
@@ -323,8 +333,13 @@
     ],
     "soutiens": [],
     "precisions": [],
-    "liens_officiels": [],
-    "derniere_verification": "2026-10-09",
+    "liens_officiels": [
+      {
+        "libelle": "Site de campagne « Attal Président »",
+        "url": "https://attalpresident.fr/"
+      }
+    ],
+    "derniere_verification": "2026-10-11",
     "photo": {
       "fichier": "gabriel-attal.webp",
       "auteur": "Ismail Aissoub",
@@ -845,8 +860,13 @@
     ],
     "soutiens": [],
     "precisions": [],
-    "liens_officiels": [],
-    "derniere_verification": "2026-10-09",
+    "liens_officiels": [
+      {
+        "libelle": "Site de Génération Écologie",
+        "url": "https://www.generationecologie.fr/"
+      }
+    ],
+    "derniere_verification": "2026-10-11",
     "photo": {
       "fichier": "delphine-batho.webp",
       "auteur": "DeuxSevres79",
@@ -1700,8 +1720,13 @@
         }
       }
     ],
-    "liens_officiels": [],
-    "derniere_verification": "2026-10-09",
+    "liens_officiels": [
+      {
+        "libelle": "Site de son mouvement « La Convention »",
+        "url": "https://www.la-convention.fr/"
+      }
+    ],
+    "derniere_verification": "2026-10-11",
     "photo": {
       "fichier": "bernard-cazeneuve.webp",
       "auteur": "Jérémy Barande",
@@ -1833,8 +1858,13 @@
     ],
     "soutiens": [],
     "precisions": [],
-    "liens_officiels": [],
-    "derniere_verification": "2026-10-09",
+    "liens_officiels": [
+      {
+        "libelle": "Site de Debout la France",
+        "url": "https://www.debout-la-france.fr/"
+      }
+    ],
+    "derniere_verification": "2026-10-11",
     "photo": {
       "fichier": "nicolas-dupont-aignan.webp",
       "auteur": "Debout la France",
@@ -3063,7 +3093,12 @@
         }
       }
     ],
-    "liens_officiels": [],
+    "liens_officiels": [
+      {
+        "libelle": "Site de campagne « Avec Raphaël Glucksmann »",
+        "url": "https://glucks2027.fr/"
+      }
+    ],
     "derniere_verification": "2026-10-11",
     "photo": {
       "fichier": "raphael-glucksmann.webp",
@@ -3661,8 +3696,13 @@
     "parcours": [],
     "soutiens": [],
     "precisions": [],
-    "liens_officiels": [],
-    "derniere_verification": "2026-10-09",
+    "liens_officiels": [
+      {
+        "libelle": "Site du NPA-Révolutionnaires",
+        "url": "https://npa-revolutionnaires.org/"
+      }
+    ],
+    "derniere_verification": "2026-10-11",
     "photo": null,
     "biographie": {
       "naissance": null,
@@ -4462,8 +4502,13 @@
         }
       }
     ],
-    "liens_officiels": [],
-    "derniere_verification": "2026-10-09",
+    "liens_officiels": [
+      {
+        "libelle": "Site de campagne « Nouvelle Énergie »",
+        "url": "https://www.unenouvelleenergie.fr/"
+      }
+    ],
+    "derniere_verification": "2026-10-11",
     "photo": {
       "fichier": "david-lisnard.webp",
       "auteur": "Frantogian",
@@ -4551,8 +4596,13 @@
     "parcours": [],
     "soutiens": [],
     "precisions": [],
-    "liens_officiels": [],
-    "derniere_verification": "2026-10-09",
+    "liens_officiels": [
+      {
+        "libelle": "Site du Parti animaliste",
+        "url": "https://parti-animaliste.fr/"
+      }
+    ],
+    "derniere_verification": "2026-10-11",
     "photo": null,
     "biographie": {
       "naissance": null,
@@ -5405,8 +5455,13 @@
         }
       }
     ],
-    "liens_officiels": [],
-    "derniere_verification": "2026-10-09",
+    "liens_officiels": [
+      {
+        "libelle": "Site des Patriotes",
+        "url": "https://les-patriotes.fr/"
+      }
+    ],
+    "derniere_verification": "2026-10-11",
     "photo": {
       "fichier": "florian-philippot.webp",
       "auteur": "Thomas Bresson",
@@ -5910,8 +5965,13 @@
     ],
     "soutiens": [],
     "precisions": [],
-    "liens_officiels": [],
-    "derniere_verification": "2026-10-09",
+    "liens_officiels": [
+      {
+        "libelle": "Site de campagne « Fabien Roussel 2027 »",
+        "url": "http://www.fabienroussel2027.fr/"
+      }
+    ],
+    "derniere_verification": "2026-10-11",
     "photo": {
       "fichier": "fabien-roussel.webp",
       "auteur": "Zouhair NAKARA",
@@ -6267,8 +6327,13 @@
         }
       }
     ],
-    "liens_officiels": [],
-    "derniere_verification": "2026-10-09",
+    "liens_officiels": [
+      {
+        "libelle": "Site de campagne « Nous Président ! »",
+        "url": "https://nouspresident.fr/"
+      }
+    ],
+    "derniere_verification": "2026-10-11",
     "photo": {
       "fichier": "francois-ruffin.webp",
       "auteur": "Thinkerview",
@@ -6412,8 +6477,13 @@
         }
       }
     ],
-    "liens_officiels": [],
-    "derniere_verification": "2026-10-09",
+    "liens_officiels": [
+      {
+        "libelle": "Site de campagne",
+        "url": "https://marinetondelier.fr/"
+      }
+    ],
+    "derniere_verification": "2026-10-11",
     "photo": {
       "fichier": "marine-tondelier.webp",
       "auteur": "Greenbox",
@@ -7135,8 +7205,13 @@
       }
     ],
     "precisions": [],
-    "liens_officiels": [],
-    "derniere_verification": "2026-10-09",
+    "liens_officiels": [
+      {
+        "libelle": "Site de Reconquête",
+        "url": "https://parti-reconquete.fr/"
+      }
+    ],
+    "derniere_verification": "2026-10-11",
     "photo": {
       "fichier": "eric-zemmour.webp",
       "auteur": "Anh De France",
