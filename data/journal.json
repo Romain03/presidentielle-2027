@@ -1,6 +1,14 @@
 [
   {
     "date": "2026-10-11",
+    "resume": "Mise en forme des données, sans changement de contenu",
+    "fichiers": [
+      "documents.json"
+    ],
+    "commit": "77f888b071"
+  },
+  {
+    "date": "2026-10-11",
     "resume": "5 propositions modifiées",
     "fichiers": [
       "propositions.json"

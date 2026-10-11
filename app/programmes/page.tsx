@@ -42,38 +42,13 @@ export default function PageProgrammes() {
           seulement en échange d’une adresse électronique.
         </p>
         <p className="max-w-2xl text-sm leading-relaxed text-stone-600 dark:text-stone-400">
-          Les liens ci-dessous mènent directement au fichier, chez le candidat, sans formulaire et
-          sans inscription. Aucun document n’est recopié ici : vous obtenez la version en ligne au
-          moment où vous cliquez, et non celle que ce site aurait figée. Nombre de pages et poids
-          sont relevés dans le fichier.
-        </p>
-        <p className="max-w-2xl text-sm leading-relaxed text-stone-600 dark:text-stone-400">
-          {statistiques.documents} documents, {statistiques.pagesDeDocuments.toLocaleString('fr-FR')}{' '}
-          pages au total, pour {statistiques.candidatsAvecDocument} candidats sur{' '}
-          {statistiques.enLice} candidatures engagées.
+          Les liens mènent directement au fichier, chez le candidat, sans formulaire et sans
+          inscription. {statistiques.documents} documents,{' '}
+          {statistiques.pagesDeDocuments.toLocaleString('fr-FR')} pages, pour{' '}
+          {statistiques.candidatsAvecDocument} candidats sur {statistiques.enLice} candidatures
+          engagées.
         </p>
       </header>
-
-      <section aria-labelledby="dates" className="carte space-y-2 p-4">
-        <h2 id="dates" className="font-semibold">
-          Pourquoi la date compte autant que le document
-        </h2>
-        <p className="text-sm leading-relaxed text-stone-700 dark:text-stone-300">
-          Un PDF n’affiche presque jamais sa date, et un site garde rarement trace de l’année où il
-          l’a mis en ligne. Un document de la campagne précédente reste donc consultable, sous le
-          même intitulé, à la même adresse - et rien ne signale au lecteur qu’il lit un programme
-          périmé. Chaque document listé ici a été ouvert et daté avant d’être retenu ; la date
-          affichée dit d’où elle vient, au survol.
-        </p>
-        <p className="text-sm leading-relaxed text-stone-700 dark:text-stone-300">
-          Plusieurs documents ont été écartés pour cette seule raison : ils dataient d’un autre
-          scrutin.{' '}
-          <Link href="/methodologie/#documents" className="lien">
-            La méthodologie
-          </Link>{' '}
-          dit lesquels, et pourquoi.
-        </p>
-      </section>
 
       <section aria-labelledby="liste" className="space-y-7">
         <h2 id="liste" className="text-lg font-semibold">
@@ -90,6 +65,32 @@ export default function PageProgrammes() {
             <DocumentsProgramme documents={documentsDuCandidat(candidat.id)} />
           </section>
         ))}
+      </section>
+
+      <section aria-labelledby="dates" className="carte space-y-2 p-4">
+        <h2 id="dates" className="font-semibold">
+          Pourquoi la date compte autant que le document
+        </h2>
+        <p className="text-sm leading-relaxed text-stone-700 dark:text-stone-300">
+          Un PDF n’affiche presque jamais sa date, et un site garde rarement trace de l’année où il
+          l’a mis en ligne. Un document de la campagne précédente reste donc consultable, sous le
+          même intitulé, à la même adresse - et rien ne signale au lecteur qu’il lit un programme
+          périmé. Chaque document listé ici a été ouvert et daté avant d’être retenu ; la date
+          affichée dit d’où elle vient, au survol.
+        </p>
+        <p className="text-sm leading-relaxed text-stone-700 dark:text-stone-300">
+          Aucun document n’est recopié ici : vous obtenez la version en ligne au moment où vous
+          cliquez, et non celle que ce site aurait figée. Nombre de pages et poids sont relevés
+          dans le fichier lui-même.
+        </p>
+        <p className="text-sm leading-relaxed text-stone-700 dark:text-stone-300">
+          Plusieurs documents ont été écartés pour cette seule raison : ils dataient d’un autre
+          scrutin.{' '}
+          <Link href="/methodologie/#documents" className="lien">
+            La méthodologie
+          </Link>{' '}
+          dit lesquels, et pourquoi.
+        </p>
       </section>
 
       {sansDocument.length > 0 && (
