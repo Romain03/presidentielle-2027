@@ -4,29 +4,28 @@ Tout ce qui est incertain, contradictoire ou non sourçable est consigné ici
 plutôt que publié sur le site. Rien de ce qui figure dans cette liste n'est
 affiché comme un fait dans `/data`.
 
-Dernière revue : **11 octobre 2026** - 33 partis, 44 candidats, 68 propositions,
-16 documents de programme.
+Dernière revue : **11 octobre 2026**, mise à jour le **12 octobre 2026** - 33
+partis, 44 candidats, 75 propositions, 16 documents de programme.
 
 ---
 
 ## 1. Priorité haute : à reprendre dans les jours qui viennent
 
-### Primaire présidentielle socialiste
-Le premier tour se tenait les **9 et 10 octobre 2026** (de 8 h le vendredi à
-20 h le samedi), un second tour éventuel les 16 et 17 octobre. Plus de 140 000
-personnes étaient inscrites pour départager cinq candidats : Olivier Faure,
-Raphaël Glucksmann, Jérôme Guedj, Emmanuel Maurel, Ségolène Royal. Tous sont
-actuellement enregistrés comme « Candidature déclarée ».
+### Primaire présidentielle socialiste — RÉSOLU le 12 octobre 2026
+Le premier tour s'est tenu les 9 et 10 octobre 2026. Raphaël Glucksmann l'a
+remporté dès le premier tour avec 66,17 % des suffrages exprimés (79 613 voix
+sur 120 787 votants, 134 467 inscrits), d'après LCP et Public Sénat (deux
+rédactions indépendantes, articles du 11 octobre 2026, lus en entier) ;
+confirmé par deux articles supplémentaires de franceinfo et Public Sénat
+relevés le 12 octobre. Les données ont déjà été mises à jour : Glucksmann en
+« Investi », et Faure, Guedj, Maurel, Royal en « Ne concourt plus », avec la
+précision que ce retrait découle du règlement de la primaire et qu'aucun
+désistement individuel n'a été relevé.
 
-**Aucun résultat n'était connu au moment de cette revue.** La plateforme de vote
-en ligne a par ailleurs été visée par une cyberattaque de type saturation (afflux
-massif de connexions par bots) depuis son ouverture ; selon la commission
-d'organisation, le scrutin n'a pas été interrompu et l'intégrité des votes n'est
-pas compromise, mais la capacité à voter d'une partie des électeurs a été
-entravée. Un contentieux sur la participation n'est donc pas à exclure.
-
-**À reprendre dès la proclamation** : le ou la gagnante passe en « Investi », les
-autres en « Retiré » s'ils se retirent effectivement.
+Point resté ouvert, non tranché par cette revue : l'éventuel contentieux lié à
+la cyberattaque par saturation visant la plateforme de vote en ligne pendant le
+scrutin. Aucune source consultée ne mentionne de recours ou d'annulation à ce
+jour ; à surveiller si la presse en fait état.
 
 ### Primaire de la gauche unitaire
 François Ruffin et Marine Tondelier s'y inscrivent. Ruffin a annoncé qu'il

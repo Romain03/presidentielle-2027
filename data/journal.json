@@ -1,6 +1,15 @@
 [
   {
     "date": "2026-10-12",
+    "resume": "9 propositions modifiées · 1 question modifiée",
+    "fichiers": [
+      "propositions.json",
+      "questions.json"
+    ],
+    "commit": "d029ca9190"
+  },
+  {
+    "date": "2026-10-12",
     "resume": "7 propositions ajoutées · 1 proposition modifiée — 1 position gagne une source",
     "fichiers": [
       "propositions.json"
