@@ -192,7 +192,7 @@
   "https://www.debout-la-france.fr/notre-projet": {
     "hachage": "decouvert",
     "caracteres": 0,
-    "vu": "2026-10-22"
+    "vu": "2026-10-23"
   },
   "https://www.debout-la-france.fr/projet/economie-travail": {
     "hachage": "decouvert",
@@ -212,7 +212,7 @@
   "https://www.debout-la-france.fr/projet/retraites/": {
     "hachage": "44f69436f7364d28a95d77d46b4b5764e7b3dc54f2ef3fbdbd16095d259e17ec",
     "caracteres": 11702,
-    "vu": "2026-10-22"
+    "vu": "2026-10-23"
   },
   "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-attentive-a-ses-enfants": {
     "hachage": "decouvert",
@@ -275,8 +275,8 @@
     "vu": "2026-10-23"
   },
   "https://www.unenouvelleenergie.fr/notre-programme/reussir-une-nouvelle-ambition-francaise/": {
-    "hachage": "813290635d6566f5747ce4d9cae0e472901f0affdec5d6deb30a12ce771dc590",
-    "caracteres": 27487,
+    "hachage": "c401a65278384b56cc09eb72d6cedda788b18e71d8406f32ca6605a4fed53193",
+    "caracteres": 27482,
     "vu": "2026-10-23"
   }
 }
