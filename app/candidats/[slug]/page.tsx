@@ -120,10 +120,10 @@ export default async function PageCandidat({ params }: { params: Promise<{ slug:
             Documents de programme
           </h2>
           {/*
-            Ces liens mènent au fichier publié par le candidat, sans passer par
-            un formulaire : plusieurs sites ne donnent leur programme qu'en
-            échange d'une adresse électronique, et lire un programme ne devrait
-            pas coûter une inscription.
+            Ces liens mènent au programme publié par le candidat, sans copie
+            intermédiaire. Ce bloc a d'abord porté la mention que certains sites
+            réclamaient une adresse électronique pour donner leur programme :
+            vérification faite, aucun ne le fait, et la mention a été retirée.
           */}
           <DocumentsProgramme documents={docs} />
         </section>

@@ -623,6 +623,45 @@ pour ajouter mon nom à la liste des prétendants ». Le site le donne comme
 déclaré au 16 juillet 2026, soit le lendemain. La chronologie est cohérente mais
 la source de la déclaration elle-même n'a pas été relue à cette occasion.
 
+### Corrigé : aucun programme n'est derrière un formulaire (26 octobre 2026)
+Le site a affirmé pendant quinze jours, sur la page des programmes, sur la
+méthodologie, sur chaque fiche de candidat et jusque dans le commentaire du
+schéma, que « plusieurs sites ne donnent leur programme qu'en échange d'une
+adresse électronique ». **C'était repris sans vérification**, d'une remarque
+faite en conversation, et transformé en fait affiché.
+
+Le contrôle a été fait le 26 octobre 2026 sur l'ensemble des sites officiels
+suivis, en relevant chaque champ de formulaire demandant une adresse et en
+lisant ce que ce formulaire promet :
+
+- `glucks2027.fr` : inscription à la campagne (« vous choisissez ce que vous
+  recevez ») et formulaire de don ;
+- `parti-reconquete.fr`, `generationecologie.fr`, `npa-revolutionnaires.org` :
+  lettres d'information ;
+- `parti-equinoxe.fr`, `solutiondemocratique.fr` : adhésion et don ;
+- `edouardphilippe.fr`, `rassemblementnational.fr`, `upr.fr/notre-programme`,
+  `parti-animaliste.fr/programme`, `nathalie-arthaud.info` : aucun champ
+  d'adresse.
+
+**Aucun formulaire ne conditionne l'accès à un programme.** Les deux « kits
+militants » existants ne contiennent que du matériel en téléchargement libre :
+logos, charte graphique, tracts, bulletin d'adhésion chez Nouvelle Énergie ;
+affiches, tracts et une profession de foi de 2022 chez Debout la France. Les
+espaces réservés (`npolony.fr/elus`, espace adhérent de Nouvelle Énergie,
+espace militant de Debout la France) ne mentionnent aucun document de
+programme.
+
+L'affirmation a été retirée des quatre emplacements, et la méthodologie porte
+désormais la correction en clair. Les obstacles réels, eux, sont documentés
+ailleurs dans ce fichier : programme rangé parmi le matériel militant,
+programmes en ligne sans date, livrets de 2022 présentés comme courants,
+hébergeur refusant les requêtes automatiques, PDF au texte partiellement
+illisible.
+
+**Leçon** : une remarque faite en conversation n'est pas une source. Elle avait
+la forme d'une évidence - beaucoup de sites marchent ainsi - et c'est
+exactement ce qui l'a fait passer.
+
 ### Programmes en ligne : qui n'a toujours rien publié (26 octobre 2026)
 Les vingt-sept candidatures engagées sans programme ont été reprises une par
 une, en balayant leur site officiel. Six programmes publiés en page web en sont

@@ -230,8 +230,24 @@ export default function PageMethodologie() {
             Les programmes officiels
           </Link>{' '}
           réunit les programmes publiés par les candidats et leurs partis, en lien direct.
-          Plusieurs sites ne donnent leur programme qu’en échange d’une adresse électronique :
-          lire un programme ne devrait pas coûter une inscription.
+        </p>
+        <p className="text-sm leading-relaxed text-stone-700 dark:text-stone-300">
+          <strong className="font-semibold">Correction du 26 octobre 2026.</strong> Cette page a
+          d’abord affirmé que plusieurs candidats ne donnaient leur programme qu’en échange d’une
+          adresse électronique. C’était repris sans vérification. Le contrôle a été fait : sur
+          l’ensemble des sites officiels suivis, tous les formulaires qui demandent une adresse
+          sont des inscriptions à une lettre d’information, des bulletins d’adhésion ou des
+          formulaires de don - <strong className="font-semibold">aucun ne conditionne l’accès à un
+          programme</strong>. Les deux « kits militants » qui existent (Nouvelle Énergie, Debout la
+          France) ne contiennent que des logos, des tracts et des affiches, en téléchargement
+          libre. L’affirmation a été retirée partout.
+        </p>
+        <p className="text-sm leading-relaxed text-stone-700 dark:text-stone-300">
+          Les obstacles réellement rencontrés sont ailleurs, et ils sont documentés : un programme
+          rangé dans une page de matériel militant entre deux autocollants ; six programmes en
+          ligne sans aucune date de publication ; seize livrets fabriqués en 2022 toujours offerts
+          sous le bouton « Découvrez le programme » ; un hébergeur qui refuse les requêtes
+          automatiques ; et un PDF dont les polices ne livrent pas tout leur texte.
         </p>
         <p className="text-sm leading-relaxed text-stone-700 dark:text-stone-300">
           Cette page ne listait d’abord que des PDF, et c’était un critère de format déguisé en

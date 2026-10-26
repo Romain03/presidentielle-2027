@@ -552,8 +552,9 @@ export const LIBELLES_FORMAT_DOCUMENT: Record<FormatDocument, string> = {
  *
  * Ces documents sont la source la plus primaire qui existe : les mots du
  * candidat, sans intermédiaire. Ils sont pourtant les plus difficiles à
- * trouver - enfouis dans une page de matériel militant, derrière un formulaire
- * qui réclame une adresse électronique, ou publiés sans date.
+ * trouver - enfouis dans une page de matériel militant entre deux affiches,
+ * publiés sans aucune date, ou masqués par l'édition d'une campagne précédente
+ * restée en ligne sous le même intitulé.
  *
  * Le document n'est jamais recopié ici : le lien pointe vers le fichier tel
  * que le candidat le publie. Héberger une copie, ce serait figer une version
@@ -598,7 +599,7 @@ export const DocumentProgramme = z
   })
   // Un PDF doit être lié directement, pas à travers une page qui le présente :
   // c'est tout l'intérêt de cette liste. Un lecteur qui clique obtient le
-  // document, sans formulaire.
+  // document, et non une page où le chercher encore.
   .refine((d) => d.format !== 'pdf' || new URL(d.url).pathname.toLowerCase().endsWith('.pdf'), {
     message: 'Un document au format pdf doit pointer directement sur le fichier',
     path: ['url'],

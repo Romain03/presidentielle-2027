@@ -25,7 +25,7 @@ const VUES = [
   {
     href: '/programmes/',
     titre: 'Programmes en PDF',
-    texte: 'Les documents publiés par les candidats, en lien direct et sans formulaire.',
+    texte: 'Les programmes publiés par les candidats, en lien direct, documents et pages en ligne.',
   },
   {
     href: '/comparateur/',

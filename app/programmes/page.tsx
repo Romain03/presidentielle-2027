@@ -38,12 +38,13 @@ export default function PageProgrammes() {
         <p className="max-w-2xl text-lg leading-relaxed text-stone-700 dark:text-stone-300">
           Un programme écrit par le candidat lui-même est la source la plus directe qui existe :
           ni résumé, ni compte rendu, ni interprétation. Ils sont pourtant difficiles à trouver -
-          enfouis dans une page de matériel militant, publiés sans date, ou accessibles seulement
-          en échange d’une adresse électronique.
+          enfouis dans une page de matériel militant entre deux affiches, publiés sans aucune
+          date, ou noyés sous l’édition d’une campagne précédente restée en ligne sous le même
+          intitulé.
         </p>
         <p className="max-w-2xl text-sm leading-relaxed text-stone-600 dark:text-stone-400">
-          Les liens mènent directement au programme, chez le candidat, sans formulaire et sans
-          inscription. {statistiques.documents} programmes pour{' '}
+          Les liens mènent directement au programme, chez le candidat.{' '}
+          {statistiques.documents} programmes pour{' '}
           {statistiques.candidatsAvecDocument} candidats sur {statistiques.enLice} candidatures
           engagées : {statistiques.documentsEnPdf} documents téléchargeables,{' '}
           {statistiques.pagesDeDocuments.toLocaleString('fr-FR')} pages à eux seuls, et{' '}
