@@ -11,23 +11,50 @@ partis, 44 candidats, 75 propositions, 16 documents de programme.
 
 ## 1. Priorité haute : à reprendre dans les jours qui viennent
 
-### Cinq candidatures encore absentes du site (26 octobre 2026)
-Le panorama de Public Sénat du 14 octobre 2026 nomme six candidatures que le
-site ignorait. **Natacha Polony a été vérifiée et enregistrée** ; les cinq
-autres restent à vérifier une par une, selon le test de véracité du protocole :
+### Candidatures retrouvées, et ce qui reste ouvert (26 octobre 2026)
+Le panorama de Public Sénat du 14 octobre et celui de franceinfo du 22 octobre
+nommaient six candidatures que le site ignorait. **Les six sont enregistrées.**
+Ce qui reste incertain sur chacune :
 
-- **Gilles Platret** (Les Républicains) - déclarée. Le parti est déjà dans les
-  données, et Bruno Retailleau y est investi : une seconde candidature LR
-  demande à être comprise avant d'être enregistrée.
-- **Juan Branco** - déclarée, indépendant.
-- **Antoine Mikolajczak** (Equinoxe) - déclarée. Parti absent des données.
-- **Jean-François Legendre** (À nous maintenant) - déclarée. Parti absent.
-- **Clara Egger** (Solution démocratique) - déclarée. Parti absent.
+- **Natacha Polony** (Nous sommes la France) - déclarée le 14 octobre 2026 sur
+  France Inter. Fiche la plus complète des six : deux rédactions indépendantes,
+  site de campagne lu.
+- **Gilles Platret** - déclaré le 8 octobre 2026 devant environ 800 personnes.
+  **Son étiquette diffère selon les rédactions** : divers droite pour France 3
+  Bourgogne-Franche-Comté, Les Républicains pour Public Sénat, « droite » pour
+  franceinfo. La fiche reste donc **sans parti** ; à trancher quand une source
+  l'établira. Son domaine `gillesplatret.fr` existe mais c'est son site
+  d'historien, pas un site de campagne : non enregistré.
+- **Juan Branco** (Les Ruches) - déclaré en **décembre 2025, jour inconnu** :
+  `statut_date` est nul plutôt qu'inventé. Aucun site officiel trouvé -
+  `lesruches.fr` est un domaine en vente (Dovendi), et `juanbranco.fr` est un
+  blog tenu par un tiers qui republie ses messages. Les deux écartés.
+- **Antoine Mikolajczak** (Équinoxe) - **désigné en avril 2026, jour inconnu**.
+  Attention à l'homonymie de domaine : `equinoxe.fr` est une société de gestion
+  de patrimoine sans rapport. Le site du parti est `parti-equinoxe.fr`.
+- **Jean-François Legendre** (À nous maintenant) - **date de déclaration non
+  établie**. Aucun site officiel trouvé.
+- **Clara Egger** (Solution démocratique) - **date de déclaration non établie**.
 
-Pour chacune : deux rédactions indépendantes, la date de déclaration, le
-mouvement exact, et un site officiel vérifié avant enregistrement. Trois
-mouvements sont à créer, ce qui suppose de leur attribuer une couleur et une
-famille - conventions qui se discutent (voir §4).
+Aucune de ces cinq candidatures ne porte encore de proposition : leurs
+positions restent à relever.
+
+### Conventions à trancher sur les mouvements créés
+Quatre mouvements ont été créés pour ces candidatures, et deux choix y sont
+discutables :
+
+- **Équinoxe est rangé à gauche**, parce que c'est le classement de franceinfo,
+  la source lue. Le parti se présente lui-même comme écologiste et a été fondé
+  en 2021 « pour une écologie pragmatique » : un lecteur filtrant sur
+  « Écologistes » ne le trouvera pas. **À rediscuter.**
+- **Les couleurs** des quatre mouvements ont été choisies pour se distinguer
+  des voisines de leur famille, sans autre fondement. Comme pour tous les
+  partis, ce n'est qu'un repère visuel, jamais le seul porteur d'une
+  information.
+
+Aucun des quatre n'a de nuance ministérielle : ils sont trop récents ou trop
+petits pour figurer dans la nomenclature du ministère de l'Intérieur. Dix-neuf
+des trente-huit partis du site sont dans ce cas.
 
 ### Écarts de statut avec le panorama de Public Sénat (14 octobre 2026)
 Six divergences, non arbitrées. Le protocole dit que deux sources qui se
@@ -59,9 +86,10 @@ Enregistrée le 26 octobre 2026 sur la foi de franceinfo (14/10), France 24
 suspens :
 
 - **Son mouvement n'a pas de nuance ministérielle** et sa famille politique est
-  rangée en « divers », comme Public Sénat la classe. Elle se revendique du
-  « gaullisme social » selon un résumé de moteur de recherche **non vérifié** :
-  la formule n'a pas été lue dans un article et n'est donc pas publiée.
+  rangée en « divers », comme Public Sénat la classe. Le « gaullisme social »
+  qu'elle revendique, d'abord relevé dans un résumé de moteur et laissé de
+  côté, a depuis été lu dans le panorama de franceinfo du 22 octobre 2026 : il
+  est publié avec cette source.
 - **Son site n'a pas de section programme** et aucun document téléchargeable. La
   page `npolony.fr/vision` fait office de texte programmatique, mais elle **ne
   porte aucune date** : la source est datée du jour de lecture, convention déjà

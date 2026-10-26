@@ -1,5 +1,15 @@
 [
   {
+    "date": "2026-10-26",
+    "resume": "1 candidature ajoutée · 1 parti ajouté · 4 propositions ajoutées — entrée de Natacha Polony ; position de Natacha Polony sur « institutions » ; position de Natacha Polony sur « fiscalite » ; position de Natacha Polony sur « education » ; et 1 autre",
+    "fichiers": [
+      "candidats.json",
+      "partis.json",
+      "propositions.json"
+    ],
+    "commit": "249732e963"
+  },
+  {
     "date": "2026-10-12",
     "resume": "5 propositions modifiées",
     "fichiers": [

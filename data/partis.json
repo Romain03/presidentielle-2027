@@ -1248,5 +1248,85 @@
     "site_officiel": "https://www.npolony.fr/",
     "processus_designation": null,
     "derniere_verification": "2026-10-26"
+  },
+  {
+    "id": "les-ruches",
+    "nom": "Les Ruches",
+    "sigle": "Ruches",
+    "couleur": "#a08a5f",
+    "famille": "divers",
+    "nuance_ministerielle": null,
+    "fondation": null,
+    "dirigeant": null,
+    "positionnement_declare": null,
+    "site_officiel": null,
+    "processus_designation": null,
+    "derniere_verification": "2026-10-26"
+  },
+  {
+    "id": "equinoxe",
+    "nom": "Équinoxe",
+    "sigle": "Équinoxe",
+    "couleur": "#a8405c",
+    "famille": "gauche",
+    "nuance_ministerielle": null,
+    "fondation": {
+      "annee": 2021,
+      "source": {
+        "url": "https://www.franceinfo.fr/elections/presidentielle/portraits-qui-sont-les-candidats-declares-a-l-election-presidentielle-de-2027_8208032.html",
+        "titre": "PORTRAITS. Qui sont les candidats (déjà) déclarés à l'élection présidentielle de 2027 ?",
+        "type": "article-de-presse",
+        "date": "2026-10-22"
+      }
+    },
+    "dirigeant": null,
+    "positionnement_declare": {
+      "texte": "« Équinoxe, un parti pour le monde qui vient » : le parti dit vouloir répondre à « l'ère de la démesure » par une écologie qu'il qualifie de pragmatique.",
+      "source": {
+        "url": "https://parti-equinoxe.fr/",
+        "titre": "Parti Équinoxe - accueil",
+        "type": "site-de-parti",
+        "date": "2026-10-26"
+      }
+    },
+    "site_officiel": "https://parti-equinoxe.fr/",
+    "processus_designation": null,
+    "derniere_verification": "2026-10-26"
+  },
+  {
+    "id": "a-nous-maintenant",
+    "nom": "À nous maintenant",
+    "sigle": "ANM",
+    "couleur": "#7a8c99",
+    "famille": "divers",
+    "nuance_ministerielle": null,
+    "fondation": null,
+    "dirigeant": null,
+    "positionnement_declare": null,
+    "site_officiel": null,
+    "processus_designation": null,
+    "derniere_verification": "2026-10-26"
+  },
+  {
+    "id": "solution-democratique",
+    "nom": "Solution démocratique",
+    "sigle": "SD",
+    "couleur": "#6f8f8a",
+    "famille": "divers",
+    "nuance_ministerielle": null,
+    "fondation": null,
+    "dirigeant": null,
+    "positionnement_declare": {
+      "texte": "« Parti politique pour instaurer la démocratie directe », centré sur le référendum d'initiative citoyenne.",
+      "source": {
+        "url": "https://solutiondemocratique.fr/",
+        "titre": "Solution Démocratique - accueil",
+        "type": "site-de-parti",
+        "date": "2026-10-26"
+      }
+    },
+    "site_officiel": "https://solutiondemocratique.fr/",
+    "processus_designation": null,
+    "derniere_verification": "2026-10-26"
   }
 ]

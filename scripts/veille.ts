@@ -420,7 +420,7 @@ const NOM_PROPRE =
 
 /** Mots qui commencent une majuscule sans désigner une personne. */
 const PAS_UN_NOM =
-  /\b(France|Europe|Paris|Assembl[ée]e|S[ée]nat|R[ée]publique|Pr[ée]sidentielle|[EÉ]lection|Nouveau|Nouvelle|Parti|Rassemblement|Union|Mouvement|Les|La|Le|Front|Lutte|R[ée]volution|Horizons|Renaissance|Debout|Solution|Trajectoire|Equinoxe|Audace|Insoumise|[EÉ]cologistes|R[ée]publicains|Patriotes|Reconqu[êe]te|Conseil|Premier|Ministre|LR|UDR|PS|RN|LFI|Anticapitaliste|Populaire|Clavier|Accueil|Documentaires|[EÉ]missions|Podcasts|Par|Saint|Vid[ée]os|Replay|Direct|Chaine|Cha[îi]ne|Janvier|F[ée]vrier|Mars|Avril|Juin|Juillet|Ao[ûu]t|Septembre|Octobre|Novembre|D[ée]cembre|Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche|Cookies|Politique|Mentions)\b/i;
+  /\b(France|Europe|Paris|Assembl[ée]e|S[ée]nat|R[ée]publique|Pr[ée]sidentielle|[EÉ]lection|Nouveau|Nouvelle|Parti|Rassemblement|Union|Mouvement|Les|La|Le|Front|Lutte|R[ée]volution|Horizons|Renaissance|Debout|Solution|Trajectoire|Equinoxe|Audace|Insoumise|[EÉ]cologistes|R[ée]publicains|Patriotes|Reconqu[êe]te|Conseil|Premier|Ministre|LR|UDR|PS|RN|LFI|Anticapitaliste|Populaire|Clavier|Accueil|Documentaires|[EÉ]missions|Podcasts|Par|Saint|Vid[ée]os|Replay|Direct|Chaine|Cha[îi]ne|Ce|Cet|Cette|Ces|Si[èe]cle|Janvier|F[ée]vrier|Mars|Avril|Juin|Juillet|Ao[ûu]t|Septembre|Octobre|Novembre|D[ée]cembre|Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche|Cookies|Politique|Mentions)\b/i;
 
 function normaliserNom(nom: string): string {
   return nom
@@ -543,6 +543,8 @@ async function surveiller(): Promise<void> {
     for (const trouve of texte.matchAll(NOM_PROPRE)) {
       const brut = trouve[1].replace(/\s+/g, ' ').trim();
       if (PAS_UN_NOM.test(brut)) continue;
+      // « Ce XIXe » : un ordinal en chiffres romains n'est pas un patronyme.
+      if (/\b[IVXLC]+(?:e|er|ème)\b/i.test(brut)) continue;
       const cle = normaliserNom(brut);
       if (cle.split(' ').length < 2 || vus.has(cle)) continue;
       vus.add(cle);
