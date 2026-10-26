@@ -197,10 +197,14 @@ il ne coûte rien, et il tourne même machine éteinte. Il **signale** - il n'é
 jamais dans `data/`.
 
 **Ce protocole**, exécuté par une tâche planifiée de l'application Claude
-(`presidentielle-veille`, deux fois par jour en heure locale). Elle tourne sur
-l'abonnement : **aucune facturation à l'usage, aucune clé API**. En contrepartie
-elle ne s'exécute **que si l'application est ouverte** ; si elle était fermée à
-l'heure prévue, la tâche part au lancement suivant.
+(`presidentielle-veille`, **une fois par jour à 8 h 40 en heure locale**). Elle
+tourne sur l'abonnement : **aucune facturation à l'usage, aucune clé API**. En
+contrepartie elle ne s'exécute **que si l'application est ouverte** ; si elle
+était fermée à l'heure prévue, la tâche part au lancement suivant.
+
+Le passage du matin traite donc tout ce que la journée précédente a produit,
+annonces de fin de soirée comprises - c'est ce que la veille de 18 h UTC a déjà
+relevé de son côté.
 
 Cette asymétrie est voulue. Le signal doit être fiable même machine éteinte, et
 c'est le rôle de la veille sur GitHub. La correction, elle, demande de lire des
