@@ -406,8 +406,15 @@
     "detail": "Le candidat défend l'abrogation de la réforme de 2023 sans annoncer pour l'instant un nouvel âge légal valable pour tous. Il met l'accent sur la pénibilité et sur l'emploi des seniors, autour d'une « base à 62 ans » assortie d'un système de décote pour « prendre en compte la pénibilité ». Il veut créer « un Haut Conseil du pilotage des retraites » et porter un plan pour « accroître le nombre de cotisants ». Il a indiqué qu'il fallait créer la possibilité « pour certains » de partir à 60 ans, tandis que « d'autres devront travailler davantage ». Aucune précision sur le financement n'est à ce stade évoquée.",
     "citation": null,
     "nature": "declaration_publique",
-    "indicateurs": [],
-    "derniere_verification": "2026-10-09",
+    "indicateurs": [
+      {
+        "libelle": "Âge légal de départ",
+        "valeur": "base à 62 ans, sans âge unique valable pour tous",
+        "unite": null,
+        "valeur_comparable": null
+      }
+    ],
+    "derniere_verification": "2026-10-26",
     "programme_anterieur": null,
     "sources": [
       {
