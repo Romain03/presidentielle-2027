@@ -1,6 +1,15 @@
 [
   {
     "date": "2026-10-26",
+    "resume": "5 candidatures ajoutées · 1 candidature modifiée · 4 partis ajoutés — entrée de Juan Branco ; entrée de Antoine Mikolajczak ; entrée de Jean-François Legendre ; entrée de Clara Egger ; et 1 autre",
+    "fichiers": [
+      "candidats.json",
+      "partis.json"
+    ],
+    "commit": "e6162ff8cf"
+  },
+  {
+    "date": "2026-10-26",
     "resume": "1 candidature ajoutée · 1 parti ajouté · 4 propositions ajoutées — entrée de Natacha Polony ; position de Natacha Polony sur « institutions » ; position de Natacha Polony sur « fiscalite » ; position de Natacha Polony sur « education » ; et 1 autre",
     "fichiers": [
       "candidats.json",

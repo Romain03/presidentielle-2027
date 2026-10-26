@@ -15,9 +15,9 @@ import { nomComplet } from '@/lib/format';
 import { enLice } from '@/lib/schemas';
 
 export const metadata: Metadata = {
-  title: 'Programmes en PDF',
+  title: 'Les programmes officiels',
   description:
-    'Les documents de programme publiés en PDF par les candidats et leurs partis, en lien direct : nombre de pages, poids du fichier, date, et page d’origine.',
+    'Les programmes publiés par les candidats et leurs partis, en lien direct : documents téléchargeables et programmes en ligne, avec leur pagination, leur poids et leur date quand ils en ont.',
 };
 
 export default function PageProgrammes() {
@@ -34,25 +34,26 @@ export default function PageProgrammes() {
     <div className="space-y-10">
       <header className="space-y-3">
         <DerniereMiseAJour date={derniereMiseAJour} />
-        <h1 className="text-3xl font-semibold">Programmes en PDF</h1>
+        <h1 className="text-3xl font-semibold">Les programmes officiels</h1>
         <p className="max-w-2xl text-lg leading-relaxed text-stone-700 dark:text-stone-300">
           Un programme écrit par le candidat lui-même est la source la plus directe qui existe :
-          ni résumé, ni compte rendu, ni interprétation. Ces documents sont pourtant difficiles à
-          trouver - enfouis dans une page de matériel militant, publiés sans date, ou accessibles
-          seulement en échange d’une adresse électronique.
+          ni résumé, ni compte rendu, ni interprétation. Ils sont pourtant difficiles à trouver -
+          enfouis dans une page de matériel militant, publiés sans date, ou accessibles seulement
+          en échange d’une adresse électronique.
         </p>
         <p className="max-w-2xl text-sm leading-relaxed text-stone-600 dark:text-stone-400">
-          Les liens mènent directement au fichier, chez le candidat, sans formulaire et sans
-          inscription. {statistiques.documents} documents,{' '}
-          {statistiques.pagesDeDocuments.toLocaleString('fr-FR')} pages, pour{' '}
+          Les liens mènent directement au programme, chez le candidat, sans formulaire et sans
+          inscription. {statistiques.documents} programmes pour{' '}
           {statistiques.candidatsAvecDocument} candidats sur {statistiques.enLice} candidatures
-          engagées.
+          engagées : {statistiques.documentsEnPdf} documents téléchargeables,{' '}
+          {statistiques.pagesDeDocuments.toLocaleString('fr-FR')} pages à eux seuls, et{' '}
+          {statistiques.documentsEnPage} programmes publiés en ligne.
         </p>
       </header>
 
       <section aria-labelledby="liste" className="space-y-7">
         <h2 id="liste" className="text-lg font-semibold">
-          Les documents, par candidat
+          Les programmes, par candidat
         </h2>
         {avecDocument.map((candidat) => (
           <section key={candidat.id} className="space-y-2.5">
@@ -96,13 +97,17 @@ export default function PageProgrammes() {
       {sansDocument.length > 0 && (
         <section aria-labelledby="sans" className="space-y-3">
           <h2 id="sans" className="text-lg font-semibold">
-            Candidatures engagées sans document relevé
+            Candidatures engagées sans programme relevé
           </h2>
           <p className="max-w-2xl text-sm leading-relaxed text-stone-600 dark:text-stone-400">
-            {sansDocument.length} des {statistiques.enLice} candidatures engagées ne publient aucun
-            document de programme téléchargeable, ou n’en publient qu’un qui porte sur un scrutin
-            passé. Une absence ici n’est pas un reproche : une campagne commence souvent par des
-            prises de parole et écrit son programme ensuite.
+            {sansDocument.length} des {statistiques.enLice} candidatures engagées ne publient
+            aucun programme, ni en document ni en ligne - ou n’en publient qu’un qui porte sur un
+            scrutin passé. Une absence ici n’est pas un reproche : une campagne commence souvent
+            par des prises de parole et écrit son programme ensuite, et plusieurs l’annoncent
+            explicitement. L’Union populaire républicaine écrit sur sa propre page que son
+            « programme présidentiel 2027 sera publié prochainement », et Équinoxe que ses trois
+            priorités n’englobent pas « l’ensemble de notre programme qui sera dévoilé dans les
+            prochains mois ».
           </p>
           <ul className="flex flex-wrap gap-x-3 gap-y-1 text-sm">
             {sansDocument.map((candidat) => (
@@ -117,13 +122,15 @@ export default function PageProgrammes() {
       )}
 
       <p className="max-w-2xl text-sm leading-relaxed text-stone-600 dark:text-stone-400">
-        Un document manquant, un lien mort, une date fausse ?{' '}
+        Un programme manquant, un lien mort, une date fausse ?{' '}
         <Link href="/a-propos/" className="lien">
           La page À propos
         </Link>{' '}
-        indique comment le signaler. Ces fichiers sont par ailleurs interrogés deux fois par jour :
-        un lien qui tombe, ou un document remplacé sous la même adresse, ouvre un signalement. Un
-        document y échappe sur les {documents.length} : son hébergeur refuse les requêtes
+        indique comment le signaler. Ces {documents.length} programmes sont par ailleurs
+        interrogés deux fois par jour, et les deux supports ne courent pas le même risque : un
+        fichier peut être remplacé sous la même adresse, et sa taille est donc comparée à celle
+        relevée ici ; une page peut être réécrite sans préavis, et c’est l’empreinte de son texte
+        qui est suivie. Un document échappe au contrôle : son hébergeur refuse les requêtes
         automatiques, et il est revérifié à la main.
       </p>
     </div>

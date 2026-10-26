@@ -523,6 +523,31 @@ export const LIBELLES_ORIGINE_DATE: Record<OrigineDate, string> = {
 };
 
 /**
+ * Support du document.
+ *
+ * Le site ne listait que des PDF, et c'était un critère de format déguisé en
+ * critère de fond : le programme de Gabriel Attal, « L'Avenir en commun » de
+ * Jean-Luc Mélenchon et les cahiers de campagne de François Ruffin sont des
+ * programmes officiels publiés, mais en pages web. Une page qui prétend réunir
+ * les programmes et les écarte parce qu'ils ne sont pas des fichiers trompe son
+ * lecteur.
+ *
+ * La distinction garde pourtant une conséquence : un PDF est figé et se mesure
+ * (pages, poids), une page est vivante et peut être réécrite sous le lien sans
+ * que rien ne l'indique. C'est pourquoi les deux ne sont pas surveillés de la
+ * même façon.
+ */
+export const FORMATS_DOCUMENT = ['pdf', 'page'] as const;
+
+export const FormatDocument = z.enum(FORMATS_DOCUMENT);
+export type FormatDocument = z.infer<typeof FormatDocument>;
+
+export const LIBELLES_FORMAT_DOCUMENT: Record<FormatDocument, string> = {
+  pdf: 'PDF',
+  page: 'page web',
+};
+
+/**
  * Un document de programme publié en PDF sur un site officiel.
  *
  * Ces documents sont la source la plus primaire qui existe : les mots du
@@ -544,16 +569,21 @@ export const DocumentProgramme = z
     candidat_id: Slug,
     titre: z.string().min(3),
     nature: NatureDocument,
+    format: FormatDocument,
     /** Qui signe le document : le candidat, ou l'organisation qui le soutient. */
     publie_par: z.enum(['candidat', 'parti']),
     /** Nom de l'organisation qui publie, telle qu'elle se nomme elle-même. */
     editeur: z.string().min(2),
-    /** Le fichier, chez le candidat. */
+    /** Le document, chez le candidat : le fichier, ou la page elle-même. */
     url: z.string().url(),
-    /** La page du site officiel qui met ce fichier à disposition. */
-    page_source: z.string().url(),
-    pages: z.number().int().positive().max(2000),
-    poids_ko: z.number().int().positive(),
+    /**
+     * La page du site officiel qui met le fichier à disposition. `null` pour un
+     * programme publié en page web : la page est sa propre source.
+     */
+    page_source: z.string().url().nullable(),
+    /** Pagination et poids du fichier. `null` pour une page web. */
+    pages: z.number().int().positive().max(2000).nullable(),
+    poids_ko: z.number().int().positive().nullable(),
     /** Date du document. `null` quand elle n'a pas pu être établie. */
     date_document: DateISO.nullable(),
     origine_date: OrigineDate.nullable(),
@@ -566,11 +596,34 @@ export const DocumentProgramme = z
     message: "Une date de document doit dire d'où elle vient, et réciproquement",
     path: ['origine_date'],
   })
-  // Le lien doit mener au fichier, pas à une page qui le présente : c'est tout
-  // l'intérêt de cette liste. Un lecteur qui clique obtient le document.
-  .refine((d) => new URL(d.url).pathname.toLowerCase().endsWith('.pdf'), {
-    message: 'Le lien doit pointer directement sur le fichier PDF',
+  // Un PDF doit être lié directement, pas à travers une page qui le présente :
+  // c'est tout l'intérêt de cette liste. Un lecteur qui clique obtient le
+  // document, sans formulaire.
+  .refine((d) => d.format !== 'pdf' || new URL(d.url).pathname.toLowerCase().endsWith('.pdf'), {
+    message: 'Un document au format pdf doit pointer directement sur le fichier',
     path: ['url'],
+  })
+  // Et réciproquement : un lien se terminant par .pdf n'est pas une page web.
+  .refine((d) => d.format !== 'page' || !new URL(d.url).pathname.toLowerCase().endsWith('.pdf'), {
+    message: 'Un document au format page ne peut pas pointer sur un fichier PDF',
+    path: ['format'],
+  })
+  // Pagination et poids ne se mesurent que sur un fichier. Les annoncer pour
+  // une page vivante serait inventer une stabilité qu'elle n'a pas.
+  .refine(
+    (d) =>
+      d.format === 'pdf'
+        ? d.pages !== null && d.poids_ko !== null && d.page_source !== null
+        : d.pages === null && d.poids_ko === null,
+    {
+      message:
+        'Un PDF annonce sa pagination, son poids et la page qui le publie ; une page web, aucun des trois',
+      path: ['format'],
+    },
+  )
+  .refine((d) => d.page_source === null || d.page_source !== d.url, {
+    message: 'La page d’origine ne peut pas être le document lui-même',
+    path: ['page_source'],
   })
   // Un livret thématique sans thème serait introuvable ; un programme général
   // qui en annonce un laisserait croire qu'il s'y limite.

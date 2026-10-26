@@ -351,7 +351,11 @@ export const statistiques = {
   propositionsSansCitation: propositions.filter((p) => p.citation === null).length,
   documents: documents.length,
   candidatsAvecDocument: new Set(documents.map((d) => d.candidat_id)).size,
-  pagesDeDocuments: documents.reduce((somme, d) => somme + d.pages, 0),
+  /** Documents téléchargeables, par opposition aux programmes publiés en page. */
+  documentsEnPdf: documents.filter((d) => d.format === 'pdf').length,
+  documentsEnPage: documents.filter((d) => d.format === 'page').length,
+  /** Pages cumulées des seuls PDF : une page web ne se pagine pas. */
+  pagesDeDocuments: documents.reduce((somme, d) => somme + (d.pages ?? 0), 0),
   /** Thèmes où le comparateur peut aligner au moins un chiffre commun. */
   themesComparables: themes.filter((t) => indicateursPartages(t.id).length > 0).length,
 };

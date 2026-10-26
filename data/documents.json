@@ -13,7 +13,8 @@
     "date_document": "2026-07-15",
     "origine_date": "metadonnees-pdf",
     "themes": [],
-    "derniere_verification": "2026-10-11"
+    "derniere_verification": "2026-10-11",
+    "format": "pdf"
   },
   {
     "id": "cazeneuve-synthese",
@@ -29,7 +30,8 @@
     "date_document": "2026-07-15",
     "origine_date": "metadonnees-pdf",
     "themes": [],
-    "derniere_verification": "2026-10-11"
+    "derniere_verification": "2026-10-11",
+    "format": "pdf"
   },
   {
     "id": "lisnard-livret-sante",
@@ -44,8 +46,11 @@
     "poids_ko": 1273,
     "date_document": "2026-05-05",
     "origine_date": "metadonnees-pdf",
-    "themes": ["sante"],
-    "derniere_verification": "2026-10-11"
+    "themes": [
+      "sante"
+    ],
+    "derniere_verification": "2026-10-11",
+    "format": "pdf"
   },
   {
     "id": "lisnard-livret-agriculture",
@@ -60,8 +65,11 @@
     "poids_ko": 10301,
     "date_document": "2026-06-08",
     "origine_date": "metadonnees-pdf",
-    "themes": ["ecologie"],
-    "derniere_verification": "2026-10-11"
+    "themes": [
+      "ecologie"
+    ],
+    "derniere_verification": "2026-10-11",
+    "format": "pdf"
   },
   {
     "id": "lisnard-livre-noir-bureaucratie",
@@ -76,8 +84,11 @@
     "poids_ko": 3985,
     "date_document": null,
     "origine_date": null,
-    "themes": ["institutions"],
-    "derniere_verification": "2026-10-11"
+    "themes": [
+      "institutions"
+    ],
+    "derniere_verification": "2026-10-11",
+    "format": "pdf"
   },
   {
     "id": "philippot-projet-pour-la-france",
@@ -93,7 +104,8 @@
     "date_document": "2026-09-24",
     "origine_date": "metadonnees-pdf",
     "themes": [],
-    "derniere_verification": "2026-10-11"
+    "derniere_verification": "2026-10-11",
+    "format": "pdf"
   },
   {
     "id": "retailleau-competitivite-pouvoir-d-achat",
@@ -108,8 +120,12 @@
     "poids_ko": 7781,
     "date_document": "2026-01-09",
     "origine_date": "metadonnees-pdf",
-    "themes": ["pouvoir-d-achat", "fiscalite"],
-    "derniere_verification": "2026-10-11"
+    "themes": [
+      "pouvoir-d-achat",
+      "fiscalite"
+    ],
+    "derniere_verification": "2026-10-11",
+    "format": "pdf"
   },
   {
     "id": "retailleau-produire-plus",
@@ -124,8 +140,11 @@
     "poids_ko": 13648,
     "date_document": "2026-02-18",
     "origine_date": "metadonnees-pdf",
-    "themes": ["pouvoir-d-achat"],
-    "derniere_verification": "2026-10-11"
+    "themes": [
+      "pouvoir-d-achat"
+    ],
+    "derniere_verification": "2026-10-11",
+    "format": "pdf"
   },
   {
     "id": "retailleau-agriculture",
@@ -140,8 +159,11 @@
     "poids_ko": 26242,
     "date_document": "2026-03-03",
     "origine_date": "metadonnees-pdf",
-    "themes": ["ecologie"],
-    "derniere_verification": "2026-10-11"
+    "themes": [
+      "ecologie"
+    ],
+    "derniere_verification": "2026-10-11",
+    "format": "pdf"
   },
   {
     "id": "retailleau-famille",
@@ -156,8 +178,11 @@
     "poids_ko": 12552,
     "date_document": "2026-04-28",
     "origine_date": "metadonnees-pdf",
-    "themes": ["pouvoir-d-achat"],
-    "derniere_verification": "2026-10-11"
+    "themes": [
+      "pouvoir-d-achat"
+    ],
+    "derniere_verification": "2026-10-11",
+    "format": "pdf"
   },
   {
     "id": "retailleau-electricite",
@@ -172,8 +197,12 @@
     "poids_ko": 37026,
     "date_document": "2026-05-06",
     "origine_date": "metadonnees-pdf",
-    "themes": ["ecologie", "pouvoir-d-achat"],
-    "derniere_verification": "2026-10-11"
+    "themes": [
+      "ecologie",
+      "pouvoir-d-achat"
+    ],
+    "derniere_verification": "2026-10-11",
+    "format": "pdf"
   },
   {
     "id": "retailleau-logement",
@@ -188,8 +217,11 @@
     "poids_ko": 31310,
     "date_document": "2026-05-28",
     "origine_date": "metadonnees-pdf",
-    "themes": ["logement"],
-    "derniere_verification": "2026-10-11"
+    "themes": [
+      "logement"
+    ],
+    "derniere_verification": "2026-10-11",
+    "format": "pdf"
   },
   {
     "id": "retailleau-intelligence-artificielle",
@@ -204,8 +236,12 @@
     "poids_ko": 7082,
     "date_document": "2026-07-07",
     "origine_date": "metadonnees-pdf",
-    "themes": ["defense", "institutions"],
-    "derniere_verification": "2026-10-11"
+    "themes": [
+      "defense",
+      "institutions"
+    ],
+    "derniere_verification": "2026-10-11",
+    "format": "pdf"
   },
   {
     "id": "retailleau-ecole",
@@ -220,8 +256,11 @@
     "poids_ko": 5948,
     "date_document": "2026-08-31",
     "origine_date": "metadonnees-pdf",
-    "themes": ["education"],
-    "derniere_verification": "2026-10-11"
+    "themes": [
+      "education"
+    ],
+    "derniere_verification": "2026-10-11",
+    "format": "pdf"
   },
   {
     "id": "roussel-plan-jeunesse",
@@ -236,8 +275,11 @@
     "poids_ko": 393,
     "date_document": "2026-10-06",
     "origine_date": "metadonnees-pdf",
-    "themes": ["education"],
-    "derniere_verification": "2026-10-11"
+    "themes": [
+      "education"
+    ],
+    "derniere_verification": "2026-10-11",
+    "format": "pdf"
   },
   {
     "id": "tondelier-projet-2027",
@@ -253,6 +295,109 @@
     "date_document": "2026-08-25",
     "origine_date": "metadonnees-pdf",
     "themes": [],
-    "derniere_verification": "2026-10-11"
+    "derniere_verification": "2026-10-11",
+    "format": "pdf"
+  },
+  {
+    "id": "attal-programme",
+    "candidat_id": "gabriel-attal",
+    "titre": "Mes chantiers capitaux",
+    "nature": "programme",
+    "format": "page",
+    "publie_par": "candidat",
+    "editeur": "Attal Président",
+    "url": "https://attalpresident.fr/programme",
+    "page_source": null,
+    "pages": null,
+    "poids_ko": null,
+    "date_document": null,
+    "origine_date": null,
+    "themes": [],
+    "derniere_verification": "2026-10-26"
+  },
+  {
+    "id": "dupont-aignan-projet",
+    "candidat_id": "nicolas-dupont-aignan",
+    "titre": "Le projet de Debout la France, par thèmes",
+    "nature": "programme",
+    "format": "page",
+    "publie_par": "parti",
+    "editeur": "Debout la France",
+    "url": "https://www.debout-la-france.fr/notre-projet/",
+    "page_source": null,
+    "pages": null,
+    "poids_ko": null,
+    "date_document": null,
+    "origine_date": null,
+    "themes": [],
+    "derniere_verification": "2026-10-26"
+  },
+  {
+    "id": "lisnard-programme",
+    "candidat_id": "david-lisnard",
+    "titre": "Le programme de David Lisnard, en neuf thématiques",
+    "nature": "programme",
+    "format": "page",
+    "publie_par": "candidat",
+    "editeur": "Nouvelle Énergie",
+    "url": "https://www.unenouvelleenergie.fr/notre-programme/",
+    "page_source": null,
+    "pages": null,
+    "poids_ko": null,
+    "date_document": null,
+    "origine_date": null,
+    "themes": [],
+    "derniere_verification": "2026-10-26"
+  },
+  {
+    "id": "melenchon-avenir-en-commun",
+    "candidat_id": "jean-luc-melenchon",
+    "titre": "L'Avenir en commun, cinquième édition - 1 069 mesures",
+    "nature": "programme",
+    "format": "page",
+    "publie_par": "candidat",
+    "editeur": "Mélenchon 2027",
+    "url": "https://melenchon2027.fr/programme/decouvrir/",
+    "page_source": null,
+    "pages": null,
+    "poids_ko": null,
+    "date_document": null,
+    "origine_date": null,
+    "themes": [],
+    "derniere_verification": "2026-10-26"
+  },
+  {
+    "id": "polony-vision",
+    "candidat_id": "natacha-polony",
+    "titre": "Ma vision pour la France",
+    "nature": "programme",
+    "format": "page",
+    "publie_par": "candidat",
+    "editeur": "Natacha Polony 2027",
+    "url": "https://www.npolony.fr/vision",
+    "page_source": null,
+    "pages": null,
+    "poids_ko": null,
+    "date_document": null,
+    "origine_date": null,
+    "themes": [],
+    "derniere_verification": "2026-10-26"
+  },
+  {
+    "id": "ruffin-programme",
+    "candidat_id": "francois-ruffin",
+    "titre": "Notre programme - les cahiers de campagne",
+    "nature": "programme",
+    "format": "page",
+    "publie_par": "candidat",
+    "editeur": "Nous Président !",
+    "url": "https://nouspresident.fr/notre-programme/",
+    "page_source": null,
+    "pages": null,
+    "poids_ko": null,
+    "date_document": null,
+    "origine_date": null,
+    "themes": [],
+    "derniere_verification": "2026-10-26"
   }
 ]

@@ -10,8 +10,8 @@
     "vu": "2026-10-26"
   },
   "https://attalpresident.fr/programme": {
-    "hachage": "decouvert",
-    "caracteres": 0,
+    "hachage": "42d7a6e270e2de712542ef9173d0bcb555451f0fe35d16dbfbece564a5740e5c",
+    "caracteres": 1763,
     "vu": "2026-10-26"
   },
   "https://attalpresident.fr/programme/dette-de-letat": {
@@ -89,6 +89,11 @@
     "caracteres": 0,
     "vu": "2026-10-26"
   },
+  "https://melenchon2027.fr/programme/decouvrir/": {
+    "hachage": "fa69627d57b50415af49291fa7bab767b06a56dcf2ec8f986db98188f789003a",
+    "caracteres": 5753,
+    "vu": "2026-10-26"
+  },
   "https://melenchon2027.fr/programme/laec": {
     "hachage": "decouvert",
     "caracteres": 0,
@@ -112,6 +117,11 @@
   "https://nouspresident.fr/notre-programme": {
     "hachage": "decouvert",
     "caracteres": 0,
+    "vu": "2026-10-26"
+  },
+  "https://nouspresident.fr/notre-programme/": {
+    "hachage": "e3e3232031d97b1796c16aef96ba984ab0cd2a9dc702906794504f8ecf2e5656",
+    "caracteres": 5373,
     "vu": "2026-10-26"
   },
   "https://npa-revolutionnaires.org/articles/assemblee-nationale-rejet-du-projet-de-loi-de-financement-de-la-securite-sociale": {
@@ -184,6 +194,11 @@
     "caracteres": 0,
     "vu": "2026-10-14"
   },
+  "https://solutiondemocratique.fr/comparatif-candidats-programme-elections-presidentielles-france-2027": {
+    "hachage": "decouvert",
+    "caracteres": 0,
+    "vu": "2026-10-26"
+  },
   "https://udb.bzh/qui-sommes-nous/nos-idees": {
     "hachage": "decouvert",
     "caracteres": 0,
@@ -197,6 +212,11 @@
   "https://www.debout-la-france.fr/notre-projet": {
     "hachage": "decouvert",
     "caracteres": 0,
+    "vu": "2026-10-26"
+  },
+  "https://www.debout-la-france.fr/notre-projet/": {
+    "hachage": "e02eb3d34870a65cb73eb1e35c954d5867573f7bd87286ad34f465bfa6968028",
+    "caracteres": 3506,
     "vu": "2026-10-26"
   },
   "https://www.debout-la-france.fr/projet/economie-travail": {
@@ -254,6 +274,16 @@
     "caracteres": 0,
     "vu": "2026-10-21"
   },
+  "https://www.npolony.fr/projet": {
+    "hachage": "decouvert",
+    "caracteres": 0,
+    "vu": "2026-10-26"
+  },
+  "https://www.npolony.fr/vision": {
+    "hachage": "385343a74eeea8d9ad16fffd3726867a6c4f71dc47f2a94e6b5bdea2bc832818",
+    "caracteres": 11964,
+    "vu": "2026-10-26"
+  },
   "https://www.udb.bzh/nos-valeurs/nos-idees": {
     "hachage": "decouvert",
     "caracteres": 0,
@@ -272,6 +302,11 @@
   "https://www.unenouvelleenergie.fr/notre-programme": {
     "hachage": "decouvert",
     "caracteres": 0,
+    "vu": "2026-10-26"
+  },
+  "https://www.unenouvelleenergie.fr/notre-programme/": {
+    "hachage": "522275b72f5540dfbfd93cfa2345f7cc6b4077e202b78499b567576eaa7f8ff5",
+    "caracteres": 9473,
     "vu": "2026-10-26"
   },
   "https://www.unenouvelleenergie.fr/notre-programme/pole-de-travail-et-didees": {

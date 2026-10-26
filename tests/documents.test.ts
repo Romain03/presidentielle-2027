@@ -30,19 +30,41 @@ describe('documents de programme', () => {
     expect(new Set(urls).size).toBe(urls.length);
   });
 
-  it('mènent tous directement à un fichier PDF, et non à une page', () => {
-    for (const document of documents) {
+  it('mènent au fichier lui-même quand le document est un PDF', () => {
+    for (const document of documents.filter((d) => d.format === 'pdf')) {
       expect(new URL(document.url).pathname.toLowerCase().endsWith('.pdf'), document.id).toBe(true);
+    }
+  });
+
+  /*
+   * Le site ne listait que des PDF, et c'était un critère de format déguisé en
+   * critère de fond : le programme de Gabriel Attal, « L'Avenir en commun » et
+   * les cahiers de François Ruffin sont des programmes officiels publiés, mais
+   * en pages web.
+   */
+  it('n’annoncent ni pagination ni poids pour un programme publié en page', () => {
+    const pages = documents.filter((d) => d.format === 'page');
+    expect(pages.length).toBeGreaterThan(0);
+    for (const document of pages) {
+      expect(document.pages, document.id).toBeNull();
+      expect(document.poids_ko, document.id).toBeNull();
+      expect(new URL(document.url).pathname.toLowerCase().endsWith('.pdf'), document.id).toBe(false);
     }
   });
 
   // La raison d'être de cette liste : lire un programme ne doit pas coûter une
   // adresse électronique. Un lien vers un formulaire de téléchargement
   // reviendrait à relayer le formulaire.
-  it('donnent aussi la page d’origine, distincte du fichier', () => {
-    for (const document of documents) {
+  it('donnent aussi la page d’origine d’un PDF, distincte du fichier', () => {
+    for (const document of documents.filter((d) => d.format === 'pdf')) {
+      expect(document.page_source, document.id).not.toBeNull();
       expect(document.page_source, document.id).not.toBe(document.url);
-      expect(new URL(document.page_source).protocol).toMatch(/^https?:$/);
+      expect(new URL(document.page_source!).protocol).toMatch(/^https?:$/);
+    }
+    // Une page web est sa propre source : lui en inventer une seconde
+    // reviendrait à la faire passer pour un fichier publié ailleurs.
+    for (const document of documents.filter((d) => d.format === 'page')) {
+      expect(document.page_source, document.id).toBeNull();
     }
   });
 
@@ -67,7 +89,7 @@ describe('documents de programme', () => {
   });
 
   it('annoncent un nombre de pages et un poids relevés sur le fichier', () => {
-    for (const document of documents) {
+    for (const document of documents.filter((d) => d.format === 'pdf')) {
       expect(document.pages, document.id).toBeGreaterThan(0);
       // Un PDF de programme fait au moins quelques dizaines de kilo-octets :
       // un chiffre plus bas trahirait une erreur de saisie, ou une page
@@ -140,6 +162,7 @@ describe('schéma des documents', () => {
     page_source: 'https://exemple.fr/programme',
     pages: 12,
     poids_ko: 400,
+    format: 'pdf' as const,
     date_document: '2026-10-06',
     origine_date: 'metadonnees-pdf' as const,
     themes: [],
@@ -150,8 +173,48 @@ describe('schéma des documents', () => {
     expect(DocumentProgramme.safeParse(valide).success).toBe(true);
   });
 
-  it('refuse un lien qui ne mène pas au fichier', () => {
+  it('refuse un PDF dont le lien ne mène pas au fichier', () => {
     const resultat = DocumentProgramme.safeParse({ ...valide, url: 'https://exemple.fr/programme' });
+    expect(resultat.success).toBe(false);
+  });
+
+  it('accepte un programme publié en page, sans pagination ni poids', () => {
+    const resultat = DocumentProgramme.safeParse({
+      ...valide,
+      format: 'page',
+      url: 'https://exemple.fr/programme',
+      page_source: null,
+      pages: null,
+      poids_ko: null,
+    });
+    expect(resultat.success).toBe(true);
+  });
+
+  it('refuse une page qui annonce une pagination', () => {
+    const resultat = DocumentProgramme.safeParse({
+      ...valide,
+      format: 'page',
+      url: 'https://exemple.fr/programme',
+      page_source: null,
+      poids_ko: null,
+    });
+    expect(resultat.success).toBe(false);
+  });
+
+  it('refuse un PDF sans pagination, sans poids ou sans page d’origine', () => {
+    for (const manque of [{ pages: null }, { poids_ko: null }, { page_source: null }]) {
+      expect(DocumentProgramme.safeParse({ ...valide, ...manque }).success).toBe(false);
+    }
+  });
+
+  it('refuse un format « page » pointant sur un fichier PDF', () => {
+    const resultat = DocumentProgramme.safeParse({
+      ...valide,
+      format: 'page',
+      page_source: null,
+      pages: null,
+      poids_ko: null,
+    });
     expect(resultat.success).toBe(false);
   });
 

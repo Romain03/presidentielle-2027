@@ -519,11 +519,15 @@ async function surveiller(): Promise<void> {
       if (dejaSignalees.has(lien)) continue;
       dejaSignalees.add(lien);
       if (!empreintesConnues[lien]) programmesDecouverts.push(`${hoteDe(site)} → ${lien}`);
-      empreintesObservees[lien] = empreintesObservees[lien] ?? {
-        hachage: 'decouvert',
-        caracteres: 0,
-        vu: new Date().toISOString().slice(0, 10),
-      };
+      // Ne jamais remplacer une empreinte de contenu par le marqueur : une
+      // page listée dans documents.json est lue en entier à l'étape 5, et son
+      // empreinte vaut mieux que « vue passer dans un lien ».
+      empreintesObservees[lien] =
+        empreintesObservees[lien]
+        ?? (empreintesConnues[lien]?.hachage !== undefined
+            && empreintesConnues[lien].hachage !== 'decouvert'
+          ? empreintesConnues[lien]
+          : { hachage: 'decouvert', caracteres: 0, vu: new Date().toISOString().slice(0, 10) });
     }
   }
 
@@ -566,14 +570,48 @@ async function surveiller(): Promise<void> {
     }
   }
 
-  // 5. Documents de programme : le fichier est-il toujours là, et le même ?
+  // 5. Documents de programme : sont-ils toujours là, et les mêmes ?
   //
   // Un PDF vit à une adresse stable et peut être remplacé sans que rien ne
   // l'indique : une « v2 » publiée sous le même nom, et le nombre de pages
   // affiché ici devient faux. La taille annoncée par l'hébergeur est comparée
   // au poids relevé à la main dans /data, ce qui attrape les deux cas - le
   // fichier remplacé, et le chiffre erroné de notre côté.
+  //
+  // Une page de programme, elle, se suit par empreinte de son texte : elle est
+  // réécrite sans préavis, et c'est le risque propre à ce support.
   for (const document of documents) {
+    // Une page de programme n'a ni poids ni pagination : ce qui la caractérise
+    // est son texte, et c'est l'empreinte qui le suit. La comparer par la
+    // taille de la réponse HTTP ferait sonner l'alarme à chaque déploiement du
+    // site, sans qu'une mesure ait changé.
+    if (document.format === 'page') {
+      const page = await recuperer(document.url);
+      if ('erreur' in page) {
+        if (![401, 403, 429].includes(page.statut)) {
+          documentsAbsents.push(
+            `${document.id} → ${page.statut || 'injoignable'} ${page.erreur}\n  ${document.url}`,
+          );
+        }
+        continue;
+      }
+      const observee = await empreinteDe(page.html);
+      empreintesObservees[document.url] = observee;
+      const connue = empreintesConnues[document.url];
+      // « decouvert » est le marqueur posé par l'étape 4 quand elle repère une
+      // page de programme sans la lire. Le prendre pour une empreinte de
+      // contenu faisait annoncer une réécriture de +1 763 caractères là où la
+      // page était simplement lue pour la première fois.
+      if (connue !== undefined && connue.hachage !== 'decouvert'
+          && connue.hachage !== observee.hachage) {
+        const delta = observee.caracteres - connue.caracteres;
+        documentsRemplaces.push(
+          `${document.id} — page réécrite depuis le ${connue.vu},`
+            + ` ${delta >= 0 ? '+' : ''}${delta} caractères\n  ${document.url}`,
+        );
+      }
+      continue;
+    }
     const reponse = await interroger(document.url);
     if ('erreur' in reponse) {
       // Un 403 ne veut pas dire que le fichier a disparu : plusieurs
@@ -595,7 +633,7 @@ async function surveiller(): Promise<void> {
       continue;
     }
     if (reponse.octets === null) continue;
-    const attendus = document.poids_ko * 1024;
+    const attendus = document.poids_ko! * 1024;
     // Une tolérance de 2 %, parce que le poids est arrondi au kilo-octet et que
     // certains hébergeurs recompressent à la volée.
     const ecart = Math.abs(reponse.octets - attendus) / attendus;
@@ -672,7 +710,7 @@ async function principal(): Promise<void> {
       'Les documents de programme répondent tous.',
     ),
     bloc(
-      'Documents de programme dont la taille a changé',
+      'Documents de programme remplacés ou réécrits',
       documentsRemplaces,
       'Aucun document n’a été remplacé sous son adresse.',
     ),

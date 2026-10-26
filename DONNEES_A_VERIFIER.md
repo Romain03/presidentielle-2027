@@ -623,6 +623,61 @@ pour ajouter mon nom à la liste des prétendants ». Le site le donne comme
 déclaré au 16 juillet 2026, soit le lendemain. La chronologie est cohérente mais
 la source de la déclaration elle-même n'a pas été relue à cette occasion.
 
+### Programmes en ligne : qui n'a toujours rien publié (26 octobre 2026)
+Les vingt-sept candidatures engagées sans programme ont été reprises une par
+une, en balayant leur site officiel. Six programmes publiés en page web en sont
+sortis et sont désormais listés : Attal, Dupont-Aignan, Lisnard, Mélenchon,
+Polony, Ruffin. Onze candidatures sur trente-trois ont donc un programme.
+
+**Trois candidatures annoncent elles-mêmes que leur programme n'est pas écrit**,
+et c'est la meilleure source possible sur cette absence :
+
+- **François Asselineau** : `upr.fr/notre-programme` affiche « Programme 2027 -
+  Notre programme présidentiel 2027 sera publié prochainement. En cours
+  d'élaboration », à côté des éditions 2012, 2017 et 2022.
+- **Antoine Mikolajczak** : la page Présidentielle 2027 d'Équinoxe expose trois
+  priorités en précisant qu'elles structureront la campagne « sans pour autant
+  englober l'ensemble de notre programme qui sera dévoilé dans les prochains
+  mois ».
+- **Nicolas Dupont-Aignan** : le projet de Debout la France est listé, mais la
+  page avertit que « nos équipes travaillent actuellement à l'actualisation de
+  notre programme pour l'élection présidentielle de 2027 », les articles déjà
+  repris portant un badge « Projet 2027 ». **Le document listé est donc en
+  partie antérieur à 2027.**
+
+**Aucun programme trouvé, et aucune annonce** : Nathalie Arthaud, Delphine Batho
+(Génération Écologie n'a qu'un texte d'orientation, « la décroissance pour vivre
+mieux »), Olivier Becht, Xavier Bertrand, Karim Bouamrane, Juan Branco, Clara
+Egger, Raphaël Glucksmann, Anasse Kazib, Selma Labib, Francis Lalanne, Marine
+Le Pen, Jean-François Legendre, Mira Markovic (programmes de 2022 et des
+européennes 2024 seulement), Benoît Mathieu, Manolo Mlekuz, Édouard Philippe,
+Gilles Platret, Éric Zemmour, Sylvain Durif.
+
+**Deux absences se remarquent** : Raphaël Glucksmann, désigné par la primaire du
+pôle socialiste, et Édouard Philippe. Leurs sites sont des sites de
+mobilisation, sans aucune page programmatique.
+
+### Écarté : une page de programme qui n'est pas la sienne
+`solutiondemocratique.fr/programme/` répond 200 et s'intitule « Programme LFI
+2027 ». C'est une page **sur** le programme de La France insoumise, publiée par
+le mouvement de Clara Egger - pas son programme. Non retenue. Un chemin en
+`/programme` ne suffit donc pas : il faut lire la page.
+
+### Convention : la date d'une page de programme
+Les six programmes en ligne **ne portent aucune date de publication**. Ils sont
+donc affichés avec la mention « page sans date, relevée le ... » et leur
+`date_document` est nul. C'est la quatrième occurrence de ce problème sur ce
+site (voir §4) et cela reste la seule réponse honnête : une page vivante n'a pas
+de date, elle a un état à l'instant où on la lit.
+
+### Résolu : les chapitres de « L'Avenir en commun »
+Les pages de programme de `melenchon2027.fr` renvoyaient une erreur 404 au
+9 octobre 2026, ce qui était consigné comme la plus grosse source primaire
+manquante. **Elles répondent depuis.** La page annonce 1 069 mesures,
+24 000 contributions citoyennes, et le livre « disponible le 6 novembre en
+librairie » - date à reprendre pour vérifier si une édition téléchargeable
+paraît.
+
 ### Programmes en PDF : documents écartés, et pourquoi (11 octobre 2026)
 Les sites officiels de tous les candidats et de tous les partis suivis ont été
 balayés à la recherche de documents de programme téléchargeables. Seize

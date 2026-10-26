@@ -1,5 +1,6 @@
 import { formaterDate } from '@/lib/format';
 import {
+  LIBELLES_FORMAT_DOCUMENT,
   LIBELLES_NATURE_DOCUMENT,
   LIBELLES_ORIGINE_DATE,
   type DocumentProgramme,
@@ -12,6 +13,31 @@ import {
  */
 function formaterPoids(ko: number): string {
   return ko >= 1024 ? `${(ko / 1024).toFixed(ko >= 10240 ? 0 : 1).replace('.', ',')} Mo` : `${ko} ko`;
+}
+
+/**
+ * Deux icônes, parce que les deux supports n'engagent pas le même geste : un
+ * PDF se télécharge et pèse, une page se consulte et peut changer demain.
+ */
+function IconePage() {
+  return (
+    <svg
+      aria-hidden="true"
+      focusable="false"
+      width="20"
+      height="20"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.8"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      className="mt-0.5 shrink-0 text-stone-500 dark:text-stone-400"
+    >
+      <circle cx="12" cy="12" r="9" />
+      <path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18" />
+    </svg>
+  );
 }
 
 function IconePdf() {
@@ -47,10 +73,11 @@ function IconePdf() {
  */
 function Ligne({ document: doc }: { document: DocumentProgramme }) {
   const nature = LIBELLES_NATURE_DOCUMENT[doc.nature];
+  const estPdf = doc.format === 'pdf';
 
   return (
     <li className="flex gap-2.5">
-      <IconePdf />
+      {estPdf ? <IconePdf /> : <IconePage />}
       <div className="min-w-0 space-y-0.5">
         <a
           href={doc.url}
@@ -60,10 +87,17 @@ function Ligne({ document: doc }: { document: DocumentProgramme }) {
         >
           {doc.titre}
           <span aria-hidden="true"> ↗</span>
-          <span className="sr-only"> (fichier PDF, nouvelle fenêtre)</span>
+          <span className="sr-only">
+            {estPdf ? ' (fichier PDF, nouvelle fenêtre)' : ' (page web, nouvelle fenêtre)'}
+          </span>
         </a>
         <p className="text-xs text-stone-600 dark:text-stone-400">
-          {nature} en PDF, {doc.pages}&nbsp;pages, {formaterPoids(doc.poids_ko)}
+          {nature} en {LIBELLES_FORMAT_DOCUMENT[doc.format]}
+          {estPdf && (
+            <>
+              , {doc.pages}&nbsp;pages, {formaterPoids(doc.poids_ko!)}
+            </>
+          )}
           {doc.date_document !== null ? (
             <>
               {' · '}
@@ -71,24 +105,30 @@ function Ligne({ document: doc }: { document: DocumentProgramme }) {
                 {formaterDate(doc.date_document)}
               </span>
             </>
-          ) : (
+          ) : estPdf ? (
             <> · date non établie</>
+          ) : (
+            <> · page sans date, relevée le {formaterDate(doc.derniere_verification)}</>
           )}
         </p>
         <p className="text-xs text-stone-600 dark:text-stone-400">
           {doc.publie_par === 'candidat'
             ? `Publié par ${doc.editeur}`
             : `Publié par ${doc.editeur}, le parti et non le candidat`}
-          {' · '}
-          <a
-            href={doc.page_source}
-            target="_blank"
-            rel="noopener noreferrer nofollow"
-            className="underline decoration-stone-300 underline-offset-2 hover:decoration-stone-700 dark:decoration-stone-600"
-          >
-            page d&apos;origine
-            <span className="sr-only"> (nouvelle fenêtre)</span>
-          </a>
+          {doc.page_source !== null && (
+            <>
+              {' · '}
+              <a
+                href={doc.page_source}
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                className="underline decoration-stone-300 underline-offset-2 hover:decoration-stone-700 dark:decoration-stone-600"
+              >
+                page d&apos;origine
+                <span className="sr-only"> (nouvelle fenêtre)</span>
+              </a>
+            </>
+          )}
         </p>
       </div>
     </li>

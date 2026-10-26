@@ -222,16 +222,31 @@ export default function PageMethodologie() {
 
       <section aria-labelledby="documents" className="max-w-2xl space-y-3">
         <h2 id="documents" className="text-lg font-semibold">
-          Les programmes en PDF, et ceux qui ont été écartés
+          Les programmes officiels, et ceux qui ont été écartés
         </h2>
         <p className="text-sm leading-relaxed text-stone-700 dark:text-stone-300">
           La page{' '}
           <Link href="/programmes/" className="lien">
-            Programmes en PDF
+            Les programmes officiels
           </Link>{' '}
-          réunit les documents de programme publiés par les candidats et leurs partis, en lien
-          direct vers le fichier. Plusieurs sites ne donnent leur programme qu’en échange d’une
-          adresse électronique : lire un programme ne devrait pas coûter une inscription.
+          réunit les programmes publiés par les candidats et leurs partis, en lien direct.
+          Plusieurs sites ne donnent leur programme qu’en échange d’une adresse électronique :
+          lire un programme ne devrait pas coûter une inscription.
+        </p>
+        <p className="text-sm leading-relaxed text-stone-700 dark:text-stone-300">
+          Cette page ne listait d’abord que des PDF, et c’était un critère de format déguisé en
+          critère de fond : les chantiers de Gabriel Attal, « L’Avenir en commun » de Jean-Luc
+          Mélenchon et les cahiers de campagne de François Ruffin sont des programmes officiels
+          publiés, mais en pages web. Une page qui prétend réunir les programmes et les écarte
+          parce que ce ne sont pas des fichiers trompe son lecteur. Les deux supports y figurent
+          donc, distingués par leur icône et par ce qui est annoncé : un PDF porte sa pagination
+          et son poids, une page n’en a pas.
+        </p>
+        <p className="text-sm leading-relaxed text-stone-700 dark:text-stone-300">
+          La distinction n’est pas cosmétique. Un fichier est figé : il peut être remplacé sous la
+          même adresse, et c’est sa taille qui le révèle. Une page est vivante : elle peut être
+          réécrite sans préavis sous un lien qui ne bouge pas, et c’est l’empreinte de son texte
+          qui le révèle. La veille applique donc à chacun le contrôle qui lui convient.
         </p>
         <p className="text-sm leading-relaxed text-stone-700 dark:text-stone-300">
           Chaque document a été ouvert, et daté avant d’être retenu. C’est indispensable : un PDF
