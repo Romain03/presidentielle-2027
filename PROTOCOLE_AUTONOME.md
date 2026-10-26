@@ -189,7 +189,7 @@ façon de vérifier que le protocole a été suivi.
 
 ## 7. Qui exécute ce protocole, et ce que ça coûte
 
-Deux dispositifs, aux rôles différents.
+Trois dispositifs, aux rôles différents, et aucun ne suffit seul.
 
 **La veille**, dans `.github/workflows/veille.yml`, tourne chez GitHub deux fois
 par jour, à 6 h et 18 h UTC. C'est un script Node : il n'appelle aucun modèle,
@@ -205,6 +205,35 @@ contrepartie elle ne s'exécute **que si l'application est ouverte** ; si elle
 Le passage du matin traite donc tout ce que la journée précédente a produit,
 annonces de fin de soirée comprises - c'est ce que la veille de 18 h UTC a déjà
 relevé de son côté.
+
+**Le relais**, une routine cloud (`trig_01Y64gmf4Rf2ePqjxLdCsB8q`, 8 h 40 UTC,
+soit une heure après la tâche locale), existe pour le cas où l'application
+serait restée fermée. Elle tourne chez Anthropic, machine éteinte, clone le
+dépôt, lit ce protocole et l'applique. Si la tâche locale a déjà fait le
+travail, le relais ne trouve rien à faire et s'arrête tout de suite.
+
+**Deux réglages restent à ouvrir pour que le relais serve.** Son premier essai,
+le 26 octobre 2026, l'a montré sans ambiguïté :
+
+1. **L'accès réseau sortant de l'environnement cloud est fermé.** Les sites de
+   presse sont injoignables - `curl` renvoie un 403 sur le tunnel, `WebFetch`
+   échoue en résolution DNS - et seuls `api.anthropic.com`, `registry.npmjs.org`
+   et quelques dépôts de paquets passent. Conséquence : la veille a signalé
+   `a_agir=76`, dont **55 faux liens morts et 21 faux documents injoignables**.
+   À ouvrir dans les réglages de l'environnement (menu de l'environnement cloud
+   dans la barre de titre de la session, puis *Edit*, puis *Network access*),
+   au minimum pour les médias du §3 et les sites officiels des candidats.
+2. **L'écriture sur les tickets GitHub est refusée** : `403 Resource not
+   accessible by integration`. La lecture fonctionne. À corriger dans les
+   droits de l'application GitHub installée sur le dépôt (*Issues: write*).
+
+Tant que le premier point n'est pas levé, le relais ne peut rien vérifier. Il
+ne fait pour autant aucun dégât, et son premier essai l'a prouvé : constatant
+que les 76 signalements tombaient tous en échec de connexion, il a refusé de
+les inscrire dans `DONNEES_A_VERIFIER.md` - « y inscrire ces 76 adresses aurait
+fait passer une limite de cette session pour une vraie information » - et n'a
+touché ni à `data/` ni au reste. C'est exactement la cinquième condition d'arrêt
+du §5.
 
 Cette asymétrie est voulue. Le signal doit être fiable même machine éteinte, et
 c'est le rôle de la veille sur GitHub. La correction, elle, demande de lire des
@@ -229,8 +258,10 @@ que ce soit.
 
 ## 8. Arrêter l'automatisation
 
-- **La correction** : supprimer la tâche `presidentielle-veille` dans la liste
-  des tâches planifiées de l'application. La veille continue de signaler.
+- **La correction locale** : supprimer la tâche `presidentielle-veille` dans la
+  liste des tâches planifiées de l'application. La veille continue de signaler.
+- **Le relais cloud** : le désactiver sur https://claude.ai/code/routines. Il
+  consomme l'abonnement à chaque exécution, y compris quand il ne trouve rien.
 - **Le signalement** : désactiver le workflow dans l'onglet *Actions* du dépôt.
 
 Les modifications de données arrivent toutes par un commit préfixé `[auto]` sur
