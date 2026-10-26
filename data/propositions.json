@@ -2451,5 +2451,123 @@
         "date": "2026-07-15"
       }
     ]
+  },
+  {
+    "id": "polony-institutions",
+    "candidat_id": "natacha-polony",
+    "theme_id": "institutions",
+    "resume": "Ouvrir un « chantier majeur » contre la corruption et les conflits d'intérêts : encadrer strictement les passages entre fonctions publiques stratégiques et intérêts privés, et protéger les lanceurs d'alerte.",
+    "detail": "La candidate définit la corruption plus largement que le délit : « la corruption, ce n'est pas seulement une enveloppe de billets. C'est aussi un responsable public qui prépare son avenir chez ceux qu'il est chargé de contrôler. » Elle désigne « ces portes tournantes entre cabinets ministériels, haute administration, banques et multinationales », et des « intérêts privés qui disposent d'un accès à la décision publique que le citoyen ordinaire n'aura jamais ». Trois engagements en découlent, formulés sur son site de campagne : lutter contre les conflits d'intérêts, protéger les lanceurs d'alerte, et encadrer strictement les passages entre fonctions publiques stratégiques et intérêts privés - « la règle doit être la même pour les puissants et pour les autres ». S'y ajoute un engagement sur le référendum : elle veut « une France où le peuple est consulté et où le résultat d'un référendum est respecté ». Son diagnostic est chiffré sur la même page : 17 millions de Français estimant que voter ne sert plus à rien, et 53 % ne se reconnaissant pas dans l'offre politique existante. Aucun véhicule législatif, aucune autorité de contrôle et aucun calendrier ne sont précisés.",
+    "citation": "Quand servir l'État devient une étape dans un plan de carrière privé, la République se corrompt.",
+    "nature": "declaration_publique",
+    "indicateurs": [
+      {
+        "libelle": "Français estimant que voter ne sert plus à rien",
+        "valeur": 17000000,
+        "unite": "personnes",
+        "valeur_comparable": null
+      },
+      {
+        "libelle": "Français ne se reconnaissant pas dans l'offre politique",
+        "valeur": 53,
+        "unite": "%",
+        "valeur_comparable": 53
+      }
+    ],
+    "derniere_verification": "2026-10-26",
+    "programme_anterieur": null,
+    "sources": [
+      {
+        "url": "https://www.npolony.fr/vision",
+        "titre": "Ma vision pour la France - Natacha Polony 2027",
+        "type": "site-de-campagne",
+        "date": "2026-10-26"
+      },
+      {
+        "url": "https://www.franceinfo.fr/elections/presidentielle/l-essayiste-natacha-polony-annonce-sa-candidature-a-l-election-presidentielle_8236714.html",
+        "titre": "L'essayiste Natacha Polony annonce sa candidature à l'élection présidentielle",
+        "type": "article-de-presse",
+        "date": "2026-10-14"
+      }
+    ]
+  },
+  {
+    "id": "polony-fiscalite",
+    "candidat_id": "natacha-polony",
+    "theme_id": "fiscalite",
+    "resume": "Décréter un « état d'urgence de la production » : orienter la commande publique vers ceux qui produisent en France, et réserver l'argent public à ceux qui y investissent, forment et produisent.",
+    "detail": "La production est le pivot de sa candidature, posée comme la condition de tout le reste : « Nous voulons financer notre école et notre hôpital ? Il faut produire. Nous voulons préserver notre modèle social ? Il faut produire. » Elle fixe un horizon de dix ans pour que la France ait « retrouvé sa puissance industrielle » - produire son énergie, ses médicaments essentiels, « les machines et les technologies dont dépend notre souveraineté », et une alimentation de qualité. Le levier annoncé est l'État : il « doit redevenir stratège », planifier les investissements essentiels, protéger les infrastructures et les filières vitales, et surtout réorienter la dépense - « l'argent public doit servir ceux qui investissent, forment et produisent en France ». Au lendemain de sa déclaration, elle a précisé le mécanisme auprès de France 24 : « il faut que la puissance publique règle la question des normes, qu'elle utilise la commande publique vers ces gens qui se battent pour produire et inventer sur le sol français », et qu'il faut « défendre nos filières et faire en sorte de ne pas nous laisser imposer une concurrence déloyale ». Elle parle d'« état d'urgence de la production ». Ni le montant de la commande publique visée, ni les normes concernées, ni la trajectoire budgétaire ne sont chiffrés.",
+    "citation": "L'argent public doit servir ceux qui investissent, forment et produisent en France.",
+    "nature": "declaration_publique",
+    "indicateurs": [
+      {
+        "libelle": "Horizon annoncé pour le retour de la puissance industrielle",
+        "valeur": 10,
+        "unite": "ans",
+        "valeur_comparable": 10
+      }
+    ],
+    "derniere_verification": "2026-10-26",
+    "programme_anterieur": null,
+    "sources": [
+      {
+        "url": "https://www.npolony.fr/vision",
+        "titre": "Ma vision pour la France - Natacha Polony 2027",
+        "type": "site-de-campagne",
+        "date": "2026-10-26"
+      },
+      {
+        "url": "https://www.france24.com/fr/info-en-continu/20261015-pr%C3%A9sidentielle-polony-dit-son-%C3%A9motion-de-porter-la-voix-de-ceux-qui-ne-sont-pas-r%C3%A9sign%C3%A9s",
+        "titre": "Présidentielle : Polony dit son « émotion » de porter la voix de ceux qui « ne sont pas résignés »",
+        "type": "article-de-presse",
+        "date": "2026-10-15"
+      },
+      {
+        "url": "https://www.franceinfo.fr/elections/presidentielle/l-essayiste-natacha-polony-annonce-sa-candidature-a-l-election-presidentielle_8236714.html",
+        "titre": "L'essayiste Natacha Polony annonce sa candidature à l'élection présidentielle",
+        "type": "article-de-presse",
+        "date": "2026-10-14"
+      }
+    ]
+  },
+  {
+    "id": "polony-education",
+    "candidat_id": "natacha-polony",
+    "theme_id": "education",
+    "resume": "Faire de l'école « le lieu où l'enfant s'émancipe de ce qui le détermine à la naissance » : transmission des connaissances, de la langue, de l'histoire et de la capacité à raisonner.",
+    "detail": "Ancienne enseignante, la candidate place l'école parmi les trois reconstructions qu'elle annonce, à côté de l'industrie et de la République. Son constat est que « notre école ne tient plus sa promesse d'émancipation ». L'objectif qu'elle énonce est double : transmettre « des connaissances, une langue, une histoire, une capacité à raisonner », et rétablir l'égalité des parcours - l'école « doit permettre à l'enfant d'ouvrier comme à l'enfant de médecin d'aller aussi loin que son travail et son talent le permettent. C'est la promesse républicaine. » Elle rattache cette exigence à sa propre trajectoire : « Je suis devenue journaliste parce que je voulais comprendre et transmettre [...] Transmettre, pour moi, a toujours signifié la même chose, donner à chacun les moyens d'être libre. » Dans son hommage à Samuel Paty et Dominique Bernard, publié sur son site le 16 octobre 2026, elle associe l'école à la fermeté face à l'islamisme. Aucun moyen, aucun effectif et aucune réforme de structure ne sont précisés à ce stade.",
+    "citation": "L'école doit redevenir le lieu où l'enfant s'émancipe de ce qui le détermine à la naissance.",
+    "nature": "declaration_publique",
+    "indicateurs": [],
+    "derniere_verification": "2026-10-26",
+    "programme_anterieur": null,
+    "sources": [
+      {
+        "url": "https://www.npolony.fr/vision",
+        "titre": "Ma vision pour la France - Natacha Polony 2027",
+        "type": "site-de-campagne",
+        "date": "2026-10-26"
+      }
+    ]
+  },
+  {
+    "id": "polony-defense",
+    "candidat_id": "natacha-polony",
+    "theme_id": "defense",
+    "resume": "Refuser que la France soit « le supplétif d'un empire, quel qu'il soit » : parler à tous les grands pôles sans s'aligner, œuvrer à la paix, et se préparer à se défendre si ses intérêts sont attaqués.",
+    "detail": "La candidate formule sa doctrine extérieure comme une condition d'indépendance, dans le prolongement de son argument productif : « une nation qui ne produit plus ce dont elle a besoin finit par ne plus décider de son destin », et il faut produire pour « assurer notre défense et notre indépendance ». Sa position d'alignement est explicite : « La France n'a pas vocation à être le supplétif d'un empire, quel qu'il soit. » Elle revendique la liberté de parler « aux États-Unis, à la Chine, à la Russie, à l'Inde, au Brésil, à l'Afrique, au monde arabe », « libre de dire oui quand ses intérêts et ses principes le commandent », « libre de dire non lorsqu'ils l'exigent ». Sur l'emploi de la force, elle écrit : « Ma France œuvre à la Paix dans le monde et n'attise pas la guerre - mais elle se prépare à se défendre si ses intérêts sont attaqués. » Elle inscrit cette ambition dans les atouts qu'elle énumère : une industrie nucléaire, « le deuxième territoire maritime mondial », une armée, une diplomatie. Aucun objectif budgétaire de défense, aucune position sur l'OTAN et aucune doctrine de dissuasion ne sont énoncés.",
+    "citation": "La France n'a pas vocation à être le supplétif d'un empire, quel qu'il soit.",
+    "nature": "declaration_publique",
+    "indicateurs": [],
+    "derniere_verification": "2026-10-26",
+    "programme_anterieur": null,
+    "sources": [
+      {
+        "url": "https://www.npolony.fr/vision",
+        "titre": "Ma vision pour la France - Natacha Polony 2027",
+        "type": "site-de-campagne",
+        "date": "2026-10-26"
+      }
+    ]
   }
 ]

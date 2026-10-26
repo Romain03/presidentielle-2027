@@ -1209,5 +1209,44 @@
         "date": "2026-10-04"
       }
     }
+  },
+  {
+    "id": "nous-sommes-la-france",
+    "nom": "Nous sommes la France",
+    "sigle": "NSF",
+    "couleur": "#8c8274",
+    "famille": "divers",
+    "nuance_ministerielle": null,
+    "fondation": {
+      "annee": 2026,
+      "source": {
+        "url": "https://www.franceinfo.fr/elections/presidentielle/l-essayiste-natacha-polony-annonce-sa-candidature-a-l-election-presidentielle_8236714.html",
+        "titre": "L'essayiste Natacha Polony annonce sa candidature à l'élection présidentielle",
+        "type": "article-de-presse",
+        "date": "2026-10-14"
+      }
+    },
+    "dirigeant": {
+      "nom": "Natacha Polony",
+      "fonction": "fondatrice",
+      "source": {
+        "url": "https://www.franceinfo.fr/elections/presidentielle/l-essayiste-natacha-polony-annonce-sa-candidature-a-l-election-presidentielle_8236714.html",
+        "titre": "L'essayiste Natacha Polony annonce sa candidature à l'élection présidentielle",
+        "type": "article-de-presse",
+        "date": "2026-10-14"
+      }
+    },
+    "positionnement_declare": {
+      "texte": "Un mouvement qui a pour vocation de rassembler « les orphelins de la politique », autour de la responsabilité, de l'indépendance et de la reconstruction de la puissance productive.",
+      "source": {
+        "url": "https://www.npolony.fr/vision",
+        "titre": "Ma vision pour la France - Natacha Polony 2027",
+        "type": "site-de-campagne",
+        "date": "2026-10-26"
+      }
+    },
+    "site_officiel": "https://www.npolony.fr/",
+    "processus_designation": null,
+    "derniere_verification": "2026-10-26"
   }
 ]

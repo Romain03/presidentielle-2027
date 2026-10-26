@@ -11,6 +11,70 @@ partis, 44 candidats, 75 propositions, 16 documents de programme.
 
 ## 1. Priorité haute : à reprendre dans les jours qui viennent
 
+### Cinq candidatures encore absentes du site (26 octobre 2026)
+Le panorama de Public Sénat du 14 octobre 2026 nomme six candidatures que le
+site ignorait. **Natacha Polony a été vérifiée et enregistrée** ; les cinq
+autres restent à vérifier une par une, selon le test de véracité du protocole :
+
+- **Gilles Platret** (Les Républicains) - déclarée. Le parti est déjà dans les
+  données, et Bruno Retailleau y est investi : une seconde candidature LR
+  demande à être comprise avant d'être enregistrée.
+- **Juan Branco** - déclarée, indépendant.
+- **Antoine Mikolajczak** (Equinoxe) - déclarée. Parti absent des données.
+- **Jean-François Legendre** (À nous maintenant) - déclarée. Parti absent.
+- **Clara Egger** (Solution démocratique) - déclarée. Parti absent.
+
+Pour chacune : deux rédactions indépendantes, la date de déclaration, le
+mouvement exact, et un site officiel vérifié avant enregistrement. Trois
+mouvements sont à créer, ce qui suppose de leur attribuer une couleur et une
+famille - conventions qui se discutent (voir §4).
+
+### Écarts de statut avec le panorama de Public Sénat (14 octobre 2026)
+Six divergences, non arbitrées. Le protocole dit que deux sources qui se
+contredisent se consignent :
+
+| Candidature | Site | Public Sénat |
+|---|---|---|
+| Raphaël Glucksmann | Candidature investie | déclarée (vainqueur de la primaire) |
+| Fabien Roussel | Candidature investie | déclarée |
+| Marine Tondelier | Candidature investie | **pressentie, validation le 13/12/2026** |
+| Nathalie Arthaud | Candidature déclarée | pressentie |
+| Selma Labib | Candidature déclarée | pressentie |
+| Bernard Cazeneuve | Candidature déclarée | pressentie |
+| Jean Lassalle | Pressenti | déclarée |
+
+Le cas de **Marine Tondelier est le plus net** : le site la donne investie
+depuis le 8 décembre 2025 avec 86 % des voix des Écologistes, quand Public
+Sénat annonce une validation à venir le 13 décembre 2026. Les deux faits sont
+peut-être compatibles - désignée par son parti, en attente de la primaire de la
+gauche unitaire - mais la fiche ne le dit pas. **À tirer au clair.**
+
+Noter aussi que Public Sénat écrit « Annasse Kazib » là où le site écrit
+« Anasse Kazib ». L'orthographe retenue ici est celle de Wikipédia et des
+autres rédactions ; la variante de Public Sénat paraît fautive.
+
+### Natacha Polony : ce qui reste ouvert
+Enregistrée le 26 octobre 2026 sur la foi de franceinfo (14/10), France 24
+(15/10) et du panorama de Public Sénat, plus son site de campagne. Restent en
+suspens :
+
+- **Son mouvement n'a pas de nuance ministérielle** et sa famille politique est
+  rangée en « divers », comme Public Sénat la classe. Elle se revendique du
+  « gaullisme social » selon un résumé de moteur de recherche **non vérifié** :
+  la formule n'a pas été lue dans un article et n'est donc pas publiée.
+- **Son site n'a pas de section programme** et aucun document téléchargeable. La
+  page `npolony.fr/vision` fait office de texte programmatique, mais elle **ne
+  porte aucune date** : la source est datée du jour de lecture, convention déjà
+  en usage pour trois autres sources (voir §4).
+- Un résumé de moteur annonçait une page « Ma vision pour la France » à
+  l'adresse `/ma-vision-pour-la-france` : elle renvoie une **404**. La bonne
+  adresse est `/vision`. Piège déjà documenté au §4 du protocole.
+- Un second domaine, `natachapolony2027.fr`, apparaît dans les résultats de
+  recherche. **Propriété non établie, non enregistré.**
+- Les agrégateurs `repere2027.fr` et `primaireouverte.fr` remontent en tête des
+  recherches sur son programme. Écartés, comme tous leurs semblables.
+
+
 ### Primaire présidentielle socialiste — RÉSOLU le 12 octobre 2026
 Le premier tour s'est tenu les 9 et 10 octobre 2026. Raphaël Glucksmann l'a
 remporté dès le premier tour avec 66,17 % des suffrages exprimés (79 613 voix

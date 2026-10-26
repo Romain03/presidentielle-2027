@@ -7657,5 +7657,110 @@
         "date": "2026-10-04"
       }
     ]
+  },
+  {
+    "id": "natacha-polony",
+    "nom": "Polony",
+    "prenom": "Natacha",
+    "parti_id": "nous-sommes-la-france",
+    "statut": "declare",
+    "statut_date": "2026-10-14",
+    "parcours": [],
+    "soutiens": [],
+    "precisions": [
+      {
+        "libelle": "Candidature annoncée le 14 octobre 2026 sur France Inter, sous la bannière du mouvement « Nous sommes la France » qu'elle a lancé en septembre 2026 et qui revendique 60 000 adhérents.",
+        "source": {
+          "url": "https://www.franceinfo.fr/elections/presidentielle/l-essayiste-natacha-polony-annonce-sa-candidature-a-l-election-presidentielle_8236714.html",
+          "titre": "L'essayiste Natacha Polony annonce sa candidature à l'élection présidentielle",
+          "type": "article-de-presse",
+          "date": "2026-10-14"
+        }
+      },
+      {
+        "libelle": "N'a jamais exercé de mandat électif ni de fonction gouvernementale : « Je ne suis pas une professionnelle de la politique. »",
+        "source": {
+          "url": "https://www.npolony.fr/vision",
+          "titre": "Ma vision pour la France - Natacha Polony 2027",
+          "type": "site-de-campagne",
+          "date": "2026-10-26"
+        }
+      }
+    ],
+    "liens_officiels": [
+      {
+        "libelle": "Site de campagne « Natacha Polony 2027 »",
+        "url": "https://www.npolony.fr/"
+      },
+      {
+        "libelle": "Ma vision pour la France",
+        "url": "https://www.npolony.fr/vision"
+      }
+    ],
+    "derniere_verification": "2026-10-26",
+    "photo": null,
+    "biographie": {
+      "naissance": null,
+      "formations": [],
+      "metiers": [
+        {
+          "libelle": "Enseignante",
+          "source": {
+            "url": "https://www.npolony.fr/vision",
+            "titre": "Ma vision pour la France - Natacha Polony 2027",
+            "type": "site-de-campagne",
+            "date": "2026-10-26"
+          }
+        },
+        {
+          "libelle": "Journaliste, après avoir dirigé des rédactions",
+          "source": {
+            "url": "https://www.npolony.fr/vision",
+            "titre": "Ma vision pour la France - Natacha Polony 2027",
+            "type": "site-de-campagne",
+            "date": "2026-10-26"
+          }
+        },
+        {
+          "libelle": "Essayiste",
+          "source": {
+            "url": "https://www.franceinfo.fr/elections/presidentielle/l-essayiste-natacha-polony-annonce-sa-candidature-a-l-election-presidentielle_8236714.html",
+            "titre": "L'essayiste Natacha Polony annonce sa candidature à l'élection présidentielle",
+            "type": "article-de-presse",
+            "date": "2026-10-14"
+          }
+        }
+      ],
+      "situation": {
+        "libelle": "Directrice de la revue L'Audace",
+        "annee": 2026,
+        "source": {
+          "url": "https://www.franceinfo.fr/elections/presidentielle/l-essayiste-natacha-polony-annonce-sa-candidature-a-l-election-presidentielle_8236714.html",
+          "titre": "L'essayiste Natacha Polony annonce sa candidature à l'élection présidentielle",
+          "type": "article-de-presse",
+          "date": "2026-10-14"
+        }
+      }
+    },
+    "statut_sources": [
+      {
+        "url": "https://www.franceinfo.fr/elections/presidentielle/l-essayiste-natacha-polony-annonce-sa-candidature-a-l-election-presidentielle_8236714.html",
+        "titre": "L'essayiste Natacha Polony annonce sa candidature à l'élection présidentielle",
+        "type": "article-de-presse",
+        "date": "2026-10-14"
+      },
+      {
+        "url": "https://www.france24.com/fr/info-en-continu/20261015-pr%C3%A9sidentielle-polony-dit-son-%C3%A9motion-de-porter-la-voix-de-ceux-qui-ne-sont-pas-r%C3%A9sign%C3%A9s",
+        "titre": "Présidentielle : Polony dit son « émotion » de porter la voix de ceux qui « ne sont pas résignés »",
+        "type": "article-de-presse",
+        "date": "2026-10-15"
+      },
+      {
+        "url": "https://www.publicsenat.fr/actualites/politique/election-presidentielle-2027-qui-sont-les-candidats-declares-ou-presque",
+        "titre": "Élection présidentielle 2027 : qui sont les candidats déclarés ou presque ?",
+        "type": "article-de-presse",
+        "date": "2026-10-14"
+      }
+    ]
   }
 ]

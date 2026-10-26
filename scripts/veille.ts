@@ -66,6 +66,41 @@ const FLUX = [
  * un retrait, un résultat, la parution d'un programme. Ils sont signalés à
  * part, parce qu'ils demandent une correction et pas seulement une lecture.
  */
+/**
+ * Panoramas de rédaction recensant l'ensemble des candidatures.
+ *
+ * Ils répondent à un angle mort propre à cette veille : `NOMS_SUIVIS` est
+ * construit à partir des candidats déjà enregistrés, donc un titre comme
+ * « Natacha Polony annonce sa candidature » était écarté en silence - le nom
+ * n'étant pas dans le fichier, l'article ne « concernait pas le site ». La
+ * veille savait voir un changement de statut ; elle était aveugle à une
+ * candidature nouvelle. Natacha Polony s'est déclarée le 14 octobre 2026 et
+ * n'a été repérée que douze jours plus tard, par un lecteur.
+ *
+ * Ces pages sont donc relues à chaque passage, et tout nom de personne qu'on
+ * y trouve sans le connaître est signalé.
+ */
+const PANORAMAS = [
+  {
+    nom: 'Public Sénat - candidats déclarés ou presque',
+    url: 'https://www.publicsenat.fr/actualites/politique/election-presidentielle-2027-qui-sont-les-candidats-declares-ou-presque',
+  },
+  {
+    nom: 'franceinfo - dossier présidentielle',
+    url: 'https://www.franceinfo.fr/elections/presidentielle.html',
+  },
+];
+
+/**
+ * Une annonce de candidature, reconnue sans connaître le nom de l'intéressé.
+ *
+ * Volontairement distinct de MOTS_EVENEMENT, qui ne s'applique qu'aux noms
+ * déjà suivis : celui-ci s'applique à tous les titres des fils, et c'est le
+ * seul filet qui attrape un entrant.
+ */
+const MOTS_NOUVELLE_CANDIDATURE =
+  /\b(?:annonce sa candidature|d[ée]clare sa candidature|se d[ée]clare candidat|se lance dans la course|officialise sa candidature|est candidat[e]? [àa] l'[ée]lection pr[ée]sidentielle|candidat[e]? [àa] la pr[ée]sidentielle)\b/i;
+
 const MOTS_EVENEMENT =
   /\b(investi|investiture|d[ée]sign[ée]|remporte|vainqueur|[ée]limin[ée]|se retire|retire sa candidature|renonce|jette l'[ée]ponge|annonce sa candidature|se d[ée]clare|candidat[e]? [àa] l'[ée]lection|r[ée]sultats?|d[ée]voile (?:son|ses)|pr[ée]sente (?:son|ses)|programme|parrainages?|exclu[e]? (?:du|de)|quitte (?:le|les))\b/i;
 
@@ -352,6 +387,8 @@ const programmesDecouverts: string[] = [];
 const documentsAbsents: string[] = [];
 const documentsRemplaces: string[] = [];
 const documentsNonControlables: string[] = [];
+const candidaturesInconnues: string[] = [];
+const nomsInconnus: string[] = [];
 
 /**
  * Déduplication globale, et non par site : melenchon2027.fr est atteint à la
@@ -368,6 +405,38 @@ for (const proposition of propositions) {
 for (const candidat of candidats) {
   for (const source of candidat.statut_sources) sourcesUniques.set(source.url, source);
 }
+
+/**
+ * Noms de personne plausibles dans un texte : « Prénom Nom », particules
+ * comprises. Sert à relire un panorama de rédaction sans savoir d'avance qui
+ * y figure.
+ *
+ * Le filtre est volontairement large et le rapport assume ses faux positifs :
+ * un nom de trop se lit en une seconde, une candidature manquée reste des
+ * semaines en ligne.
+ */
+const NOM_PROPRE =
+  /\b([A-ZÉÈÊÀÂÎÔÛÇ][\p{L}'’-]{1,}(?:\s+(?:de|du|des|le|la|van|von)\s+|[\s-])+[A-ZÉÈÊÀÂÎÔÛÇ][\p{L}'’-]{1,})\b/gu;
+
+/** Mots qui commencent une majuscule sans désigner une personne. */
+const PAS_UN_NOM =
+  /\b(France|Europe|Paris|Assembl[ée]e|S[ée]nat|R[ée]publique|Pr[ée]sidentielle|[EÉ]lection|Nouveau|Nouvelle|Parti|Rassemblement|Union|Mouvement|Les|La|Le|Front|Lutte|R[ée]volution|Horizons|Renaissance|Debout|Solution|Trajectoire|Equinoxe|Audace|Insoumise|[EÉ]cologistes|R[ée]publicains|Patriotes|Reconqu[êe]te|Conseil|Premier|Ministre|LR|UDR|PS|RN|LFI|Anticapitaliste|Populaire|Clavier|Accueil|Documentaires|[EÉ]missions|Podcasts|Par|Saint|Vid[ée]os|Replay|Direct|Chaine|Cha[îi]ne|Janvier|F[ée]vrier|Mars|Avril|Juin|Juillet|Ao[ûu]t|Septembre|Octobre|Novembre|D[ée]cembre|Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche|Cookies|Politique|Mentions)\b/i;
+
+function normaliserNom(nom: string): string {
+  return nom
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase()
+    .replace(/[^a-z]+/g, ' ')
+    .trim();
+}
+
+/** Les candidats connus, sous une forme comparable à un nom lu dans une page. */
+const CANDIDATS_CONNUS = new Set(
+  candidats.map((c) => normaliserNom(`${c.prenom} ${c.nom}`)),
+);
+/** Les patronymes seuls, pour reconnaître « M. Glucksmann » sans son prénom. */
+const PATRONYMES_CONNUS = new Set(candidats.map((c) => normaliserNom(c.nom)));
 
 async function surveiller(): Promise<void> {
   // 1. Liens morts, sur l'ensemble des sources citées.
@@ -407,7 +476,18 @@ async function surveiller(): Promise<void> {
     for (const article of await lireFlux(flux)) {
       if (articlesVus[article.url]) continue;
       const nom = concerneLeSite(article.titre);
-      if (nom === null) continue;
+      if (nom === null) {
+        // Le nom n'est pas suivi, mais le titre annonce une candidature : c'est
+        // précisément le cas que la veille ratait. On le signale sans savoir de
+        // qui il s'agit, plutôt que de l'écarter parce qu'on ne le sait pas.
+        if (MOTS_NOUVELLE_CANDIDATURE.test(article.titre)) {
+          articlesVus[article.url] = new Date().toISOString().slice(0, 10);
+          candidaturesInconnues.push(
+            `${article.titre}\n  ${article.flux} · ${article.date} · ${article.url}`,
+          );
+        }
+        continue;
+      }
       articlesVus[article.url] = new Date().toISOString().slice(0, 10);
       const ligne = `**${nom}** — ${article.titre}\n  ${article.flux} · ${article.date} · ${article.url}`;
       // Au premier passage, les fils contiennent des semaines d'archives :
@@ -444,6 +524,43 @@ async function surveiller(): Promise<void> {
         caracteres: 0,
         vu: new Date().toISOString().slice(0, 10),
       };
+    }
+  }
+
+  // 5 bis. Panoramas de rédaction : un nom de candidat nous manque-t-il ?
+  //
+  // C'est le seul contrôle qui ne dépend pas de ce que le site sait déjà. Il
+  // relit des pages qui recensent l'ensemble des candidatures et signale tout
+  // nom de personne absent de candidats.json.
+  for (const panorama of PANORAMAS) {
+    const reponse = await recuperer(panorama.url);
+    if ('erreur' in reponse) continue;
+    const texte = reponse.html
+      .replace(/<(script|style|noscript)\b[^>]*>[\s\S]*?<\/\1>/gi, ' ')
+      .replace(/<[^>]+>/g, ' ')
+      .replace(/&[a-z]+;|&#\d+;/gi, ' ');
+    const vus = new Set<string>();
+    for (const trouve of texte.matchAll(NOM_PROPRE)) {
+      const brut = trouve[1].replace(/\s+/g, ' ').trim();
+      if (PAS_UN_NOM.test(brut)) continue;
+      const cle = normaliserNom(brut);
+      if (cle.split(' ').length < 2 || vus.has(cle)) continue;
+      vus.add(cle);
+      if (CANDIDATS_CONNUS.has(cle)) continue;
+      // Une page de rédaction porte un menu, des crédits photo et des noms de
+      // rubriques. Un nom n'est retenu que s'il paraît au voisinage du mot
+      // « candidat » : c'est ce qui sépare « Natacha Polony » de « Accueil
+      // Actualités » sans entretenir une liste d'exclusions sans fin.
+      const autour = texte.slice(
+        Math.max(0, (trouve.index ?? 0) - 220),
+        (trouve.index ?? 0) + brut.length + 220,
+      );
+      if (!/candidat/i.test(autour)) continue;
+      // Un patronyme déjà suivi écarte les variantes d'orthographe du prénom :
+      // Public Sénat écrit « Annasse Kazib » là où le site écrit « Anasse ».
+      const patronyme = cle.split(' ').slice(-1)[0];
+      if (PATRONYMES_CONNUS.has(patronyme)) continue;
+      nomsInconnus.push(`${brut} — relevé sur ${panorama.nom}\n  ${panorama.url}`);
     }
   }
 
@@ -507,6 +624,8 @@ async function principal(): Promise<void> {
     programmesDecouverts.length +
     documentsAbsents.length +
     documentsRemplaces.length +
+    candidaturesInconnues.length +
+    nomsInconnus.length +
     payantesSeules.length;
 
   const rapport = [
@@ -514,7 +633,8 @@ async function principal(): Promise<void> {
     '',
     horsLigne
       ? '_Exécution hors ligne : seuls les contrôles sur les données ont été faits._'
-      : `_${sourcesUniques.size} sources citées et ${documents.length} documents de programme contrôlés._`,
+      : `_${sourcesUniques.size} sources citées, ${documents.length} documents de programme`
+        + ` et ${PANORAMAS.length} panoramas de rédaction contrôlés._`,
     '',
     '## Ce qui demande une action',
     '',
@@ -522,6 +642,16 @@ async function principal(): Promise<void> {
       'Changements d’état annoncés dans la presse',
       evenements,
       'Aucune investiture, aucun retrait, aucun résultat annoncé depuis la dernière veille.',
+    ),
+    bloc(
+      'Candidatures annoncées par un nom que le site ne connaît pas',
+      candidaturesInconnues,
+      'Aucune annonce de candidature émanant d’un nom inconnu du site.',
+    ),
+    bloc(
+      'Noms relevés dans un panorama de rédaction et absents des données',
+      nomsInconnus,
+      'Les panoramas relus ne nomment personne que le site ignore.',
     ),
     bloc(
       'Pages de programme apparues',
