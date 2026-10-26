@@ -19,8 +19,12 @@ jamais l'inverse.
    pousse sa mémoire : partir d'une copie en retard ferait échouer le `git push`
    de la fin.
 1. `npm ci` puis `npm run veille -- --ecrire` - le rapport dit ce qui a bougé.
-2. Pour chaque **changement d'état annoncé dans la presse**, appliquer le test de
-   véracité du §3.
+   **S'arrêter ici si `a_agir` vaut zéro**, et non si `evenements` vaut zéro :
+   voir §7, la différence a déjà coûté six candidatures.
+2. Traiter le rapport **section par section**, et pas seulement les changements
+   d'état : une candidature annoncée par un nom inconnu, un nom relevé dans un
+   panorama, une page de programme apparue sont autant de signaux distincts.
+   Appliquer à chacun le test de véracité du §3.
 3. Appliquer les modifications que le §2 autorise, et elles seules.
 4. `npm run valider` puis `npm test`. **Si un seul test échoue, ne rien
    pousser** : committer le travail sur une branche, ouvrir un ticket, s'arrêter.
@@ -45,6 +49,13 @@ jamais l'inverse.
 
 **Interdit sans un humain, sans exception :**
 
+- **créer une candidature ou un parti.** Une candidature nouvelle se signale et
+  se consigne, elle ne s'enregistre pas seule : son étiquette est souvent
+  contestée d'une rédaction à l'autre - trois versions pour Gilles Platret - et
+  un mouvement récent n'a ni couleur ni famille établies, qui sont des
+  conventions. Rassembler les deux sources, la date de déclaration et le nom
+  exact du mouvement dans `DONNEES_A_VERIFIER.md` est le travail attendu : un
+  humain n'a plus qu'à valider ;
 - **supprimer** une proposition, une candidature, un parti ou une source. Un
   retrait de données se demande, il ne se décide pas la nuit ;
 - modifier un **résumé** ou un **détail** existant autrement qu'en y **ajoutant**
@@ -195,9 +206,22 @@ Cette asymétrie est voulue. Le signal doit être fiable même machine éteinte,
 c'est le rôle de la veille sur GitHub. La correction, elle, demande de lire des
 articles et de juger : elle peut attendre que l'application soit ouverte.
 
-Le compteur `evenements=N` qu'écrit `scripts/veille.ts` sur sa sortie d'erreur
-dit s'il y a quelque chose à vérifier. S'il vaut zéro, le cycle s'arrête après
-l'étape 1 : inutile de lire quoi que ce soit.
+`scripts/veille.ts` écrit deux compteurs sur sa sortie d'erreur, et **c'est
+`a_agir` qui décide, jamais `evenements`**. `evenements` ne compte que les
+changements d'état annoncés dans la presse sous un nom déjà présent dans les
+données ; `a_agir` y ajoute les candidatures annoncées par un nom inconnu, les
+noms relevés dans un panorama de rédaction et absents des données, les pages de
+programme apparues, les documents injoignables ou réécrits et les liens morts.
+C'est aussi `a_agir` qui fixe le code de sortie du script et déclenche
+l'ouverture du ticket.
+
+La distinction n'est pas théorique : le 26 octobre 2026, une exécution a
+affiché `evenements=0` quand `a_agir=7` incluait **six candidatures absentes du
+site**, dont celle de Natacha Polony, déclarée douze jours plus tôt et repérée
+par un lecteur. S'arrêter sur `evenements` les aurait toutes manquées.
+
+Si `a_agir` vaut zéro, le cycle s'arrête après l'étape 1 : inutile de lire quoi
+que ce soit.
 
 ## 8. Arrêter l'automatisation
 
