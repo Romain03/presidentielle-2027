@@ -22,6 +22,13 @@ export const metadata: Metadata = {
   description:
     'Explorer l’élection présidentielle française de 2027 : candidats, partis et positions par thème, avec la source et la date de chaque information.',
   applicationName: 'Élection 2027',
+  /*
+   * Une page atteignable par plusieurs adresses (avec ou sans barre finale,
+   * avec un paramètre de suivi collé par un partage) est la même page : sans
+   * cette déclaration, un moteur doit le deviner. Relative, elle est résolue
+   * par Next contre `metadataBase` et le chemin de la page courante.
+   */
+  alternates: { canonical: './' },
   manifest: `${base}/manifest.webmanifest`,
   icons: {
     icon: [{ url: `${base}/favicon.png`, sizes: '32x32', type: 'image/png' }],
