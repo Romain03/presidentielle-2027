@@ -10,8 +10,8 @@
     "vu": "2026-10-30"
   },
   "https://attalpresident.fr/programme": {
-    "hachage": "42d7a6e270e2de712542ef9173d0bcb555451f0fe35d16dbfbece564a5740e5c",
-    "caracteres": 1763,
+    "hachage": "2b0d95f8c3eebce7351fc300ee7b61392dec9d81637cd5e5fc0f5f3d3d3d4106",
+    "caracteres": 10824,
     "vu": "2026-10-30"
   },
   "https://attalpresident.fr/programme/dette-de-letat": {
@@ -25,13 +25,13 @@
     "vu": "2026-10-30"
   },
   "https://attalpresident.fr/programme/education": {
-    "hachage": "0c7a1e5661d202bdff5c85c657f3dc3f17b1e568734776a2ac1df5b97166c595",
-    "caracteres": 4495,
+    "hachage": "932c864569c096e716c0b1e7863514e08d65e3ec5dda0c4a5a3918f5181755b4",
+    "caracteres": 4630,
     "vu": "2026-10-30"
   },
   "https://attalpresident.fr/programme/frontieres": {
-    "hachage": "ae5ff870070ab98afad641fa9aedeea4071373b7bf0e1002f555a9c91ed9a5cb",
-    "caracteres": 9356,
+    "hachage": "1c86a44bae2601d421c1682164cd854c58edc7e7dc4f7f4bea791626d68c0a82",
+    "caracteres": 9486,
     "vu": "2026-10-30"
   },
   "https://attalpresident.fr/programme/intelligence-artificielle": {
@@ -39,9 +39,144 @@
     "caracteres": 0,
     "vu": "2026-10-30"
   },
+  "https://attalpresident.fr/programme/mesures/aide-professionnels-vehicule": {
+    "hachage": "decouvert",
+    "caracteres": 0,
+    "vu": "2026-10-30"
+  },
+  "https://attalpresident.fr/programme/mesures/aides-directes-plutot-que-baisses-de-taxes": {
+    "hachage": "decouvert",
+    "caracteres": 0,
+    "vu": "2026-10-30"
+  },
+  "https://attalpresident.fr/programme/mesures/amende-des-le-premier-acte-maltraitance": {
+    "hachage": "decouvert",
+    "caracteres": 0,
+    "vu": "2026-10-30"
+  },
+  "https://attalpresident.fr/programme/mesures/amendes-majorees-saisie-vehicules": {
+    "hachage": "decouvert",
+    "caracteres": 0,
+    "vu": "2026-10-30"
+  },
+  "https://attalpresident.fr/programme/mesures/aucune-hausse-impots": {
+    "hachage": "decouvert",
+    "caracteres": 0,
+    "vu": "2026-10-30"
+  },
+  "https://attalpresident.fr/programme/mesures/bareme-national-sanctions": {
+    "hachage": "decouvert",
+    "caracteres": 0,
+    "vu": "2026-10-30"
+  },
+  "https://attalpresident.fr/programme/mesures/big-bang-territorial": {
+    "hachage": "decouvert",
+    "caracteres": 0,
+    "vu": "2026-10-30"
+  },
+  "https://attalpresident.fr/programme/mesures/bouclier-tarifaire-eau": {
+    "hachage": "decouvert",
+    "caracteres": 0,
+    "vu": "2026-10-30"
+  },
+  "https://attalpresident.fr/programme/mesures/capitalisation-startups": {
+    "hachage": "decouvert",
+    "caracteres": 0,
+    "vu": "2026-10-30"
+  },
+  "https://attalpresident.fr/programme/mesures/carte-famille-monoparentale": {
+    "hachage": "decouvert",
+    "caracteres": 0,
+    "vu": "2026-10-30"
+  },
+  "https://attalpresident.fr/programme/mesures/comparution-immediate-mineurs": {
+    "hachage": "decouvert",
+    "caracteres": 0,
+    "vu": "2026-10-30"
+  },
+  "https://attalpresident.fr/programme/mesures/conseil-discipline-primaire": {
+    "hachage": "decouvert",
+    "caracteres": 0,
+    "vu": "2026-10-30"
+  },
+  "https://attalpresident.fr/programme/mesures/durcir-regroupement-familial": {
+    "hachage": "decouvert",
+    "caracteres": 0,
+    "vu": "2026-10-30"
+  },
+  "https://attalpresident.fr/programme/mesures/extension-batiments-elevage": {
+    "hachage": "decouvert",
+    "caracteres": 0,
+    "vu": "2026-10-30"
+  },
+  "https://attalpresident.fr/programme/mesures/fonds-investissement-defense": {
+    "hachage": "decouvert",
+    "caracteres": 0,
+    "vu": "2026-10-30"
+  },
+  "https://attalpresident.fr/programme/mesures/journee-referendaire-annuelle": {
+    "hachage": "decouvert",
+    "caracteres": 0,
+    "vu": "2026-10-30"
+  },
+  "https://attalpresident.fr/programme/mesures/loi-de-stabilite-fiscale": {
+    "hachage": "decouvert",
+    "caracteres": 0,
+    "vu": "2026-10-30"
+  },
+  "https://attalpresident.fr/programme/mesures/methode-singapour": {
+    "hachage": "decouvert",
+    "caracteres": 0,
+    "vu": "2026-10-30"
+  },
+  "https://attalpresident.fr/programme/mesures/plan-france-2040": {
+    "hachage": "decouvert",
+    "caracteres": 0,
+    "vu": "2026-10-30"
+  },
+  "https://attalpresident.fr/programme/mesures/plan-voltaire-esprit-critique": {
+    "hachage": "decouvert",
+    "caracteres": 0,
+    "vu": "2026-10-30"
+  },
+  "https://attalpresident.fr/programme/mesures/preference-europeenne-defense": {
+    "hachage": "decouvert",
+    "caracteres": 0,
+    "vu": "2026-10-30"
+  },
+  "https://attalpresident.fr/programme/mesures/remplacement-enseignants-absents": {
+    "hachage": "decouvert",
+    "caracteres": 0,
+    "vu": "2026-10-30"
+  },
+  "https://attalpresident.fr/programme/mesures/retablir-redoublement": {
+    "hachage": "decouvert",
+    "caracteres": 0,
+    "vu": "2026-10-30"
+  },
+  "https://attalpresident.fr/programme/mesures/stabilite-prix-electricite": {
+    "hachage": "decouvert",
+    "caracteres": 0,
+    "vu": "2026-10-30"
+  },
+  "https://attalpresident.fr/programme/mesures/test-pme-avant-chaque-loi": {
+    "hachage": "decouvert",
+    "caracteres": 0,
+    "vu": "2026-10-30"
+  },
+  "https://attalpresident.fr/programme/mesures/tu-casses-tu-repares": {
+    "hachage": "decouvert",
+    "caracteres": 0,
+    "vu": "2026-10-30"
+  },
+  "https://attalpresident.fr/programme/mesures/vingt-millions-salaries-ia": {
+    "hachage": "decouvert",
+    "caracteres": 0,
+    "vu": "2026-10-30"
+  },
   "https://attalpresident.fr/programme/travail-salaires": {
-    "hachage": "051159cf293079dee937657630b656ef0883bac58f396ea17c0df1bd14bd8a5e",
-    "caracteres": 7448,
+    "hachage": "cfb03a97862276b0419ca5c6625ed3cd7cfdd83fe972e627eb73e7743ac9ce2e",
+    "caracteres": 7631,
     "vu": "2026-10-30"
   },
   "https://generationecologie.fr/a-propos/generation-ecologie/notre-projet": {
@@ -225,8 +360,8 @@
     "vu": "2026-10-30"
   },
   "https://www.debout-la-france.fr/notre-projet/": {
-    "hachage": "4c1b8494abc8112d0e4df47dab97fffc25f8beb7ab91c7c91f80ff3dae05a78d",
-    "caracteres": 3508,
+    "hachage": "528c2817a263f43c43d677bb4314d767556f7a1ce39d5a9a37f6ef179405e6cb",
+    "caracteres": 3510,
     "vu": "2026-10-30"
   },
   "https://www.debout-la-france.fr/projet/economie-travail": {
@@ -315,8 +450,8 @@
     "vu": "2026-10-30"
   },
   "https://www.unenouvelleenergie.fr/notre-programme/": {
-    "hachage": "61b25627cb50795ef40c69be89f07f086828a926221e21ba567a1da921b8859a",
-    "caracteres": 9583,
+    "hachage": "23ce074d962d7a322f680d7dea3d9efa44d2b32f7991c31f36de44ee33ab1dbe",
+    "caracteres": 9586,
     "vu": "2026-10-30"
   },
   "https://www.unenouvelleenergie.fr/notre-programme/pole-de-travail-et-didees": {
