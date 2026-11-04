@@ -359,6 +359,11 @@
     "caracteres": 0,
     "vu": "2026-11-04"
   },
+  "https://solutiondemocratique.fr/programme-presidentielle": {
+    "hachage": "decouvert",
+    "caracteres": 0,
+    "vu": "2026-11-04"
+  },
   "https://udb.bzh/qui-sommes-nous/nos-idees": {
     "hachage": "decouvert",
     "caracteres": 0,
@@ -465,8 +470,8 @@
     "vu": "2026-11-04"
   },
   "https://www.unenouvelleenergie.fr/notre-programme/": {
-    "hachage": "8686454b240a05a3c1c03840e27ee5a364c397a6ff0a8a9810f21017875391c8",
-    "caracteres": 9675,
+    "hachage": "8d67275f4e051de090ed8805d137715e190af75b036edcf37ea9f64d094a51aa",
+    "caracteres": 9667,
     "vu": "2026-11-04"
   },
   "https://www.unenouvelleenergie.fr/notre-programme/pole-de-travail-et-didees": {
