@@ -239,6 +239,11 @@
     "caracteres": 0,
     "vu": "2026-11-05"
   },
+  "https://melenchon2027.fr/programme/livre": {
+    "hachage": "decouvert",
+    "caracteres": 0,
+    "vu": "2026-11-05"
+  },
   "https://melenchon2027.fr/programme/plans-investissement": {
     "hachage": "decouvert",
     "caracteres": 0,
@@ -280,6 +285,11 @@
     "vu": "2026-10-30"
   },
   "https://parti-animaliste.fr/programme": {
+    "hachage": "decouvert",
+    "caracteres": 0,
+    "vu": "2026-11-05"
+  },
+  "https://parti-equinoxe.fr/programme-2027": {
     "hachage": "decouvert",
     "caracteres": 0,
     "vu": "2026-11-05"
@@ -470,8 +480,8 @@
     "vu": "2026-11-05"
   },
   "https://www.unenouvelleenergie.fr/notre-programme/": {
-    "hachage": "172933087575126eed61e300b22f28e56cd0d8ab4eabad75ab1bef4ce3fb86fb",
-    "caracteres": 9667,
+    "hachage": "16fe5e2c4714056410f38152ab7792cdcde7bae1cf611618f584dee5b1b4a3de",
+    "caracteres": 9672,
     "vu": "2026-11-05"
   },
   "https://www.unenouvelleenergie.fr/notre-programme/pole-de-travail-et-didees": {
