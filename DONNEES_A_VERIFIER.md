@@ -131,6 +131,26 @@ processus n'est pas documenté dans les sources consultées : le champ
   campagne renvoyaient une erreur 404 au 9 octobre, et le chemin des URL en
   ligne est `programme2025`. À reprendre après publication, en remplaçant les
   sources de presse par la source primaire.
+  **Publication confirmée le 6 novembre 2026** (voir entrée du 7 novembre
+  ci-dessous) : les chiffres de la presse ont été ajoutés sur la fiche et sur
+  la proposition écologie, sans remplacer la source primaire déjà citée.
+
+### Mélenchon — numéro d'édition contradictoire entre la presse et le site (7 novembre 2026)
+Public Sénat (06/11/2026, article lu en entier) appelle la nouvelle édition de
+« L'Avenir en commun » **« la cinquième édition »**, à deux reprises. Le site
+`melenchon2027.fr/programme/decouvrir/`, lu le même jour, affiche lui-même
+**« Retrouvez la 6e édition de L'Avenir en Commun »**. LCP (06/11/2026), la
+seconde source lue, ne donne aucun numéro d'édition et ne permet donc pas de
+trancher.
+
+Deux sources se contredisent sur un chiffre : conformément au protocole,
+**rien n'a été changé** sur la fiche document `melenchon-avenir-en-commun`
+(toujours « cinquième édition » dans `titre`, tel que vérifié le 26 octobre).
+Le contenu de fond du programme (65 % d'émissions en 2033, 100 % renouvelables
+en 2060, règle bleue), lui, est confirmé à l'identique par les deux rédactions
+et a été ajouté. **À trancher** : relire `melenchon2027.fr` à distance de
+quelques jours pour voir si le numéro d'édition de la page se stabilise, ou
+trouver une troisième rédaction qui le précise.
 - **Marine Le Pen** : son programme n'était pas public au 11 septembre 2026.
   Toutes ses positions sont donc enregistrées comme déclarations publiques.
 - **Bruno Retailleau** : il indique que son projet pour l'écologie « sera

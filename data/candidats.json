@@ -4939,6 +4939,15 @@
           "type": "site-de-campagne",
           "date": "2026-10-09"
         }
+      },
+      {
+        "libelle": "Le programme, publié en librairie le 6 novembre 2026 comme annoncé, compte 1 069 mesures dont 238 nouvelles ; l'écologie, portée par le concept de « Nouvelle France », en devient le premier axe, présenté en tête lors d'un rassemblement au Bourget.",
+        "source": {
+          "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-avec-la-nouvelle-france-jean-luc-melenchon-fait-de-lecologie-la-cle-de-voute-de-son-programme",
+          "titre": "Présidentielle 2027 : avec la « Nouvelle France », Jean-Luc Mélenchon fait de l'écologie la clé de voûte de son programme",
+          "type": "article-de-presse",
+          "date": "2026-11-06"
+        }
       }
     ],
     "liens_officiels": [
@@ -4951,7 +4960,7 @@
         "url": "https://melenchon2027.fr/programme/decouvrir/"
       }
     ],
-    "derniere_verification": "2026-10-09",
+    "derniere_verification": "2026-11-07",
     "photo": {
       "fichier": "jean-luc-melenchon.webp",
       "auteur": "jlm2017.fr",

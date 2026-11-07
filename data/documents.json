@@ -335,7 +335,7 @@
   {
     "id": "lisnard-programme",
     "candidat_id": "david-lisnard",
-    "titre": "Le programme de David Lisnard, en neuf thématiques",
+    "titre": "Le programme de David Lisnard, en trois axes",
     "nature": "programme",
     "format": "page",
     "publie_par": "candidat",
@@ -347,7 +347,7 @@
     "date_document": null,
     "origine_date": null,
     "themes": [],
-    "derniere_verification": "2026-10-26"
+    "derniere_verification": "2026-11-07"
   },
   {
     "id": "melenchon-avenir-en-commun",

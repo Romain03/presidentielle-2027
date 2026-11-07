@@ -1268,7 +1268,7 @@
     "candidat_id": "jean-luc-melenchon",
     "theme_id": "ecologie",
     "resume": "Planification écologique avec une « règle verte » constitutionnelle, objectif de - 65 % d'émissions en 2030, sortie du nucléaire et 100 % de renouvelables, organisés autour d'« éco-régions » chargées de l'eau et des sols.",
-    "detail": "Le candidat exhorte à « la planification » écologique et met en avant son concept d'« éco-régions », de nouveaux territoires qui devront « organiser et prévoir tout ce qui concerne l'eau, l'air, la fertilité de la terre, la santé publique ». Son groupe parlementaire a présenté fin juin 2026 une actualisation de son plan canicule, et de nouvelles mesures ont été ajoutées au programme sur la lutte contre les incendies : instauration d'une surveillance satellitaire, d'une filière française de bombardiers d'eau, ou encore d'une conscription citoyenne en appui à la sécurité civile. Le programme L'Avenir en commun, dont l'écologie occupe un quart, repose sur la planification écologique : inscription dans la Constitution d'une « règle verte » consistant à ne pas « prélever davantage à la nature que ce qu'elle est en état de reconstituer », relèvement de l'objectif climatique français à une baisse de 65 % des émissions de gaz à effet de serre en 2030 par rapport à 1990, contre 55 % aujourd'hui, sortie du nucléaire, passage à 100 % d'énergies renouvelables et agriculture « relocalisée », « diversifiée » et « écologique ». Les éco-régions seraient découpées à partir des bassins versants des fleuves et rivières, et se verraient confier d'abord la gestion de l'eau ; elles passeraient d'une ligne du programme de 2022 à un livret entier et à un « plan gouvernemental ». S'y ajoutent une « garde régionale de la sécurité civile » constituée par conscription et mobilisable en cas de crise, et l'abrogation de la loi Duplomb de 2025 sur les pesticides.",
+    "detail": "Le candidat exhorte à « la planification » écologique et met en avant son concept d'« éco-régions », de nouveaux territoires qui devront « organiser et prévoir tout ce qui concerne l'eau, l'air, la fertilité de la terre, la santé publique ». Son groupe parlementaire a présenté fin juin 2026 une actualisation de son plan canicule, et de nouvelles mesures ont été ajoutées au programme sur la lutte contre les incendies : instauration d'une surveillance satellitaire, d'une filière française de bombardiers d'eau, ou encore d'une conscription citoyenne en appui à la sécurité civile. Le programme L'Avenir en commun, dont l'écologie occupe un quart, repose sur la planification écologique : inscription dans la Constitution d'une « règle verte » consistant à ne pas « prélever davantage à la nature que ce qu'elle est en état de reconstituer », relèvement de l'objectif climatique français à une baisse de 65 % des émissions de gaz à effet de serre en 2030 par rapport à 1990, contre 55 % aujourd'hui, sortie du nucléaire, passage à 100 % d'énergies renouvelables et agriculture « relocalisée », « diversifiée » et « écologique ». Les éco-régions seraient découpées à partir des bassins versants des fleuves et rivières, et se verraient confier d'abord la gestion de l'eau ; elles passeraient d'une ligne du programme de 2022 à un livret entier et à un « plan gouvernemental ». S'y ajoutent une « garde régionale de la sécurité civile » constituée par conscription et mobilisable en cas de crise, et l'abrogation de la loi Duplomb de 2025 sur les pesticides. Dans la nouvelle édition du programme présentée le 6 novembre 2026 sous le nom de « Nouvelle France », l'écologie devient le premier axe du programme et les deux horizons sont repoussés : la baisse de 65 % des émissions de gaz à effet de serre par rapport à 1990 est désormais visée pour 2033 (contre 2030 dans l'édition précédente), et le passage à 100 % d'énergies renouvelables pour 2060 au plus tard (contre 2050 en 2022). Une « règle bleue », bâtie sur le même principe que la « règle verte » et destinée à répondre aux risques de sécheresse et d'inondation, complète ce volet constitutionnel.",
     "citation": null,
     "nature": "declaration_publique",
     "indicateurs": [
@@ -1277,9 +1277,21 @@
         "valeur": 65,
         "unite": "%",
         "valeur_comparable": 65
+      },
+      {
+        "libelle": "Baisse des émissions visée en 2033 (par rapport à 1990, édition « Nouvelle France »)",
+        "valeur": 65,
+        "unite": "%",
+        "valeur_comparable": 65
+      },
+      {
+        "libelle": "Horizon des 100 % d'énergies renouvelables (édition « Nouvelle France »)",
+        "valeur": 2060,
+        "unite": null,
+        "valeur_comparable": null
       }
     ],
-    "derniere_verification": "2026-10-09",
+    "derniere_verification": "2026-11-07",
     "programme_anterieur": null,
     "sources": [
       {
@@ -1293,6 +1305,18 @@
         "titre": "Présidentielle 2027 : la transition écologique, élément de convergence et de rivalité entre LFI et Les Écologistes",
         "type": "article-de-presse",
         "date": "2026-08-23"
+      },
+      {
+        "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-avec-la-nouvelle-france-jean-luc-melenchon-fait-de-lecologie-la-cle-de-voute-de-son-programme",
+        "titre": "Présidentielle 2027 : avec la « Nouvelle France », Jean-Luc Mélenchon fait de l'écologie la clé de voûte de son programme",
+        "type": "article-de-presse",
+        "date": "2026-11-06"
+      },
+      {
+        "url": "https://lcp.fr/actualites/presidentielle-2027-ce-qui-change-dans-le-nouveau-programme-de-jean-luc-melenchon-444841",
+        "titre": "Présidentielle 2027 : ce qui change dans le nouveau programme de Jean-Luc Mélenchon",
+        "type": "article-de-presse",
+        "date": "2026-11-06"
       }
     ]
   },
