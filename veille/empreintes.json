@@ -302,7 +302,7 @@
   "https://pcf.fr/le_programme": {
     "hachage": "decouvert",
     "caracteres": 0,
-    "vu": "2026-11-09"
+    "vu": "2026-11-10"
   },
   "https://place-publique.eu/pages/69jA2SKIG5udlNX7wI3dmc/le-projet": {
     "hachage": "decouvert",
@@ -419,6 +419,11 @@
     "caracteres": 11702,
     "vu": "2026-11-10"
   },
+  "https://www.debout-la-france.fr/projet/securite": {
+    "hachage": "decouvert",
+    "caracteres": 0,
+    "vu": "2026-11-10"
+  },
   "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-attentive-a-ses-enfants": {
     "hachage": "decouvert",
     "caracteres": 0,
@@ -485,8 +490,8 @@
     "vu": "2026-11-10"
   },
   "https://www.unenouvelleenergie.fr/notre-programme/": {
-    "hachage": "159bca1752871ee1998e7e0225e226d51f927c92869f546ad34e89e6805a91c6",
-    "caracteres": 9678,
+    "hachage": "ad34bee24a229c83685c990fb73d11c858489851af8d5946a4e85e5a239c1c95",
+    "caracteres": 9667,
     "vu": "2026-11-10"
   },
   "https://www.unenouvelleenergie.fr/notre-programme/pole-de-travail-et-didees": {
