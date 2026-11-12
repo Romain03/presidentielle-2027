@@ -284,6 +284,16 @@
     "caracteres": 0,
     "vu": "2026-10-30"
   },
+  "https://npa-revolutionnaires.org/articles/plateforme-industrielle-du-courrier-de-lesquin-banlieue-de-lille-greve-dedans-et-dehors-le-5-novembre": {
+    "hachage": "decouvert",
+    "caracteres": 0,
+    "vu": "2026-11-12"
+  },
+  "https://npa-revolutionnaires.org/articles/programme-lfi": {
+    "hachage": "decouvert",
+    "caracteres": 0,
+    "vu": "2026-11-12"
+  },
   "https://parti-animaliste.fr/programme": {
     "hachage": "decouvert",
     "caracteres": 0,
@@ -435,8 +445,8 @@
     "vu": "2026-11-11"
   },
   "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-conquerante": {
-    "hachage": "51b9210c83747aee64448c33fef02752776fece2f9a5562452ae5b20c5cf3069",
-    "caracteres": 121,
+    "hachage": "4b2625df76654caaa94031f950b2646f7bb666ad1e89a407c129359db33a4639",
+    "caracteres": 3874,
     "vu": "2026-11-12"
   },
   "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere": {
@@ -445,8 +455,18 @@
     "vu": "2026-11-11"
   },
   "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure": {
-    "hachage": "51b9210c83747aee64448c33fef02752776fece2f9a5562452ae5b20c5cf3069",
-    "caracteres": 121,
+    "hachage": "4b2625df76654caaa94031f950b2646f7bb666ad1e89a407c129359db33a4639",
+    "caracteres": 3874,
+    "vu": "2026-11-12"
+  },
+  "https://www.edouardphilippe.fr/programme": {
+    "hachage": "decouvert",
+    "caracteres": 0,
+    "vu": "2026-11-12"
+  },
+  "https://www.edouardphilippe.fr/programme/justice": {
+    "hachage": "decouvert",
+    "caracteres": 0,
     "vu": "2026-11-12"
   },
   "https://www.generation-s.fr/notre-projet-de-societe": {
@@ -495,8 +515,8 @@
     "vu": "2026-11-12"
   },
   "https://www.unenouvelleenergie.fr/notre-programme/": {
-    "hachage": "91e4a69e960814dbcbebebc286850213633b00223e7f98b910adc6642f401988",
-    "caracteres": 9694,
+    "hachage": "281681af067f331cbea1731efe852ce5f20e1a8710f9c051f70ece70faeef7ad",
+    "caracteres": 9671,
     "vu": "2026-11-12"
   },
   "https://www.unenouvelleenergie.fr/notre-programme/pole-de-travail-et-didees": {
