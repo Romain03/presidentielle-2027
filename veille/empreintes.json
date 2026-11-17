@@ -265,8 +265,8 @@
     "vu": "2026-11-17"
   },
   "https://nouspresident.fr/notre-programme/": {
-    "hachage": "32110436d03a55717cf550daf0a64b38d6962ecbef14114e87e329f41ec6ef8c",
-    "caracteres": 7174,
+    "hachage": "1df09cd8e0861de8569abd5e5c126b2d93110c6348b241c59869c5df94419546",
+    "caracteres": 7305,
     "vu": "2026-11-17"
   },
   "https://npa-revolutionnaires.org/articles/a-la-plateforme-industrielle-du-courrier-pic-de-lesquin-le-mouvement-bouscule-les-prejuges": {
@@ -424,6 +424,11 @@
     "caracteres": 3520,
     "vu": "2026-11-17"
   },
+  "https://www.debout-la-france.fr/projet/agriculture": {
+    "hachage": "decouvert",
+    "caracteres": 0,
+    "vu": "2026-11-17"
+  },
   "https://www.debout-la-france.fr/projet/economie-travail": {
     "hachage": "decouvert",
     "caracteres": 0,
@@ -432,7 +437,7 @@
   "https://www.debout-la-france.fr/projet/instruction-publique": {
     "hachage": "decouvert",
     "caracteres": 0,
-    "vu": "2026-10-13"
+    "vu": "2026-11-17"
   },
   "https://www.debout-la-france.fr/projet/produire-en-france": {
     "hachage": "decouvert",
@@ -455,8 +460,8 @@
     "vu": "2026-11-11"
   },
   "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-conquerante": {
-    "hachage": "4b2625df76654caaa94031f950b2646f7bb666ad1e89a407c129359db33a4639",
-    "caracteres": 3874,
+    "hachage": "3182254f535128e0ae97cff0dcec039a794822846162978566ea9660fc02b12c",
+    "caracteres": 3893,
     "vu": "2026-11-17"
   },
   "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere": {
@@ -465,8 +470,8 @@
     "vu": "2026-11-11"
   },
   "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure": {
-    "hachage": "4b2625df76654caaa94031f950b2646f7bb666ad1e89a407c129359db33a4639",
-    "caracteres": 3874,
+    "hachage": "3182254f535128e0ae97cff0dcec039a794822846162978566ea9660fc02b12c",
+    "caracteres": 3893,
     "vu": "2026-11-17"
   },
   "https://www.edouardphilippe.fr/programme": {
@@ -530,8 +535,8 @@
     "vu": "2026-11-17"
   },
   "https://www.unenouvelleenergie.fr/notre-programme/": {
-    "hachage": "4641e86224f08b16e244f0db9497318b6bdba9f0eab853b90b35c95896d1d574",
-    "caracteres": 9680,
+    "hachage": "0864ac84d9e1da5a69fc82de6b14474a210a4108a6fbbd51de655f6900c7b7f9",
+    "caracteres": 9686,
     "vu": "2026-11-17"
   },
   "https://www.unenouvelleenergie.fr/notre-programme/pole-de-travail-et-didees": {
@@ -540,8 +545,8 @@
     "vu": "2026-11-17"
   },
   "https://www.unenouvelleenergie.fr/notre-programme/reussir-une-nouvelle-ambition-francaise/": {
-    "hachage": "43983f7a4011c36d14ad37f810e560e280b07061b1c4369d30599cea03724e20",
-    "caracteres": 27558,
+    "hachage": "faf4540ad8453f702d8fb481054ea3f3ab297e1294c29e87e2ea75104b2413e9",
+    "caracteres": 27559,
     "vu": "2026-11-17"
   }
 }
