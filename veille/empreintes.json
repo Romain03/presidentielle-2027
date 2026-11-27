@@ -555,7 +555,7 @@
     "vu": "2026-11-27"
   },
   "https://www.unenouvelleenergie.fr/notre-programme/": {
-    "hachage": "e5ba629b36cc6640dcaccc21e8f00caae7f819fa1521031648dc82a6e0454ec1",
+    "hachage": "79e4c6d86f19542cecbc5adbe6c113f196cd277b7ad40d7f31184c43c540fa9e",
     "caracteres": 9694,
     "vu": "2026-11-27"
   },
@@ -567,6 +567,11 @@
   "https://www.unenouvelleenergie.fr/notre-programme/reussir-une-nouvelle-ambition-francaise/": {
     "hachage": "586859411dd19439ad6f32e8fbc1208995ad62e4a63bbc2a50cdea7c62c6e209",
     "caracteres": 27574,
+    "vu": "2026-11-27"
+  },
+  "https://www.unenouvelleenergie.fr/securite-immigration-david-lisnard-revele-son-programme-presidentiel-au-figaro-magazine": {
+    "hachage": "decouvert",
+    "caracteres": 0,
     "vu": "2026-11-27"
   }
 }
